@@ -17,10 +17,11 @@ import os
 import json
 import sys
 import time
+import urllib.request
+import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
-import praw
 from anthropic import Anthropic
 
 from attendance import pull_attendance
@@ -70,61 +71,74 @@ def mood_label(score):
     return "Rock Bottom"
 
 # -----------------------------------------------------------------------------
-# Reddit pull
+# Reddit pull (via public JSON endpoints — no auth required)
 # -----------------------------------------------------------------------------
 MATCH_THREAD_KEYWORDS = ["game thread", "post game", "postgame", "pre game", "pregame"]
+USER_AGENT = "phanometer/0.1 (daily Phillies sentiment tracker)"
 
 def is_match_thread(title):
     t = title.lower()
     return any(kw in t for kw in MATCH_THREAD_KEYWORDS)
 
-def pull_reddit():
-    reddit = praw.Reddit(
-        client_id=os.environ["REDDIT_CLIENT_ID"],
-        client_secret=os.environ["REDDIT_CLIENT_SECRET"],
-        user_agent=os.environ.get("REDDIT_USER_AGENT", "phanometer/0.1"),
-    )
-    subreddit = reddit.subreddit(SUBREDDIT)
-    cutoff = time.time() - LOOKBACK_HOURS * 3600
+def _reddit_get(path, params=None):
+    """Hit Reddit's public .json endpoints. No auth needed for public subreddits."""
+    url = f"https://www.reddit.com{path}"
+    if params:
+        url = f"{url}?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return json.load(resp)
 
+def pull_reddit():
+    cutoff = time.time() - LOOKBACK_HOURS * 3600
     items = []
 
-    for submission in subreddit.new(limit=MAX_POSTS):
-        if submission.created_utc < cutoff:
+    # 1. Get the newest posts from the subreddit
+    listing = _reddit_get(f"/r/{SUBREDDIT}/new.json", {"limit": MAX_POSTS})
+    posts = [child["data"] for child in listing["data"]["children"]]
+
+    for post in posts:
+        if post.get("created_utc", 0) < cutoff:
             continue
 
-        match = is_match_thread(submission.title)
+        title = post["title"]
+        match = is_match_thread(title)
         items.append({
             "kind": "post",
-            "title": submission.title,
-            "body": (submission.selftext or "")[:500],
-            "score": submission.score,
-            "created_utc": submission.created_utc,
+            "title": title,
+            "body": (post.get("selftext") or "")[:500],
+            "score": post.get("score", 0),
+            "created_utc": post["created_utc"],
             "is_match_thread": match,
         })
 
-        # Expand comments (more aggressively for match threads)
+        # 2. Pull top comments for each post. Match threads get a bigger budget.
         cap = MATCH_THREAD_COMMENT_CAP if match else REGULAR_POST_COMMENT_CAP
+        post_id = post["id"]
         try:
-            submission.comments.replace_more(limit=0)
-            for comment in submission.comments.list()[:cap]:
-                if not hasattr(comment, "body"):
+            comment_data = _reddit_get(
+                f"/r/{SUBREDDIT}/comments/{post_id}.json",
+                {"limit": cap, "sort": "top"},
+            )
+            # comment_data is [post_listing, comment_listing]
+            comment_children = comment_data[1]["data"]["children"]
+            for child in comment_children[:cap]:
+                c = child.get("data", {})
+                body = (c.get("body") or "").strip()
+                if not body or body in ("[deleted]", "[removed]") or len(body) < 10:
                     continue
-                if comment.created_utc < cutoff:
-                    continue
-                # Filter out deleted/removed and very short comments
-                body = comment.body.strip()
-                if body in ("[deleted]", "[removed]") or len(body) < 10:
+                if c.get("created_utc", 0) < cutoff:
                     continue
                 items.append({
                     "kind": "comment",
-                    "parent_title": submission.title,
+                    "parent_title": title,
                     "body": body[:400],
-                    "score": comment.score,
-                    "created_utc": comment.created_utc,
+                    "score": c.get("score", 0),
+                    "created_utc": c["created_utc"],
                 })
+            time.sleep(1.0)  # Be polite — stay well under 60 req/min unauthenticated limit
         except Exception as e:
-            print(f"  ! error fetching comments for '{submission.title[:40]}': {e}")
+            print(f"  ! error fetching comments for '{title[:40]}': {e}")
 
     return items
 
