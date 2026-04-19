@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 """
-Phan-o-meter v1: Daily Phillies fan sentiment from r/phillies.
+Phan-o-meter v1: Daily Philadelphia Phillies fan sentiment.
 
 Pipeline:
   1. Pull last 24h of posts + comments from r/phillies (prioritize game threads)
-  2. Score aggregate mood with Claude across 7 dimensions
-  3. Compute reactive, baseline, and display scores
-  4. Write data/YYYY-MM-DD.json and update data/history.json
+  2. Pull recent podcast episodes from Hittin' Season, Phillies Therapy, WIP Daily
+     and transcribe with Groq Whisper
+  3. Score aggregate mood with Claude across 7 dimensions, with source-aware voice tagging
+  4. Pull Citizens Bank Park attendance as independent hard signal
+  5. Compute reactive, baseline, and display scores
+  6. Write data/YYYY-MM-DD.json and update data/history.json
 
 Usage:
-  python phanometer.py          # full run (Reddit + Claude)
-  python phanometer.py --dry    # pull Reddit only, skip Claude (for testing)
+  python phanometer.py               # full run
+  python phanometer.py --dry         # skip Claude + transcription (Reddit + attendance only)
+  python phanometer.py --no-podcasts # skip podcasts (useful if Groq rate-limited)
 """
 
 import os
@@ -25,6 +29,7 @@ from pathlib import Path
 from anthropic import Anthropic
 
 from attendance import pull_attendance
+from podcasts import pull_podcasts
 
 # Load .env into environment if present. Keeps `python3 phanometer.py` working
 # without needing `export` or `source .env` first. run.sh already handles this
@@ -157,9 +162,21 @@ def pull_reddit():
 # -----------------------------------------------------------------------------
 # Scoring with Claude
 # -----------------------------------------------------------------------------
-SCORING_PROMPT = """You are analyzing Philadelphia Phillies fan sentiment from Reddit.
+SCORING_PROMPT = """You are analyzing Philadelphia Phillies fan sentiment across multiple sources.
 
-Below are posts and comments from r/phillies from the last 24 hours. Score the aggregate fan mood across seven dimensions.
+You'll receive two kinds of content from the last 24-48 hours:
+  1. Reddit posts and comments from r/phillies (tagged [POST], [COMMENT], [MATCH THREAD])
+  2. Podcast transcripts from Phillies-focused shows (tagged [PODCAST <voice>: <show>])
+
+Each source has a distinct voice:
+  - r/phillies         = raw fan community, sarcastic, reactive, emotional
+  - fan_analyst        = analytical fan perspective (Hittin' Season / Stolnis, Klugh, Roscher)
+  - beat_writer        = professional beat writer insight (Phillies Therapy / Matt Gelb)
+  - radio_populist     = talk radio host/caller voice (WIP Daily / Joe Giglio)
+
+Weight the PODCAST sources slightly more than individual Reddit comments because hosts
+summarize and represent broader fan sentiment. But Reddit match-thread reactions are
+the most emotionally real content — weight those heavily when present.
 
 Return ONLY a valid JSON object with this exact schema. No preamble, no markdown, no code fences.
 
@@ -182,56 +199,83 @@ Return ONLY a valid JSON object with this exact schema. No preamble, no markdown
     "health_outlook":       <int 0-100>,
     "postseason_belief":    <int 0-100>
   },
+  "voice_breakdown": {
+    "reddit":           {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"},
+    "fan_analyst":      {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"},
+    "beat_writer":      {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"},
+    "radio_populist":   {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"}
+  },
   "themes": [
     {"name": "<short phrase>", "delta": <int -10 to +10>, "sample": "<one-line summary>"}
   ],
   "quotes": [
-    {"text": "<quote under 20 words>", "score": <int 0-100>, "source_hint": "<short context>"}
+    {"text": "<quote under 20 words>", "score": <int 0-100>, "source_hint": "<short context, e.g. 'Hittin' Season host' or 'r/phillies game thread'>"}
   ],
-  "reasoning": "<2-3 sentences on what's driving today's mood>"
+  "reasoning": "<2-3 sentences on what's driving today's mood. Note any divergence between the voices, e.g. 'beat writers cautious while fans outraged'.>"
 }
 
 Scoring guide:
 - 100 = maximum positive fan feeling on that dimension
 - 50  = neutral / balanced / mixed
 - 0   = maximum negative / despair
-- dimension_confidence = how much signal on that dimension did you actually see in the content? 0 = barely mentioned, 100 = heavily discussed
+- dimension_confidence = how much signal on that dimension did you actually see? 0 = barely mentioned, 100 = heavily discussed
+- voice_breakdown = one overall score per voice (null if that voice has no content today)
 - health_outlook uses HIGHER = fewer/less-severe injury concerns (inverted from intuitive "anxiety")
-- 3-5 themes capturing what fans actually discussed today
-- 3-4 representative quotes spanning the mood spectrum
+- 3-5 themes capturing what fans and shows actually discussed
+- 3-4 representative quotes spanning the mood spectrum, drawn from both Reddit and podcasts
 
 Rules:
 - Do NOT score individual players (no "Harper: 80", "Bohm: 20"). Focus on dimensions and themes.
-- Ignore off-topic content (Eagles, Sixers, random memes, unrelated posts)
+- Ignore off-topic content (Eagles, Sixers, random memes, unrelated posts, ads in podcasts)
 - Be honest: if the mood is bad, reflect it; don't manufacture optimism
+- Podcast ads and sponsor reads should be ignored — they are NOT sentiment signal
 
 Content to analyze:
 """
 
-def format_content_for_scoring(items):
-    # Sort: match threads first, then by upvote score, most-engaged first
-    items_sorted = sorted(
-        items,
-        key=lambda x: (not x.get("is_match_thread", False), -x.get("score", 0)),
-    )
+def format_content_for_scoring(reddit_items, podcast_transcripts):
+    """Format both Reddit items and podcast transcripts into a single prompt body."""
     lines = []
-    for item in items_sorted:
-        if item["kind"] == "post":
-            prefix = "[MATCH THREAD POST]" if item.get("is_match_thread") else "[POST]"
-            body = f': {item["body"]}' if item["body"] else ""
-            lines.append(f'{prefix} ({item["score"]}⬆) "{item["title"]}"{body}')
-        else:
-            lines.append(f'[COMMENT on "{item["parent_title"][:60]}"] ({item["score"]}⬆): {item["body"]}')
+
+    # Section 1: Podcast transcripts first (they're the "expert digest" layer)
+    for pod in podcast_transcripts:
+        if not pod.get("transcript"):
+            continue
+        header = (
+            f'\n=== [PODCAST {pod["voice"]}: {pod["feed_name"]}] '
+            f'"{pod["title"]}" ({pod.get("transcript_chars", 0):,} chars) ===\n'
+        )
+        lines.append(header)
+        lines.append(pod["transcript"])
+        lines.append("\n=== END PODCAST ===\n")
+
+    # Section 2: Reddit posts + comments, sorted match-threads first then by upvotes
+    if reddit_items:
+        lines.append("\n=== REDDIT (r/phillies) ===\n")
+        items_sorted = sorted(
+            reddit_items,
+            key=lambda x: (not x.get("is_match_thread", False), -x.get("score", 0)),
+        )
+        for item in items_sorted:
+            if item["kind"] == "post":
+                prefix = "[MATCH THREAD POST]" if item.get("is_match_thread") else "[POST]"
+                body = f': {item["body"]}' if item["body"] else ""
+                lines.append(f'{prefix} ({item["score"]}⬆) "{item["title"]}"{body}')
+            else:
+                lines.append(
+                    f'[COMMENT on "{item["parent_title"][:60]}"] ({item["score"]}⬆): {item["body"]}'
+                )
+
     return "\n".join(lines)
 
-def score_with_claude(items):
+def score_with_claude(reddit_items, podcast_transcripts):
     client = Anthropic()
-    content = format_content_for_scoring(items)
+    content = format_content_for_scoring(reddit_items, podcast_transcripts)
     prompt = SCORING_PROMPT + content
 
     message = client.messages.create(
         model=MODEL,
-        max_tokens=2048,
+        max_tokens=4096,  # generous headroom for voice_breakdown + themes + quotes + reasoning
         messages=[{"role": "user", "content": prompt}],
     )
     raw = message.content[0].text.strip()
@@ -243,7 +287,20 @@ def score_with_claude(items):
         if raw.rstrip().endswith("```"):
             raw = raw.rsplit("```", 1)[0]
 
-    return json.loads(raw.strip())
+    raw = raw.strip()
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as e:
+        # Save the raw response for post-mortem debugging
+        debug_path = DATA_DIR / "last_failed_response.txt"
+        DATA_DIR.mkdir(exist_ok=True)
+        debug_path.write_text(raw)
+        print(f"\n  ! Claude response failed to parse as JSON: {e}")
+        print(f"  Raw response saved to {debug_path} ({len(raw):,} chars)")
+        print(f"  First 500 chars: {raw[:500]}")
+        print(f"  Last 500 chars: {raw[-500:]}")
+        print(f"  Stop reason: {message.stop_reason}")
+        raise
 
 # -----------------------------------------------------------------------------
 # Composite scoring
@@ -283,10 +340,16 @@ def compute_display_score(reactive, baseline, volume):
 # -----------------------------------------------------------------------------
 def main():
     dry_run = "--dry" in sys.argv
+    skip_podcasts = "--no-podcasts" in sys.argv
     DATA_DIR.mkdir(exist_ok=True)
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    print(f"[{today}] Phan-o-meter daily run{' (DRY)' if dry_run else ''}")
+    tag = ""
+    if dry_run:
+        tag = " (DRY)"
+    elif skip_podcasts:
+        tag = " (no podcasts)"
+    print(f"[{today}] Phan-o-meter daily run{tag}")
 
     # 1. Pull Reddit
     print(f"Pulling r/{SUBREDDIT}...")
@@ -296,20 +359,34 @@ def main():
     n_match = sum(1 for i in items if i.get("is_match_thread"))
     print(f"  {len(items)} items: {n_posts} posts ({n_match} match threads), {n_comments} comments")
 
+    # 2. Pull podcasts (unless dry-run or explicitly skipped)
+    podcasts = []
+    if not dry_run and not skip_podcasts:
+        try:
+            podcasts = pull_podcasts()
+        except Exception as e:
+            print(f"  ! podcast pull crashed: {e}")
+            podcasts = []
+
+    successful_podcasts = [p for p in podcasts if p.get("transcript")]
+    total_podcast_chars = sum(p.get("transcript_chars", 0) for p in successful_podcasts)
+
     if dry_run:
-        print("\nDry run — skipping Claude. First 3 items:")
+        print("\nDry run — skipping Claude + podcasts. First 3 Reddit items:")
         for item in items[:3]:
             print(f"  - {item}")
         return
 
-    if len(items) < 5:
-        print("  ! Very low volume — results may be unreliable")
+    if len(items) < 5 and not successful_podcasts:
+        print("  ! Very low content volume — results may be unreliable")
 
-    # 2. Score with Claude
+    # 3. Score with Claude (Reddit + podcasts together)
     print(f"Scoring with {MODEL}...")
-    result = score_with_claude(items)
+    print(f"  Input: {len(items)} Reddit items + {len(successful_podcasts)} podcast(s), "
+          f"{total_podcast_chars:,} podcast chars")
+    result = score_with_claude(items, successful_podcasts)
 
-    # 3. Load history and compute composite
+    # 4. Load history and compute composite
     history_path = DATA_DIR / "history.json"
     history = json.loads(history_path.read_text()) if history_path.exists() else []
     # Exclude today from history if re-running same day (idempotency)
@@ -319,9 +396,11 @@ def main():
     confidence = result["dimension_confidence"]
     reactive = compute_reactive_score(dimensions, confidence)
     baseline = compute_baseline(history)
-    display = compute_display_score(reactive, baseline, len(items))
+    # Volume for blending includes podcasts — each successful podcast counts as ~10 reddit items
+    volume = len(items) + len(successful_podcasts) * 10
+    display = compute_display_score(reactive, baseline, volume)
 
-    # 4. Pull attendance (independent hard signal, not a scoring dimension)
+    # 5. Pull attendance (independent hard signal, not a scoring dimension)
     print("Pulling attendance from MLB Stats API...")
     try:
         attendance_signal = pull_attendance()
@@ -337,7 +416,7 @@ def main():
         print(f"  ! attendance pull failed: {e}")
         attendance_signal = {"status": "error", "error": str(e)}
 
-    # 5. Write today's record
+    # 6. Write today's record
     record = {
         "date": today,
         "display_score": display,
@@ -346,6 +425,7 @@ def main():
         "mood_label": mood_label(display),
         "dimensions": dimensions,
         "dimension_confidence": confidence,
+        "voice_breakdown": result.get("voice_breakdown", {}),
         "themes": result.get("themes", []),
         "quotes": result.get("quotes", []),
         "reasoning": result.get("reasoning", ""),
@@ -353,7 +433,19 @@ def main():
             "reddit_posts": n_posts,
             "reddit_comments": n_comments,
             "match_threads": n_match,
+            "podcasts_attempted": len(podcasts),
+            "podcasts_transcribed": len(successful_podcasts),
+            "podcast_chars": total_podcast_chars,
         },
+        "podcasts_used": [
+            {
+                "feed_name": p["feed_name"],
+                "title": p["title"],
+                "voice": p["voice"],
+                "chars": p.get("transcript_chars", 0),
+            }
+            for p in successful_podcasts
+        ],
         "hard_signals": {
             "attendance": attendance_signal,
         },
@@ -370,6 +462,14 @@ def main():
     print(f"  Reactive: {reactive}  |  Baseline: {baseline}")
     themes = ", ".join(t.get("name", "?") for t in result.get("themes", []))
     print(f"  Themes: {themes}")
+    voice_breakdown = result.get("voice_breakdown", {})
+    if voice_breakdown:
+        voice_summary = []
+        for v, data in voice_breakdown.items():
+            if data and data.get("score") is not None:
+                voice_summary.append(f"{v}:{data['score']}")
+        if voice_summary:
+            print(f"  Voices: {' | '.join(voice_summary)}")
     if attendance_signal.get("status") == "ok":
         canary = " 🚨" if attendance_signal.get("canary_signal") else ""
         print(

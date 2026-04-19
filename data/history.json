@@ -1,94 +1,110 @@
 [
   {
     "date": "2026-04-19",
-    "display_score": 22,
-    "reactive_score": 22,
+    "display_score": 30,
+    "reactive_score": 30,
     "baseline_score": null,
-    "mood_label": "Boo-Bird",
+    "mood_label": "Restless",
     "dimensions": {
-      "results_satisfaction": 12,
-      "front_office_trust": 22,
-      "manager_confidence": 20,
+      "results_satisfaction": 18,
+      "front_office_trust": 28,
+      "manager_confidence": 30,
       "lineup_confidence": 15,
-      "pitching_confidence": 38,
-      "health_outlook": 38,
-      "postseason_belief": 28
+      "pitching_confidence": 62,
+      "health_outlook": 45,
+      "postseason_belief": 32
     },
     "dimension_confidence": {
-      "results_satisfaction": 98,
-      "front_office_trust": 72,
+      "results_satisfaction": 95,
+      "front_office_trust": 70,
       "manager_confidence": 65,
       "lineup_confidence": 92,
-      "pitching_confidence": 80,
-      "health_outlook": 55,
-      "postseason_belief": 60
+      "pitching_confidence": 78,
+      "health_outlook": 50,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": 22,
+        "note": "Deeply frustrated \u2014 3-8 stretch, historic bad run differential, offense anemic; minor joy from Reyes debut and Sanchez praise"
+      },
+      "fan_analyst": {
+        "score": 60,
+        "note": "Sanchez piece is analytically celebratory; FIP vs ERA data suggests regression hope, but no podcast content present to fully score"
+      },
+      "beat_writer": null,
+      "radio_populist": null
     },
     "themes": [
       {
-        "name": "Historically bad run differential",
+        "name": "Offensive collapse",
         "delta": -9,
-        "sample": "Fans repeatedly citing worst NL run differential and being outscored 30-6 in three games as evidence the team is a disaster"
-      },
-      {
-        "name": "Offense is the core crisis",
-        "delta": -9,
-        "sample": "Broad consensus that the lineup is the real problem, not just Walker or any single pitcher"
-      },
-      {
-        "name": "Sanchez and bright pitching spots",
-        "delta": 5,
-        "sample": "Cristopher Sanchez praised for quality starts while Walker and Luzardo absorb heavy criticism"
+        "sample": "3-8 in 11 games, outscored 30-6 in last three, worst run differential in MLB, one run in two games came from a first-career AAA callup"
       },
       {
         "name": "Felix Reyes debut spark",
-        "delta": 6,
-        "sample": "First-career homer off Chris Sale generated the only genuine hype moment fans described all night"
+        "delta": 5,
+        "sample": "First-career HR off Chris Sale was the lone electric moment of the week, briefly lifting game thread mood"
       },
       {
-        "name": "Front office and coaching credibility collapsing",
-        "delta": -8,
-        "sample": "Fans mocking Dombrowski for hyping Kemp all offseason then optioning him after three weeks, and calling for Thomson's firing"
+        "name": "Front office / roster construction criticism",
+        "delta": -7,
+        "sample": "Fans angry the team 'ran it back' with no veteran platoon OF, Dombrowski mocked for praising Kemp who was optioned after 3 weeks"
+      },
+      {
+        "name": "Cristopher Sanchez as a genuine ace",
+        "delta": 7,
+        "sample": "Multiple posts praise the Sanchez contract as a front-office win; his quality starts are not translating to wins due to offensive failure"
+      },
+      {
+        "name": "Manager and coaching staff confidence eroding",
+        "delta": -6,
+        "sample": "Calls to fire Thomson growing, hitting coach blamed, lineup decisions (Stott usage, Sosa errors) fueling frustration"
       }
     ],
     "quotes": [
       {
+        "text": "3-8 in last 11 games. Outscore 30-6 in last three. Something dramatic has to be done.",
+        "score": 12,
+        "source_hint": "r/phillies top post"
+      },
+      {
+        "text": "Our only run from the last 2 games came from a guy's first MLB at bat. There are glaring issues.",
+        "score": 10,
+        "source_hint": "r/phillies post-game thread"
+      },
+      {
         "text": "Phillies management: Nah, let's run it back.",
         "score": 8,
-        "source_hint": "Top-upvoted comment on losing-streak post"
+        "source_hint": "r/phillies comment on losing streak post"
       },
       {
-        "text": "I hate to say it, but this team needs a rebuild.",
-        "score": 5,
-        "source_hint": "Comment on worst NL run differential post"
-      },
-      {
-        "text": "Don't let Kevin Long get anywhere near him.",
-        "score": 20,
-        "source_hint": "Reaction to Reyes debut homer, fear of hitting coach ruining him"
-      },
-      {
-        "text": "Sanchez has pitched his ass off and should by no means lose this game.",
-        "score": 55,
-        "source_hint": "Game thread comment mid-late innings"
+        "text": "The fact that we got Sanchez on this insane deal and he's been one of the best pitchers is completely understated.",
+        "score": 82,
+        "source_hint": "r/phillies comment on Adler Sanchez article"
       }
     ],
-    "reasoning": "Fan mood is at a near-crisis level driven by a historically poor run differential, an offense that ranks among the worst in baseball, and a deep skepticism that management or coaching will make meaningful changes. The lone bright spots \u2014 Cristopher Sanchez's continued quality pitching and Felix Reyes's storybook debut homer \u2014 generated genuine excitement but were quickly swallowed by the broader despair. Front office and managerial trust has eroded sharply, with fans questioning roster construction decisions and lineup choices made by Thomson, while Duran's IL stint registers mostly as dark comedy given the team rarely holds a lead to protect.",
+    "reasoning": "Fan mood is at a season low, driven by a historically bad offensive stretch \u2014 worst run differential in MLB, 4 home series losses in 5, and a 3-1 loss where the only run came from a first-career callup. Reddit match threads are raw with despair and growing calls to fire the manager and hitting coach. The single significant counterweight is Cristopher Sanchez, who draws genuine praise analytically and emotionally, with fans framing his contract as a rare front-office win. No podcast voices were present in this data set, so all signal is Reddit-sourced; beat writer and radio voices would likely soften the doom slightly but the Reddit weight here is dominant and unambiguous.",
     "source_counts": {
       "reddit_posts": 21,
-      "reddit_comments": 167,
-      "match_threads": 1
+      "reddit_comments": 174,
+      "match_threads": 1,
+      "podcasts_attempted": 0,
+      "podcasts_transcribed": 0,
+      "podcast_chars": 0
     },
+    "podcasts_used": [],
     "hard_signals": {
       "attendance": {
         "status": "ok",
         "capacity": 42901,
         "recent_window_days": 14,
         "baseline_source": "2025 same-calendar-window",
-        "recent_games_count": 7,
-        "recent_avg_pct": 93.5,
+        "recent_games_count": 8,
+        "recent_avg_pct": 94.4,
         "baseline_games_count": 31,
         "baseline_avg_pct": 96.0,
-        "delta_pct": -2.6,
+        "delta_pct": -1.6,
         "canary_signal": false,
         "recent_games": [
           {
@@ -160,10 +176,20 @@
             "attendance": 43048,
             "pct_capacity": 100.3,
             "day_night": "night"
+          },
+          {
+            "game_pk": 823474,
+            "date": "2026-04-18",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "L 1-3",
+            "attendance": 43423,
+            "pct_capacity": 101.2,
+            "day_night": "night"
           }
         ]
       }
     },
-    "generated_at": "2026-04-19T01:26:38.788852+00:00"
+    "generated_at": "2026-04-19T03:35:47.228792+00:00"
   }
 ]
