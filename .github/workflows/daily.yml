@@ -38,11 +38,15 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      # --no-reddit: Reddit 403s cloud provider IPs on its public JSON endpoints,
+      # so we skip Reddit entirely from Actions. Re-enable by dropping the flag
+      # once the nightly job runs from somewhere Reddit doesn't block
+      # (self-hosted runner, VPS, home server). See README § Status.
       - name: Run phanometer.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python phanometer.py
+        run: python phanometer.py --no-reddit
 
       - name: Commit and push data updates
         run: |

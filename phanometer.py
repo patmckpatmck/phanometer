@@ -14,7 +14,8 @@ Pipeline:
 Usage:
   python phanometer.py               # full run
   python phanometer.py --dry         # skip Claude + transcription (Reddit + attendance only)
-  python phanometer.py --no-podcasts # skip podcasts (useful if Groq rate-limited)
+  python phanometer.py --no-podcasts # skip podcasts (useful if rate-limited)
+  python phanometer.py --no-reddit   # skip Reddit (use from cloud IPs where Reddit 403s)
 """
 
 import os
@@ -367,23 +368,33 @@ def compute_display_score(reactive, baseline, volume):
 def main():
     dry_run = "--dry" in sys.argv
     skip_podcasts = "--no-podcasts" in sys.argv
+    skip_reddit = "--no-reddit" in sys.argv
     DATA_DIR.mkdir(exist_ok=True)
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    tag = ""
+    tags = []
     if dry_run:
-        tag = " (DRY)"
-    elif skip_podcasts:
-        tag = " (no podcasts)"
+        tags.append("DRY")
+    if skip_reddit:
+        tags.append("no reddit")
+    if skip_podcasts:
+        tags.append("no podcasts")
+    tag = f" ({', '.join(tags)})" if tags else ""
     print(f"[{today}] Phan-o-meter daily run{tag}")
 
-    # 1. Pull Reddit
-    print(f"Pulling r/{SUBREDDIT}...")
-    items = pull_reddit()
-    n_posts = sum(1 for i in items if i["kind"] == "post")
-    n_comments = sum(1 for i in items if i["kind"] == "comment")
-    n_match = sum(1 for i in items if i.get("is_match_thread"))
-    print(f"  {len(items)} items: {n_posts} posts ({n_match} match threads), {n_comments} comments")
+    # 1. Pull Reddit (unless explicitly skipped — e.g. from GitHub Actions,
+    # where Reddit 403s cloud provider IPs on its public JSON endpoints).
+    if skip_reddit:
+        print(f"Skipping r/{SUBREDDIT} (--no-reddit).")
+        items = []
+        n_posts = n_comments = n_match = 0
+    else:
+        print(f"Pulling r/{SUBREDDIT}...")
+        items = pull_reddit()
+        n_posts = sum(1 for i in items if i["kind"] == "post")
+        n_comments = sum(1 for i in items if i["kind"] == "comment")
+        n_match = sum(1 for i in items if i.get("is_match_thread"))
+        print(f"  {len(items)} items: {n_posts} posts ({n_match} match threads), {n_comments} comments")
 
     # 2. Pull podcasts (unless dry-run or explicitly skipped)
     podcasts = []
@@ -403,6 +414,9 @@ def main():
             print(f"  - {item}")
         return
 
+    if not items and not successful_podcasts:
+        print("  ! No Reddit items and no successful podcasts — nothing to score. Aborting.")
+        sys.exit(2)
     if len(items) < 5 and not successful_podcasts:
         print("  ! Very low content volume — results may be unreliable")
 
