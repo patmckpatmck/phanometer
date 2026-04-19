@@ -1,0 +1,60 @@
+name: Daily Phan-o-meter
+
+on:
+  schedule:
+    # 10:00 UTC = 06:00 ET (standard) / 05:00 ET (daylight).
+    # Runs after most late-night posting is in; before morning readers wake up.
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# A manual trigger while a scheduled run is still going would otherwise race on
+# the data/ commit. Queue rather than drop.
+concurrency:
+  group: daily-phanometer
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      # podcasts.py shells out to ffmpeg to compress audio under the Whisper 25 MB limit.
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run phanometer.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python phanometer.py
+
+      - name: Commit and push data updates
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Daily Phan-o-meter update $(date -u +%Y-%m-%d)"
+          git push
