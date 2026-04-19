@@ -1,0 +1,40 @@
+{
+  "dimensions": {
+    "results_satisfaction": 18,
+    "front_office_trust": 30,
+    "manager_confidence": 32,
+    "lineup_confidence": 22,
+    "pitching_confidence": 48,
+    "health_outlook": 38,
+    "postseason_belief": 40
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 72,
+    "manager_confidence": 68,
+    "lineup_confidence": 92,
+    "pitching_confidence": 80,
+    "health_outlook": 65,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {"score": 16, "note": "Raw despair after 3-1 loss to Braves — offense historically bad, Bohm roasted, Duran IL, only joy is Felix Reyes debut HR"},
+    "fan_analyst": {"score": 38, "note": "Hittin' Season acknowledges sloppy start but finds analytical hope in peripheral stats for Luzardo and Garcia; Bohm and Thompson questioned but not condemned"},
+    "beat_writer": {"score": 30, "note": "Phillies Therapy frames a 7-8 start as genuinely concerning — Bohm is the top worry, middle-of-lineup OPS 29th in MLB, Aiden Miller injury murky and growing scarier"},
+    "radio_populist": {"score": null, "note": null}
+  },
+  "themes": [
+    {"name": "Lineup black hole at 4-6 spots", "delta": -8, "sample": "Phillies 4-6 hitters posting 557 OPS, 29th in MLB; fans and beat writer alike identify middle-of-order collapse as the defining problem"},
+    {"name": "Bohm at rock bottom", "delta": -7, "sample": "Hitting .145 with personal legal turmoil; beat writer losing patience, Reddit calling for Sosa, podcasters see bittersweet ending coming"},
+    {"name": "Felix Reyes debut HR — one bright spark", "delta": +5, "sample": "AAA call-up homers off Chris Sale on first career pitch, only Phillies run in two games; Reddit briefly euphoric before reality crashes back"},
+    {"name": "Rob Thompson and team culture questioned", "delta": -5, "sample": "Hittin' Season contrasts Braves' loose Walt Weiss energy with Phillies' joyless, buttoned-up vibe; Reddit thread accuses Thompson of losing the clubhouse"},
+    {"name": "Pitching FIP vs ERA gap offers muted hope", "delta": +3, "sample": "Reddit FIP post notes Phillies as clear outliers — pitching better than results suggest, with Luzardo and Sanchez peripheral stats encouraging despite ugly ERAs"}
+  ],
+  "quotes": [
+    {"text": "If they were playing hard and losing close games, I wouldn't be worried. It's the fact that basically everyone but Bryce looks completely indifferent that pissed me off.", "score": 12, "source_hint": "r/phillies game thread"},
+    {"text": "Our only run from the last 2 games came from a guys first MLB at bat. There are glaring issues with our offense", "score": 14, "source_hint": "r/phillies post-game thread"},
+    {"text": "right now if you have batted fourth fifth or sixth in the phillies lineup you have combined to post a 557 ops this season... only Toronto has a lower OPS from spots 4 through 6", "score": 22, "source_hint": "Phillies Therapy beat writer"},
+    {"text": "the hints are there that a better Phillies team is possible", "score": 58, "source_hint": "Hittin' Season fan analyst host"}
+  ],
+  "reasoning": "Fan sentiment is near its seasonal low following a 3-1 loss to the division-leading Braves, extending a 3-8 skid with a run differential of -30 over that stretch. Reddit is loudly despairing — the offense is historically broken in the middle of the order, Bohm is a lightning rod, and the Duran IL stint lands with dark comedy since there are no leads to protect. The beat writer voice (Phillies Therapy) is unusually candid in its frustration, especially on Bohm and the murky Aiden Miller injury, while the fan analyst voice (Hittin' Season) is more measured, leaning on peripheral stats to argue Luzardo and Garcia are closer to correction than the numbers suggest. The one genuine bright spot — Felix Reyes homering off Chris Sale on his first career pitch — provided a brief Reddit jolt that dissipated as the loss was finalized, underscoring the season's pattern of fleeting positivity followed by structural disappointment."
+}

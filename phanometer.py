@@ -206,7 +206,7 @@ Return ONLY a valid JSON object with this exact schema. No preamble, no markdown
     "radio_populist":   {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"}
   },
   "themes": [
-    {"name": "<short phrase>", "delta": <int -10 to +10>, "sample": "<one-line summary>"}
+    {"name": "<short phrase>", "delta": <int -10 to 10, no leading + on positives>, "sample": "<one-line summary>"}
   ],
   "quotes": [
     {"text": "<quote under 20 words>", "score": <int 0-100>, "source_hint": "<short context, e.g. 'Hittin' Season host' or 'r/phillies game thread'>"}
@@ -229,6 +229,8 @@ Rules:
 - Ignore off-topic content (Eagles, Sixers, random memes, unrelated posts, ads in podcasts)
 - Be honest: if the mood is bad, reflect it; don't manufacture optimism
 - Podcast ads and sponsor reads should be ignored — they are NOT sentiment signal
+- CRITICAL: For voice_breakdown, only score voices that have content in the input below. If a voice is absent from the input (no [PODCAST fan_analyst:...] tag appears, for example), return null for that voice, NOT an inferred score. Never hallucinate a voice's sentiment from context.
+- CRITICAL: For quotes, only include text that appears verbatim in the input below. Do not invent or paraphrase quotes.
 
 Content to analyze:
 """
@@ -236,6 +238,23 @@ Content to analyze:
 def format_content_for_scoring(reddit_items, podcast_transcripts):
     """Format both Reddit items and podcast transcripts into a single prompt body."""
     lines = []
+
+    # Declare which voices are actually in this payload, to prevent Claude from
+    # inferring scores for voices that weren't passed.
+    voices_present = set()
+    if reddit_items:
+        voices_present.add("reddit")
+    for pod in podcast_transcripts:
+        if pod.get("transcript"):
+            voices_present.add(pod.get("voice", "unknown"))
+
+    voices_sorted = sorted(voices_present)
+    lines.append(
+        "\n=== VOICES PRESENT IN THIS INPUT ===\n"
+        f"The following voices have content below: {', '.join(voices_sorted)}.\n"
+        "ALL OTHER VOICES must receive null in voice_breakdown.\n"
+        "=== END VOICES DECLARATION ===\n"
+    )
 
     # Section 1: Podcast transcripts first (they're the "expert digest" layer)
     for pod in podcast_transcripts:
@@ -288,6 +307,13 @@ def score_with_claude(reddit_items, podcast_transcripts):
             raw = raw.rsplit("```", 1)[0]
 
     raw = raw.strip()
+
+    # Defensive cleanup: Claude sometimes emits +5 for positive deltas, which is
+    # invalid JSON. Strip leading + on numeric values.
+    # Matches: `: +5,` or `: +5 ` or `: +5}` or `: +5\n`
+    import re
+    raw = re.sub(r':\s*\+(\d)', r': \1', raw)
+
     try:
         return json.loads(raw)
     except json.JSONDecodeError as e:
