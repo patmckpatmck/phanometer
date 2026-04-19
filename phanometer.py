@@ -26,6 +26,18 @@ from anthropic import Anthropic
 
 from attendance import pull_attendance
 
+# Load .env into environment if present. Keeps `python3 phanometer.py` working
+# without needing `export` or `source .env` first. run.sh already handles this
+# separately, so this is just belt-and-suspenders for direct invocation.
+_env_path = Path(__file__).parent / ".env"
+if _env_path.exists():
+    for _line in _env_path.read_text().splitlines():
+        _line = _line.strip()
+        if not _line or _line.startswith("#") or "=" not in _line:
+            continue
+        _k, _v = _line.split("=", 1)
+        os.environ.setdefault(_k.strip(), _v.strip().strip('"').strip("'"))
+
 # -----------------------------------------------------------------------------
 # Config
 # -----------------------------------------------------------------------------
