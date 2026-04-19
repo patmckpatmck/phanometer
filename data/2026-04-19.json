@@ -1,39 +1,39 @@
 {
   "date": "2026-04-19",
-  "display_score": 36,
-  "reactive_score": 36,
+  "display_score": 40,
+  "reactive_score": 40,
   "baseline_score": null,
-  "mood_label": "Restless",
+  "mood_label": "Uneasy",
   "dimensions": {
-    "results_satisfaction": 22,
-    "front_office_trust": 35,
-    "manager_confidence": 38,
+    "results_satisfaction": 32,
+    "front_office_trust": 40,
+    "manager_confidence": 48,
     "lineup_confidence": 28,
     "pitching_confidence": 62,
-    "health_outlook": 35,
-    "postseason_belief": 40
+    "health_outlook": 38,
+    "postseason_belief": 45
   },
   "dimension_confidence": {
-    "results_satisfaction": 90,
-    "front_office_trust": 55,
-    "manager_confidence": 60,
-    "lineup_confidence": 88,
-    "pitching_confidence": 75,
-    "health_outlook": 65,
-    "postseason_belief": 45
+    "results_satisfaction": 85,
+    "front_office_trust": 45,
+    "manager_confidence": 35,
+    "lineup_confidence": 90,
+    "pitching_confidence": 70,
+    "health_outlook": 60,
+    "postseason_belief": 40
   },
   "voice_breakdown": {
     "reddit": {
-      "score": 25,
-      "note": "Deeply frustrated with anemic offense and home losses; brief Felix Reyes joy extinguished fast; Bohm, Kevin Long, and Thompson all taking heat"
+      "score": null,
+      "note": null
     },
     "fan_analyst": {
       "score": null,
       "note": null
     },
     "beat_writer": {
-      "score": 38,
-      "note": "Matt Gelb and Paul methodically catalog real concerns \u2014 lineup depth, Bohm, Aidan Miller's mystery injury \u2014 while acknowledging it's only 15 games and pitching has been a genuine bright spot"
+      "score": 35,
+      "note": "Gelb and co-host run a concern-o-meter on a 7-8 team, flagging lineup depth, Bohm, left field platoon, and Aiden Miller's murky injury status as real worries while finding silver linings in pitching and Harper."
     },
     "radio_populist": {
       "score": null,
@@ -42,68 +42,68 @@
   },
   "themes": [
     {
-      "name": "Historically bad middle-of-order production",
+      "name": "Middle-order offensive void",
       "delta": -8,
-      "sample": "Spots 4-6 posting 557 OPS, 29th of 30 teams; no credible cleanup hitter behind Harper, Turner, Schwarber"
+      "sample": "Spots 4-6 in the lineup posting a 557 OPS, 29th in MLB, with no clear right-handed run producer emerging after 15 games."
     },
     {
-      "name": "Aidan Miller injury shrouded in mystery",
-      "delta": -6,
-      "sample": "Dombrowksi invoking HIPAA, beat writer writing he's 'weeks if not months away'; David Wright scar tissue invoked on podcast"
-    },
-    {
-      "name": "Pitching staff a genuine bright spot",
-      "delta": 6,
-      "sample": "152 strikeouts vs. 34 walks as a staff; Painter and Crawford exceeding expectations; bullpen (minus Alvarado) holding up"
-    },
-    {
-      "name": "Felix Reyes first-at-bat homer a rare moment of joy",
-      "delta": 4,
-      "sample": "AAA callup homers off Chris Sale in his first career at-bat, briefly electrifying a dormant fanbase before offense went quiet again"
-    },
-    {
-      "name": "Bohm patience evaporating fast",
+      "name": "Bohm patience wearing thin",
       "delta": -7,
-      "sample": "Podcast hosts note he hasn't pulled a single ball in the air; Reddit calling for Sosa reps; fans acknowledge personal sympathy but demand results"
+      "sample": "Despite objectively worse numbers last April, hosts feel less patience this year; Bohm has yet to pull a single ball in the air and exit velo is down a full 3 mph."
+    },
+    {
+      "name": "Aiden Miller injury opacity",
+      "delta": -6,
+      "sample": "Back issue shrouded in HIPAA deflections from Dombrowski; beat writer projects at least 6 weeks minimum and a very deliberate ramp-up even under best-case scenario."
+    },
+    {
+      "name": "Pitching and young arms a genuine bright spot",
+      "delta": 6,
+      "sample": "Painter and Crawford both impressive in MLB debuts, bullpen striking out batters at a high clip, and staff walk rate is excellent \u2014 a credible reason for optimism."
+    },
+    {
+      "name": "Left field platoon feels like a missed offseason opportunity",
+      "delta": -5,
+      "sample": "Otto Kemp striking out in half his plate appearances and a defensive liability; hosts wish the front office had targeted a stronger right-handed platoon option."
     }
   ],
   "quotes": [
     {
-      "text": "Our only run from the last 2 games came from a guys first MLB at bat. There are glaring issues with our offense",
+      "text": "These last two weeks of Alec Boehm are not major league caliber.",
       "score": 15,
-      "source_hint": "r/phillies game thread"
+      "source_hint": "Phillies Therapy co-host (beat_writer show)"
     },
     {
-      "text": "Not even the rookie called up for his first MLB start blasting a homer in his first career at bat could ignite anything. This offense is so done for it's crazy.",
-      "score": 10,
-      "source_hint": "r/phillies game thread"
+      "text": "Seven out of fifteen games have been one-run games. Half their games already this year have been one-run games.",
+      "score": 28,
+      "source_hint": "Matt Gelb, Phillies Therapy"
     },
     {
-      "text": "I don't have it. I don't have it. And he continues to be the whipping boy, like you said, now I find myself joining that chorus and I don't like being in that position.",
-      "score": 22,
-      "source_hint": "Phillies Therapy host (Paul) on Bohm"
+      "text": "Andrew Painter is the lowest walk rate among all their starters. He looks like a massive win.",
+      "score": 80,
+      "source_hint": "Phillies Therapy co-host (beat_writer show)"
     },
     {
-      "text": "That Sosa play was a microcosm for our season so far",
-      "score": 18,
-      "source_hint": "r/phillies game thread"
+      "text": "I want to be proven wrong. I want to have opinions that look stupid if they're in the negative later on.",
+      "score": 42,
+      "source_hint": "Phillies Therapy co-host, on Bohm frustration"
     }
   ],
-  "reasoning": "Sentiment is broadly negative and shading toward alarm, driven by a 3-1 loss to the Braves that left the team's only run coming from a debut callup's homer \u2014 a moment fans briefly celebrated before the offense went mute again. The Phillies Therapy podcast frames the mood carefully (it's early, the pitching is real, Painter and Crawford are exciting), but even the beat-writer voice is running out of patience on Bohm and is openly concerned about the Aidan Miller injury situation, which Gelb confirms is more serious than publicly acknowledged. Reddit match-thread sentiment is more raw: offense described as 'done for,' manager Thompson taking shots for lineup choices, and Kevin Long called out repeatedly \u2014 a coaching-accountability thread that is gaining traction the podcast does not yet fully mirror.",
+  "reasoning": "The sole voice present is the beat_writer (Phillies Therapy), and the mood is one of honest, measured frustration at the 7-8 start rather than full despair. The dominant sentiment drivers are a historically poor middle-of-the-lineup OPS, mounting exasperation with Bohm despite awareness it may be premature, and growing unease around the Aiden Miller injury situation after Dombrowski invoked HIPAA. The pitching staff \u2014 especially Painter, Crawford, and the bullpen \u2014 provides a genuine counterweight that prevents the tone from collapsing into alarm. No Reddit or other podcast voices are present to confirm or contradict these signals, so all dimension confidence scores reflect single-source signal only.",
   "source_counts": {
-    "reddit_posts": 20,
-    "reddit_comments": 173,
-    "match_threads": 1,
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
     "podcasts_attempted": 1,
     "podcasts_transcribed": 1,
-    "podcast_chars": 61745
+    "podcast_chars": 63165
   },
   "podcasts_used": [
     {
       "feed_name": "Phillies Therapy",
       "title": "Frustration Station",
       "voice": "beat_writer",
-      "chars": 61745
+      "chars": 63165
     }
   ],
   "hard_signals": {
@@ -202,5 +202,5 @@
       ]
     }
   },
-  "generated_at": "2026-04-19T12:59:59.267275+00:00"
+  "generated_at": "2026-04-19T22:36:54.682448+00:00"
 }
