@@ -104,9 +104,14 @@ function buildTicks(): Tick[] {
   const cy = ARC_CY;
   const r = ARC_R;
 
+  // Round to 2 decimals: viewBox is 1000 units, so 0.01 is sub-pixel even on
+  // 4K displays, and the rounding eliminates server/client FP drift at the
+  // 15th digit that otherwise trips React hydration on these 101 ticks.
+  const round2 = (n: number): number => Math.round(n * 100) / 100;
+
   const pt = (a: number, radius: number): [number, number] => {
     const rad = (a * Math.PI) / 180;
-    return [cx + radius * Math.sin(rad), cy + radius * Math.cos(rad)];
+    return [round2(cx + radius * Math.sin(rad)), round2(cy + radius * Math.cos(rad))];
   };
 
   const ticks: Tick[] = [];
