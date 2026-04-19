@@ -3,7 +3,7 @@
 Phan-o-meter podcast module.
 
 Pulls recent episodes from curated Phillies podcasts, downloads the audio,
-and transcribes with Groq Whisper Large v3 Turbo.
+and transcribes with OpenAI Whisper.
 
 Returns a list of transcript items shaped to slot into the same content
 stream that Reddit posts feed into, so the scoring prompt sees everything
@@ -81,10 +81,23 @@ PODCAST_FEEDS = [
 
 DEFAULT_LOOKBACK_HOURS = 24  # fallback if a feed doesn't specify
 USER_AGENT = "phanometer/0.1 (daily Phillies sentiment tracker)"
-GROQ_API_URL = "https://api.groq.com/openai/v1/audio/transcriptions"
-GROQ_MODEL = "whisper-large-v3-turbo"
+
+# Transcription provider. Currently: OpenAI Whisper (paid, reliable rate limits).
+# Previously: Groq Whisper Turbo (free but aggressive rate limits; developer tier upgrade
+# was unavailable as of April 2026). Groq config kept commented for easy rollback.
+
+# OpenAI Whisper config (active)
+TRANSCRIPTION_API_URL = "https://api.openai.com/v1/audio/transcriptions"
+TRANSCRIPTION_MODEL = "whisper-1"
+TRANSCRIPTION_KEY_ENV = "OPENAI_API_KEY"
+
+# Groq Whisper Turbo config (kept for easy rollback if OpenAI cost becomes a concern)
+# TRANSCRIPTION_API_URL = "https://api.groq.com/openai/v1/audio/transcriptions"
+# TRANSCRIPTION_MODEL = "whisper-large-v3-turbo"
+# TRANSCRIPTION_KEY_ENV = "GROQ_API_KEY"
+
 MAX_DOWNLOAD_BYTES = 150 * 1024 * 1024  # 150 MB cap on raw audio download (safety valve)
-MAX_UPLOAD_BYTES = 24 * 1024 * 1024     # 24 MB cap for Groq upload (25MB API limit, leave headroom)
+MAX_UPLOAD_BYTES = 24 * 1024 * 1024     # 24 MB cap — OpenAI limit is 25 MB, leave headroom
 COMPRESSED_BITRATE = "48k"              # mono 48kbps = ~21MB/hr, no accuracy loss on speech
 TRANSCRIPT_CHAR_CAP = 80_000  # per episode — captures a full hour-long podcast
 APPLE_LOOKUP_URL = "https://itunes.apple.com/lookup"
@@ -200,7 +213,7 @@ def download_audio(url, dest_path):
     return total
 
 def compress_for_transcription(src_path, dest_path):
-    """Re-encode audio to mono 48kbps MP3 so it fits under Groq's 25MB upload limit.
+    """Re-encode audio to mono 48kbps MP3 so it fits under the 25MB upload limit.
     Whisper accuracy is unaffected at this bitrate for speech content.
     Requires ffmpeg on PATH."""
     try:
@@ -225,15 +238,15 @@ def compress_for_transcription(src_path, dest_path):
     except subprocess.CalledProcessError as e:
         raise RuntimeError(f"ffmpeg compression failed: {e.stderr.decode()[:200]}")
 
-def transcribe_with_groq(audio_path):
-    """POST multipart form to Groq's Whisper endpoint with rate-limit retry.
+def transcribe_audio(audio_path):
+    """POST multipart form to the configured Whisper endpoint with rate-limit retry.
 
     On 429 (rate limit): honor Retry-After header if present, else wait 60s, try again.
     Max 3 attempts.
     """
     for attempt in range(3):
         try:
-            return _transcribe_with_groq_once(audio_path)
+            return _transcribe_audio_once(audio_path)
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < 2:
                 # Prefer server-provided retry window; fall back to 60s
@@ -244,10 +257,10 @@ def transcribe_with_groq(audio_path):
                 continue
             raise
 
-def _transcribe_with_groq_once(audio_path):
-    api_key = os.environ.get("GROQ_API_KEY")
+def _transcribe_audio_once(audio_path):
+    api_key = os.environ.get(TRANSCRIPTION_KEY_ENV)
     if not api_key:
-        raise RuntimeError("GROQ_API_KEY not set in environment")
+        raise RuntimeError(f"{TRANSCRIPTION_KEY_ENV} not set in environment")
 
     # Build multipart body by hand to avoid adding a requests/httpx dependency
     boundary = "----phanometer" + os.urandom(8).hex()
@@ -258,7 +271,7 @@ def _transcribe_with_groq_once(audio_path):
     parts = []
     parts.append(f"--{boundary}\r\n".encode())
     parts.append(f'Content-Disposition: form-data; name="model"\r\n\r\n'.encode())
-    parts.append(f"{GROQ_MODEL}\r\n".encode())
+    parts.append(f"{TRANSCRIPTION_MODEL}\r\n".encode())
     parts.append(f"--{boundary}\r\n".encode())
     parts.append(f'Content-Disposition: form-data; name="response_format"\r\n\r\n'.encode())
     parts.append("text\r\n".encode())
@@ -272,7 +285,7 @@ def _transcribe_with_groq_once(audio_path):
     body = b"".join(parts)
 
     req = urllib.request.Request(
-        GROQ_API_URL,
+        TRANSCRIPTION_API_URL,
         data=body,
         headers={
             "Authorization": f"Bearer {api_key}",
@@ -311,10 +324,10 @@ def pull_podcasts(lookback_hours_override=None, dry=False):
     transcripts = []
     with tempfile.TemporaryDirectory() as tmp:
         for i, ep in enumerate(all_episodes):
-            # Be polite: pause between episodes to stay under Groq's audio-seconds-per-minute limit
+            # Small polite pause between episodes (harmless on OpenAI, was critical on Groq)
             if i > 0:
-                print("    (pausing 30s between episodes to respect rate limits)")
-                time.sleep(30)
+                print("    (pausing 5s between episodes)")
+                time.sleep(5)
 
             print(f"  Transcribing: [{ep['source_tag']}] {ep['title'][:70]}...")
             try:
@@ -336,7 +349,7 @@ def pull_podcasts(lookback_hours_override=None, dry=False):
                         f"— try lower bitrate or chunking"
                     )
 
-                text = transcribe_with_groq(compressed)
+                text = transcribe_audio(compressed)
                 if len(text) > TRANSCRIPT_CHAR_CAP:
                     text = text[:TRANSCRIPT_CHAR_CAP] + "...[truncated]"
                 transcripts.append({

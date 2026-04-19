@@ -1,40 +1,40 @@
 [
   {
     "date": "2026-04-19",
-    "display_score": 30,
-    "reactive_score": 30,
+    "display_score": 36,
+    "reactive_score": 36,
     "baseline_score": null,
     "mood_label": "Restless",
     "dimensions": {
-      "results_satisfaction": 18,
-      "front_office_trust": 28,
-      "manager_confidence": 32,
-      "lineup_confidence": 22,
-      "pitching_confidence": 52,
-      "health_outlook": 38,
-      "postseason_belief": 35
+      "results_satisfaction": 22,
+      "front_office_trust": 35,
+      "manager_confidence": 38,
+      "lineup_confidence": 28,
+      "pitching_confidence": 62,
+      "health_outlook": 35,
+      "postseason_belief": 40
     },
     "dimension_confidence": {
-      "results_satisfaction": 95,
-      "front_office_trust": 72,
-      "manager_confidence": 68,
-      "lineup_confidence": 90,
-      "pitching_confidence": 80,
+      "results_satisfaction": 90,
+      "front_office_trust": 55,
+      "manager_confidence": 60,
+      "lineup_confidence": 88,
+      "pitching_confidence": 75,
       "health_outlook": 65,
-      "postseason_belief": 55
+      "postseason_belief": 45
     },
     "voice_breakdown": {
       "reddit": {
-        "score": 16,
-        "note": "Fury and dark humor dominate: 3-8 stretch, outscored 30-6, fans questioning whether to even attend games, only bright spot is a call-up's debut homer."
+        "score": 25,
+        "note": "Deeply frustrated with anemic offense and home losses; brief Felix Reyes joy extinguished fast; Bohm, Kevin Long, and Thompson all taking heat"
       },
       "fan_analyst": {
-        "score": 38,
-        "note": "Klugh and Roescher acknowledge real problem areas\u2014Bohm, Luzardo, lineup depth, Thompson's loosening grip\u2014but find peripheral data to justify cautious optimism on correction."
+        "score": null,
+        "note": null
       },
       "beat_writer": {
-        "score": 30,
-        "note": "Gelb and Shuber validate fan frustration systematically: worst run-conversion rates in NL, Bohm concern escalating, Miller injury murky, middle of lineup a black hole."
+        "score": 38,
+        "note": "Matt Gelb and Paul methodically catalog real concerns \u2014 lineup depth, Bohm, Aidan Miller's mystery injury \u2014 while acknowledging it's only 15 games and pitching has been a genuine bright spot"
       },
       "radio_populist": {
         "score": null,
@@ -43,74 +43,68 @@
     },
     "themes": [
       {
-        "name": "Offensive collapse in middle of lineup",
-        "delta": -9,
-        "sample": "Spots 4-6 posting .557 OPS, 29th in MLB; fans and beat writers agree there is no established cleanup solution and Garcia has not yet been the answer."
+        "name": "Historically bad middle-of-order production",
+        "delta": -8,
+        "sample": "Spots 4-6 posting 557 OPS, 29th of 30 teams; no credible cleanup hitter behind Harper, Turner, Schwarber"
       },
       {
-        "name": "Bohm personal crisis compounding slump",
-        "delta": -7,
-        "sample": "Hitting .145 with lawsuit against parents ongoing; both podcasts and Reddit frame him as the symbolic and literal drag on the offense, patience wearing thin across all voices."
-      },
-      {
-        "name": "Felix Reyes debut as rare joy",
-        "delta": 6,
-        "sample": "Call-up homers in first MLB at-bat off Chris Sale, generating the only genuine excitement in an otherwise bleak stretch; Reddit threads briefly euphoric before loss resumes."
-      },
-      {
-        "name": "Pitching outperforming results / bad luck narrative",
-        "delta": 4,
-        "sample": "FIP vs ERA divergence posted to Reddit; Luzardo's 2.9 FIP and Sanchez quality starts noted by both podcasts as evidence the staff is better than its outcomes suggest."
-      },
-      {
-        "name": "Manager and front office confidence eroding",
+        "name": "Aidan Miller injury shrouded in mystery",
         "delta": -6,
-        "sample": "Thompson losing clubhouse energy compared unfavorably to Braves' Walt Weiss; Dombrowski's roster construction decisions\u2014Kemp over a veteran platoon bat, no cleanup hitter\u2014drawing sustained criticism."
+        "sample": "Dombrowksi invoking HIPAA, beat writer writing he's 'weeks if not months away'; David Wright scar tissue invoked on podcast"
+      },
+      {
+        "name": "Pitching staff a genuine bright spot",
+        "delta": 6,
+        "sample": "152 strikeouts vs. 34 walks as a staff; Painter and Crawford exceeding expectations; bullpen (minus Alvarado) holding up"
+      },
+      {
+        "name": "Felix Reyes first-at-bat homer a rare moment of joy",
+        "delta": 4,
+        "sample": "AAA callup homers off Chris Sale in his first career at-bat, briefly electrifying a dormant fanbase before offense went quiet again"
+      },
+      {
+        "name": "Bohm patience evaporating fast",
+        "delta": -7,
+        "sample": "Podcast hosts note he hasn't pulled a single ball in the air; Reddit calling for Sosa reps; fans acknowledge personal sympathy but demand results"
       }
     ],
     "quotes": [
       {
-        "text": "If they were playing hard and losing close games, I wouldn't be worried. It's the fact that basically everyone but Bryce looks completely indifferent.",
-        "score": 12,
-        "source_hint": "r/phillies game thread comment"
-      },
-      {
-        "text": "He does not look like he belongs on the team right now. And it sucks.",
-        "score": 20,
-        "source_hint": "Phillies Therapy beat writer host"
-      },
-      {
-        "text": "Our only run from the last 2 games came from a guys first MLB at bat. There are glaring issues with our offense.",
+        "text": "Our only run from the last 2 games came from a guys first MLB at bat. There are glaring issues with our offense",
         "score": 15,
-        "source_hint": "r/phillies post-game thread"
+        "source_hint": "r/phillies game thread"
       },
       {
-        "text": "His FIP, his fielding independent pitching is 2.9. He is getting, I would say, pretty unlucky right now.",
-        "score": 62,
-        "source_hint": "Hittin' Season fan analyst host"
+        "text": "Not even the rookie called up for his first MLB start blasting a homer in his first career at bat could ignite anything. This offense is so done for it's crazy.",
+        "score": 10,
+        "source_hint": "r/phillies game thread"
+      },
+      {
+        "text": "I don't have it. I don't have it. And he continues to be the whipping boy, like you said, now I find myself joining that chorus and I don't like being in that position.",
+        "score": 22,
+        "source_hint": "Phillies Therapy host (Paul) on Bohm"
+      },
+      {
+        "text": "That Sosa play was a microcosm for our season so far",
+        "score": 18,
+        "source_hint": "r/phillies game thread"
       }
     ],
-    "reasoning": "The dominant mood is genuine alarm shading toward despair, driven by a 3-8 stretch in which the Phillies have been outscored 30-6 and lost four of five home series already\u2014more than all of last season. Reddit match-thread reactions are raw and hostile, questioning the manager, front office, and nearly every position player not named Harper or Crawford. Beat writers are the most systematically pessimistic, building a data-driven case around league-worst run-conversion rates and an escalating Bohm concern, while fan analysts are slightly more measured, pointing to Luzardo's FIP and Garcia's peripherals as reasons for cautious hope. The one point of genuine cross-voice positivity is Felix Reyes's debut homer, but even that was immediately swallowed by a 3-1 loss; Duran's IL placement and the Aiden Miller injury opacity add health anxiety that all three voices flag as unresolved.",
+    "reasoning": "Sentiment is broadly negative and shading toward alarm, driven by a 3-1 loss to the Braves that left the team's only run coming from a debut callup's homer \u2014 a moment fans briefly celebrated before the offense went mute again. The Phillies Therapy podcast frames the mood carefully (it's early, the pitching is real, Painter and Crawford are exciting), but even the beat-writer voice is running out of patience on Bohm and is openly concerned about the Aidan Miller injury situation, which Gelb confirms is more serious than publicly acknowledged. Reddit match-thread sentiment is more raw: offense described as 'done for,' manager Thompson taking shots for lineup choices, and Kevin Long called out repeatedly \u2014 a coaching-accountability thread that is gaining traction the podcast does not yet fully mirror.",
     "source_counts": {
-      "reddit_posts": 21,
-      "reddit_comments": 174,
+      "reddit_posts": 20,
+      "reddit_comments": 173,
       "match_threads": 1,
-      "podcasts_attempted": 2,
-      "podcasts_transcribed": 2,
-      "podcast_chars": 125663
+      "podcasts_attempted": 1,
+      "podcasts_transcribed": 1,
+      "podcast_chars": 61745
     },
     "podcasts_used": [
-      {
-        "feed_name": "Hittin' Season",
-        "title": "The Phillies Take on the NL East-Leading Braves",
-        "voice": "fan_analyst",
-        "chars": 65348
-      },
       {
         "feed_name": "Phillies Therapy",
         "title": "Frustration Station",
         "voice": "beat_writer",
-        "chars": 60315
+        "chars": 61745
       }
     ],
     "hard_signals": {
@@ -209,6 +203,6 @@
         ]
       }
     },
-    "generated_at": "2026-04-19T05:09:23.111544+00:00"
+    "generated_at": "2026-04-19T12:59:59.267275+00:00"
   }
 ]
