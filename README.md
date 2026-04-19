@@ -2,6 +2,19 @@
 
 Daily Philadelphia Phillies fan sentiment, scored from r/phillies posts and comments.
 
+## What's shipped
+
+Running nightly from GitHub Actions:
+
+- **Podcast transcription** (Phillies Therapy as beat-writer voice, Hittin' Season as fan-analyst voice) via OpenAI Whisper.
+- **MLB attendance** hard signal from the Stats API.
+- **Claude-scored composite** across seven sentiment dimensions, with themes, quotes, and reasoning.
+- **Static Next.js site** at [phanometer.vercel.app](https://phanometer.vercel.app), rebuilt on every data push.
+
+**Reddit (r/phillies) is paused.** Reddit 403s cloud provider IPs on its public JSON endpoints, which blocks GitHub Actions runners. The nightly job runs with `--no-reddit`; the Reddit voice renders as "quiet today" in the UI until the pipeline runs from a non-cloud host (self-hosted runner, VPS, or home server) or gains authenticated-OAuth access that Reddit accepts from cloud IPs. The `pull_reddit()` code path is intact and ready to re-enable — just drop the flag in `.github/workflows/daily.yml`.
+
+Not yet built: WIP Daily (talk-radio voice), local news RSS, expected-attendance regression. See [Next steps](#next-steps-not-yet-built).
+
 ## How it works
 
 Nightly, the script:
