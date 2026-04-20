@@ -1,6 +1,10 @@
 import type { DailyReport, Quote, Voice, VoiceKey } from '@/lib/types';
 import { VOICE_META } from '@/lib/format';
 
+// Flip to true to re-render the r/phillies voice block once Reddit is back in
+// the nightly pipeline (see .github/workflows/daily.yml, --no-reddit flag).
+const REDDIT_ENABLED = false;
+
 function isRedditSource(hint: string | undefined): boolean {
   return /reddit|r\/phillies/i.test(hint ?? '');
 }
@@ -102,10 +106,15 @@ function VoiceLine({ id, data, asSummary = false }: VoiceLineProps) {
 const VOICE_ORDER: VoiceKey[] = ['reddit', 'beat_writer', 'fan_analyst', 'radio_populist'];
 
 export function Quotes({ today }: { today: DailyReport }) {
+  const quotes = REDDIT_ENABLED
+    ? today.quotes
+    : today.quotes.filter((q) => !isRedditSource(q.source_hint));
   return (
     <div className="quotes-list">
-      <VoiceLine id="reddit" data={today.voice_breakdown.reddit} asSummary />
-      {today.quotes.map((q, i) => (
+      {REDDIT_ENABLED && (
+        <VoiceLine id="reddit" data={today.voice_breakdown.reddit} asSummary />
+      )}
+      {quotes.map((q, i) => (
         <QuoteCard key={`q${i}`} q={q} />
       ))}
       {VOICE_ORDER.filter((v) => v !== 'reddit').map((v) => (
