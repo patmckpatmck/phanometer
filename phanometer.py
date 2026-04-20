@@ -169,11 +169,17 @@ You'll receive two kinds of content from the last 24-48 hours:
   1. Reddit posts and comments from r/phillies (tagged [POST], [COMMENT], [MATCH THREAD])
   2. Podcast transcripts from Phillies-focused shows (tagged [PODCAST <voice>: <show>])
 
-Each source has a distinct voice:
-  - r/phillies         = raw fan community, sarcastic, reactive, emotional
-  - fan_analyst        = analytical fan perspective (Hittin' Season / Stolnis, Klugh, Roscher)
-  - beat_writer        = professional beat writer insight (Phillies Therapy / Matt Gelb)
-  - radio_populist     = talk radio host/caller voice (WIP Daily / Joe Giglio)
+Each source has a distinct voice. The left-hand identifier is the INTERNAL KEY
+used only in structured JSON fields (voice_breakdown keys). The right-hand side
+is the HUMAN LABEL to use in any prose (reasoning, quotes, source_hint, notes).
+NEVER write the internal key in prose — always translate to the human label.
+
+  Internal key        Human label         Source
+  --------------      -----------         ------
+  reddit              r/phillies          raw fan community, sarcastic, reactive, emotional
+  fan_analyst         fan analyst         Hittin' Season / Stolnis, Klugh, Roscher
+  beat_writer         beat writer         Phillies Therapy / Matt Gelb
+  radio_populist      talk-radio host     WIP Daily / Joe Giglio
 
 Weight the PODCAST sources slightly more than individual Reddit comments because hosts
 summarize and represent broader fan sentiment. But Reddit match-thread reactions are
@@ -232,6 +238,7 @@ Rules:
 - Podcast ads and sponsor reads should be ignored — they are NOT sentiment signal
 - CRITICAL: For voice_breakdown, only score voices that have content in the input below. If a voice is absent from the input (no [PODCAST fan_analyst:...] tag appears, for example), return null for that voice, NOT an inferred score. Never hallucinate a voice's sentiment from context.
 - CRITICAL: For quotes, only include text that appears verbatim in the input below. Do not invent or paraphrase quotes.
+- CRITICAL: In any prose field (reasoning, quotes[].source_hint, voice_breakdown[*].note, themes[*].sample), NEVER write the internal voice keys (reddit, fan_analyst, beat_writer, radio_populist) verbatim. Always use the human labels from the table above (r/phillies, fan analyst, beat writer, talk-radio host). The underscore keys are machine-only identifiers; user-facing copy must read naturally. For example, write "the beat writer (Phillies Therapy)", not "the beat_writer (Phillies Therapy)".
 
 Content to analyze:
 """

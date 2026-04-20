@@ -77,6 +77,30 @@ PODCAST_FEEDS = [
         "strategy": "filter",
         "lookback_hours": 36,  # daily, Phillies-filtered
     },
+    {
+        "name": "Phillies Talk",
+        "source_tag": "phillies_talk",
+        "voice": "fan_analyst",  # NBC Sports Philadelphia team-beat show
+        "apple_id": 1214369445,
+        "strategy": "all",
+        "lookback_hours": 96,  # publishes every 3-4 days
+    },
+    {
+        "name": "The Phillies Show",
+        "source_tag": "phillies_show",
+        "voice": "fan_analyst",  # Foul Territory Network Phillies-specific show
+        "apple_id": 1738537069,
+        "strategy": "all",
+        "lookback_hours": 72,  # publishes every ~2 days
+    },
+    {
+        "name": "High Hopes",
+        "source_tag": "high_hopes",
+        "voice": "radio_populist",  # Audacy / 94WIP family, dedicated Phillies show
+        "apple_id": 1304311183,
+        "strategy": "all",
+        "lookback_hours": 48,  # publishes daily-ish during games
+    },
 ]
 
 DEFAULT_LOOKBACK_HOURS = 24  # fallback if a feed doesn't specify
@@ -100,6 +124,7 @@ MAX_DOWNLOAD_BYTES = 150 * 1024 * 1024  # 150 MB cap on raw audio download (safe
 MAX_UPLOAD_BYTES = 24 * 1024 * 1024     # 24 MB cap — OpenAI limit is 25 MB, leave headroom
 COMPRESSED_BITRATE = "48k"              # mono 48kbps = ~21MB/hr, no accuracy loss on speech
 TRANSCRIPT_CHAR_CAP = 80_000  # per episode — captures a full hour-long podcast
+MAX_TRANSCRIPTIONS_PER_RUN = 4  # cost safeguard; newest-first, older episodes dropped
 APPLE_LOOKUP_URL = "https://itunes.apple.com/lookup"
 
 # -----------------------------------------------------------------------------
@@ -316,6 +341,17 @@ def pull_podcasts(lookback_hours_override=None, dry=False):
         window = lookback_hours_override or feed.get("lookback_hours", DEFAULT_LOOKBACK_HOURS)
         print(f"  {feed['name']} ({window}h window): {len(episodes)} episode(s)")
         all_episodes.extend(episodes)
+
+    # Cost safeguard: cap transcriptions per run. Sort newest-first and drop the
+    # rest so a prolific week (overlapping feed windows) can't blow up the bill.
+    all_episodes.sort(key=lambda e: datetime.fromisoformat(e["pub_date"]), reverse=True)
+    if len(all_episodes) > MAX_TRANSCRIPTIONS_PER_RUN:
+        dropped = all_episodes[MAX_TRANSCRIPTIONS_PER_RUN:]
+        all_episodes = all_episodes[:MAX_TRANSCRIPTIONS_PER_RUN]
+        print(f"  Cap: keeping newest {MAX_TRANSCRIPTIONS_PER_RUN}, dropping "
+              f"{len(dropped)} older episode(s):")
+        for d in dropped:
+            print(f"    - [{d['source_tag']}] {d['title'][:60]} ({d['pub_date']})")
 
     if dry:
         print("Dry run — skipping download + transcription")
