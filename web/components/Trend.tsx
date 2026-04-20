@@ -27,13 +27,21 @@ export function Trend({ history, todayScore }: Props) {
 
   const days = history.length;
 
-  if (days < 3) {
-    const startDate = new Date();
-    startDate.setDate(startDate.getDate() + (3 - days));
+  if (days < 30) {
+    const anchor = history[0]?.date;
+    const start = anchor ? new Date(anchor + 'T12:00:00') : new Date();
+    start.setDate(start.getDate() + 30);
+    const publishDate = start.toLocaleDateString('en-US', {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric',
+    });
     return (
       <div className="trend-calibrating">
-        Phan-o-meter is calibrating. Daily scores shown; 30-day trend begins{' '}
-        {startDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}.
+        <p className="trend-calibrating-body">
+          Phan-o-meter is calibrating. The first 30-day trend publishes{' '}
+          {publishDate}. Until then, today&rsquo;s score stands alone.
+        </p>
       </div>
     );
   }
@@ -60,9 +68,6 @@ export function Trend({ history, todayScore }: Props) {
         .map((p, i) => (i === 0 ? `M ${p[0]} ${p[1]}` : `L ${p[0]} ${p[1]}`))
         .join(' ')
     : null;
-
-  const calibratingNote =
-    days < 30 ? `${days} days in — fills in as history lengthens` : null;
 
   const todayX = x(n - 1);
   const todayY = y(todayScore);
@@ -190,7 +195,6 @@ export function Trend({ history, todayScore }: Props) {
           <span className="sw" style={{ background: '#c1121f' }} />
           Today
         </span>
-        {calibratingNote && <span style={{ fontStyle: 'italic' }}>· {calibratingNote}</span>}
       </div>
     </div>
   );
