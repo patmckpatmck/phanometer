@@ -15,6 +15,7 @@ function firstSentence(text: string): string {
 
 export default async function Page() {
   const { history, today } = await readHistory();
+  const previous = history.length >= 2 ? history[history.length - 2] : undefined;
 
   return (
     <div className="page">
@@ -31,31 +32,35 @@ export default async function Page() {
 
       <section className="section">
         <div className="section-head">
-          <span className="section-num">02 · Editor&apos;s note</span>
-          <h2 className="section-title">Why today reads the way it does</h2>
+          <span className="section-num">02 · The vibe</span>
+          <h2 className="section-title">How Philly feels about the Phillies, today</h2>
         </div>
         <p className="editor-body">{firstSentence(today.reasoning)}</p>
       </section>
 
       <section className="section">
         <div className="section-head">
-          <span className="section-num">03 · Under the hood</span>
+          <span className="section-num">03 · The count</span>
           <h2 className="section-title">The scoring dimensions</h2>
         </div>
-        <Dimensions dimensions={today.dimensions} confidence={today.dimension_confidence} />
+        <Dimensions
+          dimensions={today.dimensions}
+          confidence={today.dimension_confidence}
+          previousDimensions={previous?.dimensions}
+        />
       </section>
 
       <section className="section">
         <div className="section-head">
-          <span className="section-num">04 · In the air</span>
-          <h2 className="section-title">What the city is talking about</h2>
+          <span className="section-num">04 · Cheers &amp; groans</span>
+          <h2 className="section-title">What&apos;s working and what&apos;s not</h2>
         </div>
         <Themes themes={today.themes} />
       </section>
 
       <section className="section">
         <div className="section-head">
-          <span className="section-num">05 · In their own words</span>
+          <span className="section-num">05 · In the air</span>
           <h2 className="section-title">Hot takes from fans, journalists, and loudmouths</h2>
           <div className="section-sub">*As read by Phan-o-meter</div>
         </div>

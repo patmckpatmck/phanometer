@@ -1,6 +1,8 @@
 import { formatDate } from '@/lib/format';
 import type { DailyReport } from '@/lib/types';
 
+const INSTAGRAM_ENABLED = true;
+
 export function Header({ today }: { today: DailyReport }) {
   return (
     <header className="topbar">
@@ -12,7 +14,19 @@ export function Header({ today }: { today: DailyReport }) {
           <div>{formatDate(today.date).toUpperCase()}</div>
         </div>
       </div>
-      <div className="topbar-right">@phanometer</div>
+      <div className="topbar-right">
+        {INSTAGRAM_ENABLED ? (
+          <a
+            href="https://instagram.com/phanometer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @phanometer
+          </a>
+        ) : (
+          '@phanometer'
+        )}
+      </div>
     </header>
   );
 }

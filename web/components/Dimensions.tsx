@@ -4,9 +4,10 @@ import { DIM_LABELS, DIMENSION_ORDER } from '@/lib/format';
 interface Props {
   dimensions: DimsType;
   confidence: DimensionConfidence;
+  previousDimensions?: DimsType;
 }
 
-export function Dimensions({ dimensions, confidence }: Props) {
+export function Dimensions({ dimensions, confidence, previousDimensions }: Props) {
   const values = DIMENSION_ORDER.map((k) => dimensions[k]).filter(
     (v): v is number => v != null,
   );
@@ -17,12 +18,15 @@ export function Dimensions({ dimensions, confidence }: Props) {
 
   const rows = DIMENSION_ORDER.filter((k) => dimensions[k] != null).map((k) => {
     const score = dimensions[k];
+    const prev = previousDimensions?.[k];
+    const delta = prev != null ? score - prev : null;
     return {
       key: k,
       label: DIM_LABELS[k] ?? k,
       score,
       conf: confidence?.[k] ?? 50,
       divergent: Math.abs(score - mean) > std * 1.4 && std > 5,
+      delta,
     };
   });
 
@@ -44,7 +48,14 @@ export function Dimensions({ dimensions, confidence }: Props) {
             <div className="dim-bar-fill" style={{ width: `${r.score}%` }} />
             <div className="dim-bar-ticks" />
           </div>
-          <div className="dim-score">{r.score}</div>
+          <div className="dim-score">
+            {r.score}
+            {r.delta != null && r.delta !== 0 && (
+              <span className={`dim-delta ${r.delta > 0 ? 'up' : 'down'}`}>
+                {r.delta > 0 ? '↑' : '↓'} {Math.abs(r.delta)}
+              </span>
+            )}
+          </div>
           <div className="dim-conf">conf {r.conf}</div>
         </div>
       ))}
