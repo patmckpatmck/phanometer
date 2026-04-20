@@ -27,6 +27,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Phan-o-meter — Daily Phillies Fan Sentiment',
   description: 'How Philly feels about the Phillies, today.',
+  icons: {
+    icon: '/assets/bell.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
