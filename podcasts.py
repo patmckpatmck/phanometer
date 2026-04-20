@@ -70,14 +70,6 @@ PODCAST_FEEDS = [
         "lookback_hours": 192,  # weekly — so 8 day window catches fresh episode
     },
     {
-        "name": "WIP Daily",
-        "source_tag": "wip_daily",
-        "voice": "radio_populist",
-        "apple_id": 397184700,
-        "strategy": "filter",
-        "lookback_hours": 36,  # daily, Phillies-filtered
-    },
-    {
         "name": "Phillies Talk",
         "source_tag": "phillies_talk",
         "voice": "fan_analyst",  # NBC Sports Philadelphia team-beat show
