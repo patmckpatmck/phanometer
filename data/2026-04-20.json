@@ -1,0 +1,225 @@
+{
+  "date": "2026-04-20",
+  "display_score": 36,
+  "reactive_score": 27,
+  "baseline_score": 40,
+  "mood_label": "Restless",
+  "dimensions": {
+    "results_satisfaction": 14,
+    "front_office_trust": 32,
+    "manager_confidence": 38,
+    "lineup_confidence": 18,
+    "pitching_confidence": 42,
+    "health_outlook": 28,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 60,
+    "manager_confidence": 72,
+    "lineup_confidence": 98,
+    "pitching_confidence": 78,
+    "health_outlook": 82,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 16,
+      "note": "Fan analyst hosts find no bright spots \u2014 worst run differential in baseball, swept at home, offense historically bad against lefties, no confidence in near-term turnaround."
+    },
+    "beat_writer": {
+      "score": 22,
+      "note": "Beat writer acknowledges it is early but catalogs mounting concerns: lineup middle a 29th-ranked OPS, Bohm spiraling, Aiden Miller murky, left field platoon a miss, overall mood is frustrated malaise."
+    },
+    "radio_populist": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Offense in historic collapse",
+      "delta": -9,
+      "sample": "Scoreless in 90% of innings over recent weeks; 12 of first 21 games with three or fewer runs scored; worst run differential in baseball."
+    },
+    {
+      "name": "Middle of the lineup a black hole",
+      "delta": -8,
+      "sample": "Spots four through six posting a 557 OPS, 29th in MLB; no reliable right-handed bat; cleanup role a revolving door of failing options."
+    },
+    {
+      "name": "Alec Bohm anxiety at a peak",
+      "delta": -7,
+      "sample": "Both voices converge on Bohm as the most visible symbol of offensive failure \u2014 dropping exit velocity, no pulled fly balls, patience wearing thin across the fan base."
+    },
+    {
+      "name": "Health concerns piling up",
+      "delta": -7,
+      "sample": "Johan Duran oblique strain, JT Realmuto back issue, Zach Wheeler's troubling rehab velocity, and Aiden Miller's mysterious back situation all cloud the outlook."
+    },
+    {
+      "name": "Felix Reyes debut a rare jolt of joy",
+      "delta": 5,
+      "sample": "First-career home run off a borderline Hall of Famer provided the only unambiguous positive moment of the homestand and generated genuine excitement."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "There is not one bright spot in this entire lineup.",
+      "score": 5,
+      "source_hint": "fan analyst co-host on Phillies Talk, postgame Sunday night"
+    },
+    {
+      "text": "Right now, he's carrying some kind of ugly season numbers... he does not look like he belongs on the team right now.",
+      "score": 10,
+      "source_hint": "beat writer (Phillies Therapy) on Alec Bohm"
+    },
+    {
+      "text": "Mathematically, yes, it's an eighth of the way through... but what are you seeing from this Phillies team right now that gives you confidence?",
+      "score": 20,
+      "source_hint": "fan analyst host on Phillies Talk, framing the existential question"
+    },
+    {
+      "text": "I want to be wrong. I want to be proven wrong. I want to have opinions that look stupid if they're in the negative later on.",
+      "score": 35,
+      "source_hint": "beat writer (Phillies Therapy) co-host expressing frustrated but residual hope"
+    }
+  ],
+  "reasoning": "Both the fan analyst and beat writer voices are deeply pessimistic but calibrated rather than hysterical \u2014 they acknowledge it is early while cataloguing genuinely alarming trends: a historically inept offense against left-handed pitching, a middle-of-the-order OPS ranking 29th in baseball, and a health report card featuring Duran, Wheeler, Realmuto, and the shrouded Aiden Miller situation. The fan analyst skews more emotionally despairing, openly questioning whether the manager's seat is warming; the beat writer is slightly more measured, anchoring to underlying metrics and resisting the urge to fully pull the plug while still admitting patience has worn thin, particularly around Bohm. The one genuine bright spot both voices share is Felix Reyes' debut home run, which generated real warmth in an otherwise grim news cycle.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 2,
+    "podcasts_transcribed": 2,
+    "podcast_chars": 109996,
+    "youtube_attempted": 0,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Talk",
+      "title": "FRUSTRATIONS at their PEAK as Phillies wrap up homestand by being swept by Braves",
+      "voice": "fan_analyst",
+      "chars": 50983
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Frustration Station",
+      "voice": "beat_writer",
+      "chars": 59013
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 9,
+      "recent_avg_pct": 93.5,
+      "baseline_games_count": 31,
+      "baseline_avg_pct": 96.0,
+      "delta_pct": -2.6,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823482,
+          "date": "2026-04-10",
+          "day_of_week": "Friday",
+          "opponent": "Arizona Diamondbacks",
+          "result": "L 4-5",
+          "attendance": 41683,
+          "pct_capacity": 97.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823480,
+          "date": "2026-04-11",
+          "day_of_week": "Saturday",
+          "opponent": "Arizona Diamondbacks",
+          "result": "W 4-3",
+          "attendance": 41201,
+          "pct_capacity": 96.0,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823479,
+          "date": "2026-04-12",
+          "day_of_week": "Sunday",
+          "opponent": "Arizona Diamondbacks",
+          "result": "L 3-4",
+          "attendance": 43060,
+          "pct_capacity": 100.4,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823481,
+          "date": "2026-04-13",
+          "day_of_week": "Monday",
+          "opponent": "Chicago Cubs",
+          "result": "W 13-7",
+          "attendance": 36045,
+          "pct_capacity": 84.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823478,
+          "date": "2026-04-14",
+          "day_of_week": "Tuesday",
+          "opponent": "Chicago Cubs",
+          "result": "L 4-10",
+          "attendance": 37426,
+          "pct_capacity": 87.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823477,
+          "date": "2026-04-15",
+          "day_of_week": "Wednesday",
+          "opponent": "Chicago Cubs",
+          "result": "L 2-11",
+          "attendance": 38254,
+          "pct_capacity": 89.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823476,
+          "date": "2026-04-17",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 0-9",
+          "attendance": 43048,
+          "pct_capacity": 100.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823474,
+          "date": "2026-04-18",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "L 1-3",
+          "attendance": 43423,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823475,
+          "date": "2026-04-19",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-4",
+          "attendance": 36806,
+          "pct_capacity": 85.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-04-20T12:52:37.080467+00:00"
+}
