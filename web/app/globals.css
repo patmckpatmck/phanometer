@@ -99,6 +99,14 @@ body {
   margin-top: 4px;
   white-space: nowrap;
 }
+.topbar-right a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+.topbar-right a:hover {
+  color: var(--red);
+}
 
 /* ——— HERO ——— */
 .hero {
@@ -495,6 +503,21 @@ body {
   font-size: 22px;
   color: var(--ink);
   text-align: right;
+}
+.dim-delta {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: var(--font-roboto-slab), serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  vertical-align: 2px;
+}
+.dim-delta.up {
+  color: var(--navy);
+}
+.dim-delta.down {
+  color: var(--red);
 }
 .dim-conf {
   font-family: var(--font-jetbrains-mono), monospace;
