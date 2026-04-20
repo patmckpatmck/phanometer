@@ -15,6 +15,7 @@ Usage:
   python phanometer.py               # full run
   python phanometer.py --dry         # skip Claude + transcription (Reddit + attendance only)
   python phanometer.py --no-podcasts # skip podcasts (useful if rate-limited)
+  python phanometer.py --no-youtube  # skip 94WIP YouTube clips
   python phanometer.py --no-reddit   # skip Reddit (use from cloud IPs where Reddit 403s)
 """
 
@@ -31,6 +32,7 @@ from anthropic import Anthropic
 
 from attendance import pull_attendance
 from podcasts import pull_podcasts
+from youtube import pull_youtube
 
 # Load .env into environment if present. Keeps `python3 phanometer.py` working
 # without needing `export` or `source .env` first. run.sh already handles this
@@ -375,6 +377,7 @@ def compute_display_score(reactive, baseline, volume):
 def main():
     dry_run = "--dry" in sys.argv
     skip_podcasts = "--no-podcasts" in sys.argv
+    skip_youtube = "--no-youtube" in sys.argv
     skip_reddit = "--no-reddit" in sys.argv
     DATA_DIR.mkdir(exist_ok=True)
 
@@ -386,6 +389,8 @@ def main():
         tags.append("no reddit")
     if skip_podcasts:
         tags.append("no podcasts")
+    if skip_youtube:
+        tags.append("no youtube")
     tag = f" ({', '.join(tags)})" if tags else ""
     print(f"[{today}] Phan-o-meter daily run{tag}")
 
@@ -412,8 +417,20 @@ def main():
             print(f"  ! podcast pull crashed: {e}")
             podcasts = []
 
-    successful_podcasts = [p for p in podcasts if p.get("transcript")]
-    total_podcast_chars = sum(p.get("transcript_chars", 0) for p in successful_podcasts)
+    # 2b. Pull 94WIP YouTube clips — separate source, same transcript shape
+    # so the scoring prompt treats podcasts + clips as one audio stream.
+    youtube_clips = []
+    if not dry_run and not skip_youtube:
+        try:
+            youtube_clips = pull_youtube()
+        except Exception as e:
+            print(f"  ! youtube pull crashed: {e}")
+            youtube_clips = []
+
+    successful_podcasts_only = [p for p in podcasts if p.get("transcript")]
+    successful_youtube = [y for y in youtube_clips if y.get("transcript")]
+    successful_podcasts = successful_podcasts_only + successful_youtube
+    total_audio_chars = sum(p.get("transcript_chars", 0) for p in successful_podcasts)
 
     if dry_run:
         print("\nDry run — skipping Claude + podcasts. First 3 Reddit items:")
@@ -422,15 +439,15 @@ def main():
         return
 
     if not items and not successful_podcasts:
-        print("  ! No Reddit items and no successful podcasts — nothing to score. Aborting.")
+        print("  ! No Reddit items and no audio transcripts — nothing to score. Aborting.")
         sys.exit(2)
     if len(items) < 5 and not successful_podcasts:
         print("  ! Very low content volume — results may be unreliable")
 
-    # 3. Score with Claude (Reddit + podcasts together)
+    # 3. Score with Claude (Reddit + podcasts + youtube, all treated as audio)
     print(f"Scoring with {MODEL}...")
-    print(f"  Input: {len(items)} Reddit items + {len(successful_podcasts)} podcast(s), "
-          f"{total_podcast_chars:,} podcast chars")
+    print(f"  Input: {len(items)} Reddit items + {len(successful_podcasts_only)} podcast(s) "
+          f"+ {len(successful_youtube)} YouTube clip(s), {total_audio_chars:,} audio chars")
     result = score_with_claude(items, successful_podcasts)
 
     # 4. Load history and compute composite
@@ -443,7 +460,7 @@ def main():
     confidence = result["dimension_confidence"]
     reactive = compute_reactive_score(dimensions, confidence)
     baseline = compute_baseline(history)
-    # Volume for blending includes podcasts — each successful podcast counts as ~10 reddit items
+    # Volume for blending includes audio — each successful podcast/clip counts as ~10 reddit items
     volume = len(items) + len(successful_podcasts) * 10
     display = compute_display_score(reactive, baseline, volume)
 
@@ -481,8 +498,15 @@ def main():
             "reddit_comments": n_comments,
             "match_threads": n_match,
             "podcasts_attempted": len(podcasts),
-            "podcasts_transcribed": len(successful_podcasts),
-            "podcast_chars": total_podcast_chars,
+            "podcasts_transcribed": len(successful_podcasts_only),
+            "podcast_chars": sum(
+                p.get("transcript_chars", 0) for p in successful_podcasts_only
+            ),
+            "youtube_attempted": len(youtube_clips),
+            "youtube_transcribed": len(successful_youtube),
+            "youtube_chars": sum(
+                y.get("transcript_chars", 0) for y in successful_youtube
+            ),
         },
         "podcasts_used": [
             {
