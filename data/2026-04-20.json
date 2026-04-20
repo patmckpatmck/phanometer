@@ -1,26 +1,26 @@
 {
   "date": "2026-04-20",
-  "display_score": 36,
-  "reactive_score": 27,
+  "display_score": 34,
+  "reactive_score": 25,
   "baseline_score": 40,
   "mood_label": "Restless",
   "dimensions": {
-    "results_satisfaction": 14,
+    "results_satisfaction": 8,
     "front_office_trust": 32,
-    "manager_confidence": 38,
+    "manager_confidence": 35,
     "lineup_confidence": 18,
     "pitching_confidence": 42,
     "health_outlook": 28,
-    "postseason_belief": 30
+    "postseason_belief": 33
   },
   "dimension_confidence": {
-    "results_satisfaction": 95,
+    "results_satisfaction": 97,
     "front_office_trust": 60,
     "manager_confidence": 72,
-    "lineup_confidence": 98,
-    "pitching_confidence": 78,
+    "lineup_confidence": 95,
+    "pitching_confidence": 75,
     "health_outlook": 82,
-    "postseason_belief": 70
+    "postseason_belief": 65
   },
   "voice_breakdown": {
     "reddit": {
@@ -28,12 +28,12 @@
       "note": null
     },
     "fan_analyst": {
-      "score": 16,
-      "note": "Fan analyst hosts find no bright spots \u2014 worst run differential in baseball, swept at home, offense historically bad against lefties, no confidence in near-term turnaround."
+      "score": 18,
+      "note": "Both Phillies Talk and The Phillies Show hosts describe the start as historically bad, the offense as lifeless, and struggle to identify a single bright spot beyond Harper and Sanchez."
     },
     "beat_writer": {
       "score": 22,
-      "note": "Beat writer acknowledges it is early but catalogs mounting concerns: lineup middle a 29th-ranked OPS, Bohm spiraling, Aiden Miller murky, left field platoon a miss, overall mood is frustrated malaise."
+      "note": "The beat writer (Phillies Therapy) frames the 8-13 record as objectively the worst stretch in a decade, sees no real levers to pull, and describes the middle of the lineup as a black hole, though retains slim hope tied to regression and Wheeler's return."
     },
     "radio_populist": {
       "score": null,
@@ -42,77 +42,89 @@
   },
   "themes": [
     {
-      "name": "Offense in historic collapse",
+      "name": "Historically bad offense, especially vs. lefties",
       "delta": -9,
-      "sample": "Scoreless in 90% of innings over recent weeks; 12 of first 21 games with three or fewer runs scored; worst run differential in baseball."
+      "sample": "Phillies batting .155 against left-handed starters, have lost all seven such games, and rank near the bottom of baseball in runs, slugging, and productive outs."
     },
     {
-      "name": "Middle of the lineup a black hole",
+      "name": "Middle-of-order black hole",
       "delta": -8,
-      "sample": "Spots four through six posting a 557 OPS, 29th in MLB; no reliable right-handed bat; cleanup role a revolving door of failing options."
+      "sample": "The four-through-six spots are posting a .557 OPS, 29th in baseball, with no reliable right-handed bat behind the top three and Bohm described as 'unplayable' right now."
     },
     {
-      "name": "Alec Bohm anxiety at a peak",
+      "name": "Manager and coaching staff heat rising",
+      "delta": -6,
+      "sample": "Comparisons to the Joe Girardi firing in 2022 are surfacing, with a self-imposed 'game 50' deadline emerging as the informal point of no return for roster and staff decisions."
+    },
+    {
+      "name": "Wheeler return as last real lever",
+      "delta": 4,
+      "sample": "Zach Wheeler is expected back this weekend in Atlanta and is viewed as the rotation's best hope, even if his velocity is still rebuilding from thoracic outlet surgery."
+    },
+    {
+      "name": "Injury pile-up deepening concern",
       "delta": -7,
-      "sample": "Both voices converge on Bohm as the most visible symbol of offensive failure \u2014 dropping exit velocity, no pulled fly balls, patience wearing thin across the fan base."
-    },
-    {
-      "name": "Health concerns piling up",
-      "delta": -7,
-      "sample": "Johan Duran oblique strain, JT Realmuto back issue, Zach Wheeler's troubling rehab velocity, and Aiden Miller's mysterious back situation all cloud the outlook."
-    },
-    {
-      "name": "Felix Reyes debut a rare jolt of joy",
-      "delta": 5,
-      "sample": "First-career home run off a borderline Hall of Famer provided the only unambiguous positive moment of the homestand and generated genuine excitement."
+      "sample": "Johan Duran's oblique strain, JT Realmuto's back, and Aiden Miller's prolonged mystery back issue are collectively pushing health outlook to a low point with no clear timelines."
     }
   ],
   "quotes": [
     {
-      "text": "There is not one bright spot in this entire lineup.",
+      "text": "This is now a certifiably bad start, and there isn't a whole lot that I can or will say to try and pick a lot of folks up out of it.",
       "score": 5,
-      "source_hint": "fan analyst co-host on Phillies Talk, postgame Sunday night"
+      "source_hint": "Phillies Therapy host (beat writer show)"
     },
     {
-      "text": "Right now, he's carrying some kind of ugly season numbers... he does not look like he belongs on the team right now.",
-      "score": 10,
-      "source_hint": "beat writer (Phillies Therapy) on Alec Bohm"
-    },
-    {
-      "text": "Mathematically, yes, it's an eighth of the way through... but what are you seeing from this Phillies team right now that gives you confidence?",
+      "text": "I don't think there's anything you can do, except just try to ride it out.",
       "score": 20,
-      "source_hint": "fan analyst host on Phillies Talk, framing the existential question"
+      "source_hint": "Beat writer (Matt Gelb) on Phillies Therapy"
     },
     {
-      "text": "I want to be wrong. I want to be proven wrong. I want to have opinions that look stupid if they're in the negative later on.",
-      "score": 35,
-      "source_hint": "beat writer (Phillies Therapy) co-host expressing frustrated but residual hope"
+      "text": "There is not one bright spot in this entire lineup.",
+      "score": 4,
+      "source_hint": "Phillies Talk co-host (fan analyst show)"
+    },
+    {
+      "text": "We're not used to this. We're not. So, like I said, we've got to play better.",
+      "score": 15,
+      "source_hint": "Rob Thompson audio played on Phillies Talk (fan analyst show)"
     }
   ],
-  "reasoning": "Both the fan analyst and beat writer voices are deeply pessimistic but calibrated rather than hysterical \u2014 they acknowledge it is early while cataloguing genuinely alarming trends: a historically inept offense against left-handed pitching, a middle-of-the-order OPS ranking 29th in baseball, and a health report card featuring Duran, Wheeler, Realmuto, and the shrouded Aiden Miller situation. The fan analyst skews more emotionally despairing, openly questioning whether the manager's seat is warming; the beat writer is slightly more measured, anchoring to underlying metrics and resisting the urge to fully pull the plug while still admitting patience has worn thin, particularly around Bohm. The one genuine bright spot both voices share is Felix Reyes' debut home run, which generated real warmth in an otherwise grim news cycle.",
+  "reasoning": "Sentiment across both the beat writer and fan analyst voices is nearly uniformly bleak, converging on an 8-13 record described as the worst start in over a decade, an offense that is historically bad against left-handed pitching and incapable of scoring after an early run, and a middle-of-the-order that is producing at replacement or below-replacement level. The beat writer is slightly more measured, anchoring thin optimism to Wheeler's imminent return and historical precedent of bad Phillies starts preceding deep playoff runs, while fan analysts on both The Phillies Show and Phillies Talk are closer to despair with little they can point to as genuinely encouraging. The one area of mild divergence is managerial confidence: the beat writer explicitly defends Rob Thompson as having no real levers to pull, whereas fan analyst voices are louder about a growing hot seat and explicit comparisons to the Girardi dismissal, though neither camp is yet calling for a change.",
   "source_counts": {
     "reddit_posts": 0,
     "reddit_comments": 0,
     "match_threads": 0,
-    "podcasts_attempted": 2,
-    "podcasts_transcribed": 2,
-    "podcast_chars": 109996,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 200050,
     "youtube_attempted": 0,
     "youtube_transcribed": 0,
     "youtube_chars": 0
   },
   "podcasts_used": [
     {
+      "feed_name": "Phillies Therapy",
+      "title": "21 Games Later",
+      "voice": "beat_writer",
+      "chars": 48111
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "\"We're not used to this:\" Phillies off to their worst start since 2015",
+      "voice": "fan_analyst",
+      "chars": 35759
+    },
+    {
       "feed_name": "Phillies Talk",
       "title": "FRUSTRATIONS at their PEAK as Phillies wrap up homestand by being swept by Braves",
       "voice": "fan_analyst",
-      "chars": 50983
+      "chars": 52256
     },
     {
       "feed_name": "Phillies Therapy",
       "title": "Frustration Station",
       "voice": "beat_writer",
-      "chars": 59013
+      "chars": 63924
     }
   ],
   "hard_signals": {
@@ -221,5 +233,5 @@
       ]
     }
   },
-  "generated_at": "2026-04-20T12:52:37.080467+00:00"
+  "generated_at": "2026-04-20T15:18:49.532408+00:00"
 }
