@@ -678,5 +678,242 @@
       }
     },
     "generated_at": "2026-04-21T15:12:34.596816+00:00"
+  },
+  {
+    "date": "2026-04-22",
+    "display_score": 26,
+    "reactive_score": 19,
+    "baseline_score": 31,
+    "mood_label": "Boo-Bird",
+    "dimensions": {
+      "results_satisfaction": 8,
+      "front_office_trust": 18,
+      "manager_confidence": 32,
+      "lineup_confidence": 15,
+      "pitching_confidence": 20,
+      "health_outlook": 28,
+      "postseason_belief": 22
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 95,
+      "front_office_trust": 88,
+      "manager_confidence": 90,
+      "lineup_confidence": 92,
+      "pitching_confidence": 85,
+      "health_outlook": 72,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 22,
+        "note": "Fan analyst acknowledges historic struggles \u2014 11 of 13 losses, 0-for-26 with RISP \u2014 while defending Thompson personally and blaming paralysis by analysis and Dombrowski's roster construction."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 7,
+        "note": "Talk-radio host is at near-despair across three episodes: 'I don't know how they're going to win a baseball game,' calling the roster deficient, blasting Dombrowski, and openly projecting a season from hell."
+      }
+    },
+    "themes": [
+      {
+        "name": "Seven-game losing streak / historic futility",
+        "delta": -9,
+        "sample": "8-15 record, worst start since 2015, outscored 42-10 over six games, 0-for-26 with RISP across six games \u2014 both shows describe it as historically bad."
+      },
+      {
+        "name": "Rob Thompson hot seat debate",
+        "delta": -5,
+        "sample": "Dombrowski publicly addressed job security; both shows defend Thompson personally while acknowledging a managerial change may be the only lever left to pull."
+      },
+      {
+        "name": "Dombrowski / front office blamed as root cause",
+        "delta": -8,
+        "sample": "Talk-radio host and fan analyst both point to roster construction \u2014 bloated contracts, no cleanup hitter, admitted by Dombrowski himself \u2014 as the fundamental problem, not the manager."
+      },
+      {
+        "name": "Pitching staff collapse and bullpen strain",
+        "delta": -7,
+        "sample": "Ten walks in one game, starters failing to reach six innings consistently, Alvarado exiting with back spasms, Duran on IL \u2014 pitching confidence cratering alongside offense."
+      },
+      {
+        "name": "Felix Reyes as lone bright spot",
+        "delta": 4,
+        "sample": "Both shows highlight Reyes hitting the ball hard in every at-bat as a refreshing and energizing exception to an otherwise lifeless offensive unit."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I've gotten to the point where I don't know how they're going to win a baseball game.",
+        "score": 4,
+        "source_hint": "talk-radio host, WIP Final Out postgame"
+      },
+      {
+        "text": "This is the least enjoyable 23 games of baseball I can remember the Phillies have played in my entire life.",
+        "score": 3,
+        "source_hint": "caller on talk-radio host's WIP Final Out show"
+      },
+      {
+        "text": "This team has a Ferrari price tag but we're getting AMC Gremlin performance.",
+        "score": 5,
+        "source_hint": "caller on talk-radio host's WIP Final Out show"
+      },
+      {
+        "text": "Rob Thompson has the second highest winning percentage of all managers in Philly's history with more than 35 games as a manager.",
+        "score": 55,
+        "source_hint": "fan analyst, The Phillies Show"
+      }
+    ],
+    "reasoning": "The dominant mood across both present voices is deep, sustained distress \u2014 an 8-15 record, a seven-game losing streak, and historically bad offensive production (0-for-26 with RISP, worst OPS through 23 games in the live-ball era for multiple starters) have pushed the talk-radio host to near-apathy, openly questioning whether the team can win another game. The fan analyst is marginally more measured, defending Thompson's character and pointing to pressing and paralysis by analysis as correctable, but still characterizes the performance as 'quite frankly a legitimate concern.' Both voices converge in placing primary blame on Dombrowski's roster construction rather than the manager, though the talk-radio host goes further in calling for front office change and floating a potential season-from-hell scenario. The only genuine positive signal in any content is the emergence of Felix Reyes, whose hard contact and fearless approach provided a rare moment of energy in an otherwise bleak landscape.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 142650,
+      "youtube_attempted": 0,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Rob Thomson is on the hot seat",
+        "voice": "fan_analyst",
+        "chars": 35660
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: This Isn't Fun",
+        "voice": "radio_populist",
+        "chars": 30743
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Guess What? The Phillies Lost Again.",
+        "voice": "radio_populist",
+        "chars": 21760
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "No.",
+        "voice": "radio_populist",
+        "chars": 54487
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 9,
+        "recent_avg_pct": 93.5,
+        "baseline_games_count": 31,
+        "baseline_avg_pct": 96.0,
+        "delta_pct": -2.6,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823482,
+            "date": "2026-04-10",
+            "day_of_week": "Friday",
+            "opponent": "Arizona Diamondbacks",
+            "result": "L 4-5",
+            "attendance": 41683,
+            "pct_capacity": 97.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823480,
+            "date": "2026-04-11",
+            "day_of_week": "Saturday",
+            "opponent": "Arizona Diamondbacks",
+            "result": "W 4-3",
+            "attendance": 41201,
+            "pct_capacity": 96.0,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823479,
+            "date": "2026-04-12",
+            "day_of_week": "Sunday",
+            "opponent": "Arizona Diamondbacks",
+            "result": "L 3-4",
+            "attendance": 43060,
+            "pct_capacity": 100.4,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823481,
+            "date": "2026-04-13",
+            "day_of_week": "Monday",
+            "opponent": "Chicago Cubs",
+            "result": "W 13-7",
+            "attendance": 36045,
+            "pct_capacity": 84.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823478,
+            "date": "2026-04-14",
+            "day_of_week": "Tuesday",
+            "opponent": "Chicago Cubs",
+            "result": "L 4-10",
+            "attendance": 37426,
+            "pct_capacity": 87.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823477,
+            "date": "2026-04-15",
+            "day_of_week": "Wednesday",
+            "opponent": "Chicago Cubs",
+            "result": "L 2-11",
+            "attendance": 38254,
+            "pct_capacity": 89.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823476,
+            "date": "2026-04-17",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 0-9",
+            "attendance": 43048,
+            "pct_capacity": 100.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823474,
+            "date": "2026-04-18",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "L 1-3",
+            "attendance": 43423,
+            "pct_capacity": 101.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823475,
+            "date": "2026-04-19",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-4",
+            "attendance": 36806,
+            "pct_capacity": 85.8,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "generated_at": "2026-04-22T15:10:26.509251+00:00"
   }
 ]
