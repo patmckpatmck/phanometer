@@ -153,28 +153,6 @@ body {
   will-change: transform;
 }
 
-/* Idle sway: small ±1° oscillation around the final target angle.
-   --bell-angle is set inline by BellMeter once the arrival spring settles.
-   prefers-reduced-motion disables the animation entirely. */
-@keyframes bell-idle-sway {
-  0%,
-  100% {
-    transform: rotate(calc(var(--bell-angle, 0deg) - 1deg));
-  }
-  50% {
-    transform: rotate(calc(var(--bell-angle, 0deg) + 1deg));
-  }
-}
-.bell-idle {
-  animation: bell-idle-sway 12s ease-in-out infinite;
-}
-@media (prefers-reduced-motion: reduce) {
-  .bell-idle {
-    animation: none;
-    transform: rotate(var(--bell-angle, 0deg));
-  }
-}
-
 /* Score + mood readout below the arc */
 .readout {
   text-align: center;
