@@ -32,6 +32,7 @@ from podcasts import (
     TRANSCRIPT_CHAR_CAP,
     MAX_UPLOAD_BYTES,
     compress_for_transcription,
+    normalize_names,
     transcribe_audio,
 )
 
@@ -219,6 +220,7 @@ def pull_youtube(lookback_hours_override=None, dry=False):
                     )
 
                 text = transcribe_audio(compressed)
+                text = normalize_names(text)
                 if len(text) > TRANSCRIPT_CHAR_CAP:
                     text = text[:TRANSCRIPT_CHAR_CAP] + "...[truncated]"
                 transcripts.append({
