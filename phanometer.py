@@ -8,7 +8,9 @@ Pipeline:
      and transcribe with Groq Whisper
   3. Score aggregate mood with Claude across 7 dimensions, with source-aware voice tagging
   4. Pull Citizens Bank Park attendance as independent hard signal
-  5. Compute reactive, baseline, and display scores
+  5. Compute the reactive score (the display score) and a 30-day EWMA baseline
+     as context for the delta badge and trend chart. Flag the day as
+     insufficient_signal when total content volume falls below threshold.
   6. Write data/YYYY-MM-DD.json and update data/history.json
 
 Usage:
@@ -70,16 +72,28 @@ DIMENSION_WEIGHTS = {
     "postseason_belief":    1.0,
 }
 
+# Content-volume gate for publishing a display score. The metric is:
+#   reddit_items + (audio_chars / CHARS_PER_AUDIO_MINUTE)
+# where audio_chars covers podcast + YouTube transcripts. A single ~30-minute
+# podcast episode clears the threshold on its own; a day with no audio and a
+# handful of Reddit posts does not. Tune here.
+# TODO: revisit after ~1 month of data covering weekday/weekend, home/road,
+# and in/out-of-season patterns. The initial 30 is a v1 guess calibrated so a
+# single off-day podcast clears it — real-world distribution may want it
+# tuned up (fewer "insufficient" days, higher quality bar) or down.
+MIN_CONTENT_VOLUME = 30
+CHARS_PER_AUDIO_MINUTE = 750  # ~150 words/min × ~5 chars/word
+
 # Philly-voice mood taxonomy
 MOOD_TIERS = [
     (90, "Red October"),
     (80, "Rally Towel"),
     (70, "Buzzing"),
-    (60, "Good Vibes"),
-    (50, "Cautious"),
+    (60, "High Hopes"),
+    (50, "Touch and Go"),
     (40, "Uneasy"),
-    (30, "Restless"),
-    (20, "Boo-Bird"),
+    (30, "Oh No"),
+    (20, "Not Again"),
     (10, "Meltdown"),
     (0,  "Rock Bottom"),
 ]
@@ -364,12 +378,10 @@ def compute_baseline(history):
         baseline = alpha * day["reactive_score"] + (1 - alpha) * baseline
     return round(baseline)
 
-def compute_display_score(reactive, baseline, volume):
-    """Blend reactive vs baseline. More volume → trust today's reactive number more."""
-    if baseline is None:
-        return reactive  # bootstrap — no history yet
-    reactive_weight = min(0.7, 0.3 + volume / 500.0)
-    return round(reactive_weight * reactive + (1 - reactive_weight) * baseline)
+def compute_content_volume(reddit_item_count, audio_chars):
+    """Reddit items + transcribed audio minutes. Used for the insufficient-signal gate."""
+    audio_minutes = audio_chars / CHARS_PER_AUDIO_MINUTE
+    return round(reddit_item_count + audio_minutes)
 
 # -----------------------------------------------------------------------------
 # Main
@@ -460,9 +472,11 @@ def main():
     confidence = result["dimension_confidence"]
     reactive = compute_reactive_score(dimensions, confidence)
     baseline = compute_baseline(history)
-    # Volume for blending includes audio — each successful podcast/clip counts as ~10 reddit items
-    volume = len(items) + len(successful_podcasts) * 10
-    display = compute_display_score(reactive, baseline, volume)
+
+    content_volume = compute_content_volume(len(items), total_audio_chars)
+    insufficient_signal = content_volume < MIN_CONTENT_VOLUME
+    display = None if insufficient_signal else reactive
+    display_mood = mood_label(display) if display is not None else None
 
     # 5. Pull attendance (independent hard signal, not a scoring dimension)
     print("Pulling attendance from MLB Stats API...")
@@ -486,7 +500,9 @@ def main():
         "display_score": display,
         "reactive_score": reactive,
         "baseline_score": baseline,
-        "mood_label": mood_label(display),
+        "insufficient_signal": insufficient_signal,
+        "content_volume": content_volume,
+        "mood_label": display_mood,
         "dimensions": dimensions,
         "dimension_confidence": confidence,
         "voice_breakdown": result.get("voice_breakdown", {}),
@@ -529,8 +545,11 @@ def main():
     history_path.write_text(json.dumps(history, indent=2))
 
     # Summary
-    print(f"\n  Display: {display} — {mood_label(display)}")
-    print(f"  Reactive: {reactive}  |  Baseline: {baseline}")
+    if insufficient_signal:
+        print(f"\n  Display: — (insufficient signal, volume={content_volume} < {MIN_CONTENT_VOLUME})")
+    else:
+        print(f"\n  Display: {display} — {display_mood}")
+    print(f"  Reactive: {reactive}  |  Baseline: {baseline}  |  Volume: {content_volume}")
     themes = ", ".join(t.get("name", "?") for t in result.get("themes", []))
     print(f"  Themes: {themes}")
     voice_breakdown = result.get("voice_breakdown", {})

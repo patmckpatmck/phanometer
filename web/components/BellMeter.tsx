@@ -4,6 +4,7 @@ import { useEffect, useState, type CSSProperties } from 'react';
 
 interface Props {
   score: number;
+  muted?: boolean;
 }
 
 // Arc geometry (SVG coords, viewBox 1000×560):
@@ -128,7 +129,7 @@ function buildTicks(): Tick[] {
   return ticks;
 }
 
-export function BellMeter({ score }: Props) {
+export function BellMeter({ score, muted = false }: Props) {
   const { angle, idle } = useBellAngle(score);
   const ticks = buildTicks();
 
@@ -151,7 +152,7 @@ export function BellMeter({ score }: Props) {
     : { transform: `rotate(${angle.toFixed(2)}deg)` };
 
   return (
-    <div className="meter-assembly">
+    <div className={muted ? 'meter-assembly meter-assembly--muted' : 'meter-assembly'}>
       <div className="bell-holder">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img

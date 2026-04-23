@@ -207,10 +207,10 @@
   },
   {
     "date": "2026-04-20",
-    "display_score": 34,
+    "display_score": 25,
     "reactive_score": 25,
     "baseline_score": 40,
-    "mood_label": "Restless",
+    "mood_label": "Not Again",
     "dimensions": {
       "results_satisfaction": 8,
       "front_office_trust": 32,
@@ -444,10 +444,10 @@
   },
   {
     "date": "2026-04-21",
-    "display_score": 31,
+    "display_score": 22,
     "reactive_score": 22,
     "baseline_score": 36,
-    "mood_label": "Restless",
+    "mood_label": "Not Again",
     "dimensions": {
       "results_satisfaction": 8,
       "front_office_trust": 22,
@@ -681,10 +681,10 @@
   },
   {
     "date": "2026-04-22",
-    "display_score": 26,
+    "display_score": 19,
     "reactive_score": 19,
     "baseline_score": 31,
-    "mood_label": "Boo-Bird",
+    "mood_label": "Meltdown",
     "dimensions": {
       "results_satisfaction": 8,
       "front_office_trust": 18,

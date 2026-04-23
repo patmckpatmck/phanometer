@@ -127,6 +127,10 @@ body {
   margin: 0 auto 18px;
   aspect-ratio: 1000 / 560;
 }
+.meter-assembly--muted {
+  opacity: 0.32;
+  filter: grayscale(1);
+}
 .meter-svg {
   position: absolute;
   inset: 0;
@@ -780,6 +784,13 @@ body {
   border: 1px dashed var(--ink);
   text-align: center;
   grid-column: 1 / -1;
+}
+.insufficient-hero {
+  max-width: 520px;
+  margin: 18px auto 0;
+  font-size: clamp(20px, 2.4vw, 28px);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 /* ——— FOOTER ——— */

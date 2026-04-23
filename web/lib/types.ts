@@ -41,6 +41,9 @@ export interface SourceCounts {
   podcasts_attempted?: number;
   podcasts_transcribed?: number;
   podcast_chars?: number;
+  youtube_attempted?: number;
+  youtube_transcribed?: number;
+  youtube_chars?: number;
 }
 
 export interface PodcastUsed {
@@ -92,10 +95,15 @@ export interface HardSignals {
 
 export interface DailyReport {
   date: string;
-  display_score: number;
+  // Null on days flagged insufficient_signal — content volume fell below
+  // MIN_CONTENT_VOLUME in phanometer.py. Mood label follows display_score.
+  display_score: number | null;
   reactive_score: number;
   baseline_score: number | null;
-  mood_label: string;
+  mood_label: string | null;
+  // Optional: only written on records generated after 2026-04-23.
+  insufficient_signal?: boolean;
+  content_volume?: number;
   dimensions: Dimensions;
   dimension_confidence: DimensionConfidence;
   voice_breakdown: VoiceBreakdown;
