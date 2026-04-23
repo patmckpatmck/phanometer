@@ -1,0 +1,237 @@
+{
+  "date": "2026-04-23",
+  "display_score": 24,
+  "reactive_score": 17,
+  "baseline_score": 28,
+  "mood_label": "Boo-Bird",
+  "dimensions": {
+    "results_satisfaction": 5,
+    "front_office_trust": 18,
+    "manager_confidence": 25,
+    "lineup_confidence": 12,
+    "pitching_confidence": 18,
+    "health_outlook": 22,
+    "postseason_belief": 32
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 88,
+    "manager_confidence": 82,
+    "lineup_confidence": 92,
+    "pitching_confidence": 85,
+    "health_outlook": 75,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 28,
+      "note": "Deeply critical of Dombrowski's offseason inaction and roster construction, but maintains slim postseason faith given the wild card era and roster talent ceiling."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 8,
+      "note": "Visceral despair across both episodes \u2014 can't envision a win, calling the roster fraudulent, demanding someone get visibly angry, and openly questioning whether the team has any fire left."
+    }
+  },
+  "themes": [
+    {
+      "name": "Eight-game losing streak / worst run differential in baseball",
+      "delta": -10,
+      "sample": "At 8-16 with a negative-50 run differential, both the talk-radio host and the fan analyst describe this as the worst stretch this core group has ever played."
+    },
+    {
+      "name": "Dombrowski offseason failure",
+      "delta": -8,
+      "sample": "Both voices agree the decision to run back essentially the same roster without addressing psychological fatigue or lineup depth is an indictment of front-office leadership."
+    },
+    {
+      "name": "Taiwon Walker must be removed",
+      "delta": -7,
+      "sample": "Opposing hitters are posting a Joe DiMaggio 1941-level slash line against Walker; both voices demand he be DFA'd or at minimum removed from any meaningful role."
+    },
+    {
+      "name": "Rob Thompson hot seat emerging",
+      "delta": -6,
+      "sample": "The fan analyst and Philly Show voices set a late-May deadline: if nothing changes, Thompson likely loses his job, though both acknowledge the players bear primary responsibility."
+    },
+    {
+      "name": "Felix Reyes as accidental bright spot",
+      "delta": 4,
+      "sample": "The rookie cleanup hitter hitting the ball hard in multiple appearances is the lone positive note, cited by the talk-radio host as the only player who looks dangerous at the plate."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They are actually playing like the worst team in baseball.",
+      "score": 4,
+      "source_hint": "talk-radio host on WIP High Hopes postgame"
+    },
+    {
+      "text": "There is absolutely no sign that it's going to get better anytime soon.",
+      "score": 6,
+      "source_hint": "fan analyst on Hittin' Season"
+    },
+    {
+      "text": "This is the least enjoyable 23 games of baseball I can remember the Phillies have played in my entire life.",
+      "score": 3,
+      "source_hint": "caller quoted on WIP High Hopes postgame"
+    },
+    {
+      "text": "If you had to bet right now, do they make the playoffs this year? Yes.",
+      "score": 55,
+      "source_hint": "guest Jeff Warren on Hittin' Season, representing a floor of residual postseason belief"
+    }
+  ],
+  "reasoning": "The dominant mood across both voices is near-total despair about the present with only a thin thread of long-term faith holding on. The talk-radio host is the most emotionally raw, describing a rudderless team with no competitive fire and demanding public accountability from players and management alike. The fan analyst is more analytical but equally damning, framing the collapse as a predictable psychological consequence of Dombrowski's failure to inject new energy this offseason, while still leaning toward a playoff prediction given wild-card math. The one point of divergence is tone: the fan analyst retains measured optimism that this roster has a higher ceiling, while the talk-radio host genuinely cannot picture the team winning another game. Health concerns around Realmuto, Alvarado, and Duran compound an already dire pitching situation and drag health outlook down significantly.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 133944,
+    "youtube_attempted": 0,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Another Loss.",
+      "voice": "radio_populist",
+      "chars": 25448
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Where Is the Bottom For the Phillies?",
+      "voice": "fan_analyst",
+      "chars": 41680
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Rob Thomson is on the hot seat",
+      "voice": "fan_analyst",
+      "chars": 33582
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: This Isn't Fun",
+      "voice": "radio_populist",
+      "chars": 33234
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 9,
+      "recent_avg_pct": 93.5,
+      "baseline_games_count": 31,
+      "baseline_avg_pct": 96.0,
+      "delta_pct": -2.6,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823482,
+          "date": "2026-04-10",
+          "day_of_week": "Friday",
+          "opponent": "Arizona Diamondbacks",
+          "result": "L 4-5",
+          "attendance": 41683,
+          "pct_capacity": 97.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823480,
+          "date": "2026-04-11",
+          "day_of_week": "Saturday",
+          "opponent": "Arizona Diamondbacks",
+          "result": "W 4-3",
+          "attendance": 41201,
+          "pct_capacity": 96.0,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823479,
+          "date": "2026-04-12",
+          "day_of_week": "Sunday",
+          "opponent": "Arizona Diamondbacks",
+          "result": "L 3-4",
+          "attendance": 43060,
+          "pct_capacity": 100.4,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823481,
+          "date": "2026-04-13",
+          "day_of_week": "Monday",
+          "opponent": "Chicago Cubs",
+          "result": "W 13-7",
+          "attendance": 36045,
+          "pct_capacity": 84.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823478,
+          "date": "2026-04-14",
+          "day_of_week": "Tuesday",
+          "opponent": "Chicago Cubs",
+          "result": "L 4-10",
+          "attendance": 37426,
+          "pct_capacity": 87.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823477,
+          "date": "2026-04-15",
+          "day_of_week": "Wednesday",
+          "opponent": "Chicago Cubs",
+          "result": "L 2-11",
+          "attendance": 38254,
+          "pct_capacity": 89.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823476,
+          "date": "2026-04-17",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 0-9",
+          "attendance": 43048,
+          "pct_capacity": 100.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823474,
+          "date": "2026-04-18",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "L 1-3",
+          "attendance": 43423,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823475,
+          "date": "2026-04-19",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-4",
+          "attendance": 36806,
+          "pct_capacity": 85.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-04-23T16:26:59.644037+00:00"
+}
