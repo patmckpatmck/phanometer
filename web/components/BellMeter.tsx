@@ -99,15 +99,15 @@ interface Tick {
   labelY: number;
 }
 
+// Round to 2 decimals: viewBox is 1000 units, so 0.01 is sub-pixel even on
+// 4K displays, and the rounding eliminates server/client FP drift at the
+// 15th digit that otherwise trips React hydration on SVG coord attributes.
+const round2 = (n: number): number => Math.round(n * 100) / 100;
+
 function buildTicks(): Tick[] {
   const cx = ARC_CX;
   const cy = ARC_CY;
   const r = ARC_R;
-
-  // Round to 2 decimals: viewBox is 1000 units, so 0.01 is sub-pixel even on
-  // 4K displays, and the rounding eliminates server/client FP drift at the
-  // 15th digit that otherwise trips React hydration on these 101 ticks.
-  const round2 = (n: number): number => Math.round(n * 100) / 100;
 
   const pt = (a: number, radius: number): [number, number] => {
     const rad = (a * Math.PI) / 180;
@@ -134,17 +134,17 @@ export function BellMeter({ score }: Props) {
 
   const needleAngle = ((score - 50) / 50) * SWEEP_HALF;
   const rad = (needleAngle * Math.PI) / 180;
-  const nx = ARC_CX + (ARC_R - 34) * Math.sin(rad);
-  const ny = ARC_CY + (ARC_R - 34) * Math.cos(rad);
-  const ntx = ARC_CX + (ARC_R - 12) * Math.sin(rad);
-  const nty = ARC_CY + (ARC_R - 12) * Math.cos(rad);
+  const nx = round2(ARC_CX + (ARC_R - 34) * Math.sin(rad));
+  const ny = round2(ARC_CY + (ARC_R - 34) * Math.cos(rad));
+  const ntx = round2(ARC_CX + (ARC_R - 12) * Math.sin(rad));
+  const nty = round2(ARC_CY + (ARC_R - 12) * Math.cos(rad));
   const perpX = Math.cos(rad);
   const perpY = -Math.sin(rad);
   const baseW = 10;
-  const b1x = nx + perpX * baseW;
-  const b1y = ny + perpY * baseW;
-  const b2x = nx - perpX * baseW;
-  const b2y = ny - perpY * baseW;
+  const b1x = round2(nx + perpX * baseW);
+  const b1y = round2(ny + perpY * baseW);
+  const b2x = round2(nx - perpX * baseW);
+  const b2y = round2(ny - perpY * baseW);
 
   const bellStyle: CSSProperties = idle
     ? ({ ['--bell-angle' as string]: `${angle.toFixed(2)}deg` } as CSSProperties)
