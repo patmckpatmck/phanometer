@@ -6,7 +6,7 @@ import type { DailyReport } from '@/lib/types';
 
 interface Props {
   history: DailyReport[];
-  todayScore: number;
+  todayScore: number | null;
 }
 
 const BANDS = [
@@ -53,10 +53,31 @@ export function Trend({ history, todayScore }: Props) {
   const x = (i: number): number => (i / Math.max(1, n - 1)) * W;
   const y = (v: number): number => (1 - v / 100) * H;
 
-  const points = history.map((d, i) => [x(i), y(d.display_score)] as const);
-  const pathD = points
-    .map((p, i) => (i === 0 ? `M ${p[0]} ${p[1]}` : `L ${p[0]} ${p[1]}`))
-    .join(' ');
+  // Build per-day points only where display_score is present. Split the path
+  // into separate segments across gaps so null days render as breaks in the
+  // line, not interpolated through.
+  const dots = history
+    .map((d, i) =>
+      d.display_score != null
+        ? ({ cx: x(i), cy: y(d.display_score) } as const)
+        : null,
+    )
+    .filter((p): p is { readonly cx: number; readonly cy: number } => p !== null);
+
+  const pathSegments: string[] = [];
+  let currentSeg: string[] = [];
+  history.forEach((d, i) => {
+    if (d.display_score == null) {
+      if (currentSeg.length) {
+        pathSegments.push(currentSeg.join(' '));
+        currentSeg = [];
+      }
+      return;
+    }
+    const cmd = currentSeg.length === 0 ? 'M' : 'L';
+    currentSeg.push(`${cmd} ${x(i)} ${y(d.display_score)}`);
+  });
+  if (currentSeg.length) pathSegments.push(currentSeg.join(' '));
 
   const baselinePoints = history
     .map((d, i) =>
@@ -70,7 +91,7 @@ export function Trend({ history, todayScore }: Props) {
     : null;
 
   const todayX = x(n - 1);
-  const todayY = y(todayScore);
+  const todayY = todayScore != null ? y(todayScore) : null;
 
   const dateTicks = history
     .map((d, i) => ({ i, date: d.date, x: x(i) }))
@@ -130,17 +151,20 @@ export function Trend({ history, todayScore }: Props) {
                   vectorEffect="non-scaling-stroke"
                 />
               )}
-              <path
-                d={pathD}
-                fill="none"
-                stroke="#14110f"
-                strokeWidth="3"
-                strokeLinejoin="round"
-                strokeLinecap="round"
-                vectorEffect="non-scaling-stroke"
-              />
-              {points.map((p, i) => (
-                <circle key={i} cx={p[0]} cy={p[1]} r={3} fill="#14110f" />
+              {pathSegments.map((d, i) => (
+                <path
+                  key={`seg${i}`}
+                  d={d}
+                  fill="none"
+                  stroke="#14110f"
+                  strokeWidth="3"
+                  strokeLinejoin="round"
+                  strokeLinecap="round"
+                  vectorEffect="non-scaling-stroke"
+                />
+              ))}
+              {dots.map((p, i) => (
+                <circle key={i} cx={p.cx} cy={p.cy} r={3} fill="#14110f" />
               ))}
               <line
                 x1={todayX}
@@ -153,15 +177,17 @@ export function Trend({ history, todayScore }: Props) {
                 opacity="0.7"
                 vectorEffect="non-scaling-stroke"
               />
-              <circle
-                cx={todayX}
-                cy={todayY}
-                r={10}
-                fill="#c1121f"
-                stroke="#f4ead8"
-                strokeWidth="3"
-                vectorEffect="non-scaling-stroke"
-              />
+              {todayY != null && (
+                <circle
+                  cx={todayX}
+                  cy={todayY}
+                  r={10}
+                  fill="#c1121f"
+                  stroke="#f4ead8"
+                  strokeWidth="3"
+                  vectorEffect="non-scaling-stroke"
+                />
+              )}
             </svg>
             <div className="trend-today-label" style={{ left: `${todayX}px` }}>
               TODAY

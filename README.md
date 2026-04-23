@@ -105,13 +105,13 @@ The frontend reads `data/history.json` for the trend chart and the latest day's 
 
 ### The `hard_signals` concept
 
-Sentiment dimensions measure **what fans say**. Hard signals measure **what fans do**. They live in a separate block so the frontend can display them alongside — not inside — the main Phan-o-meter gauge. When they diverge ("sentiment says Cautious but attendance is running 9 points below baseline"), that divergence is the interesting moment. Future hard signals to add: local sports-talk-radio caller volume, Phillies Twitter follower growth rate, jersey sales momentum (if any public source exists).
+Sentiment dimensions measure **what fans say**. Hard signals measure **what fans do**. They live in a separate block so the frontend can display them alongside — not inside — the main Phan-o-meter gauge. When they diverge ("sentiment says Touch and Go but attendance is running 9 points below baseline"), that divergence is the interesting moment. Future hard signals to add: local sports-talk-radio caller volume, Phillies Twitter follower growth rate, jersey sales momentum (if any public source exists).
 
 ## Tuning
 
 - **Dimension weights** — `DIMENSION_WEIGHTS` in `phanometer.py`. Results satisfaction is weighted highest because fan mood tracks wins/losses hardest. Tune based on what feels right after a few weeks of data.
 - **Baseline responsiveness** — `alpha=0.3` in `compute_baseline()`. Higher alpha = baseline moves faster (less stable). Lower = baseline is more stubborn.
-- **Reactive vs baseline blend** — `min(0.7, 0.3 + volume / 500.0)` in `compute_display_score()`. On high-volume days (game day, breaking news), the reactive score gets more weight.
+- **Insufficient-signal threshold** — `MIN_CONTENT_VOLUME = 30` in `phanometer.py`. Content volume is `reddit_items + audio_minutes`; a day below the threshold publishes `insufficient_signal: true` and a null `display_score` instead of a potentially noisy reading. A single ~30-min podcast episode clears the bar.
 - **Lookback** — `LOOKBACK_HOURS = 24`. Each day only pulls the last day of content. Older content is already baked into prior days' scores — the baseline carries long-term memory without stale quotes polluting today's prompt.
 
 ## Next steps (not yet built)
