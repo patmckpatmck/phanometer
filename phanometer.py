@@ -179,6 +179,10 @@ def pull_reddit():
 # -----------------------------------------------------------------------------
 # Scoring with Claude
 # -----------------------------------------------------------------------------
+# postseason_belief: calibrated April 2026 to stop coping framing (wild-card-era
+# reassurance, "it's only April," recovery precedents from other teams' slow
+# starts) from raising the score. Revisit if postseason_belief fails to rise
+# during a genuine hot streak or a positive trade-deadline signal.
 SCORING_PROMPT = """You are analyzing Philadelphia Phillies fan sentiment across multiple sources.
 
 You'll receive two kinds of content from the last 24-48 hours:
@@ -244,8 +248,31 @@ Scoring guide:
 - dimension_confidence = how much signal on that dimension did you actually see? 0 = barely mentioned, 100 = heavily discussed
 - voice_breakdown = one overall score per voice (null if that voice has no content today)
 - health_outlook uses HIGHER = fewer/less-severe injury concerns (inverted from intuitive "anxiety")
+- postseason_belief has its own definition — see "postseason_belief scoring" below. Read before scoring this dimension.
 - 3-5 themes capturing what fans and shows actually discussed
 - 3-4 representative quotes spanning the mood spectrum, drawn from both Reddit and podcasts
+
+postseason_belief scoring:
+This dimension measures EXPRESSED BELIEF that the Phillies will make a deep playoff run THIS season. It is NOT a resilience or "don't panic" index.
+
+RAISES postseason_belief:
+- Expressed confidence in the roster's playoff trajectory ("this team can win the division," "still the deepest roster in the NL East," "best rotation in baseball when healthy")
+- Discussion of the Phillies as trade-deadline BUYERS, or expectations the front office will add at the deadline
+- Playoff-odds discussion framed positively (PECOTA/FanGraphs percentages cited approvingly, confident NLCS/World Series predictions)
+- Arguments that the current roster, as constructed, is built to make a deep October run
+
+DOES NOT raise postseason_belief — this is COPING FRAMING, not belief:
+- Invoking the wild-card era to argue panic is premature ("three wild cards means no one's out in April")
+- Citing recovery precedents from other teams' slow starts ("the 2019 Nationals were 19-31 and won the World Series")
+- "It's only April" / "long season" / "162 is a lot of games" framing
+- Analysts explicitly managing fan despair, reassuring listeners not to overreact, or talking callers off a ledge
+- Generic structural reassurance that panic is premature
+
+Coping framing is a REBUTTAL to despair, not an EXPRESSION of belief. When the only postseason-adjacent content is analysts telling fans to stay calm, postseason_belief should stay LOW (tracking the rest of the day's negativity), not rise.
+
+Examples:
+- CORRECT read, belief rising (score ~65+): Hosts spend a segment discussing the Phillies as clear deadline buyers, defending the roster's ceiling, or confidently projecting a deep October run.
+- CORRECT read, belief LOW during a losing streak even with coping framing present (score ~15-25): "It's only April, the wild-card era forgives slow starts, teams have come back from 8-15 before." This is structural reassurance, not expressed belief — keep postseason_belief low, in line with the rest of the day's sentiment.
 
 Rules:
 - Do NOT score individual players (no "Harper: 80", "Bohm: 20"). Focus on dimensions and themes.
