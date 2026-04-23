@@ -1,17 +1,19 @@
 {
   "date": "2026-04-23",
-  "display_score": 24,
-  "reactive_score": 17,
+  "display_score": 21,
+  "reactive_score": 21,
   "baseline_score": 28,
-  "mood_label": "Boo-Bird",
+  "insufficient_signal": false,
+  "content_volume": 172,
+  "mood_label": "Not Again",
   "dimensions": {
-    "results_satisfaction": 5,
-    "front_office_trust": 18,
-    "manager_confidence": 25,
-    "lineup_confidence": 12,
-    "pitching_confidence": 18,
-    "health_outlook": 22,
-    "postseason_belief": 32
+    "results_satisfaction": 8,
+    "front_office_trust": 22,
+    "manager_confidence": 30,
+    "lineup_confidence": 18,
+    "pitching_confidence": 20,
+    "health_outlook": 28,
+    "postseason_belief": 35
   },
   "dimension_confidence": {
     "results_satisfaction": 95,
@@ -19,8 +21,8 @@
     "manager_confidence": 82,
     "lineup_confidence": 92,
     "pitching_confidence": 85,
-    "health_outlook": 75,
-    "postseason_belief": 70
+    "health_outlook": 78,
+    "postseason_belief": 72
   },
   "voice_breakdown": {
     "reddit": {
@@ -29,74 +31,74 @@
     },
     "fan_analyst": {
       "score": 28,
-      "note": "Deeply critical of Dombrowski's offseason inaction and roster construction, but maintains slim postseason faith given the wild card era and roster talent ceiling."
+      "note": "Hittin' Season and the Philly Show hosts agree this is a genuine organizational failure, blaming Dombrowski's offseason inaction and psychological pressure on a same-core roster, while grudgingly holding onto faint playoff hope given the wild card era."
     },
     "beat_writer": {
       "score": null,
       "note": null
     },
     "radio_populist": {
-      "score": 8,
-      "note": "Visceral despair across both episodes \u2014 can't envision a win, calling the roster fraudulent, demanding someone get visibly angry, and openly questioning whether the team has any fire left."
+      "score": 10,
+      "note": "Talk-radio host Jack Fritz is at peak despair \u2014 calling the team rudderless, demanding accountability from star players and the manager, and expressing he cannot envision them winning another game."
     }
   },
   "themes": [
     {
-      "name": "Eight-game losing streak / worst run differential in baseball",
+      "name": "Eight-game losing streak feels catastrophic",
       "delta": -10,
-      "sample": "At 8-16 with a negative-50 run differential, both the talk-radio host and the fan analyst describe this as the worst stretch this core group has ever played."
+      "sample": "Worst record in the NL, negative-50 run differential worst in baseball by 15 runs, and fan hosts say it feels like the season is slipping away in late April."
     },
     {
-      "name": "Dombrowski offseason failure",
+      "name": "Dombrowski's offseason inaction blamed",
       "delta": -8,
-      "sample": "Both voices agree the decision to run back essentially the same roster without addressing psychological fatigue or lineup depth is an indictment of front-office leadership."
+      "sample": "Fan analysts argue failing to add a real cleanup hitter or inject new clubhouse energy was a critical organizational failure now fully exposed."
     },
     {
-      "name": "Taiwon Walker must be removed",
+      "name": "Tywuan Walker must be removed immediately",
       "delta": -7,
-      "sample": "Opposing hitters are posting a Joe DiMaggio 1941-level slash line against Walker; both voices demand he be DFA'd or at minimum removed from any meaningful role."
+      "sample": "Both shows and callers agree Walker is making every opposing hitter look like prime Joe DiMaggio and saps all energy from the team when he takes the mound."
     },
     {
-      "name": "Rob Thompson hot seat emerging",
+      "name": "Manager's job security openly questioned",
       "delta": -6,
-      "sample": "The fan analyst and Philly Show voices set a late-May deadline: if nothing changes, Thompson likely loses his job, though both acknowledge the players bear primary responsibility."
+      "sample": "Rob Thompson's future is a growing topic, with hosts noting he may pay the price for a roster problem not of his making if the losing continues into late May."
     },
     {
-      "name": "Felix Reyes as accidental bright spot",
+      "name": "Felix Reyes offers a rare bright spot",
       "delta": 4,
-      "sample": "The rookie cleanup hitter hitting the ball hard in multiple appearances is the lone positive note, cited by the talk-radio host as the only player who looks dangerous at the plate."
+      "sample": "The rookie cleanup hitter hitting the ball hard in his first big-league starts is the one genuine source of excitement, even as his presence indicts the front office construction."
     }
   ],
   "quotes": [
     {
-      "text": "They are actually playing like the worst team in baseball.",
-      "score": 4,
-      "source_hint": "talk-radio host on WIP High Hopes postgame"
+      "text": "This is a freaking disaster. They are actually playing like the worst team in baseball.",
+      "score": 5,
+      "source_hint": "talk-radio host on WIP High Hopes, reacting to the eight-game losing streak"
     },
     {
-      "text": "There is absolutely no sign that it's going to get better anytime soon.",
+      "text": "The Phillies right now are playing like a bunch of pathetic failures and there is absolutely no sign that it's going to get better anytime soon.",
       "score": 6,
-      "source_hint": "fan analyst on Hittin' Season"
+      "source_hint": "Hittin' Season host opening his Wednesday night episode"
     },
     {
       "text": "This is the least enjoyable 23 games of baseball I can remember the Phillies have played in my entire life.",
-      "score": 3,
-      "source_hint": "caller quoted on WIP High Hopes postgame"
+      "score": 4,
+      "source_hint": "caller to WIP High Hopes final out Tuesday night edition"
     },
     {
-      "text": "If you had to bet right now, do they make the playoffs this year? Yes.",
-      "score": 55,
-      "source_hint": "guest Jeff Warren on Hittin' Season, representing a floor of residual postseason belief"
+      "text": "Making Felix Reyes your number four hitter is an indictment on Dave Dombrowski.",
+      "score": 18,
+      "source_hint": "Hittin' Season host on the front office's roster construction failure"
     }
   ],
-  "reasoning": "The dominant mood across both voices is near-total despair about the present with only a thin thread of long-term faith holding on. The talk-radio host is the most emotionally raw, describing a rudderless team with no competitive fire and demanding public accountability from players and management alike. The fan analyst is more analytical but equally damning, framing the collapse as a predictable psychological consequence of Dombrowski's failure to inject new energy this offseason, while still leaning toward a playoff prediction given wild-card math. The one point of divergence is tone: the fan analyst retains measured optimism that this roster has a higher ceiling, while the talk-radio host genuinely cannot picture the team winning another game. Health concerns around Realmuto, Alvarado, and Duran compound an already dire pitching situation and drag health outlook down significantly.",
+  "reasoning": "Sentiment across both podcast voices is near rock-bottom, driven by an eight-game losing streak, a historically bad negative-50 run differential, mounting injuries to the bullpen, and a lineup that has produced just 16 runs during the skid. The fan analyst voice is slightly more analytical \u2014 still holding faint playoff belief given the wild card structure and citing precedents of teams recovering from similar starts \u2014 while the talk-radio host is in full emotional freefall, calling the team rudderless and unable to envision another win. Both voices converge sharply on Dombrowski accountability: the failure to add a legitimate cleanup hitter or fresh clubhouse energy this offseason is now seen as the root cause of a crisis that feels psychological as much as it is performance-based.",
   "source_counts": {
     "reddit_posts": 0,
     "reddit_comments": 0,
     "match_threads": 0,
     "podcasts_attempted": 4,
     "podcasts_transcribed": 4,
-    "podcast_chars": 133944,
+    "podcast_chars": 128933,
     "youtube_attempted": 0,
     "youtube_transcribed": 0,
     "youtube_chars": 0
@@ -106,7 +108,7 @@
       "feed_name": "High Hopes",
       "title": "Final Out: Another Loss.",
       "voice": "radio_populist",
-      "chars": 25448
+      "chars": 26926
     },
     {
       "feed_name": "Hittin' Season",
@@ -118,13 +120,13 @@
       "feed_name": "The Phillies Show",
       "title": "Rob Thomson is on the hot seat",
       "voice": "fan_analyst",
-      "chars": 33582
+      "chars": 29956
     },
     {
       "feed_name": "High Hopes",
       "title": "Final Out: This Isn't Fun",
       "voice": "radio_populist",
-      "chars": 33234
+      "chars": 30371
     }
   ],
   "hard_signals": {
@@ -233,5 +235,5 @@
       ]
     }
   },
-  "generated_at": "2026-04-23T16:26:59.644037+00:00"
+  "generated_at": "2026-04-23T17:03:20.755738+00:00"
 }
