@@ -119,6 +119,55 @@ TRANSCRIPT_CHAR_CAP = 80_000  # per episode — captures a full hour-long podcas
 MAX_TRANSCRIPTIONS_PER_RUN = 4  # cost safeguard; newest-first, older episodes dropped
 APPLE_LOOKUP_URL = "https://itunes.apple.com/lookup"
 
+# Whisper prompt parameter — biases transcription toward Phillies-specific
+# vocabulary so uncommon player names ("Taijuan Walker", "Ranger Suárez")
+# transcribe correctly instead of getting mangled ("Tywuan Walker"). Kept as
+# natural English because Whisper uses this as a conditional prior, not a
+# keyword list; the API limit is ~244 tokens so this needs to stay compact.
+#
+# TODO: review this list at each trade deadline (mid-July) and on opening day
+# (late March). Roster churn makes stale names either dead weight or, worse,
+# actively misleading — a name no longer on the roster biases Whisper toward
+# mis-transcribing someone who IS on the roster with a similar-sounding name.
+WHISPER_PROMPT = (
+    "Philadelphia Phillies baseball. Roster includes Bryce Harper, Trea Turner, "
+    "Kyle Schwarber, Nick Castellanos, Alec Bohm, Bryson Stott, J.T. Realmuto, "
+    "Felix Reyes, Cristian Pache, Brandon Marsh, Harrison Bader. "
+    "Pitchers: Zack Wheeler, Aaron Nola, Taijuan Walker, Ranger Suárez, "
+    "Cristopher Sánchez, Andrew Painter, Orion Kerkering, José Alvarado, "
+    "Jeff Hoffman, Jesús Luzardo. Manager Rob Thomson (Topper). "
+    "President of baseball operations Dave Dombrowski. "
+    "Home park: Citizens Bank Park."
+)
+
+# Post-transcription normalization — a safety net for known Whisper
+# misspellings that slip past the prompt bias. Keys are case-insensitive
+# match patterns (wrapped in word boundaries in normalize_names below);
+# values are the canonical spelling. Extend as new misspellings surface.
+NAME_NORMALIZATIONS = {
+    # Taijuan Walker — Whisper mangles both full-name and solo first-name mentions.
+    # "Tywuan"/"Tywan" aren't real names (they're phoneticizations of Taijuan), so
+    # normalizing them standalone is safe — no collision risk with a different person.
+    "tywuan walker":   "Taijuan Walker",
+    "tywan walker":    "Taijuan Walker",
+    "tywuan":          "Taijuan",
+    "tywan":           "Taijuan",
+    # Rob Thomson (no P) is correct; Thompson is a common mis-hearing. Scoped to
+    # specific manager-related phrases to avoid touching other Thompsons.
+    "rob thompson":    "Rob Thomson",
+    "topper thompson": "Topper Thomson",
+}
+
+
+def normalize_names(text):
+    """Apply NAME_NORMALIZATIONS to a transcript. Case-insensitive, whole-word.
+    Returns the input unchanged if it is empty or None."""
+    if not text:
+        return text
+    for wrong, right in NAME_NORMALIZATIONS.items():
+        text = re.sub(rf"\b{re.escape(wrong)}\b", right, text, flags=re.IGNORECASE)
+    return text
+
 # -----------------------------------------------------------------------------
 # RSS parsing
 # -----------------------------------------------------------------------------
@@ -293,6 +342,9 @@ def _transcribe_audio_once(audio_path):
     parts.append(f'Content-Disposition: form-data; name="response_format"\r\n\r\n'.encode())
     parts.append("text\r\n".encode())
     parts.append(f"--{boundary}\r\n".encode())
+    parts.append(f'Content-Disposition: form-data; name="prompt"\r\n\r\n'.encode())
+    parts.append(f"{WHISPER_PROMPT}\r\n".encode("utf-8"))
+    parts.append(f"--{boundary}\r\n".encode())
     parts.append(
         f'Content-Disposition: form-data; name="file"; filename="{filename}"\r\n'.encode()
     )
@@ -378,6 +430,7 @@ def pull_podcasts(lookback_hours_override=None, dry=False):
                     )
 
                 text = transcribe_audio(compressed)
+                text = normalize_names(text)
                 if len(text) > TRANSCRIPT_CHAR_CAP:
                     text = text[:TRANSCRIPT_CHAR_CAP] + "...[truncated]"
                 transcripts.append({

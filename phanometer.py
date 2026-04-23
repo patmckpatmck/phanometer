@@ -179,6 +179,10 @@ def pull_reddit():
 # -----------------------------------------------------------------------------
 # Scoring with Claude
 # -----------------------------------------------------------------------------
+# postseason_belief: calibrated April 2026 to stop coping framing (wild-card-era
+# reassurance, "it's only April," recovery precedents from other teams' slow
+# starts) from raising the score. Revisit if postseason_belief fails to rise
+# during a genuine hot streak or a positive trade-deadline signal.
 SCORING_PROMPT = """You are analyzing Philadelphia Phillies fan sentiment across multiple sources.
 
 You'll receive two kinds of content from the last 24-48 hours:
@@ -244,8 +248,91 @@ Scoring guide:
 - dimension_confidence = how much signal on that dimension did you actually see? 0 = barely mentioned, 100 = heavily discussed
 - voice_breakdown = one overall score per voice (null if that voice has no content today)
 - health_outlook uses HIGHER = fewer/less-severe injury concerns (inverted from intuitive "anxiety")
+- postseason_belief has its own definition — see "postseason_belief scoring" below. Read before scoring this dimension.
 - 3-5 themes capturing what fans and shows actually discussed
 - 3-4 representative quotes spanning the mood spectrum, drawn from both Reddit and podcasts
+
+postseason_belief scoring:
+This dimension measures EXPRESSED BELIEF that the Phillies will make a deep playoff run THIS season. It is NOT a resilience or "don't panic" index.
+
+RAISES postseason_belief:
+- Expressed confidence in the roster's playoff trajectory ("this team can win the division," "still the deepest roster in the NL East," "best rotation in baseball when healthy")
+- Discussion of the Phillies as trade-deadline BUYERS, or expectations the front office will add at the deadline
+- Playoff-odds discussion framed positively (PECOTA/FanGraphs percentages cited approvingly, confident NLCS/World Series predictions)
+- Arguments that the current roster, as constructed, is built to make a deep October run
+
+DOES NOT raise postseason_belief — this is COPING FRAMING, not belief:
+- Invoking the wild-card era to argue panic is premature ("three wild cards means no one's out in April")
+- Citing recovery precedents from other teams' slow starts ("the 2019 Nationals were 19-31 and won the World Series")
+- "It's only April" / "long season" / "162 is a lot of games" framing
+- Analysts explicitly managing fan despair, reassuring listeners not to overreact, or talking callers off a ledge
+- Generic structural reassurance that panic is premature
+
+Coping framing is a REBUTTAL to despair, not an EXPRESSION of belief. When the only postseason-adjacent content is analysts telling fans to stay calm, postseason_belief should stay LOW (tracking the rest of the day's negativity), not rise.
+
+Examples:
+- CORRECT read, belief rising (score ~65+): Hosts spend a segment discussing the Phillies as clear deadline buyers, defending the roster's ceiling, or confidently projecting a deep October run.
+- CORRECT read, belief LOW during a losing streak even with coping framing present (score ~15-25): "It's only April, the wild-card era forgives slow starts, teams have come back from 8-15 before." This is structural reassurance, not expressed belief — keep postseason_belief low, in line with the rest of the day's sentiment.
+
+Voice/source attribution — strict field-level rules:
+
+The output schema has two kinds of text fields. Different rules apply.
+
+METADATA fields (attribution is the purpose of the field — use human labels here when natural):
+- voice_breakdown[*].note      — body text for each voice's per-voice section
+- quotes[].source_hint         — attribution label rendered above each quote
+
+NARRATIVE PROSE fields (attribution is FORBIDDEN — the UI renders attribution separately around these fields, so mentioning sources in the prose itself is redundant and weakens the writing):
+- reasoning                    — renders as "The Vibe" summary
+- themes[].name                — renders as Cheers & Groans headline
+- themes[].sample              — renders as Cheers & Groans body copy
+- quotes[].text                — renders as the In the Air blurb body (must still be verbatim from input; see below)
+
+HARD RULE for every narrative-prose field:
+Do NOT reference sources, shows, hosts, podcasts, callers, Reddit, "voices," or any meta-language about who is saying something. Write about the SUBSTANCE only — what is happening with the team, not who is discussing it.
+
+Violations — these phrases and any close variants are FORBIDDEN in narrative prose fields:
+- "both shows", "both podcasts", "both shows agree", "the shows agree"
+- "fan hosts", "the hosts", "podcast hosts", "hosts say", "hosts describe"
+- "callers", "callers agree", "callers say"
+- "the podcast voices", "both podcast voices", "across both present voices", "across both voices"
+- the bare word "voices" used as a noun meaning sources (e.g., "voices sympathetic to X," "voices on the left," "even voices that...") — this is the single most common leak, treat it as banned
+- "sentiment across sources", "sentiment across voices", "sentiment across both podcast voices"
+- "fan analyst", "talk-radio host", "beat writer" as subjects of a sentence in narrative prose
+- "according to the fan analyst", "per the beat writer"
+- "Reddit", "r/phillies" as a subject (e.g., "Reddit is outraged")
+- any other formulation that names WHERE the sentiment is coming from
+
+Correct (substance only):
+  "The eight-game losing streak and -50 run differential have pushed fan mood to near rock-bottom."
+Incorrect (attribution leak):
+  "Sentiment across both podcast voices is near rock-bottom, driven by an eight-game losing streak."
+
+Correct:
+  "Historically bad offensive production — 0-for-26 with RISP over six games."
+Incorrect:
+  "Both shows describe the offensive production as historically bad."
+
+Expressing tone divergence WITHOUT naming sources:
+The most tempting leak is a sentence like "one voice contextualizes while the other alarms." DO NOT write that. If divergence matters, describe the SUBSTANCE of the two positions directly, without attributing them:
+Correct (substance-only divergence):
+  "The mood is split between contextualizing framings — wild-card-era reassurance, historical comeback precedents — and unambiguous alarm that is openly forecasting managerial dismissal."
+Incorrect (attribution leak via "voices"):
+  "One voice contextualizes while the other has moved into unambiguous alarm."
+Incorrect (attribution leak via "voices sympathetic to"):
+  "Even voices sympathetic to the manager acknowledge he may pay the price."
+Correct rewrite of the above:
+  "Even sympathetic analysis concedes the manager may pay the price for a roster problem not of his making."
+
+For quotes[].text specifically: the quote must appear verbatim in the input. Prefer verbatim quotes about the team, players, or front office. If the only verbatim candidate is meta-commentary about other media ("both shows agree," "fan hosts say"), pick a different verbatim candidate instead.
+
+SELF-CHECK — MANDATORY before emitting JSON:
+Re-read each narrative-prose field below and confirm no sentence references sources, shows, hosts, callers, voices, Reddit, or where a sentiment is coming from:
+  - reasoning
+  - every themes[].name
+  - every themes[].sample
+  - every quotes[].text
+If any do, rewrite them to describe substance only. Do not emit the JSON until every narrative sentence passes this check.
 
 Rules:
 - Do NOT score individual players (no "Harper: 80", "Bohm: 20"). Focus on dimensions and themes.
@@ -254,7 +341,7 @@ Rules:
 - Podcast ads and sponsor reads should be ignored — they are NOT sentiment signal
 - CRITICAL: For voice_breakdown, only score voices that have content in the input below. If a voice is absent from the input (no [PODCAST fan_analyst:...] tag appears, for example), return null for that voice, NOT an inferred score. Never hallucinate a voice's sentiment from context.
 - CRITICAL: For quotes, only include text that appears verbatim in the input below. Do not invent or paraphrase quotes.
-- CRITICAL: In any prose field (reasoning, quotes[].source_hint, voice_breakdown[*].note, themes[*].sample), NEVER write the internal voice keys (reddit, fan_analyst, beat_writer, radio_populist) verbatim. Always use the human labels from the table above (r/phillies, fan analyst, beat writer, talk-radio host). The underscore keys are machine-only identifiers; user-facing copy must read naturally. For example, write "the beat writer (Phillies Therapy)", not "the beat_writer (Phillies Therapy)".
+- CRITICAL: In the METADATA fields where attribution is expected (voice_breakdown[*].note, quotes[].source_hint), NEVER write the internal voice keys (reddit, fan_analyst, beat_writer, radio_populist) verbatim. Use the human labels from the table above (r/phillies, fan analyst, beat writer, talk-radio host). Example: write "the beat writer (Phillies Therapy)", not "the beat_writer (Phillies Therapy)".
 
 Content to analyze:
 """
