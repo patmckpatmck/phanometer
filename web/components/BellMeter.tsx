@@ -16,8 +16,12 @@ interface Props {
 // downward-hanging clapper to the viewer's LEFT — that's the sign flip.
 
 const SWEEP_HALF = 90;
+// Bell's effective visual pivot in SVG coord space. X=500 is horizontal
+// center. Y=90 is tuned empirically so the rotated clapper and the red needle
+// point at the same arc tick; the bell image's transform-origin box measures
+// ~98 but the PNG's visual clapper axis sits a few units lower.
 const PIVOT_X = 500;
-const PIVOT_Y = 65;
+const PIVOT_Y = 90;
 const ARC_CX = 500;
 const ARC_CY = 180;
 const ARC_R = 340;
