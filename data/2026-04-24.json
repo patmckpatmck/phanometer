@@ -1,28 +1,28 @@
 {
   "date": "2026-04-24",
-  "display_score": 17,
-  "reactive_score": 17,
+  "display_score": 16,
+  "reactive_score": 16,
   "baseline_score": 25,
   "insufficient_signal": false,
-  "content_volume": 190,
+  "content_volume": 137,
   "mood_label": "Meltdown",
   "dimensions": {
     "results_satisfaction": 4,
     "front_office_trust": 22,
-    "manager_confidence": 30,
-    "lineup_confidence": 12,
-    "pitching_confidence": 20,
-    "health_outlook": 22,
-    "postseason_belief": 18
+    "manager_confidence": 28,
+    "lineup_confidence": 18,
+    "pitching_confidence": 12,
+    "health_outlook": 25,
+    "postseason_belief": 14
   },
   "dimension_confidence": {
-    "results_satisfaction": 97,
-    "front_office_trust": 85,
-    "manager_confidence": 90,
-    "lineup_confidence": 95,
-    "pitching_confidence": 88,
-    "health_outlook": 80,
-    "postseason_belief": 72
+    "results_satisfaction": 98,
+    "front_office_trust": 82,
+    "manager_confidence": 78,
+    "lineup_confidence": 85,
+    "pitching_confidence": 92,
+    "health_outlook": 72,
+    "postseason_belief": 70
   },
   "voice_breakdown": {
     "reddit": {
@@ -30,8 +30,9 @@
       "note": null
     },
     "fan_analyst": {
-      "score": 20,
-      "note": "Hittin' Season and The Phillies Show are in near-total alarm \u2014 nine-game losing streak called historically embarrassing, front office indicted for roster construction failures, Thomson's job openly threatened; small coping notes about wild-card era and eventual rebound keep score from bottoming out entirely."
+      "score": 18,
+      "notes": null,
+      "note": "The fan analyst voices (Phillies Talk / Phillies Show) describe a nine-game losing streak as 'shocking,' 'gross,' and historically unprecedented for a team this talented, with systemic concerns about aging, roster construction, and a rotation ranked 28th that hasn't produced a seven-inning start all season."
     },
     "beat_writer": {
       "score": null,
@@ -39,94 +40,88 @@
     },
     "radio_populist": {
       "score": 8,
-      "note": "Talk-radio host expresses near-complete despair \u2014 cannot envision another win, calls the situation a 'disaster,' openly predicts managerial and coaching firings, questions whether star players still have competitive fire."
+      "note": "The talk-radio host (High Hopes / WIP) is the most viscerally alarmed, calling the situation a 'freaking disaster,' openly predicting managerial and coaching firings, questioning whether the star players still have competitive fire, and saying he cannot envision the team winning a game."
     }
   },
   "themes": [
     {
-      "name": "Nine Games of Freefall",
+      "name": "Nine Straight: Historic Collapse for a Championship Roster",
       "delta": -10,
-      "sample": "A nine-game losing streak \u2014 tied for the longest this century \u2014 has produced the worst record in the National League, a -50 run differential worst in baseball by 15 runs, and a sweep out of Wrigley for the first time since 1973."
+      "sample": "A nine-game losing streak \u2014 tied for the worst this century \u2014 from a team with World Series aspirations has produced a level of disbelief that cuts deeper precisely because of how talented the names on this roster are."
     },
     {
-      "name": "Offense in Historic Collapse",
+      "name": "Rotation in Freefall",
       "delta": -9,
-      "sample": "The lineup went 0-for-26 with runners in scoring position over a six-game stretch, averages 2 runs per game during the losing streak, and has yet to beat a left-handed starter all season \u2014 with pitch recognition and passive zone coverage cited as root causes."
+      "sample": "No starting pitcher has reached the seventh inning in 25 games \u2014 the longest such drought in the modern era \u2014 while Christopher Sanchez has surrendered more hits in his last four starts than in any four-start span since 2014."
     },
     {
-      "name": "Front Office on Trial",
-      "delta": -8,
-      "sample": "A $300 million payroll forced to deploy a rookie in his second career start as cleanup hitter is framed as an indictment of the offseason \u2014 no real cleanup bat acquired, $35 million paid to two players not on the roster, and organizational failure to develop star bats dating back decades."
-    },
-    {
-      "name": "Thomson's Job in the Balance",
-      "delta": -6,
-      "sample": "Despite broad personal respect for the manager, there is open acknowledgment that if the losing continues through late May, a change becomes inevitable \u2014 with the parallel to Girardi's dismissal drawn explicitly and the path of least resistance pointed squarely at the dugout."
-    },
-    {
-      "name": "Injury Pile-Up Deepens the Crisis",
+      "name": "Front Office Accountability: A Long Ledger of Sunk Costs",
       "delta": -7,
-      "sample": "J.T. Realmuto on the IL with back spasms, Alvarado and Duran both unavailable in the bullpen, and Taiwan Walker released \u2014 leaving a rotation without a single seven-inning start in 25 games and a catching tandem of Marchand and Stubbs that inspires little confidence."
+      "sample": "With roughly $34 million committed to Castellanos and Walker \u2014 neither of whom is on the roster \u2014 scrutiny is intensifying over a pattern of free-agent signings that have been released mid-season dating back to 2021."
+    },
+    {
+      "name": "Thomson Hot Seat and the Leadership Void",
+      "delta": -6,
+      "sample": "Dombrowski publicly denied pondering a managerial change, but the lack of visible fury from players, coaches, or the manager himself has fueled mounting anger that no one is kicking anyone into gear \u2014 and that the manager may pay the price for a roster problem not entirely of his making."
+    },
+    {
+      "name": "JT Realmuto IL Stint Compounds Pitching Crisis",
+      "delta": -5,
+      "sample": "Realmuto's back injury \u2014 the latest in a string of physical setbacks before April is even over \u2014 removes the staff's security blanket precisely when Wheeler is making his season debut and the rotation desperately needs steadiness."
     }
   ],
   "quotes": [
     {
-      "text": "This is a freaking disaster. They are actually playing like the worst team in baseball.",
-      "score": 3,
-      "source_hint": "talk-radio host (High Hopes / WIP)"
-    },
-    {
-      "text": "It is shocking and it's like it's gross. How is this possibly happening to a team like the Phillies?",
-      "score": 5,
-      "source_hint": "fan analyst (Phillies Talk / NBC Sports Philadelphia)"
-    },
-    {
-      "text": "Making Felix Reyes your No. 4 hitter is an indictment on Dave Dombrowski.",
-      "score": 12,
-      "source_hint": "fan analyst (Hittin' Season)"
-    },
-    {
-      "text": "I'm not sure they have the fire anymore. I'm really not.",
+      "text": "It's shocking and it's like it's gross. How is this possibly happening to a team like the Phillies?",
       "score": 6,
+      "source_hint": "fan analyst (Phillies Talk)"
+    },
+    {
+      "text": "This is not just some blip in the radar. This is a freaking disaster.",
+      "score": 4,
       "source_hint": "talk-radio host (High Hopes / WIP)"
+    },
+    {
+      "text": "I'm not sure they have the fire anymore. I'm really not. I'm not sure they have the fire to do this anymore.",
+      "score": 5,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    },
+    {
+      "text": "It sucks is what it does. It sucks.",
+      "score": 8,
+      "source_hint": "fan analyst (The Phillies Show)"
     }
   ],
-  "reasoning": "A nine-game losing streak, the worst record in the National League, a historically bad run differential, and a 0-for-26 stretch with runners in scoring position have pushed fan mood to near-absolute lows across every dimension. The sole divergence in tone is between apocalyptic alarm \u2014 forecasting managerial dismissal, questioning whether star players retain competitive hunger, and declaring the front office's roster construction a failure \u2014 and a narrower thread of reluctant, conditional optimism that the wild-card era keeps the postseason mathematically alive and that this roster is too talented for the collapse to be permanent. That conditional optimism does not constitute expressed belief in a deep run; it is structural reassurance offered against a backdrop of genuine despair, and postseason belief is scored accordingly.",
+  "reasoning": "A nine-game losing streak, the worst run differential in baseball, and a rotation that has not produced a single seven-inning start in 25 games have pushed fan mood to near rock-bottom. The most measured analysis acknowledges glimmers \u2014 the team showed fight in Thursday's finale, Wheeler's return offers a lifeline \u2014 but frames these as desperate grasping rather than genuine optimism, and the structural concerns about aging, roster construction failures, and roughly $34 million in sunk costs are treated as indictments of the front office, not just a rough patch. The angriest register openly predicts coaching and managerial dismissals, questions whether the star players retain competitive hunger, and treats the postseason as an afterthought; the only forward-looking content invoking the wild-card era or the long season is explicit coping framing rather than expressed belief in a deep October run.",
   "source_counts": {
     "reddit_posts": 0,
     "reddit_comments": 0,
     "match_threads": 0,
     "podcasts_attempted": 4,
-    "podcasts_transcribed": 4,
-    "podcast_chars": 142581,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 102496,
     "youtube_attempted": 0,
     "youtube_transcribed": 0,
     "youtube_chars": 0
   },
   "podcasts_used": [
     {
+      "feed_name": "The Phillies Show",
+      "title": "Rock bottom yet? Phillies have lost nine straight",
+      "voice": "fan_analyst",
+      "chars": 35347
+    },
+    {
       "feed_name": "Phillies Talk",
       "title": "Phillies in a freefall as April struggles continue, losing streak hits nine games",
       "voice": "fan_analyst",
-      "chars": 41572
+      "chars": 42970
     },
     {
       "feed_name": "High Hopes",
       "title": "Final Out: Another Loss.",
       "voice": "radio_populist",
-      "chars": 26348
-    },
-    {
-      "feed_name": "Hittin' Season",
-      "title": "Where Is the Bottom For the Phillies?",
-      "voice": "fan_analyst",
-      "chars": 40891
-    },
-    {
-      "feed_name": "The Phillies Show",
-      "title": "Rob Thomson is on the hot seat",
-      "voice": "fan_analyst",
-      "chars": 33770
+      "chars": 24179
     }
   ],
   "hard_signals": {
@@ -235,5 +230,5 @@
       ]
     }
   },
-  "generated_at": "2026-04-24T01:29:35.361855+00:00"
+  "generated_at": "2026-04-24T15:07:00.212505+00:00"
 }
