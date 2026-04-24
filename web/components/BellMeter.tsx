@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, type CSSProperties } from 'react';
+import { useEffect, useState } from 'react';
 
 interface Props {
   score: number;
@@ -32,19 +32,11 @@ function computeTargetAngle(score: number): number {
   return -((Math.atan2(dx, dy) * 180) / Math.PI);
 }
 
-interface BellAngleState {
-  angle: number;
-  idle: boolean;
-}
-
-export function useBellAngle(score: number): BellAngleState {
+export function useBellAngle(score: number): number {
   const targetAngle = computeTargetAngle(score);
   // -100° puts the bell swung past the RIGHT (see sign convention above).
   // This is only visible pre-hydration; the effect overwrites on first rAF tick.
-  const [state, setState] = useState<BellAngleState>({
-    angle: -SWEEP_HALF - 10,
-    idle: false,
-  });
+  const [angle, setAngle] = useState<number>(-SWEEP_HALF - 10);
 
   useEffect(() => {
     const prefersReducedMotion =
@@ -52,7 +44,7 @@ export function useBellAngle(score: number): BellAngleState {
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     if (prefersReducedMotion) {
-      setState({ angle: targetAngle, idle: false });
+      setAngle(targetAngle);
       return;
     }
 
@@ -71,13 +63,12 @@ export function useBellAngle(score: number): BellAngleState {
       const osc = Math.cos(freq * Math.PI * t) * Math.exp(-damping * t);
       const ease = 1 - osc * (1 - t);
       const current = initial + (final - initial) * ease;
-      const idleSway = Math.sin(now / 1700) * 0.8 * t;
 
       if (t < 1) {
-        setState({ angle: current + idleSway, idle: false });
+        setAngle(current);
         rafId = requestAnimationFrame(tick);
       } else {
-        setState({ angle: final, idle: true });
+        setAngle(final);
       }
     };
 
@@ -85,7 +76,7 @@ export function useBellAngle(score: number): BellAngleState {
     return () => cancelAnimationFrame(rafId);
   }, [targetAngle]);
 
-  return state;
+  return angle;
 }
 
 interface Tick {
@@ -130,7 +121,7 @@ function buildTicks(): Tick[] {
 }
 
 export function BellMeter({ score, muted = false }: Props) {
-  const { angle, idle } = useBellAngle(score);
+  const angle = useBellAngle(score);
   const ticks = buildTicks();
 
   const needleAngle = ((score - 50) / 50) * SWEEP_HALF;
@@ -147,19 +138,15 @@ export function BellMeter({ score, muted = false }: Props) {
   const b2x = round2(nx - perpX * baseW);
   const b2y = round2(ny - perpY * baseW);
 
-  const bellStyle: CSSProperties = idle
-    ? ({ ['--bell-angle' as string]: `${angle.toFixed(2)}deg` } as CSSProperties)
-    : { transform: `rotate(${angle.toFixed(2)}deg)` };
-
   return (
     <div className={muted ? 'meter-assembly meter-assembly--muted' : 'meter-assembly'}>
       <div className="bell-holder">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          className={idle ? 'bell-img bell-idle' : 'bell-img'}
+          className="bell-img"
           src="/assets/bell.png"
           alt="Liberty Bell"
-          style={bellStyle}
+          style={{ transform: `rotate(${angle.toFixed(2)}deg)` }}
         />
       </div>
 
