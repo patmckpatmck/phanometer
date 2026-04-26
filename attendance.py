@@ -191,6 +191,40 @@ def pull_attendance(today=None):
     }
 
 # -----------------------------------------------------------------------------
+# Ground-truth team facts (record, streak, division GB)
+# -----------------------------------------------------------------------------
+def get_team_facts():
+    """Pull current Phillies record, streak, and division GB from the MLB
+    Stats API standings endpoint. Returns a dict with three string fields
+    (record, streak, games_behind) or all-None if anything is missing or
+    the request fails. Pipeline must keep running on API failure."""
+    facts = {"record": None, "streak": None, "games_behind": None}
+    try:
+        year = datetime.now(timezone.utc).year
+        data = _fetch_json(
+            f"{MLB_BASE}/standings",
+            {"leagueId": 104, "season": year},
+        )
+        for division_block in data.get("records", []):
+            for tr in division_block.get("teamRecords", []):
+                if tr.get("team", {}).get("id") != PHILLIES_TEAM_ID:
+                    continue
+                wins = tr.get("wins")
+                losses = tr.get("losses")
+                streak_code = (tr.get("streak") or {}).get("streakCode")
+                gb = tr.get("divisionGamesBack")
+                if wins is None or losses is None or not streak_code or gb is None:
+                    return facts
+                return {
+                    "record": f"{wins}-{losses}",
+                    "streak": streak_code,
+                    "games_behind": gb,
+                }
+    except Exception:
+        return facts
+    return facts
+
+# -----------------------------------------------------------------------------
 # CLI
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
@@ -200,3 +234,5 @@ if __name__ == "__main__":
         print(f"\nRecent: {result['recent_avg_pct']}% over {result['recent_games_count']} games")
         print(f"Baseline: {result['baseline_avg_pct']}% over {result['baseline_games_count']} games")
         print(f"Delta: {result['delta_pct']:+.1f} pts  {'🚨 CANARY' if result['canary_signal'] else '✓'}")
+    print("\nTeam facts:")
+    print(json.dumps(get_team_facts(), indent=2))
