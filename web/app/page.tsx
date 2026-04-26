@@ -35,7 +35,7 @@ export default async function Page() {
           <span className="section-num">02 · The vibe</span>
           <h2 className="section-title">How Philly feels about the Phillies, today</h2>
         </div>
-        <p className="editor-body">{firstSentence(today.reasoning)}</p>
+        <p className="editor-body">{today.vibe_summary ?? firstSentence(today.reasoning)}</p>
       </section>
 
       <section className="section">

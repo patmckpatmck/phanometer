@@ -109,6 +109,8 @@ export interface DailyReport {
   voice_breakdown: VoiceBreakdown;
   themes: Theme[];
   quotes: Quote[];
+  // Optional: only written on records generated after 2026-04-26.
+  vibe_summary?: string;
   reasoning: string;
   source_counts: SourceCounts;
   podcasts_used?: PodcastUsed[];
