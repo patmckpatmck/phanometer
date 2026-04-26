@@ -91,20 +91,32 @@ def list_channel_clips(channel, lookback_hours):
         return []
 
     entries = info.get("entries") or []
+    n_raw = len(entries)
+
+    if n_raw == 0:
+        print(f"  ! {channel['name']}: yt-dlp returned 0 entries "
+              f"(possible bot-detection)")
+        return []
 
     # Pre-filter on shallow metadata (title + duration when present)
     candidates = []
+    n_title_match = 0
     for e in entries:
         title = e.get("title") or ""
         if channel["strategy"] == "filter" and not _title_matches_phillies(title):
             continue
+        n_title_match += 1
         shallow_dur = e.get("duration")
         if shallow_dur is not None and shallow_dur >= MAX_DURATION_SECONDS:
             continue
         candidates.append({"video_id": e["id"], "title": title})
+    n_shallow_dur_ok = len(candidates)
 
     full_opts = {"quiet": True, "no_warnings": True, "skip_download": True}
     clips = []
+    n_missing_meta = 0
+    n_dropped_lookback = 0
+    n_dropped_full_dur = 0
     with YoutubeDL(full_opts) as ydl:
         for c in candidates:
             url = f"https://www.youtube.com/watch?v={c['video_id']}"
@@ -117,9 +129,14 @@ def list_channel_clips(channel, lookback_hours):
             ts = inf.get("timestamp")
             dur = inf.get("duration")
             if ts is None or dur is None:
+                n_missing_meta += 1
                 continue
             pub = datetime.fromtimestamp(ts, tz=timezone.utc)
-            if pub < cutoff or dur >= MAX_DURATION_SECONDS:
+            if pub < cutoff:
+                n_dropped_lookback += 1
+                continue
+            if dur >= MAX_DURATION_SECONDS:
+                n_dropped_full_dur += 1
                 continue
             clips.append({
                 "feed_name": channel["name"],
@@ -131,6 +148,13 @@ def list_channel_clips(channel, lookback_hours):
                 "duration_seconds": dur,
                 "pub_date": pub.isoformat(),
             })
+
+    print(f"  {channel['name']}: stages — "
+          f"raw={n_raw}, title-match={n_title_match}, "
+          f"shallow-dur-ok={n_shallow_dur_ok}, "
+          f"missing-ts/dur={n_missing_meta}, "
+          f"dropped-lookback={n_dropped_lookback}, "
+          f"dropped-cap-fullmeta={n_dropped_full_dur}")
     return clips
 
 # -----------------------------------------------------------------------------
@@ -187,6 +211,7 @@ def pull_youtube(lookback_hours_override=None, dry=False):
               f"{len(dropped)} older clip(s):")
         for d in dropped:
             print(f"    - [{d['source_tag']}] {d['title'][:60]} ({d['pub_date']})")
+    print(f"  After cap: {len(all_clips)} clip(s)")
 
     if dry:
         print("Dry run — skipping download + transcription")
