@@ -32,7 +32,7 @@ from pathlib import Path
 
 from anthropic import Anthropic
 
-from attendance import pull_attendance
+from attendance import pull_attendance, get_team_facts
 from podcasts import pull_podcasts
 from youtube import pull_youtube
 
@@ -344,12 +344,27 @@ Rules:
 - CRITICAL: For quotes, only include text that appears verbatim in the input below. Do not invent or paraphrase quotes.
 - CRITICAL: In the METADATA fields where attribution is expected (voice_breakdown[*].note, quotes[].source_hint), NEVER write the internal voice keys (reddit, fan_analyst, beat_writer, radio_populist) verbatim. Use the human labels from the table above (r/phillies, fan analyst, beat writer, talk-radio host). Example: write "the beat writer (Phillies Therapy)", not "the beat_writer (Phillies Therapy)".
 
+GROUND-TRUTH FACTS:
+The "Content to analyze" section may begin with a "GROUND TRUTH (authoritative...)" block listing the team's current record, streak, and division position as of pipeline run time. When this block is present:
+- Treat these values as authoritative.
+- Any references in your output to record, streak, or division position MUST use these values, not numbers mentioned in podcast content.
+- Podcast content reflects the moment a host recorded — often a day or more before this run — and may be outdated. Use podcast content for tone, framing, and qualitative claims; use ground truth for current numerical state.
+
 Content to analyze:
 """
 
-def format_content_for_scoring(reddit_items, podcast_transcripts):
-    """Format both Reddit items and podcast transcripts into a single prompt body."""
+def format_content_for_scoring(reddit_items, podcast_transcripts, team_facts=None):
+    """Format both Reddit items and podcast transcripts into a single prompt body.
+    If team_facts has all three fields populated, prepend a GROUND TRUTH block."""
     lines = []
+
+    if team_facts and all(team_facts.get(k) is not None for k in ("record", "streak", "games_behind")):
+        lines.append(
+            "\nGROUND TRUTH (authoritative, as of pipeline run time):\n"
+            f"- Record: {team_facts['record']}\n"
+            f"- Current streak: {team_facts['streak']}\n"
+            f"- Games back in division: {team_facts['games_behind']}\n"
+        )
 
     # Declare which voices are actually in this payload, to prevent Claude from
     # inferring scores for voices that weren't passed.
@@ -399,9 +414,9 @@ def format_content_for_scoring(reddit_items, podcast_transcripts):
 
     return "\n".join(lines)
 
-def score_with_claude(reddit_items, podcast_transcripts):
+def score_with_claude(reddit_items, podcast_transcripts, team_facts=None):
     client = Anthropic()
-    content = format_content_for_scoring(reddit_items, podcast_transcripts)
+    content = format_content_for_scoring(reddit_items, podcast_transcripts, team_facts)
     prompt = SCORING_PROMPT + content
 
     message = client.messages.create(
@@ -544,11 +559,22 @@ def main():
     if len(items) < 5 and not successful_podcasts:
         print("  ! Very low content volume — results may be unreliable")
 
+    # 2c. Pull ground-truth team facts (record, streak, GB) so the scoring
+    # prompt can override stale numbers from podcast content. All-None on
+    # API failure — pipeline still runs sentiment-only.
+    print("Pulling team facts from MLB Stats API...")
+    team_facts = get_team_facts()
+    if any(v is not None for v in team_facts.values()):
+        print(f"  Record {team_facts['record']}, streak {team_facts['streak']}, "
+              f"GB {team_facts['games_behind']}")
+    else:
+        print("  ! team facts unavailable — prompt will omit ground-truth block")
+
     # 3. Score with Claude (Reddit + podcasts + youtube, all treated as audio)
     print(f"Scoring with {MODEL}...")
     print(f"  Input: {len(items)} Reddit items + {len(successful_podcasts_only)} podcast(s) "
           f"+ {len(successful_youtube)} YouTube clip(s), {total_audio_chars:,} audio chars")
-    result = score_with_claude(items, successful_podcasts)
+    result = score_with_claude(items, successful_podcasts, team_facts)
 
     # 4. Load history and compute composite
     history_path = DATA_DIR / "history.json"
@@ -625,6 +651,7 @@ def main():
         "hard_signals": {
             "attendance": attendance_signal,
         },
+        "team_facts": team_facts,
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
 
