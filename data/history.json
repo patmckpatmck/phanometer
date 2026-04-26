@@ -1618,5 +1618,224 @@
       }
     },
     "generated_at": "2026-04-25T12:10:29.767625+00:00"
+  },
+  {
+    "date": "2026-04-26",
+    "display_score": 14,
+    "reactive_score": 14,
+    "baseline_score": 20,
+    "insufficient_signal": false,
+    "content_volume": 230,
+    "mood_label": "Meltdown",
+    "dimensions": {
+      "results_satisfaction": 8,
+      "front_office_trust": 18,
+      "manager_confidence": 22,
+      "lineup_confidence": 12,
+      "pitching_confidence": 10,
+      "health_outlook": 22,
+      "postseason_belief": 14
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 95,
+      "front_office_trust": 82,
+      "manager_confidence": 78,
+      "lineup_confidence": 90,
+      "pitching_confidence": 88,
+      "health_outlook": 70,
+      "postseason_belief": 72
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 16,
+        "note": "The Philly Show (Salisbury, Amaro, Zalecki) and Phillies Talk (Batalico) are in near-uniform alarm \u2014 'shocking,' 'gross,' historically bad losing streak, rotation ERA 28th, no starter through seven innings all season, deepening doubt about whether this core is capable of a deep run even if healthy."
+      },
+      "beat_writer": {
+        "score": 12,
+        "note": "Phillies Therapy (Gelb/Paul) is the most despairing voice present \u2014 explicitly states the division is already lost, questions whether the season is salvageable, eulogizes Taijuan Walker, and frames the nine-game streak as potentially symptomatic of something structurally rotten; optimism segment lasts under five minutes and concedes it feels hollow."
+      },
+      "radio_populist": {
+        "score": 20,
+        "note": "High Hopes (WIP/Giglio) is distressed but slightly more animated \u2014 Rob Thomson's job described as on the line 'this weekend,' Kevin Long's batting-practice excuse mocked at length, and the show openly auditions replacement managers; a 'moral victory' framing of Thursday's near-comeback provides the only sliver of warmth."
+      }
+    },
+    "themes": [
+      {
+        "name": "Nine Straight and Counting",
+        "delta": -9,
+        "sample": "An 8-17 record, nine-game losing streak, and the longest divisional deficit in April in 26 years have pushed the mood to near-historic lows \u2014 one analyst calls it the most shocking streak he has witnessed in nearly two decades covering the team."
+      },
+      {
+        "name": "Rotation in Freefall",
+        "delta": -8,
+        "sample": "The starting staff ERA sits around 5.28\u20135.58, ranking 28th in baseball, and no starter has reached the seventh inning in the team's first 25 games \u2014 a modern-era first. The reigning Cy Young runner-up leads all of baseball in hits allowed, and pitch-tipping concerns resurface every two weeks."
+      },
+      {
+        "name": "Front Office Under the Microscope",
+        "delta": -7,
+        "sample": "Taijuan Walker's release \u2014 leaving roughly $15 million paid for nothing \u2014 extends a long list of midseason free-agent buyouts under the current regime. The no-cleanup-hitter problem, flagged before the season, is now a daily reality with Felix Reyes batting fourth, and the roster is described as having no levers left to pull after 25 games."
+      },
+      {
+        "name": "Thomson's Seat Getting Hotter",
+        "delta": -6,
+        "sample": "The upcoming Atlanta series is framed as the biggest weekend of the manager's tenure; a sweep would push the losing streak to 12 and likely force a decision. Debate about whether to look outside the organization for a higher-profile replacement \u2014 names like Bochy cited \u2014 reflects how far confidence in the current staff has eroded."
+      },
+      {
+        "name": "Injury Pile-Up Deepens the Hole",
+        "delta": -5,
+        "sample": "JT Realmuto lands on the IL with back spasms, leaving Wheeler to debut without his preferred catcher. Seranthony Dominguez and Orion Kerkering are also unavailable, and multiple small knocks throughout the lineup are compounding an already depleted situation."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "It has all the makings of a season from hell.",
+        "score": 5,
+        "source_hint": "WIP High Hopes host"
+      },
+      {
+        "text": "I think they've already lost the division. I don't think they can win the division now.",
+        "score": 8,
+        "source_hint": "Phillies Therapy co-host"
+      },
+      {
+        "text": "This is the most shocking streak of games that I've ever seen since I've been here.",
+        "score": 6,
+        "source_hint": "Phillies Talk analyst (Batalico)"
+      },
+      {
+        "text": "The architects of this roster have not shined. If they're going to be asking people to be accountable, there has to be scrutiny on their jobs as well.",
+        "score": 14,
+        "source_hint": "The Philly Show analyst (Salisbury)"
+      }
+    ],
+    "reasoning": "An 8-17 record with a nine-game losing streak, the worst run differential in the league, and a rotation ERA near 5.50 have converged into one of the darkest stretches in recent franchise memory. The mood ranges from grim resignation to outright alarm \u2014 the division is widely considered already lost, the front office's roster construction is under pointed scrutiny, and the Atlanta series this weekend is being treated as a de facto referendum on the manager's job security. The only divergence is in tone rather than substance: one strand contextualizes the collapse as a bottoming-out moment that must eventually reverse, while the other has moved into open forecasting of managerial and personnel changes; neither strand expresses genuine belief in a deep October run.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 172861,
+      "youtube_attempted": 0,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Are the Phillies Finally Showing Some Fight?",
+        "voice": "radio_populist",
+        "chars": 46217
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Yeah, Great, Sure",
+        "voice": "beat_writer",
+        "chars": 46635
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Rock bottom yet? Phillies have lost nine straight",
+        "voice": "fan_analyst",
+        "chars": 33947
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies in a freefall as April struggles continue, losing streak hits nine games",
+        "voice": "fan_analyst",
+        "chars": 46062
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 92.6,
+        "baseline_games_count": 33,
+        "baseline_avg_pct": 96.1,
+        "delta_pct": -3.5,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823479,
+            "date": "2026-04-12",
+            "day_of_week": "Sunday",
+            "opponent": "Arizona Diamondbacks",
+            "result": "L 3-4",
+            "attendance": 43060,
+            "pct_capacity": 100.4,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823481,
+            "date": "2026-04-13",
+            "day_of_week": "Monday",
+            "opponent": "Chicago Cubs",
+            "result": "W 13-7",
+            "attendance": 36045,
+            "pct_capacity": 84.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823478,
+            "date": "2026-04-14",
+            "day_of_week": "Tuesday",
+            "opponent": "Chicago Cubs",
+            "result": "L 4-10",
+            "attendance": 37426,
+            "pct_capacity": 87.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823477,
+            "date": "2026-04-15",
+            "day_of_week": "Wednesday",
+            "opponent": "Chicago Cubs",
+            "result": "L 2-11",
+            "attendance": 38254,
+            "pct_capacity": 89.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823476,
+            "date": "2026-04-17",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 0-9",
+            "attendance": 43048,
+            "pct_capacity": 100.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823474,
+            "date": "2026-04-18",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "L 1-3",
+            "attendance": 43423,
+            "pct_capacity": 101.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823475,
+            "date": "2026-04-19",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-4",
+            "attendance": 36806,
+            "pct_capacity": 85.8,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "generated_at": "2026-04-26T12:09:52.810335+00:00"
   }
 ]
