@@ -1,2 +1,3 @@
 anthropic>=0.40.0
-yt-dlp==2025.10.14
+google-api-python-client
+youtube-transcript-api
