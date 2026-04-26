@@ -3,8 +3,9 @@
 Phan-o-meter YouTube module.
 
 Pulls recent short clips from Philadelphia sports-talk YouTube channels
-(currently 94WIP only) via yt-dlp, filters for Phillies-tagged titles,
-downloads audio, and transcribes with OpenAI Whisper.
+(currently 94WIP only) via the YouTube Data API v3, filters for Phillies-tagged
+titles, and pulls auto-captions via youtube-transcript-api (no audio download,
+no Whisper).
 
 Returns clip dicts shaped identically to podcasts.py output so both
 sources flow into the same scoring pipeline.
@@ -12,43 +13,45 @@ sources flow into the same scoring pipeline.
 Usage:
     python youtube.py              # pull + transcribe last 4 days
     python youtube.py --hours 48   # custom lookback (hours)
-    python youtube.py --dry        # list eligible clips, skip transcription
+    python youtube.py --dry        # list eligible clips, skip captions
 """
 
 import os
-import re
 import sys
-import tempfile
-import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from yt_dlp import YoutubeDL
+from googleapiclient.discovery import build
+from youtube_transcript_api import (
+    YouTubeTranscriptApi,
+    TranscriptsDisabled,
+    NoTranscriptFound,
+    VideoUnavailable,
+)
 
-# Reuse the keyword list and Whisper pipeline from podcasts.py so behavior
-# stays consistent and there's one source of truth for both.
+# Reuse the keyword list, char cap, and name normalizer from podcasts.py so
+# behavior stays consistent across audio sources.
 from podcasts import (
     PHILLIES_KEYWORDS,
     TRANSCRIPT_CHAR_CAP,
-    MAX_UPLOAD_BYTES,
-    compress_for_transcription,
     normalize_names,
-    transcribe_audio,
 )
 
 # -----------------------------------------------------------------------------
 # Config
 # -----------------------------------------------------------------------------
 
+# YouTube channel uploads-playlist convention: every channel has an auto-managed
+# uploads playlist whose ID is the channel ID with the "UC" prefix swapped to
+# "UU". We use that playlist with playlistItems.list to enumerate the latest
+# uploads cheaply (1 quota unit per page, vs. 100 for search.list).
 YOUTUBE_CHANNELS = [
     {
         "name": "94WIP",
         "source_tag": "wip_youtube",
         "voice": "radio_populist",
-        # channel_id: UC9POis6-mA5EInyFiPeVlNQ. We go via the handle URL
-        # because YouTube's public RSS endpoint (feeds/videos.xml) was
-        # returning 404 as of 2026-04. yt-dlp resolves the channel directly.
-        "channel_url": "https://www.youtube.com/@SportsRadio94WIP/videos",
+        # channel_id UC9POis6-mA5EInyFiPeVlNQ → uploads UU9POis6-mA5EInyFiPeVlNQ
+        "uploads_playlist_id": "UU9POis6-mA5EInyFiPeVlNQ",
         "strategy": "filter",  # Phillies-tagged titles only
     },
 ]
@@ -59,79 +62,131 @@ SCAN_LATEST_N = 30                   # how many newest uploads to inspect per ch
 YOUTUBE_MAX_CLIPS_PER_RUN = 3        # cost safeguard, newest-first
 
 # -----------------------------------------------------------------------------
-# Channel listing
+# Helpers
 # -----------------------------------------------------------------------------
 def _title_matches_phillies(title):
     t = (title or "").lower()
     return any(kw in t for kw in PHILLIES_KEYWORDS)
 
-def list_channel_clips(channel, lookback_hours):
+def _parse_iso8601_duration(s):
+    """Parse a YouTube ISO-8601 duration like 'PT12M34S' into seconds.
+    Handles H/M/S; returns None on malformed input."""
+    if not s or not s.startswith("PT"):
+        return None
+    h = m = sec = 0
+    num = ""
+    for ch in s[2:]:
+        if ch.isdigit():
+            num += ch
+        elif ch == "H":
+            h = int(num or 0); num = ""
+        elif ch == "M":
+            m = int(num or 0); num = ""
+        elif ch == "S":
+            sec = int(num or 0); num = ""
+        else:
+            return None
+    return h * 3600 + m * 60 + sec
+
+def _parse_iso8601_timestamp(s):
+    """Parse a YouTube publishedAt like '2026-04-25T14:30:00Z' to aware datetime."""
+    if not s:
+        return None
+    if s.endswith("Z"):
+        s = s[:-1] + "+00:00"
+    try:
+        return datetime.fromisoformat(s)
+    except ValueError:
+        return None
+
+# -----------------------------------------------------------------------------
+# Channel listing (YouTube Data API v3)
+# -----------------------------------------------------------------------------
+def list_channel_clips(channel, lookback_hours, yt_client):
     """Return clip dicts from a channel within the lookback window, title-filtered
     and duration-capped.
 
-    Two-pass:
-      1. Flat playlist listing (one yt-dlp call, no per-video fetches)
-      2. Full metadata fetch only for survivors — we need the authoritative
-         upload timestamp, which the flat listing usually omits
+    Two-stage:
+      1. playlistItems.list on the uploads playlist → titles + video IDs
+         (paginated until SCAN_LATEST_N is reached)
+      2. videos.list (batched ≤50 IDs) for authoritative duration + publishedAt
     """
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
 
-    flat_opts = {
-        "quiet": True,
-        "no_warnings": True,
-        "skip_download": True,
-        "extract_flat": "in_playlist",
-        "playlistend": SCAN_LATEST_N,
-    }
+    # Stage 1: pull the latest SCAN_LATEST_N uploads via playlistItems.list
+    entries = []
+    page_token = None
     try:
-        with YoutubeDL(flat_opts) as ydl:
-            info = ydl.extract_info(channel["channel_url"], download=False)
+        while len(entries) < SCAN_LATEST_N:
+            req = yt_client.playlistItems().list(
+                part="snippet,contentDetails",
+                playlistId=channel["uploads_playlist_id"],
+                maxResults=min(50, SCAN_LATEST_N - len(entries)),
+                pageToken=page_token,
+            )
+            resp = req.execute()
+            for item in resp.get("items", []):
+                entries.append({
+                    "id": item["contentDetails"]["videoId"],
+                    "title": item["snippet"].get("title") or "",
+                })
+            page_token = resp.get("nextPageToken")
+            if not page_token:
+                break
     except Exception as e:
-        print(f"  ! {channel['name']}: channel listing failed ({e})")
+        print(f"  ! {channel['name']}: playlistItems.list failed ({e})")
         return []
 
-    entries = info.get("entries") or []
     n_raw = len(entries)
 
     if n_raw == 0:
-        print(f"  ! {channel['name']}: yt-dlp returned 0 entries "
-              f"(possible bot-detection)")
+        print(f"  ! {channel['name']}: API returned 0 playlist items "
+              f"(channel empty or playlist ID wrong)")
         return []
 
-    # Pre-filter on shallow metadata (title + duration when present)
+    # Stage 1b: title-only pre-filter (no duration in playlistItems response)
     candidates = []
     n_title_match = 0
     for e in entries:
-        title = e.get("title") or ""
-        if channel["strategy"] == "filter" and not _title_matches_phillies(title):
+        if channel["strategy"] == "filter" and not _title_matches_phillies(e["title"]):
             continue
         n_title_match += 1
-        shallow_dur = e.get("duration")
-        if shallow_dur is not None and shallow_dur >= MAX_DURATION_SECONDS:
-            continue
-        candidates.append({"video_id": e["id"], "title": title})
-    n_shallow_dur_ok = len(candidates)
+        candidates.append(e)
 
-    full_opts = {"quiet": True, "no_warnings": True, "skip_download": True}
+    # Stage 2: batched videos.list for duration + publishedAt
     clips = []
-    n_missing_meta = 0
-    n_dropped_lookback = 0
     n_dropped_full_dur = 0
-    with YoutubeDL(full_opts) as ydl:
+    n_dropped_lookback = 0
+    n_missing_meta = 0
+    if candidates:
+        try:
+            details = []
+            for i in range(0, len(candidates), 50):
+                batch_ids = [c["id"] for c in candidates[i:i + 50]]
+                req = yt_client.videos().list(
+                    part="contentDetails,snippet",
+                    id=",".join(batch_ids),
+                )
+                details.extend(req.execute().get("items", []))
+        except Exception as e:
+            print(f"  ! {channel['name']}: videos.list failed ({e})")
+            return []
+
+        details_by_id = {d["id"]: d for d in details}
         for c in candidates:
-            url = f"https://www.youtube.com/watch?v={c['video_id']}"
-            try:
-                inf = ydl.extract_info(url, download=False)
-            except Exception as ex:
-                print(f"  ! {channel['name']}: metadata fetch failed for "
-                      f"{c['video_id']} ({ex})")
-                continue
-            ts = inf.get("timestamp")
-            dur = inf.get("duration")
-            if ts is None or dur is None:
+            d = details_by_id.get(c["id"])
+            if d is None:
                 n_missing_meta += 1
                 continue
-            pub = datetime.fromtimestamp(ts, tz=timezone.utc)
+            dur = _parse_iso8601_duration(
+                d.get("contentDetails", {}).get("duration")
+            )
+            pub = _parse_iso8601_timestamp(
+                d.get("snippet", {}).get("publishedAt")
+            )
+            if dur is None or pub is None:
+                n_missing_meta += 1
+                continue
             if pub < cutoff:
                 n_dropped_lookback += 1
                 continue
@@ -142,44 +197,29 @@ def list_channel_clips(channel, lookback_hours):
                 "feed_name": channel["name"],
                 "source_tag": channel["source_tag"],
                 "voice": channel["voice"],
-                "title": inf.get("title") or c["title"],
-                "video_id": c["video_id"],
-                "video_url": url,
+                "title": d.get("snippet", {}).get("title") or c["title"],
+                "video_id": c["id"],
+                "video_url": f"https://www.youtube.com/watch?v={c['id']}",
                 "duration_seconds": dur,
                 "pub_date": pub.isoformat(),
             })
 
     print(f"  {channel['name']}: stages — "
           f"raw={n_raw}, title-match={n_title_match}, "
-          f"shallow-dur-ok={n_shallow_dur_ok}, "
-          f"missing-ts/dur={n_missing_meta}, "
+          f"missing-meta={n_missing_meta}, "
           f"dropped-lookback={n_dropped_lookback}, "
-          f"dropped-cap-fullmeta={n_dropped_full_dur}")
+          f"dropped-cap={n_dropped_full_dur}")
     return clips
 
 # -----------------------------------------------------------------------------
-# Audio download
+# Captions
 # -----------------------------------------------------------------------------
-def download_audio_stream(video_url, work_dir, source_tag, video_id):
-    """Download the best audio-only stream from YouTube into work_dir.
-    Returns the path to the downloaded file (m4a/webm/opus — yt-dlp picks)."""
-    out_template = str(work_dir / f"{source_tag}_{video_id}.%(ext)s")
-    opts = {
-        "quiet": True,
-        "no_warnings": True,
-        "format": "bestaudio",
-        "outtmpl": out_template,
-    }
-    with YoutubeDL(opts) as ydl:
-        info = ydl.extract_info(video_url, download=True)
-        raw_path = Path(ydl.prepare_filename(info))
-    if not raw_path.exists():
-        # Fallback if the extension resolved unexpectedly
-        matches = list(work_dir.glob(f"{source_tag}_{video_id}.*"))
-        if not matches:
-            raise RuntimeError(f"yt-dlp downloaded file not found for {video_id}")
-        raw_path = matches[0]
-    return raw_path
+def fetch_caption_transcript(video_id):
+    """Fetch the English auto-captions for a video and return them as a single
+    concatenated string. Raises the underlying youtube-transcript-api exception
+    on failure so the caller can log a specific marker."""
+    fetched = YouTubeTranscriptApi().fetch(video_id, languages=["en"])
+    return " ".join(snip.text.strip() for snip in fetched if snip.text)
 
 # -----------------------------------------------------------------------------
 # Public API
@@ -193,9 +233,16 @@ def pull_youtube(lookback_hours_override=None, dry=False):
     lookback_hours = lookback_hours_override or DEFAULT_LOOKBACK_HOURS
     print(f"Pulling YouTube ({lookback_hours}h lookback)...")
 
+    api_key = os.environ.get("YOUTUBE_API_KEY")
+    if not api_key:
+        print("  ! YOUTUBE_API_KEY not set — skipping YouTube ingestion")
+        return []
+
+    yt_client = build("youtube", "v3", developerKey=api_key, cache_discovery=False)
+
     all_clips = []
     for channel in YOUTUBE_CHANNELS:
-        clips = list_channel_clips(channel, lookback_hours)
+        clips = list_channel_clips(channel, lookback_hours, yt_client)
         print(f"  {channel['name']}: {len(clips)} eligible clip(s) "
               f"(<{MAX_DURATION_SECONDS // 60}min, Phillies-tagged)")
         all_clips.extend(clips)
@@ -214,49 +261,40 @@ def pull_youtube(lookback_hours_override=None, dry=False):
     print(f"  After cap: {len(all_clips)} clip(s)")
 
     if dry:
-        print("Dry run — skipping download + transcription")
+        print("Dry run — skipping captions fetch")
         return [{**c, "transcript": None} for c in all_clips]
 
     transcripts = []
-    with tempfile.TemporaryDirectory() as tmp:
-        tmp_path = Path(tmp)
-        for i, c in enumerate(all_clips):
-            if i > 0:
-                print("    (pausing 5s between clips)")
-                time.sleep(5)
+    for c in all_clips:
+        print(f"  Captions: [{c['source_tag']}] {c['title'][:70]}...")
+        try:
+            text = fetch_caption_transcript(c["video_id"])
+        except TranscriptsDisabled:
+            print(f"    ! captions disabled for {c['video_id']}")
+            transcripts.append({**c, "transcript": None, "error": "transcripts_disabled"})
+            continue
+        except NoTranscriptFound:
+            print(f"    ! no English transcript for {c['video_id']}")
+            transcripts.append({**c, "transcript": None, "error": "no_transcript_found"})
+            continue
+        except VideoUnavailable:
+            print(f"    ! video unavailable: {c['video_id']}")
+            transcripts.append({**c, "transcript": None, "error": "video_unavailable"})
+            continue
+        except Exception as e:
+            print(f"    ! captions fetch failed: {e}")
+            transcripts.append({**c, "transcript": None, "error": str(e)})
+            continue
 
-            print(f"  Transcribing: [{c['source_tag']}] {c['title'][:70]}...")
-            try:
-                raw_path = download_audio_stream(
-                    c["video_url"], tmp_path, c["source_tag"], c["video_id"]
-                )
-                raw_size = os.path.getsize(raw_path)
-                print(f"    downloaded {raw_size // 1024} KB raw "
-                      f"({raw_path.suffix})")
-
-                compressed = tmp_path / f"{c['source_tag']}_{c['video_id']}.mp3"
-                compress_for_transcription(raw_path, compressed)
-                compressed_size = os.path.getsize(compressed)
-                print(f"    compressed to {compressed_size // 1024} KB (mono 48kbps)")
-
-                if compressed_size > MAX_UPLOAD_BYTES:
-                    raise RuntimeError(
-                        f"compressed audio exceeds {MAX_UPLOAD_BYTES // 1024 // 1024}MB cap"
-                    )
-
-                text = transcribe_audio(compressed)
-                text = normalize_names(text)
-                if len(text) > TRANSCRIPT_CHAR_CAP:
-                    text = text[:TRANSCRIPT_CHAR_CAP] + "...[truncated]"
-                transcripts.append({
-                    **c,
-                    "transcript": text,
-                    "transcript_chars": len(text),
-                })
-                print(f"    \u2713 {len(text):,} chars transcribed")
-            except Exception as e:
-                print(f"    ! transcription failed: {e}")
-                transcripts.append({**c, "transcript": None, "error": str(e)})
+        text = normalize_names(text)
+        if len(text) > TRANSCRIPT_CHAR_CAP:
+            text = text[:TRANSCRIPT_CHAR_CAP] + "...[truncated]"
+        transcripts.append({
+            **c,
+            "transcript": text,
+            "transcript_chars": len(text),
+        })
+        print(f"    ✓ {len(text):,} chars from captions")
 
     return transcripts
 
@@ -286,4 +324,4 @@ if __name__ == "__main__":
         status = "dry" if r.get("transcript") is None and "error" not in r else \
                  ("error: " + r["error"]) if "error" in r else \
                  f"{r.get('transcript_chars', 0):,} chars"
-        print(f"  [{r['source_tag']}] {r['title'][:60]} \u2014 {status}")
+        print(f"  [{r['source_tag']}] {r['title'][:60]} — {status}")
