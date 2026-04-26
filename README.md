@@ -116,6 +116,7 @@ Sentiment dimensions measure **what fans say**. Hard signals measure **what fans
 
 ## Next steps (not yet built)
 
+- **Self-hosted runner.** Move the daily workflow off GitHub-hosted runners onto a self-hosted runner on a residential IP (likely a Mac mini at home). This unblocks YouTube captions and Reddit ingestion simultaneously — both currently fail because YouTube and Reddit block GitHub Actions IP ranges. YouTube discovery (Data API v3) works on cloud IPs and stays as-is; only the captions fetch needs the residential IP.
 - **WIP Daily transcription** — grab the 94WIP daily podcast RSS, transcribe with Groq Whisper (~$0.01/day), add as a second text source.
 - **YouTube comments** — curated channel IDs (Phillies Nation, MLB, Jomboy, Foul Territory, Barstool Philly) → `playlistItems.list` → `commentThreads.list`. ~100 quota units/day.
 - **Local news RSS** — Inquirer, Phillies Nation, The Athletic Philly.
