@@ -238,8 +238,9 @@ Return ONLY a valid JSON object with this exact schema. No preamble, no markdown
   "quotes": [
     {"text": "<quote under 20 words>", "score": <int 0-100>, "source_hint": "<short context, e.g. 'Hittin' Season host' or 'r/phillies game thread'>"}
   ],
+  "vibe_summary": "<ONE sentence, max 25 words, describing how Phillies fans feel today. Plain prose suitable for display under a 'How Philly feels about the Phillies, today' header. Do NOT start with a number or statistic. Do NOT include decimal figures (e.g. ERA, batting averages). Write it as a standalone sentence that reads naturally on its own.>",
   "reasoning": "<2-3 sentences on what's driving today's mood. Note any divergence between the voices, e.g. 'beat writers cautious while fans outraged'.>"
-}
+  }
 
 Scoring guide:
 - 100 = maximum positive fan feeling on that dimension
@@ -595,6 +596,7 @@ def main():
         "voice_breakdown": result.get("voice_breakdown", {}),
         "themes": result.get("themes", []),
         "quotes": result.get("quotes", []),
+        "vibe_summary": result.get("vibe_summary", ""),
         "reasoning": result.get("reasoning", ""),
         "source_counts": {
             "reddit_posts": n_posts,
