@@ -1621,28 +1621,28 @@
   },
   {
     "date": "2026-04-26",
-    "display_score": 17,
-    "reactive_score": 17,
+    "display_score": 18,
+    "reactive_score": 18,
     "baseline_score": 20,
     "insufficient_signal": false,
-    "content_volume": 229,
+    "content_volume": 218,
     "mood_label": "Meltdown",
     "dimensions": {
       "results_satisfaction": 8,
       "front_office_trust": 22,
-      "manager_confidence": 28,
-      "lineup_confidence": 15,
-      "pitching_confidence": 12,
-      "health_outlook": 30,
+      "manager_confidence": 30,
+      "lineup_confidence": 18,
+      "pitching_confidence": 15,
+      "health_outlook": 28,
       "postseason_belief": 14
     },
     "dimension_confidence": {
       "results_satisfaction": 95,
-      "front_office_trust": 80,
-      "manager_confidence": 85,
+      "front_office_trust": 82,
+      "manager_confidence": 78,
       "lineup_confidence": 90,
-      "pitching_confidence": 92,
-      "health_outlook": 75,
+      "pitching_confidence": 88,
+      "health_outlook": 72,
       "postseason_belief": 70
     },
     "voice_breakdown": {
@@ -1652,75 +1652,75 @@
       },
       "fan_analyst": {
         "score": 20,
-        "notes": "Hittin' Season / Stolnis, Klugh, Roscher \u2014 deep alarm across both fan analyst shows; nine-game losing streak called shocking and embarrassing for a roster of this caliber, with pointed criticism of infield positioning, roster construction failures, and a growing fear the window is closing; the only optimism offered is structural wild-card-era reassurance, not expressed belief."
+        "friendly": "Two separate fan analyst shows (Hittin' Season / Stolnis, Klugh, Roscher and Phillies Talk) align on near-total alarm \u2014 nine-game skid, aging roster concerns, front-office missteps, and a rotation that hasn't reached the seventh inning all season."
       },
       "beat_writer": {
-        "score": 14,
-        "note": "Phillies Therapy / Matt Gelb \u2014 the most dire read of the group; the beat writer openly declares the division already lost, questions whether the roster is capable of a deep October run even if things improve, and frames Taiwan Walker's release and the nine-game streak as potentially defining the entire 2026 season."
+        "score": 12,
+        "note": "The beat writer (Phillies Therapy) is the most dire of all present voices \u2014 openly questioning whether the division is already lost, framing the losing streak as potentially symbolic of a deeper structural collapse, and admitting difficulty contextualizing even nine games rationally."
       },
       "radio_populist": {
-        "score": 18,
-        "note": "WIP Daily / Joe Giglio \u2014 existential alarm about Rob Thomson's job security, withering mockery of the hitting coach's left-handed BP excuse, and a frank admission that even righting the ship may not reveal a championship-caliber team; a moral-victory framing of Thursday's near-comeback provides the episode's only thin thread of hope."
+        "score": 22,
+        "note": "The talk-radio host (WIP Daily / Joe Giglio) is outraged and darkly comedic \u2014 mocking Kevin Long's batting practice excuse, calling Thomson's job existentially threatened by the Atlanta series, and conceding the bar for success has never been lower."
       }
     },
     "themes": [
       {
-        "name": "Nine-Game Losing Streak Is a Five-Alarm Crisis",
+        "name": "Nine Straight and Nowhere to Hide",
         "delta": -9,
-        "sample": "An 8-17 record, the worst run differential in the league, and a nine-game losing streak have produced the darkest stretch of baseball anyone covering or watching this team can recall for a roster this talented \u2014 with no clear path back in sight."
+        "sample": "A nine-game losing streak \u2014 the worst in over two decades \u2014 has consumed every dimension of this team: offense, pitching, defense, bullpen, and luck have all failed simultaneously, leaving no single fix to point to."
       },
       {
-        "name": "Pitching Staff Has Collapsed",
-        "delta": -9,
-        "sample": "A rotation ERA hovering near the bottom five in baseball, no starter reaching the seventh inning in 25 games, and Christopher Sanchez \u2014 the Cy Young runner-up \u2014 leading the majors in hits allowed has turned the team's greatest perceived strength into its most shocking liability."
+        "name": "Rotation Collapse Is the Deeper Crisis",
+        "delta": -8,
+        "sample": "No starter has reached the seventh inning in 25 games \u2014 a modern-era franchise first \u2014 and a staff that ranked second in ERA last season is now hovering near the bottom of baseball, with Christopher Sanchez allowing the most hits in the majors over his last four starts."
       },
       {
-        "name": "Rob Thomson's Job on the Line",
+        "name": "Front Office Construction Under Fire",
         "delta": -7,
-        "sample": "The Atlanta series is being framed as the biggest weekend of Thomson's tenure; if the losing streak extends to 12, a managerial change feels more likely than not, with outside candidates like Bruce Bochy surfacing in the conversation."
+        "sample": "The release of Tywon Walker \u2014 adding to over $34 million paid to Castellanos and Walker combined to not play \u2014 has intensified scrutiny of roster-building decisions, with the cleanup hole and lack of right-handed depth cited as foreseeable failures."
       },
       {
-        "name": "Front Office Roster Construction Under Fire",
-        "delta": -7,
-        "sample": "Taiwan Walker's release \u2014 adding to over $34 million paid to Castellanos and Walker for nothing \u2014 and the absence of a cleanup hitter or right-handed bat have turned offseason decisions into a liability list; the levers have all been pulled after 25 games."
-      },
-      {
-        "name": "Hitting Coach's BP Excuse Becomes a Rallying Cry of Embarrassment",
+        "name": "Thomson's Job Feels Existential This Weekend",
         "delta": -6,
-        "sample": "Kevin Long's assertion that the inability to find a left-handed batting practice thrower explains the team's futility against lefties has become a symbol of organizational dysfunction, drawing furious mockery and overshadowing any substantive discussion of actual fixes."
+        "sample": "The Atlanta series is being framed as a potential breaking point for the manager, with Monday's off day looming as an opportunity for a drastic move if the losing streak extends to double digits."
+      },
+      {
+        "name": "Wheeler Return: Thin Reed of Hope",
+        "delta": 3,
+        "sample": "Zach Wheeler's Saturday debut is the one tangible source of optimism \u2014 not because expectations are high, but because his presence alone is seen as a morale reset for a team that has visibly stopped having fun."
       }
     ],
     "quotes": [
       {
         "text": "It has all the makings of a season from hell.",
         "score": 5,
-        "source_hint": "WIP High Hopes host"
+        "source_hint": "talk-radio host (WIP Daily / Joe Giglio)"
       },
       {
         "text": "I think they've already lost the division. I don't think they can win the division now.",
         "score": 8,
-        "source_hint": "Phillies Therapy co-host"
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+      },
+      {
+        "text": "It sucks is what it does. It sucks.",
+        "score": 6,
+        "source_hint": "fan analyst (The Phillies Show / Stolnis, Klugh, Roscher)"
       },
       {
         "text": "This is the most shocking streak of games that I've ever seen since I've been here.",
-        "score": 6,
-        "source_hint": "Phillies Talk analyst (Phillies Talk podcast)"
-      },
-      {
-        "text": "The architects of this roster have not shined. And if they're going to be asking people to be accountable for their jobs, there has to be scrutiny on their jobs as well.",
-        "score": 15,
-        "source_hint": "fan analyst (The Phillies Show / Foul Territory)"
+        "score": 10,
+        "source_hint": "fan analyst (Phillies Talk / NBC Sports Philadelphia)"
       }
     ],
-    "vibe_summary": "Phillies fans are in full crisis mode, watching a talented and expensive roster sleepwalk through a historically bad start with no obvious fix in sight.",
-    "reasoning": "A nine-game losing streak on top of an 8-17 record, league-worst run differential, and a pitching staff that has collapsed from second to near-last in ERA has pushed sentiment to near rock-bottom across every available source. The mood is uniformly bleak, though the texture differs slightly: the beat writer has moved into a place of genuine seasonal grief \u2014 openly conceding the division is lost and questioning whether this group can contend at all \u2014 while the talk-radio perspective is more operationally focused, centering on managerial accountability and specific in-game failures like the hitting coach controversy. The fan analyst shows land in between, cataloguing the scope of the disaster with statistical precision while stopping just short of declaring the season over. Postseason belief is kept extremely low because virtually all forward-looking commentary is coping framing \u2014 wild-card-era reassurance and 'it's only April' hedging \u2014 rather than any expressed confidence in this roster's championship ceiling.",
+    "vibe_summary": "Phillies fans are in genuine crisis mode after nine straight losses, a historically bad rotation, and a front office whose roster decisions are drawing open contempt.",
+    "reasoning": "The dominant mood across all present sources is one of structural despair rather than temporary frustration \u2014 the nine-game losing streak has exposed every layer of the team at once, with no healthy scapegoat and no obvious fix. The beat writer is the most existentially shaken, openly conceding the division may already be gone and wrestling aloud with whether this start signals something irreparably broken. The fan analyst shows match that alarm while adding pointed front-office accountability, cataloguing a long trail of costly free-agent misfires. The talk-radio perspective is the most performatively outraged, weaponizing the Kevin Long batting-practice quote as a symbol of organizational dysfunction and treating the Atlanta series as Thomson's last stand. Postseason belief stays very low because the only forward-looking content is structural reassurance about wild-card math \u2014 no source expresses genuine confidence in a deep October run, only arguments that mathematical elimination isn't yet official.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
       "match_threads": 0,
       "podcasts_attempted": 4,
       "podcasts_transcribed": 4,
-      "podcast_chars": 172111,
+      "podcast_chars": 163745,
       "youtube_attempted": 0,
       "youtube_transcribed": 0,
       "youtube_chars": 0
@@ -1730,25 +1730,25 @@
         "feed_name": "High Hopes",
         "title": "Are the Phillies Finally Showing Some Fight?",
         "voice": "radio_populist",
-        "chars": 46219
+        "chars": 45257
       },
       {
         "feed_name": "Phillies Therapy",
         "title": "Yeah, Great, Sure",
         "voice": "beat_writer",
-        "chars": 48159
+        "chars": 46452
       },
       {
         "feed_name": "The Phillies Show",
         "title": "Rock bottom yet? Phillies have lost nine straight",
         "voice": "fan_analyst",
-        "chars": 31895
+        "chars": 30464
       },
       {
         "feed_name": "Phillies Talk",
         "title": "Phillies in a freefall as April struggles continue, losing streak hits nine games",
         "voice": "fan_analyst",
-        "chars": 45838
+        "chars": 41572
       }
     ],
     "hard_signals": {
@@ -1837,6 +1837,6 @@
         ]
       }
     },
-    "generated_at": "2026-04-26T14:28:31.848545+00:00"
+    "generated_at": "2026-04-26T15:32:53.753694+00:00"
   }
 ]
