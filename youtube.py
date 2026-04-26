@@ -16,6 +16,27 @@ Usage:
     python youtube.py --dry        # list eligible clips, skip captions
 """
 
+# -----------------------------------------------------------------------------
+# Known limitation (as of 2026-04-26)
+# -----------------------------------------------------------------------------
+# Discovery via YouTube Data API v3 works correctly on cloud IPs (uses official
+# endpoints with API key auth). Captions fetch via youtube-transcript-api fails
+# on GitHub Actions runners with RequestBlocked errors — the library scrapes
+# YouTube's frontend rather than using official caption endpoints, and YouTube
+# blocks cloud-provider IP ranges at that layer. The previous yt-dlp-based
+# approach failed for the same underlying reason.
+#
+# YouTube's official captions.download endpoint requires OAuth scopes that
+# only the video owner can grant, so it's not viable for third-party content.
+#
+# Planned fix: migrate the daily workflow to a self-hosted runner on a
+# residential IP (Mac mini), which sidesteps the IP block class entirely and
+# also unblocks Reddit ingestion. Until then, YouTube discovery still runs on
+# every workflow execution (cheap, exercises the channel listing path so
+# upstream schema changes surface early), captions fail silently per-clip
+# with logged errors, and youtube_attempted lands at 0 in the daily JSON.
+# -----------------------------------------------------------------------------
+
 import os
 import sys
 from datetime import datetime, timedelta, timezone
