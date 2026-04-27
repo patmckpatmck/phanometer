@@ -1846,29 +1846,29 @@
   },
   {
     "date": "2026-04-27",
-    "display_score": 17,
-    "reactive_score": 17,
+    "display_score": 19,
+    "reactive_score": 19,
     "baseline_score": 19,
     "insufficient_signal": false,
-    "content_volume": 246,
+    "content_volume": 191,
     "mood_label": "Meltdown",
     "dimensions": {
       "results_satisfaction": 8,
       "front_office_trust": 22,
-      "manager_confidence": 30,
+      "manager_confidence": 32,
       "lineup_confidence": 12,
-      "pitching_confidence": 15,
-      "health_outlook": 28,
+      "pitching_confidence": 18,
+      "health_outlook": 52,
       "postseason_belief": 14
     },
     "dimension_confidence": {
       "results_satisfaction": 95,
       "front_office_trust": 85,
-      "manager_confidence": 88,
-      "lineup_confidence": 92,
-      "pitching_confidence": 90,
-      "health_outlook": 72,
-      "postseason_belief": 80
+      "manager_confidence": 92,
+      "lineup_confidence": 90,
+      "pitching_confidence": 85,
+      "health_outlook": 60,
+      "postseason_belief": 88
     },
     "voice_breakdown": {
       "reddit": {
@@ -1876,12 +1876,12 @@
         "note": null
       },
       "fan_analyst": {
-        "score": 14,
-        "note": "Fan analyst content (The Phillies Show and Phillies Talk) is in near-total despair \u2014 historically bad stats, 9-19 record, managerial hot seat chatter, imminent coaching staff changes, and one host flatly saying 'this isn't a playoff team.'"
+        "score": 18,
+        "commentary": "Both fan analyst shows (Phillies Talk / NBC Sports Philly and The Phillies Show / Salisbury, Zalecki, Amaro) describe historically bad offensive and pitching numbers, finger the front office for roster construction failures, and openly discuss imminent coaching or managerial changes \u2014 one host flatly says he does not believe the team makes the postseason."
       },
       "beat_writer": {
-        "score": 12,
-        "note": "The beat writer (Phillies Therapy) is the most emotionally raw \u2014 openly wrestling with whether a nine-game losing streak represents something structurally rotten, calling the front office the second-biggest culprit, and struggling to generate even five minutes of optimism."
+        "score": 16,
+        "note": "The beat writer (Phillies Therapy / Matt Gelb) describes a 'miasma of crap,' calls the situation 'bonkers,' says it 'will be something akin to a miracle' if the team makes the playoffs, and confirms Dombrowski's scouts were visibly evaluating the club in Atlanta."
       },
       "radio_populist": {
         "score": null,
@@ -1890,90 +1890,84 @@
     },
     "themes": [
       {
-        "name": "Worst Team in Baseball",
-        "delta": -10,
-        "sample": "A 9-19 record, worst run differential in baseball by 25+ runs, 4-16 over the last 20 games, and 10.5 games back in April \u2014 the numbers defy preseason expectations at every turn."
-      },
-      {
-        "name": "Managerial and Coaching Staff on the Brink",
+        "name": "Managerial hot seat reaches a boiling point",
         "delta": -8,
-        "sample": "Rob Thomson addressed his job security publicly, Dave Dombrowski flew in top scouts mid-series, and Alex Cora's sudden availability has intensified speculation about an imminent change \u2014 with the hitting coach seen as the most likely first casualty."
+        "sample": "With scouts summoned to Atlanta and an off day looming, the question is no longer whether a change is coming but when \u2014 and whether Rob Thomson takes the fall for a roster problem not of his making."
       },
       {
-        "name": "Historically Bad vs. Left-Handed Pitching",
+        "name": "Historically broken offense",
         "delta": -9,
-        "sample": "The team is 0-10 against left-handed starters, posting an OPS against lefties that is the worst since splits began tracking in 1974 \u2014 a structural problem some argue should have been addressed multiple offseasons ago."
+        "sample": "Right-handed hitters against left-handed pitching have posted an OPS that would be the worst in recorded history, the team is 0-10 against left-handed starters, and the cleanup spot has been handed to a player with a handful of big-league at-bats."
       },
       {
-        "name": "Zach Wheeler Return \u2014 Lone Bright Spot",
-        "delta": 5,
-        "sample": "Wheeler's season debut \u2014 five strong innings, 95-96 mph velocity, six strikeouts \u2014 snapped a 10-game losing streak and was universally cited as the only unambiguous good news from the entire road trip."
-      },
-      {
-        "name": "Front Office Miscalculation Takes Center Stage",
+        "name": "Rotation depth is a crisis, not a strength",
         "delta": -7,
-        "sample": "With Felix Reyes batting cleanup and $35M paid to two players not on the roster, the offseason failure to address the right-handed bat shortage and the extended patience with a clearly diminished rotation piece are drawing sharp criticism."
+        "sample": "No starter has reached the seventh inning all season \u2014 the longest such stretch in franchise history \u2014 and the ace-level contract signed to anchor the staff is producing the same alarming results as last year."
+      },
+      {
+        "name": "Zach Wheeler's return is the lone genuine bright spot",
+        "delta": 6,
+        "sample": "Wheeler threw 95-96 mph, struck out six over five innings in his first start since August, and snapped a 10-game losing streak \u2014 a moment of real relief amid an otherwise bleak stretch."
+      },
+      {
+        "name": "Front office construction under a microscope",
+        "delta": -7,
+        "sample": "Two years of offseasons that trusted the existing core over upgrades have left the roster without a legitimate cleanup hitter, a reliable fifth starter, or a center fielder \u2014 and trade value on those underperformers has cratered."
       }
     ],
     "quotes": [
       {
-        "text": "This is as bad as it gets. It really is, and it's not even about losing nine straight.",
-        "score": 5,
-        "source_hint": "Phillies Therapy (beat writer)"
-      },
-      {
-        "text": "If you're asking me right now on April 26th, will this team make the postseason, I say no. I don't think they will.",
+        "text": "It will be something akin to a miracle if this team finds a way to crawl into one of these playoff spots.",
         "score": 8,
-        "source_hint": "Phillies Talk host (fan analyst)"
+        "source_hint": "beat writer (Phillies Therapy)"
       },
       {
-        "text": "28 is the new 40. And I'm not sure what the Expos payroll was in 1991, but I'm guessing it wasn't $310 million.",
+        "text": "This is such a weird combination \u2014 the talent on this roster, the bad luck, the bad defense, the bad offense, the injuries all coming together to just be brutal.",
         "score": 12,
-        "source_hint": "The Phillies Show host (fan analyst)"
+        "source_hint": "beat writer (Phillies Therapy)"
       },
       {
-        "text": "You could smell change, and you can smell it throughout that game on Sunday because they were not in it. They were uncompetitive.",
+        "text": "If you're asking me right now on April 26, will this team make the postseason? I say no, I don't think they will.",
         "score": 10,
-        "source_hint": "The Phillies Show host (fan analyst)"
+        "source_hint": "fan analyst (Phillies Talk / NBC Sports Philadelphia)"
+      },
+      {
+        "text": "I point the finger at the front office first \u2014 we sat here all offseason and they really didn't do quite enough with the offensive portion of the roster.",
+        "score": 18,
+        "source_hint": "fan analyst (Phillies Talk / NBC Sports Philadelphia)"
       }
     ],
-    "vibe_summary": "Phillies fans are staring at a 9-19 record and historically broken offense, bracing for imminent roster or coaching changes with little optimism left to spare.",
-    "reasoning": "The mood is as close to rock-bottom as it gets for a team still mathematically alive. A 9-19 record, a minus-54 run differential, 0-10 against left-handed starters, and 10.5 games back in late April have shattered preseason confidence. The front office is drawing more blame than the manager \u2014 the failure to address the right-handed bat shortage and the prolonged use of a clearly diminished rotation piece are seen as organizational miscalculations \u2014 though Rob Thomson's seat is also acknowledged as genuinely hot with Alex Cora's availability adding fuel. The only substantive optimism comes from Zach Wheeler's return, which is treated as a human interest story as much as a baseball one, and even that is quickly contextualized: he can't pitch every game, and nothing else is working.",
+    "vibe_summary": "Phillies fans are in near-despair, bracing for imminent coaching changes and struggling to see a realistic path back to October.",
+    "reasoning": "A 9-19 record, a historically dysfunctional offense against left-handed pitching, and starting pitching that has yet to complete seven innings in any game this season have pushed fan mood to near rock-bottom. The beat writer and both fan analyst shows converge on the same grim read: this looks like a roster construction failure more than a managerial one, yet Thomson is the most likely to pay the price. The only area of genuine lift is Wheeler's return, which provided a brief exhale but not enough to change the broader trajectory. Postseason belief is not expressed \u2014 the only forward-looking comments either explicitly say the team will miss the playoffs or invoke wild-card-era structural reassurance rather than any confident projection of a deep October run.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
       "match_threads": 0,
       "podcasts_attempted": 4,
-      "podcasts_transcribed": 4,
-      "podcast_chars": 184795,
-      "youtube_attempted": 2,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 143100,
+      "youtube_attempted": 3,
       "youtube_transcribed": 0,
       "youtube_chars": 0
     },
     "podcasts_used": [
       {
+        "feed_name": "Phillies Therapy",
+        "title": "Miasma of Crap",
+        "voice": "beat_writer",
+        "chars": 49627
+      },
+      {
         "feed_name": "The Phillies Show",
         "title": "Dave's Decision: changes could be coming to Phillies",
         "voice": "fan_analyst",
-        "chars": 40337
+        "chars": 40826
       },
       {
         "feed_name": "Phillies Talk",
         "title": "Changes on the horizon? Everything is HISTORICALLY bad for the Phillies right now",
         "voice": "fan_analyst",
-        "chars": 51501
-      },
-      {
-        "feed_name": "Phillies Therapy",
-        "title": "Yeah, Great, Sure",
-        "voice": "beat_writer",
-        "chars": 48360
-      },
-      {
-        "feed_name": "Phillies Talk",
-        "title": "Phillies in a freefall as April struggles continue, losing streak hits nine games",
-        "voice": "fan_analyst",
-        "chars": 44597
+        "chars": 52647
       }
     ],
     "hard_signals": {
@@ -2057,6 +2051,6 @@
       "streak": "L1",
       "games_behind": "10.5"
     },
-    "generated_at": "2026-04-27T13:52:09.155199+00:00"
+    "generated_at": "2026-04-27T16:15:57.067790+00:00"
   }
 ]
