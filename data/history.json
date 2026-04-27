@@ -1843,5 +1843,220 @@
       "games_behind": "10.5"
     },
     "generated_at": "2026-04-26T21:41:31.941161+00:00"
+  },
+  {
+    "date": "2026-04-27",
+    "display_score": 17,
+    "reactive_score": 17,
+    "baseline_score": 19,
+    "insufficient_signal": false,
+    "content_volume": 246,
+    "mood_label": "Meltdown",
+    "dimensions": {
+      "results_satisfaction": 8,
+      "front_office_trust": 22,
+      "manager_confidence": 30,
+      "lineup_confidence": 12,
+      "pitching_confidence": 15,
+      "health_outlook": 28,
+      "postseason_belief": 14
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 95,
+      "front_office_trust": 85,
+      "manager_confidence": 88,
+      "lineup_confidence": 92,
+      "pitching_confidence": 90,
+      "health_outlook": 72,
+      "postseason_belief": 80
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 14,
+        "note": "Fan analyst content (The Phillies Show and Phillies Talk) is in near-total despair \u2014 historically bad stats, 9-19 record, managerial hot seat chatter, imminent coaching staff changes, and one host flatly saying 'this isn't a playoff team.'"
+      },
+      "beat_writer": {
+        "score": 12,
+        "note": "The beat writer (Phillies Therapy) is the most emotionally raw \u2014 openly wrestling with whether a nine-game losing streak represents something structurally rotten, calling the front office the second-biggest culprit, and struggling to generate even five minutes of optimism."
+      },
+      "radio_populist": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Worst Team in Baseball",
+        "delta": -10,
+        "sample": "A 9-19 record, worst run differential in baseball by 25+ runs, 4-16 over the last 20 games, and 10.5 games back in April \u2014 the numbers defy preseason expectations at every turn."
+      },
+      {
+        "name": "Managerial and Coaching Staff on the Brink",
+        "delta": -8,
+        "sample": "Rob Thomson addressed his job security publicly, Dave Dombrowski flew in top scouts mid-series, and Alex Cora's sudden availability has intensified speculation about an imminent change \u2014 with the hitting coach seen as the most likely first casualty."
+      },
+      {
+        "name": "Historically Bad vs. Left-Handed Pitching",
+        "delta": -9,
+        "sample": "The team is 0-10 against left-handed starters, posting an OPS against lefties that is the worst since splits began tracking in 1974 \u2014 a structural problem some argue should have been addressed multiple offseasons ago."
+      },
+      {
+        "name": "Zach Wheeler Return \u2014 Lone Bright Spot",
+        "delta": 5,
+        "sample": "Wheeler's season debut \u2014 five strong innings, 95-96 mph velocity, six strikeouts \u2014 snapped a 10-game losing streak and was universally cited as the only unambiguous good news from the entire road trip."
+      },
+      {
+        "name": "Front Office Miscalculation Takes Center Stage",
+        "delta": -7,
+        "sample": "With Felix Reyes batting cleanup and $35M paid to two players not on the roster, the offseason failure to address the right-handed bat shortage and the extended patience with a clearly diminished rotation piece are drawing sharp criticism."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "This is as bad as it gets. It really is, and it's not even about losing nine straight.",
+        "score": 5,
+        "source_hint": "Phillies Therapy (beat writer)"
+      },
+      {
+        "text": "If you're asking me right now on April 26th, will this team make the postseason, I say no. I don't think they will.",
+        "score": 8,
+        "source_hint": "Phillies Talk host (fan analyst)"
+      },
+      {
+        "text": "28 is the new 40. And I'm not sure what the Expos payroll was in 1991, but I'm guessing it wasn't $310 million.",
+        "score": 12,
+        "source_hint": "The Phillies Show host (fan analyst)"
+      },
+      {
+        "text": "You could smell change, and you can smell it throughout that game on Sunday because they were not in it. They were uncompetitive.",
+        "score": 10,
+        "source_hint": "The Phillies Show host (fan analyst)"
+      }
+    ],
+    "vibe_summary": "Phillies fans are staring at a 9-19 record and historically broken offense, bracing for imminent roster or coaching changes with little optimism left to spare.",
+    "reasoning": "The mood is as close to rock-bottom as it gets for a team still mathematically alive. A 9-19 record, a minus-54 run differential, 0-10 against left-handed starters, and 10.5 games back in late April have shattered preseason confidence. The front office is drawing more blame than the manager \u2014 the failure to address the right-handed bat shortage and the prolonged use of a clearly diminished rotation piece are seen as organizational miscalculations \u2014 though Rob Thomson's seat is also acknowledged as genuinely hot with Alex Cora's availability adding fuel. The only substantive optimism comes from Zach Wheeler's return, which is treated as a human interest story as much as a baseball one, and even that is quickly contextualized: he can't pitch every game, and nothing else is working.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 184795,
+      "youtube_attempted": 2,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Dave's Decision: changes could be coming to Phillies",
+        "voice": "fan_analyst",
+        "chars": 40337
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Changes on the horizon? Everything is HISTORICALLY bad for the Phillies right now",
+        "voice": "fan_analyst",
+        "chars": 51501
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Yeah, Great, Sure",
+        "voice": "beat_writer",
+        "chars": 48360
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies in a freefall as April struggles continue, losing streak hits nine games",
+        "voice": "fan_analyst",
+        "chars": 44597
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 91.3,
+        "baseline_games_count": 34,
+        "baseline_avg_pct": 96.1,
+        "delta_pct": -4.9,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823481,
+            "date": "2026-04-13",
+            "day_of_week": "Monday",
+            "opponent": "Chicago Cubs",
+            "result": "W 13-7",
+            "attendance": 36045,
+            "pct_capacity": 84.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823478,
+            "date": "2026-04-14",
+            "day_of_week": "Tuesday",
+            "opponent": "Chicago Cubs",
+            "result": "L 4-10",
+            "attendance": 37426,
+            "pct_capacity": 87.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823477,
+            "date": "2026-04-15",
+            "day_of_week": "Wednesday",
+            "opponent": "Chicago Cubs",
+            "result": "L 2-11",
+            "attendance": 38254,
+            "pct_capacity": 89.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823476,
+            "date": "2026-04-17",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 0-9",
+            "attendance": 43048,
+            "pct_capacity": 100.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823474,
+            "date": "2026-04-18",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "L 1-3",
+            "attendance": 43423,
+            "pct_capacity": 101.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823475,
+            "date": "2026-04-19",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-4",
+            "attendance": 36806,
+            "pct_capacity": 85.8,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "9-19",
+      "streak": "L1",
+      "games_behind": "10.5"
+    },
+    "generated_at": "2026-04-27T13:52:09.155199+00:00"
   }
 ]
