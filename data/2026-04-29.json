@@ -1,0 +1,199 @@
+{
+  "date": "2026-04-29",
+  "display_score": 34,
+  "reactive_score": 34,
+  "baseline_score": 19,
+  "insufficient_signal": false,
+  "content_volume": 102,
+  "mood_label": "Oh No",
+  "dimensions": {
+    "results_satisfaction": 32,
+    "front_office_trust": 28,
+    "manager_confidence": 42,
+    "lineup_confidence": 30,
+    "pitching_confidence": 38,
+    "health_outlook": 55,
+    "postseason_belief": 22
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 80,
+    "manager_confidence": 72,
+    "lineup_confidence": 78,
+    "pitching_confidence": 82,
+    "health_outlook": 45,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 40,
+      "note": "Hittin' Season / Stolnis, Klugh, Roscher express deep respect for Thomson's legacy while cautiously crediting Mattingly's debut win; skeptical that the manager change alone fixes deep roster-wide performance failures."
+    },
+    "beat_writer": {
+      "score": 25,
+      "note": "Phillies Therapy / Matt Gelb is the most critical voice \u2014 framing the firing as Rob Thomson taking the fall for underperforming players, flagging the Alex Cora recruitment as embarrassing process, and openly questioning whether 2026 is already sliding toward a punt."
+    },
+    "radio_populist": {
+      "score": 45,
+      "note": "WIP Daily / Joe Giglio is cautiously encouraged by the 7-0 debut win and Mattingly's early messaging, but openly doubts a World Series run and frames the season as a salvage effort needing sustained response, not a one-game spark."
+    }
+  },
+  "themes": [
+    {
+      "name": "Thomson Takes the Fall",
+      "delta": -5,
+      "sample": "Broad consensus that the players \u2014 not Thomson \u2014 caused this firing; his classy post-dismissal press availability deepened the sympathy and sharpened the anger at the roster's underperformance."
+    },
+    {
+      "name": "Front Office Process Under Fire",
+      "delta": -7,
+      "sample": "Recruiting Alex Cora while Thomson was still the active manager was widely called sloppy and embarrassing, raising serious doubts about the decision-making culture at the top."
+    },
+    {
+      "name": "One-Night Spark, Long Road Ahead",
+      "delta": 4,
+      "sample": "The 7-0 win in Mattingly's debut \u2014 featuring seven innings of clean pitching, a 5-for-11 night with RISP, and signs of life from multiple slumping hitters \u2014 provided real but heavily caveated relief."
+    },
+    {
+      "name": "Rotation Must Carry the Comeback",
+      "delta": -3,
+      "sample": "The starting staff's historically bad ERA, WHIP, and batting-average-against to open the year is the clearest measurable failure; one strong Luzardo start is not nearly enough to erase it."
+    },
+    {
+      "name": "Season Already at a Crossroads",
+      "delta": -6,
+      "sample": "At 10-19 and 10.5 games back, the next stretch \u2014 Giants, Marlins, Athletics, Rockies \u2014 is being treated as a make-or-break window; failure there would effectively end meaningful 2026 aspirations."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Rob Thomson takes the fall and I don't see it any other way than that.",
+      "score": 22,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "I think it's a little sloppy, in my opinion. I understand there is a strong relationship there between Dombrowski and Cora... it is a bad look that they were talking to him while Thompson was still the manager.",
+      "score": 18,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "If you're an accountable person, if you're a leader, you're going to stand up in front of people and answer the questions when it's all over.",
+      "score": 72,
+      "source_hint": "Rob Thomson, quoted on fan analyst show (The Phillies Show)"
+    },
+    {
+      "text": "I don't know if they're going to win the World Series. I would be shocked if they did. They're not this bad. They can't be this bad.",
+      "score": 30,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    }
+  ],
+  "vibe_summary": "Phillies fans are emotionally raw after Rob Thomson's firing \u2014 cautiously lifted by a promising debut win, but deeply unsettled by front-office missteps and a roster that has yet to prove it deserves saving.",
+  "reasoning": "The dominant mood is one of somber accountability: players are widely blamed for costing Thomson his job, and the front office's pursuit of Alex Cora while Thomson was still managing has drawn sharp criticism, with the beat writer framing it as a genuine process failure. The 7-0 Mattingly debut win provided a real emotional release valve \u2014 particularly Luzardo's outing and scattered offensive signs of life \u2014 but every analytical lens treats it as necessary rather than sufficient, with the next 10-13 games against weaker opponents framed as a true verdict on whether 2026 is salvageable or a quiet rebuild has already begun. The talk-radio perspective lands slightly more hopeful than the beat writer, who alone raises the possibility that this season has effectively become a setup for 2027.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 76576,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Blame Game: Dombrowski, Mattingly, Thomson discuss firing and future",
+      "voice": "fan_analyst",
+      "chars": 28177
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Now That's More Like It!",
+      "voice": "radio_populist",
+      "chars": 24737
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Phillies Fire Rob Thomson",
+      "voice": "beat_writer",
+      "chars": 23662
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 5,
+      "recent_avg_pct": 92.4,
+      "baseline_games_count": 35,
+      "baseline_avg_pct": 96.1,
+      "delta_pct": -3.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823477,
+          "date": "2026-04-15",
+          "day_of_week": "Wednesday",
+          "opponent": "Chicago Cubs",
+          "result": "L 2-11",
+          "attendance": 38254,
+          "pct_capacity": 89.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823476,
+          "date": "2026-04-17",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 0-9",
+          "attendance": 43048,
+          "pct_capacity": 100.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823474,
+          "date": "2026-04-18",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "L 1-3",
+          "attendance": 43423,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823475,
+          "date": "2026-04-19",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-4",
+          "attendance": 36806,
+          "pct_capacity": 85.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823473,
+          "date": "2026-04-28",
+          "day_of_week": "Tuesday",
+          "opponent": "San Francisco Giants",
+          "result": "W 7-0",
+          "attendance": 36731,
+          "pct_capacity": 85.6,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "10-19",
+    "streak": "W1",
+    "games_behind": "10.5"
+  },
+  "generated_at": "2026-04-29T13:18:30.435341+00:00"
+}
