@@ -1,28 +1,28 @@
 {
   "date": "2026-04-29",
-  "display_score": 34,
-  "reactive_score": 34,
+  "display_score": 37,
+  "reactive_score": 37,
   "baseline_score": 19,
   "insufficient_signal": false,
-  "content_volume": 102,
+  "content_volume": 183,
   "mood_label": "Oh No",
   "dimensions": {
-    "results_satisfaction": 32,
+    "results_satisfaction": 38,
     "front_office_trust": 28,
-    "manager_confidence": 42,
-    "lineup_confidence": 30,
-    "pitching_confidence": 38,
+    "manager_confidence": 52,
+    "lineup_confidence": 32,
+    "pitching_confidence": 40,
     "health_outlook": 55,
     "postseason_belief": 22
   },
   "dimension_confidence": {
     "results_satisfaction": 85,
-    "front_office_trust": 80,
-    "manager_confidence": 72,
-    "lineup_confidence": 78,
+    "front_office_trust": 90,
+    "manager_confidence": 88,
+    "lineup_confidence": 80,
     "pitching_confidence": 82,
     "health_outlook": 45,
-    "postseason_belief": 70
+    "postseason_belief": 75
   },
   "voice_breakdown": {
     "reddit": {
@@ -30,76 +30,76 @@
       "note": null
     },
     "fan_analyst": {
-      "score": 40,
-      "note": "Hittin' Season / Stolnis, Klugh, Roscher express deep respect for Thomson's legacy while cautiously crediting Mattingly's debut win; skeptical that the manager change alone fixes deep roster-wide performance failures."
+      "score": 42,
+      "note": "Fan analyst (The Phillies Show / Phillies Talk) voices genuine respect for Thomson, sharp criticism of front office roster construction, and cautious optimism about the schedule softening \u2014 but no real belief the season is salvageable."
     },
     "beat_writer": {
-      "score": 25,
-      "note": "Phillies Therapy / Matt Gelb is the most critical voice \u2014 framing the firing as Rob Thomson taking the fall for underperforming players, flagging the Alex Cora recruitment as embarrassing process, and openly questioning whether 2026 is already sliding toward a punt."
+      "score": 30,
+      "note": "Beat writer (Phillies Therapy / Matt Gelb) is the most pointed: calls the Cora negotiation 'embarrassing,' questions whether Mattingly's hiring makes the team 'serious,' and frames the next seven games as a put-up-or-shut-up moment."
     },
     "radio_populist": {
-      "score": 45,
-      "note": "WIP Daily / Joe Giglio is cautiously encouraged by the 7-0 debut win and Mattingly's early messaging, but openly doubts a World Series run and frames the season as a salvage effort needing sustained response, not a one-game spark."
+      "score": 48,
+      "note": "Talk-radio host (WIP Daily / Jack Fritz) is the most upbeat post-win voice, finding Mattingly's debut 'refreshing,' praising Lozardo's start, and noting the favorable upcoming schedule \u2014 while still flagging Stott injury concern and deep structural issues."
     }
   },
   "themes": [
     {
-      "name": "Thomson Takes the Fall",
-      "delta": -5,
-      "sample": "Broad consensus that the players \u2014 not Thomson \u2014 caused this firing; his classy post-dismissal press availability deepened the sympathy and sharpened the anger at the roster's underperformance."
+      "name": "Thomson Takes the Fall for a Roster That Failed Him",
+      "delta": -4,
+      "sample": "Near-universal agreement that the players and front office bear far more blame than the fired manager \u2014 who won 60% of his games, never dodged a question, and held a press conference after being let go purely out of class."
     },
     {
-      "name": "Front Office Process Under Fire",
+      "name": "Front Office Under the Microscope",
       "delta": -7,
-      "sample": "Recruiting Alex Cora while Thomson was still the active manager was widely called sloppy and embarrassing, raising serious doubts about the decision-making culture at the top."
+      "sample": "Dombrowski's offseason roster construction \u2014 no cleanup hitter, no veteran fifth starter, a depleted farm system \u2014 is now the central fault line, and the Cora negotiation conducted while Thomson was still employed is being called a bad look."
     },
     {
-      "name": "One-Night Spark, Long Road Ahead",
-      "delta": 4,
-      "sample": "The 7-0 win in Mattingly's debut \u2014 featuring seven innings of clean pitching, a 5-for-11 night with RISP, and signs of life from multiple slumping hitters \u2014 provided real but heavily caveated relief."
+      "name": "Mattingly's Debut Delivers a Glimpse of the Real Team",
+      "delta": 5,
+      "sample": "A 7-0 shutout win featuring seven innings from Lozardo, timely hitting, and clean defense was exactly how this roster was designed to play \u2014 raising cautious hope that the change, at minimum, woke something up."
     },
     {
-      "name": "Rotation Must Carry the Comeback",
+      "name": "Mattingly as Five-Month Placeholder, Cora as the Real Plan",
       "delta": -3,
-      "sample": "The starting staff's historically bad ERA, WHIP, and batting-average-against to open the year is the clearest measurable failure; one strong Luzardo start is not nearly enough to erase it."
+      "sample": "There is a growing consensus that Mattingly is managing through the end of 2026, that Dombrowski's preferred choice was always Cora, and that the 2027 roster and manager are the real project now taking shape."
     },
     {
-      "name": "Season Already at a Crossroads",
-      "delta": -6,
-      "sample": "At 10-19 and 10.5 games back, the next stretch \u2014 Giants, Marlins, Athletics, Rockies \u2014 is being treated as a make-or-break window; failure there would effectively end meaningful 2026 aspirations."
+      "name": "Next 10-13 Games Are a Season-Defining Referendum",
+      "delta": 0,
+      "sample": "With a soft schedule ahead \u2014 Giants, Marlins, Athletics, Rockies \u2014 the framing is blunt: win 8 or 10 of these games and the season lives; fail to respond and this becomes an open rebuild dressed up as a contending year."
     }
   ],
   "quotes": [
     {
-      "text": "Rob Thomson takes the fall and I don't see it any other way than that.",
+      "text": "Rob Thomson takes the fall. And that's the nature of the business. But it's unfortunate.",
+      "score": 28,
+      "source_hint": "Phillies Talk host on Thomson's dismissal"
+    },
+    {
+      "text": "I talked to him over the weekend and he told me no. And I still decided to make a change and I went with Don.",
       "score": 22,
-      "source_hint": "beat writer (Phillies Therapy)"
+      "source_hint": "Dave Dombrowski, quoted in Phillies Talk, confirming Cora was approached first"
     },
     {
-      "text": "I think it's a little sloppy, in my opinion. I understand there is a strong relationship there between Dombrowski and Cora... it is a bad look that they were talking to him while Thompson was still the manager.",
-      "score": 18,
-      "source_hint": "beat writer (Phillies Therapy)"
+      "text": "I am mustering up the last bit of patience I have to say no, this year is not a punt yet.",
+      "score": 25,
+      "source_hint": "Phillies Therapy host on the state of the season"
     },
     {
-      "text": "If you're an accountable person, if you're a leader, you're going to stand up in front of people and answer the questions when it's all over.",
-      "score": 72,
-      "source_hint": "Rob Thomson, quoted on fan analyst show (The Phillies Show)"
-    },
-    {
-      "text": "I don't know if they're going to win the World Series. I would be shocked if they did. They're not this bad. They can't be this bad.",
-      "score": 30,
-      "source_hint": "talk-radio host (High Hopes / WIP)"
+      "text": "It was refreshing to hear we're not just unlucky. We're not playing good baseball.",
+      "score": 58,
+      "source_hint": "WIP Daily host on Mattingly's early messaging"
     }
   ],
-  "vibe_summary": "Phillies fans are emotionally raw after Rob Thomson's firing \u2014 cautiously lifted by a promising debut win, but deeply unsettled by front-office missteps and a roster that has yet to prove it deserves saving.",
-  "reasoning": "The dominant mood is one of somber accountability: players are widely blamed for costing Thomson his job, and the front office's pursuit of Alex Cora while Thomson was still managing has drawn sharp criticism, with the beat writer framing it as a genuine process failure. The 7-0 Mattingly debut win provided a real emotional release valve \u2014 particularly Luzardo's outing and scattered offensive signs of life \u2014 but every analytical lens treats it as necessary rather than sufficient, with the next 10-13 games against weaker opponents framed as a true verdict on whether 2026 is salvageable or a quiet rebuild has already begun. The talk-radio perspective lands slightly more hopeful than the beat writer, who alone raises the possibility that this season has effectively become a setup for 2027.",
+  "vibe_summary": "Phillies fans are grieving a genuinely beloved manager while directing real anger at the front office, cautiously encouraged by one strong win but nowhere near convinced the season is back on track.",
+  "reasoning": "The dominant emotion is a mournful acknowledgment that Rob Thomson \u2014 widely regarded as blameless \u2014 paid the price for a roster that underperformed and a front office that didn't construct it well enough. The Cora negotiation conducted while Thomson was still employed added a layer of institutional embarrassment to an already painful day. The one bright note is Lozardo's performance and a complete team win in Mattingly's debut, which provided genuine if fragile relief. The sharpest skepticism focuses on whether a personality-similar interim manager with a known expiration date can actually jolt a $200M roster to life, while the more forward-looking framing treats 2026 increasingly as prologue to a 2027 reload around Cora.",
   "source_counts": {
     "reddit_posts": 0,
     "reddit_comments": 0,
     "match_threads": 0,
     "podcasts_attempted": 4,
-    "podcasts_transcribed": 3,
-    "podcast_chars": 76576,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 137488,
     "youtube_attempted": 3,
     "youtube_transcribed": 0,
     "youtube_chars": 0
@@ -109,19 +109,25 @@
       "feed_name": "The Phillies Show",
       "title": "Blame Game: Dombrowski, Mattingly, Thomson discuss firing and future",
       "voice": "fan_analyst",
-      "chars": 28177
+      "chars": 29847
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Rob Thomson out, Don Mattingly in... but was it the right move?",
+      "voice": "fan_analyst",
+      "chars": 60717
     },
     {
       "feed_name": "High Hopes",
       "title": "Final Out: Now That's More Like It!",
       "voice": "radio_populist",
-      "chars": 24737
+      "chars": 23792
     },
     {
       "feed_name": "Phillies Therapy",
       "title": "Phillies Fire Rob Thomson",
       "voice": "beat_writer",
-      "chars": 23662
+      "chars": 23132
     }
   ],
   "hard_signals": {
@@ -195,5 +201,5 @@
     "streak": "W1",
     "games_behind": "10.5"
   },
-  "generated_at": "2026-04-29T13:18:30.435341+00:00"
+  "generated_at": "2026-04-29T16:25:26.512854+00:00"
 }
