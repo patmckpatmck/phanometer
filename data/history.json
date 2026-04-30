@@ -2465,15 +2465,15 @@
   },
   {
     "date": "2026-04-30",
-    "display_score": 43,
-    "reactive_score": 43,
+    "display_score": 44,
+    "reactive_score": 44,
     "baseline_score": 24,
     "insufficient_signal": false,
-    "content_volume": 187,
+    "content_volume": 184,
     "mood_label": "Uneasy",
     "dimensions": {
       "results_satisfaction": 52,
-      "front_office_trust": 33,
+      "front_office_trust": 32,
       "manager_confidence": 55,
       "lineup_confidence": 38,
       "pitching_confidence": 45,
@@ -2481,11 +2481,11 @@
       "postseason_belief": 22
     },
     "dimension_confidence": {
-      "results_satisfaction": 72,
+      "results_satisfaction": 80,
       "front_office_trust": 78,
-      "manager_confidence": 80,
-      "lineup_confidence": 70,
-      "pitching_confidence": 75,
+      "manager_confidence": 82,
+      "lineup_confidence": 75,
+      "pitching_confidence": 80,
       "health_outlook": 45,
       "postseason_belief": 65
     },
@@ -2496,7 +2496,7 @@
       },
       "fan_analyst": {
         "score": 48,
-        "notes": "The fan analyst voices (Hittin' Season, The Phillies Show, Phillies Talk) are cautiously encouraged by the 7-0 opener under Mattingly but remain deeply troubled by the roster's underperformance, the messy firing process, and the structural gaps Dombrowski left."
+        "note": "Fan analyst coverage spans three shows: cautious optimism around the 7-0 win and Mattingly's debut, deep sympathy for Thomson, pointed criticism of Dombrowski's roster construction and the messy Cora courtship, with honest acknowledgment that the hole is very deep at 10-19."
       },
       "beat_writer": {
         "score": null,
@@ -2504,68 +2504,68 @@
       },
       "radio_populist": {
         "score": 55,
-        "note": "The talk-radio host (WIP High Hopes / Jack Fritz) is the most upbeat voice, calling the Mattingly debut 'refreshing' and latching onto Lozardo's start and the lineup's timely hitting, while still acknowledging the hole is deep and a World Series run would be shocking."
+        "note": "Talk-radio host is genuinely encouraged by the Mattingly debut \u2014 the starting pitching, bullpen management, and lineup execution \u2014 but frames the season as still very much in question, with the trade deadline as the real test, and expresses shock he'd have about a World Series run."
       }
     },
     "themes": [
       {
-        "name": "Mattingly Debut Lifts the Mood \u2014 Briefly",
+        "name": "Mattingly Debut Offers Genuine, Cautious Relief",
         "delta": 4,
-        "sample": "A dominant 7-0 shutout win, seven innings from Lozardo, and a four-hit game from Turner gave a genuinely dispirited clubhouse one encouraging night \u2014 but every analyst stressed it is a sample size of one."
+        "sample": "The 7-0 shutout win \u2014 first time a starter went seven innings all season, five-for-eleven with RISP, Lozardo dominant \u2014 provided real if fragile hope that the managerial change could spark a turnaround, with bullpen management drawing specific praise."
       },
       {
-        "name": "Thomson's Firing Feels Messy and Unfair",
-        "delta": -5,
-        "sample": "The behind-the-scenes timeline \u2014 Dombrowski courting Alex Cora while Thomson was still the manager, scouts in the dugout critiquing him mid-series \u2014 struck many as a bad look for the front office, even as Thomson himself handled it with remarkable class."
+        "name": "Thomson Firing Feels Messy and Unjust",
+        "delta": -4,
+        "sample": "The backdoor Cora courtship while Thomson was still managing, scouts in the dugout evaluating him in Atlanta, and firing him at 8:30 AM left a sour taste; near-universal sentiment is that Thomson was a class act who took the fall for a roster that failed him."
       },
       {
         "name": "Dombrowski's Roster Construction Under Fire",
-        "delta": -6,
-        "sample": "The thinness of the outfield depth, the absence of a true cleanup hitter, the depleted farm system, and the failure to add rotation insurance before the season are now being cited as the root cause of the collapse \u2014 with scrutiny shifting hard toward the front office."
+        "delta": -5,
+        "sample": "No true cleanup hitter, Taiwan Walker penciled into the rotation knowing Wheeler would be out, no right-handed depth addition, and a bottom-ten farm system have made Dombrowski the primary target of fan frustration \u2014 with his own job security now openly questioned."
       },
       {
-        "name": "Starting Rotation: The Only Real Path Back",
-        "delta": 3,
-        "sample": "Lozardo's seven-inning gem crystallized what the only realistic comeback scenario looks like: the rotation has to carry this team on a sustained run, and for one night at least, it showed it still has the ceiling to do exactly that."
+        "name": "Starting Rotation Is the Season's Hinge",
+        "delta": 2,
+        "sample": "Lozardo's seven shutout innings crystallized what the entire analysis converges on: if the rotation \u2014 Lozardo, Sanchez, Wheeler, Painter, Nola \u2014 can string together quality starts, a comeback is conceivable; if it can't, the season is functionally over."
       },
       {
-        "name": "Alex Cora Looms as the 2027 Manager-in-Waiting",
-        "delta": 0,
-        "sample": "Multiple analysts noted that Cora's rejection of the interim role and his close relationship with Dombrowski have effectively made him the presumptive hire for next season \u2014 framing Mattingly's tenure as a bridge rather than a long-term answer."
+        "name": "Alex Cora Rejection Signals Uncertain Future",
+        "delta": -3,
+        "sample": "Dombrowski's first choice turning the job down is widely read as another embarrassing rebuff \u2014 Bichette, now Cora \u2014 and has shifted attention to whether Cora becomes the 2027 manager and whether Dombrowski himself survives the offseason."
       }
     ],
     "quotes": [
       {
         "text": "The losing had spread like a wildfire. And all the fire trucks in the world weren't putting it out.",
         "score": 18,
-        "source_hint": "The Phillies Show host (Jim Salisbury)"
+        "source_hint": "fan analyst (The Phillies Show / Ruben Amaro Jr.)"
       },
       {
         "text": "If you're an accountable person, if you're a leader, you're going to stand up in front of people and answer the questions when it's all over.",
-        "score": 72,
-        "source_hint": "Rob Thomson, quoted on Phillies Talk"
+        "score": 62,
+        "source_hint": "Rob Thomson via fan analyst (Phillies Talk)"
       },
       {
-        "text": "I don't know if they're going to win the World Series. I would be shocked if they did.",
-        "score": 20,
-        "source_hint": "WIP High Hopes host (Jack Fritz)"
+        "text": "I don't know if they're going to win the World Series. I would be shocked if they did. They're not this bad. They can't be this bad.",
+        "score": 35,
+        "source_hint": "talk-radio host (High Hopes / Jack Fritz)"
       },
       {
         "text": "This turnaround is going to be on the players. It ain't going to be on the voice in the chair.",
         "score": 40,
-        "source_hint": "The Phillies Show host (Ruben Amaro Jr.)"
+        "source_hint": "fan analyst (The Phillies Show / Ruben Amaro Jr.)"
       }
     ],
-    "vibe_summary": "Phillies fans are cautiously exhaling after a dominant Mattingly debut, but the underlying anxiety about roster construction, front office credibility, and a 10-19 record still hangs heavy over everything.",
-    "reasoning": "The dominant mood is guarded relief rather than genuine optimism: one impressive win has given fans something to hold onto, but the structural concerns \u2014 a depleted farm system, no true cleanup hitter, a messy firing process, and a 11-game deficit in the division \u2014 remain firmly in view. The talk-radio perspective leans slightly more positive, seizing on the 'refreshing' Mattingly debut and tactical bullpen management, while the fan analyst perspective is more measured, stressing that the players got Thomson fired and that Dombrowski deserves real scrutiny. Postseason belief stays low because the only forward-looking confidence expressed is coping framing \u2014 Mattingly comeback precedents, the wild-card era, the soft upcoming schedule \u2014 rather than any expressed conviction that this specific roster is built to make a deep October run.",
+    "vibe_summary": "One cathartic blowout win under a new manager has briefly lifted the mood, but deep frustration over roster construction, a messy front-office process, and a 10-19 record keeps genuine optimism firmly in check.",
+    "reasoning": "The dominant story is the collision of short-term relief \u2014 a convincing 7-0 debut under Mattingly \u2014 with longer-term structural anxiety about the roster, the front office, and a double-digit deficit in the standings. The managerial change generated genuine warmth for Thomson and some cautious enthusiasm for Mattingly's early bullpen management and messaging, but nobody is claiming the season is saved. Front-office criticism runs deeper than the manager question: Dombrowski's offseason decisions, the Cora courtship revelation, and the farm system's barrenness have made him the primary accountability target. Postseason belief is kept very low because the only postseason-adjacent framing is historical-comeback reassurance and wild-card-era coping \u2014 expressed belief in a deep October run is essentially absent.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
       "match_threads": 0,
       "podcasts_attempted": 4,
       "podcasts_transcribed": 4,
-      "podcast_chars": 140163,
-      "youtube_attempted": 3,
+      "podcast_chars": 137887,
+      "youtube_attempted": 1,
       "youtube_transcribed": 0,
       "youtube_chars": 0
     },
@@ -2580,19 +2580,19 @@
         "feed_name": "The Phillies Show",
         "title": "Blame Game: Dombrowski, Mattingly, Thomson discuss firing and future",
         "voice": "fan_analyst",
-        "chars": 27735
+        "chars": 23844
       },
       {
         "feed_name": "Phillies Talk",
         "title": "Rob Thomson out, Don Mattingly in... but was it the right move?",
         "voice": "fan_analyst",
-        "chars": 60688
+        "chars": 59753
       },
       {
         "feed_name": "High Hopes",
         "title": "Final Out: Now That's More Like It!",
         "voice": "radio_populist",
-        "chars": 20928
+        "chars": 23478
       }
     ],
     "hard_signals": {
@@ -2656,6 +2656,6 @@
       "streak": "W1",
       "games_behind": "11.0"
     },
-    "generated_at": "2026-04-30T14:16:19.030920+00:00"
+    "generated_at": "2026-04-30T16:05:54.581385+00:00"
   }
 ]
