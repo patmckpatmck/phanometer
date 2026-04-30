@@ -1,0 +1,195 @@
+{
+  "date": "2026-04-30",
+  "display_score": 43,
+  "reactive_score": 43,
+  "baseline_score": 24,
+  "insufficient_signal": false,
+  "content_volume": 187,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 52,
+    "front_office_trust": 33,
+    "manager_confidence": 55,
+    "lineup_confidence": 38,
+    "pitching_confidence": 45,
+    "health_outlook": 58,
+    "postseason_belief": 22
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 78,
+    "manager_confidence": 80,
+    "lineup_confidence": 70,
+    "pitching_confidence": 75,
+    "health_outlook": 45,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 48,
+      "notes": "The fan analyst voices (Hittin' Season, The Phillies Show, Phillies Talk) are cautiously encouraged by the 7-0 opener under Mattingly but remain deeply troubled by the roster's underperformance, the messy firing process, and the structural gaps Dombrowski left."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 55,
+      "note": "The talk-radio host (WIP High Hopes / Jack Fritz) is the most upbeat voice, calling the Mattingly debut 'refreshing' and latching onto Lozardo's start and the lineup's timely hitting, while still acknowledging the hole is deep and a World Series run would be shocking."
+    }
+  },
+  "themes": [
+    {
+      "name": "Mattingly Debut Lifts the Mood \u2014 Briefly",
+      "delta": 4,
+      "sample": "A dominant 7-0 shutout win, seven innings from Lozardo, and a four-hit game from Turner gave a genuinely dispirited clubhouse one encouraging night \u2014 but every analyst stressed it is a sample size of one."
+    },
+    {
+      "name": "Thomson's Firing Feels Messy and Unfair",
+      "delta": -5,
+      "sample": "The behind-the-scenes timeline \u2014 Dombrowski courting Alex Cora while Thomson was still the manager, scouts in the dugout critiquing him mid-series \u2014 struck many as a bad look for the front office, even as Thomson himself handled it with remarkable class."
+    },
+    {
+      "name": "Dombrowski's Roster Construction Under Fire",
+      "delta": -6,
+      "sample": "The thinness of the outfield depth, the absence of a true cleanup hitter, the depleted farm system, and the failure to add rotation insurance before the season are now being cited as the root cause of the collapse \u2014 with scrutiny shifting hard toward the front office."
+    },
+    {
+      "name": "Starting Rotation: The Only Real Path Back",
+      "delta": 3,
+      "sample": "Lozardo's seven-inning gem crystallized what the only realistic comeback scenario looks like: the rotation has to carry this team on a sustained run, and for one night at least, it showed it still has the ceiling to do exactly that."
+    },
+    {
+      "name": "Alex Cora Looms as the 2027 Manager-in-Waiting",
+      "delta": 0,
+      "sample": "Multiple analysts noted that Cora's rejection of the interim role and his close relationship with Dombrowski have effectively made him the presumptive hire for next season \u2014 framing Mattingly's tenure as a bridge rather than a long-term answer."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The losing had spread like a wildfire. And all the fire trucks in the world weren't putting it out.",
+      "score": 18,
+      "source_hint": "The Phillies Show host (Jim Salisbury)"
+    },
+    {
+      "text": "If you're an accountable person, if you're a leader, you're going to stand up in front of people and answer the questions when it's all over.",
+      "score": 72,
+      "source_hint": "Rob Thomson, quoted on Phillies Talk"
+    },
+    {
+      "text": "I don't know if they're going to win the World Series. I would be shocked if they did.",
+      "score": 20,
+      "source_hint": "WIP High Hopes host (Jack Fritz)"
+    },
+    {
+      "text": "This turnaround is going to be on the players. It ain't going to be on the voice in the chair.",
+      "score": 40,
+      "source_hint": "The Phillies Show host (Ruben Amaro Jr.)"
+    }
+  ],
+  "vibe_summary": "Phillies fans are cautiously exhaling after a dominant Mattingly debut, but the underlying anxiety about roster construction, front office credibility, and a 10-19 record still hangs heavy over everything.",
+  "reasoning": "The dominant mood is guarded relief rather than genuine optimism: one impressive win has given fans something to hold onto, but the structural concerns \u2014 a depleted farm system, no true cleanup hitter, a messy firing process, and a 11-game deficit in the division \u2014 remain firmly in view. The talk-radio perspective leans slightly more positive, seizing on the 'refreshing' Mattingly debut and tactical bullpen management, while the fan analyst perspective is more measured, stressing that the players got Thomson fired and that Dombrowski deserves real scrutiny. Postseason belief stays low because the only forward-looking confidence expressed is coping framing \u2014 Mattingly comeback precedents, the wild-card era, the soft upcoming schedule \u2014 rather than any expressed conviction that this specific roster is built to make a deep October run.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 140163,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Mike Schmidt Talks Phillies Struggles', Firing Managers, and Melanoma Safety",
+      "voice": "fan_analyst",
+      "chars": 30812
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Blame Game: Dombrowski, Mattingly, Thomson discuss firing and future",
+      "voice": "fan_analyst",
+      "chars": 27735
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Rob Thomson out, Don Mattingly in... but was it the right move?",
+      "voice": "fan_analyst",
+      "chars": 60688
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Now That's More Like It!",
+      "voice": "radio_populist",
+      "chars": 20928
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 93.2,
+      "baseline_games_count": 36,
+      "baseline_avg_pct": 96.3,
+      "delta_pct": -3.0,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823476,
+          "date": "2026-04-17",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 0-9",
+          "attendance": 43048,
+          "pct_capacity": 100.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823474,
+          "date": "2026-04-18",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "L 1-3",
+          "attendance": 43423,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823475,
+          "date": "2026-04-19",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-4",
+          "attendance": 36806,
+          "pct_capacity": 85.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823473,
+          "date": "2026-04-28",
+          "day_of_week": "Tuesday",
+          "opponent": "San Francisco Giants",
+          "result": "W 7-0",
+          "attendance": 36731,
+          "pct_capacity": 85.6,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "10-19",
+    "streak": "W1",
+    "games_behind": "11.0"
+  },
+  "generated_at": "2026-04-30T14:16:19.030920+00:00"
+}
