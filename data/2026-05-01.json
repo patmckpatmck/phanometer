@@ -1,0 +1,215 @@
+{
+  "date": "2026-05-01",
+  "display_score": 39,
+  "reactive_score": 39,
+  "baseline_score": 30,
+  "insufficient_signal": false,
+  "content_volume": 201,
+  "mood_label": "Oh No",
+  "dimensions": {
+    "results_satisfaction": 38,
+    "front_office_trust": 32,
+    "manager_confidence": 52,
+    "lineup_confidence": 35,
+    "pitching_confidence": 48,
+    "health_outlook": 52,
+    "postseason_belief": 22
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 80,
+    "manager_confidence": 88,
+    "lineup_confidence": 75,
+    "pitching_confidence": 70,
+    "health_outlook": 45,
+    "postseason_belief": 72
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 45,
+      "note": "Fan analyst voices across Hittin' Season and The Phillies Show acknowledge the 7-0 Mattingly debut with cautious optimism while cataloguing deep roster and process concerns; Dombrowski's front-office handling draws pointed criticism."
+    },
+    "beat_writer": {
+      "score": 30,
+      "note": "Beat writer (Phillies Therapy / Matt Gelb) is the most skeptical voice: frames the Thomson firing as a messy front-office lever-pull, questions what really changes under Mattingly, and demands the team 'put up or shut the hell up' over the next seven games."
+    },
+    "radio_populist": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Mattingly Debut Lifts Spirits \u2014 Briefly",
+      "delta": 4,
+      "sample": "A 7-0 shutout win with seven innings from Luzardo and a four-hit game from Turner was the most complete performance of the season, but the one-game sample size is universally flagged as too small to signal a real turn."
+    },
+    {
+      "name": "Thomson Fired With Class, Blamed by No One But Himself",
+      "delta": -3,
+      "sample": "Thomson's voluntary Zoom with reporters after being fired drew widespread admiration; the near-universal read is that the players \u2014 not the manager \u2014 caused this, making the firing feel unjust even if understood as necessary."
+    },
+    {
+      "name": "Dombrowski's Process Called Sloppy and Embarrassing",
+      "delta": -6,
+      "sample": "Courting Alex Cora while Thomson was still the active manager, failing to land a preferred candidate, and producing a bottom-ten farm system have all intensified scrutiny on the front office as the new target of fan frustration."
+    },
+    {
+      "name": "Roster Construction Seen as Root Cause",
+      "delta": -5,
+      "sample": "A cleanup spot cycling through unqualified options, a rotation that posted the worst ERA and WHIP in baseball, and no impact prospect ready to contribute are cited as structural problems no managerial change can fix on its own."
+    },
+    {
+      "name": "Mattingly's Turnaround Precedents Offer Thin Hope",
+      "delta": 3,
+      "sample": "Historical parallels to Mattingly's 2013 and 2014 Dodgers comebacks from 9.5-game deficits are noted with genuine interest, but analysts stop well short of confident projection, citing uncertain offensive firepower compared to those rosters."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The players got Rob Thomson fired. You mentioned he did the Zoom. The man is a class act.",
+      "score": 28,
+      "source_hint": "fan analyst (The Phillies Show), on Thomson's firing"
+    },
+    {
+      "text": "I am mustering up the last bit of patience I have to say, No, this year is not a punt yet.",
+      "score": 22,
+      "source_hint": "beat writer (Phillies Therapy), demanding the team respond immediately"
+    },
+    {
+      "text": "I talked to Alex. We never got down to the nuts and bolts of things because... I did talk to him.",
+      "score": 30,
+      "source_hint": "Dave Dombrowski, quoted in fan analyst (Phillies Talk) on the Cora pursuit"
+    },
+    {
+      "text": "If you're an accountable person, if you're a leader, you're going to stand up in front of people and answer the questions when it's all over.",
+      "score": 60,
+      "source_hint": "Rob Thomson, quoted in fan analyst (Phillies Talk) on his post-firing Zoom"
+    }
+  ],
+  "vibe_summary": "Phillies fans are cautiously exhaling after a dominant Mattingly debut, but the relief is thin \u2014 the messy front-office process, a hollowed-out roster, and 12-19 record keep the mood closer to anxious than hopeful.",
+  "reasoning": "The dominant emotional driver is a strange cocktail of genuine affection for Thomson, sharp frustration at the front office's handling of his dismissal, and fragile optimism from the 7-0 win. The beat writer is the most unsparing voice, treating the Mattingly hire as an unproven lever-pull and framing the next seven games as a hard deadline for the roster to justify its own existence. The fan analyst voices are more willing to cite Mattingly's historical turnaround precedents and applaud the debut performance, but they share the same core diagnosis: the roster's offensive holes and farm system depth are structural problems that a managerial change alone cannot solve. Postseason belief stays low because the available optimism is almost entirely framed around historical recovery analogies and schedule softening \u2014 coping framing, not expressed conviction that this team is built for October.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 150379,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Mike Schmidt Talks Phillies Struggles', Firing Managers, and Melanoma Safety",
+      "voice": "fan_analyst",
+      "chars": 30873
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Blame Game: Dombrowski, Mattingly, Thomson discuss firing and future",
+      "voice": "fan_analyst",
+      "chars": 28790
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Rob Thomson out, Don Mattingly in... but was it the right move?",
+      "voice": "fan_analyst",
+      "chars": 63708
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Phillies Fire Rob Thomson",
+      "voice": "beat_writer",
+      "chars": 27008
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 89.7,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 96.5,
+      "delta_pct": -6.8,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823476,
+          "date": "2026-04-17",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 0-9",
+          "attendance": 43048,
+          "pct_capacity": 100.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823474,
+          "date": "2026-04-18",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "L 1-3",
+          "attendance": 43423,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823475,
+          "date": "2026-04-19",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-4",
+          "attendance": 36806,
+          "pct_capacity": 85.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823473,
+          "date": "2026-04-28",
+          "day_of_week": "Tuesday",
+          "opponent": "San Francisco Giants",
+          "result": "W 7-0",
+          "attendance": 36731,
+          "pct_capacity": 85.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823472,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 3-2",
+          "attendance": 36861,
+          "pct_capacity": 85.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823471,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 6-5",
+          "attendance": 34109,
+          "pct_capacity": 79.5,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "12-19",
+    "streak": "W3",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-05-01T11:13:07.467350+00:00"
+}
