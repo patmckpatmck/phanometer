@@ -1,0 +1,205 @@
+{
+  "date": "2026-05-02",
+  "display_score": 54,
+  "reactive_score": 54,
+  "baseline_score": 33,
+  "insufficient_signal": false,
+  "content_volume": 243,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 68,
+    "front_office_trust": 42,
+    "manager_confidence": 62,
+    "lineup_confidence": 48,
+    "pitching_confidence": 60,
+    "health_outlook": 50,
+    "postseason_belief": 28
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 55,
+    "manager_confidence": 80,
+    "lineup_confidence": 75,
+    "pitching_confidence": 78,
+    "health_outlook": 65,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 65,
+      "note": "Phillies Talk, The Philly Show, and Hittin' Season all celebrate the four-game winning streak and Mattingly's early impact while noting the 13-19 record and roster concerns keep optimism measured."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 55,
+      "note": "High Hopes is relieved the season feels alive again but explicitly stops short of playoff belief, floating a 70-75 win projection and calling the Dombrowski-Cora leak a 'major blunder.'"
+    }
+  },
+  "themes": [
+    {
+      "name": "Mattingly Bounce Real, But Skepticism Lingers",
+      "delta": 5,
+      "sample": "Four wins in a row have injected genuine energy \u2014 bunt drills, walk-offs, a sharpened dugout \u2014 yet the honest read is that the Giants and Marlins are soft opponents and the underlying roster problems haven't disappeared."
+    },
+    {
+      "name": "Wheeler and Lizardo Spark Rotation Hope",
+      "delta": 7,
+      "sample": "Zach Wheeler's dominant Miami debut and Lizardo's seven-inning shutout are the most encouraging developments in weeks, giving fans reason to believe the rotation can look like the one that was projected before the season."
+    },
+    {
+      "name": "Catching Depth Is a Quiet Crisis",
+      "delta": -5,
+      "sample": "With Realmuto still on the IL and Marshawn hitting .078 in 14 games, the catching situation is described as 'dreadful' \u2014 a slow-burn problem that looms over any hot streak."
+    },
+    {
+      "name": "Cora Leak Damages Front-Office Trust",
+      "delta": -4,
+      "sample": "The public report that Dombrowski pursued Alex Cora before naming Mattingly interim manager is widely called a 'major blunder' that undercuts Mattingly before he's even proven himself."
+    },
+    {
+      "name": "Playoff Belief Still Low Despite the Streak",
+      "delta": -2,
+      "sample": "Even with four straight wins, the dominant framing is relief that the season isn't over rather than confidence in a deep October run \u2014 one voice explicitly projects 70-75 wins and says it would be surprised by a big postseason push."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It felt hopeless. It felt so hopeless. It was like, well, this is our lot for the year.",
+      "score": 22,
+      "source_hint": "talk-radio host (High Hopes / WIP) on the pre-streak mood"
+    },
+    {
+      "text": "If you're going to have a good year and you're going to end up where you want to go, your big boys got to go.",
+      "score": 60,
+      "source_hint": "fan analyst (The Philly Show) quoting Don Mattingly on the top of the order"
+    },
+    {
+      "text": "The Cora thing. Just a major blunder. It's a major blunder. It's just what he does.",
+      "score": 28,
+      "source_hint": "talk-radio host (High Hopes / WIP) on Dombrowski's handling of the managerial search"
+    },
+    {
+      "text": "It doesn't feel like there was much, despite being told over and over that there's so much talent on this team.",
+      "score": 30,
+      "source_hint": "fan analyst (Hittin' Season) on pre-sweep pessimism"
+    }
+  ],
+  "vibe_summary": "Phillies fans are exhaling after a four-game winning streak has turned despair into cautious relief, though a 13-19 record, a shaky catching situation, and lingering doubts about the roster's ceiling keep genuine playoff optimism well out of reach.",
+  "reasoning": "The four-game winning streak under Don Mattingly has meaningfully improved mood \u2014 walk-off wins, a dominant Wheeler outing, and Lizardo's best start of the season are real signal. However, the dominant framing across all present content is relief rather than belief: the opponents have been soft, the record is still 13-19, and one voice explicitly projects a 70-75 win season. Front-office trust takes a hit from the widely-criticized Cora pursuit leak, and the catching situation with Realmuto still out and Marshawn hitting .078 is a persistent undercurrent of anxiety. Postseason belief stays low because the only postseason-adjacent content is structural reassurance and historical-precedent coping, not expressed confidence in a deep October run.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 182413,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Talk",
+      "title": "So far, so good: Phillies starting to click in the Don Mattingly era",
+      "voice": "fan_analyst",
+      "chars": 37024
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Walk-offs! Sweep! The Phillies are 3-0 under Don Mattingly",
+      "voice": "fan_analyst",
+      "chars": 34247
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Sweep the Giants Before Four with the Fish",
+      "voice": "fan_analyst",
+      "chars": 54136
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Has Donnie Baseball Saved The Season?",
+      "voice": "radio_populist",
+      "chars": 57006
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 5,
+      "recent_avg_pct": 87.6,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 96.5,
+      "delta_pct": -8.9,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823474,
+          "date": "2026-04-18",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "L 1-3",
+          "attendance": 43423,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823475,
+          "date": "2026-04-19",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-4",
+          "attendance": 36806,
+          "pct_capacity": 85.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823473,
+          "date": "2026-04-28",
+          "day_of_week": "Tuesday",
+          "opponent": "San Francisco Giants",
+          "result": "W 7-0",
+          "attendance": 36731,
+          "pct_capacity": 85.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823472,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 3-2",
+          "attendance": 36861,
+          "pct_capacity": 85.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823471,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 6-5",
+          "attendance": 34109,
+          "pct_capacity": 79.5,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "13-19",
+    "streak": "W4",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-05-02T10:59:18.898618+00:00"
+}
