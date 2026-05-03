@@ -3077,5 +3077,200 @@
       "games_behind": "9.5"
     },
     "generated_at": "2026-05-02T10:59:18.898618+00:00"
+  },
+  {
+    "date": "2026-05-03",
+    "display_score": 49,
+    "reactive_score": 49,
+    "baseline_score": 39,
+    "insufficient_signal": false,
+    "content_volume": 211,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 58,
+      "front_office_trust": 32,
+      "manager_confidence": 60,
+      "lineup_confidence": 45,
+      "pitching_confidence": 62,
+      "health_outlook": 48,
+      "postseason_belief": 22
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 80,
+      "front_office_trust": 75,
+      "manager_confidence": 78,
+      "lineup_confidence": 72,
+      "pitching_confidence": 76,
+      "health_outlook": 60,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 65,
+        "note": "Fan analyst voices are cautiously optimistic about the Mattingly bump and Wheeler's return, while flagging the catching situation and schedule-softness caveat."
+      },
+      "beat_writer": {
+        "score": 30,
+        "note": "The beat writer is skeptical the managerial change fixes structural problems, criticizes the front office's handling of the Thomson dismissal and the Cora pursuit, and frames the move as a lever pulled out of desperation."
+      },
+      "radio_populist": {
+        "score": 48,
+        "note": "The talk-radio host has moved from season-over despair to cautious 'we still have a season' footing, but explicitly says he would not bet on a playoff run and frames optimism around a floor, not a ceiling."
+      }
+    },
+    "themes": [
+      {
+        "name": "Mattingly Bump Is Real But Roster-Dependent",
+        "delta": 4,
+        "sample": "Four straight wins under the new manager have lifted spirits, but the honest read is that the schedule softened and the same roster questions remain \u2014 Boehm's bat, the catching spot, the back-end of the lineup."
+      },
+      {
+        "name": "Front Office Process Under Fire",
+        "delta": -6,
+        "sample": "Negotiating with Alex Cora while Thomson was still employed is widely called embarrassing and sloppy; the move is seen as a front-office admission of culpability with no clear accountability attached."
+      },
+      {
+        "name": "Rotation Showing Signs of Life",
+        "delta": 6,
+        "sample": "Wheeler's dominant return, Lizardo's seven shutout innings, and Sanchez settling in mid-game are the most genuinely encouraging development of the stretch, giving fans real reason to believe the staff can carry the team."
+      },
+      {
+        "name": "Postseason Framing Is Coping, Not Confidence",
+        "delta": -3,
+        "sample": "Wild-card era reassurance and 2019 Nationals comparisons are floating around, but the honest framing from every angle is 'just find a way to make the playoffs' \u2014 not a belief that a deep October run is likely."
+      },
+      {
+        "name": "Health Anxiety Lingers Despite Return of JT",
+        "delta": -2,
+        "sample": "JT Realmuto's imminent return is a genuine boost, but Bacchus back on the IL, Duran still on rehab, and Marshawn's offensive futility at catcher keep injury concerns squarely in the picture."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I don't have this overwhelming sense of, there they are. I still don't have that.",
+        "score": 30,
+        "source_hint": "talk-radio host, High Hopes pod, after the Giants sweep"
+      },
+      {
+        "text": "Rob Thomson takes the fall and I don't see it any other way than that.",
+        "score": 28,
+        "source_hint": "beat writer, Phillies Therapy, day of the Thomson firing"
+      },
+      {
+        "text": "If you're going to have a good year and you're going to end up where you want to go, your big boys got to go.",
+        "score": 62,
+        "source_hint": "fan analyst, The Phillies Show, quoting Don Mattingly on the top of the lineup"
+      },
+      {
+        "text": "I've gone from season over to, we still have a season, even if I wouldn't bet on them to make the playoffs yet.",
+        "score": 38,
+        "source_hint": "talk-radio host, High Hopes pod, summarizing his own mood shift"
+      }
+    ],
+    "vibe_summary": "Phillies fans have exhaled from full panic mode into cautious, eyes-open skepticism \u2014 relieved by four straight wins but unconvinced the underlying roster problems have been solved.",
+    "reasoning": "A four-game winning streak under Don Mattingly has pulled the mood back from the ledge, with Wheeler's resurgence and two walk-off wins generating genuine excitement. But the optimism is fragile and heavily qualified: the schedule was favorable, the catching position is a liability, Boehm and Stott remain unresolved questions, and the postseason framing across every source is structural reassurance rather than expressed belief. The sharpest divergence is between the fan analyst enthusiasm for the Mattingly bump and the beat writer's unambiguous skepticism about the front office's process \u2014 characterizing the Cora pursuit and Thomson dismissal as embarrassing and raising bigger-picture questions about where this franchise is actually headed.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 158049,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "So far, so good: Phillies starting to click in the Don Mattingly era",
+        "voice": "fan_analyst",
+        "chars": 42517
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Walk-offs! Sweep! The Phillies are 3-0 under Don Mattingly",
+        "voice": "fan_analyst",
+        "chars": 34740
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Has Donnie Baseball Saved The Season?",
+        "voice": "radio_populist",
+        "chars": 57849
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Phillies Fire Rob Thomson",
+        "voice": "beat_writer",
+        "chars": 22943
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 4,
+        "recent_avg_pct": 84.2,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 96.5,
+        "delta_pct": -12.3,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823475,
+            "date": "2026-04-19",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-4",
+            "attendance": 36806,
+            "pct_capacity": 85.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823473,
+            "date": "2026-04-28",
+            "day_of_week": "Tuesday",
+            "opponent": "San Francisco Giants",
+            "result": "W 7-0",
+            "attendance": 36731,
+            "pct_capacity": 85.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823472,
+            "date": "2026-04-30",
+            "day_of_week": "Thursday",
+            "opponent": "San Francisco Giants",
+            "result": "W 3-2",
+            "attendance": 36861,
+            "pct_capacity": 85.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823471,
+            "date": "2026-04-30",
+            "day_of_week": "Thursday",
+            "opponent": "San Francisco Giants",
+            "result": "W 6-5",
+            "attendance": 34109,
+            "pct_capacity": 79.5,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "13-20",
+      "streak": "L1",
+      "games_behind": "10.5"
+    },
+    "generated_at": "2026-05-03T11:02:20.483195+00:00"
   }
 ]
