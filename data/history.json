@@ -3272,5 +3272,190 @@
       "games_behind": "10.5"
     },
     "generated_at": "2026-05-03T11:02:20.483195+00:00"
+  },
+  {
+    "date": "2026-05-04",
+    "display_score": 43,
+    "reactive_score": 43,
+    "baseline_score": 42,
+    "insufficient_signal": false,
+    "content_volume": 193,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 52,
+      "front_office_trust": 32,
+      "manager_confidence": 48,
+      "lineup_confidence": 38,
+      "pitching_confidence": 55,
+      "health_outlook": 45,
+      "postseason_belief": 22
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 78,
+      "manager_confidence": 80,
+      "lineup_confidence": 82,
+      "pitching_confidence": 70,
+      "health_outlook": 60,
+      "postseason_belief": 75
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 58,
+        "note": "Phillies Talk and The Philly Show are cautiously encouraged by the 4-game winning streak and Wheeler's return, but repeatedly acknowledge the soft schedule and withhold full belief; the Phillies Show credits improved sharpness and fight while flagging the catching situation and Boehm's ongoing struggles."
+      },
+      "beat_writer": {
+        "score": 28,
+        "note": "The beat writer (Phillies Therapy) delivered two deeply pessimistic episodes \u2014 the 'Miasma of Crap' episode aired raw despair about roster construction, front-office process, and a team that 'doesn't look serious'; the 'Phillies Fire Rob Thomson' episode raised pointed questions about sloppy front-office process, the Cora courtship, and whether the managerial change is a genuine fix or a punt toward 2027."
+      },
+      "radio_populist": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Four-game winning streak lifts mood \u2014 cautiously",
+        "delta": 5,
+        "sample": "A four-game winning streak, including a doubleheader sweep with back-to-back walk-offs, has provided real relief, but the soft schedule \u2014 Giants, Marlins, A's, Rockies \u2014 tempers how much stock anyone is putting in it."
+      },
+      {
+        "name": "Wheeler's return the brightest real development",
+        "delta": 7,
+        "sample": "Zach Wheeler's first two starts back have looked like vintage Wheeler \u2014 six innings, eight strikeouts, one run against Miami \u2014 and a healthy rotation anchored by Wheeler, Sanchez, and Lozardo is the clearest reason for any genuine optimism."
+      },
+      {
+        "name": "Front-office process under serious scrutiny",
+        "delta": -7,
+        "sample": "The revelation that the Phillies were negotiating with Alex Cora while Rob Thomson was still managing has been called embarrassing and sloppy, feeding broader doubt about whether the organization has a coherent plan beyond pulling available levers."
+      },
+      {
+        "name": "Roster construction failures outlast the managerial change",
+        "delta": -6,
+        "sample": "Firing the manager does not solve Boehm hitting .078, a catching situation described as dreadful, a backup outfield of Dylan Moore and Felix Reyes, or a starting group that until recently produced a historically bad RISP stretch \u2014 the personnel problems remain."
+      },
+      {
+        "name": "Don Mattingly's honeymoon is real but fragile",
+        "delta": 3,
+        "sample": "Players appear sharper and more focused since the managerial change \u2014 Stott is pulling the ball, Boehm made a heads-up defensive play, Mattingly is bunting and running aggressively \u2014 but nearly every voice notes this looks like the same team finally playing weaker opponents."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "It will be something akin to a miracle if this team finds a way to crawl into one of these playoff spots.",
+        "score": 12,
+        "source_hint": "beat writer (Phillies Therapy), 'Miasma of Crap' episode"
+      },
+      {
+        "text": "Rob Thomson takes the fall for the players. That's what managers do.",
+        "score": 30,
+        "source_hint": "beat writer (Phillies Therapy), 'Phillies Fire Rob Thomson' episode"
+      },
+      {
+        "text": "If you're going to have a good year and you're going to end up where you want to go, your big boys got to go.",
+        "score": 62,
+        "source_hint": "Don Mattingly quote, read on The Philly Show"
+      },
+      {
+        "text": "4-0 under Donnie Baseball, man. The Phills seem to be a little invigorated by it.",
+        "score": 65,
+        "source_hint": "fan analyst (Phillies Talk)"
+      }
+    ],
+    "vibe_summary": "Relief from a four-game winning streak is real but fragile \u2014 fans and analysts know the schedule has been soft, the roster's deeper problems remain unsolved, and the front office's sloppy handling of the managerial change has left serious questions that winning alone won't answer.",
+    "reasoning": "The mood is sharply split between surface-level encouragement and structural alarm. The winning streak, Wheeler's dominant return, and signs of life from Stott and Boehm have given the fan analyst voices genuine, if cautious, optimism. The beat writer content, however \u2014 recorded closer to the darkest stretch of the season \u2014 is far grimmer: a historically bad run differential, a publicly embarrassing Cora courtship, a roster construction that left the team with Dylan Moore and Felix Reyes as outfield depth, and a postseason probability that one voice called 'akin to a miracle.' The managerial change itself is assessed skeptically by nearly every voice as an irrational lever pulled in the absence of better options, not a conviction move \u2014 keeping postseason belief low despite the winning streak.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 145012,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "So far, so good: Phillies starting to click in the Don Mattingly era",
+        "voice": "fan_analyst",
+        "chars": 38470
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Walk-offs! Sweep! The Phillies are 3-0 under Don Mattingly",
+        "voice": "fan_analyst",
+        "chars": 33450
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Phillies Fire Rob Thomson",
+        "voice": "beat_writer",
+        "chars": 23111
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Miasma of Crap",
+        "voice": "beat_writer",
+        "chars": 49981
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 3,
+        "recent_avg_pct": 83.7,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 96.5,
+        "delta_pct": -12.8,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823473,
+            "date": "2026-04-28",
+            "day_of_week": "Tuesday",
+            "opponent": "San Francisco Giants",
+            "result": "W 7-0",
+            "attendance": 36731,
+            "pct_capacity": 85.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823472,
+            "date": "2026-04-30",
+            "day_of_week": "Thursday",
+            "opponent": "San Francisco Giants",
+            "result": "W 3-2",
+            "attendance": 36861,
+            "pct_capacity": 85.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823471,
+            "date": "2026-04-30",
+            "day_of_week": "Thursday",
+            "opponent": "San Francisco Giants",
+            "result": "W 6-5",
+            "attendance": 34109,
+            "pct_capacity": 79.5,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "14-20",
+      "streak": "W1",
+      "games_behind": "10.5"
+    },
+    "generated_at": "2026-05-04T11:55:41.205462+00:00"
   }
 ]
