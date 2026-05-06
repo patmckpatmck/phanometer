@@ -1,0 +1,195 @@
+{
+  "date": "2026-05-06",
+  "display_score": 61,
+  "reactive_score": 61,
+  "baseline_score": 42,
+  "insufficient_signal": false,
+  "content_volume": 218,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 68,
+    "front_office_trust": 55,
+    "manager_confidence": 72,
+    "lineup_confidence": 45,
+    "pitching_confidence": 82,
+    "health_outlook": 62,
+    "postseason_belief": 32
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 88,
+    "front_office_trust": 45,
+    "manager_confidence": 75,
+    "lineup_confidence": 85,
+    "pitching_confidence": 92,
+    "health_outlook": 55,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 65,
+      "note": "Hittin' Season and Phillies Talk both cautiously optimistic \u2014 praising the rotation and recent wins while repeatedly flagging that right-handed hitting, defense, and the lefty-starter problem remain unresolved; not ready to call the season fixed."
+    },
+    "beat_writer": {
+      "score": 58,
+      "note": "Phillies Therapy offers the most measured read: wins are real but the team is 'winning in spite of themselves,' the righty lineup ranks 27th in OPS, and the ceiling has likely dropped from a mid-90s win total to something lower."
+    },
+    "radio_populist": {
+      "score": 72,
+      "note": "High Hopes / WIP Final Out is the most enthusiastic voice \u2014 crediting Mattingly's culture shift, celebrating the rotation's 1.53 ERA over eight starts, and declaring 'the run might be coming,' though still flagging the lefty-starter bugaboo as the next real test."
+    }
+  },
+  "themes": [
+    {
+      "name": "Rotation Carrying the Load",
+      "delta": 8,
+      "sample": "Starters have combined for a 1.53\u20131.60 ERA over the last seven-to-eight games, with Sanchez (10 K, 8 IP), Wheeler, Luzardo, and Nola all delivering quality outings \u2014 the clearest bright spot on the roster right now."
+    },
+    {
+      "name": "Harper Heating Up, Righty Lineup Still Cold",
+      "delta": 3,
+      "sample": "Bryce Harper is playing at an elite level with three home runs in two games and a rising OPS, but right-handed hitters as a unit rank 27th in the majors, and Turner and Bohm remain uninspiring \u2014 the offense is top-heavy and fragile."
+    },
+    {
+      "name": "Mattingly Bump: Real or Schedule Mirage?",
+      "delta": 2,
+      "sample": "Seven wins in eight games under the new manager have stabilized the clubhouse and shaken off the losing-streak fog, but the opposition \u2014 Marlins, Giants, A's \u2014 has been soft, and skepticism lingers about whether the improvement is structural."
+    },
+    {
+      "name": "Can't Beat a Lefty Starter",
+      "delta": -5,
+      "sample": "The Phillies are 0-10 when a left-handed starter takes the mound this season \u2014 a persistent, unresolved flaw heading into a Wednesday start by Jeffrey Springs that looms as the next real credibility test for this winning streak."
+    },
+    {
+      "name": "Duran Back, Bullpen Questions Remain",
+      "delta": 1,
+      "sample": "Johan Duran's return is a genuine lift for the back of the bullpen, but his rusty 27-pitch outing raised eyebrows, and concerns about Tanner Banks and Jonathan Bolin in middle-leverage spots haven't gone away."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We are not looking right now at a 95, 96-win juggernaut awakening from its slumber.",
+      "score": 38,
+      "source_hint": "beat writer (Phillies Therapy), co-host Paul contextualizing the winning streak"
+    },
+    {
+      "text": "The run might be coming. The run might be coming.",
+      "score": 78,
+      "source_hint": "talk-radio host (WIP High Hopes / Final Out), Jack Fritz after the 9-1 win"
+    },
+    {
+      "text": "This time last week, we felt like the season was over. It was hopeless. Here we are a week later, and there's hope.",
+      "score": 65,
+      "source_hint": "talk-radio host (WIP High Hopes / Final Out), Jack Fritz reflecting on the turnaround"
+    },
+    {
+      "text": "Half their lineup essentially is down in the bottom 10% of the league right now and has been roughly for the entire year.",
+      "score": 30,
+      "source_hint": "beat writer (Phillies Therapy), Matt Gelb on the right-handed hitting problem"
+    }
+  ],
+  "vibe_summary": "Phillies fans are cautiously exhaling after a three-game winning streak and a dominant Sanchez performance, but persistent lineup flaws and a looming lefty-starter test keep genuine optimism firmly in check.",
+  "reasoning": "The dominant story is a rotation that has suddenly looked elite \u2014 a 1.53\u20131.60 ERA over the last eight starts \u2014 carrying a flawed offense that still ranks near the bottom of the league among right-handed hitters and has yet to beat a left-handed starter all season. The mood split is real: the talk-radio perspective is the most buoyant, leaning into the Mattingly effect and declaring the run is coming, while the beat-writer analysis digs into underlying numbers (27th in righty OPS, worst run differential in baseball just days ago) and concludes the team has stabilized into something lower than its preseason ceiling. The fan-analyst take sits in between \u2014 crediting genuine rotation improvement and Bryce Harper's hot stretch, but repeatedly circling back to the lefty problem, the infield's collective struggles, and the softness of recent opposition as reasons not to declare the season saved.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 163754,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Bryce Harper in MVP form, Cristopher Sanchez in Cy Young form",
+      "voice": "fan_analyst",
+      "chars": 57539
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Sanchez Dominates, Harper Hits 2 HRs In Latest Win",
+      "voice": "radio_populist",
+      "chars": 21825
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Something Like Normal",
+      "voice": "beat_writer",
+      "chars": 43191
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Mattingly Magic Continues in Miami",
+      "voice": "fan_analyst",
+      "chars": 41199
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 83.8,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 96.7,
+      "delta_pct": -12.9,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823473,
+          "date": "2026-04-28",
+          "day_of_week": "Tuesday",
+          "opponent": "San Francisco Giants",
+          "result": "W 7-0",
+          "attendance": 36731,
+          "pct_capacity": 85.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823472,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 3-2",
+          "attendance": 36861,
+          "pct_capacity": 85.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823471,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 6-5",
+          "attendance": 34109,
+          "pct_capacity": 79.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823469,
+          "date": "2026-05-05",
+          "day_of_week": "Tuesday",
+          "opponent": "Athletics",
+          "result": "W 9-1",
+          "attendance": 36069,
+          "pct_capacity": 84.1,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "16-20",
+    "streak": "W3",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-05-06T11:55:52.727120+00:00"
+}
