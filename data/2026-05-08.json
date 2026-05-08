@@ -1,0 +1,215 @@
+{
+  "date": "2026-05-08",
+  "display_score": 65,
+  "reactive_score": 65,
+  "baseline_score": 53,
+  "insufficient_signal": false,
+  "content_volume": 211,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 58,
+    "manager_confidence": 70,
+    "lineup_confidence": 58,
+    "pitching_confidence": 85,
+    "health_outlook": 38,
+    "postseason_belief": 42
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 88,
+    "front_office_trust": 45,
+    "manager_confidence": 75,
+    "lineup_confidence": 72,
+    "pitching_confidence": 92,
+    "health_outlook": 70,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 72,
+      "note": "Hittin' Season, Phillies Talk, and the Philly Show all celebrate the hot streak and elite rotation but flag Aiden Miller's back injury, Boehm's slump, and the 0-10 record vs. lefties as real concerns."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 74,
+      "note": "WIP High Hopes host is energized by the gritty comeback win and the team's sense of urgency under Mattingly, while venting hard about Brad Keller and noting Boehm is 'unplayable.'"
+    }
+  },
+  "themes": [
+    {
+      "name": "Rotation Resurrection",
+      "delta": 9,
+      "sample": "From worst ERA in baseball under the old regime to best in the last seven games \u2014 Sanchez's eight-inning gem and Wheeler's encouraging return have the pitching staff looking like a legitimate October weapon again."
+    },
+    {
+      "name": "Boehm Bottoming Out",
+      "delta": -7,
+      "sample": "Third base has become a genuine crisis: Boehm is being called 'unplayable' and 'dreadful,' Mattingly is pinch-hitting for him in key spots, and there is no clear long-term solution with Aiden Miller still not swinging a bat."
+    },
+    {
+      "name": "Aiden Miller Alarm",
+      "delta": -6,
+      "sample": "The team's top prospect has yet to pick up a bat in early May due to a recurring back issue, drawing ominous comparisons to David Wright and Andrew Painter and raising fears about a lost development year."
+    },
+    {
+      "name": "Mattingly Passing the Test",
+      "delta": 6,
+      "sample": "When Bryce Harper publicly lobbied for Stott to play every day against lefties, Mattingly held his ground, played Sosa, and got the biggest hit of the game \u2014 earning credibility as a manager who won't be steamrolled by star players."
+    },
+    {
+      "name": "Harper in MVP Mode",
+      "delta": 8,
+      "sample": "With nine home runs, a slugging percentage not seen since his MVP season, and a sub-17% strikeout rate that would be a career low, Harper is backing up every bold offseason declaration with his bat."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Harper is hitting like an MVP right now. Credit where it's due.",
+      "score": 82,
+      "source_hint": "Hittin' Season host"
+    },
+    {
+      "text": "From literally the worst to literally the best in the last week.",
+      "score": 88,
+      "source_hint": "fan analyst (Philly Show)"
+    },
+    {
+      "text": "He's unplayable right now. Alec Boehm is just unplayable.",
+      "score": 18,
+      "source_hint": "talk-radio host (WIP High Hopes), relaying Jason Stark's assessment"
+    },
+    {
+      "text": "This is extremely worrisome. Your top prospect, a guy you've refused to trade... still not swinging a bat.",
+      "score": 15,
+      "source_hint": "Hittin' Season host on Aiden Miller"
+    }
+  ],
+  "vibe_summary": "Phillies fans are cautiously re-energized by a blazing rotation and a gritty winning streak, but a silent top prospect and an unplayable third baseman are keeping full optimism at arm's length.",
+  "reasoning": "The dominant mood driver is the dramatic pitching turnaround \u2014 going from the worst rotation ERA in baseball to the best in under two weeks has genuine excitement flowing. Bryce Harper's MVP-caliber stretch adds to the lift. However, two clouds hang over the good feelings: Alec Boehm's historic slump has no clear resolution, and the Aiden Miller back situation is drawing serious long-term concern, with the fan analyst drawing explicit comparisons to careers cut short by spinal injuries. The overall tone sits well above the despair of late April, but the structural holes in the lineup and the prospect health scare prevent full-throated postseason conviction \u2014 what's present is relief and momentum, not deep belief in an October run.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 158598,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "The Phillies' Hot Streak Continues Against the A's!",
+      "voice": "fan_analyst",
+      "chars": 31615
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Phillies Win Another Series!",
+      "voice": "radio_populist",
+      "chars": 27953
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "The Phillies have the best rotation in baseball again",
+      "voice": "fan_analyst",
+      "chars": 41242
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Bryce Harper in MVP form, Cristopher Sanchez in Cy Young form",
+      "voice": "fan_analyst",
+      "chars": 57788
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 84.6,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 96.9,
+      "delta_pct": -12.3,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823473,
+          "date": "2026-04-28",
+          "day_of_week": "Tuesday",
+          "opponent": "San Francisco Giants",
+          "result": "W 7-0",
+          "attendance": 36731,
+          "pct_capacity": 85.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823472,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 3-2",
+          "attendance": 36861,
+          "pct_capacity": 85.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823471,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 6-5",
+          "attendance": 34109,
+          "pct_capacity": 79.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823469,
+          "date": "2026-05-05",
+          "day_of_week": "Tuesday",
+          "opponent": "Athletics",
+          "result": "W 9-1",
+          "attendance": 36069,
+          "pct_capacity": 84.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823470,
+          "date": "2026-05-06",
+          "day_of_week": "Wednesday",
+          "opponent": "Athletics",
+          "result": "W 6-3",
+          "attendance": 36474,
+          "pct_capacity": 85.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823467,
+          "date": "2026-05-07",
+          "day_of_week": "Thursday",
+          "opponent": "Athletics",
+          "result": "L 1-12",
+          "attendance": 37543,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "17-21",
+    "streak": "L1",
+    "games_behind": "9.0"
+  },
+  "generated_at": "2026-05-08T11:21:53.094608+00:00"
+}
