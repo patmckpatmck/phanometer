@@ -1,0 +1,225 @@
+{
+  "date": "2026-05-09",
+  "display_score": 55,
+  "reactive_score": 55,
+  "baseline_score": 57,
+  "insufficient_signal": false,
+  "content_volume": 214,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 58,
+    "front_office_trust": 52,
+    "manager_confidence": 65,
+    "lineup_confidence": 48,
+    "pitching_confidence": 74,
+    "health_outlook": 38,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 45,
+    "manager_confidence": 68,
+    "lineup_confidence": 78,
+    "pitching_confidence": 85,
+    "health_outlook": 70,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 62,
+      "note": "Hittin' Season and The Phillies Show both encouraged by the rotation's dramatic turnaround and Stott's hot stretch, but tempered by Bohm's historic slump, Painter's struggles, and real concern over Aiden Miller's back."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 50,
+      "note": "Talk-radio host framed the 12-1 blowout as a blip in an otherwise encouraging stretch, expressed cautious optimism about the team's trajectory, but explicitly said he does not expect a World Series run and flagged Crawford's defense and Painter as ongoing concerns."
+    }
+  },
+  "themes": [
+    {
+      "name": "Rotation Renaissance",
+      "delta": 8,
+      "sample": "From worst ERA in baseball to best over a seven-game span \u2014 Sanchez, Lozardo, and a returning Wheeler have genuinely turned the rotation into the team's anchor again, just as it was always supposed to be."
+    },
+    {
+      "name": "Painter's Growing Pains",
+      "delta": -5,
+      "sample": "Three home runs on two-strike fastballs, a ballooning ERA near 7.00, and opponents batting .358 off his heater \u2014 the optimism is about his makeup and long-term ceiling, not what's happening on the mound right now."
+    },
+    {
+      "name": "Bohm's Historic Slump",
+      "delta": -7,
+      "sample": "A .433 OPS through 37 games ranks fourth-worst in franchise history \u2014 the cleanup spot is effectively broken, and a quiet benching and 'reset day' have replaced any real solution at third base."
+    },
+    {
+      "name": "Mattingly Bump Is Real",
+      "delta": 6,
+      "sample": "Going 6-1 since the managerial change, with sharper play and decisive lineup decisions \u2014 the new manager is drawing genuine credit, even if the roster was always capable of this run."
+    },
+    {
+      "name": "Aiden Miller Alarm Bells",
+      "delta": -6,
+      "sample": "Miller has gone from taking ground balls to no baseball activities whatsoever \u2014 a prospect the organization was counting on for depth has become a serious and worsening injury concern with no timeline."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "He is brutal right now... as of right now, he stinks. And that's a huge bummer.",
+      "score": 18,
+      "source_hint": "talk-radio host on Andrew Painter, High Hopes / WIP"
+    },
+    {
+      "text": "I believe that until the day I'm not on this earth that he's going to hit.",
+      "score": 62,
+      "source_hint": "Don Mattingly quote on Alec Bohm, relayed on The Phillies Show"
+    },
+    {
+      "text": "From literally the worst to literally the best in the last week.",
+      "score": 82,
+      "source_hint": "fan analyst on the rotation's turnaround, The Phillies Show"
+    },
+    {
+      "text": "He is no longer taking ground balls. He's no longer doing any baseball activities. You might call that a setback.",
+      "score": 15,
+      "source_hint": "fan analyst on Aiden Miller's back, The Phillies Show"
+    }
+  ],
+  "vibe_summary": "Phillies fans are cautiously encouraged by a genuine rotation revival and a managerial spark, but a historically slumping cleanup hitter, a struggling young starter, and a worsening prospect injury keep the mood firmly grounded.",
+  "reasoning": "The dominant story is a real and dramatic pitching turnaround \u2014 the rotation's statistical swing from worst to best in baseball has lifted sentiment meaningfully and given fans something concrete to believe in. However, the mood is held back by three converging negatives: Bohm's historically bad offensive production with no clear fix, Painter's command and fastball woes producing ugly outings, and Aiden Miller's back situation deteriorating from 'conservative' to 'no baseball activities.' The framing around the team's postseason chances is almost entirely structural reassurance \u2014 'don't ruin the summer,' 'play .500 ball,' 'settle into being a very good team' \u2014 rather than expressed belief in a deep October run, keeping postseason belief low despite the improved play.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 160818,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Andrew Painter Struggles, but the Phillies Take a Series",
+      "voice": "fan_analyst",
+      "chars": 51664
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "How the Phillies can fix Alec Bohm",
+      "voice": "fan_analyst",
+      "chars": 32729
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Growing Pains For Painter",
+      "voice": "radio_populist",
+      "chars": 32256
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "The Phillies have the best rotation in baseball again",
+      "voice": "fan_analyst",
+      "chars": 44169
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 85.7,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 96.9,
+      "delta_pct": -11.2,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823473,
+          "date": "2026-04-28",
+          "day_of_week": "Tuesday",
+          "opponent": "San Francisco Giants",
+          "result": "W 7-0",
+          "attendance": 36731,
+          "pct_capacity": 85.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823472,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 3-2",
+          "attendance": 36861,
+          "pct_capacity": 85.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823471,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 6-5",
+          "attendance": 34109,
+          "pct_capacity": 79.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823469,
+          "date": "2026-05-05",
+          "day_of_week": "Tuesday",
+          "opponent": "Athletics",
+          "result": "W 9-1",
+          "attendance": 36069,
+          "pct_capacity": 84.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823470,
+          "date": "2026-05-06",
+          "day_of_week": "Wednesday",
+          "opponent": "Athletics",
+          "result": "W 6-3",
+          "attendance": 36474,
+          "pct_capacity": 85.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823467,
+          "date": "2026-05-07",
+          "day_of_week": "Thursday",
+          "opponent": "Athletics",
+          "result": "L 1-12",
+          "attendance": 37543,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823466,
+          "date": "2026-05-08",
+          "day_of_week": "Friday",
+          "opponent": "Colorado Rockies",
+          "result": "L 7-9",
+          "attendance": 39478,
+          "pct_capacity": 92.0,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "17-22",
+    "streak": "L2",
+    "games_behind": "9.0"
+  },
+  "generated_at": "2026-05-09T11:03:33.029619+00:00"
+}
