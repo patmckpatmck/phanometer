@@ -1,0 +1,229 @@
+{
+  "date": "2026-05-10",
+  "display_score": 45,
+  "reactive_score": 45,
+  "baseline_score": 56,
+  "insufficient_signal": false,
+  "content_volume": 150,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 52,
+    "front_office_trust": 48,
+    "manager_confidence": 58,
+    "lineup_confidence": 32,
+    "pitching_confidence": 55,
+    "health_outlook": 42,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 40,
+    "manager_confidence": 55,
+    "lineup_confidence": 85,
+    "pitching_confidence": 80,
+    "health_outlook": 60,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 50,
+      "note": "The fan analyst (Hittin' Season / Stolnis, Klugh, Roscher) treats Bohm's benching and Painter's struggles as serious but manageable growing pains, with cautious optimism that resets can work."
+    },
+    "beat_writer": {
+      "score": 55,
+      "note": "The beat writer (Phillies Therapy / Matt Gelb) frames the team as stabilizing into a flawed but rational identity \u2014 rotation carrying the load while the lineup's right-handed production and infield trio remain alarming structural concerns."
+    },
+    "radio_populist": {
+      "score": 48,
+      "note": "The talk-radio host (WIP Daily / Joe Giglio) is relieved the Phillies won the series but openly frames postseason ceiling as wild-card contention at best, not a World Series run, and voices real skepticism about Bohm's attitude and Painter's current form."
+    }
+  },
+  "themes": [
+    {
+      "name": "Bohm's historic slump forces a reset",
+      "delta": -5,
+      "sample": "A 433 OPS through 37 games \u2014 fourth lowest in franchise history \u2014 has forced a benching, with debate swirling over whether one day off or a potential IL stint or minor-league option is the real answer."
+    },
+    {
+      "name": "Painter's fastball a growing concern",
+      "delta": -6,
+      "sample": "Opponents are hitting .358 against his fastball and he ranks 118th of 124 pitchers in whiff rate on the pitch \u2014 the arsenal and makeup draw praise, but the on-field results are Taiwan-level bad right now."
+    },
+    {
+      "name": "Rotation steadying, carrying a broken lineup",
+      "delta": 6,
+      "sample": "Eight runs allowed in 37 innings over a recent stretch has the rotation doing its job, but the right-handed hitters rank 27th in OPS over the same span, putting extraordinary pressure on the pitchers to keep it up."
+    },
+    {
+      "name": "Crawford's center field becoming a liability",
+      "delta": -4,
+      "sample": "Defensive metrics have him as the single worst defensive player in baseball by DRS, a misplay extended a blowout loss, and there is growing doubt he can develop the position awareness needed to hold the job."
+    },
+    {
+      "name": "Postseason ceiling quietly lowered to wild-card floor",
+      "delta": -7,
+      "sample": "Nine games back in the division at 18-22, with three-fourths of the infield struggling and the worst run differential in baseball just days ago, the prevailing sentiment has quietly shifted from contender to 'don't ruin the summer.'"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "This is an historic struggle. This is an historic struggle. This isn't just a slump.",
+      "score": 18,
+      "source_hint": "fan analyst (The Phillies Show) on Bohm's 433 OPS"
+    },
+    {
+      "text": "I don't think they're going to win the World Series. I think they're settling into being a very good baseball team.",
+      "score": 35,
+      "source_hint": "talk-radio host (High Hopes / WIP) on the team's realistic ceiling"
+    },
+    {
+      "text": "We are not looking right now at a 95, 96-win juggernaut awakening from its slumber.",
+      "score": 38,
+      "source_hint": "beat writer (Phillies Therapy) on the limits of the recent winning streak"
+    },
+    {
+      "text": "Turner just needs to figure it out. He needs to figure it out soon.",
+      "score": 28,
+      "source_hint": "beat writer (Phillies Therapy) on the infield's unresolved offensive struggles"
+    }
+  ],
+  "vibe_summary": "Relief that the losing streak is over mingles uneasily with sober recognition that a broken lineup, a struggling rookie starter, and a nine-game division deficit define the real state of this team.",
+  "reasoning": "The mood is split between cautious encouragement at a stabilizing rotation and growing alarm at structural offensive failures \u2014 a 433 OPS from the cleanup hitter, a 562 OPS from right-handed bats, and three infielders not yet producing. The pitching staff is carrying an extraordinary burden, and while Wheeler's return and recent bullpen depth provide genuine relief, the honest framing across all three present voices is that this team's ceiling has quietly been revised downward to wild-card contention at best. The Mattingly managerial change draws mild credit for settling the clubhouse, but nobody is expressing confident belief in a deep October run \u2014 the dominant note is 'don't ruin the summer,' which is reassurance, not conviction.",
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 112220,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "How the Phillies can fix Alec Bohm",
+      "voice": "fan_analyst",
+      "chars": 34467
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Growing Pains For Painter",
+      "voice": "radio_populist",
+      "chars": 32902
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Something Like Normal",
+      "voice": "beat_writer",
+      "chars": 44851
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 8,
+      "recent_avg_pct": 86.0,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 96.9,
+      "delta_pct": -10.9,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823473,
+          "date": "2026-04-28",
+          "day_of_week": "Tuesday",
+          "opponent": "San Francisco Giants",
+          "result": "W 7-0",
+          "attendance": 36731,
+          "pct_capacity": 85.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823472,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 3-2",
+          "attendance": 36861,
+          "pct_capacity": 85.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823471,
+          "date": "2026-04-30",
+          "day_of_week": "Thursday",
+          "opponent": "San Francisco Giants",
+          "result": "W 6-5",
+          "attendance": 34109,
+          "pct_capacity": 79.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823469,
+          "date": "2026-05-05",
+          "day_of_week": "Tuesday",
+          "opponent": "Athletics",
+          "result": "W 9-1",
+          "attendance": 36069,
+          "pct_capacity": 84.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823470,
+          "date": "2026-05-06",
+          "day_of_week": "Wednesday",
+          "opponent": "Athletics",
+          "result": "W 6-3",
+          "attendance": 36474,
+          "pct_capacity": 85.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823467,
+          "date": "2026-05-07",
+          "day_of_week": "Thursday",
+          "opponent": "Athletics",
+          "result": "L 1-12",
+          "attendance": 37543,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823466,
+          "date": "2026-05-08",
+          "day_of_week": "Friday",
+          "opponent": "Colorado Rockies",
+          "result": "L 7-9",
+          "attendance": 39478,
+          "pct_capacity": 92.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823468,
+          "date": "2026-05-09",
+          "day_of_week": "Saturday",
+          "opponent": "Colorado Rockies",
+          "result": "W 9-3",
+          "attendance": 38043,
+          "pct_capacity": 88.7,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "18-22",
+    "streak": "W1",
+    "games_behind": "9.0"
+  },
+  "generated_at": "2026-05-10T11:05:50.733627+00:00"
+}
