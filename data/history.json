@@ -4765,5 +4765,250 @@
       "games_behind": "9.0"
     },
     "generated_at": "2026-05-11T12:44:10.867650+00:00"
+  },
+  {
+    "date": "2026-05-12",
+    "display_score": 60,
+    "reactive_score": 60,
+    "baseline_score": 55,
+    "insufficient_signal": false,
+    "content_volume": 257,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 68,
+      "front_office_trust": 55,
+      "manager_confidence": 74,
+      "lineup_confidence": 63,
+      "pitching_confidence": 52,
+      "health_outlook": 62,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 88,
+      "front_office_trust": 40,
+      "manager_confidence": 82,
+      "lineup_confidence": 85,
+      "pitching_confidence": 90,
+      "health_outlook": 55,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 72,
+        "note": "Hittin' Season and The Phillies Show are both celebratory about the 10-3 run, Marsh, Schwarber, and Harper, while noting real rotation concerns with Luzardo, Nola, and Painter."
+      },
+      "beat_writer": {
+        "score": 60,
+        "note": "Phillies Therapy is cautiously optimistic \u2014 the beat writer uses the 'glass slowly filling with an ice cube blocking the spout' metaphor, crediting progress while flagging Luzardo command issues and Turner's struggles as lingering concerns."
+      },
+      "radio_populist": {
+        "score": 73,
+        "note": "WIP's High Hopes is the most euphoric of the three, declaring 'the summer is not cancelled' and leading with best-in-baseball offensive stats since the managerial change, though flagging Turner as the team's biggest open question."
+      }
+    },
+    "themes": [
+      {
+        "name": "The Summer Is Back On",
+        "delta": 8,
+        "sample": "A 10-3 stretch under the new manager has flipped the mood from despair to genuine relief, with the offense ranking first in average and the clubhouse visibly re-energized."
+      },
+      {
+        "name": "Marsh, Harper, Schwarber Carrying the Load",
+        "delta": 9,
+        "sample": "The top three are putting up All-Star numbers \u2014 Marsh leading the majors in batting, Schwarber tied for the MLB home run lead, and Harper posting a career-low strikeout rate with elite OPS."
+      },
+      {
+        "name": "Rotation Is the Elephant in the Room",
+        "delta": -6,
+        "sample": "Sanchez is transcendent, but Luzardo's command issues, Nola's declining fastball, and Painter's rough early stint leave the back of the rotation as an unresolved and worrying question."
+      },
+      {
+        "name": "Trey Turner Still a Major Question Mark",
+        "delta": -5,
+        "sample": "A scout's concern leaked publicly, Turner acknowledged taking 350 swings before going 0-for, and the team ranks 29th in on-base percentage from the leadoff spot \u2014 the right-handed bat problem hasn't gone away."
+      },
+      {
+        "name": "Mattingly Getting Credit for Small-Ball and Player Management",
+        "delta": 5,
+        "sample": "Sitting Boehm for two days, encouraging mental resets for slumping hitters, and more aggressive in-game decisions have fans and analysts crediting the new manager with a tangible culture shift."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The summer is not canceled. It's back on. How about it?",
+        "score": 88,
+        "source_hint": "WIP High Hopes talk-radio host, opening the episode"
+      },
+      {
+        "text": "We knew what we had in-house. We're an explosive team with good pitching. We just didn't show that at the beginning of the year.",
+        "score": 75,
+        "source_hint": "Brandon Marsh quote read on The Phillies Show (fan analyst)"
+      },
+      {
+        "text": "My glass is filling up. It is. And it's nice to feel better about this team.",
+        "score": 62,
+        "source_hint": "Phillies Therapy beat writer, describing the cautious mood shift"
+      },
+      {
+        "text": "They will not win the World Series with the righty bats doing this. They just won't.",
+        "score": 28,
+        "source_hint": "WIP High Hopes talk-radio host, on the right-handed bat problem"
+      }
+    ],
+    "vibe_summary": "Phillies fans are exhaling after a 10-3 run has pulled the team back to relevance, but the rotation's fragility and Trey Turner's slump keep full optimism at arm's length.",
+    "reasoning": "The dominant mood is relief mixed with cautious excitement \u2014 a sharp reversal from the despair of the 10-game losing streak just weeks ago. The offensive resurgence led by Marsh, Harper, and Schwarber is real and widely celebrated, and Don Mattingly's player-management touches are getting genuine credit. However, there is a meaningful split between the euphoric framing of the turnaround and the sober acknowledgment that Luzardo's command problems, Nola's declining stuff, and Turner's prolonged slump represent unresolved structural risks. The postseason belief score stays low because the positive framing is almost entirely about escaping a hole rather than expressing confident projection of a deep October run \u2014 the nine-game division deficit and rotation concerns loom large beneath the celebratory surface.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 193121,
+      "youtube_attempted": 0,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "The Summer Is No Longer Cancelled.",
+        "voice": "radio_populist",
+        "chars": 55518
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Stars Play Hero Against the Rockies",
+        "voice": "fan_analyst",
+        "chars": 53116
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Filling the Cup",
+        "voice": "beat_writer",
+        "chars": 45172
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Harper, Schwarber and Marsh have powered Phillies' turnaround",
+        "voice": "fan_analyst",
+        "chars": 39315
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 9,
+        "recent_avg_pct": 88.0,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 96.9,
+        "delta_pct": -8.9,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823473,
+            "date": "2026-04-28",
+            "day_of_week": "Tuesday",
+            "opponent": "San Francisco Giants",
+            "result": "W 7-0",
+            "attendance": 36731,
+            "pct_capacity": 85.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823472,
+            "date": "2026-04-30",
+            "day_of_week": "Thursday",
+            "opponent": "San Francisco Giants",
+            "result": "W 3-2",
+            "attendance": 36861,
+            "pct_capacity": 85.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823471,
+            "date": "2026-04-30",
+            "day_of_week": "Thursday",
+            "opponent": "San Francisco Giants",
+            "result": "W 6-5",
+            "attendance": 34109,
+            "pct_capacity": 79.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823469,
+            "date": "2026-05-05",
+            "day_of_week": "Tuesday",
+            "opponent": "Athletics",
+            "result": "W 9-1",
+            "attendance": 36069,
+            "pct_capacity": 84.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823470,
+            "date": "2026-05-06",
+            "day_of_week": "Wednesday",
+            "opponent": "Athletics",
+            "result": "W 6-3",
+            "attendance": 36474,
+            "pct_capacity": 85.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823467,
+            "date": "2026-05-07",
+            "day_of_week": "Thursday",
+            "opponent": "Athletics",
+            "result": "L 1-12",
+            "attendance": 37543,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823466,
+            "date": "2026-05-08",
+            "day_of_week": "Friday",
+            "opponent": "Colorado Rockies",
+            "result": "L 7-9",
+            "attendance": 39478,
+            "pct_capacity": 92.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823468,
+            "date": "2026-05-09",
+            "day_of_week": "Saturday",
+            "opponent": "Colorado Rockies",
+            "result": "W 9-3",
+            "attendance": 38043,
+            "pct_capacity": 88.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823463,
+            "date": "2026-05-10",
+            "day_of_week": "Sunday",
+            "opponent": "Colorado Rockies",
+            "result": "W 6-0",
+            "attendance": 44620,
+            "pct_capacity": 104.0,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "19-22",
+      "streak": "W2",
+      "games_behind": "9.0"
+    },
+    "generated_at": "2026-05-12T12:04:33.402907+00:00"
   }
 ]
