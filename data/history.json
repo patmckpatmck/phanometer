@@ -5480,5 +5480,220 @@
       "games_behind": "10.0"
     },
     "generated_at": "2026-05-14T12:01:17.033130+00:00"
+  },
+  {
+    "date": "2026-05-15",
+    "display_score": 51,
+    "reactive_score": 51,
+    "baseline_score": 56,
+    "insufficient_signal": false,
+    "content_volume": 207,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 42,
+      "front_office_trust": 55,
+      "manager_confidence": 52,
+      "lineup_confidence": 44,
+      "pitching_confidence": 68,
+      "health_outlook": 62,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 78,
+      "front_office_trust": 45,
+      "manager_confidence": 60,
+      "lineup_confidence": 82,
+      "pitching_confidence": 85,
+      "health_outlook": 50,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 52,
+        "note": "Hittin' Season, Phillies Talk, and the Philly Show all celebrate Wheeler and Schwarber while raising consistent alarm about right-handed bat production and Painter's development ceiling."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 45,
+        "note": "WIP High Hopes host is resigned to the offense being a chronic problem, expresses cautious optimism on Painter's command improvements, and frames the deadline as 'really tricky' given the team's uncertain standing."
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler Renaissance Is Real",
+        "delta": 8,
+        "sample": "Zach Wheeler's four-start return has been stunning \u2014 16 pitches through three innings at Fenway, ERA under 3, and a composure that suggests he's answered every post-surgery question."
+      },
+      {
+        "name": "Schwarber Carpet-Bombing the Majors",
+        "delta": 7,
+        "sample": "Kyle Schwarber leads all of baseball with 17 home runs in mid-May, his five-game homer streak tied a franchise record and has him on pace for 60-plus \u2014 a genuine bright spot in an otherwise sputtering lineup."
+      },
+      {
+        "name": "Right-Handed Bat Crisis Deepening",
+        "delta": -7,
+        "sample": "No right-handed regular carries an OPS above 650, the team has scored one run or fewer in 10 of 43 games, and cleanup production from Adolis Garcia has been alarmingly absent for a guy signed to protect the middle of the order."
+      },
+      {
+        "name": "Painter a Work in Progress",
+        "delta": -3,
+        "sample": "Andrew Painter showed encouraging command against Boston but his post-Tommy John fastball is flatter and slower, opponents are teeing off on it, and pulling him at 62 pitches raised legitimate questions about managing a young arm versus winning games."
+      },
+      {
+        "name": "Trade Deadline Speculation Brewing",
+        "delta": 2,
+        "sample": "With the roster visibly right-handed-bat deficient, names like Mike Trout, Matt Chapman, Aroldis Chapman, and Robbie Ray Snyder are already circulating as deadline targets \u2014 though the luxury tax situation complicates any significant move."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The fastball's not a great fastball. It gets smoked.",
+        "score": 28,
+        "source_hint": "WIP High Hopes host, on Andrew Painter's post-surgery fastball"
+      },
+      {
+        "text": "No right-handed hitter has an OPS above 650.",
+        "score": 22,
+        "source_hint": "Hittin' Season host, citing lineup split data"
+      },
+      {
+        "text": "Is he still one of the best in baseball? I think, yes, is the answer.",
+        "score": 82,
+        "source_hint": "Philly Show, on Zach Wheeler after his Fenway start"
+      },
+      {
+        "text": "I think they're going to play in October. I still do.",
+        "score": 55,
+        "source_hint": "Philly Show, postseason outlook discussion"
+      }
+    ],
+    "vibe_summary": "Phillies fans are cautiously encouraged by elite pitching from Wheeler and Schwarber's historic power surge, but a chronic right-handed bat shortage and Painter's uneven development keep the mood firmly mixed heading into Pittsburgh.",
+    "reasoning": "The dominant tension is a rotation that has quietly become one of the better stories in the NL \u2014 Wheeler's return, Sanchez's shutout streak, Schwarber's historic run \u2014 set against an offense that is structurally broken on the right side of the plate. The 3-1 loss in Boston crystallized this: three hits, no right-handed regular above .650 OPS, and a cleanup hitter going 0-for-4 with three strikeouts. The Mattingly bullpen decision on Painter drew genuine debate \u2014 defensible long-term, wrong short-term \u2014 with the talk-radio perspective more willing to call it a bad move than the analytical shows. Postseason framing that appeared was largely incremental goal-setting ('get to .500, small bites of the apple') rather than expressed confidence in a deep October run, keeping that dimension appropriately low despite the recent W1 streak.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 155208,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Bats Silent in Fenway & Nolan Ryan Chat w/ Tim Brown",
+        "voice": "fan_analyst",
+        "chars": 39003
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Starting pitching has been hot, the bats have not",
+        "voice": "fan_analyst",
+        "chars": 44840
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Phillies Offense Stalls In 3-1 Loss",
+        "voice": "radio_populist",
+        "chars": 26145
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Schwarbombs, Schwarbombs, Schwarbombs!",
+        "voice": "fan_analyst",
+        "chars": 45220
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 90.2,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 96.9,
+        "delta_pct": -6.7,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823469,
+            "date": "2026-05-05",
+            "day_of_week": "Tuesday",
+            "opponent": "Athletics",
+            "result": "W 9-1",
+            "attendance": 36069,
+            "pct_capacity": 84.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823470,
+            "date": "2026-05-06",
+            "day_of_week": "Wednesday",
+            "opponent": "Athletics",
+            "result": "W 6-3",
+            "attendance": 36474,
+            "pct_capacity": 85.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823467,
+            "date": "2026-05-07",
+            "day_of_week": "Thursday",
+            "opponent": "Athletics",
+            "result": "L 1-12",
+            "attendance": 37543,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823466,
+            "date": "2026-05-08",
+            "day_of_week": "Friday",
+            "opponent": "Colorado Rockies",
+            "result": "L 7-9",
+            "attendance": 39478,
+            "pct_capacity": 92.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823468,
+            "date": "2026-05-09",
+            "day_of_week": "Saturday",
+            "opponent": "Colorado Rockies",
+            "result": "W 9-3",
+            "attendance": 38043,
+            "pct_capacity": 88.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823463,
+            "date": "2026-05-10",
+            "day_of_week": "Sunday",
+            "opponent": "Colorado Rockies",
+            "result": "W 6-0",
+            "attendance": 44620,
+            "pct_capacity": 104.0,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "21-23",
+      "streak": "W1",
+      "games_behind": "9.0"
+    },
+    "generated_at": "2026-05-15T12:03:10.876821+00:00"
   }
 ]
