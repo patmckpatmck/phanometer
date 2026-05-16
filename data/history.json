@@ -5695,5 +5695,214 @@
       "games_behind": "9.0"
     },
     "generated_at": "2026-05-15T12:03:10.876821+00:00"
+  },
+  {
+    "date": "2026-05-16",
+    "display_score": 62,
+    "reactive_score": 62,
+    "baseline_score": 54,
+    "insufficient_signal": false,
+    "content_volume": 202,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 68,
+      "front_office_trust": 55,
+      "manager_confidence": 62,
+      "lineup_confidence": 52,
+      "pitching_confidence": 78,
+      "health_outlook": 60,
+      "postseason_belief": 42
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 80,
+      "front_office_trust": 35,
+      "manager_confidence": 45,
+      "lineup_confidence": 75,
+      "pitching_confidence": 90,
+      "health_outlook": 40,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 65,
+        "note": "Fan analyst coverage across Hittin' Season, Phillies Talk, and The Phillies Show reflects genuine optimism about the rotation and Schwarber's power streak, tempered by real concern over lineup inconsistency, Turner's uncompetitive at-bats, and Painter's development curve."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Rotation Finally Looks Like Itself",
+        "delta": 7,
+        "sample": "Wheeler's 16-pitch three-inning masterpiece, Lozardo's six strong, and even a stabilizing Painter start have restored confidence that the starting staff is the team's genuine identity \u2014 not just a talking point."
+      },
+      {
+        "name": "Schwarber Carpet-Bombing the Leaderboard",
+        "delta": 8,
+        "sample": "Five consecutive games with a home run, MLB's leading home run total in mid-May, and a pace that has 60 home runs in sight \u2014 the offense lives and dies with him, and right now it's very much alive."
+      },
+      {
+        "name": "Lineup Inconsistency Remains a Real Problem",
+        "delta": -6,
+        "sample": "Ten games out of 43 with one run or fewer, Turner's uncompetitive early-count swings, Garcia underperforming in the cleanup spot, and a RISP track record that keeps winning margins dangerously thin."
+      },
+      {
+        "name": "Five Series Wins in a Row \u2014 But Against Whom?",
+        "delta": 3,
+        "sample": "The winning streak is real and welcome, but the Red Sox rank dead last in slugging and 29th in runs per game \u2014 the rotation's gaudy numbers carry an asterisk that analytical observers are not ignoring."
+      },
+      {
+        "name": "Deadline Daydreaming Already Underway",
+        "delta": 2,
+        "sample": "Aroldis Chapman alongside Duran is floated as a dream bullpen upgrade, and a right-handed bench bat remains a perennial need \u2014 the front office is being watched to see whether it acts on a roster that still has obvious gaps."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "He's carpet bombing. I mean he's amazing. What a month in May.",
+        "score": 88,
+        "source_hint": "The Phillies Show host on Schwarber's home run streak"
+      },
+      {
+        "text": "This is who the Phillies are. Their offense is inconsistent. They depend on their pitching. They need the bullpen to stand up.",
+        "score": 52,
+        "source_hint": "Hittin' Season co-host on the team's true identity"
+      },
+      {
+        "text": "His batting average, I don't know when he walks, so I think he's still in the 220s, and OBP is south of 300. It's just not where it needs to be as a leadoff man.",
+        "score": 28,
+        "source_hint": "Phillies Talk host on Trey Turner's disappointing season"
+      },
+      {
+        "text": "After four starts to me he's answering that question \u2014 is he still one of the best in baseball? I think yes is the answer.",
+        "score": 85,
+        "source_hint": "The Phillies Show beat reporter on Zach Wheeler's return"
+      }
+    ],
+    "vibe_summary": "Fans are genuinely encouraged by five straight series wins and a dominant rotation, but nagging lineup inconsistency and a nine-game division deficit keep the mood grounded rather than euphoric.",
+    "reasoning": "The dominant signal this cycle is cautious optimism driven by the rotation \u2014 Wheeler's brilliance, Lozardo's steadiness, and even a stabilizing Painter outing have restored faith in the team's core identity. Schwarber's home run binge adds a jolt of genuine excitement. However, the mood is held in check by persistent offensive concerns: Turner's approach has drawn open criticism, Garcia is quietly underperforming in the cleanup spot, and the team's RISP numbers remain alarming. The 22-23 record and nine-game division deficit prevent any real postseason confidence from taking root \u2014 forward-looking discussion centers on getting to .500 in small steps and eyeing the wild card, which reads as structural goal-setting rather than expressed belief in a deep October run.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 151259,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Win Their Fifth Straight Series",
+        "voice": "fan_analyst",
+        "chars": 58837
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Starting pitching has been hot, the bats have not",
+        "voice": "fan_analyst",
+        "chars": 46666
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Schwarbombs, Schwarbombs, Schwarbombs!",
+        "voice": "fan_analyst",
+        "chars": 45756
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 90.2,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 96.8,
+        "delta_pct": -6.6,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823469,
+            "date": "2026-05-05",
+            "day_of_week": "Tuesday",
+            "opponent": "Athletics",
+            "result": "W 9-1",
+            "attendance": 36069,
+            "pct_capacity": 84.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823470,
+            "date": "2026-05-06",
+            "day_of_week": "Wednesday",
+            "opponent": "Athletics",
+            "result": "W 6-3",
+            "attendance": 36474,
+            "pct_capacity": 85.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823467,
+            "date": "2026-05-07",
+            "day_of_week": "Thursday",
+            "opponent": "Athletics",
+            "result": "L 1-12",
+            "attendance": 37543,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823466,
+            "date": "2026-05-08",
+            "day_of_week": "Friday",
+            "opponent": "Colorado Rockies",
+            "result": "L 7-9",
+            "attendance": 39478,
+            "pct_capacity": 92.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823468,
+            "date": "2026-05-09",
+            "day_of_week": "Saturday",
+            "opponent": "Colorado Rockies",
+            "result": "W 9-3",
+            "attendance": 38043,
+            "pct_capacity": 88.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823463,
+            "date": "2026-05-10",
+            "day_of_week": "Sunday",
+            "opponent": "Colorado Rockies",
+            "result": "W 6-0",
+            "attendance": 44620,
+            "pct_capacity": 104.0,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "22-23",
+      "streak": "W2",
+      "games_behind": "9.0"
+    },
+    "generated_at": "2026-05-16T11:09:43.851968+00:00"
   }
 ]
