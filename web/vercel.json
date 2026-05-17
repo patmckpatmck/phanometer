@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/ask.py": {
+      "includeFiles": "{bot_core.py,data/history.json}",
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/:path*" }
+  ]
+}

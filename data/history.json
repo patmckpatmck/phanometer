@@ -34,7 +34,7 @@
       },
       "beat_writer": {
         "score": 35,
-        "note": "Gelb and co-host run a concern-o-meter on a 7-8 team, flagging lineup depth, Bohm, left field platoon, and Aiden Miller's murky injury status as real worries while finding silver linings in pitching and Harper."
+        "note": "Gelb and co-host run a concern-o-meter on a 7-8 team, flagging lineup depth, Bohm, left field platoon, and Aidan Miller's murky injury status as real worries while finding silver linings in pitching and Harper."
       },
       "radio_populist": {
         "score": null,
@@ -53,7 +53,7 @@
         "sample": "Despite objectively worse numbers last April, hosts feel less patience this year; Bohm has yet to pull a single ball in the air and exit velo is down a full 3 mph."
       },
       {
-        "name": "Aiden Miller injury opacity",
+        "name": "Aidan Miller injury opacity",
         "delta": -6,
         "sample": "Back issue shrouded in HIPAA deflections from Dombrowski; beat writer projects at least 6 weeks minimum and a very deliberate ramp-up even under best-case scenario."
       },
@@ -90,7 +90,7 @@
         "source_hint": "Phillies Therapy co-host, on Bohm frustration"
       }
     ],
-    "reasoning": "The sole voice present is the beat_writer (Phillies Therapy), and the mood is one of honest, measured frustration at the 7-8 start rather than full despair. The dominant sentiment drivers are a historically poor middle-of-the-lineup OPS, mounting exasperation with Bohm despite awareness it may be premature, and growing unease around the Aiden Miller injury situation after Dombrowski invoked HIPAA. The pitching staff \u2014 especially Painter, Crawford, and the bullpen \u2014 provides a genuine counterweight that prevents the tone from collapsing into alarm. No Reddit or other podcast voices are present to confirm or contradict these signals, so all dimension confidence scores reflect single-source signal only.",
+    "reasoning": "The sole voice present is the beat_writer (Phillies Therapy), and the mood is one of honest, measured frustration at the 7-8 start rather than full despair. The dominant sentiment drivers are a historically poor middle-of-the-lineup OPS, mounting exasperation with Bohm despite awareness it may be premature, and growing unease around the Aidan Miller injury situation after Dombrowski invoked HIPAA. The pitching staff \u2014 especially Painter, Crawford, and the bullpen \u2014 provides a genuine counterweight that prevents the tone from collapsing into alarm. No Reddit or other podcast voices are present to confirm or contradict these signals, so all dimension confidence scores reflect single-source signal only.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
@@ -271,7 +271,7 @@
       {
         "name": "Injury pile-up deepening concern",
         "delta": -7,
-        "sample": "Johan Duran's oblique strain, JT Realmuto's back, and Aiden Miller's prolonged mystery back issue are collectively pushing health outlook to a low point with no clear timelines."
+        "sample": "Johan Duran's oblique strain, JT Realmuto's back, and Aidan Miller's prolonged mystery back issue are collectively pushing health outlook to a low point with no clear timelines."
       }
     ],
     "quotes": [
@@ -1448,7 +1448,7 @@
       {
         "name": "Front Office Roster Construction Under Fire",
         "delta": -7,
-        "sample": "Taiwan Walker's release \u2014 adding to a long list of signed-and-released free agents under the current regime \u2014 has crystallized anger at organizational decision-making, with dead money north of $34 million paid to Castellanos and Walker not to play."
+        "sample": "Taijuan Walker's release \u2014 adding to a long list of signed-and-released free agents under the current regime \u2014 has crystallized anger at organizational decision-making, with dead money north of $34 million paid to Castellanos and Walker not to play."
       },
       {
         "name": "Rob Thomson's Job Security Openly Questioned",
@@ -1483,7 +1483,7 @@
         "source_hint": "High Hopes host (talk-radio host)"
       }
     ],
-    "reasoning": "An 8-17 record, a nine-game losing streak, and a -50-plus run differential have pushed fan mood to near rock-bottom across every dimension. The collapse is not attributed to one problem: the starting rotation has fallen from second to 28th in ERA, the offense is batting .219 with historic futility against left-handed pitching, the defense is misaligned and porous, and the bullpen has surrendered late leads in game after game. The release of Taiwan Walker crystallized front-office frustration, with a damning list of signed-and-released free agents fueling the argument that roster construction has been the foundational failure. The only divergence in tone is modest: one perspective leans toward structural resignation \u2014 openly entertaining that the division is already lost and that the era may be ending \u2014 while another holds out for a fluky win in Atlanta as a psychological reset, though neither camp expresses genuine postseason confidence. Rob Thomson's job security is no longer hypothetical; it is the explicit subject of weekend-stakes framing.",
+    "reasoning": "An 8-17 record, a nine-game losing streak, and a -50-plus run differential have pushed fan mood to near rock-bottom across every dimension. The collapse is not attributed to one problem: the starting rotation has fallen from second to 28th in ERA, the offense is batting .219 with historic futility against left-handed pitching, the defense is misaligned and porous, and the bullpen has surrendered late leads in game after game. The release of Taijuan Walker crystallized front-office frustration, with a damning list of signed-and-released free agents fueling the argument that roster construction has been the foundational failure. The only divergence in tone is modest: one perspective leans toward structural resignation \u2014 openly entertaining that the division is already lost and that the era may be ending \u2014 while another holds out for a fluky win in Atlanta as a psychological reset, though neither camp expresses genuine postseason confidence. Rob Thomson's job security is no longer hypothetical; it is the explicit subject of weekend-stakes framing.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
@@ -2521,7 +2521,7 @@
       {
         "name": "Dombrowski's Roster Construction Under Fire",
         "delta": -5,
-        "sample": "No true cleanup hitter, Taiwan Walker penciled into the rotation knowing Wheeler would be out, no right-handed depth addition, and a bottom-ten farm system have made Dombrowski the primary target of fan frustration \u2014 with his own job security now openly questioned."
+        "sample": "No true cleanup hitter, Taijuan Walker penciled into the rotation knowing Wheeler would be out, no right-handed depth addition, and a bottom-ten farm system have made Dombrowski the primary target of fan frustration \u2014 with his own job security now openly questioned."
       },
       {
         "name": "Starting Rotation Is the Season's Hinge",
@@ -3686,7 +3686,7 @@
       },
       "fan_analyst": {
         "score": 72,
-        "note": "Hittin' Season and the Phillies Show both celebrate the rotation's historic turnaround and Harper's MVP-level play, while flagging real concern over Boehm's struggles and Aiden Miller's back injury."
+        "note": "Hittin' Season and the Phillies Show both celebrate the rotation's historic turnaround and Harper's MVP-level play, while flagging real concern over Boehm's struggles and Aidan Miller's back injury."
       },
       "beat_writer": {
         "score": null,
@@ -3719,7 +3719,7 @@
         "sample": "Eight wins in nine games have generated genuine goodwill toward the interim manager, and his refusal to cave to Harper's public push for Stott against lefties earned respect \u2014 but his long-term status and whether this run is sustainable remain open questions."
       },
       {
-        "name": "Aiden Miller injury alarms prospect pipeline",
+        "name": "Aidan Miller injury alarms prospect pipeline",
         "delta": -7,
         "sample": "The top prospect still not swinging a bat in early May, with no detailed public update on his back condition, has raised serious fears about losing another year of development \u2014 echoing the Andrew Painter situation \u2014 in an organization that has repeatedly struggled to develop position players."
       }
@@ -3738,7 +3738,7 @@
       {
         "text": "This is extremely worrisome. Your top prospect, a guy you've refused to trade... still not swinging a bat.",
         "score": 22,
-        "source_hint": "fan analyst (Hittin' Season) on Aiden Miller's back injury"
+        "source_hint": "fan analyst (Hittin' Season) on Aidan Miller's back injury"
       },
       {
         "text": "The Brad Keller pointless 94 mile an hour change up to a left-handed hitter... one of the single most miserable experiences as a Philadelphia sports fan.",
@@ -3891,7 +3891,7 @@
       },
       "fan_analyst": {
         "score": 72,
-        "note": "Hittin' Season, Phillies Talk, and the Philly Show all celebrate the hot streak and elite rotation but flag Aiden Miller's back injury, Boehm's slump, and the 0-10 record vs. lefties as real concerns."
+        "note": "Hittin' Season, Phillies Talk, and the Philly Show all celebrate the hot streak and elite rotation but flag Aidan Miller's back injury, Boehm's slump, and the 0-10 record vs. lefties as real concerns."
       },
       "beat_writer": {
         "score": null,
@@ -3911,10 +3911,10 @@
       {
         "name": "Boehm Bottoming Out",
         "delta": -7,
-        "sample": "Third base has become a genuine crisis: Boehm is being called 'unplayable' and 'dreadful,' Mattingly is pinch-hitting for him in key spots, and there is no clear long-term solution with Aiden Miller still not swinging a bat."
+        "sample": "Third base has become a genuine crisis: Boehm is being called 'unplayable' and 'dreadful,' Mattingly is pinch-hitting for him in key spots, and there is no clear long-term solution with Aidan Miller still not swinging a bat."
       },
       {
-        "name": "Aiden Miller Alarm",
+        "name": "Aidan Miller Alarm",
         "delta": -6,
         "sample": "The team's top prospect has yet to pick up a bat in early May due to a recurring back issue, drawing ominous comparisons to David Wright and Andrew Painter and raising fears about a lost development year."
       },
@@ -3948,11 +3948,11 @@
       {
         "text": "This is extremely worrisome. Your top prospect, a guy you've refused to trade... still not swinging a bat.",
         "score": 15,
-        "source_hint": "Hittin' Season host on Aiden Miller"
+        "source_hint": "Hittin' Season host on Aidan Miller"
       }
     ],
     "vibe_summary": "Phillies fans are cautiously re-energized by a blazing rotation and a gritty winning streak, but a silent top prospect and an unplayable third baseman are keeping full optimism at arm's length.",
-    "reasoning": "The dominant mood driver is the dramatic pitching turnaround \u2014 going from the worst rotation ERA in baseball to the best in under two weeks has genuine excitement flowing. Bryce Harper's MVP-caliber stretch adds to the lift. However, two clouds hang over the good feelings: Alec Boehm's historic slump has no clear resolution, and the Aiden Miller back situation is drawing serious long-term concern, with the fan analyst drawing explicit comparisons to careers cut short by spinal injuries. The overall tone sits well above the despair of late April, but the structural holes in the lineup and the prospect health scare prevent full-throated postseason conviction \u2014 what's present is relief and momentum, not deep belief in an October run.",
+    "reasoning": "The dominant mood driver is the dramatic pitching turnaround \u2014 going from the worst rotation ERA in baseball to the best in under two weeks has genuine excitement flowing. Bryce Harper's MVP-caliber stretch adds to the lift. However, two clouds hang over the good feelings: Alec Boehm's historic slump has no clear resolution, and the Aidan Miller back situation is drawing serious long-term concern, with the fan analyst drawing explicit comparisons to careers cut short by spinal injuries. The overall tone sits well above the despair of late April, but the structural holes in the lineup and the prospect health scare prevent full-throated postseason conviction \u2014 what's present is relief and momentum, not deep belief in an October run.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
@@ -4106,7 +4106,7 @@
       },
       "fan_analyst": {
         "score": 62,
-        "note": "Hittin' Season and The Phillies Show both encouraged by the rotation's dramatic turnaround and Stott's hot stretch, but tempered by Bohm's historic slump, Painter's struggles, and real concern over Aiden Miller's back."
+        "note": "Hittin' Season and The Phillies Show both encouraged by the rotation's dramatic turnaround and Stott's hot stretch, but tempered by Bohm's historic slump, Painter's struggles, and real concern over Aidan Miller's back."
       },
       "beat_writer": {
         "score": null,
@@ -4139,7 +4139,7 @@
         "sample": "Going 6-1 since the managerial change, with sharper play and decisive lineup decisions \u2014 the new manager is drawing genuine credit, even if the roster was always capable of this run."
       },
       {
-        "name": "Aiden Miller Alarm Bells",
+        "name": "Aidan Miller Alarm Bells",
         "delta": -6,
         "sample": "Miller has gone from taking ground balls to no baseball activities whatsoever \u2014 a prospect the organization was counting on for depth has become a serious and worsening injury concern with no timeline."
       }
@@ -4163,11 +4163,11 @@
       {
         "text": "He is no longer taking ground balls. He's no longer doing any baseball activities. You might call that a setback.",
         "score": 15,
-        "source_hint": "fan analyst on Aiden Miller's back, The Phillies Show"
+        "source_hint": "fan analyst on Aidan Miller's back, The Phillies Show"
       }
     ],
     "vibe_summary": "Phillies fans are cautiously encouraged by a genuine rotation revival and a managerial spark, but a historically slumping cleanup hitter, a struggling young starter, and a worsening prospect injury keep the mood firmly grounded.",
-    "reasoning": "The dominant story is a real and dramatic pitching turnaround \u2014 the rotation's statistical swing from worst to best in baseball has lifted sentiment meaningfully and given fans something concrete to believe in. However, the mood is held back by three converging negatives: Bohm's historically bad offensive production with no clear fix, Painter's command and fastball woes producing ugly outings, and Aiden Miller's back situation deteriorating from 'conservative' to 'no baseball activities.' The framing around the team's postseason chances is almost entirely structural reassurance \u2014 'don't ruin the summer,' 'play .500 ball,' 'settle into being a very good team' \u2014 rather than expressed belief in a deep October run, keeping postseason belief low despite the improved play.",
+    "reasoning": "The dominant story is a real and dramatic pitching turnaround \u2014 the rotation's statistical swing from worst to best in baseball has lifted sentiment meaningfully and given fans something concrete to believe in. However, the mood is held back by three converging negatives: Bohm's historically bad offensive production with no clear fix, Painter's command and fastball woes producing ugly outings, and Aidan Miller's back situation deteriorating from 'conservative' to 'no baseball activities.' The framing around the team's postseason chances is almost entirely structural reassurance \u2014 'don't ruin the summer,' 'play .500 ball,' 'settle into being a very good team' \u2014 rather than expressed belief in a deep October run, keeping postseason belief low despite the improved play.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,

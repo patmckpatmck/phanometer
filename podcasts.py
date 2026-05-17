@@ -150,8 +150,13 @@ NAME_NORMALIZATIONS = {
     # normalizing them standalone is safe — no collision risk with a different person.
     "tywuan walker":   "Taijuan Walker",
     "tywan walker":    "Taijuan Walker",
+    "taiwan walker":   "Taijuan Walker",
     "tywuan":          "Taijuan",
     "tywan":           "Taijuan",
+    # Aidan Miller — Whisper renders as "Aiden" (more common spelling).
+    # Bigram-only: "Aiden" alone is a very common real first name unrelated
+    # to this prospect, so a standalone normalization would be unsafe.
+    "aiden miller":    "Aidan Miller",
     # Rob Thomson (no P) is correct; Thompson is a common mis-hearing. Scoped to
     # specific manager-related phrases to avoid touching other Thompsons.
     "rob thompson":    "Rob Thomson",

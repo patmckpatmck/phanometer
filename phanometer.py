@@ -239,7 +239,8 @@ Return ONLY a valid JSON object with this exact schema. No preamble, no markdown
     {"text": "<quote under 20 words>", "score": <int 0-100>, "source_hint": "<short context, e.g. 'Hittin' Season host' or 'r/phillies game thread'>"}
   ],
   "vibe_summary": "<ONE sentence, max 25 words, describing how Phillies fans feel today. Plain prose suitable for display under a 'How Philly feels about the Phillies, today' header. Do NOT start with a number or statistic. Do NOT include decimal figures (e.g. ERA, batting averages). Write it as a standalone sentence that reads naturally on its own.>",
-  "reasoning": "<2-3 sentences on what's driving today's mood. Note any divergence between the voices, e.g. 'beat writers cautious while fans outraged'.>"
+  "reasoning": "<2-3 sentences on what's driving today's mood. Note any divergence between the voices, e.g. 'beat writers cautious while fans outraged'.>",
+  "people_mentioned": ["Thomson", "Mattingly", "Dombrowski", "Luzardo", "Stott"]
   }
 
 Scoring guide:
@@ -274,6 +275,14 @@ Coping framing is a REBUTTAL to despair, not an EXPRESSION of belief. When the o
 Examples:
 - CORRECT read, belief rising (score ~65+): Hosts spend a segment discussing the Phillies as clear deadline buyers, defending the roster's ceiling, or confidently projecting a deep October run.
 - CORRECT read, belief LOW during a losing streak even with coping framing present (score ~15-25): "It's only April, the wild-card era forgives slow starts, teams have come back from 8-15 before." This is structural reassurance, not expressed belief — keep postseason_belief low, in line with the rest of the day's sentiment.
+
+people_mentioned:
+List Phillies players, coaches, front-office figures, broadcasters, and other team-affiliated people who were substantively discussed in the day's content.
+- Use the standard short form: last name only when unambiguous (e.g., "Bohm", "Harper", "Wheeler"); full name when needed for clarity (e.g., "Aidan Miller" not "Miller" if there is another Miller; "Rob Thomson" since "Thomson" alone is also reasonable).
+- Exclude: people mentioned only in passing without sentiment attached (e.g., a name dropped once in a stat line); opposing players unless they are a recurring storyline; generic references like "the manager" or "the rotation".
+- Order: roughly by prominence in the day's discussion — most-discussed first.
+- Use canonical Phillies-name spellings consistent with how transcripts are normalized (e.g., "Rob Thomson" not "Thompson", "Taijuan Walker" not "Tywan Walker"), so the field stays consistent across days.
+Example: "people_mentioned": ["Thomson", "Mattingly", "Dombrowski", "Luzardo", "Stott"]
 
 Voice/source attribution — strict field-level rules:
 
@@ -624,6 +633,7 @@ def main():
         "quotes": result.get("quotes", []),
         "vibe_summary": result.get("vibe_summary", ""),
         "reasoning": result.get("reasoning", ""),
+        "people_mentioned": result.get("people_mentioned", []),
         "source_counts": {
             "reddit_posts": n_posts,
             "reddit_comments": n_comments,

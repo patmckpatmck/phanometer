@@ -2,6 +2,7 @@ node_modules
 .next
 out
 data
+bot_core.py
 *.tsbuildinfo
 .DS_Store
 .vercel
