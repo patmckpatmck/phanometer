@@ -11,6 +11,12 @@
   --navy: #0a2351;
   --navy-deep: #061636;
   --green: #2f5a2a;
+
+  /* Font-stack aliases — referenced by Ask the Crowd components.
+     These wrap the per-family --font-* variables Next.js injects via next/font. */
+  --f-slab: var(--font-roboto-slab), 'Rockwell', Georgia, serif;
+  --f-sans: var(--font-work-sans), 'Helvetica Neue', Arial, sans-serif;
+  --f-mono: var(--font-jetbrains-mono), 'Courier New', monospace;
 }
 
 html,
@@ -830,6 +836,323 @@ body {
 }
 .footer-meta a:hover {
   color: var(--red-deep);
+}
+
+/* ——— ASK THE CROWD ——— */
+.ask-eyebrow {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--red);
+  font-weight: 600;
+}
+.ask-q {
+  font-family: var(--f-slab);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 6px 0 18px;
+  text-wrap: balance;
+}
+.ask-answer p {
+  font-family: var(--f-slab);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0 0 14px;
+  text-wrap: pretty;
+}
+.ask-answer p:last-child {
+  margin-bottom: 0;
+}
+.cursor {
+  display: inline-block;
+  width: 0.5ch;
+  height: 1em;
+  background: var(--ink);
+  vertical-align: -2px;
+  margin-left: 2px;
+  animation: blink 1.05s steps(2, end) infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.ask-input-wrap {
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  display: flex;
+  align-items: stretch;
+}
+.ask-input-wrap .ask-input {
+  flex: 1;
+  background: transparent;
+  border: 0;
+  font-family: var(--f-slab);
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--ink);
+  padding: 16px 16px;
+  outline: none;
+  min-width: 0;
+}
+.ask-input-wrap .ask-input::placeholder {
+  color: var(--ink-mute);
+  font-style: italic;
+  font-weight: 400;
+}
+.ask-input-wrap .ask-submit {
+  background: var(--ink);
+  color: var(--paper);
+  border: 0;
+  font-family: var(--f-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 11px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.ask-input-wrap .ask-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ask-suggest-header {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--ink-mute);
+  font-weight: 600;
+  margin: 22px 0 4px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--ink);
+}
+.ask-suggest-list {
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.ask-suggest-list li {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.25);
+}
+.ask-suggest-list li:last-child {
+  border-bottom: 0;
+}
+.ask-suggest-list .ask-suggest-button {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  text-align: left;
+  font-family: var(--f-slab);
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--ink-soft);
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: baseline;
+  cursor: pointer;
+}
+.ask-suggest-list .ask-suggest-button .arrow {
+  color: var(--ink-mute);
+  font-family: var(--f-mono);
+  font-size: 12px;
+}
+
+.ask-loading-row {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-mute);
+  margin: 8px 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: opacity 200ms ease-out;
+}
+.ask-loading-row.is-fading {
+  opacity: 0;
+}
+.ask-loading-row .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--red);
+  animation: pulse 1.2s ease-in-out infinite;
+}
+.ask-loading-row .label {
+  color: var(--red);
+}
+.ask-loading-row .elapsed {
+  color: var(--ink-mute);
+  letter-spacing: 0.12em;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.ask-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 18px;
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-mute);
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid var(--ink);
+}
+.ask-meta-row.is-streaming {
+  opacity: 0.4;
+}
+
+.ask-signature {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-mute);
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid var(--ink);
+  line-height: 1.7;
+  opacity: 0;
+  animation: ask-fade-in 300ms ease-out forwards;
+}
+.ask-signature .em {
+  color: var(--ink);
+  font-weight: 600;
+}
+.ask-signature .permalink {
+  color: var(--red);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.ask-actions {
+  margin-top: 22px;
+  display: flex;
+  gap: 12px;
+  opacity: 0;
+  animation: ask-fade-in 300ms ease-out forwards;
+}
+.ask-actions .primary {
+  background: var(--ink);
+  color: var(--paper);
+  border: 0;
+  font-family: var(--f-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 11px;
+  padding: 12px 22px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.ask-actions .secondary {
+  background: transparent;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  font-family: var(--f-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 11px;
+  padding: 12px 22px;
+  cursor: pointer;
+}
+
+@keyframes ask-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Homepage section 04 entry card */
+.entry-card {
+  border-top: 0;
+}
+.entry-prompt {
+  font-family: var(--f-slab);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  margin: 6px 0 18px;
+  text-wrap: balance;
+  max-width: 18ch;
+}
+.entry-sub {
+  font-family: var(--f-sans);
+  font-size: 13.5px;
+  color: var(--ink-mute);
+  margin: 0 0 18px;
+  max-width: 56ch;
+}
+
+/* /ask page-level wrapper, max-width column */
+.ask-column {
+  max-width: 720px;
+}
+.ask-column .ask-q {
+  font-size: 24px;
+}
+.ask-column .ask-answer p {
+  font-size: 18px;
+}
+@media (min-width: 900px) {
+  .ask-column .ask-q {
+    font-size: 36px;
+  }
+  .ask-column .ask-answer {
+    max-width: 62ch;
+  }
+  .ask-column .ask-answer p {
+    font-size: 20px;
+  }
+}
+
+/* Header stacked link cluster — Ask the crowd → */
+.topbar-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.topbar-right .ask-link {
+  color: var(--ink);
+}
+.topbar-right .ask-link:hover {
+  color: var(--red);
+}
+.topbar-right .ask-link.is-active {
+  color: var(--red);
+  border-bottom-color: var(--red);
+  font-weight: 700;
 }
 
 /* ——— RESPONSIVE ——— */
