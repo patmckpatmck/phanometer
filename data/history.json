@@ -5904,5 +5904,208 @@
       "games_behind": "9.0"
     },
     "generated_at": "2026-05-16T11:09:43.851968+00:00"
+  },
+  {
+    "date": "2026-05-17",
+    "display_score": 55,
+    "reactive_score": 55,
+    "baseline_score": 57,
+    "insufficient_signal": false,
+    "content_volume": 122,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 58,
+      "front_office_trust": 52,
+      "manager_confidence": 53,
+      "lineup_confidence": 48,
+      "pitching_confidence": 68,
+      "health_outlook": 62,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 35,
+      "manager_confidence": 30,
+      "lineup_confidence": 78,
+      "pitching_confidence": 82,
+      "health_outlook": 40,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 58,
+        "note": "Fan analyst (Phillies Talk) is cautiously positive on pitching but openly frustrated with the offense \u2014 Turner's approach, Garcia's lack of pop, and Boehm's at-bats are named concerns alongside genuine excitement about Schwarber and Wheeler."
+      },
+      "beat_writer": {
+        "score": 62,
+        "note": "Beat writer (Phillies Therapy) frames the 10-3 stretch as earned relief rather than full optimism \u2014 'glass filling slowly with an ice cube blocking the spout' \u2014 praising Sanchez and the bullpen while flagging Luzardo's fastball command and Turner's plate discipline as real worries."
+      },
+      "radio_populist": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Pitching carrying the load",
+        "delta": 6,
+        "sample": "Christopher Sanchez is drawing comparisons to the best starters in baseball, Wheeler has returned looking like himself, and the bullpen has shouldered an enormous workload without breaking \u2014 pitching is the clearest source of genuine optimism right now."
+      },
+      {
+        "name": "Offense still punchless in spots",
+        "delta": -5,
+        "sample": "Three hits on Wednesday night in Boston, Bryce Harper 0-for-8 in the series, Turner's approach described as 'flailing' and 'too much up and down,' and Garcia sitting below a 650 OPS \u2014 the lineup has real holes that Schwarber's historic home-run pace can't fully paper over."
+      },
+      {
+        "name": "Luzardo's command a quiet concern",
+        "delta": -4,
+        "sample": "Opponents are hitting well above .350 against both his four-seamer and sinker, he's throwing too many pitches per inning, and his sweeper becomes nearly unusable when he falls behind \u2014 for a pitcher on a top-five left-hander contract, the quality of his stuff has not matched the expectation."
+      },
+      {
+        "name": "10-3 stretch earns cautious exhale",
+        "delta": 5,
+        "sample": "Going 10-3 against a softer schedule did exactly what was needed \u2014 the team climbed back to relevance in a weak NL, the urgency dial has been turned down, and the mood has shifted from near-despair to a measured, 'glass slowly filling' relief."
+      },
+      {
+        "name": "Turner and the top of the order",
+        "delta": -4,
+        "sample": "The team ranks 29th in on-base percentage from the leadoff spot, Turner is described as throwing away at-bats with uncompetitive early swings, and there is simply no alternative \u2014 the lineup's ceiling is tied uncomfortably to a player who has not found his footing."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "My glass is filling up. It is. And it's nice to feel better about this team.",
+        "score": 65,
+        "source_hint": "Beat writer (Phillies Therapy) summing up the cautious mood shift after the 10-3 stretch"
+      },
+      {
+        "text": "Starting pitching I think has been really good if you're looking for silver linings and being optimistic, but obviously the bats haven't really made the trip yet.",
+        "score": 55,
+        "source_hint": "Fan analyst (Phillies Talk) on the Boston series split"
+      },
+      {
+        "text": "He looks like the best one of the best stars in baseball, and that's not a hot take, but he might be the best pitcher in baseball right now.",
+        "score": 88,
+        "source_hint": "Beat writer (Phillies Therapy) on Christopher Sanchez"
+      },
+      {
+        "text": "His fastballs are not working out \u2014 on the four seamer opponents are hitting three fifty three and the sinker they're hitting three eighty seven. That's the bedrock of it all.",
+        "score": 30,
+        "source_hint": "Beat writer (Phillies Therapy) on Luzardo's fastball command problem"
+      }
+    ],
+    "vibe_summary": "Phillies fans are exhaling cautiously after a strong 10-3 stretch pulled the team back to respectability, but real concerns about the lineup's consistency and Luzardo's command keep the mood firmly in 'relief, not celebration' territory.",
+    "reasoning": "The dominant emotional shift over the last two weeks is from genuine despair \u2014 a fired manager, a 9-19 record \u2014 to a measured, conditional relief. The 10-3 run against softer competition and Christopher Sanchez's emergence as arguably the best starter in baseball are the clearest positive anchors. However, both present sources spend substantial time on unresolved problems: Turner's deteriorating plate approach, Garcia's quiet underperformance at cleanup, and Luzardo's fastball command issues introduce a sober counterweight to the optimism. Postseason belief stays low because the postseason-adjacent framing is almost entirely structural reassurance \u2014 'the house is not on fire,' 'the NL is weak,' 'three and three on the road trip is fine' \u2014 rather than expressed confidence in a deep October run. The current record of 23-23 on a three-game winning streak reflects real progress, but neither source is ready to declare the Phillies a genuine contender.",
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 2,
+      "podcast_chars": 91335,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 0,
+      "youtube_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Starting pitching has been hot, the bats have not",
+        "voice": "fan_analyst",
+        "chars": 46850
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Filling the Cup",
+        "voice": "beat_writer",
+        "chars": 44485
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 90.2,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 96.8,
+        "delta_pct": -6.6,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823469,
+            "date": "2026-05-05",
+            "day_of_week": "Tuesday",
+            "opponent": "Athletics",
+            "result": "W 9-1",
+            "attendance": 36069,
+            "pct_capacity": 84.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823470,
+            "date": "2026-05-06",
+            "day_of_week": "Wednesday",
+            "opponent": "Athletics",
+            "result": "W 6-3",
+            "attendance": 36474,
+            "pct_capacity": 85.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823467,
+            "date": "2026-05-07",
+            "day_of_week": "Thursday",
+            "opponent": "Athletics",
+            "result": "L 1-12",
+            "attendance": 37543,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823466,
+            "date": "2026-05-08",
+            "day_of_week": "Friday",
+            "opponent": "Colorado Rockies",
+            "result": "L 7-9",
+            "attendance": 39478,
+            "pct_capacity": 92.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823468,
+            "date": "2026-05-09",
+            "day_of_week": "Saturday",
+            "opponent": "Colorado Rockies",
+            "result": "W 9-3",
+            "attendance": 38043,
+            "pct_capacity": 88.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823463,
+            "date": "2026-05-10",
+            "day_of_week": "Sunday",
+            "opponent": "Colorado Rockies",
+            "result": "W 6-0",
+            "attendance": 44620,
+            "pct_capacity": 104.0,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "23-23",
+      "streak": "W3",
+      "games_behind": "8.0"
+    },
+    "generated_at": "2026-05-17T11:08:39.829809+00:00"
   }
 ]
