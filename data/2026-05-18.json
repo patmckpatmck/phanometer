@@ -1,0 +1,225 @@
+{
+  "date": "2026-05-18",
+  "display_score": 65,
+  "reactive_score": 65,
+  "baseline_score": 56,
+  "insufficient_signal": false,
+  "content_volume": 101,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 68,
+    "front_office_trust": 55,
+    "manager_confidence": 62,
+    "lineup_confidence": 58,
+    "pitching_confidence": 78,
+    "health_outlook": 65,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 38,
+    "manager_confidence": 45,
+    "lineup_confidence": 72,
+    "pitching_confidence": 90,
+    "health_outlook": 50,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 74,
+      "note": "Phillies Show hosts are buoyant about the 15-4 post-firing run, Schwarber and Harper's elite OPS, and the Wheeler-Sanchez Cy Young race, framing the turnaround as historic."
+    },
+    "beat_writer": {
+      "score": 60,
+      "note": "Phillies Therapy offers cautious optimism \u2014 the glass is 'filling slowly' \u2014 acknowledging real warts: Luzardo's command, Turner's struggles, and a still half-complete lineup."
+    },
+    "radio_populist": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Historic Turnaround, But Still Climbing",
+      "delta": 7,
+      "sample": "Going 15-4 after a managerial change to reach .500 is historically rare, yet the hole was deep enough that three games under at the quarter mark still feels like unfinished business."
+    },
+    {
+      "name": "Wheeler and Sanchez Are Carrying the Rotation",
+      "delta": 9,
+      "sample": "Sanchez's 29\u2153-inning scoreless streak and Wheeler's 1.99 ERA have the starting staff ranked fourth in baseball since late April, and talk of a Cy Young race between the two is genuine."
+    },
+    {
+      "name": "Luzardo's Command Is a Real Worry",
+      "delta": -6,
+      "sample": "A sweeper that only works when ahead in the count, fastballs getting crushed regardless of handedness, and pitch-efficiency issues have one of the rotation's highest-paid arms drawing serious scrutiny."
+    },
+    {
+      "name": "Schwarber and Harper Are Elite; Rest of Lineup Is Patchy",
+      "delta": 4,
+      "sample": "Schwarber leads the majors in home runs and Harper sits top-ten in OPS, but Turner is ranked 29th in on-base from the leadoff spot and the lineup still feels half-assembled."
+    },
+    {
+      "name": "Playoff Math Is Survivable, Not Yet Exciting",
+      "delta": 2,
+      "sample": "FanGraphs' 66% playoff odds and fifth-best World Series odds are cited with enthusiasm, but the NL being weak is doing as much work as the roster, and projections are invoked more as relief than genuine belief."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "My glass is filling. It is. And it's nice to feel better about this team.",
+      "score": 62,
+      "source_hint": "beat writer (Phillies Therapy), summarizing the cautious mood shift"
+    },
+    {
+      "text": "He might be the best pitcher in baseball right now.",
+      "score": 88,
+      "source_hint": "beat writer (Phillies Therapy), on Christopher Sanchez"
+    },
+    {
+      "text": "They are 15-4 since. They are 24-23 following Sunday's 6-0 victory over the Pirates.",
+      "score": 75,
+      "source_hint": "fan analyst (The Phillies Show), opening the show with the turnaround numbers"
+    },
+    {
+      "text": "There are still the warts that we're all accustomed to. They're going to be playing with half a lineup most of the time.",
+      "score": 45,
+      "source_hint": "beat writer (Phillies Therapy), tempering the optimism"
+    }
+  ],
+  "vibe_summary": "Relief and cautious momentum define the mood right now, as a stunning pitching-led turnaround has pulled the team back to .500 without fully convincing anyone the hard work is done.",
+  "reasoning": "A 15-4 run since the managerial change \u2014 one of the more remarkable turnarounds in modern baseball \u2014 has meaningfully lifted spirits, with Sanchez and Wheeler drawing genuine Cy Young conversation and Schwarber and Harper posting elite numbers. The optimism, however, is tempered rather than euphoric: Luzardo's command issues, Turner's leadoff struggles, and a lineup that still feels incomplete are recurring concerns, and the NL's overall weakness is doing as much to keep playoff hopes alive as the roster itself. The fan analyst voice leans celebratory and historic while the beat writer acknowledges the same facts with more measured language, describing a glass filling slowly with ice still blocking the spout.",
+  "people_mentioned": [
+    "Sanchez",
+    "Wheeler",
+    "Schwarber",
+    "Harper",
+    "Luzardo",
+    "Marsh",
+    "Turner",
+    "Mattingly",
+    "Thomson",
+    "Kerkering",
+    "Keller",
+    "Duran",
+    "Painter",
+    "Nola",
+    "Crawford",
+    "Bohm",
+    "Stott",
+    "Reyes",
+    "Ram\u00edrez",
+    "Suarez"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 2,
+    "podcast_chars": 75946,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Phillies' superstars have fueled the team's winning ways",
+      "voice": "fan_analyst",
+      "chars": 30275
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Filling the Cup",
+      "voice": "beat_writer",
+      "chars": 45671
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 90.2,
+      "baseline_games_count": 41,
+      "baseline_avg_pct": 96.9,
+      "delta_pct": -6.7,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823469,
+          "date": "2026-05-05",
+          "day_of_week": "Tuesday",
+          "opponent": "Athletics",
+          "result": "W 9-1",
+          "attendance": 36069,
+          "pct_capacity": 84.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823470,
+          "date": "2026-05-06",
+          "day_of_week": "Wednesday",
+          "opponent": "Athletics",
+          "result": "W 6-3",
+          "attendance": 36474,
+          "pct_capacity": 85.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823467,
+          "date": "2026-05-07",
+          "day_of_week": "Thursday",
+          "opponent": "Athletics",
+          "result": "L 1-12",
+          "attendance": 37543,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823466,
+          "date": "2026-05-08",
+          "day_of_week": "Friday",
+          "opponent": "Colorado Rockies",
+          "result": "L 7-9",
+          "attendance": 39478,
+          "pct_capacity": 92.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823468,
+          "date": "2026-05-09",
+          "day_of_week": "Saturday",
+          "opponent": "Colorado Rockies",
+          "result": "W 9-3",
+          "attendance": 38043,
+          "pct_capacity": 88.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823463,
+          "date": "2026-05-10",
+          "day_of_week": "Sunday",
+          "opponent": "Colorado Rockies",
+          "result": "W 6-0",
+          "attendance": 44620,
+          "pct_capacity": 104.0,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "24-23",
+    "streak": "W4",
+    "games_behind": "8.0"
+  },
+  "generated_at": "2026-05-18T13:49:03.602972+00:00"
+}
