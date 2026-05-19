@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Phan-o-meter Daily Reel</title>
+<!-- iOS standalone web app — Safari "Add to Home Screen" launches the reel
+     full-screen with no URL bar, ideal for clean screen recording. -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Phanometer" />
+<meta name="theme-color" content="#f4ead8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --ink: #14110f;
+  --ink-soft: #2e2a26;
+  --ink-mute: #6b655e;
+  --paper: #f4ead8;
+  --paper-2: #e9dcc2;
+  --paper-3: #dfd0b0;
+  --red: #c1121f;
+  --red-deep: #8b0a14;
+  --navy: #0a2351;
+  --navy-deep: #061636;
+  --green: #2f5a2a;
+  --f-slab: 'Roboto Slab', 'Rockwell', Georgia, serif;
+  --f-sans: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+  --f-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; background: #000; overflow: hidden; }
+body {
+  font-family: var(--f-sans);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Stage is a fixed 1080x1920 canvas, scaled to fit the viewport.
+   Absolutely positioned + translate(-50%, -50%) so the post-scale
+   visual stays centered regardless of the (unscaled) layout size. */
+.viewport {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  overflow: hidden;
+}
+.stage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1080px;
+  height: 1920px;
+  background: var(--paper);
+  background-image:
+    radial-gradient(ellipse at 18% 8%, rgba(139, 100, 40, 0.06), transparent 60%),
+    radial-gradient(ellipse at 82% 42%, rgba(100, 60, 20, 0.05), transparent 60%);
+  transform-origin: center center;
+  transform: translate(-50%, -50%) scale(1);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  overflow: hidden;
+  box-shadow: 0 0 60px rgba(0,0,0,0.4);
+}
+
+/* Persistent chrome — pushed below TikTok/Reels top safe-area so the
+   platform's username/caption/menu can't overlap the masthead. */
+.chrome-top {
+  position: absolute;
+  top: 180px;
+  left: 56px;
+  right: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  z-index: 50;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--ink);
+}
+.chrome-mark {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+.chrome-date {
+  font-family: var(--f-mono);
+  font-size: 28px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.chrome-dots {
+  position: absolute;
+  bottom: 96px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  z-index: 50;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(20, 17, 15, 0.18);
+  transition: background 320ms ease, transform 320ms ease;
+}
+.dot.is-active {
+  background: var(--red);
+  transform: scale(1.25);
+}
+
+.chrome-hint { display: none; }
+
+/* Frames — top padding clears the stacked masthead (logo + date)
+   which now lives at top: 180px and runs ~120px tall. */
+.frame {
+  position: absolute;
+  inset: 0;
+  padding: 360px 56px 180px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.frame.is-active {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+.frame-num {
+  font-family: var(--f-mono);
+  font-size: 18px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--red);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.frame-title {
+  font-family: var(--f-slab);
+  font-weight: 800;
+  font-size: 52px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  line-height: 1;
+  margin: 0 0 36px;
+}
+
+/* Generic entry animation — each .frame.is-active triggers .anim-in elements */
+.anim-in {
+  opacity: 0;
+  transform: translateY(28px);
+}
+.is-active .anim-in {
+  animation: rise-in 760ms cubic-bezier(0.18, 0.8, 0.25, 1) forwards;
+}
+.is-active .anim-in.d1 { animation-delay: 80ms; }
+.is-active .anim-in.d2 { animation-delay: 200ms; }
+.is-active .anim-in.d3 { animation-delay: 360ms; }
+.is-active .anim-in.d4 { animation-delay: 540ms; }
+.is-active .anim-in.d5 { animation-delay: 720ms; }
+
+@keyframes rise-in {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── FRAME 1 · SCORE ─── */
+.frame-score {
+  /* Lock the meter + score-readout block to the vertical center of
+     the stage so the bell hangs in the middle of the phone screen. */
+  justify-content: center;
+  align-items: center;
+}
+.score-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.score-meter {
+  position: relative;
+  width: 980px;
+  height: 560px;
+  margin: 0 auto;
+}
+.score-bell-holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  pointer-events: none;
+}
+.score-bell {
+  display: block;
+  width: 320px;
+  height: auto;
+  transform-origin: 50% 13%;
+  will-change: transform;
+  transform: rotate(-100deg);
+}
+.score-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.score-readout {
+  text-align: center;
+  margin-top: 28px;
+}
+.score-big {
+  font-family: var(--f-slab);
+  font-weight: 900;
+  font-size: 320px;
+  line-height: 0.86;
+  letter-spacing: -0.04em;
+  color: var(--ink);
+  font-variant-numeric: lining-nums;
+  display: inline-block;
+}
+.score-big .of {
+  font-family: var(--f-sans);
+  font-weight: 500;
+  font-size: 0.20em;
+  color: var(--ink-mute);
+  margin-left: 0.08em;
+  vertical-align: super;
+  letter-spacing: 0.04em;
+}
+.score-mood {
+  font-family: var(--f-slab);
+  font-weight: 800;
+  font-size: 88px;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 18px 0 14px;
+}
+.mood-rockbottom, .mood-meltdown { color: var(--red-deep); }
+.mood-notagain, .mood-ohno { color: var(--red); }
+.mood-uneasy, .mood-touchandgo { color: var(--ink); }
+.mood-highhopes { color: var(--navy); }
+.mood-buzzing, .mood-rallytowel { color: var(--navy); letter-spacing: 0.03em; }
+.mood-redoctober { color: var(--red); letter-spacing: 0.04em; font-weight: 900; }
+.score-delta {
+  font-family: var(--f-mono);
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-mute);
+}
+.score-delta .up { color: var(--navy); font-weight: 600; }
+.score-delta .down { color: var(--red); font-weight: 600; }
+
+/* ─── FRAME 2 · VIBE ─── */
+.frame-vibe { justify-content: center; padding-top: 200px; }
+.vibe-body {
+  font-family: var(--f-slab);
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  text-wrap: balance;
+  margin: 0;
+}
+.vibe-body .accent { color: var(--red); }
+.vibe-rule {
+  width: 120px;
+  height: 6px;
+  background: var(--red);
+  margin: 0 0 56px;
+}
+
+/* ─── FRAME 3 · COUNT ─── */
+.frame-count { justify-content: center; }
+.count-list {
+  margin-top: 18px;
+  border-top: 2px solid var(--ink);
+}
+.count-row {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  align-items: center;
+  column-gap: 24px;
+  padding: 28px 0 22px;
+  border-bottom: 1px solid rgba(20,17,15,0.18);
+}
+.count-row-name {
+  font-family: var(--f-slab);
+  font-weight: 600;
+  font-size: 42px;
+  color: var(--ink);
+  line-height: 1.1;
+}
+.count-row-score {
+  font-family: var(--f-slab);
+  font-weight: 800;
+  font-size: 56px;
+  color: var(--ink);
+  text-align: right;
+  font-variant-numeric: lining-nums;
+}
+.count-bar-wrap {
+  grid-column: 1 / -1;
+  margin-top: 12px;
+  position: relative;
+  height: 14px;
+  background: var(--paper-2);
+  border: 1px solid rgba(20,17,15,0.18);
+  overflow: hidden;
+}
+.count-bar-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background: var(--ink);
+}
+.is-active .count-bar-fill {
+  animation: bar-grow 900ms cubic-bezier(0.18, 0.8, 0.25, 1) forwards;
+}
+.is-active .count-row:nth-child(1) .count-bar-fill { animation-delay: 160ms; }
+.is-active .count-row:nth-child(2) .count-bar-fill { animation-delay: 240ms; }
+.is-active .count-row:nth-child(3) .count-bar-fill { animation-delay: 320ms; }
+.is-active .count-row:nth-child(4) .count-bar-fill { animation-delay: 400ms; }
+.is-active .count-row:nth-child(5) .count-bar-fill { animation-delay: 480ms; }
+.is-active .count-row:nth-child(6) .count-bar-fill { animation-delay: 560ms; }
+.is-active .count-row:nth-child(7) .count-bar-fill { animation-delay: 640ms; }
+@keyframes bar-grow {
+  to { width: var(--target-width, 0%); }
+}
+.count-bar-ticks {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0 9.99%,
+    rgba(255,255,255,0.28) 10% 10.18%
+  );
+  pointer-events: none;
+}
+
+/* ─── FRAME 4 · CHEER & GROAN (combined) ─── */
+.frame-quote { justify-content: center; }
+.quote-card {
+  border-top: 2px solid var(--ink);
+  padding: 36px 0 40px;
+  position: relative;
+}
+.quote-card.cheer { margin-top: 28px; }
+.quote-card.groan {
+  border-bottom: 2px solid var(--ink);
+}
+.quote-eyebrow {
+  font-family: var(--f-mono);
+  font-size: 22px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 22px;
+}
+.quote-card.cheer .quote-eyebrow { color: var(--navy); }
+.quote-card.groan .quote-eyebrow { color: var(--red); }
+/* Subject of the quote — extracted from source_hint's "on X" suffix.
+   Sits between the eyebrow and the quote so the reader knows who/what
+   the quote is about. Hidden when source_hint has no subject. */
+.quote-subject {
+  font-family: var(--f-slab);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2;
+  color: var(--ink-soft);
+  margin: -10px 0 22px;
+}
+.quote-subject:empty { display: none; }
+.quote-text {
+  font-family: var(--f-slab);
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.16;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 26px;
+  text-wrap: balance;
+}
+.quote-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  font-family: var(--f-mono);
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-mute);
+}
+.quote-meta .score-pill {
+  font-family: var(--f-mono);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--ink);
+  background: var(--paper-2);
+  border: 1.5px solid var(--ink);
+  padding: 6px 14px 4px;
+  letter-spacing: 0.06em;
+}
+
+/* ─── FRAME 6 · AT THE GATE ─── */
+.frame-gate { justify-content: center; }
+.gate-big {
+  font-family: var(--f-slab);
+  font-weight: 900;
+  font-size: 360px;
+  line-height: 0.85;
+  letter-spacing: -0.05em;
+  color: var(--ink);
+  font-variant-numeric: lining-nums;
+  margin: 40px 0 8px;
+}
+.gate-big .unit {
+  font-family: var(--f-sans);
+  font-size: 0.22em;
+  font-weight: 500;
+  color: var(--ink-mute);
+  margin-left: 0.05em;
+  vertical-align: super;
+  letter-spacing: 0.04em;
+}
+.gate-label {
+  font-family: var(--f-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink-mute);
+  margin: 0 0 14px;
+}
+.gate-delta {
+  font-family: var(--f-mono);
+  font-size: 32px;
+  margin-top: 6px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.gate-delta .up { color: var(--navy); font-weight: 600; }
+.gate-delta .down { color: var(--red); font-weight: 700; }
+.gate-delta .vs { color: var(--ink-mute); }
+.gate-canary {
+  margin-top: 38px;
+  display: inline-block;
+  font-family: var(--f-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 24px;
+  color: var(--red);
+  border-top: 3px solid var(--red);
+  border-bottom: 2px solid var(--red);
+  padding: 14px 0 12px;
+  line-height: 1;
+}
+.gate-foot {
+  font-family: var(--f-sans);
+  font-size: 32px;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  margin-top: 36px;
+  text-wrap: balance;
+}
+
+/* ─── FRAME 7 · OUTRO ─── */
+.frame-outro {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.outro-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+.outro-wordmark {
+  width: 720px;
+  height: auto;
+  display: block;
+}
+.outro-tag {
+  font-family: var(--f-slab);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0;
+  text-wrap: balance;
+  max-width: 18ch;
+}
+.outro-url {
+  font-family: var(--f-mono);
+  font-size: 32px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--red);
+  font-weight: 600;
+  padding-top: 36px;
+  border-top: 2px solid var(--ink);
+  margin-top: 12px;
+}
+.outro-handle {
+  font-family: var(--f-mono);
+  font-size: 24px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-top: -24px;
+}
+</style>
+</head>
+<body>
+
+<div class="viewport" id="viewport">
+  <div class="stage" id="stage" role="button" tabindex="0" aria-label="Phan-o-meter daily reel — tap to advance">
+
+    <!-- Persistent chrome -->
+    <div class="chrome-top">
+      <img class="chrome-mark" id="chromeMark" alt="Phanometer" />
+      <div class="chrome-date" id="chromeDate">—</div>
+    </div>
+    <div class="chrome-dots" id="chromeDots"></div>
+    <div class="chrome-hint" id="chromeHint"><span class="pulse"></span>Tap to advance</div>
+
+    <!-- ─── FRAME 1 · SCORE ─── -->
+    <section class="frame frame-score" data-frame="score">
+      <div class="score-stack">
+        <div class="score-meter anim-in">
+          <div class="score-bell-holder">
+            <img class="score-bell" id="scoreBell" alt="Liberty Bell" />
+          </div>
+          <svg class="score-svg" id="scoreSvg" viewBox="0 0 1000 560"></svg>
+        </div>
+        <div class="score-readout">
+          <div class="score-big anim-in d1"><span id="scoreBig">—</span></div>
+          <div class="score-mood anim-in d2" id="scoreMood">—</div>
+          <div class="score-delta anim-in d3" id="scoreDelta">—</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── FRAME 2 · VIBE ─── -->
+    <section class="frame frame-vibe" data-frame="vibe">
+      <div class="vibe-rule anim-in"></div>
+      <div class="frame-num anim-in d1">02 · The vibe</div>
+      <p class="vibe-body anim-in d2" id="vibeBody">—</p>
+    </section>
+
+    <!-- ─── FRAME 3 · COUNT ─── -->
+    <section class="frame frame-count" data-frame="count">
+      <div class="frame-num anim-in">03 · The count</div>
+      <h2 class="frame-title anim-in d1">The scoring dimensions</h2>
+      <div class="count-list" id="countList"></div>
+    </section>
+
+    <!-- ─── FRAME 4 · CHEER & GROAN (combined) ─── -->
+    <section class="frame frame-quote" data-frame="cheergroan">
+      <div class="frame-num anim-in">04 · Cheers &amp; groans</div>
+      <h2 class="frame-title anim-in d1">What&rsquo;s working, what&rsquo;s not</h2>
+
+      <div class="quote-card cheer anim-in d2">
+        <div class="quote-eyebrow">Cheer</div>
+        <div class="quote-subject" id="cheerSubject"></div>
+        <p class="quote-text" id="cheerText">—</p>
+        <div class="quote-meta">
+          <span id="cheerSource">—</span>
+          <span class="score-pill" id="cheerScore">—</span>
+        </div>
+      </div>
+
+      <div class="quote-card groan anim-in d3">
+        <div class="quote-eyebrow">Groan</div>
+        <div class="quote-subject" id="groanSubject"></div>
+        <p class="quote-text" id="groanText">—</p>
+        <div class="quote-meta">
+          <span id="groanSource">—</span>
+          <span class="score-pill" id="groanScore">—</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── FRAME 6 · AT THE GATE ─── -->
+    <section class="frame frame-gate" data-frame="gate">
+      <div class="frame-num anim-in">06 · At the gate</div>
+      <h2 class="frame-title anim-in d1">Attendance</h2>
+      <div class="gate-label anim-in d2">Recent gate, 14-day window</div>
+      <div class="gate-big anim-in d3"><span id="gateBig">—</span><span class="unit">%</span></div>
+      <div class="gate-delta anim-in d4" id="gateDelta">—</div>
+      <div class="gate-canary anim-in d5" id="gateCanary" style="display:none;">Fans are voting with their feet</div>
+      <div class="gate-foot anim-in d5">Sentiment is what people say; the gate is what they do.</div>
+    </section>
+
+    <!-- ─── FRAME 7 · OUTRO ─── -->
+    <section class="frame frame-outro" data-frame="outro">
+      <div class="outro-stack">
+        <img class="outro-wordmark anim-in" id="outroWordmark" alt="Phanometer" />
+        <p class="outro-tag anim-in d1">How Philly feels about the Phillies, today.</p>
+        <div class="outro-handle anim-in d2">@phanometer</div>
+        <div class="outro-url anim-in d3">phanometer.com</div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script>
+/* ──────────────────────────────────────────────────────────────────
+   Embedded assets (base64) — keeps the file self-contained so it
+   plays cleanly in the Claude artifact preview with no external deps.
+   ────────────────────────────────────────────────────────────────── */
+const BELL_PNG = "data:image/png;base64,__BELL_B64__";
+const WORDMARK_PNG = "data:image/png;base64,__WORDMARK_B64__";
+
+document.getElementById('chromeMark').src = WORDMARK_PNG;
+document.getElementById('scoreBell').src = BELL_PNG;
+document.getElementById('outroWordmark').src = WORDMARK_PNG;
+
+/* ──────────────────────────────────────────────────────────────────
+   Mood band lookup — mirrors web/lib/moodBands.ts.
+   Drives the color class on the mood label.
+   ────────────────────────────────────────────────────────────────── */
+const MOOD_BANDS = [
+  { min: 90, max: 100, label: 'Red October', slug: 'redoctober' },
+  { min: 80, max: 89,  label: 'Rally Towel', slug: 'rallytowel' },
+  { min: 70, max: 79,  label: 'Buzzing',     slug: 'buzzing' },
+  { min: 60, max: 69,  label: 'High Hopes',  slug: 'highhopes' },
+  { min: 50, max: 59,  label: 'Touch and Go', slug: 'touchandgo' },
+  { min: 40, max: 49,  label: 'Uneasy',      slug: 'uneasy' },
+  { min: 30, max: 39,  label: 'Oh No',       slug: 'ohno' },
+  { min: 20, max: 29,  label: 'Not Again',   slug: 'notagain' },
+  { min: 10, max: 19,  label: 'Meltdown',    slug: 'meltdown' },
+  { min: 0,  max: 9,   label: 'Rock Bottom', slug: 'rockbottom' },
+];
+function bandFor(score) {
+  const s = Math.max(0, Math.min(100, score));
+  return MOOD_BANDS.find(b => s >= b.min && s <= b.max) || MOOD_BANDS[5];
+}
+
+/* ──────────────────────────────────────────────────────────────────
+   Bell arc geometry — ported verbatim from web/components/BellMeter.tsx.
+   Keeping the constants in sync ensures the reel bell points at the
+   same tick the homepage bell does for any given score.
+   ────────────────────────────────────────────────────────────────── */
+const SWEEP_HALF = 90;
+const PIVOT_X = 500;
+const PIVOT_Y = 90;
+const ARC_CX = 500;
+const ARC_CY = 180;
+const ARC_R = 340;
+
+function computeTargetAngle(score) {
+  const needleAngle = ((score - 50) / 50) * SWEEP_HALF;
+  const rad = (needleAngle * Math.PI) / 180;
+  const needleX = ARC_CX + ARC_R * Math.sin(rad);
+  const needleY = ARC_CY + ARC_R * Math.cos(rad);
+  const dx = needleX - PIVOT_X;
+  const dy = needleY - PIVOT_Y;
+  return -((Math.atan2(dx, dy) * 180) / Math.PI);
+}
+
+function round2(n) { return Math.round(n * 100) / 100; }
+
+function buildScoreSvg(score) {
+  const svg = document.getElementById('scoreSvg');
+  svg.innerHTML = '';
+  const ns = 'http://www.w3.org/2000/svg';
+  const pt = (a, radius) => {
+    const rad = (a * Math.PI) / 180;
+    return [round2(ARC_CX + radius * Math.sin(rad)), round2(ARC_CY + radius * Math.cos(rad))];
+  };
+  for (let s = 0; s <= 100; s += 1) {
+    const a = ((s - 50) / 50) * SWEEP_HALF;
+    const major = s % 10 === 0;
+    const medium = s % 5 === 0;
+    const [x1, y1] = pt(a, ARC_R);
+    const inner = major ? ARC_R - 22 : medium ? ARC_R - 14 : ARC_R - 9;
+    const [x2, y2] = pt(a, inner);
+    const line = document.createElementNS(ns, 'line');
+    line.setAttribute('x1', x1);
+    line.setAttribute('y1', y1);
+    line.setAttribute('x2', x2);
+    line.setAttribute('y2', y2);
+    line.setAttribute('stroke', '#14110f');
+    line.setAttribute('stroke-width', major ? 2.4 : medium ? 1.2 : 0.8);
+    line.setAttribute('opacity', major ? 1 : medium ? 0.55 : 0.28);
+    line.setAttribute('stroke-linecap', 'round');
+    svg.appendChild(line);
+    if (major) {
+      const [lx, ly] = pt(a, ARC_R + 30);
+      const t = document.createElementNS(ns, 'text');
+      t.setAttribute('x', lx);
+      t.setAttribute('y', ly + 6);
+      t.setAttribute('font-size', '22');
+      t.setAttribute('font-family', "'Roboto Slab', serif");
+      t.setAttribute('fill', '#14110f');
+      t.setAttribute('text-anchor', 'middle');
+      t.setAttribute('font-weight', '600');
+      t.textContent = s;
+      svg.appendChild(t);
+    }
+  }
+  // Red needle pointing at the current score's tick.
+  const needleAngle = ((score - 50) / 50) * SWEEP_HALF;
+  const rad = (needleAngle * Math.PI) / 180;
+  const nx = round2(ARC_CX + (ARC_R - 34) * Math.sin(rad));
+  const ny = round2(ARC_CY + (ARC_R - 34) * Math.cos(rad));
+  const ntx = round2(ARC_CX + (ARC_R - 12) * Math.sin(rad));
+  const nty = round2(ARC_CY + (ARC_R - 12) * Math.cos(rad));
+  const perpX = Math.cos(rad);
+  const perpY = -Math.sin(rad);
+  const baseW = 10;
+  const b1x = round2(nx + perpX * baseW);
+  const b1y = round2(ny + perpY * baseW);
+  const b2x = round2(nx - perpX * baseW);
+  const b2y = round2(ny - perpY * baseW);
+  const tri = document.createElementNS(ns, 'polygon');
+  tri.setAttribute('points', `${ntx},${nty} ${b1x},${b1y} ${b2x},${b2y}`);
+  tri.setAttribute('fill', '#c1121f');
+  svg.appendChild(tri);
+}
+
+/* Damped-oscillator swing — same shape as BellMeter's useBellAngle. */
+function swingBell(score) {
+  const bell = document.getElementById('scoreBell');
+  const target = computeTargetAngle(score);
+  const start = performance.now();
+  const initial = -Math.sign(target || 1) * (Math.abs(target) * 0.5 + 30);
+  const final = target;
+  const duration = 2600;
+  const freq = 2.8;
+  const damping = 4.0;
+  let rafId = 0;
+  function tick(now) {
+    const t = Math.min(1, (now - start) / duration);
+    const osc = Math.cos(freq * Math.PI * t) * Math.exp(-damping * t);
+    const ease = 1 - osc * (1 - t);
+    const current = initial + (final - initial) * ease;
+    bell.style.transform = `rotate(${current.toFixed(2)}deg)`;
+    if (t < 1) rafId = requestAnimationFrame(tick);
+    else bell.style.transform = `rotate(${final.toFixed(2)}deg)`;
+  }
+  // Reset to the pre-swing pose so the entry always feels deliberate.
+  bell.style.transform = `rotate(${initial.toFixed(2)}deg)`;
+  cancelAnimationFrame(window.__bellRaf || 0);
+  window.__bellRaf = requestAnimationFrame(tick);
+}
+
+/* ──────────────────────────────────────────────────────────────────
+   Date formatting — matches the homepage's wordmark line.
+   ────────────────────────────────────────────────────────────────── */
+function formatDate(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  const fmt = new Intl.DateTimeFormat('en-US', {
+    weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
+  });
+  return fmt.format(dt).toUpperCase();
+}
+
+/* ──────────────────────────────────────────────────────────────────
+   Dimension labels — the seven scoring dimensions, short-form.
+   ────────────────────────────────────────────────────────────────── */
+const DIM_LABELS = [
+  { key: 'results_satisfaction', label: 'Results' },
+  { key: 'pitching_confidence',  label: 'Pitching' },
+  { key: 'lineup_confidence',    label: 'Lineup' },
+  { key: 'manager_confidence',   label: 'Manager' },
+  { key: 'front_office_trust',   label: 'Front office' },
+  { key: 'health_outlook',       label: 'Health' },
+  { key: 'postseason_belief',    label: 'Postseason belief' },
+];
+
+/* ──────────────────────────────────────────────────────────────────
+   Render & frame controller.
+   ────────────────────────────────────────────────────────────────── */
+function render() {
+  const D = REEL_DATA;
+
+  // Chrome
+  document.getElementById('chromeDate').textContent = formatDate(D.date);
+
+  // Frame 1 · Score
+  document.getElementById('scoreBig').textContent = String(D.display_score);
+  const band = bandFor(D.display_score);
+  const moodEl = document.getElementById('scoreMood');
+  moodEl.textContent = (D.mood_label || band.label).toUpperCase();
+  moodEl.className = `score-mood anim-in d3 mood-${band.slug}`;
+  const delta = D.display_score - D.baseline_score;
+  const deltaEl = document.getElementById('scoreDelta');
+  if (delta >= 0) {
+    deltaEl.innerHTML = `<span class="up">&#9650; ${delta} PTS</span> VS. 30-DAY BASELINE (${D.baseline_score})`;
+  } else {
+    deltaEl.innerHTML = `<span class="down">&#9660; ${Math.abs(delta)} PTS</span> VS. 30-DAY BASELINE (${D.baseline_score})`;
+  }
+  buildScoreSvg(D.display_score);
+
+  // Frame 2 · Vibe
+  document.getElementById('vibeBody').textContent = D.vibe_summary;
+
+  // Frame 3 · Count
+  const list = document.getElementById('countList');
+  list.innerHTML = '';
+  DIM_LABELS.forEach((d) => {
+    const v = D.dimensions[d.key];
+    const row = document.createElement('div');
+    row.className = 'count-row';
+    row.innerHTML = `
+      <div class="count-row-name">${d.label}</div>
+      <div class="count-row-score">${v}</div>
+      <div class="count-bar-wrap">
+        <div class="count-bar-fill" style="--target-width: ${v}%;"></div>
+        <div class="count-bar-ticks"></div>
+      </div>
+    `;
+    list.appendChild(row);
+  });
+
+  // Quotes — pick highest and lowest from quotes[]
+  const sorted = [...D.quotes].sort((a, b) => b.score - a.score);
+  const cheer = sorted[0];
+  const groan = sorted[sorted.length - 1];
+
+  // Frame 4 · Cheer & Groan (combined)
+  document.getElementById('cheerSubject').textContent = formatSubject(extractSubject(cheer.source_hint));
+  document.getElementById('cheerText').textContent = strip(cheer.text);
+  document.getElementById('cheerSource').textContent = sourceLabel(cheer.source_hint);
+  document.getElementById('cheerScore').textContent = `SCORE ${cheer.score}`;
+  document.getElementById('groanSubject').textContent = formatSubject(extractSubject(groan.source_hint));
+  document.getElementById('groanText').textContent = strip(groan.text);
+  document.getElementById('groanSource').textContent = sourceLabel(groan.source_hint);
+  document.getElementById('groanScore').textContent = `SCORE ${groan.score}`;
+
+  // Frame 6 · Gate
+  const att = D.attendance;
+  document.getElementById('gateBig').textContent = att.recent_avg_pct.toFixed(1);
+  const dpct = att.delta_pct;
+  const dCls = dpct < 0 ? 'down' : 'up';
+  const dSign = dpct > 0 ? '+' : '';
+  document.getElementById('gateDelta').innerHTML =
+    `<span class="${dCls}">${dSign}${dpct.toFixed(1)}pp</span> <span class="vs">vs. ${att.baseline_avg_pct.toFixed(1)}% baseline</span>`;
+  document.getElementById('gateCanary').style.display = att.canary_signal ? 'inline-block' : 'none';
+}
+
+/* The source-attribution rule lives in CLAUDE.md: attribution stays
+   in metadata (this badge / label), never in narrative prose. The
+   reel honors that — only the badge and meta line name the source. */
+function sourceBadge(hint) {
+  const h = (hint || '').toLowerCase();
+  if (h.includes('reddit') || h.includes('r/phillies')) return 'R/PHILLIES';
+  if (h.includes('wip') || h.includes('talk-radio') || h.includes('radio')) return 'TALK RADIO';
+  if (h.includes('beat writer') || h.includes('therapy')) return 'BEAT WRITER';
+  if (h.includes('fan analyst') || h.includes('hittin') || h.includes('phillies show')) return 'FAN ANALYST';
+  return 'PODCAST';
+}
+function sourceLabel(hint) {
+  const h = (hint || '').toLowerCase();
+  if (h.includes('reddit') || h.includes('r/phillies')) return 'r/phillies';
+  if (h.includes('wip')) return 'WIP Daily, talk radio';
+  if (h.includes('therapy')) return 'Phillies Therapy, beat writer';
+  if (h.includes('hittin')) return 'Hittin’ Season, fan analyst';
+  if (h.includes('phillies show')) return 'The Phillies Show, fan analyst';
+  return hint || '';
+}
+function strip(text) {
+  // The card adds its own opening quote mark; drop any verbatim
+  // outer quotes that snuck in from the source.
+  return String(text).replace(/^[“”"']|[“”"']$/g, '').trim();
+}
+
+/* Pull the "on X" subject out of a source_hint like
+   "beat writer (Phillies Therapy), on Christopher Sanchez". The reel
+   renders this as a sub-line so quotes that reference a player by
+   pronoun ("He is the best...") are not ambiguous in the video. */
+function extractSubject(hint) {
+  const m = String(hint || '').match(/,\s*on\s+(.+?)\s*$/i);
+  return m ? m[1].trim() : '';
+}
+function formatSubject(subject) {
+  return subject ? `On ${subject}` : '';
+}
+
+/* ──────────────────────────────────────────────────────────────────
+   Frame controller — tap anywhere advances; outro loops to frame 1.
+   ────────────────────────────────────────────────────────────────── */
+const frames = Array.from(document.querySelectorAll('.frame'));
+const dotsWrap = document.getElementById('chromeDots');
+frames.forEach((_, i) => {
+  const dot = document.createElement('div');
+  dot.className = 'dot';
+  dot.dataset.i = i;
+  dotsWrap.appendChild(dot);
+});
+const dots = Array.from(dotsWrap.children);
+let current = -1;
+function show(i) {
+  const idx = ((i % frames.length) + frames.length) % frames.length;
+  if (idx === current) return;
+  frames.forEach((f, k) => f.classList.toggle('is-active', k === idx));
+  dots.forEach((d, k) => d.classList.toggle('is-active', k === idx));
+  current = idx;
+  if (frames[idx].dataset.frame === 'score') {
+    swingBell(REEL_DATA.display_score);
+  }
+}
+function next() { show(current + 1); }
+
+const stage = document.getElementById('stage');
+stage.addEventListener('click', next);
+stage.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowRight') {
+    e.preventDefault();
+    next();
+  } else if (e.key === 'ArrowLeft') {
+    e.preventDefault();
+    show(current - 1);
+  } else if (e.key === 'Home') {
+    e.preventDefault();
+    show(0);
+  }
+});
+
+/* Stage scaling — keep the 1080x1920 canvas centered and contained
+   inside any viewport (artifact preview, phone, desktop). The
+   translate(-50%, -50%) recenters around the absolute top:50%/left:50%
+   anchor; scale is applied on top of that. */
+function fitStage() {
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  const scale = Math.min(vw / 1080, vh / 1920);
+  stage.style.transform = `translate(-50%, -50%) scale(${scale})`;
+}
+window.addEventListener('resize', fitStage);
+
+/* ──────────────────────────────────────────────────────────────────
+   Boot.
+   ────────────────────────────────────────────────────────────────── */
+window.addEventListener('load', () => {
+  render();
+  fitStage();
+  show(0);
+});
+
+/* ══════════════════════════════════════════════════════════════════
+   THIS IS THE TEMPLATE. Do not hand-edit REEL_DATA below.
+
+   reel/build.py reads the most recent data/YYYY-MM-DD.json and
+   substitutes the three placeholders (__BELL_B64__, __WORDMARK_B64__,
+   __REEL_DATA__) in this file, writing the result to
+   reels/phanometer-reel-YYYYMMDD.html. The nightly GitHub Actions
+   cron runs build.py automatically after phanometer.py finishes.
+
+   To preview today's reel locally:  python3 reel/build.py
+   ══════════════════════════════════════════════════════════════════ */
+const REEL_DATA = __REEL_DATA__;
+</script>
+</body>
+</html>

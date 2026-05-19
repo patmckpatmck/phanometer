@@ -43,12 +43,21 @@ jobs:
           source ~/phanometer/.venv/bin/activate
           python phanometer.py
 
+      # Build the daily social-media reel from the latest data file. Runs
+      # after phanometer.py so the freshly written data/YYYY-MM-DD.json is
+      # what gets picked up. Output lands in reels/, which is committed
+      # alongside data/ in the next step.
+      - name: Build daily reel
+        run: |
+          source ~/phanometer/.venv/bin/activate
+          python reel/build.py
+
       - name: Commit and push data updates
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/
+          git add data/ reels/
 
           if git diff --cached --quiet; then
             echo "No data changes to commit."
