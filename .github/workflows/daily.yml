@@ -18,36 +18,32 @@ concurrency:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, macOS, ARM64, phanometer-mini]
     timeout-minutes: 20
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-
-      # podcasts.py shells out to ffmpeg to compress audio under the Whisper 25 MB limit.
-      - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+      # ffmpeg is installed via brew on the self-hosted Mac runner.
+      # No setup-python step: we use the project venv at ~/phanometer/.venv
+      # which is pinned to Python 3.12 from /opt/homebrew.
 
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: |
+          source ~/phanometer/.venv/bin/activate
+          pip install -r requirements.txt
 
-      # --no-reddit: Reddit 403s cloud provider IPs on its public JSON endpoints,
-      # so we skip Reddit entirely from Actions. Re-enable by dropping the flag
-      # once the nightly job runs from somewhere Reddit doesn't block
-      # (self-hosted runner, VPS, home server). See README § Status.
+      # --no-reddit: Reddit re-enable is a separate step in the migration plan.
+      # Leaving the flag in here so this commit is purely a runner migration.
       - name: Run phanometer.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python phanometer.py --no-reddit
+        run: |
+          source ~/phanometer/.venv/bin/activate
+          python phanometer.py --no-reddit
 
       - name: Commit and push data updates
         run: |
