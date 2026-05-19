@@ -71,12 +71,15 @@ body {
 }
 
 /* Persistent chrome — pushed below TikTok/Reels top safe-area so the
-   platform's username/caption/menu can't overlap the masthead. */
+   platform's stacked header strips (account name row + search /
+   "Find Related Content" row) can't overlap the masthead. Horizontal
+   inset matches the frame padding so the rule lines up with the body
+   column. */
 .chrome-top {
   position: absolute;
-  top: 180px;
-  left: 56px;
-  right: 56px;
+  top: 400px;
+  left: 200px;
+  right: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,7 +104,11 @@ body {
 
 .chrome-dots {
   position: absolute;
-  bottom: 96px;
+  /* Sit inside the bottom-padding band, below the content column.
+     In platform playback this area is covered by the username /
+     music attribution overlay, but the dots are a recording-time
+     affordance, not load-bearing for viewers. */
+  bottom: 280px;
   left: 0;
   right: 0;
   display: flex;
@@ -123,12 +130,16 @@ body {
 
 .chrome-hint { display: none; }
 
-/* Frames — top padding clears the stacked masthead (logo + date)
-   which now lives at top: 180px and runs ~120px tall. */
+/* Frames — top padding clears the masthead (top:400 + ~140px tall)
+   AND the platforms' stacked header strips above it. Horizontal
+   padding clears the right-side action rail (heart/comment/share/
+   bookmark icons + their counts). Bottom padding clears the username/
+   caption/music attribution overlay that floats over the bottom of
+   the playing video. */
 .frame {
   position: absolute;
   inset: 0;
-  padding: 360px 56px 180px;
+  padding: 560px 200px 360px;
   display: flex;
   flex-direction: column;
   opacity: 0;
@@ -142,21 +153,26 @@ body {
 }
 .frame-num {
   font-family: var(--f-mono);
-  font-size: 18px;
+  /* Matches .quote-eyebrow so the section marker reads at parity with
+     the in-card CHEER / GROAN labels and isn't dwarfed by them. */
+  font-size: 24px;
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--red);
   font-weight: 600;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 .frame-title {
   font-family: var(--f-slab);
   font-weight: 800;
-  font-size: 52px;
+  /* Tuned to keep "The scoring dimensions" and "What's working,
+     what's not" on a single line at the narrower 680px column. */
+  font-size: 46px;
   letter-spacing: -0.01em;
   color: var(--ink);
-  line-height: 1;
+  line-height: 1.05;
   margin: 0 0 36px;
+  text-wrap: balance;
 }
 
 /* Generic entry animation — each .frame.is-active triggers .anim-in elements */
@@ -190,10 +206,13 @@ body {
   align-items: center;
   width: 100%;
 }
+/* Meter is responsive — fills the (now narrower) frame and keeps the
+   1000:560 viewBox aspect so the SVG arc and ticks scale cleanly. */
 .score-meter {
   position: relative;
-  width: 980px;
-  height: 560px;
+  width: 100%;
+  max-width: 980px;
+  aspect-ratio: 1000 / 560;
   margin: 0 auto;
 }
 .score-bell-holder {
@@ -208,7 +227,9 @@ body {
 }
 .score-bell {
   display: block;
-  width: 320px;
+  /* Percentage of the meter width — matches the homepage's bell/arc
+     proportion (~33%) and stays correct when the meter shrinks. */
+  width: 33%;
   height: auto;
   transform-origin: 50% 13%;
   will-change: transform;
@@ -270,12 +291,14 @@ body {
 .score-delta .down { color: var(--red); font-weight: 600; }
 
 /* ─── FRAME 2 · VIBE ─── */
-.frame-vibe { justify-content: center; padding-top: 200px; }
+.frame-vibe { justify-content: center; }
 .vibe-body {
   font-family: var(--f-slab);
   font-weight: 700;
-  font-size: 76px;
-  line-height: 1.1;
+  /* Sized so the typical 2-3 sentence vibe_summary fits the 680px
+     column inside the 1000px content height without overflow. */
+  font-size: 56px;
+  line-height: 1.15;
   letter-spacing: -0.015em;
   color: var(--ink);
   text-wrap: balance;
@@ -297,32 +320,33 @@ body {
 }
 .count-row {
   display: grid;
-  grid-template-columns: 1fr 140px;
+  grid-template-columns: 1fr 110px;
   align-items: center;
   column-gap: 24px;
-  padding: 28px 0 22px;
+  /* Tightened so all 7 rows + title fit the 1000px content height. */
+  padding: 18px 0 16px;
   border-bottom: 1px solid rgba(20,17,15,0.18);
 }
 .count-row-name {
   font-family: var(--f-slab);
   font-weight: 600;
-  font-size: 42px;
+  font-size: 38px;
   color: var(--ink);
   line-height: 1.1;
 }
 .count-row-score {
   font-family: var(--f-slab);
   font-weight: 800;
-  font-size: 56px;
+  font-size: 48px;
   color: var(--ink);
   text-align: right;
   font-variant-numeric: lining-nums;
 }
 .count-bar-wrap {
   grid-column: 1 / -1;
-  margin-top: 12px;
+  margin-top: 8px;
   position: relative;
-  height: 14px;
+  height: 12px;
   background: var(--paper-2);
   border: 1px solid rgba(20,17,15,0.18);
   overflow: hidden;
@@ -430,7 +454,9 @@ body {
 .gate-big {
   font-family: var(--f-slab);
   font-weight: 900;
-  font-size: 360px;
+  /* Sized to fit a 3-digit + decimal + % string within the narrower
+     content column (~680px after the padding bump). */
+  font-size: 240px;
   line-height: 0.85;
   letter-spacing: -0.05em;
   color: var(--ink);
