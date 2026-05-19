@@ -3,6 +3,7 @@ node_modules
 out
 data
 bot_core.py
+public/reels
 *.tsbuildinfo
 .DS_Store
 .vercel
