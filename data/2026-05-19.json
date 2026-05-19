@@ -1,0 +1,259 @@
+{
+  "date": "2026-05-19",
+  "display_score": 79,
+  "reactive_score": 79,
+  "baseline_score": 59,
+  "insufficient_signal": false,
+  "content_volume": 440,
+  "mood_label": "Buzzing",
+  "dimensions": {
+    "results_satisfaction": 84,
+    "front_office_trust": 62,
+    "manager_confidence": 82,
+    "lineup_confidence": 72,
+    "pitching_confidence": 91,
+    "health_outlook": 72,
+    "postseason_belief": 68
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 38,
+    "manager_confidence": 82,
+    "lineup_confidence": 80,
+    "pitching_confidence": 98,
+    "health_outlook": 65,
+    "postseason_belief": 72
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": 82,
+      "note": "r/phillies match thread buzzing with euphoria over Stott and Bohm home runs, delight at the W5 streak, and broad love for Duran and Crawford; mild undercurrent of Nola concern and Painter skepticism."
+    },
+    "fan_analyst": {
+      "score": 87,
+      "note": "Hittin' Season and The Phillies Show both effusive about the Pittsburgh sweep, Wheeler's velocity return, Sanchez's historic dominance, and Mattingly's tactical acumen; tempered only by ongoing right-handed bat concerns."
+    },
+    "beat_writer": {
+      "score": 81,
+      "note": "Phillies Therapy acknowledges the turnaround as real and convincing, credits star players for driving it, but flags persistent potholes: Trea Turner struggles, Garcia's production, and uncertainty around the back-end rotation starters."
+    },
+    "radio_populist": {
+      "score": 79,
+      "note": "WIP hosts fully converted believers after weeks of hedging, calling the team 'back' and projecting playoff berth; co-host notes schedule softness caveat but overall tone is enthusiastic vindication."
+    }
+  },
+  "themes": [
+    {
+      "name": "Wheeler and Sanchez Are Carrying the World",
+      "delta": 9,
+      "sample": "A sub-2.00 ERA over five starts post-surgery, a 29-and-two-thirds scoreless streak, back-to-back shutouts \u2014 the top of the rotation has elevated from strength to something genuinely historic, and fans can't stop marveling at it."
+    },
+    {
+      "name": "Mattingly Credited for Cultural Reset",
+      "delta": 7,
+      "sample": "Small-ball tactics that actually worked, expectations placed on every player, and a winning identity that was absent for the first month \u2014 the managerial change is being cited as a genuine turning point alongside Wheeler's return."
+    },
+    {
+      "name": "Harper and Schwarber Carrying the Offense \u2014 But Lineup Still Top-Heavy",
+      "delta": 3,
+      "sample": "Schwarber out sick tonight refocused fans on how much the offense leans on two men; Stott and Bohm are heating up, but the right-handed bat shortage and Trea Turner's struggles remain a real structural concern."
+    },
+    {
+      "name": "Aaron Nola Is a Problem No One Knows How to Solve",
+      "delta": -6,
+      "sample": "A frightening stat line \u2014 near-1000 OPS allowed when ahead in the count, lowest career zone rate \u2014 has analysts and fans alike gritting their teeth with no clear solution in sight heading into Wednesday's start."
+    },
+    {
+      "name": "Painter and Luzardo: Works in Progress That Need to Prove It",
+      "delta": -2,
+      "sample": "A quality start from Painter Monday provided mild encouragement, but mixed underlying metrics for both him and Luzardo mean the back half of the rotation remains a live question mark heading into the Ohio homestand."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Now this is the season I was hoping to watch",
+      "score": 91,
+      "source_hint": "r/phillies game thread, on Stott's go-ahead homer"
+    },
+    {
+      "text": "I'm there. I mean, they're very likely going to make the playoffs.",
+      "score": 82,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "He is the best left-handed pitcher currently rostered in Major League Baseball.",
+      "score": 95,
+      "source_hint": "beat writer (Phillies Therapy), on Christopher Sanchez"
+    },
+    {
+      "text": "You worry about Aaron Nola, but he is a real problem.",
+      "score": 28,
+      "source_hint": "talk-radio host (WIP Daily)"
+    }
+  ],
+  "vibe_summary": "Phillies fans are riding a genuine wave of belief after a five-game winning streak, with the rotation's dominance and star hitters finally playing like stars converting skeptics into true believers.",
+  "reasoning": "The Pittsburgh sweep and Monday's comeback win over Cincinnati have produced the most sustained optimism of the 2026 season. The star players \u2014 Sanchez, Wheeler, Schwarber, Harper \u2014 have been the engine of a 15-4 run that transformed a historically bad start into a winning record, and the mood reflects that convincingly. The one meaningful divergence: analytical commentary is slightly more cautious, noting the right-handed bat void, Turner's struggles, Garcia's regression, and Nola's alarming numbers as structural problems that haven't gone away \u2014 while the community skews toward pure celebration. Postseason belief is genuinely elevated, driven by expressed confidence in the roster's ceiling and Wheeler-Sanchez as a playoff-caliber one-two, not mere coping framing.",
+  "people_mentioned": [
+    "Sanchez",
+    "Wheeler",
+    "Schwarber",
+    "Harper",
+    "Mattingly",
+    "Bohm",
+    "Stott",
+    "Nola",
+    "Crawford",
+    "Luzardo",
+    "Painter",
+    "Turner",
+    "Duran",
+    "Marsh",
+    "Realmuto",
+    "Garcia",
+    "Kemp",
+    "Reyes",
+    "Thomson",
+    "Skeens"
+  ],
+  "source_counts": {
+    "reddit_posts": 29,
+    "reddit_comments": 213,
+    "match_threads": 1,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 134899,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 13846
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Keep Crushing It in Pittsburgh",
+      "voice": "fan_analyst",
+      "chars": 56933
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Shaping Up in Boston",
+      "voice": "beat_writer",
+      "chars": 44952
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Phillies' superstars have fueled the team's winning ways",
+      "voice": "fan_analyst",
+      "chars": 33014
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Joe DeCamara: Phillies Are on Fire!\ud83d\udd25 | 94WIP",
+      "voice": "radio_populist",
+      "chars": 11668
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Mattingly: Would Like Andrew Painter To Pitch Longer",
+      "voice": "radio_populist",
+      "chars": 836
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Strong Approach vs. Paul Skenes",
+      "voice": "radio_populist",
+      "chars": 1342
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 90.7,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 97.4,
+      "delta_pct": -6.7,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823469,
+          "date": "2026-05-05",
+          "day_of_week": "Tuesday",
+          "opponent": "Athletics",
+          "result": "W 9-1",
+          "attendance": 36069,
+          "pct_capacity": 84.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823470,
+          "date": "2026-05-06",
+          "day_of_week": "Wednesday",
+          "opponent": "Athletics",
+          "result": "W 6-3",
+          "attendance": 36474,
+          "pct_capacity": 85.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823467,
+          "date": "2026-05-07",
+          "day_of_week": "Thursday",
+          "opponent": "Athletics",
+          "result": "L 1-12",
+          "attendance": 37543,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823466,
+          "date": "2026-05-08",
+          "day_of_week": "Friday",
+          "opponent": "Colorado Rockies",
+          "result": "L 7-9",
+          "attendance": 39478,
+          "pct_capacity": 92.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823468,
+          "date": "2026-05-09",
+          "day_of_week": "Saturday",
+          "opponent": "Colorado Rockies",
+          "result": "W 9-3",
+          "attendance": 38043,
+          "pct_capacity": 88.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823463,
+          "date": "2026-05-10",
+          "day_of_week": "Sunday",
+          "opponent": "Colorado Rockies",
+          "result": "W 6-0",
+          "attendance": 44620,
+          "pct_capacity": 104.0,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823465,
+          "date": "2026-05-18",
+          "day_of_week": "Monday",
+          "opponent": "Cincinnati Reds",
+          "result": "W 5-4",
+          "attendance": 40065,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "25-23",
+    "streak": "W5",
+    "games_behind": "7.0"
+  },
+  "generated_at": "2026-05-19T02:20:06.345037+00:00"
+}
