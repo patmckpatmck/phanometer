@@ -6335,168 +6335,167 @@
   },
   {
     "date": "2026-05-19",
-    "display_score": 79,
-    "reactive_score": 79,
+    "display_score": 76,
+    "reactive_score": 76,
     "baseline_score": 59,
     "insufficient_signal": false,
-    "content_volume": 440,
+    "content_volume": 486,
     "mood_label": "Buzzing",
     "dimensions": {
-      "results_satisfaction": 84,
-      "front_office_trust": 62,
-      "manager_confidence": 82,
+      "results_satisfaction": 82,
+      "front_office_trust": 58,
+      "manager_confidence": 84,
       "lineup_confidence": 72,
-      "pitching_confidence": 91,
+      "pitching_confidence": 88,
       "health_outlook": 72,
-      "postseason_belief": 68
+      "postseason_belief": 62
     },
     "dimension_confidence": {
       "results_satisfaction": 95,
-      "front_office_trust": 38,
-      "manager_confidence": 82,
-      "lineup_confidence": 80,
-      "pitching_confidence": 98,
-      "health_outlook": 65,
-      "postseason_belief": 72
+      "front_office_trust": 72,
+      "manager_confidence": 88,
+      "lineup_confidence": 82,
+      "pitching_confidence": 92,
+      "health_outlook": 60,
+      "postseason_belief": 70
     },
     "voice_breakdown": {
       "reddit": {
-        "score": 82,
-        "note": "r/phillies match thread buzzing with euphoria over Stott and Bohm home runs, delight at the W5 streak, and broad love for Duran and Crawford; mild undercurrent of Nola concern and Painter skepticism."
+        "score": 80,
+        "note": "r/phillies match thread and post-game content is jubilant \u2014 Stott and Bohm homer highlights dominate, Schwarber illness treated as comedy, W5 streak generating real excitement; minor frustrations over Brad Keller and Painter pull surface but don't dent the mood."
       },
       "fan_analyst": {
-        "score": 87,
-        "note": "Hittin' Season and The Phillies Show both effusive about the Pittsburgh sweep, Wheeler's velocity return, Sanchez's historic dominance, and Mattingly's tactical acumen; tempered only by ongoing right-handed bat concerns."
+        "score": 85,
+        "note": "Hittin' Season and Phillies Talk hosts are emphatic that the team has fully turned the corner \u2014 Sanchez and Wheeler framed as the best 1-2 in baseball, Schwarber's historic home-run pace celebrated, and the Pittsburgh sweep called possibly the most fun Phillies weekend in years."
       },
-      "beat_writer": {
-        "score": 81,
-        "note": "Phillies Therapy acknowledges the turnaround as real and convincing, credits star players for driving it, but flags persistent potholes: Trea Turner struggles, Garcia's production, and uncertainty around the back-end rotation starters."
-      },
+      "beat_writer": null,
       "radio_populist": {
-        "score": 79,
-        "note": "WIP hosts fully converted believers after weeks of hedging, calling the team 'back' and projecting playoff berth; co-host notes schedule softness caveat but overall tone is enthusiastic vindication."
+        "score": 74,
+        "note": "High Hopes and the WIP afternoon shows are energized by the winning streak and Mattingly's managerial decisions, though one co-host pumps the brakes on Dombrowski rehabilitation and Nola's ongoing struggles remain a genuine concern raised on-air."
       }
     },
     "themes": [
       {
-        "name": "Wheeler and Sanchez Are Carrying the World",
+        "name": "Stott & Bohm Redemption Arc",
         "delta": 9,
-        "sample": "A sub-2.00 ERA over five starts post-surgery, a 29-and-two-thirds scoreless streak, back-to-back shutouts \u2014 the top of the rotation has elevated from strength to something genuinely historic, and fans can't stop marveling at it."
+        "sample": "The two most maligned hitters of the early season are now delivering clutch extra-base hits night after night \u2014 back-to-back homers in the same game had the fanbase openly filing apology forms and celebrating a genuine turnaround."
       },
       {
-        "name": "Mattingly Credited for Cultural Reset",
+        "name": "Sanchez & Wheeler: Best 1-2 in Baseball",
+        "delta": 9,
+        "sample": "A 29-and-two-thirds scoreless streak, a career-high 13-strikeout complete game shutout, and Wheeler outdueling Paul Skeens at full velocity have fans and analysts treating this rotation top as a legitimate Cy Young conversation \u2014 a remarkable reversal from the spring."
+      },
+      {
+        "name": "Mattingly Effect Is Real",
         "delta": 7,
-        "sample": "Small-ball tactics that actually worked, expectations placed on every player, and a winning identity that was absent for the first month \u2014 the managerial change is being cited as a genuine turning point alongside Wheeler's return."
+        "sample": "Hit-and-runs, pinch-running moves, a bench coach getting his first managerial win \u2014 the tactical aggression and clubhouse energy under the new manager are being credited with transforming a team that had quit into one that never feels out of a game."
       },
       {
-        "name": "Harper and Schwarber Carrying the Offense \u2014 But Lineup Still Top-Heavy",
-        "delta": 3,
-        "sample": "Schwarber out sick tonight refocused fans on how much the offense leans on two men; Stott and Bohm are heating up, but the right-handed bat shortage and Trea Turner's struggles remain a real structural concern."
+        "name": "Nola & Keller: Cracks in the Foundation",
+        "delta": -5,
+        "sample": "Aaron Nola's fastball command remains alarmingly broken \u2014 opponents hitting over .400 when the count tips against him \u2014 while Brad Keller's home ERA sits near six, raising real questions about whether the bullpen and fifth starter can hold up through a pennant race."
       },
       {
-        "name": "Aaron Nola Is a Problem No One Knows How to Solve",
-        "delta": -6,
-        "sample": "A frightening stat line \u2014 near-1000 OPS allowed when ahead in the count, lowest career zone rate \u2014 has analysts and fans alike gritting their teeth with no clear solution in sight heading into Wednesday's start."
-      },
-      {
-        "name": "Painter and Luzardo: Works in Progress That Need to Prove It",
-        "delta": -2,
-        "sample": "A quality start from Painter Monday provided mild encouragement, but mixed underlying metrics for both him and Luzardo mean the back half of the rotation remains a live question mark heading into the Ohio homestand."
+        "name": "Dombrowski Revisionism: Credit or Too Far?",
+        "delta": 2,
+        "sample": "A debate is raging over whether the front office deserves an apology for the slow start \u2014 some argue the roster was never the problem, others counter that the right-handed bat shortage and outfield depth remain unaddressed, making full rehabilitation premature."
       }
     ],
     "quotes": [
       {
         "text": "Now this is the season I was hoping to watch",
-        "score": 91,
-        "source_hint": "r/phillies game thread, on Stott's go-ahead homer"
+        "score": 90,
+        "source_hint": "r/phillies game thread, Stott homer highlight post"
       },
       {
-        "text": "I'm there. I mean, they're very likely going to make the playoffs.",
-        "score": 82,
-        "source_hint": "talk-radio host (WIP Daily)"
+        "text": "It's May 18th and I am finally excited. Took a long time, but I'm finally excited about the fills.",
+        "score": 85,
+        "source_hint": "talk-radio host, 94WIP highlights show"
       },
       {
-        "text": "He is the best left-handed pitcher currently rostered in Major League Baseball.",
-        "score": 95,
-        "source_hint": "beat writer (Phillies Therapy), on Christopher Sanchez"
+        "text": "Zach Wheeler and Christopher Sanchez right now are forming the best 1-2 combination at the top of the rotation in baseball.",
+        "score": 92,
+        "source_hint": "fan analyst, Hittin' Season roundtable"
       },
       {
-        "text": "You worry about Aaron Nola, but he is a real problem.",
+        "text": "I don't think there's an easy answer. I mean, we all know what they should do, and that's sit him down.",
         "score": 28,
-        "source_hint": "talk-radio host (WIP Daily)"
+        "source_hint": "talk-radio host, 94WIP \u2014 on Aaron Nola's struggles"
       }
     ],
-    "vibe_summary": "Phillies fans are riding a genuine wave of belief after a five-game winning streak, with the rotation's dominance and star hitters finally playing like stars converting skeptics into true believers.",
-    "reasoning": "The Pittsburgh sweep and Monday's comeback win over Cincinnati have produced the most sustained optimism of the 2026 season. The star players \u2014 Sanchez, Wheeler, Schwarber, Harper \u2014 have been the engine of a 15-4 run that transformed a historically bad start into a winning record, and the mood reflects that convincingly. The one meaningful divergence: analytical commentary is slightly more cautious, noting the right-handed bat void, Turner's struggles, Garcia's regression, and Nola's alarming numbers as structural problems that haven't gone away \u2014 while the community skews toward pure celebration. Postseason belief is genuinely elevated, driven by expressed confidence in the roster's ceiling and Wheeler-Sanchez as a playoff-caliber one-two, not mere coping framing.",
+    "vibe_summary": "Philadelphia is riding a genuine wave of belief again, with clutch performances from Stott, Bohm, Sanchez, and Wheeler turning early-season despair into real playoff anticipation.",
+    "reasoning": "A five-game winning streak capped by a come-from-behind walk-off over Cincinnati has the fanbase fully re-engaged \u2014 the Stott and Bohm homers in the same game generated some of the highest-upvoted game-thread content of the season, and the pitching conversation has shifted from crisis to Cy Young. Mattingly's aggressive in-game management is drawing near-universal praise across all present sources, with the 16-4 run since his hiring now treated as definitive proof rather than small sample. The one genuine fault line is Nola, whose mechanical issues with the fastball are being discussed as a season-long structural problem with no obvious fix, and Keller's home/road split is drawing early bullpen concern \u2014 but neither dents the dominant mood of a fanbase that finally feels it has its team back.",
     "people_mentioned": [
+      "Stott",
+      "Bohm",
       "Sanchez",
       "Wheeler",
+      "Mattingly",
       "Schwarber",
       "Harper",
-      "Mattingly",
-      "Bohm",
-      "Stott",
-      "Nola",
-      "Crawford",
-      "Luzardo",
       "Painter",
-      "Turner",
+      "Nola",
+      "Keller",
       "Duran",
+      "Lozardo",
+      "Dombrowski",
+      "Thomson",
+      "Dusty Wathen",
+      "Crawford",
       "Marsh",
       "Realmuto",
-      "Garcia",
-      "Kemp",
-      "Reyes",
-      "Thomson",
-      "Skeens"
+      "Gage Wood",
+      "Stubbs",
+      "Turner",
+      "Garcia"
     ],
     "source_counts": {
-      "reddit_posts": 29,
-      "reddit_comments": 213,
+      "reddit_posts": 32,
+      "reddit_comments": 217,
       "match_threads": 1,
       "podcasts_attempted": 4,
       "podcasts_transcribed": 3,
-      "podcast_chars": 134899,
+      "podcast_chars": 143612,
       "youtube_attempted": 3,
       "youtube_transcribed": 3,
-      "youtube_chars": 13846
+      "youtube_chars": 33951
     },
     "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "BACK?! Everything clicking for the Phillies as hot streak continues",
+        "voice": "fan_analyst",
+        "chars": 50430
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Another Comeback, Another Win",
+        "voice": "radio_populist",
+        "chars": 38599
+      },
       {
         "feed_name": "Hittin' Season",
         "title": "Phillies Keep Crushing It in Pittsburgh",
         "voice": "fan_analyst",
-        "chars": 56933
-      },
-      {
-        "feed_name": "Phillies Therapy",
-        "title": "Shaping Up in Boston",
-        "voice": "beat_writer",
-        "chars": 44952
-      },
-      {
-        "feed_name": "The Phillies Show",
-        "title": "Phillies' superstars have fueled the team's winning ways",
-        "voice": "fan_analyst",
-        "chars": 33014
+        "chars": 54583
       },
       {
         "feed_name": "94WIP",
-        "title": "Joe DeCamara: Phillies Are on Fire!\ud83d\udd25 | 94WIP",
+        "title": "Phillies Have Us Believing Again | 94WIP",
         "voice": "radio_populist",
-        "chars": 11668
+        "chars": 11297
       },
       {
         "feed_name": "94WIP",
-        "title": "Mattingly: Would Like Andrew Painter To Pitch Longer",
+        "title": "Phillies\u2019 Biggest Problem Was NEVER the Roster | 94WIP",
         "voice": "radio_populist",
-        "chars": 836
+        "chars": 12041
       },
       {
         "feed_name": "94WIP",
-        "title": "Phillies Strong Approach vs. Paul Skenes",
+        "title": "Spike Eskin Says We Owe Dombrowski An Apology\u2014Is He Right? | 94WIP",
         "voice": "radio_populist",
-        "chars": 1342
+        "chars": 10613
       }
     ],
     "hard_signals": {
@@ -6590,6 +6589,6 @@
       "streak": "W5",
       "games_behind": "7.0"
     },
-    "generated_at": "2026-05-19T02:20:06.345037+00:00"
+    "generated_at": "2026-05-19T12:45:29.249040+00:00"
   }
 ]
