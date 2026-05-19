@@ -34,8 +34,6 @@ jobs:
           source ~/phanometer/.venv/bin/activate
           pip install -r requirements.txt
 
-      # --no-reddit: Reddit re-enable is a separate step in the migration plan.
-      # Leaving the flag in here so this commit is purely a runner migration.
       - name: Run phanometer.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -43,7 +41,7 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           source ~/phanometer/.venv/bin/activate
-          python phanometer.py --no-reddit
+          python phanometer.py
 
       - name: Commit and push data updates
         run: |
