@@ -11,6 +11,14 @@ Running nightly from GitHub Actions, with two user-facing surfaces:
   Hittin' Season, Phillies Therapy, Phillies Talk, The Phillies Show,
   High Hopes. Each carries a voice tag (fan analyst / beat writer /
   talk-radio host) that the scoring prompt weights distinctly.
+- **Reddit (r/phillies) ingestion.** Pulls recent posts, comments,
+  and match-thread chatter from the subreddit's public JSON endpoints.
+  Treated as one of the four voice categories the scoring prompt
+  weights distinctly.
+- **YouTube clips** from 94WIP and similar channels — `youtube.py`
+  resolves video metadata via the YouTube Data API and fetches
+  captions via `youtube-transcript-api`, contributing to the
+  talk-radio voice track alongside WIP podcast feeds.
 - **MLB attendance** hard signal from the Stats API — recent home-game
   capacity %, compared to a prior-year same-window baseline.
 - **MLB Stats API ground-truth injection.** Each scoring call prepends an
@@ -26,22 +34,15 @@ Running nightly from GitHub Actions, with two user-facing surfaces:
   one-answer Q&A column that streams a `claude-opus-4-5` answer grounded
   only in `data/history.json`. Same prompt and constants drive a CLI
   development tool (`bot.py`).
-
-**Reddit (r/phillies) is intentionally disabled.** Reddit 403s cloud
-provider IPs on its public JSON endpoints, which blocks GitHub Actions
-runners. The nightly job runs with `--no-reddit`; `pull_reddit()` is
-never called on the cron. The Reddit voice is rendered as "quiet today"
-in the UI. Re-enable depends on a self-hosted runner on a residential
-IP (see [What's next](#whats-next)). The code path is intact — drop
-the flag in `.github/workflows/daily.yml`.
-
-**YouTube clips** (94WIP and similar) are wired up but blocked by the
-same problem. `youtube.py` resolves video metadata via the YouTube Data
-API (which works from cloud IPs) but the captions fetch via
-`youtube-transcript-api` is blocked by YouTube's anti-bot detection on
-GitHub Actions IP ranges. `source_counts.youtube_attempted` reports
-non-zero values; `youtube_transcribed` stays at zero. Same fix path as
-Reddit.
+- **Daily vertical reel** for `@phanometer` on TikTok and Instagram
+  Reels. A 1080×1920 self-contained HTML file is auto-generated each
+  night from the day's JSON and served at `phanometer.com/reels`, which
+  the iPhone home-screen icon points to. Six tap-to-advance frames
+  (score, vibe, the seven dimensions, top cheer + groan quotes,
+  attendance, outro) share the homepage's bell geometry, palette, and
+  typography. Recorded by hand from the phone, then posted to TikTok
+  first and Reels second. A pinned evergreen explainer at
+  `phanometer.com/reels/about` introduces the project to new followers.
 
 ## How it works
 
@@ -73,9 +74,18 @@ Nightly:
    EWMA baseline is also computed and stored — used by the frontend for
    the delta badge and the trend overlay, not blended into the display
    number.
-6. Writes `data/YYYY-MM-DD.json` and updates `data/history.json`. The
-   commit pushes to `main`, which triggers a Vercel rebuild of the
-   frontend.
+6. Writes `data/YYYY-MM-DD.json` and updates `data/history.json`.
+7. Runs `reel/build.py`, which hydrates `reel/template.html` from
+   today's JSON, re-encodes the bell and wordmark from
+   `web/public/assets/` as inline base64, and writes
+   `reels/phanometer-reel-YYYYMMDD.html` (the dated archive) plus
+   `reels/index.html` (the stable URL the iPhone home-screen icon
+   points to).
+8. Commits `data/` and `reels/` together and pushes to `main`. The
+   push triggers a Vercel rebuild; `web/scripts/copy-data.mjs` mirrors
+   `reels/` into `web/public/reels/` so the dated reel and the stable
+   URL deploy as static assets at `phanometer.com/reels/phanometer-reel-YYYYMMDD`
+   and `phanometer.com/reels`.
 
 ## Architecture
 
@@ -94,7 +104,8 @@ app under `web/` for the frontend and the chatbot's serverless endpoint.
   (the hard-signal computation) and `get_team_facts()` (the GROUND
   TRUTH block fed into scoring).
 - `youtube.py` — YouTube Data API + `youtube-transcript-api` client.
-  Currently unable to retrieve captions from GitHub Actions IPs.
+  Resolves channel uploads, filters to clips inside the lookback
+  window, and fetches captions that feed into the talk-radio voice.
 - `bot.py` — CLI development tool for the chatbot. One-shot
   `python3 bot.py "question"`. Reads the same `data/history.json` the
   frontend reads, sends it to Claude with the bot's system prompt.
@@ -114,11 +125,45 @@ app under `web/` for the frontend and the chatbot's serverless endpoint.
 - `web/api/ask.py` — Vercel Python serverless function. `POST` accepts
   `{"question": string}` and streams a plain-text response from Claude.
 - `web/scripts/copy-data.mjs` — runs before every build. Copies
-  `data/history.json` into `web/data/` and `bot_core.py` into `web/`,
-  both gitignored. Vercel's `includeFiles` glob can't traverse above
-  the project root, so the canonical files at repo root get mirrored
-  inside `web/` at build time and bundled into the serverless
-  function from there.
+  `data/history.json` into `web/data/`, `bot_core.py` into `web/`,
+  and `reels/` into `web/public/reels/`. All three destinations are
+  gitignored. Vercel's `includeFiles` glob can't traverse above the
+  project root, so canonical files at repo root get mirrored inside
+  `web/` at build time and bundled into the serverless function or
+  shipped as static assets from there.
+
+**Reel generator (`reel/` and `reels/`):**
+
+- `reel/template.html` — design source for the daily social reel.
+  Self-contained 1080×1920 vertical canvas with three placeholders
+  (`__BELL_B64__`, `__WORDMARK_B64__`, `__REEL_DATA__`) that
+  `reel/build.py` fills. Shares the homepage's bell geometry, color
+  tokens, and font stack so the reel reads as a vertical re-cut of
+  the site, not a parallel design. Honors the same source-attribution
+  rule the scoring prompt does — source identity lives in the quote
+  card's eyebrow and meta line, never in the quote prose.
+- `reel/build.py` — generator. Reads the latest `data/YYYY-MM-DD.json`
+  (or a date arg for re-rendering archives), re-encodes the bell and
+  wordmark from `web/public/assets/` as inline base64 so any logo
+  tweak ships in the next reel, and writes the dated output plus the
+  stable `reels/index.html`. Same data file the frontend reads — no
+  separate scoring pipeline.
+- `reels/` — committed output directory.
+  `reels/phanometer-reel-YYYYMMDD.html` is the dated archive (one per
+  day, never overwritten). `reels/index.html` is overwritten each
+  build as the stable home-screen URL. `reels/about/index.html` is
+  an evergreen explainer reel, hand-written and untouched by the
+  cron — pinned to the top of @phanometer on TikTok and Reels.
+- **iOS standalone meta tags** on every reel HTML so iPhone Safari's
+  "Add to Home Screen" launches them chrome-free, eliminating the URL
+  bar from the screen recording.
+- **Safe-area padding** is tuned for TikTok and Instagram Reels'
+  overlays: the masthead sits below both platforms' top header
+  strips, horizontal padding clears the right-side action rail
+  (heart / comment / share), and bottom padding clears the username /
+  caption / music attribution overlay. Same `560 200 360` frame
+  padding is used on both the daily and explainer reels so the
+  recording dance is identical for both.
 
 **Load-bearing design rules:**
 
@@ -148,12 +193,10 @@ cp .env.example .env
 
 **Anthropic API:** get a key from https://console.anthropic.com/
 **OpenAI API:** get a key from https://platform.openai.com/ (used for Whisper).
-**YouTube Data API:** key from Google Cloud Console (currently optional
-since captions fetch is blocked on GH Actions IPs).
+**YouTube Data API:** key from Google Cloud Console.
 
 Reddit credentials aren't required — ingestion is via raw `urllib`
-against Reddit's public JSON endpoints (no auth), gated off by default
-on the cron.
+against Reddit's public JSON endpoints (no auth).
 
 ## Run
 
@@ -169,6 +212,11 @@ python3 phanometer.py --no-podcasts
 
 # Ask the bot a question (CLI; requires ANTHROPIC_API_KEY)
 python3 bot.py "How has the mood shifted since Mattingly took over?"
+
+# Build today's social reel from the most recent data/YYYY-MM-DD.json.
+# Use a date arg to re-render a historical reel.
+python3 reel/build.py
+python3 reel/build.py 2026-05-19
 ```
 
 ## Daily cron
@@ -181,10 +229,11 @@ on:
   workflow_dispatch:
 ```
 
-The job runs `python phanometer.py --no-reddit`, commits any data
-changes, and pushes to `main`. The push triggers a Vercel production
-deploy of the frontend with the new `data/history.json` bundled into
-the `/api/ask` serverless function.
+The job runs `python phanometer.py`, then `python reel/build.py`,
+commits both `data/` and `reels/` changes, and pushes to `main`. The
+push triggers a Vercel production deploy of the frontend with the new
+`data/history.json` bundled into the `/api/ask` serverless function
+and the new reel HTML deployed under `phanometer.com/reels/`.
 
 ## Output format
 
@@ -283,15 +332,10 @@ points below baseline"), that divergence is the interesting moment.
 
 ## What's next
 
-- **Residential-IP self-hosted GitHub Actions runner.** Single
-  highest-leverage item. Simultaneously unblocks YouTube captions
-  ingestion and re-enables Reddit ingestion — both currently fail
-  because YouTube and Reddit block GitHub Actions IP ranges. Beelink
-  SER-series Linux mini PCs (~$250) identified as candidate hardware.
-- **Bell clapper / needle alignment bug.** Visual: on the homepage
-  meter, the bell's clapper and the red needle arrow point at
-  different tick marks. `useBellAngle` and `needleAngle` formulas
-  need reconciling.
+- **SEO optimization.** Organic-search work for `phanometer.com` —
+  Open Graph metadata, structured data, sitemap, per-page
+  descriptions, and crawl-friendliness for the static export.
+  In progress.
 - **Post-generation attribution pass for the bot (optional).** A
   second Claude call whose only job is to rewrite attribution-shaped
   phrases in the bot's output. Only worth doing if leaks become a
