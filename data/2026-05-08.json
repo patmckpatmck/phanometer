@@ -31,7 +31,7 @@
     },
     "fan_analyst": {
       "score": 72,
-      "note": "Hittin' Season, Phillies Talk, and the Philly Show all celebrate the hot streak and elite rotation but flag Aiden Miller's back injury, Boehm's slump, and the 0-10 record vs. lefties as real concerns."
+      "note": "Hittin' Season, Phillies Talk, and the Philly Show all celebrate the hot streak and elite rotation but flag Aiden Miller's back injury, Bohm's slump, and the 0-10 record vs. lefties as real concerns."
     },
     "beat_writer": {
       "score": null,
@@ -39,7 +39,7 @@
     },
     "radio_populist": {
       "score": 74,
-      "note": "WIP High Hopes host is energized by the gritty comeback win and the team's sense of urgency under Mattingly, while venting hard about Brad Keller and noting Boehm is 'unplayable.'"
+      "note": "WIP High Hopes host is energized by the gritty comeback win and the team's sense of urgency under Mattingly, while venting hard about Brad Keller and noting Bohm is 'unplayable.'"
     }
   },
   "themes": [
@@ -49,9 +49,9 @@
       "sample": "From worst ERA in baseball under the old regime to best in the last seven games \u2014 Sanchez's eight-inning gem and Wheeler's encouraging return have the pitching staff looking like a legitimate October weapon again."
     },
     {
-      "name": "Boehm Bottoming Out",
+      "name": "Bohm Bottoming Out",
       "delta": -7,
-      "sample": "Third base has become a genuine crisis: Boehm is being called 'unplayable' and 'dreadful,' Mattingly is pinch-hitting for him in key spots, and there is no clear long-term solution with Aiden Miller still not swinging a bat."
+      "sample": "Third base has become a genuine crisis: Bohm is being called 'unplayable' and 'dreadful,' Mattingly is pinch-hitting for him in key spots, and there is no clear long-term solution with Aiden Miller still not swinging a bat."
     },
     {
       "name": "Aiden Miller Alarm",
@@ -81,7 +81,7 @@
       "source_hint": "fan analyst (Philly Show)"
     },
     {
-      "text": "He's unplayable right now. Alec Boehm is just unplayable.",
+      "text": "He's unplayable right now. Alec Bohm is just unplayable.",
       "score": 18,
       "source_hint": "talk-radio host (WIP High Hopes), relaying Jason Stark's assessment"
     },
@@ -92,7 +92,7 @@
     }
   ],
   "vibe_summary": "Phillies fans are cautiously re-energized by a blazing rotation and a gritty winning streak, but a silent top prospect and an unplayable third baseman are keeping full optimism at arm's length.",
-  "reasoning": "The dominant mood driver is the dramatic pitching turnaround \u2014 going from the worst rotation ERA in baseball to the best in under two weeks has genuine excitement flowing. Bryce Harper's MVP-caliber stretch adds to the lift. However, two clouds hang over the good feelings: Alec Boehm's historic slump has no clear resolution, and the Aiden Miller back situation is drawing serious long-term concern, with the fan analyst drawing explicit comparisons to careers cut short by spinal injuries. The overall tone sits well above the despair of late April, but the structural holes in the lineup and the prospect health scare prevent full-throated postseason conviction \u2014 what's present is relief and momentum, not deep belief in an October run.",
+  "reasoning": "The dominant mood driver is the dramatic pitching turnaround \u2014 going from the worst rotation ERA in baseball to the best in under two weeks has genuine excitement flowing. Bryce Harper's MVP-caliber stretch adds to the lift. However, two clouds hang over the good feelings: Alec Bohm's historic slump has no clear resolution, and the Aiden Miller back situation is drawing serious long-term concern, with the fan analyst drawing explicit comparisons to careers cut short by spinal injuries. The overall tone sits well above the despair of late April, but the structural holes in the lineup and the prospect health scare prevent full-throated postseason conviction \u2014 what's present is relief and momentum, not deep belief in an October run.",
   "source_counts": {
     "reddit_posts": 0,
     "reddit_comments": 0,

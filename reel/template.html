@@ -384,7 +384,7 @@ body {
   pointer-events: none;
 }
 
-/* ─── FRAME 4 · CHEER & GROAN (combined) ─── */
+/* ─── FRAMES 4 & 5 · CHEER / GROAN (one quote per frame) ─── */
 .frame-quote { justify-content: center; }
 .quote-card {
   border-top: 2px solid var(--ink);
@@ -607,10 +607,10 @@ body {
       <div class="count-list" id="countList"></div>
     </section>
 
-    <!-- ─── FRAME 4 · CHEER & GROAN (combined) ─── -->
-    <section class="frame frame-quote" data-frame="cheergroan">
-      <div class="frame-num anim-in">04 · Cheers &amp; groans</div>
-      <h2 class="frame-title anim-in d1">What&rsquo;s working, what&rsquo;s not</h2>
+    <!-- ─── FRAME 4 · CHEER ─── -->
+    <section class="frame frame-quote" data-frame="cheer">
+      <div class="frame-num anim-in">04 · Cheer</div>
+      <h2 class="frame-title anim-in d1">What&rsquo;s working</h2>
 
       <div class="quote-card cheer anim-in d2">
         <div class="quote-eyebrow">Cheer</div>
@@ -621,8 +621,14 @@ body {
           <span class="score-pill" id="cheerScore">—</span>
         </div>
       </div>
+    </section>
 
-      <div class="quote-card groan anim-in d3">
+    <!-- ─── FRAME 5 · GROAN ─── -->
+    <section class="frame frame-quote" data-frame="groan">
+      <div class="frame-num anim-in">05 · Groan</div>
+      <h2 class="frame-title anim-in d1">What&rsquo;s not</h2>
+
+      <div class="quote-card groan anim-in d2">
         <div class="quote-eyebrow">Groan</div>
         <div class="quote-subject" id="groanSubject"></div>
         <p class="quote-text" id="groanText">—</p>

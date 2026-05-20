@@ -98,6 +98,10 @@ body {
   gap: 10px;
   flex: 1;
 }
+.topbar-mark-link {
+  display: inline-block;
+  line-height: 0;
+}
 .topbar-mark {
   height: 26px;
   width: auto;

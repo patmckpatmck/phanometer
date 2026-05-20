@@ -161,6 +161,10 @@ NAME_NORMALIZATIONS = {
     # specific manager-related phrases to avoid touching other Thompsons.
     "rob thompson":    "Rob Thomson",
     "topper thompson": "Topper Thomson",
+    # Alec Bohm — Whisper consistently renders "Bohm" as "Boehm". Standalone is
+    # safe in this corpus because the only Boehm under discussion is the player;
+    # revisit if a different Boehm enters the conversation.
+    "boehm":           "Bohm",
 }
 
 

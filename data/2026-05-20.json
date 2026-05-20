@@ -27,11 +27,11 @@
   "voice_breakdown": {
     "reddit": {
       "score": 55,
-      "note": "r/phillies match thread was largely calm after the loss \u2014 'Burns is nasty, we were due for a stinker' \u2014 with real enthusiasm still flowing from the Monday comeback win posts and Sanchez/Stott/Boehm appreciation threads."
+      "note": "r/phillies match thread was largely calm after the loss \u2014 'Burns is nasty, we were due for a stinker' \u2014 with real enthusiasm still flowing from the Monday comeback win posts and Sanchez/Stott/Bohm appreciation threads."
     },
     "fan_analyst": {
       "score": 68,
-      "note": "The Phillies Show and Phillies Talk both spotlighted Boehm, Stott, Sanchez, and Wheeler trending upward; Painter seen as a work in progress; Nola concern growing; Aidan Miller injury shrouded in secrecy; cautious optimism overall."
+      "note": "The Phillies Show and Phillies Talk both spotlighted Bohm, Stott, Sanchez, and Wheeler trending upward; Painter seen as a work in progress; Nola concern growing; Aidan Miller injury shrouded in secrecy; cautious optimism overall."
     },
     "beat_writer": null,
     "radio_populist": {
@@ -41,9 +41,9 @@
   },
   "themes": [
     {
-      "name": "Boehm and Stott Finally Delivering",
+      "name": "Bohm and Stott Finally Delivering",
       "delta": 7,
-      "sample": "After a brutal April, both corner pieces have erupted in May \u2014 Boehm on a double-digit hitting streak and Stott leading MLB in May RBI \u2014 giving the lineup real depth behind the top two."
+      "sample": "After a brutal April, both corner pieces have erupted in May \u2014 Bohm on a double-digit hitting streak and Stott leading MLB in May RBI \u2014 giving the lineup real depth behind the top two."
     },
     {
       "name": "Sanchez and Wheeler Anchoring an Elite Rotation",
@@ -88,7 +88,7 @@
       "source_hint": "r/phillies post-game thread after Tuesday loss"
     }
   ],
-  "vibe_summary": "Fans are riding a genuine wave of optimism after a torrid hot streak, shrugging off Tuesday's loss to an elite pitcher while Boehm, Stott, Sanchez, and Wheeler keep the belief very much alive \u2014 with only Aaron Nola casting a real shadow.",
+  "vibe_summary": "Fans are riding a genuine wave of optimism after a torrid hot streak, shrugging off Tuesday's loss to an elite pitcher while Bohm, Stott, Sanchez, and Wheeler keep the belief very much alive \u2014 with only Aaron Nola casting a real shadow.",
   "reasoning": "The dominant mood is one of earned confidence: a scorching run under Mattingly, breakout performances from previously maligned roster pieces, and elite starting pitching have shifted the conversation from survival to October ambition. Tuesday's loss to Chase Burns was absorbed without panic \u2014 the overwhelming consensus was that a stinker was overdue and Burns simply pitched a great game. The one genuine fault line is Nola, where the analysis has moved from concern to something closer to dread, with his declining stuff and long contract creating a real drag on pitching confidence scores. Aidan Miller's injury opacity adds a secondary health note, but the broader roster health picture is stable enough that optimism holds.",
   "people_mentioned": [
     "Mattingly",
