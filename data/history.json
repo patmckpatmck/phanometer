@@ -6590,5 +6590,267 @@
       "games_behind": "7.0"
     },
     "generated_at": "2026-05-19T12:45:29.249040+00:00"
+  },
+  {
+    "date": "2026-05-20",
+    "display_score": 63,
+    "reactive_score": 63,
+    "baseline_score": 64,
+    "insufficient_signal": false,
+    "content_volume": 340,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 52,
+      "front_office_trust": 65,
+      "manager_confidence": 78,
+      "lineup_confidence": 70,
+      "pitching_confidence": 72,
+      "health_outlook": 55,
+      "postseason_belief": 45
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 82,
+      "front_office_trust": 45,
+      "manager_confidence": 75,
+      "lineup_confidence": 85,
+      "pitching_confidence": 88,
+      "health_outlook": 60,
+      "postseason_belief": 50
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": 55,
+        "note": "r/phillies match thread was largely calm after the loss \u2014 'Burns is nasty, we were due for a stinker' \u2014 with real enthusiasm still flowing from the Monday comeback win posts and Sanchez/Stott/Boehm appreciation threads."
+      },
+      "fan_analyst": {
+        "score": 68,
+        "note": "The Phillies Show and Phillies Talk both spotlighted Boehm, Stott, Sanchez, and Wheeler trending upward; Painter seen as a work in progress; Nola concern growing; Aidan Miller injury shrouded in secrecy; cautious optimism overall."
+      },
+      "beat_writer": null,
+      "radio_populist": {
+        "score": 60,
+        "note": "WIP Daily / High Hopes reacted to a Tuesday loss with measured calm \u2014 Chase Burns got credit, defense and bullpen were criticized, Nola anxiety is real, but the Monday comeback win episode radiated genuine belief in Mattingly's team."
+      }
+    },
+    "themes": [
+      {
+        "name": "Boehm and Stott Finally Delivering",
+        "delta": 7,
+        "sample": "After a brutal April, both corner pieces have erupted in May \u2014 Boehm on a double-digit hitting streak and Stott leading MLB in May RBI \u2014 giving the lineup real depth behind the top two."
+      },
+      {
+        "name": "Sanchez and Wheeler Anchoring an Elite Rotation",
+        "delta": 8,
+        "sample": "Christopher Sanchez's scoreless streak and Cy Young chatter, combined with Wheeler outdueling Skeens, have fans treating the top of the rotation as a genuine strength heading into summer."
+      },
+      {
+        "name": "Tuesday's Loss Is a One-Night Shrug",
+        "delta": -3,
+        "sample": "A 4-1 defeat to Chase Burns drew mostly calm reactions \u2014 'we were due for a stinker, Burns is nasty' \u2014 though defensive miscues from Harper at first and Crawford in center drew familiar frustrations."
+      },
+      {
+        "name": "Aaron Nola Anxiety Deepening",
+        "delta": -6,
+        "sample": "Nola's stuff looking flat and hittable, ERA climbing, and four years remaining on his deal have created the one genuinely dark cloud over an otherwise optimistic team picture."
+      },
+      {
+        "name": "Mattingly Effect and Deadline Excitement Building",
+        "delta": 5,
+        "sample": "Six straight series wins under the new manager, plus buzz around a potential Japanese power bat acquisition, have fans feeling the front office and dugout are finally pointed in the same direction."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "It's honestly insane that the random prospect the Phillies took a random flyer on is already one of the best pitchers in baseball.",
+        "score": 88,
+        "source_hint": "r/phillies comment thread on Sanchez article"
+      },
+      {
+        "text": "We are so back",
+        "score": 82,
+        "source_hint": "r/phillies comment on Teruaki Sato targeting report"
+      },
+      {
+        "text": "I wish I had more optimism for you. I wish I was seeing something that made me feel like there was some light at the end of the tunnel.",
+        "score": 22,
+        "source_hint": "talk-radio host (WIP Daily / High Hopes) on Aaron Nola"
+      },
+      {
+        "text": "This game had it all. Bad defense. Bad umpiring. Bad offense. Getting Kyle back will help.",
+        "score": 38,
+        "source_hint": "r/phillies post-game thread after Tuesday loss"
+      }
+    ],
+    "vibe_summary": "Fans are riding a genuine wave of optimism after a torrid hot streak, shrugging off Tuesday's loss to an elite pitcher while Boehm, Stott, Sanchez, and Wheeler keep the belief very much alive \u2014 with only Aaron Nola casting a real shadow.",
+    "reasoning": "The dominant mood is one of earned confidence: a scorching run under Mattingly, breakout performances from previously maligned roster pieces, and elite starting pitching have shifted the conversation from survival to October ambition. Tuesday's loss to Chase Burns was absorbed without panic \u2014 the overwhelming consensus was that a stinker was overdue and Burns simply pitched a great game. The one genuine fault line is Nola, where the analysis has moved from concern to something closer to dread, with his declining stuff and long contract creating a real drag on pitching confidence scores. Aidan Miller's injury opacity adds a secondary health note, but the broader roster health picture is stable enough that optimism holds.",
+    "people_mentioned": [
+      "Mattingly",
+      "Stott",
+      "Bohm",
+      "Sanchez",
+      "Wheeler",
+      "Nola",
+      "Harper",
+      "Schwarber",
+      "Lozardo",
+      "Painter",
+      "Crawford",
+      "Marsh",
+      "Keller",
+      "Duran",
+      "Alvarado",
+      "Shugart",
+      "Aidan Miller",
+      "Dombrowski",
+      "Wathen",
+      "Turner",
+      "Banks",
+      "Marchan",
+      "Kemp",
+      "Sosa",
+      "Garcia",
+      "Wood"
+    ],
+    "source_counts": {
+      "reddit_posts": 17,
+      "reddit_comments": 121,
+      "match_threads": 1,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 149582,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 2,
+      "youtube_chars": 1548
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Three Phillies trending upward in May",
+        "voice": "fan_analyst",
+        "chars": 35492
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Phillies Bats Fall Silent In Loss To Reds",
+        "voice": "radio_populist",
+        "chars": 28496
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "BACK?! Everything clicking for the Phillies as hot streak continues",
+        "voice": "fan_analyst",
+        "chars": 51268
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Another Comeback, Another Win",
+        "voice": "radio_populist",
+        "chars": 34326
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Lose to Reds, 4-1",
+        "voice": "radio_populist",
+        "chars": 842
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "All About Playoffs Only For Phillies",
+        "voice": "radio_populist",
+        "chars": 706
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 91.2,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 97.3,
+        "delta_pct": -6.1,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823470,
+            "date": "2026-05-06",
+            "day_of_week": "Wednesday",
+            "opponent": "Athletics",
+            "result": "W 6-3",
+            "attendance": 36474,
+            "pct_capacity": 85.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823467,
+            "date": "2026-05-07",
+            "day_of_week": "Thursday",
+            "opponent": "Athletics",
+            "result": "L 1-12",
+            "attendance": 37543,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823466,
+            "date": "2026-05-08",
+            "day_of_week": "Friday",
+            "opponent": "Colorado Rockies",
+            "result": "L 7-9",
+            "attendance": 39478,
+            "pct_capacity": 92.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823468,
+            "date": "2026-05-09",
+            "day_of_week": "Saturday",
+            "opponent": "Colorado Rockies",
+            "result": "W 9-3",
+            "attendance": 38043,
+            "pct_capacity": 88.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823463,
+            "date": "2026-05-10",
+            "day_of_week": "Sunday",
+            "opponent": "Colorado Rockies",
+            "result": "W 6-0",
+            "attendance": 44620,
+            "pct_capacity": 104.0,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823465,
+            "date": "2026-05-18",
+            "day_of_week": "Monday",
+            "opponent": "Cincinnati Reds",
+            "result": "W 5-4",
+            "attendance": 40065,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823464,
+            "date": "2026-05-19",
+            "day_of_week": "Tuesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 1-4",
+            "attendance": 37527,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "25-24",
+      "streak": "L1",
+      "games_behind": "8.0"
+    },
+    "generated_at": "2026-05-20T12:29:52.117046+00:00"
   }
 ]
