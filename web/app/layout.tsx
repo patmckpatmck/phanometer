@@ -24,11 +24,39 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
 });
 
+const SITE_DESCRIPTION =
+  'How Philly feels about the Phillies, today. A daily fan-mood score from podcasts, Reddit, YouTube, and the MLB Stats API.';
+
 export const metadata: Metadata = {
-  title: 'Phan-o-meter — Daily Phillies Fan Sentiment',
-  description: 'How Philly feels about the Phillies, today.',
+  metadataBase: new URL('https://www.phanometer.com'),
+  title: {
+    default: 'Phan-o-meter — Daily Phillies Fan Sentiment',
+    template: '%s — Phan-o-meter',
+  },
+  description: SITE_DESCRIPTION,
   icons: {
     icon: '/assets/bell.png',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'Phan-o-meter',
+    url: 'https://www.phanometer.com',
+    title: 'Phan-o-meter — Daily Phillies Fan Sentiment',
+    description: SITE_DESCRIPTION,
+    images: [
+      {
+        url: '/assets/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'Phan-o-meter — Daily Phillies Fan Sentiment',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Phan-o-meter — Daily Phillies Fan Sentiment',
+    description: SITE_DESCRIPTION,
+    images: ['/assets/og-default.png'],
   },
 };
 

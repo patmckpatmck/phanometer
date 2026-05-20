@@ -1,9 +1,29 @@
 import { Suspense } from 'react';
+import type { Metadata } from 'next';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { readHistory } from '@/lib/data';
 import { getCorpusStats, ASK_PAGE_EXAMPLES } from '@/lib/ask';
 import { StreamingAnswer } from './StreamingAnswer';
+
+const ASK_TITLE = 'Ask Phan-o-meter — Phillies fan-mood Q&A';
+const ASK_DESCRIPTION =
+  'One question, one answer. Phan-o-meter answers Phillies fan-mood questions grounded in every day of recorded sentiment.';
+
+export const metadata: Metadata = {
+  title: { absolute: ASK_TITLE },
+  description: ASK_DESCRIPTION,
+  alternates: { canonical: '/ask' },
+  openGraph: {
+    title: ASK_TITLE,
+    description: ASK_DESCRIPTION,
+    url: 'https://www.phanometer.com/ask',
+  },
+  twitter: {
+    title: ASK_TITLE,
+    description: ASK_DESCRIPTION,
+  },
+};
 
 /**
  * /ask — the column.
