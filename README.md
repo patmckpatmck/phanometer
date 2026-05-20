@@ -43,6 +43,12 @@ Running nightly from GitHub Actions, with two user-facing surfaces:
   typography. Recorded by hand from the phone, then posted to TikTok
   first and Reels second. A pinned evergreen explainer at
   `phanometer.com/reels/about` introduces the project to new followers.
+- **SEO foundations.** Distinct titles, descriptions, Open Graph and
+  Twitter cards on every indexable page. Static OG card rendered at
+  /assets/og-default.png. Robots.txt with surgical allow/disallow
+  rules. Programmatic sitemap.xml via the Next.js metadata API.
+  JSON-LD structured data (WebSite, Organization, Dataset). Semantic
+  h1s and descriptive image alt text.
 
 ## How it works
 
@@ -332,10 +338,6 @@ points below baseline"), that divergence is the interesting moment.
 
 ## What's next
 
-- **SEO optimization.** Organic-search work for `phanometer.com` —
-  Open Graph metadata, structured data, sitemap, per-page
-  descriptions, and crawl-friendliness for the static export.
-  In progress.
 - **Post-generation attribution pass for the bot (optional).** A
   second Claude call whose only job is to rewrite attribution-shaped
   phrases in the bot's output. Only worth doing if leaks become a
