@@ -62,6 +62,7 @@ export default async function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }}
       />
+      <h1 className="sr-only">How Philly feels about the Phillies, today.</h1>
       <Header today={today} />
       <Hero today={today} />
 

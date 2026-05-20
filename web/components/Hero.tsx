@@ -16,8 +16,11 @@ export function Hero({ today }: { today: DailyReport }) {
 
   return (
     <div className="hero">
+      {/* Decorative — the same wordmark is already announced by the Header
+          on the same page; leaving alt empty avoids a duplicate
+          announcement for screen-reader users. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="hero-wordmark" src="/assets/wordmark.png" alt="Phanometer" />
+      <img className="hero-wordmark" src="/assets/wordmark.png" alt="" />
       <BellMeter score={score ?? 50} muted={insufficient} />
       <div className="readout">
         {insufficient ? (

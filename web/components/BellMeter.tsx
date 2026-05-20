@@ -145,11 +145,19 @@ export function BellMeter({ score, muted = false }: Props) {
   return (
     <div className={muted ? 'meter-assembly meter-assembly--muted' : 'meter-assembly'}>
       <div className="bell-holder">
+        {/* The bell IS the meter — its rotation conveys today's score —
+            so the alt describes the readout. `muted` (not `score`) is the
+            insufficient-signal signal: Hero passes a fallback `score ?? 50`
+            and uses `muted` to indicate the day didn't have enough content. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           className="bell-img"
           src="/assets/bell.png"
-          alt="Liberty Bell"
+          alt={
+            muted
+              ? 'Sentiment meter — insufficient signal today'
+              : `Sentiment meter at ${score} out of 100`
+          }
           style={{ transform: `rotate(${angle.toFixed(2)}deg)` }}
         />
       </div>
