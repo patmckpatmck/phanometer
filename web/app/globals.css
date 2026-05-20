@@ -60,6 +60,21 @@ body {
   font-size: 11px;
 }
 
+/* Screen-reader only — element exists in the DOM and is announced by
+   assistive tech, but is visually invisible. Used for the semantic h1
+   on pages whose visible masthead is an image. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .page {
   max-width: 1200px;
   margin: 0 auto;

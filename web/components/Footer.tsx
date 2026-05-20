@@ -4,8 +4,10 @@ export function Footer({ generatedAt }: { generatedAt: string }) {
   return (
     <footer className="footer">
       <div className="footer-brand">
+        {/* Decorative — third instance of the wordmark on the page; the
+            brand has already been announced by the Header. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="footer-mark" src="/assets/wordmark.png" alt="Phanometer" />
+        <img className="footer-mark" src="/assets/wordmark.png" alt="" />
         <div className="footer-disclaimer">
           No affiliation with the Phillies, MLB, news publications, or media platforms.
         </div>

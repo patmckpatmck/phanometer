@@ -50,6 +50,7 @@ export default async function AskPage() {
 
   return (
     <div className="page">
+      <h1 className="sr-only">Ask Phan-o-meter</h1>
       <Header today={today} />
       <main className="ask-column" style={{ paddingTop: 30 }}>
         <Suspense fallback={null}>
