@@ -27,6 +27,33 @@ const jetbrainsMono = JetBrains_Mono({
 const SITE_DESCRIPTION =
   'How Philly feels about the Phillies, today. A daily fan-mood score from podcasts, Reddit, YouTube, and the MLB Stats API.';
 
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Phan-o-meter',
+  alternateName: 'Phanometer',
+  url: 'https://www.phanometer.com',
+  description:
+    'How Philly feels about the Phillies, today. A daily fan-mood score from podcasts, Reddit, YouTube, and the MLB Stats API.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://www.phanometer.com/ask?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Phan-o-meter',
+    url: 'https://www.phanometer.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.phanometer.com/assets/wordmark.png',
+    },
+  },
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.phanometer.com'),
   title: {
@@ -66,7 +93,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en"
       className={`${robotoSlab.variable} ${workSans.variable} ${jetbrainsMono.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }

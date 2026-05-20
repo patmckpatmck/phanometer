@@ -9,6 +9,44 @@ import { Quotes } from '@/components/Quotes';
 import { Themes } from '@/components/Themes';
 import { Trend } from '@/components/Trend';
 
+const datasetSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Phan-o-meter Phillies Fan Sentiment Dataset',
+  description:
+    'Daily fan-mood scores across seven dimensions for the Philadelphia Phillies, derived from podcasts, Reddit, YouTube, and MLB Stats API data. Updated nightly.',
+  url: 'https://www.phanometer.com',
+  keywords: [
+    'Philadelphia Phillies',
+    'fan sentiment',
+    'baseball',
+    'MLB',
+    'sentiment analysis',
+  ],
+  creator: {
+    '@type': 'Organization',
+    name: 'Phan-o-meter',
+    url: 'https://www.phanometer.com',
+  },
+  isAccessibleForFree: true,
+  distribution: {
+    '@type': 'DataDownload',
+    encodingFormat: 'application/json',
+    contentUrl:
+      'https://raw.githubusercontent.com/patmckpatmck/phanometer/main/data/history.json',
+  },
+  spatialCoverage: {
+    '@type': 'Place',
+    name: 'Philadelphia, Pennsylvania, United States',
+  },
+  temporalCoverage: '2026-04-19/..',
+  about: {
+    '@type': 'SportsTeam',
+    name: 'Philadelphia Phillies',
+    sameAs: 'https://en.wikipedia.org/wiki/Philadelphia_Phillies',
+  },
+};
+
 function firstSentence(text: string): string {
   const parts = text.match(/[^.!?]+[.!?]+(\s|$)/g);
   return (parts?.[0] ?? text).trim();
@@ -20,6 +58,10 @@ export default async function Page() {
 
   return (
     <div className="page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }}
+      />
       <Header today={today} />
       <Hero today={today} />
 
