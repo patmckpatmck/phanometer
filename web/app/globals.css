@@ -129,6 +129,43 @@ body {
   color: var(--red);
 }
 
+/* ——— DAY NAV (daily archive prev/next) ——— */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 14px 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  margin: 18px 0 0;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink);
+}
+.day-nav-side {
+  /* Reserve width on both sides so the layout doesn't shift when one
+     direction is empty (first or last archive day). */
+  min-height: 1em;
+  flex: 1 1 0;
+}
+.day-nav-prev {
+  text-align: left;
+}
+.day-nav-next {
+  text-align: right;
+}
+.day-nav a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+}
+.day-nav a:hover {
+  color: var(--red);
+}
+
 /* ——— HERO ——— */
 .hero {
   padding: 32px 0 48px;

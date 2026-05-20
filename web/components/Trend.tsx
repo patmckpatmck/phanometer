@@ -7,6 +7,13 @@ import type { DailyReport } from '@/lib/types';
 interface Props {
   history: DailyReport[];
   todayScore: number | null;
+  /**
+   * Index within `history` of the day that should be marked as "TODAY"
+   * (red dashed vertical + red dot). Defaults to the last index, which
+   * is what the homepage wants. Archive pages pass the index of the
+   * archive date so the marker lands on that day instead.
+   */
+  todayIndex?: number;
 }
 
 const BANDS = [
@@ -16,7 +23,7 @@ const BANDS = [
   { from: 0, to: 30, fill: '#c1121f', op: 0.07 },
 ] as const;
 
-export function Trend({ history, todayScore }: Props) {
+export function Trend({ history, todayScore, todayIndex }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -90,7 +97,10 @@ export function Trend({ history, todayScore }: Props) {
         .join(' ')
     : null;
 
-  const todayX = x(n - 1);
+  // Clamp the marker index to the valid range so a misaligned param can't
+  // throw the SVG off-canvas. Defaults to the rightmost day (homepage case).
+  const markerIndex = Math.max(0, Math.min(n - 1, todayIndex ?? n - 1));
+  const todayX = x(markerIndex);
   const todayY = todayScore != null ? y(todayScore) : null;
 
   const dateTicks = history
