@@ -9,10 +9,9 @@ import { AskInput } from '@/components/ask/AskInput';
 import { AskQuestion } from '@/components/ask/AskQuestion';
 import { AskSignature } from '@/components/ask/AskSignature';
 import { AskStatusLine } from '@/components/ask/AskStatusLine';
-import { slugify, type CorpusStats } from '@/lib/ask';
+import { slugify } from '@/lib/ask';
 
 interface StreamingAnswerProps {
-  corpus: CorpusStats;
   examples: readonly string[];
 }
 
@@ -23,7 +22,7 @@ type Phase = 'idle' | 'waiting' | 'streaming' | 'complete' | 'error';
  * required under `output: 'export'`) and either renders the empty state or
  * kicks off streaming.
  */
-export function StreamingAnswer({ corpus, examples }: StreamingAnswerProps) {
+export function StreamingAnswer({ examples }: StreamingAnswerProps) {
   const searchParams = useSearchParams();
   const question = searchParams.get('q')?.trim() ?? '';
 
@@ -56,20 +55,14 @@ export function StreamingAnswer({ corpus, examples }: StreamingAnswerProps) {
   }
 
   // Remount on question change so the streaming effect re-fires cleanly.
-  return <AnsweringFlow key={question} question={question} corpus={corpus} />;
+  return <AnsweringFlow key={question} question={question} />;
 }
 
 /**
  * The actual fetch/stream/render flow, isolated so React unmounts and
  * remounts it on question change (effect re-runs cleanly).
  */
-function AnsweringFlow({
-  question,
-  corpus,
-}: {
-  question: string;
-  corpus: CorpusStats;
-}) {
+function AnsweringFlow({ question }: { question: string }) {
   // `phase` drives which subcomponents render. `attempt` lets the Retry
   // button force-rerun the same query by changing the effect key.
   const [phase, setPhase] = useState<Phase>('waiting');
@@ -206,7 +199,7 @@ function AnsweringFlow({
 
       {phase === 'complete' ? (
         <>
-          <AskSignature corpus={corpus} slug={slugify(question)} />
+          <AskSignature slug={slugify(question)} />
           <AskActions />
         </>
       ) : null}

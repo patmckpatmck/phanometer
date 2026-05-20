@@ -31,7 +31,7 @@
     },
     "fan_analyst": {
       "score": 72,
-      "note": "Hittin' Season and the Phillies Show both celebrate the rotation's historic turnaround and Harper's MVP-level play, while flagging real concern over Boehm's struggles and Aiden Miller's back injury."
+      "note": "Hittin' Season and the Phillies Show both celebrate the rotation's historic turnaround and Harper's MVP-level play, while flagging real concern over Bohm's struggles and Aiden Miller's back injury."
     },
     "beat_writer": {
       "score": null,
@@ -39,7 +39,7 @@
     },
     "radio_populist": {
       "score": 70,
-      "note": "Talk-radio host (WIP Daily) captures growing excitement from callers \u2014 'baseball might be back on' \u2014 while voicing frustration with Brad Keller and anxiety over Boehm's continued unplayability."
+      "note": "Talk-radio host (WIP Daily) captures growing excitement from callers \u2014 'baseball might be back on' \u2014 while voicing frustration with Brad Keller and anxiety over Bohm's continued unplayability."
     }
   },
   "themes": [
@@ -51,12 +51,12 @@
     {
       "name": "Harper carrying the offense",
       "delta": 7,
-      "sample": "Nine home runs, an OPS pushing .950, and a barrel rate at its highest since his MVP season \u2014 Bryce Harper is producing at an elite level and has become the undisputed offensive anchor while Schwarber and Boehm continue to struggle."
+      "sample": "Nine home runs, an OPS pushing .950, and a barrel rate at its highest since his MVP season \u2014 Bryce Harper is producing at an elite level and has become the undisputed offensive anchor while Schwarber and Bohm continue to struggle."
     },
     {
-      "name": "Boehm situation reaching a tipping point",
+      "name": "Bohm situation reaching a tipping point",
       "delta": -6,
-      "sample": "Described as 'unplayable' by multiple observers and pulled mid-game by Don Mattingly, Alec Boehm's prolonged slump is creating real lineup tension and forcing difficult decisions about Edmundo Sosa's role and playing time."
+      "sample": "Described as 'unplayable' by multiple observers and pulled mid-game by Don Mattingly, Alec Bohm's prolonged slump is creating real lineup tension and forcing difficult decisions about Edmundo Sosa's role and playing time."
     },
     {
       "name": "Mattingly honeymoon holding \u2014 but questions linger",
@@ -91,7 +91,7 @@
       "source_hint": "talk-radio host (WIP Daily) venting about the bullpen's weak link"
     }
   ],
-  "vibe_summary": "A four-game winning streak and the most dominant starting pitching stretch in years have Phillies fans genuinely re-engaged, though Boehm's unplayability and a worrying silence around the top prospect keep optimism cautious rather than euphoric.",
+  "vibe_summary": "A four-game winning streak and the most dominant starting pitching stretch in years have Phillies fans genuinely re-engaged, though Bohm's unplayability and a worrying silence around the top prospect keep optimism cautious rather than euphoric.",
   "reasoning": "The dominant sentiment driver is the stunning rotation turnaround \u2014 statistically from worst to best in baseball since the managerial change \u2014 combined with Harper's MVP-caliber run, which has converted genuine despair into cautious excitement. The talk-radio perspective is more emotionally effusive ('baseball is back'), while the fan analyst perspective is more measured, carefully noting that the schedule has softened and real structural concerns remain. Postseason belief stays low because the enthusiasm is grounded in relief and recent momentum rather than confident projections of a deep October run, and the 8.5-game deficit in the division is repeatedly acknowledged.",
   "source_counts": {
     "reddit_posts": 0,

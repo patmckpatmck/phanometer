@@ -70,7 +70,7 @@
     ],
     "quotes": [
       {
-        "text": "These last two weeks of Alec Boehm are not major league caliber.",
+        "text": "These last two weeks of Alec Bohm are not major league caliber.",
         "score": 15,
         "source_hint": "Phillies Therapy co-host (beat_writer show)"
       },
@@ -498,7 +498,7 @@
       {
         "name": "Dombrowski roster construction under fire",
         "delta": -7,
-        "sample": "Talk-radio host and fan analysts alike pointed to the GM as the primary culprit \u2014 locked-in long-term contracts, a thin outfield, and an inability to move Boehm or Stott leave the team with almost no levers to pull."
+        "sample": "Talk-radio host and fan analysts alike pointed to the GM as the primary culprit \u2014 locked-in long-term contracts, a thin outfield, and an inability to move Bohm or Stott leave the team with almost no levers to pull."
       },
       {
         "name": "Felix Reyes debut as brief spark",
@@ -3126,7 +3126,7 @@
       {
         "name": "Mattingly Bump Is Real But Roster-Dependent",
         "delta": 4,
-        "sample": "Four straight wins under the new manager have lifted spirits, but the honest read is that the schedule softened and the same roster questions remain \u2014 Boehm's bat, the catching spot, the back-end of the lineup."
+        "sample": "Four straight wins under the new manager have lifted spirits, but the honest read is that the schedule softened and the same roster questions remain \u2014 Bohm's bat, the catching spot, the back-end of the lineup."
       },
       {
         "name": "Front Office Process Under Fire",
@@ -3172,7 +3172,7 @@
       }
     ],
     "vibe_summary": "Phillies fans have exhaled from full panic mode into cautious, eyes-open skepticism \u2014 relieved by four straight wins but unconvinced the underlying roster problems have been solved.",
-    "reasoning": "A four-game winning streak under Don Mattingly has pulled the mood back from the ledge, with Wheeler's resurgence and two walk-off wins generating genuine excitement. But the optimism is fragile and heavily qualified: the schedule was favorable, the catching position is a liability, Boehm and Stott remain unresolved questions, and the postseason framing across every source is structural reassurance rather than expressed belief. The sharpest divergence is between the fan analyst enthusiasm for the Mattingly bump and the beat writer's unambiguous skepticism about the front office's process \u2014 characterizing the Cora pursuit and Thomson dismissal as embarrassing and raising bigger-picture questions about where this franchise is actually headed.",
+    "reasoning": "A four-game winning streak under Don Mattingly has pulled the mood back from the ledge, with Wheeler's resurgence and two walk-off wins generating genuine excitement. But the optimism is fragile and heavily qualified: the schedule was favorable, the catching position is a liability, Bohm and Stott remain unresolved questions, and the postseason framing across every source is structural reassurance rather than expressed belief. The sharpest divergence is between the fan analyst enthusiasm for the Mattingly bump and the beat writer's unambiguous skepticism about the front office's process \u2014 characterizing the Cora pursuit and Thomson dismissal as embarrassing and raising bigger-picture questions about where this franchise is actually headed.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
@@ -3306,7 +3306,7 @@
       },
       "fan_analyst": {
         "score": 58,
-        "note": "Phillies Talk and The Philly Show are cautiously encouraged by the 4-game winning streak and Wheeler's return, but repeatedly acknowledge the soft schedule and withhold full belief; the Phillies Show credits improved sharpness and fight while flagging the catching situation and Boehm's ongoing struggles."
+        "note": "Phillies Talk and The Philly Show are cautiously encouraged by the 4-game winning streak and Wheeler's return, but repeatedly acknowledge the soft schedule and withhold full belief; the Phillies Show credits improved sharpness and fight while flagging the catching situation and Bohm's ongoing struggles."
       },
       "beat_writer": {
         "score": 28,
@@ -3336,12 +3336,12 @@
       {
         "name": "Roster construction failures outlast the managerial change",
         "delta": -6,
-        "sample": "Firing the manager does not solve Boehm hitting .078, a catching situation described as dreadful, a backup outfield of Dylan Moore and Felix Reyes, or a starting group that until recently produced a historically bad RISP stretch \u2014 the personnel problems remain."
+        "sample": "Firing the manager does not solve Bohm hitting .078, a catching situation described as dreadful, a backup outfield of Dylan Moore and Felix Reyes, or a starting group that until recently produced a historically bad RISP stretch \u2014 the personnel problems remain."
       },
       {
         "name": "Don Mattingly's honeymoon is real but fragile",
         "delta": 3,
-        "sample": "Players appear sharper and more focused since the managerial change \u2014 Stott is pulling the ball, Boehm made a heads-up defensive play, Mattingly is bunting and running aggressively \u2014 but nearly every voice notes this looks like the same team finally playing weaker opponents."
+        "sample": "Players appear sharper and more focused since the managerial change \u2014 Stott is pulling the ball, Bohm made a heads-up defensive play, Mattingly is bunting and running aggressively \u2014 but nearly every voice notes this looks like the same team finally playing weaker opponents."
       }
     ],
     "quotes": [
@@ -3367,7 +3367,7 @@
       }
     ],
     "vibe_summary": "Relief from a four-game winning streak is real but fragile \u2014 fans and analysts know the schedule has been soft, the roster's deeper problems remain unsolved, and the front office's sloppy handling of the managerial change has left serious questions that winning alone won't answer.",
-    "reasoning": "The mood is sharply split between surface-level encouragement and structural alarm. The winning streak, Wheeler's dominant return, and signs of life from Stott and Boehm have given the fan analyst voices genuine, if cautious, optimism. The beat writer content, however \u2014 recorded closer to the darkest stretch of the season \u2014 is far grimmer: a historically bad run differential, a publicly embarrassing Cora courtship, a roster construction that left the team with Dylan Moore and Felix Reyes as outfield depth, and a postseason probability that one voice called 'akin to a miracle.' The managerial change itself is assessed skeptically by nearly every voice as an irrational lever pulled in the absence of better options, not a conviction move \u2014 keeping postseason belief low despite the winning streak.",
+    "reasoning": "The mood is sharply split between surface-level encouragement and structural alarm. The winning streak, Wheeler's dominant return, and signs of life from Stott and Bohm have given the fan analyst voices genuine, if cautious, optimism. The beat writer content, however \u2014 recorded closer to the darkest stretch of the season \u2014 is far grimmer: a historically bad run differential, a publicly embarrassing Cora courtship, a roster construction that left the team with Dylan Moore and Felix Reyes as outfield depth, and a postseason probability that one voice called 'akin to a miracle.' The managerial change itself is assessed skeptically by nearly every voice as an irrational lever pulled in the absence of better options, not a conviction move \u2014 keeping postseason belief low despite the winning streak.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
@@ -3686,7 +3686,7 @@
       },
       "fan_analyst": {
         "score": 72,
-        "note": "Hittin' Season and the Phillies Show both celebrate the rotation's historic turnaround and Harper's MVP-level play, while flagging real concern over Boehm's struggles and Aidan Miller's back injury."
+        "note": "Hittin' Season and the Phillies Show both celebrate the rotation's historic turnaround and Harper's MVP-level play, while flagging real concern over Bohm's struggles and Aidan Miller's back injury."
       },
       "beat_writer": {
         "score": null,
@@ -3694,7 +3694,7 @@
       },
       "radio_populist": {
         "score": 70,
-        "note": "Talk-radio host (WIP Daily) captures growing excitement from callers \u2014 'baseball might be back on' \u2014 while voicing frustration with Brad Keller and anxiety over Boehm's continued unplayability."
+        "note": "Talk-radio host (WIP Daily) captures growing excitement from callers \u2014 'baseball might be back on' \u2014 while voicing frustration with Brad Keller and anxiety over Bohm's continued unplayability."
       }
     },
     "themes": [
@@ -3706,12 +3706,12 @@
       {
         "name": "Harper carrying the offense",
         "delta": 7,
-        "sample": "Nine home runs, an OPS pushing .950, and a barrel rate at its highest since his MVP season \u2014 Bryce Harper is producing at an elite level and has become the undisputed offensive anchor while Schwarber and Boehm continue to struggle."
+        "sample": "Nine home runs, an OPS pushing .950, and a barrel rate at its highest since his MVP season \u2014 Bryce Harper is producing at an elite level and has become the undisputed offensive anchor while Schwarber and Bohm continue to struggle."
       },
       {
-        "name": "Boehm situation reaching a tipping point",
+        "name": "Bohm situation reaching a tipping point",
         "delta": -6,
-        "sample": "Described as 'unplayable' by multiple observers and pulled mid-game by Don Mattingly, Alec Boehm's prolonged slump is creating real lineup tension and forcing difficult decisions about Edmundo Sosa's role and playing time."
+        "sample": "Described as 'unplayable' by multiple observers and pulled mid-game by Don Mattingly, Alec Bohm's prolonged slump is creating real lineup tension and forcing difficult decisions about Edmundo Sosa's role and playing time."
       },
       {
         "name": "Mattingly honeymoon holding \u2014 but questions linger",
@@ -3746,7 +3746,7 @@
         "source_hint": "talk-radio host (WIP Daily) venting about the bullpen's weak link"
       }
     ],
-    "vibe_summary": "A four-game winning streak and the most dominant starting pitching stretch in years have Phillies fans genuinely re-engaged, though Boehm's unplayability and a worrying silence around the top prospect keep optimism cautious rather than euphoric.",
+    "vibe_summary": "A four-game winning streak and the most dominant starting pitching stretch in years have Phillies fans genuinely re-engaged, though Bohm's unplayability and a worrying silence around the top prospect keep optimism cautious rather than euphoric.",
     "reasoning": "The dominant sentiment driver is the stunning rotation turnaround \u2014 statistically from worst to best in baseball since the managerial change \u2014 combined with Harper's MVP-caliber run, which has converted genuine despair into cautious excitement. The talk-radio perspective is more emotionally effusive ('baseball is back'), while the fan analyst perspective is more measured, carefully noting that the schedule has softened and real structural concerns remain. Postseason belief stays low because the enthusiasm is grounded in relief and recent momentum rather than confident projections of a deep October run, and the 8.5-game deficit in the division is repeatedly acknowledged.",
     "source_counts": {
       "reddit_posts": 0,
@@ -3891,7 +3891,7 @@
       },
       "fan_analyst": {
         "score": 72,
-        "note": "Hittin' Season, Phillies Talk, and the Philly Show all celebrate the hot streak and elite rotation but flag Aidan Miller's back injury, Boehm's slump, and the 0-10 record vs. lefties as real concerns."
+        "note": "Hittin' Season, Phillies Talk, and the Philly Show all celebrate the hot streak and elite rotation but flag Aidan Miller's back injury, Bohm's slump, and the 0-10 record vs. lefties as real concerns."
       },
       "beat_writer": {
         "score": null,
@@ -3899,7 +3899,7 @@
       },
       "radio_populist": {
         "score": 74,
-        "note": "WIP High Hopes host is energized by the gritty comeback win and the team's sense of urgency under Mattingly, while venting hard about Brad Keller and noting Boehm is 'unplayable.'"
+        "note": "WIP High Hopes host is energized by the gritty comeback win and the team's sense of urgency under Mattingly, while venting hard about Brad Keller and noting Bohm is 'unplayable.'"
       }
     },
     "themes": [
@@ -3909,9 +3909,9 @@
         "sample": "From worst ERA in baseball under the old regime to best in the last seven games \u2014 Sanchez's eight-inning gem and Wheeler's encouraging return have the pitching staff looking like a legitimate October weapon again."
       },
       {
-        "name": "Boehm Bottoming Out",
+        "name": "Bohm Bottoming Out",
         "delta": -7,
-        "sample": "Third base has become a genuine crisis: Boehm is being called 'unplayable' and 'dreadful,' Mattingly is pinch-hitting for him in key spots, and there is no clear long-term solution with Aidan Miller still not swinging a bat."
+        "sample": "Third base has become a genuine crisis: Bohm is being called 'unplayable' and 'dreadful,' Mattingly is pinch-hitting for him in key spots, and there is no clear long-term solution with Aidan Miller still not swinging a bat."
       },
       {
         "name": "Aidan Miller Alarm",
@@ -3941,7 +3941,7 @@
         "source_hint": "fan analyst (Philly Show)"
       },
       {
-        "text": "He's unplayable right now. Alec Boehm is just unplayable.",
+        "text": "He's unplayable right now. Alec Bohm is just unplayable.",
         "score": 18,
         "source_hint": "talk-radio host (WIP High Hopes), relaying Jason Stark's assessment"
       },
@@ -3952,7 +3952,7 @@
       }
     ],
     "vibe_summary": "Phillies fans are cautiously re-energized by a blazing rotation and a gritty winning streak, but a silent top prospect and an unplayable third baseman are keeping full optimism at arm's length.",
-    "reasoning": "The dominant mood driver is the dramatic pitching turnaround \u2014 going from the worst rotation ERA in baseball to the best in under two weeks has genuine excitement flowing. Bryce Harper's MVP-caliber stretch adds to the lift. However, two clouds hang over the good feelings: Alec Boehm's historic slump has no clear resolution, and the Aidan Miller back situation is drawing serious long-term concern, with the fan analyst drawing explicit comparisons to careers cut short by spinal injuries. The overall tone sits well above the despair of late April, but the structural holes in the lineup and the prospect health scare prevent full-throated postseason conviction \u2014 what's present is relief and momentum, not deep belief in an October run.",
+    "reasoning": "The dominant mood driver is the dramatic pitching turnaround \u2014 going from the worst rotation ERA in baseball to the best in under two weeks has genuine excitement flowing. Bryce Harper's MVP-caliber stretch adds to the lift. However, two clouds hang over the good feelings: Alec Bohm's historic slump has no clear resolution, and the Aidan Miller back situation is drawing serious long-term concern, with the fan analyst drawing explicit comparisons to careers cut short by spinal injuries. The overall tone sits well above the despair of late April, but the structural holes in the lineup and the prospect health scare prevent full-throated postseason conviction \u2014 what's present is relief and momentum, not deep belief in an October run.",
     "source_counts": {
       "reddit_posts": 0,
       "reddit_comments": 0,
@@ -4834,7 +4834,7 @@
       {
         "name": "Mattingly Getting Credit for Small-Ball and Player Management",
         "delta": 5,
-        "sample": "Sitting Boehm for two days, encouraging mental resets for slumping hitters, and more aggressive in-game decisions have fans and analysts crediting the new manager with a tangible culture shift."
+        "sample": "Sitting Bohm for two days, encouraging mental resets for slumping hitters, and more aggressive in-game decisions have fans and analysts crediting the new manager with a tangible culture shift."
       }
     ],
     "quotes": [
@@ -5938,7 +5938,7 @@
       },
       "fan_analyst": {
         "score": 58,
-        "note": "Fan analyst (Phillies Talk) is cautiously positive on pitching but openly frustrated with the offense \u2014 Turner's approach, Garcia's lack of pop, and Boehm's at-bats are named concerns alongside genuine excitement about Schwarber and Wheeler."
+        "note": "Fan analyst (Phillies Talk) is cautiously positive on pitching but openly frustrated with the offense \u2014 Turner's approach, Garcia's lack of pop, and Bohm's at-bats are named concerns alongside genuine excitement about Schwarber and Wheeler."
       },
       "beat_writer": {
         "score": 62,
@@ -6620,11 +6620,11 @@
     "voice_breakdown": {
       "reddit": {
         "score": 55,
-        "note": "r/phillies match thread was largely calm after the loss \u2014 'Burns is nasty, we were due for a stinker' \u2014 with real enthusiasm still flowing from the Monday comeback win posts and Sanchez/Stott/Boehm appreciation threads."
+        "note": "r/phillies match thread was largely calm after the loss \u2014 'Burns is nasty, we were due for a stinker' \u2014 with real enthusiasm still flowing from the Monday comeback win posts and Sanchez/Stott/Bohm appreciation threads."
       },
       "fan_analyst": {
         "score": 68,
-        "note": "The Phillies Show and Phillies Talk both spotlighted Boehm, Stott, Sanchez, and Wheeler trending upward; Painter seen as a work in progress; Nola concern growing; Aidan Miller injury shrouded in secrecy; cautious optimism overall."
+        "note": "The Phillies Show and Phillies Talk both spotlighted Bohm, Stott, Sanchez, and Wheeler trending upward; Painter seen as a work in progress; Nola concern growing; Aidan Miller injury shrouded in secrecy; cautious optimism overall."
       },
       "beat_writer": null,
       "radio_populist": {
@@ -6634,9 +6634,9 @@
     },
     "themes": [
       {
-        "name": "Boehm and Stott Finally Delivering",
+        "name": "Bohm and Stott Finally Delivering",
         "delta": 7,
-        "sample": "After a brutal April, both corner pieces have erupted in May \u2014 Boehm on a double-digit hitting streak and Stott leading MLB in May RBI \u2014 giving the lineup real depth behind the top two."
+        "sample": "After a brutal April, both corner pieces have erupted in May \u2014 Bohm on a double-digit hitting streak and Stott leading MLB in May RBI \u2014 giving the lineup real depth behind the top two."
       },
       {
         "name": "Sanchez and Wheeler Anchoring an Elite Rotation",
@@ -6681,7 +6681,7 @@
         "source_hint": "r/phillies post-game thread after Tuesday loss"
       }
     ],
-    "vibe_summary": "Fans are riding a genuine wave of optimism after a torrid hot streak, shrugging off Tuesday's loss to an elite pitcher while Boehm, Stott, Sanchez, and Wheeler keep the belief very much alive \u2014 with only Aaron Nola casting a real shadow.",
+    "vibe_summary": "Fans are riding a genuine wave of optimism after a torrid hot streak, shrugging off Tuesday's loss to an elite pitcher while Bohm, Stott, Sanchez, and Wheeler keep the belief very much alive \u2014 with only Aaron Nola casting a real shadow.",
     "reasoning": "The dominant mood is one of earned confidence: a scorching run under Mattingly, breakout performances from previously maligned roster pieces, and elite starting pitching have shifted the conversation from survival to October ambition. Tuesday's loss to Chase Burns was absorbed without panic \u2014 the overwhelming consensus was that a stinker was overdue and Burns simply pitched a great game. The one genuine fault line is Nola, where the analysis has moved from concern to something closer to dread, with his declining stuff and long contract creating a real drag on pitching confidence scores. Aidan Miller's injury opacity adds a secondary health note, but the broader roster health picture is stable enough that optimism holds.",
     "people_mentioned": [
       "Mattingly",

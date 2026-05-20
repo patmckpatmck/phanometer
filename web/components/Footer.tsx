@@ -17,10 +17,10 @@ export function Footer({ generatedAt }: { generatedAt: string }) {
         <div className="footer-h">Methodology</div>
         <p>
           Each day, Phan-o-meter pulls from public sources — MLB Stats API for scores and gate
-          figures, and publicly available podcast and YouTube feeds — and scores seven dimensions
-          of fan mood on a 0–100 scale. The composite is a weighted blend of those dimensions;
-          voice breakdowns capture how each constituency (fans, beat writers, analysts, talk
-          radio) is reading the team that day.
+          figures, publicly available podcast and YouTube feeds, and r/phillies posts and
+          comments — and scores seven dimensions of fan mood on a 0–100 scale. The composite is
+          a weighted blend of those dimensions; voice breakdowns capture how each constituency
+          (fans, beat writers, analysts, talk radio) is reading the team that day.
         </p>
         <p>
           Scoring summaries and thematic write-ups are mostly AI-generated. AI can hallucinate —
