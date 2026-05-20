@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     images: ['/assets/og-default.png'],
   },
   verification: {
-    google: '7048b82f75a9b59f',
+    google: 'dOQq34Am2KlwBseyfTxPeoYNH9oXHfuLHbPiAeqIidA',
   },
 };
 
