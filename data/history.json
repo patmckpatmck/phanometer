@@ -6852,5 +6852,265 @@
       "games_behind": "8.0"
     },
     "generated_at": "2026-05-20T12:29:52.117046+00:00"
+  },
+  {
+    "date": "2026-05-21",
+    "display_score": 47,
+    "reactive_score": 47,
+    "baseline_score": 64,
+    "insufficient_signal": false,
+    "content_volume": 315,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 42,
+      "front_office_trust": 38,
+      "manager_confidence": 68,
+      "lineup_confidence": 58,
+      "pitching_confidence": 45,
+      "health_outlook": 38,
+      "postseason_belief": 30
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 82,
+      "front_office_trust": 55,
+      "manager_confidence": 72,
+      "lineup_confidence": 78,
+      "pitching_confidence": 90,
+      "health_outlook": 65,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": 40,
+        "note": "r/phillies game thread is raw and frustrated \u2014 Nola rage, bullpen disgust, Adolis Garcia mockery \u2014 but Sanchez worship and Bohm/Stott optimism provide real countervailing energy."
+      },
+      "fan_analyst": {
+        "score": 52,
+        "note": "Hittin' Season and The Phillies Show are measured: Bohm and Stott turnarounds celebrated, Painter trending up, but Nola's ERA and the ABS-era argument cast a long shadow over rotation outlook and trade-deadline urgency."
+      },
+      "beat_writer": null,
+      "radio_populist": {
+        "score": 44,
+        "note": "WIP segments are split between Realmuto's optimistic 'small adjustment' framing for Nola and Nola's own frank self-assessment, with the silver-lining host barely finding positives after the 9-4 loss."
+      }
+    },
+    "themes": [
+      {
+        "name": "Nola's Nightmare Deepens",
+        "delta": -8,
+        "sample": "A 6.04 ERA, the worst fastball run value in baseball, and no clear fix in sight \u2014 the $96 million extension looms larger with every five-inning, traffic-filled start."
+      },
+      {
+        "name": "Bohm and Stott Resurgence",
+        "delta": 7,
+        "sample": "Both have gone from lineup liabilities to genuine lineup lengtheners in May, with Stott among the MLB RBI leaders for the month and Bohm hitting north of .400 since his reset."
+      },
+      {
+        "name": "Sanchez Is Elite, Full Stop",
+        "delta": 8,
+        "sample": "The best changeup in baseball, the lowest ERA in the National League, and a complete-game shutout performance that put his name in historic company \u2014 the ace conversation has arrived."
+      },
+      {
+        "name": "Bullpen and Outfield: Two Obvious Holes",
+        "delta": -6,
+        "sample": "Kerkering, Keller, and Alvarado are all drawing heat after the series loss, and Adolis Garcia's .207 average has fans and analysts openly calling for a right-handed outfield upgrade at the deadline."
+      },
+      {
+        "name": "Aidan Miller's Back Situation Quietly Alarming",
+        "delta": -5,
+        "sample": "The top prospect still isn't swinging a bat in late May, and the vague 'light baseball activity' update isn't calming the nerves of those counting on him as a future middle-of-the-order answer."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Aaron Nola isn't going anywhere. You've got him locked in for $96 million between next year and 2030.",
+        "score": 18,
+        "source_hint": "Hittin' Season host (Stolnis)"
+      },
+      {
+        "text": "I feel like he's just a small adjustment away from being, you know, you saw how good he was in the first inning today. It's still in there.",
+        "score": 52,
+        "source_hint": "J.T. Realmuto interview on 94 WIP"
+      },
+      {
+        "text": "Having the best and worst pitch in the same rotation sure is interesting.",
+        "score": 50,
+        "source_hint": "r/phillies comment thread"
+      },
+      {
+        "text": "Bullpen help and an outfield bat. Every deadline is the same.",
+        "score": 33,
+        "source_hint": "r/phillies game thread"
+      }
+    ],
+    "vibe_summary": "Fans are cautiously treading water at .500 \u2014 Sanchez is a genuine ace and Bohm and Stott have come alive, but Nola's ongoing collapse, bullpen fragility, and a brutal 12-game gauntlet ahead keep optimism firmly in check.",
+    "reasoning": "The series loss to Cincinnati crystallized the team's split identity: a legitimate top-of-rotation ace in Sanchez, a resurgent middle of the lineup, and a managerial change that has stabilized the clubhouse \u2014 set against a back-end rotation that is functionally broken, a bullpen with multiple unreliable arms, and an outfield corner that is statistically one of the worst in the league. The most analytically detailed content drills deep into Nola's ABS-era command problems and Adolis Garcia's two-season pattern of futility, framing both as trade-deadline questions rather than fixable in-house problems. The game-thread mood is sharp and frustrated after the 9-4 loss, but not despairing \u2014 the Sanchez and Schwarber ceiling keeps the floor from collapsing entirely.",
+    "people_mentioned": [
+      "Nola",
+      "Sanchez",
+      "Bohm",
+      "Stott",
+      "Mattingly",
+      "Garcia",
+      "Painter",
+      "Schwarber",
+      "Harper",
+      "Duran",
+      "Kerkering",
+      "Lozardo",
+      "Wheeler",
+      "Sosa",
+      "Turner",
+      "Realmuto",
+      "Dombrowski",
+      "Aidan Miller",
+      "Gage Wood",
+      "Alvarado",
+      "Keller",
+      "Marsh",
+      "Crawford",
+      "Dusty Wathen"
+    ],
+    "source_counts": {
+      "reddit_posts": 20,
+      "reddit_comments": 128,
+      "match_threads": 1,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 120591,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 4741
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Finally Drop A Series",
+        "voice": "fan_analyst",
+        "chars": 34109
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Three Phillies trending upward in May",
+        "voice": "fan_analyst",
+        "chars": 35086
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "BACK?! Everything clicking for the Phillies as hot streak continues",
+        "voice": "fan_analyst",
+        "chars": 51396
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "J.T. Realmuto's Confident Aaron Nola Will \"Figure It Out\"",
+        "voice": "radio_populist",
+        "chars": 1232
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Aaron Nola Continues to Struggle",
+        "voice": "radio_populist",
+        "chars": 1101
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Reds vs Phillies Silver Linings",
+        "voice": "radio_populist",
+        "chars": 2408
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 91.7,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 97.2,
+        "delta_pct": -5.4,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823467,
+            "date": "2026-05-07",
+            "day_of_week": "Thursday",
+            "opponent": "Athletics",
+            "result": "L 1-12",
+            "attendance": 37543,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823466,
+            "date": "2026-05-08",
+            "day_of_week": "Friday",
+            "opponent": "Colorado Rockies",
+            "result": "L 7-9",
+            "attendance": 39478,
+            "pct_capacity": 92.0,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823468,
+            "date": "2026-05-09",
+            "day_of_week": "Saturday",
+            "opponent": "Colorado Rockies",
+            "result": "W 9-3",
+            "attendance": 38043,
+            "pct_capacity": 88.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823463,
+            "date": "2026-05-10",
+            "day_of_week": "Sunday",
+            "opponent": "Colorado Rockies",
+            "result": "W 6-0",
+            "attendance": 44620,
+            "pct_capacity": 104.0,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823465,
+            "date": "2026-05-18",
+            "day_of_week": "Monday",
+            "opponent": "Cincinnati Reds",
+            "result": "W 5-4",
+            "attendance": 40065,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823464,
+            "date": "2026-05-19",
+            "day_of_week": "Tuesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 1-4",
+            "attendance": 37527,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823462,
+            "date": "2026-05-20",
+            "day_of_week": "Wednesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 4-9",
+            "attendance": 38222,
+            "pct_capacity": 89.1,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "25-25",
+      "streak": "L2",
+      "games_behind": "9.0"
+    },
+    "generated_at": "2026-05-21T12:35:16.464833+00:00"
   }
 ]
