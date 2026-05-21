@@ -6855,129 +6855,132 @@
   },
   {
     "date": "2026-05-21",
-    "display_score": 47,
-    "reactive_score": 47,
+    "display_score": 49,
+    "reactive_score": 49,
     "baseline_score": 64,
     "insufficient_signal": false,
-    "content_volume": 315,
+    "content_volume": 353,
     "mood_label": "Uneasy",
     "dimensions": {
       "results_satisfaction": 42,
       "front_office_trust": 38,
       "manager_confidence": 68,
       "lineup_confidence": 58,
-      "pitching_confidence": 45,
-      "health_outlook": 38,
-      "postseason_belief": 30
+      "pitching_confidence": 48,
+      "health_outlook": 45,
+      "postseason_belief": 35
     },
     "dimension_confidence": {
       "results_satisfaction": 82,
-      "front_office_trust": 55,
+      "front_office_trust": 60,
       "manager_confidence": 72,
       "lineup_confidence": 78,
       "pitching_confidence": 90,
       "health_outlook": 65,
-      "postseason_belief": 60
+      "postseason_belief": 55
     },
     "voice_breakdown": {
       "reddit": {
         "score": 40,
-        "note": "r/phillies game thread is raw and frustrated \u2014 Nola rage, bullpen disgust, Adolis Garcia mockery \u2014 but Sanchez worship and Bohm/Stott optimism provide real countervailing energy."
+        "note": "Match-thread venom aimed at Nola and the bullpen dominates; Sanchez adulation and Bohm/Stott momentum provide real counterweight, but the 9-4 loss and Nola discourse pull the overall score down."
       },
       "fan_analyst": {
         "score": 52,
-        "note": "Hittin' Season and The Phillies Show are measured: Bohm and Stott turnarounds celebrated, Painter trending up, but Nola's ERA and the ABS-era argument cast a long shadow over rotation outlook and trade-deadline urgency."
+        "note": "Hittin' Season and the Phillies Show both celebrate Bohm/Stott turnarounds and Painter's recent progress, but are candid about Nola being 'completely ineffective' and the left-handed-starter vulnerability; Phillies Talk (recorded before the series loss) is notably more euphoric, boosting the average."
       },
-      "beat_writer": null,
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
       "radio_populist": {
         "score": 44,
-        "note": "WIP segments are split between Realmuto's optimistic 'small adjustment' framing for Nola and Nola's own frank self-assessment, with the silver-lining host barely finding positives after the 9-4 loss."
+        "note": "WIP postgame and short clips are blunt about Nola's stuff 'dying at the plate' and bullpen inconsistency; Realmuto's confidence in Nola is noted but not shared by the host, who sees 'hope and a prayer' as the honest posture."
       }
     },
     "themes": [
       {
-        "name": "Nola's Nightmare Deepens",
+        "name": "Aaron Nola's Fastball Is Unsalvageable",
         "delta": -8,
-        "sample": "A 6.04 ERA, the worst fastball run value in baseball, and no clear fix in sight \u2014 the $96 million extension looms larger with every five-inning, traffic-filled start."
+        "sample": "Ranked dead last among 613 pitches in run value, a 6-plus ERA stretching back to last season, and postgame admissions of missing location \u2014 the sense that Nola is a rotation liability rather than an asset has hardened into near-consensus."
       },
       {
-        "name": "Bohm and Stott Resurgence",
+        "name": "Bohm and Stott Rescue the Lineup",
         "delta": 7,
-        "sample": "Both have gone from lineup liabilities to genuine lineup lengtheners in May, with Stott among the MLB RBI leaders for the month and Bohm hitting north of .400 since his reset."
+        "sample": "Alec Bohm's 400-plus average since his two-day reset and Bryson Stott's MLB-leading May RBI total have transformed the middle of the order from a liability into a genuine strength, lengthening a lineup that was dangerously top-heavy."
       },
       {
-        "name": "Sanchez Is Elite, Full Stop",
-        "delta": 8,
-        "sample": "The best changeup in baseball, the lowest ERA in the National League, and a complete-game shutout performance that put his name in historic company \u2014 the ace conversation has arrived."
-      },
-      {
-        "name": "Bullpen and Outfield: Two Obvious Holes",
+        "name": "Bullpen Depth Is a Real Problem",
         "delta": -6,
-        "sample": "Kerkering, Keller, and Alvarado are all drawing heat after the series loss, and Adolis Garcia's .207 average has fans and analysts openly calling for a right-handed outfield upgrade at the deadline."
+        "sample": "Kerkering, Keller, and Alvarado all drew sharp criticism for surrendering leads in the series loss; only Duran inspires consistent confidence, and the trade-deadline need for a high-leverage arm is already being discussed as non-negotiable."
       },
       {
-        "name": "Aidan Miller's Back Situation Quietly Alarming",
+        "name": "Sanchez and Wheeler as Cy Young Anchors",
+        "delta": 8,
+        "sample": "Christopher Sanchez's changeup rated the best pitch in baseball and his sub-2 ERA have made him a genuine Cy Young frontrunner, with Wheeler's dominant outing against Skeens putting two aces at the top of the rotation and generating real pride."
+      },
+      {
+        "name": "Adolis Garcia and the Reclamation-Project Outfield Cycle",
         "delta": -5,
-        "sample": "The top prospect still isn't swinging a bat in late May, and the vague 'light baseball activity' update isn't calming the nerves of those counting on him as a future middle-of-the-order answer."
+        "sample": "Garcia sitting well below league average \u2014 and Ben Revere's old slugging percentage being cited as a damning comparison \u2014 has reignited frustration with a front-office pattern of bargain-bin outfield signings that fail to upgrade a clear positional weakness."
       }
     ],
     "quotes": [
       {
-        "text": "Aaron Nola isn't going anywhere. You've got him locked in for $96 million between next year and 2030.",
-        "score": 18,
-        "source_hint": "Hittin' Season host (Stolnis)"
+        "text": "Aaron Nola's total pitching run value ranks him in the bottom 5 percentile, with that fastball really just dragging him down to oblivion.",
+        "score": 8,
+        "source_hint": "r/phillies stat post on Nola's fastball"
       },
       {
-        "text": "I feel like he's just a small adjustment away from being, you know, you saw how good he was in the first inning today. It's still in there.",
-        "score": 52,
-        "source_hint": "J.T. Realmuto interview on 94 WIP"
+        "text": "I feel like he's just a small adjustment away from being back. It's still in there.",
+        "score": 62,
+        "source_hint": "J.T. Realmuto, via WIP postgame clip"
       },
       {
-        "text": "Having the best and worst pitch in the same rotation sure is interesting.",
-        "score": 50,
-        "source_hint": "r/phillies comment thread"
+        "text": "It kind of feels like it's teetering out right now. Oh man, he's not even giving you quality innings anymore.",
+        "score": 12,
+        "source_hint": "talk-radio host, WIP High Hopes postgame"
       },
       {
-        "text": "Bullpen help and an outfield bat. Every deadline is the same.",
-        "score": 33,
-        "source_hint": "r/phillies game thread"
+        "text": "He is 100% completely and totally ineffective, and he doesn't seem to have any answers.",
+        "score": 10,
+        "source_hint": "fan analyst, Hittin' Season"
       }
     ],
-    "vibe_summary": "Fans are cautiously treading water at .500 \u2014 Sanchez is a genuine ace and Bohm and Stott have come alive, but Nola's ongoing collapse, bullpen fragility, and a brutal 12-game gauntlet ahead keep optimism firmly in check.",
-    "reasoning": "The series loss to Cincinnati crystallized the team's split identity: a legitimate top-of-rotation ace in Sanchez, a resurgent middle of the lineup, and a managerial change that has stabilized the clubhouse \u2014 set against a back-end rotation that is functionally broken, a bullpen with multiple unreliable arms, and an outfield corner that is statistically one of the worst in the league. The most analytically detailed content drills deep into Nola's ABS-era command problems and Adolis Garcia's two-season pattern of futility, framing both as trade-deadline questions rather than fixable in-house problems. The game-thread mood is sharp and frustrated after the 9-4 loss, but not despairing \u2014 the Sanchez and Schwarber ceiling keeps the floor from collapsing entirely.",
+    "vibe_summary": "Fans are caught between genuine excitement over Bohm, Stott, and a Cy Young-caliber top of the rotation and deepening dread that Aaron Nola and a shaky bullpen could unravel everything.",
+    "reasoning": "The series loss to Cincinnati crystallized two competing emotional currents: real belief in this roster's ceiling \u2014 fueled by Schwarber's historic home run pace, Sanchez's historic stretch, and the Bohm-Stott revival \u2014 and mounting anxiety that Nola's multi-season decline and bullpen inconsistency represent structural cracks that no hot streak can paper over. The most alarming framing came from postgame radio, which offered little hope that Nola's underlying stuff supports a turnaround, while the fan-analyst perspective recorded earlier in the week was more optimistic about the team's trajectory overall. The team sits at .500 and 9 games back, a gap that keeps postseason belief grounded despite the offensive and top-of-rotation brightness.",
     "people_mentioned": [
       "Nola",
       "Sanchez",
       "Bohm",
       "Stott",
+      "Wheeler",
       "Mattingly",
-      "Garcia",
       "Painter",
+      "Garcia",
       "Schwarber",
       "Harper",
-      "Duran",
-      "Kerkering",
-      "Lozardo",
-      "Wheeler",
-      "Sosa",
-      "Turner",
-      "Realmuto",
+      "Luzardo",
+      "Crawford",
       "Dombrowski",
+      "Duran",
+      "Realmuto",
+      "Sosa",
+      "Kerkering",
+      "Turner",
+      "Marsh",
       "Aidan Miller",
       "Gage Wood",
-      "Alvarado",
       "Keller",
-      "Marsh",
-      "Crawford",
-      "Dusty Wathen"
+      "Alvarado",
+      "Wathen"
     ],
     "source_counts": {
       "reddit_posts": 20,
-      "reddit_comments": 128,
+      "reddit_comments": 131,
       "match_threads": 1,
       "podcasts_attempted": 4,
-      "podcasts_transcribed": 3,
-      "podcast_chars": 120591,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 146802,
       "youtube_attempted": 3,
       "youtube_transcribed": 3,
       "youtube_chars": 4741
@@ -6987,29 +6990,35 @@
         "feed_name": "Hittin' Season",
         "title": "Phillies Finally Drop A Series",
         "voice": "fan_analyst",
-        "chars": 34109
+        "chars": 34010
       },
       {
         "feed_name": "The Phillies Show",
         "title": "Three Phillies trending upward in May",
         "voice": "fan_analyst",
-        "chars": 35086
+        "chars": 33269
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Phillies Bats Fall Silent In Loss To Reds",
+        "voice": "radio_populist",
+        "chars": 28527
       },
       {
         "feed_name": "Phillies Talk",
         "title": "BACK?! Everything clicking for the Phillies as hot streak continues",
         "voice": "fan_analyst",
-        "chars": 51396
+        "chars": 50996
       },
       {
         "feed_name": "94WIP",
-        "title": "J.T. Realmuto's Confident Aaron Nola Will \"Figure It Out\"",
+        "title": "J.T. Realmuto's Confident In Aaron Nola",
         "voice": "radio_populist",
         "chars": 1232
       },
       {
         "feed_name": "94WIP",
-        "title": "Aaron Nola Continues to Struggle",
+        "title": "Aaron Nola Admits He Is Struggling",
         "voice": "radio_populist",
         "chars": 1101
       },
@@ -7111,6 +7120,6 @@
       "streak": "L2",
       "games_behind": "9.0"
     },
-    "generated_at": "2026-05-21T12:35:16.464833+00:00"
+    "generated_at": "2026-05-21T12:52:01.982912+00:00"
   }
 ]
