@@ -1,0 +1,255 @@
+{
+  "date": "2026-05-22",
+  "display_score": 44,
+  "reactive_score": 44,
+  "baseline_score": 59,
+  "insufficient_signal": false,
+  "content_volume": 327,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 42,
+    "front_office_trust": 45,
+    "manager_confidence": 58,
+    "lineup_confidence": 55,
+    "pitching_confidence": 38,
+    "health_outlook": 40,
+    "postseason_belief": 35
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 55,
+    "manager_confidence": 65,
+    "lineup_confidence": 70,
+    "pitching_confidence": 92,
+    "health_outlook": 60,
+    "postseason_belief": 68
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": 48,
+      "note": "r/phillies mood is mixed-to-muted: Sanchez praise and nostalgic posts coexist with a sarcastic Nola joke ('Nola's fastball is David') and cautious takes on whether the hot streak against weak opponents is real."
+    },
+    "fan_analyst": {
+      "score": 38,
+      "note": "Hittin' Season and The Phillies Show both deliver detailed, grim assessments of Nola's decline and JT Realmuto's slump, tempered by genuine optimism on Bohm, Stott, and Painter's recent upswing."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 44,
+      "note": "WIP/High Hopes is deeply concerned about Nola with no clear solution in sight, agitated by the Harper batting-order drama, and only cautiously optimistic that the roster is good enough to make the playoffs."
+    }
+  },
+  "themes": [
+    {
+      "name": "Nola's Decline Has Become a Crisis",
+      "delta": -8,
+      "sample": "A 6.02 ERA over the last 27 starts \u2014 essentially a full season's worth of data \u2014 has shifted the conversation from slump to structural problem, with the four-seam fastball rated the worst pitch in baseball by run value and no clear fix on the horizon."
+    },
+    {
+      "name": "Bohm and Stott Finally Delivering",
+      "delta": 6,
+      "sample": "Bohm is hitting .421 with four home runs in his last 11 games since his two-day reset, and Stott's 18 RBIs lead baseball in May \u2014 two genuine bright spots lengthening a lineup that desperately needs depth."
+    },
+    {
+      "name": "Harper Batting-Order Controversy",
+      "delta": -4,
+      "sample": "Mattingly's candid admission that Harper 'doesn't like' hitting second has ignited a debate about star-player deference, with strong sentiment that the best lineup is being compromised by Harper's preference."
+    },
+    {
+      "name": "Sanchez Scoreless Streak Is Must-See",
+      "delta": 7,
+      "sample": "Christopher Sanchez carries a nearly 30-inning scoreless streak into the weekend and has jumped to No. 1 in MLB Pitcher Power Rankings, giving fans a genuine ace-level performance to celebrate."
+    },
+    {
+      "name": "Tough Schedule Ahead Is a Real Test",
+      "delta": -5,
+      "sample": "After running up a winning-series streak against softer opponents, the Phillies now face the Guardians, Padres, and Dodgers in 12 straight games \u2014 a gauntlet that will reveal whether the Mattingly turnaround is real or illusory."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Aaron Nola's four-seam fastball run value is a negative 13 \u2014 last out of 606 qualified pitches in baseball.",
+      "score": 12,
+      "source_hint": "fan analyst (The Phillies Show)"
+    },
+    {
+      "text": "If the Phillies are Goliath then Nola's fastball is David.",
+      "score": 15,
+      "source_hint": "r/phillies comment thread"
+    },
+    {
+      "text": "I know he doesn't like it. We try to do it sparingly, but since it's got extended past a day or two, just want to get him out of there.",
+      "score": 30,
+      "source_hint": "Don Mattingly audio, played on WIP/High Hopes"
+    },
+    {
+      "text": "There's too many good players for them not to be a good team and make the playoffs.",
+      "score": 58,
+      "source_hint": "talk-radio host (WIP/High Hopes)"
+    }
+  ],
+  "vibe_summary": "Fans are cautiously encouraged by the Bohm and Stott turnarounds and Sanchez's brilliance, but Nola's historic-level ineffectiveness and the Harper lineup drama are keeping the mood firmly unsettled at .500.",
+  "reasoning": "The dominant storyline is Aaron Nola's accelerating decline \u2014 with statistical evidence now spanning 27 starts, the conversation has moved from 'wait and see' to genuine alarm about playoff viability and contract albatross territory. There is real divergence in tone: the analytical discussion is technical and resigned (pitch mix changes, piggybacking, deadline trades as the only escape valve), while the broader fan mood is leavened by Bohm and Stott's hot stretches and Sanchez's dominance. The Harper batting-order episode adds a layer of irritation about star-player deference that cuts across all discussion, with Aidan Miller's continued absence from baseball activities adding a quiet but persistent injury anxiety underneath it all.",
+  "people_mentioned": [
+    "Nola",
+    "Sanchez",
+    "Painter",
+    "Bohm",
+    "Stott",
+    "Harper",
+    "Mattingly",
+    "Realmuto",
+    "Schwarber",
+    "Luzardo",
+    "Wheeler",
+    "Dombrowski",
+    "Aidan Miller",
+    "Gage Wood",
+    "Garcia",
+    "Kerkering",
+    "Duran",
+    "Alvarado",
+    "Turner",
+    "Crawford"
+  ],
+  "source_counts": {
+    "reddit_posts": 14,
+    "reddit_comments": 61,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 162757,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 26012
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "What's behind Aaron Nola's and J.T. Realmuto's struggles",
+      "voice": "fan_analyst",
+      "chars": 32867
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Four More Years! Four More Years! Four More Years!",
+      "voice": "radio_populist",
+      "chars": 59516
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Finally Drop A Series",
+      "voice": "fan_analyst",
+      "chars": 34393
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Three Phillies trending upward in May",
+      "voice": "fan_analyst",
+      "chars": 35981
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Is Bryce Harper Running The Phillies? Don Mattingly's Shocking Comments Explained | 94WIP",
+      "voice": "radio_populist",
+      "chars": 12067
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Rhea Hughes On Nolan Smith\u2019s Arrest",
+      "voice": "radio_populist",
+      "chars": 2430
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Report Card After 50 Games | 94WIP",
+      "voice": "radio_populist",
+      "chars": 11515
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 92.5,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -4.6,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823466,
+          "date": "2026-05-08",
+          "day_of_week": "Friday",
+          "opponent": "Colorado Rockies",
+          "result": "L 7-9",
+          "attendance": 39478,
+          "pct_capacity": 92.0,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823468,
+          "date": "2026-05-09",
+          "day_of_week": "Saturday",
+          "opponent": "Colorado Rockies",
+          "result": "W 9-3",
+          "attendance": 38043,
+          "pct_capacity": 88.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823463,
+          "date": "2026-05-10",
+          "day_of_week": "Sunday",
+          "opponent": "Colorado Rockies",
+          "result": "W 6-0",
+          "attendance": 44620,
+          "pct_capacity": 104.0,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823465,
+          "date": "2026-05-18",
+          "day_of_week": "Monday",
+          "opponent": "Cincinnati Reds",
+          "result": "W 5-4",
+          "attendance": 40065,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823464,
+          "date": "2026-05-19",
+          "day_of_week": "Tuesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 1-4",
+          "attendance": 37527,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823462,
+          "date": "2026-05-20",
+          "day_of_week": "Wednesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 4-9",
+          "attendance": 38222,
+          "pct_capacity": 89.1,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "25-25",
+    "streak": "L2",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-05-22T12:26:09.978942+00:00"
+}
