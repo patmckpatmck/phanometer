@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-23",
+  "display_score": 40,
+  "reactive_score": 40,
+  "baseline_score": 55,
+  "insufficient_signal": false,
+  "content_volume": 414,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 28,
+    "front_office_trust": 42,
+    "manager_confidence": 55,
+    "lineup_confidence": 45,
+    "pitching_confidence": 52,
+    "health_outlook": 38,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 88,
+    "front_office_trust": 35,
+    "manager_confidence": 50,
+    "lineup_confidence": 72,
+    "pitching_confidence": 90,
+    "health_outlook": 65,
+    "postseason_belief": 60
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": 28,
+      "note": "r/phillies match thread grief over wasting a Sanchez 8-inning shutout with zero offense; L3 streak drawing real frustration, not just gentle ribbing."
+    },
+    "fan_analyst": {
+      "score": 38,
+      "note": "Hittin' Season and the Phillies Show both deeply concerned about Nola's historically bad four-seam fastball and the growing sense his decline may be structural; offset slightly by Bohm, Stott, and Painter trending up."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 33,
+      "note": "WIP High Hopes openly discussing trading for a starter and floating Nola-to-closer as a live option; host admits he's in 'get me to October' mindset more than usual, a tell of underlying doubt."
+    }
+  },
+  "themes": [
+    {
+      "name": "Sanchez Masterpiece, Offense AWOL",
+      "delta": -6,
+      "sample": "Cristopher Sanchez threw eight scoreless innings and set a Phillies franchise record \u2014 then watched his team lose 1-0, extending the losing streak to three games and sparking real fury at a lineup that has gone cold at exactly the wrong time."
+    },
+    {
+      "name": "Nola's Fastball Is the Worst Pitch in Baseball",
+      "delta": -8,
+      "sample": "Opponents are hitting over .430 against the four-seamer, run value ranks last among 606 qualified pitches, and serious voices are now actively debating whether he should be moved to the bullpen or replaced via a deadline trade \u2014 not as a future concern but as a pressing 2026 problem."
+    },
+    {
+      "name": "Bohm and Stott Quietly Turning It Around",
+      "delta": 5,
+      "sample": "Alec Bohm is hitting .421 with a 1.227 OPS over his last 10 games since his two-day reset, and Bryson Stott leads all of baseball in May RBIs \u2014 genuine bright spots that give the lineup some depth it badly lacked in April."
+    },
+    {
+      "name": "Aidan Miller Injury Quietly Draining Optimism",
+      "delta": -4,
+      "sample": "Miller is still limited to 'light baseball activity' with no timetable, and the growing consensus is that this is shaping up to be a lost season for the team's best prospect, leaving the farm system thin at a moment the big-league club needs reinforcements."
+    },
+    {
+      "name": "Sanchez Praise Masking a Deeper Lefty-Hitting Problem",
+      "delta": -3,
+      "sample": "Even while celebrating Sanchez and Wheeler at the top of the rotation, there is a persistent undercurrent of dread about a lineup that hits .217 against left-handed pitching and will face far more of it as the season and postseason approach."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "You gotta win the Sanchez shutout games. You just gotta.",
+      "score": 18,
+      "source_hint": "r/phillies game thread"
+    },
+    {
+      "text": "Aaron Nola's four-seam fastball run value is a negative 13. That's last out of 606 qualified pitches in baseball.",
+      "score": 12,
+      "source_hint": "Phillies Show / fan analyst"
+    },
+    {
+      "text": "He's arguably the greatest pitcher the Phillies have developed since Cole Hamels.",
+      "score": 88,
+      "source_hint": "r/phillies, on Cristopher Sanchez"
+    },
+    {
+      "text": "I have been way more in get me to October mindset this year than in years past.",
+      "score": 30,
+      "source_hint": "WIP High Hopes / talk-radio host"
+    }
+  ],
+  "vibe_summary": "Wasting a historic Sanchez performance in a 1-0 loss has crystallized a gathering dread: the offense is cold again, Nola's decline looks structural, and a team that clawed back to .500 now sits 10.5 games out on a three-game skid.",
+  "reasoning": "The dominant emotional event is the Sanchez 1-0 loss \u2014 historically great pitching, historically inert offense \u2014 which landed on a fanbase already worn down by Aaron Nola's continuing freefall and a three-game losing streak. Analytical commentary is more clinical but no less grim on Nola, cataloguing the worst fastball in baseball by run value and openly debating bullpen conversion or a deadline starter acquisition as live options rather than hypotheticals. The one genuine counterweight is Bohm and Stott's recent surge, but that positive signal is muted by Aidan Miller's indefinite absence and the recurring nightmare of a lineup that cannot reliably hit left-handed pitching \u2014 a flaw that only grows in consequence as October approaches.",
+  "people_mentioned": [
+    "Sanchez",
+    "Nola",
+    "Bohm",
+    "Stott",
+    "Mattingly",
+    "Harper",
+    "Schwarber",
+    "Painter",
+    "Realmuto",
+    "Turner",
+    "Aidan Miller",
+    "Wheeler",
+    "Hoskins",
+    "Luzardo",
+    "Gage Wood",
+    "Garcia",
+    "Duran",
+    "Marsh"
+  ],
+  "source_counts": {
+    "reddit_posts": 21,
+    "reddit_comments": 163,
+    "match_threads": 1,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 169826,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 2,
+    "youtube_chars": 2440
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Welcome Rhys Hoskins and the Guardians",
+      "voice": "fan_analyst",
+      "chars": 42536
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "What's behind Aaron Nola's and J.T. Realmuto's struggles",
+      "voice": "fan_analyst",
+      "chars": 34099
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Four More Years! Four More Years! Four More Years!",
+      "voice": "radio_populist",
+      "chars": 56620
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Three Phillies trending upward in May",
+      "voice": "fan_analyst",
+      "chars": 36571
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Should Phillies Make Aaron Nola Their Closer?",
+      "voice": "radio_populist",
+      "chars": 1815
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Positive Phillies Outlook For Next 5-10 Years",
+      "voice": "radio_populist",
+      "chars": 625
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 91.9,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -5.1,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823468,
+          "date": "2026-05-09",
+          "day_of_week": "Saturday",
+          "opponent": "Colorado Rockies",
+          "result": "W 9-3",
+          "attendance": 38043,
+          "pct_capacity": 88.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823463,
+          "date": "2026-05-10",
+          "day_of_week": "Sunday",
+          "opponent": "Colorado Rockies",
+          "result": "W 6-0",
+          "attendance": 44620,
+          "pct_capacity": 104.0,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823465,
+          "date": "2026-05-18",
+          "day_of_week": "Monday",
+          "opponent": "Cincinnati Reds",
+          "result": "W 5-4",
+          "attendance": 40065,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823464,
+          "date": "2026-05-19",
+          "day_of_week": "Tuesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 1-4",
+          "attendance": 37527,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823462,
+          "date": "2026-05-20",
+          "day_of_week": "Wednesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 4-9",
+          "attendance": 38222,
+          "pct_capacity": 89.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823461,
+          "date": "2026-05-22",
+          "day_of_week": "Friday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 0-1",
+          "attendance": 38092,
+          "pct_capacity": 88.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "25-26",
+    "streak": "L3",
+    "games_behind": "10.5"
+  },
+  "generated_at": "2026-05-23T11:18:21.517258+00:00"
+}
