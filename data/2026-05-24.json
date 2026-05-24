@@ -1,0 +1,224 @@
+{
+  "date": "2026-05-24",
+  "display_score": 72,
+  "reactive_score": 72,
+  "baseline_score": 50,
+  "insufficient_signal": false,
+  "content_volume": 200,
+  "mood_label": "Buzzing",
+  "dimensions": {
+    "results_satisfaction": 74,
+    "front_office_trust": 68,
+    "manager_confidence": 52,
+    "lineup_confidence": 62,
+    "pitching_confidence": 88,
+    "health_outlook": 72,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 55,
+    "manager_confidence": 18,
+    "lineup_confidence": 65,
+    "pitching_confidence": 95,
+    "health_outlook": 70,
+    "postseason_belief": 45
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": 75,
+      "note": "r/phillies match thread buzzing with Wheeler and Sanchez worship, genuine joy after 3-0 win; Garcia and Nola concerns simmer underneath"
+    },
+    "fan_analyst": {
+      "score": null,
+      "note": null
+    },
+    "beat_writer": {
+      "score": 72,
+      "note": "beat writer (Phillies Therapy) effusive about Wheeler and Sanchez, carefully notes remaining potholes \u2014 Garcia, Turner, Bohm inconsistency, and the non-Wheeler/Sanchez rotation slots"
+    },
+    "radio_populist": {
+      "score": 44,
+      "note": "talk-radio host (WIP Daily) floating Nola-to-closer idea driven by dissatisfaction with his starter role; cautiously optimistic about long-term org direction but hedged on near-term window"
+    }
+  },
+  "themes": [
+    {
+      "name": "Wheeler and Sanchez Are Untouchable",
+      "delta": 9,
+      "sample": "A 3-0 shutout win, Wheeler tying a franchise wins record and posting a sub-1.70 ERA since returning from thoracic outlet surgery, while Sanchez is being called the best left-handed pitcher in baseball \u2014 the top of the rotation has become appointment viewing."
+    },
+    {
+      "name": "Rotation Depth Still a Real Question",
+      "delta": -5,
+      "sample": "Painter, Luzardo, and Nola face immediate scrutiny as the next three scheduled starters; one talk-radio segment openly floated moving Nola to the bullpen, and concerns about ERA and reliability beyond the top two are a persistent undercurrent."
+    },
+    {
+      "name": "Offense Finding Its Footing, But Unevenly",
+      "delta": 3,
+      "sample": "Schwarber and Harper are carrying the lineup with improved plate discipline, Stott and Bohm have flashed better recent numbers, but Garcia's strikeout rate and Turner's struggles at the top of the order keep the offense feeling top-heavy."
+    },
+    {
+      "name": "Front Office Investing in the Future",
+      "delta": 5,
+      "sample": "The signing of 17-year-old Korean RHP Chan-min Park and a minor trade for international bonus pool money generated genuine excitement, with fans already joking about the 2032 Phillies being scary."
+    },
+    {
+      "name": "Duran's Role and Long-Term Cost",
+      "delta": -2,
+      "sample": "A Duran save earned appreciative reactions in the game thread, but questions are quietly surfacing about whether the front office can afford to extend him given the existing payroll commitments."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Wheeler and Sanchez are the best tandem in baseball and it's not particularly close",
+      "score": 91,
+      "source_hint": "r/phillies game thread"
+    },
+    {
+      "text": "It will be S\u00e1nchez vs Wheeler for the cy young, book it.",
+      "score": 88,
+      "source_hint": "r/phillies game thread"
+    },
+    {
+      "text": "every time I see him, it makes me sick to my stomach",
+      "score": 18,
+      "source_hint": "talk-radio host (WIP Daily), on Nola as a starter"
+    },
+    {
+      "text": "3 GB of the wild card after the first 35 games of this season is amazing.",
+      "score": 70,
+      "source_hint": "r/phillies game day thread"
+    }
+  ],
+  "vibe_summary": "Phillies fans are riding high on the Wheeler-Sanchez rotation tandem, celebrating a shutout win and a remarkable turnaround from the season's ugly start, even as quiet doubts about the rest of the pitching staff and a patchy lineup linger.",
+  "reasoning": "The dominant story today is Wheeler's continued brilliance post-surgery and Sanchez's case as baseball's best lefty, which together have pulled the team back to .500 and generated genuine euphoria. The more cautious thread running through the day centers on rotation depth beyond the top two \u2014 with one segment openly questioning whether Nola belongs in the starting rotation at all \u2014 and an offense that still relies heavily on two or three bats. The celebratory mood is real but calibrated: this is relief and excitement, not full-throated championship confidence, and the division gap keeps postseason belief measured rather than soaring.",
+  "people_mentioned": [
+    "Wheeler",
+    "Sanchez",
+    "Schwarber",
+    "Harper",
+    "Nola",
+    "Duran",
+    "Luzardo",
+    "Painter",
+    "Stott",
+    "Bohm",
+    "Garcia",
+    "Turner",
+    "Park"
+  ],
+  "source_counts": {
+    "reddit_posts": 16,
+    "reddit_comments": 123,
+    "match_threads": 1,
+    "podcasts_attempted": 2,
+    "podcasts_transcribed": 1,
+    "podcast_chars": 43586,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 2,
+    "youtube_chars": 2440
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Shaping Up in Boston",
+      "voice": "beat_writer",
+      "chars": 43586
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Should Phillies Make Aaron Nola Their Closer?",
+      "voice": "radio_populist",
+      "chars": 1815
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Positive Phillies Outlook For Next 5-10 Years",
+      "voice": "radio_populist",
+      "chars": 625
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 91.2,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -5.9,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823463,
+          "date": "2026-05-10",
+          "day_of_week": "Sunday",
+          "opponent": "Colorado Rockies",
+          "result": "W 6-0",
+          "attendance": 44620,
+          "pct_capacity": 104.0,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823465,
+          "date": "2026-05-18",
+          "day_of_week": "Monday",
+          "opponent": "Cincinnati Reds",
+          "result": "W 5-4",
+          "attendance": 40065,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823464,
+          "date": "2026-05-19",
+          "day_of_week": "Tuesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 1-4",
+          "attendance": 37527,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823462,
+          "date": "2026-05-20",
+          "day_of_week": "Wednesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 4-9",
+          "attendance": 38222,
+          "pct_capacity": 89.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823461,
+          "date": "2026-05-22",
+          "day_of_week": "Friday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 0-1",
+          "attendance": 38092,
+          "pct_capacity": 88.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823458,
+          "date": "2026-05-23",
+          "day_of_week": "Saturday",
+          "opponent": "Cleveland Guardians",
+          "result": "W 3-0",
+          "attendance": 36125,
+          "pct_capacity": 84.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "26-26",
+    "streak": "W1",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-05-24T11:21:40.367592+00:00"
+}
