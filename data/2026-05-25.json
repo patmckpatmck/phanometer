@@ -1,0 +1,241 @@
+{
+  "date": "2026-05-25",
+  "display_score": 46,
+  "reactive_score": 46,
+  "baseline_score": 57,
+  "insufficient_signal": false,
+  "content_volume": 305,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 32,
+    "front_office_trust": 30,
+    "manager_confidence": 42,
+    "lineup_confidence": 28,
+    "pitching_confidence": 88,
+    "health_outlook": 62,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 58,
+    "manager_confidence": 52,
+    "lineup_confidence": 88,
+    "pitching_confidence": 95,
+    "health_outlook": 50,
+    "postseason_belief": 60
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": 28,
+      "note": "r/phillies match thread raw frustration: wasted elite pitching, RISP failures, Trea Turner slump, Garcia automatic out \u2014 punctuated by genuine joy over Sanchez and Painter's growth."
+    },
+    "fan_analyst": {
+      "score": 52,
+      "note": "Hittin' Season and Phillies Talk split between effusive praise for Sanchez/Wheeler as potentially the best 1-2 in franchise history, and sober alarm about the right-handed offensive black hole and Nola's regression."
+    },
+    "beat_writer": {
+      "score": 62,
+      "note": "Phillies Therapy (recorded during the Pittsburgh sweep) is the most optimistic voice \u2014 crediting star players for engineering the turnaround and contextualizing remaining holes without minimizing them."
+    },
+    "radio_populist": {
+      "score": 33,
+      "note": "Talk-radio host (WIP) floated moving Nola to the bullpen as a serious proposal, and expressed more long-term than near-term confidence, signaling real concern about the current roster ceiling."
+    }
+  },
+  "themes": [
+    {
+      "name": "Elite Pitching Wasted by a Silent Offense",
+      "delta": -7,
+      "sample": "The starting staff posted a 0.70 combined ERA in May and went 20-plus innings allowing 2 earned runs in the Cleveland series \u2014 and the team still went 1-2. Scoring four total runs in a three-game home series has become a defining crisis."
+    },
+    {
+      "name": "Sanchez and Wheeler Ascending to Historic Territory",
+      "delta": 9,
+      "sample": "With a combined ERA under one for most of May and a scoreless-inning streak approaching a Phillies record, the two aces are being seriously compared to Halladay and Lee as the greatest pitching duo in franchise history."
+    },
+    {
+      "name": "Right-Handed Lineup a Black Hole",
+      "delta": -8,
+      "sample": "Turner, Garcia, Bohm, Realmuto, and Sosa are all hitting below .225. The inability to produce from the right side \u2014 especially against left-handed pitching \u2014 has become the team's single biggest structural flaw, with a trade-deadline fix seen as unavoidable but complicated."
+    },
+    {
+      "name": "Aaron Nola's Future in the Rotation in Question",
+      "delta": -6,
+      "sample": "With an ERA back over six and nothing working \u2014 not the fastball velocity, not the pitch mix, not pitching backwards \u2014 serious suggestions have emerged about moving him to the bullpen, invoking the John Smoltz post-surgery conversion as a template."
+    },
+    {
+      "name": "Painter Turning a Corner, but Stakes Are High",
+      "delta": 4,
+      "sample": "Three consecutive solid starts, pitching backwards with an improving splitter, have generated genuine optimism about Andrew Painter developing into a reliable fourth starter \u2014 critical insurance given the questions around the rest of the rotation."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "SP in this series went 20.1 innings, 2 ER. 1-2 in those games. Yikes.",
+      "score": 15,
+      "source_hint": "r/phillies game thread post-series"
+    },
+    {
+      "text": "Facing a left handed pitcher should not be an automatic loss for a $300m dollar team",
+      "score": 12,
+      "source_hint": "r/phillies post-game thread"
+    },
+    {
+      "text": "If they stay healthy, Wheeler as good as he is, Sanchez as good as he is, and seemingly getting better, yeah, they could be both 8-plus war.",
+      "score": 90,
+      "source_hint": "fan analyst, Hittin' Season / The Phillies Show"
+    },
+    {
+      "text": "I would at the trade deadline get another starter, put that starter in the rotation, put Nola in the bullpen and say, let loose and see if this guy can pitch out of the bullpen.",
+      "score": 28,
+      "source_hint": "talk-radio host, WIP Daily"
+    }
+  ],
+  "vibe_summary": "Fans are dazzled by arguably the best pitching duo in franchise history but growing genuinely alarmed that a historically inept offense keeps squandering it, with the West Coast trip looming as a critical test.",
+  "reasoning": "The dominant tension is a historically elite top-two rotation being let down by one of the worst run-producing lineups the franchise has fielded at this price point \u2014 four runs in three games against Cleveland while the starters allowed two earned runs over 20-plus innings crystallizes the problem. The most optimistic framing came from content recorded during the Pittsburgh sweep, before the Cleveland series exposed the same offensive dysfunction. Near-term sentiment is dragged down by Turner's slump, the right-handed lineup crisis, Nola's deterioration, and a 9.5-game division deficit; postseason belief scores low not because fans have given up but because the only forward-looking arguments are structural reassurance about wild-card slots, not genuine expressions of October confidence.",
+  "people_mentioned": [
+    "Sanchez",
+    "Wheeler",
+    "Turner",
+    "Nola",
+    "Painter",
+    "Garcia",
+    "Harper",
+    "Schwarber",
+    "Bohm",
+    "Stott",
+    "Mattingly",
+    "Realmuto",
+    "Marsh",
+    "Luzardo",
+    "Sosa",
+    "Dombrowski",
+    "Duran",
+    "Alvarado"
+  ],
+  "source_counts": {
+    "reddit_posts": 15,
+    "reddit_comments": 142,
+    "match_threads": 1,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 108714,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 2,
+    "youtube_chars": 2440
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "S\u00e1nchez and Wheeler might be best 1-2 punch in Phillies history.",
+      "voice": "fan_analyst",
+      "chars": 30479
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies offense hits speed bump as major West Coast trip looms",
+      "voice": "fan_analyst",
+      "chars": 36258
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Shaping Up in Boston",
+      "voice": "beat_writer",
+      "chars": 41977
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Should Phillies Make Aaron Nola Their Closer?",
+      "voice": "radio_populist",
+      "chars": 1815
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Positive Phillies Outlook For Next 5-10 Years",
+      "voice": "radio_populist",
+      "chars": 625
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 88.5,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -8.5,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823465,
+          "date": "2026-05-18",
+          "day_of_week": "Monday",
+          "opponent": "Cincinnati Reds",
+          "result": "W 5-4",
+          "attendance": 40065,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823464,
+          "date": "2026-05-19",
+          "day_of_week": "Tuesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 1-4",
+          "attendance": 37527,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823462,
+          "date": "2026-05-20",
+          "day_of_week": "Wednesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 4-9",
+          "attendance": 38222,
+          "pct_capacity": 89.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823461,
+          "date": "2026-05-22",
+          "day_of_week": "Friday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 0-1",
+          "attendance": 38092,
+          "pct_capacity": 88.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823458,
+          "date": "2026-05-23",
+          "day_of_week": "Saturday",
+          "opponent": "Cleveland Guardians",
+          "result": "W 3-0",
+          "attendance": 36125,
+          "pct_capacity": 84.2,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823459,
+          "date": "2026-05-24",
+          "day_of_week": "Sunday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 1-3",
+          "attendance": 37808,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "26-27",
+    "streak": "L1",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-05-25T13:06:04.609797+00:00"
+}
