@@ -1,0 +1,249 @@
+{
+  "date": "2026-05-26",
+  "display_score": 55,
+  "reactive_score": 55,
+  "baseline_score": 54,
+  "insufficient_signal": false,
+  "content_volume": 424,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 58,
+    "front_office_trust": 42,
+    "manager_confidence": 50,
+    "lineup_confidence": 32,
+    "pitching_confidence": 88,
+    "health_outlook": 62,
+    "postseason_belief": 35
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 80,
+    "front_office_trust": 55,
+    "manager_confidence": 45,
+    "lineup_confidence": 92,
+    "pitching_confidence": 97,
+    "health_outlook": 50,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": 62,
+      "note": "r/phillies buzzing after the 3-0 win \u2014 Schwarber homer and Marsh two-run shot drove celebration, Duran's 100th save got big upvotes, but persistent dread about Turner, Garcia, and the overall lineup quality kept the mood split."
+    },
+    "fan_analyst": {
+      "score": 48,
+      "note": "Hittin' Season and The Phillies Show both lavished praise on Sanchez and Wheeler as historically elite, but spent most of their runtime dissecting a historically bad right-handed hitting group and expressing real uncertainty about whether this team is much better than .500."
+    },
+    "beat_writer": {
+      "score": 44,
+      "note": "Phillies Therapy framed Memorial Day as an honest reckoning \u2014 26-27 entering the West Coast trip, worst leadoff OBP in franchise history, Garcia two-for-his-last-40, and a sober question of whether this team is genuinely a .500 club rather than a temporarily misfiring contender."
+    },
+    "radio_populist": {
+      "score": 55,
+      "note": "High Hopes took a breezy 'natural ebb and flow' tone on the offensive struggles while celebrating the Sanchez-Wheeler run; a separate WIP segment floated moving Nola to the bullpen and raised longer-term roster concerns, keeping the overall score moderate."
+    }
+  },
+  "themes": [
+    {
+      "name": "Sanchez & Wheeler Making History",
+      "delta": 9,
+      "sample": "A combined 0.70 ERA in May, 30 scoreless innings over their last four starts, and comparisons to the Halladay-Lee duo are flying \u2014 this top-two punch is the undeniable engine keeping the season alive."
+    },
+    {
+      "name": "Right-Handed Hitting Crisis",
+      "delta": -9,
+      "sample": "A .206 team batting average from right-handed hitters \u2014 dead last in baseball \u2014 with Garcia two-for-his-last-40 and Turner posting a historically bad .281 OBP from the leadoff spot, leaving the lineup dangerously dependent on Schwarber and Harper."
+    },
+    {
+      "name": "Marsh Emerging, Platoon Logic Questioned",
+      "delta": 5,
+      "sample": "Marsh's two-run homer and continued production against lefties sparked fresh debate about why the outfield platoon is still in place, with fans and analysts alike questioning whether the numbers now justify letting him and Stott play every day."
+    },
+    {
+      "name": "Division Is Gone, Wild Card Is the Reality",
+      "delta": -4,
+      "sample": "With the Braves 9 games up, talk of winning the NL East has effectively ended; the conversation has shifted entirely to staying afloat in the wild-card race and whether this roster can sustain even that ambition through a brutal upcoming schedule."
+    },
+    {
+      "name": "Deadline Help Needed but Hard to Find",
+      "delta": -3,
+      "sample": "Mattingly's admission that Garcia is playing because there's no better option crystallized a roster construction problem \u2014 right-handed outfield help is the obvious need, but the pool of available upgrades is thin and the farm system offers little leverage."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Adolis-Crawford-Marchan-Trea is like a murderers row of terrible hitting",
+      "score": 12,
+      "source_hint": "r/phillies game thread"
+    },
+    {
+      "text": "They are now four and twelve on the season against lefty non opening starters.",
+      "score": 22,
+      "source_hint": "fan analyst, Hittin' Season"
+    },
+    {
+      "text": "The pitching makes you feel bullish.",
+      "score": 78,
+      "source_hint": "talk-radio host, High Hopes"
+    },
+    {
+      "text": "I don't really have an alternative, at least one that's an upgrade offensively.",
+      "score": 30,
+      "source_hint": "beat writer (Phillies Therapy), quoting Mattingly on Garcia"
+    }
+  ],
+  "vibe_summary": "A gritty 3-0 win over the Padres offered genuine relief, but the mood stays tense \u2014 elite pitching continues to carry a lineup so reliant on Schwarber and Harper that everyone else feels like dead weight.",
+  "reasoning": "The Phillies' 27-27 record and a convincing Memorial Day win lifted spirits after a rough homestand, and Sanchez and Wheeler's historic run gives fans something real to celebrate. But the offensive alarm is deep and cross-cutting: Turner's leadoff production is the worst in franchise history, Garcia has been functionally absent, and there's no in-house fix or imminent trade help on the horizon. The analytical framing is more sober and structural \u2014 the team may genuinely be a .500 club \u2014 while the game-thread energy swung positive with Marsh and Schwarber providing the night's heroics; the divergence between celebratory Reddit reaction to a specific win and the broader analytical pessimism about the roster is the defining tension of the day.",
+  "people_mentioned": [
+    "Sanchez",
+    "Wheeler",
+    "Turner",
+    "Garcia",
+    "Marsh",
+    "Schwarber",
+    "Harper",
+    "Painter",
+    "Luzardo",
+    "Mattingly",
+    "Duran",
+    "Stott",
+    "Realmuto",
+    "Bohm",
+    "Nola",
+    "Crawford",
+    "Castellanos",
+    "Dombrowski",
+    "Sosa",
+    "Marchan"
+  ],
+  "source_counts": {
+    "reddit_posts": 21,
+    "reddit_comments": 155,
+    "match_threads": 1,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 183778,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 2,
+    "youtube_chars": 2440
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "A Mature And Reasonable Look At Phillies Baseball",
+      "voice": "radio_populist",
+      "chars": 49479
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Right-Handed and Right Stranded",
+      "voice": "beat_writer",
+      "chars": 40424
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "The Pitching Is Awesome and the Hitting Is Awful",
+      "voice": "fan_analyst",
+      "chars": 60083
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "S\u00e1nchez and Wheeler might be best 1-2 punch in Phillies history.",
+      "voice": "fan_analyst",
+      "chars": 33792
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Should Phillies Make Aaron Nola Their Closer?",
+      "voice": "radio_populist",
+      "chars": 1815
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Positive Phillies Outlook For Next 5-10 Years",
+      "voice": "radio_populist",
+      "chars": 625
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 88.5,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -8.5,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823465,
+          "date": "2026-05-18",
+          "day_of_week": "Monday",
+          "opponent": "Cincinnati Reds",
+          "result": "W 5-4",
+          "attendance": 40065,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823464,
+          "date": "2026-05-19",
+          "day_of_week": "Tuesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 1-4",
+          "attendance": 37527,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823462,
+          "date": "2026-05-20",
+          "day_of_week": "Wednesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 4-9",
+          "attendance": 38222,
+          "pct_capacity": 89.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823461,
+          "date": "2026-05-22",
+          "day_of_week": "Friday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 0-1",
+          "attendance": 38092,
+          "pct_capacity": 88.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823458,
+          "date": "2026-05-23",
+          "day_of_week": "Saturday",
+          "opponent": "Cleveland Guardians",
+          "result": "W 3-0",
+          "attendance": 36125,
+          "pct_capacity": 84.2,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823459,
+          "date": "2026-05-24",
+          "day_of_week": "Sunday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 1-3",
+          "attendance": 37808,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "27-27",
+    "streak": "W1",
+    "games_behind": "9.0"
+  },
+  "generated_at": "2026-05-26T13:55:54.564238+00:00"
+}
