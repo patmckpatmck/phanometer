@@ -8337,5 +8337,259 @@
       "games_behind": "9.0"
     },
     "generated_at": "2026-05-26T13:55:54.564238+00:00"
+  },
+  {
+    "date": "2026-05-27",
+    "display_score": 56,
+    "reactive_score": 56,
+    "baseline_score": 54,
+    "insufficient_signal": false,
+    "content_volume": 363,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 38,
+      "manager_confidence": 48,
+      "lineup_confidence": 32,
+      "pitching_confidence": 91,
+      "health_outlook": 68,
+      "postseason_belief": 35
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 58,
+      "manager_confidence": 45,
+      "lineup_confidence": 88,
+      "pitching_confidence": 95,
+      "health_outlook": 40,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": 66,
+        "note": "r/phillies is riding a win-thread high \u2014 Harper homer posts, Sanchez/Wheeler reverence, and Nola bounce-back relief dominate; undertow of Turner frustration and lineup anxiety keeps it from pure euphoria."
+      },
+      "fan_analyst": {
+        "score": 55,
+        "note": "Fan analyst voices (The Phillies Show and Phillies Talk) are genuinely awed by Sanchez/Wheeler but deeply troubled by right-handed offensive production and openly worried the team is structurally flawed heading into a brutal road trip."
+      },
+      "beat_writer": {
+        "score": 48,
+        "note": "The beat writer (Phillies Therapy / Matt Gelb) delivers the most sober read \u2014 questioning whether hovering around .500 is the team's true level, flagging historically bad leadoff OBP, and framing the west coast trip as a genuine test with few easy answers."
+      },
+      "radio_populist": {
+        "score": 44,
+        "note": "Talk-radio host (High Hopes / WIP) toggles between genuine pitching bullishness and blunt acknowledgment that the offense is broken \u2014 calling the team 'fundamentally flawed' and pinning it on front-office decisions."
+      }
+    },
+    "themes": [
+      {
+        "name": "Sanchez & Wheeler Are Historic",
+        "delta": 9,
+        "sample": "A combined ERA under one run for the month, comparisons to Halladay-Lee, and a scoreless-inning streak closing in on franchise records have fans and analysts in genuine awe of the one-two punch at the top of the rotation."
+      },
+      {
+        "name": "Right-Handed Offense Is Broken",
+        "delta": -8,
+        "sample": "Every primary right-handed bat \u2014 Turner, Garcia, Realmuto, Bohm \u2014 is hitting well below .230, the leadoff OBP is historically bad by franchise standards, and there is no internal fix available before the trade deadline."
+      },
+      {
+        "name": "Turner Slump Is the Defining Anxiety",
+        "delta": -7,
+        "sample": "A .225 average, a sub-.280 OBP from the leadoff spot, and an 0-for-12 weekend have turned Trey Turner into the most discussed and most frustrating player on the roster \u2014 with no obvious way to hide or replace him."
+      },
+      {
+        "name": "Win Over Padres Lifts the Mood",
+        "delta": 6,
+        "sample": "A 4-3 road win \u2014 built on Harper's home run, solo shots, and a bullpen hold \u2014 snapped a losing skid and had the game thread buzzing about a potential sweep, offering a tangible mood reset after a rough homestand."
+      },
+      {
+        "name": "Deadline Help Feels Unlikely to Solve It",
+        "delta": -5,
+        "sample": "Frustration with the front office's track record on right-handed bats runs deep \u2014 with half-measure deadline additions cited repeatedly \u2014 and the league-wide scarcity of productive right-handed outfielders makes a real fix seem structurally out of reach."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "What Sanchez and Wheeler are doing is incredibly historic.",
+        "score": 92,
+        "source_hint": "talk-radio host (High Hopes)"
+      },
+      {
+        "text": "Cristopher Sanchez is far and away #1 in the league in pitching WAR. The best 1-2 pitching punch in the MLB and it's not close.",
+        "score": 90,
+        "source_hint": "r/phillies post, 379 upvotes"
+      },
+      {
+        "text": "It's a fundamentally flawed team and it's been that way based off of everything Dombrowski did in the offseason.",
+        "score": 18,
+        "source_hint": "talk-radio host (94WIP)"
+      },
+      {
+        "text": "They've got 2 aces and a very good frontline starter in Luzardo but they're saddled by a lineup that's just too inconsistent and too weak.",
+        "score": 28,
+        "source_hint": "r/phillies comment"
+      }
+    ],
+    "vibe_summary": "Fans are floating on historic pitching performances but anchored down by a right-handed lineup that looks broken with no clear fix in sight.",
+    "reasoning": "A road win over the Padres and the ongoing brilliance of the top two starters have genuinely lifted the mood, with the game thread and pitching-focused posts radiating real excitement. But the backdrop from Memorial Day podcast content is considerably darker: the leadoff OBP is the worst in franchise history going back over a century, every key right-handed bat is struggling, and there is sober acknowledgment that this team may simply be a .500 club rather than a genuine contender. The most critical framing comes from the beat reporter and talk-radio perspectives, which describe a structurally flawed roster and a front office without a credible path to fixing the right-handed bat problem before August.",
+    "people_mentioned": [
+      "Sanchez",
+      "Wheeler",
+      "Turner",
+      "Garcia",
+      "Harper",
+      "Luzardo",
+      "Nola",
+      "Painter",
+      "Mattingly",
+      "Realmuto",
+      "Bohm",
+      "Schwarber",
+      "Marsh",
+      "Dombrowski",
+      "Stott",
+      "Castellanos",
+      "Duran",
+      "Crawford",
+      "Sosa"
+    ],
+    "source_counts": {
+      "reddit_posts": 14,
+      "reddit_comments": 127,
+      "match_threads": 1,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 160355,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 5831
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "A Mature And Reasonable Look At Phillies Baseball",
+        "voice": "radio_populist",
+        "chars": 52022
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Right-Handed and Right Stranded",
+        "voice": "beat_writer",
+        "chars": 41163
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "S\u00e1nchez and Wheeler might be best 1-2 punch in Phillies history.",
+        "voice": "fan_analyst",
+        "chars": 31923
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies offense hits speed bump as major West Coast trip looms",
+        "voice": "fan_analyst",
+        "chars": 35247
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Bryce Harper's Toothpaste Trick",
+        "voice": "radio_populist",
+        "chars": 2497
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "\"Don't Twist Playoff Contention with Phils Being Good\"",
+        "voice": "radio_populist",
+        "chars": 1599
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Rhea: The Phillies CAN\u2019T Hit",
+        "voice": "radio_populist",
+        "chars": 1735
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 88.5,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 97.0,
+        "delta_pct": -8.5,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823465,
+            "date": "2026-05-18",
+            "day_of_week": "Monday",
+            "opponent": "Cincinnati Reds",
+            "result": "W 5-4",
+            "attendance": 40065,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823464,
+            "date": "2026-05-19",
+            "day_of_week": "Tuesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 1-4",
+            "attendance": 37527,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823462,
+            "date": "2026-05-20",
+            "day_of_week": "Wednesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 4-9",
+            "attendance": 38222,
+            "pct_capacity": 89.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823461,
+            "date": "2026-05-22",
+            "day_of_week": "Friday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 0-1",
+            "attendance": 38092,
+            "pct_capacity": 88.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823458,
+            "date": "2026-05-23",
+            "day_of_week": "Saturday",
+            "opponent": "Cleveland Guardians",
+            "result": "W 3-0",
+            "attendance": 36125,
+            "pct_capacity": 84.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823459,
+            "date": "2026-05-24",
+            "day_of_week": "Sunday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 1-3",
+            "attendance": 37808,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "28-27",
+      "streak": "W2",
+      "games_behind": "9.0"
+    },
+    "generated_at": "2026-05-27T12:59:40.378329+00:00"
   }
 ]
