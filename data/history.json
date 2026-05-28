@@ -8591,5 +8591,263 @@
       "games_behind": "9.0"
     },
     "generated_at": "2026-05-27T12:59:40.378329+00:00"
+  },
+  {
+    "date": "2026-05-28",
+    "display_score": 68,
+    "reactive_score": 68,
+    "baseline_score": 55,
+    "insufficient_signal": false,
+    "content_volume": 313,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 82,
+      "front_office_trust": 52,
+      "manager_confidence": 72,
+      "lineup_confidence": 38,
+      "pitching_confidence": 94,
+      "health_outlook": 72,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 90,
+      "front_office_trust": 30,
+      "manager_confidence": 65,
+      "lineup_confidence": 85,
+      "pitching_confidence": 98,
+      "health_outlook": 40,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": 85,
+        "note": "r/phillies overwhelmingly euphoric about Sanchez's franchise record, with sustained undercurrent of offense anxiety and a few in-game nerves about the streak's pressure."
+      },
+      "fan_analyst": {
+        "score": 76,
+        "note": "Hittin' Season and Phillies Talk/Phillies Show analysts celebrate Sanchez in near-reverent terms while cataloguing persistent right-handed bat struggles, Turner's slump, and Nola's uncertain sustainability."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 68,
+        "note": "Talk-radio hosts split between genuine optimism about Mattingly's decisiveness and Sanchez's run, and a persistent, explicit distrust of the offense that keeps overall confidence from rising further."
+      }
+    },
+    "themes": [
+      {
+        "name": "Sanchez Makes History",
+        "delta": 10,
+        "sample": "A 115-year-old franchise record falls as the scoreless streak reaches 44\u2154 innings, drawing comparisons to Carlton, Halladay, and all-time greats \u2014 fans describe it as the most remarkable individual pitching run in Phillies history."
+      },
+      {
+        "name": "Rotation Carrying a Struggling Offense",
+        "delta": 3,
+        "sample": "Eight shutouts lead baseball and the starting staff is the clear engine of every win, but the offense is last in right-handed production, and fans know the current 11-5 one-run record is unlikely to hold all season."
+      },
+      {
+        "name": "Mattingly Earns Early Credit",
+        "delta": 4,
+        "sample": "Moving Turner out of the leadoff spot and sitting struggling regulars faster than his predecessor has generated genuine goodwill \u2014 the 20-8 record since taking over is cited repeatedly as proof the adjustments are working."
+      },
+      {
+        "name": "Turner Slump Clouds the Lineup",
+        "delta": -5,
+        "sample": "Back-to-back homers offer a glimmer of hope, but a sub-.230 average, career-high chase rate, and historically poor leadoff OBP remain a persistent drag on confidence in the offense's ceiling."
+      },
+      {
+        "name": "Braves Gap Keeps Postseason Belief Muted",
+        "delta": -3,
+        "sample": "Eight games back in the division with the next Braves series not until September, the postseason conversation stays in wild-card survival mode rather than genuine division or deep-October belief."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Giving him a Cy Young won't seem like it is enough.",
+        "score": 97,
+        "source_hint": "r/phillies post title, 1,339 upvotes"
+      },
+      {
+        "text": "We are witnessing history, and that's always fun. That's what makes baseball different.",
+        "score": 88,
+        "source_hint": "talk-radio host (WIP High Hopes / Final Out)"
+      },
+      {
+        "text": "I just don't trust the bats. Full stop.",
+        "score": 28,
+        "source_hint": "talk-radio host (94WIP)"
+      },
+      {
+        "text": "Hard to believe S\u00e1nchez is the same guy that was getting flustered with runners on base a few short years ago. His development has been unbelievable.",
+        "score": 92,
+        "source_hint": "r/phillies game thread comment"
+      }
+    ],
+    "vibe_summary": "Phillies fans are riding a wave of genuine awe over Cristopher Sanchez's historic scoreless streak, though persistent offense anxiety keeps the overall mood from reaching full euphoria.",
+    "reasoning": "The dominant force shaping fan sentiment is Sanchez's franchise-record scoreless innings streak, which has produced a rare, near-universal flood of joy across Reddit and the podcasts alike. The sweep of the Padres and a three-game winning streak reinforce the good feeling. The counterweight is an offense that is last in baseball among right-handed hitters, a Turner slump that feels structural rather than merely cold, and an eight-game division deficit that frames postseason talk in survival terms rather than genuine belief \u2014 a gap between alarm about the bats and celebration of the staff that runs through every source this cycle.",
+    "people_mentioned": [
+      "Cristopher Sanchez",
+      "Trea Turner",
+      "Don Mattingly",
+      "Zach Wheeler",
+      "Aaron Nola",
+      "Jesus Luzardo",
+      "Andrew Painter",
+      "Bryce Harper",
+      "Kyle Schwarber",
+      "Brandon Marsh",
+      "Adolis Garcia",
+      "Alec Bohm",
+      "Joan Duran",
+      "Justin Crawford",
+      "JT Realmuto",
+      "Bryson Stott",
+      "Jose Alvarado",
+      "Jonathan Bowlan",
+      "Brad Keller",
+      "Edmundo Sosa",
+      "Nick Castellanos",
+      "Rob Thomson",
+      "Dave Dombrowski"
+    ],
+    "source_counts": {
+      "reddit_posts": 12,
+      "reddit_comments": 114,
+      "match_threads": 1,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 134389,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 6126
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Cristopher Sanchez Makes Phillies History... and Isn't Done Yet!",
+        "voice": "fan_analyst",
+        "chars": 31881
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "In awe of Cristopher S\u00e1nchez's greatness after sweep of Padres",
+        "voice": "fan_analyst",
+        "chars": 41550
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Cristopher Sanchez Does It Again",
+        "voice": "radio_populist",
+        "chars": 36844
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Phillies drop Trea Turner from leadoff spot, Kyle Schwaber moves up",
+        "voice": "fan_analyst",
+        "chars": 24114
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Optimistic About The 2026 Phillies",
+        "voice": "radio_populist",
+        "chars": 1955
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Why Phillies Are HARD To Trust",
+        "voice": "radio_populist",
+        "chars": 2008
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Trea Turner Moved Out Of Leadoff",
+        "voice": "radio_populist",
+        "chars": 2163
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 88.5,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 97.0,
+        "delta_pct": -8.5,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823465,
+            "date": "2026-05-18",
+            "day_of_week": "Monday",
+            "opponent": "Cincinnati Reds",
+            "result": "W 5-4",
+            "attendance": 40065,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823464,
+            "date": "2026-05-19",
+            "day_of_week": "Tuesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 1-4",
+            "attendance": 37527,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823462,
+            "date": "2026-05-20",
+            "day_of_week": "Wednesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 4-9",
+            "attendance": 38222,
+            "pct_capacity": 89.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823461,
+            "date": "2026-05-22",
+            "day_of_week": "Friday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 0-1",
+            "attendance": 38092,
+            "pct_capacity": 88.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823458,
+            "date": "2026-05-23",
+            "day_of_week": "Saturday",
+            "opponent": "Cleveland Guardians",
+            "result": "W 3-0",
+            "attendance": 36125,
+            "pct_capacity": 84.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823459,
+            "date": "2026-05-24",
+            "day_of_week": "Sunday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 1-3",
+            "attendance": 37808,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "29-27",
+      "streak": "W3",
+      "games_behind": "8.0"
+    },
+    "generated_at": "2026-05-28T13:29:33.546726+00:00"
   }
 ]
