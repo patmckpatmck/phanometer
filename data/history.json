@@ -8594,131 +8594,125 @@
   },
   {
     "date": "2026-05-28",
-    "display_score": 68,
-    "reactive_score": 68,
+    "display_score": 70,
+    "reactive_score": 70,
     "baseline_score": 55,
     "insufficient_signal": false,
-    "content_volume": 313,
-    "mood_label": "High Hopes",
+    "content_volume": 331,
+    "mood_label": "Buzzing",
     "dimensions": {
       "results_satisfaction": 82,
-      "front_office_trust": 52,
+      "front_office_trust": 55,
       "manager_confidence": 72,
-      "lineup_confidence": 38,
-      "pitching_confidence": 94,
+      "lineup_confidence": 42,
+      "pitching_confidence": 95,
       "health_outlook": 72,
-      "postseason_belief": 38
+      "postseason_belief": 48
     },
     "dimension_confidence": {
       "results_satisfaction": 90,
-      "front_office_trust": 30,
-      "manager_confidence": 65,
+      "front_office_trust": 45,
+      "manager_confidence": 70,
       "lineup_confidence": 85,
       "pitching_confidence": 98,
-      "health_outlook": 40,
-      "postseason_belief": 55
+      "health_outlook": 50,
+      "postseason_belief": 60
     },
     "voice_breakdown": {
       "reddit": {
         "score": 85,
-        "note": "r/phillies overwhelmingly euphoric about Sanchez's franchise record, with sustained undercurrent of offense anxiety and a few in-game nerves about the streak's pressure."
+        "note": "Overwhelmingly euphoric about Sanchez's franchise record, with persistent undercurrent of frustration over anemic offense and the team's inability to score runs in support."
       },
       "fan_analyst": {
-        "score": 76,
-        "note": "Hittin' Season and Phillies Talk/Phillies Show analysts celebrate Sanchez in near-reverent terms while cataloguing persistent right-handed bat struggles, Turner's slump, and Nola's uncertain sustainability."
+        "score": 78,
+        "note": "Hittin' Season, Phillies Talk, and The Phillies Show all celebrate Sanchez in near-reverent terms while honestly cataloguing the right-handed hitting void, Trea Turner's struggles, and Nola's uncertain future."
       },
-      "beat_writer": {
-        "score": null,
-        "note": null
-      },
+      "beat_writer": null,
       "radio_populist": {
         "score": 68,
-        "note": "Talk-radio hosts split between genuine optimism about Mattingly's decisiveness and Sanchez's run, and a persistent, explicit distrust of the offense that keeps overall confidence from rising further."
+        "note": "High Hopes and WIP Daily segments mix genuine awe at Sanchez with split-screen skepticism \u2014 one host more optimistic about the roster's trajectory, the other explicitly saying he does not trust the bats."
       }
     },
     "themes": [
       {
-        "name": "Sanchez Makes History",
+        "name": "Sanchez Breaks 115-Year Franchise Record",
         "delta": 10,
-        "sample": "A 115-year-old franchise record falls as the scoreless streak reaches 44\u2154 innings, drawing comparisons to Carlton, Halladay, and all-time greats \u2014 fans describe it as the most remarkable individual pitching run in Phillies history."
+        "sample": "A 44 and two-thirds inning scoreless streak \u2014 surpassing Grover Cleveland Alexander and etching Sanchez into the all-time top 10 \u2014 has produced the most uniformly joyful fan moment of the season."
       },
       {
-        "name": "Rotation Carrying a Struggling Offense",
+        "name": "Rotation Carrying a Dead-Weight Offense",
+        "delta": -4,
+        "sample": "Eight shutouts lead baseball, but the lineup ranks last in batting average, slugging, and OPS among right-handed hitters, and is 0-for-30 with runners in scoring position over recent games \u2014 making every win feel like a tightrope act."
+      },
+      {
+        "name": "Mattingly Earns Early Trust With Quicker Adjustments",
+        "delta": 5,
+        "sample": "Moving Turner out of the leadoff spot, sitting Garcia, and giving Bohm a reset are credited as faster, more decisive moves than the prior regime \u2014 and the 20-8 record since the 9-19 start is the evidence fans cite."
+      },
+      {
+        "name": "Trea Turner Showing Faint Signs of Life",
         "delta": 3,
-        "sample": "Eight shutouts lead baseball and the starting staff is the clear engine of every win, but the offense is last in right-handed production, and fans know the current 11-5 one-run record is unlikely to hold all season."
+        "sample": "Back-to-back home runs after an 0-for-18 stretch offer cautious optimism, but a .225 average and career-worst barrel rate keep the mood guarded rather than relieved."
       },
       {
-        "name": "Mattingly Earns Early Credit",
-        "delta": 4,
-        "sample": "Moving Turner out of the leadoff spot and sitting struggling regulars faster than his predecessor has generated genuine goodwill \u2014 the 20-8 record since taking over is cited repeatedly as proof the adjustments are working."
-      },
-      {
-        "name": "Turner Slump Clouds the Lineup",
-        "delta": -5,
-        "sample": "Back-to-back homers offer a glimmer of hope, but a sub-.230 average, career-high chase rate, and historically poor leadoff OBP remain a persistent drag on confidence in the offense's ceiling."
-      },
-      {
-        "name": "Braves Gap Keeps Postseason Belief Muted",
+        "name": "Right-Handed Bat Shortage Demands a Trade-Deadline Answer",
         "delta": -3,
-        "sample": "Eight games back in the division with the next Braves series not until September, the postseason conversation stays in wild-card survival mode rather than genuine division or deep-October belief."
+        "sample": "With Garcia struggling and no in-house solution apparent, discussion has already turned to deadline targets \u2014 Christian Walker named most seriously \u2014 as the roster's clearest construction flaw heading into the summer."
       }
     ],
     "quotes": [
       {
         "text": "Giving him a Cy Young won't seem like it is enough.",
-        "score": 97,
-        "source_hint": "r/phillies post title, 1,339 upvotes"
+        "score": 98,
+        "source_hint": "r/phillies post title, 1,350 upvotes"
       },
       {
         "text": "We are witnessing history, and that's always fun. That's what makes baseball different.",
-        "score": 88,
+        "score": 90,
         "source_hint": "talk-radio host (WIP High Hopes / Final Out)"
       },
       {
         "text": "I just don't trust the bats. Full stop.",
         "score": 28,
-        "source_hint": "talk-radio host (94WIP)"
+        "source_hint": "talk-radio host (WIP Daily / Joe Giglio)"
       },
       {
-        "text": "Hard to believe S\u00e1nchez is the same guy that was getting flustered with runners on base a few short years ago. His development has been unbelievable.",
-        "score": 92,
-        "source_hint": "r/phillies game thread comment"
+        "text": "It's honestly crazy how we picked up Cris for basically nothing and now I would legitimately kms if he's ever not a Phillie",
+        "score": 95,
+        "source_hint": "r/phillies game thread"
       }
     ],
-    "vibe_summary": "Phillies fans are riding a wave of genuine awe over Cristopher Sanchez's historic scoreless streak, though persistent offense anxiety keeps the overall mood from reaching full euphoria.",
-    "reasoning": "The dominant force shaping fan sentiment is Sanchez's franchise-record scoreless innings streak, which has produced a rare, near-universal flood of joy across Reddit and the podcasts alike. The sweep of the Padres and a three-game winning streak reinforce the good feeling. The counterweight is an offense that is last in baseball among right-handed hitters, a Turner slump that feels structural rather than merely cold, and an eight-game division deficit that frames postseason talk in survival terms rather than genuine belief \u2014 a gap between alarm about the bats and celebration of the staff that runs through every source this cycle.",
+    "vibe_summary": "Phillies fans are riding a wave of genuine historical awe after Cristopher Sanchez broke a 115-year franchise record, but persistent offensive futility keeps the mood from becoming outright belief.",
+    "reasoning": "A three-game sweep of a quality San Diego team, capped by Sanchez shattering the franchise scoreless-innings record, has produced the most unanimously positive fan moment of the season. The pitching staff is drawing comparisons to the great Phillies rotations of the past, and Mattingly's willingness to shake up the lineup has earned real credibility. The drag on sentiment is equally clear: the lineup ranks last among right-handed hitters in every meaningful category, Trea Turner's revival is two games old, and the team sits eight games back in the division with no realistic path to catching the Braves \u2014 leaving the mood elevated but not quite transformed into deep postseason conviction.",
     "people_mentioned": [
-      "Cristopher Sanchez",
-      "Trea Turner",
-      "Don Mattingly",
-      "Zach Wheeler",
-      "Aaron Nola",
-      "Jesus Luzardo",
-      "Andrew Painter",
-      "Bryce Harper",
-      "Kyle Schwarber",
-      "Brandon Marsh",
-      "Adolis Garcia",
-      "Alec Bohm",
-      "Joan Duran",
-      "Justin Crawford",
-      "JT Realmuto",
-      "Bryson Stott",
-      "Jose Alvarado",
-      "Jonathan Bowlan",
-      "Brad Keller",
-      "Edmundo Sosa",
-      "Nick Castellanos",
-      "Rob Thomson",
-      "Dave Dombrowski"
+      "Sanchez",
+      "Turner",
+      "Mattingly",
+      "Wheeler",
+      "Nola",
+      "Luzardo",
+      "Painter",
+      "Schwarber",
+      "Harper",
+      "Garcia",
+      "Bohm",
+      "Crawford",
+      "Marsh",
+      "Dombrowski",
+      "Duran",
+      "Alvarado",
+      "Sosa",
+      "Thomson",
+      "Castellanos",
+      "Walker"
     ],
     "source_counts": {
-      "reddit_posts": 12,
+      "reddit_posts": 13,
       "reddit_comments": 114,
       "match_threads": 1,
       "podcasts_attempted": 4,
       "podcasts_transcribed": 4,
-      "podcast_chars": 134389,
+      "podcast_chars": 146955,
       "youtube_attempted": 3,
       "youtube_transcribed": 3,
       "youtube_chars": 6126
@@ -8728,7 +8722,7 @@
         "feed_name": "Hittin' Season",
         "title": "Cristopher Sanchez Makes Phillies History... and Isn't Done Yet!",
         "voice": "fan_analyst",
-        "chars": 31881
+        "chars": 31850
       },
       {
         "feed_name": "Phillies Talk",
@@ -8746,7 +8740,7 @@
         "feed_name": "The Phillies Show",
         "title": "Phillies drop Trea Turner from leadoff spot, Kyle Schwaber moves up",
         "voice": "fan_analyst",
-        "chars": 24114
+        "chars": 36711
       },
       {
         "feed_name": "94WIP",
@@ -8848,6 +8842,6 @@
       "streak": "W3",
       "games_behind": "8.0"
     },
-    "generated_at": "2026-05-28T13:29:33.546726+00:00"
+    "generated_at": "2026-05-28T13:53:23.897187+00:00"
   }
 ]
