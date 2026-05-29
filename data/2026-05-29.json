@@ -1,0 +1,261 @@
+{
+  "date": "2026-05-29",
+  "display_score": 69,
+  "reactive_score": 69,
+  "baseline_score": 64,
+  "insufficient_signal": false,
+  "content_volume": 246,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 78,
+    "front_office_trust": 62,
+    "manager_confidence": 65,
+    "lineup_confidence": 42,
+    "pitching_confidence": 94,
+    "health_outlook": 68,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 30,
+    "manager_confidence": 55,
+    "lineup_confidence": 80,
+    "pitching_confidence": 98,
+    "health_outlook": 40,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 80,
+      "note": "Hittin' Season and Phillies Talk are in awe of Sanchez's historic run while sounding cautious alarms about the offense, Nola's reliability, and the gap between this team and the division's elite."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 72,
+      "note": "WIP hosts are emotionally torn \u2014 intellectually they see a contender built around a historic Wheeler-Sanchez duo, but gut-level skepticism about the lineup depth keeps full buy-in just out of reach."
+    }
+  },
+  "themes": [
+    {
+      "name": "Sanchez Rewrites History",
+      "delta": 10,
+      "sample": "A 115-year franchise record erased, 44 and two-thirds consecutive scoreless innings, comparisons to Hershiser and the all-time greats \u2014 the dominant story of the week is one of genuine, euphoric awe."
+    },
+    {
+      "name": "Offense Still the Glaring Question Mark",
+      "delta": -5,
+      "sample": "Back-to-back series of low-scoring wins mask a lineup that couldn't touch Walker Buehler or Griffin Canning \u2014 the bats remain a structural concern heading into a Dodgers measuring-stick series."
+    },
+    {
+      "name": "Trey Turner Showing Signs of Life",
+      "delta": 4,
+      "sample": "Two tank shots off the Western Metal Supply building in consecutive games have fans cautiously encouraged, though the .225 average and brutal first-half numbers linger."
+    },
+    {
+      "name": "Rotation Depth and Competition",
+      "delta": 5,
+      "sample": "Nola's fastball reinvention, Lozardo's remarkable road ERA, and Painter's development are treated as evidence the staff is pushing each other to historically elite levels \u2014 even below the ace."
+    },
+    {
+      "name": "Measured Optimism About Playoff Chances",
+      "delta": 3,
+      "sample": "At 29-27 and 8.5 back in the division, the realistic ceiling is a wild-card berth, but Wheeler and Sanchez are openly described as a postseason weapon that no opposing manager wants to face."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Wheeler and Sanchez, it really has grabbed my attention \u2014 the Wheeler Sanchez thing is otherworldly.",
+      "score": 88,
+      "source_hint": "talk-radio host, WIP High Hopes / 94WIP"
+    },
+    {
+      "text": "I actually do not believe in the Phillies emotionally, but intellectually I tell myself I should.",
+      "score": 38,
+      "source_hint": "talk-radio host, 94WIP"
+    },
+    {
+      "text": "No one's ever gone this long without giving up a run before \u2014 Carlton, Halladay, Lee, Hamels \u2014 no one.",
+      "score": 95,
+      "source_hint": "fan analyst, Hittin' Season"
+    },
+    {
+      "text": "You got two-thirds of this lineup underperforming and yet they're still two games above .500.",
+      "score": 35,
+      "source_hint": "fan analyst, Phillies Talk"
+    }
+  ],
+  "vibe_summary": "Fans are riding a genuine wave of historic euphoria over Cristopher Sanchez's record-breaking run, tempered by persistent anxiety about a lineup that still can't consistently hit its weight.",
+  "reasoning": "The dominant emotional force right now is Sanchez-driven joy \u2014 his 115-year franchise record and top-ten all-time status have produced real, unqualified excitement that feels earned rather than manufactured. The cautionary undercurrent is equally consistent: the offense is not generating runs against quality pitching, Trey Turner's struggles have been historically bad at the top of the order, and the gap between this team and the division-leading Braves (8.5 games) is acknowledged candidly. The Dodgers series is framed as a genuine measuring stick, with pitching confidence high but lineup anxiety pulling overall belief back toward the middle.",
+  "people_mentioned": [
+    "Sanchez",
+    "Wheeler",
+    "Turner",
+    "Nola",
+    "Mattingly",
+    "Luzardo",
+    "Painter",
+    "Harper",
+    "Schwarber",
+    "Bohm",
+    "Crawford",
+    "Duran",
+    "Keller",
+    "Alvarado",
+    "Bolin",
+    "Garcia",
+    "Stott",
+    "Rincones",
+    "Dombrowski",
+    "Thomson",
+    "Schilling",
+    "Carlton",
+    "Hamels",
+    "Lee",
+    "Halladay",
+    "Hershiser"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 159319,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 25183
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Simply the Best: Cristopher S\u00e1nchez makes Phillies history",
+      "voice": "fan_analyst",
+      "chars": 30946
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Bye Bye Grover & A Plan To Help The Outfield",
+      "voice": "radio_populist",
+      "chars": 53892
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Cristopher Sanchez Makes Phillies History... and Isn't Done Yet!",
+      "voice": "fan_analyst",
+      "chars": 31850
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "In awe of Cristopher S\u00e1nchez's greatness after sweep of Padres",
+      "voice": "fan_analyst",
+      "chars": 42631
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Begin 3-Game Measuring Stick Series Vs. Dodgers | 94WIP",
+      "voice": "radio_populist",
+      "chars": 8947
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies\u2019 Ace: Zack Wheeler Or Cristopher S\u00e1nchez?",
+      "voice": "radio_populist",
+      "chars": 840
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Has Cristopher Sanchez Taken Over As Phillies' Ace?",
+      "voice": "radio_populist",
+      "chars": 15396
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 88.5,
+      "baseline_games_count": 40,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -8.5,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823465,
+          "date": "2026-05-18",
+          "day_of_week": "Monday",
+          "opponent": "Cincinnati Reds",
+          "result": "W 5-4",
+          "attendance": 40065,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823464,
+          "date": "2026-05-19",
+          "day_of_week": "Tuesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 1-4",
+          "attendance": 37527,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823462,
+          "date": "2026-05-20",
+          "day_of_week": "Wednesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 4-9",
+          "attendance": 38222,
+          "pct_capacity": 89.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823461,
+          "date": "2026-05-22",
+          "day_of_week": "Friday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 0-1",
+          "attendance": 38092,
+          "pct_capacity": 88.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823458,
+          "date": "2026-05-23",
+          "day_of_week": "Saturday",
+          "opponent": "Cleveland Guardians",
+          "result": "W 3-0",
+          "attendance": 36125,
+          "pct_capacity": 84.2,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823459,
+          "date": "2026-05-24",
+          "day_of_week": "Sunday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 1-3",
+          "attendance": 37808,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "29-27",
+    "streak": "W3",
+    "games_behind": "8.5"
+  },
+  "generated_at": "2026-05-29T13:47:12.616670+00:00"
+}

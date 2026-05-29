@@ -526,7 +526,11 @@ def main():
         n_posts = n_comments = n_match = 0
     else:
         print(f"Pulling r/{SUBREDDIT}...")
-        items = pull_reddit()
+        try:
+            items = pull_reddit()
+        except Exception as e:
+            print(f"  ! reddit pull crashed: {e}")
+            items = []
         n_posts = sum(1 for i in items if i["kind"] == "post")
         n_comments = sum(1 for i in items if i["kind"] == "comment")
         n_match = sum(1 for i in items if i.get("is_match_thread"))
