@@ -9095,5 +9095,260 @@
       "games_behind": "8.5"
     },
     "generated_at": "2026-05-29T15:05:42.839187+00:00"
+  },
+  {
+    "date": "2026-05-30",
+    "display_score": 67,
+    "reactive_score": 67,
+    "baseline_score": 62,
+    "insufficient_signal": false,
+    "content_volume": 265,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 72,
+      "front_office_trust": 60,
+      "manager_confidence": 68,
+      "lineup_confidence": 48,
+      "pitching_confidence": 90,
+      "health_outlook": 65,
+      "postseason_belief": 45
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 55,
+      "manager_confidence": 70,
+      "lineup_confidence": 80,
+      "pitching_confidence": 98,
+      "health_outlook": 45,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 76,
+        "note": "Hittin' Season, The Phillies Show, and Phillies Talk all overflow with awe at Cristopher S\u00e1nchez's historic scoreless streak, while acknowledging the offense remains a persistent concern heading into LA."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 65,
+        "note": "High Hopes and WIP clips celebrate S\u00e1nchez and the pitching staff, but repeatedly flag that the offense is fundamentally untrusted and speculate about deadline moves \u2014 including a Tarik Skubal blockbuster \u2014 as a potential fix."
+      }
+    },
+    "themes": [
+      {
+        "name": "S\u00e1nchez Making History",
+        "delta": 9,
+        "sample": "Forty-four and two-thirds consecutive scoreless innings, a 115-year franchise record surpassing Grover Cleveland Alexander, with comparisons to Orel Hershiser's all-time mark generating genuine awe and joy across every conversation this week."
+      },
+      {
+        "name": "Rotation Firing on All Cylinders",
+        "delta": 7,
+        "sample": "Wheeler, Luzardo, Nola's encouraging San Diego bounce-back, and Painter's development have the starting staff looking historically deep \u2014 a real source of confidence heading into the toughest series of the year."
+      },
+      {
+        "name": "Offense Still Fundamentally Distrusted",
+        "delta": -6,
+        "sample": "Despite the sweep in San Diego, the bats went mostly quiet against mediocre starters, Turner is still well below his career norms, and the consistent refrain is that nobody will truly believe in this lineup until it proves itself when it matters."
+      },
+      {
+        "name": "Mattingly Effect: Small Changes, Real Results",
+        "delta": 4,
+        "sample": "The managerial transition is credited with positive momentum \u2014 more consistent lineup deployment of Marsh and Stott, willingness to reuse effective relievers \u2014 but observers are careful to attribute most of the turnaround to the players simply playing better."
+      },
+      {
+        "name": "Deadline Ambitions: Bat vs. Ace",
+        "delta": 3,
+        "sample": "Speculation about acquiring a difference-making right-handed bat \u2014 Wilson Contreras and Gabriel Rincones Jr. named prominently \u2014 competes with the tantalizing but expensive idea of adding Tarik Skubal to an already elite rotation."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Him and Shohei, I guess, the two best pitchers in baseball right now.",
+        "score": 92,
+        "source_hint": "talk-radio host (High Hopes / WIP)"
+      },
+      {
+        "text": "The whole discussion this whole week really around the Phillies has kind of been: this is nice, but I still don't trust the offense.",
+        "score": 35,
+        "source_hint": "talk-radio host (94WIP)"
+      },
+      {
+        "text": "Baseball gives you every chance to be great, and then it puts on the pressure to prove you haven't got what it takes.",
+        "score": 60,
+        "source_hint": "fan analyst (Phillies Talk)"
+      },
+      {
+        "text": "Adding Skubal to this rotation \u2014 that is terrifying.",
+        "score": 80,
+        "source_hint": "talk-radio host (94WIP)"
+      }
+    ],
+    "vibe_summary": "Phillies fans are riding a genuine high over Cristopher S\u00e1nchez's historic brilliance, but persistent doubt about an offense that still hasn't proven itself keeps full confidence at bay.",
+    "reasoning": "The dominant story is S\u00e1nchez's 44-and-two-thirds-inning scoreless streak, which has produced authentic, sustained excitement and comparisons to all-time greats \u2014 a rare pure-positive note for this fanbase. The pitching staff as a whole is viewed as historically strong, and Don Mattingly's steadying influence is credited with helping the team climb back above .500 after a brutal start. However, the offensive anxiety is deep and consistent: even in a sweep of a good San Diego club, the bats were largely quiet against mediocre starters, Turner remains well below his career norms, and the recurring view is that no amount of regular-season run-scoring will build real trust until October. Deadline speculation \u2014 whether to chase a right-handed bat like Wilson Contreras or swing for a rotation monster like Tarik Skubal \u2014 reflects confidence in the team's contention window but also acknowledges the roster has a genuine hole to fill.",
+    "people_mentioned": [
+      "S\u00e1nchez",
+      "Wheeler",
+      "Mattingly",
+      "Turner",
+      "Nola",
+      "Luzardo",
+      "Painter",
+      "Harper",
+      "Schwarber",
+      "Stott",
+      "Marsh",
+      "Kirkering",
+      "Bohm",
+      "Crawford",
+      "Duran",
+      "Keller",
+      "Thomson",
+      "Dombrowski",
+      "Skubal",
+      "Rincones"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 182144,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 16825
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Face Tough Task Against Surging Dodgers",
+        "voice": "fan_analyst",
+        "chars": 54750
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Simply the Best: Cristopher S\u00e1nchez makes Phillies history",
+        "voice": "fan_analyst",
+        "chars": 31106
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Bye Bye Grover & A Plan To Help The Outfield",
+        "voice": "radio_populist",
+        "chars": 54574
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "In awe of Cristopher S\u00e1nchez's greatness after sweep of Padres",
+        "voice": "fan_analyst",
+        "chars": 41714
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Hard To Trust Phillies Offense",
+        "voice": "radio_populist",
+        "chars": 650
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "A Tarik Skubal Trade Makes Phillies TERRIFYING!",
+        "voice": "radio_populist",
+        "chars": 700
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Imagine THIS Phillies Rotation\u2014Sanchez, Wheeler, Skubal \ud83e\udd2f",
+        "voice": "radio_populist",
+        "chars": 15475
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 88.5,
+        "baseline_games_count": 39,
+        "baseline_avg_pct": 97.1,
+        "delta_pct": -8.6,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823465,
+            "date": "2026-05-18",
+            "day_of_week": "Monday",
+            "opponent": "Cincinnati Reds",
+            "result": "W 5-4",
+            "attendance": 40065,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823464,
+            "date": "2026-05-19",
+            "day_of_week": "Tuesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 1-4",
+            "attendance": 37527,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823462,
+            "date": "2026-05-20",
+            "day_of_week": "Wednesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 4-9",
+            "attendance": 38222,
+            "pct_capacity": 89.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823461,
+            "date": "2026-05-22",
+            "day_of_week": "Friday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 0-1",
+            "attendance": 38092,
+            "pct_capacity": 88.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823458,
+            "date": "2026-05-23",
+            "day_of_week": "Saturday",
+            "opponent": "Cleveland Guardians",
+            "result": "W 3-0",
+            "attendance": 36125,
+            "pct_capacity": 84.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823459,
+            "date": "2026-05-24",
+            "day_of_week": "Sunday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 1-3",
+            "attendance": 37808,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "29-28",
+      "streak": "L1",
+      "games_behind": "9.5"
+    },
+    "generated_at": "2026-05-30T11:29:09.059930+00:00"
   }
 ]
