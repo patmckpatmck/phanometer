@@ -12,9 +12,9 @@ Running nightly from GitHub Actions, with two user-facing surfaces:
   High Hopes. Each carries a voice tag (fan analyst / beat writer /
   talk-radio host) that the scoring prompt weights distinctly.
 - **Reddit (r/phillies) ingestion.** Pulls recent posts, comments,
-  and match-thread chatter from the subreddit's public JSON endpoints.
-  Treated as one of the four voice categories the scoring prompt
-  weights distinctly.
+  and match-thread chatter via the Reddit Data API (authenticated
+  read-only OAuth through PRAW). Treated as one of the four voice
+  categories the scoring prompt weights distinctly.
 - **YouTube clips** from 94WIP and similar channels — `youtube.py`
   resolves video metadata via the YouTube Data API and fetches
   captions via `youtube-transcript-api`, contributing to the
@@ -201,8 +201,14 @@ cp .env.example .env
 **OpenAI API:** get a key from https://platform.openai.com/ (used for Whisper).
 **YouTube Data API:** key from Google Cloud Console.
 
-Reddit credentials aren't required — ingestion is via raw `urllib`
-against Reddit's public JSON endpoints (no auth).
+**Reddit Data API:** required. Reddit returns `403` to unauthenticated
+requests against its public JSON endpoints, so ingestion now goes
+through authenticated read-only OAuth (PRAW). Register a **script** app
+at https://www.reddit.com/prefs/apps — the free Data API tier is
+non-commercial and capped at 100 QPM, no payment needed. Copy the
+client ID and secret into `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET`,
+and set `REDDIT_USERNAME` so the request User-Agent is descriptive
+(`phanometer/1.0 by u/<name>`).
 
 ## Run
 
