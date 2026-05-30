@@ -33,6 +33,7 @@ function QuoteCard({ q }: { q: Quote }) {
 function voiceLabel(id: VoiceKey): string {
   if (id === 'beat_writer') return 'Beat writer';
   if (id === 'fan_analyst') return 'Fan analyst';
+  if (id === 'youtube_fan') return 'Fan comments';
   return 'Talk radio';
 }
 
@@ -76,7 +77,7 @@ function VoiceLine({ id, data, asSummary = false }: VoiceLineProps) {
   );
 }
 
-const VOICE_ORDER: VoiceKey[] = ['reddit', 'beat_writer', 'fan_analyst', 'radio_populist'];
+const VOICE_ORDER: VoiceKey[] = ['reddit', 'beat_writer', 'fan_analyst', 'radio_populist', 'youtube_fan'];
 
 export function Quotes({ today }: { today: DailyReport }) {
   const activeVoices = VOICE_ORDER.filter(

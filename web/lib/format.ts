@@ -73,6 +73,7 @@ export const VOICE_META: Record<VoiceKey, { name: string; pub?: string }> = {
   beat_writer: { name: 'Matt Gelb', pub: 'Phillies Therapy' },
   fan_analyst: { name: 'Hittin\u2019 Season', pub: 'podcast' },
   radio_populist: { name: 'WIP Daily', pub: '94WIP' },
+  youtube_fan: { name: 'YouTube commenters' },
 };
 
 export const DIM_LABELS: Record<string, string> = {

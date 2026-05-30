@@ -14,6 +14,7 @@ Usage:
     python youtube.py              # pull + transcribe last 4 days
     python youtube.py --hours 48   # custom lookback (hours)
     python youtube.py --dry        # list eligible clips, skip captions
+    python youtube.py --comments   # pull top-level fan comments (youtube_fan)
 """
 
 # -----------------------------------------------------------------------------
@@ -81,6 +82,27 @@ DEFAULT_LOOKBACK_HOURS = 96          # 4 days
 MAX_DURATION_SECONDS = 20 * 60       # skip full-show re-uploads, keep segments
 SCAN_LATEST_N = 30                   # how many newest uploads to inspect per channel
 YOUTUBE_MAX_CLIPS_PER_RUN = 3        # cost safeguard, newest-first
+
+# --- Comment ingestion (youtube_fan voice) -----------------------------------
+# Top-level YouTube comments are a direct-fan-voice source — distinct from the
+# caption/transcript track above, which is talk-radio *media* voice and feeds
+# radio_populist. Comments feed their own voice: youtube_fan. Do not fold them
+# into radio_populist.
+#
+# This uses the Data API commentThreads.list endpoint (API-key auth, quota-
+# metered), NOT the caption scraper. It is therefore NOT subject to the
+# youtube-transcript-api / yt-dlp residential-IP block documented above that
+# stalls the transcript work — comment ingestion runs fine on GitHub Actions.
+#
+# Quota math: commentThreads.list costs 1 unit per call, and we make exactly one
+# call per video (a single page of up to COMMENTS_PER_VIDEO top-level comments;
+# reply threads are skipped for v1). With VIDEOS_FOR_COMMENTS_PER_RUN videos
+# that's N units, plus the ~2 units of playlistItems/videos.list discovery. Even
+# at the caps below the per-run cost is well under ~10 units against the default
+# 10,000-unit daily quota, and the cron runs once per day.
+COMMENTS_PER_VIDEO = 20              # top-level comments per video, order=relevance
+VIDEOS_FOR_COMMENTS_PER_RUN = 5     # cap videos we pull comments from, newest-first
+COMMENT_CHAR_CAP = 400              # per-comment trim (mirrors the reddit comment cap)
 
 # -----------------------------------------------------------------------------
 # Helpers
@@ -320,6 +342,82 @@ def pull_youtube(lookback_hours_override=None, dry=False):
     return transcripts
 
 # -----------------------------------------------------------------------------
+# Comments (youtube_fan voice)
+# -----------------------------------------------------------------------------
+def pull_youtube_comments(lookback_hours_override=None):
+    """Return top-level fan comments from recent channel videos, tagged to the
+    youtube_fan voice.
+
+    Self-contained: it re-resolves the eligible videos in the lookback window
+    via the same channel-listing path the caption track uses (cheap — a couple
+    of quota units, see the quota note on the config constants), then pulls one
+    page of top-level comments per video. Keeping it independent of pull_youtube
+    means comments still flow even though captions are IP-blocked on CI; the
+    duplicate discovery cost is negligible. Reply threads are skipped for v1.
+
+    Comment item shape is intentionally distinct from the caption clip shape so
+    phanometer.py can route it into its own scoring section.
+    """
+    lookback_hours = lookback_hours_override or DEFAULT_LOOKBACK_HOURS
+    print(f"Pulling YouTube comments ({lookback_hours}h lookback)...")
+
+    api_key = os.environ.get("YOUTUBE_API_KEY")
+    if not api_key:
+        print("  ! YOUTUBE_API_KEY not set — skipping YouTube comment ingestion")
+        return []
+
+    yt_client = build("youtube", "v3", developerKey=api_key, cache_discovery=False)
+
+    # Resolve eligible videos in the window (Phillies-tagged, duration-capped),
+    # newest-first, then cap how many we pull comments from.
+    videos = []
+    for channel in YOUTUBE_CHANNELS:
+        videos.extend(list_channel_clips(channel, lookback_hours, yt_client))
+    videos.sort(key=lambda c: datetime.fromisoformat(c["pub_date"]), reverse=True)
+    if len(videos) > VIDEOS_FOR_COMMENTS_PER_RUN:
+        print(f"  Comment cap: pulling from newest {VIDEOS_FOR_COMMENTS_PER_RUN} "
+              f"of {len(videos)} eligible video(s)")
+        videos = videos[:VIDEOS_FOR_COMMENTS_PER_RUN]
+
+    comments = []
+    for v in videos:
+        try:
+            resp = yt_client.commentThreads().list(
+                part="snippet",
+                videoId=v["video_id"],
+                maxResults=COMMENTS_PER_VIDEO,
+                order="relevance",
+                textFormat="plainText",
+            ).execute()
+        except Exception as e:
+            # Comments disabled (403 commentsDisabled) or other per-video error —
+            # skip this video and keep going, same posture as the caption track.
+            print(f"  ! comments unavailable for {v['video_id']} ({e})")
+            continue
+
+        n_kept = 0
+        for item in resp.get("items", []):
+            snip = item["snippet"]["topLevelComment"]["snippet"]
+            text = (snip.get("textOriginal") or snip.get("textDisplay") or "").strip()
+            if len(text) < 10:
+                continue
+            comments.append({
+                "kind": "youtube_comment",
+                "voice": "youtube_fan",
+                "feed_name": v["feed_name"],
+                "video_title": v["title"],
+                "video_id": v["video_id"],
+                "text": text[:COMMENT_CHAR_CAP],
+                "likes": snip.get("likeCount", 0),
+                "published_at": snip.get("publishedAt"),
+            })
+            n_kept += 1
+        print(f"  [{v['feed_name']}] {n_kept} comment(s) from \"{v['title'][:50]}\"")
+
+    print(f"  Total: {len(comments)} YouTube comment(s)")
+    return comments
+
+# -----------------------------------------------------------------------------
 # CLI
 # -----------------------------------------------------------------------------
 
@@ -339,10 +437,16 @@ if __name__ == "__main__":
             k, v = line.split("=", 1)
             os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
-    results = pull_youtube(lookback_hours_override=override, dry=dry)
-    print(f"\n{len(results)} clip(s):")
-    for r in results:
-        status = "dry" if r.get("transcript") is None and "error" not in r else \
-                 ("error: " + r["error"]) if "error" in r else \
-                 f"{r.get('transcript_chars', 0):,} chars"
-        print(f"  [{r['source_tag']}] {r['title'][:60]} — {status}")
+    if "--comments" in sys.argv:
+        comments = pull_youtube_comments(lookback_hours_override=override)
+        print(f"\n{len(comments)} comment(s):")
+        for c in comments:
+            print(f"  [{c['feed_name']}] ({c['likes']}👍) {c['text'][:80]}")
+    else:
+        results = pull_youtube(lookback_hours_override=override, dry=dry)
+        print(f"\n{len(results)} clip(s):")
+        for r in results:
+            status = "dry" if r.get("transcript") is None and "error" not in r else \
+                     ("error: " + r["error"]) if "error" in r else \
+                     f"{r.get('transcript_chars', 0):,} chars"
+            print(f"  [{r['source_tag']}] {r['title'][:60]} — {status}")
