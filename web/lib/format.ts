@@ -74,6 +74,7 @@ export const VOICE_META: Record<VoiceKey, { name: string; pub?: string }> = {
   fan_analyst: { name: 'Hittin\u2019 Season', pub: 'podcast' },
   radio_populist: { name: 'WIP Daily', pub: '94WIP' },
   youtube_fan: { name: 'YouTube commenters' },
+  twitter_fan: { name: 'X posts' },
 };
 
 export const DIM_LABELS: Record<string, string> = {
