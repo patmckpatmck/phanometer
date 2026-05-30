@@ -18,18 +18,17 @@ Usage:
   python phanometer.py --dry         # skip Claude + transcription (Reddit + attendance only)
   python phanometer.py --no-podcasts # skip podcasts (useful if rate-limited)
   python phanometer.py --no-youtube  # skip 94WIP YouTube clips
-  python phanometer.py --no-reddit   # skip Reddit (use from cloud IPs where Reddit 403s)
+  python phanometer.py --no-reddit   # skip Reddit (e.g. when OAuth creds are unavailable)
 """
 
 import os
 import json
 import sys
 import time
-import urllib.request
-import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
+import praw
 from anthropic import Anthropic
 
 from attendance import pull_attendance, get_team_facts
@@ -105,72 +104,89 @@ def mood_label(score):
     return "Rock Bottom"
 
 # -----------------------------------------------------------------------------
-# Reddit pull (via public JSON endpoints — no auth required)
+# Reddit pull (authenticated read-only via PRAW / OAuth)
 # -----------------------------------------------------------------------------
+# History: this used to hit Reddit's public www.reddit.com/*.json endpoints with
+# raw urllib and no auth. As of 2026, Reddit returns 403 to unauthenticated
+# requests against those endpoints. The root cause was the application-layer auth
+# wall, NOT the runner's IP — a residential IP gets the same 403. The durable fix
+# is OAuth: a read-only "script" app on the free Data API tier (non-commercial,
+# 100 QPM), which needs no payment. See README "Setup" for app registration.
 MATCH_THREAD_KEYWORDS = ["game thread", "post game", "postgame", "pre game", "pregame"]
-USER_AGENT = "phanometer/0.1 (daily Phillies sentiment tracker)"
+# Reddit asks for a unique, descriptive User-Agent identifying the app and its
+# operator. REDDIT_USERNAME is only used to fill the "by u/<name>" suffix.
+USER_AGENT = f"phanometer/1.0 by u/{os.environ.get('REDDIT_USERNAME', 'unknown')}"
 
 def is_match_thread(title):
     t = title.lower()
     return any(kw in t for kw in MATCH_THREAD_KEYWORDS)
 
-def _reddit_get(path, params=None):
-    """Hit Reddit's public .json endpoints. No auth needed for public subreddits."""
-    url = f"https://www.reddit.com{path}"
-    if params:
-        url = f"{url}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.load(resp)
+def _reddit_client():
+    """Build a read-only PRAW client from REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET.
+
+    With no username/password/refresh token supplied, PRAW authenticates via the
+    client-credentials grant and the resulting instance is read-only — all we need
+    for pulling public subreddit content.
+    """
+    client_id = os.environ.get("REDDIT_CLIENT_ID")
+    client_secret = os.environ.get("REDDIT_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        raise RuntimeError(
+            "REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET not set — register a "
+            "read-only 'script' app at https://www.reddit.com/prefs/apps and "
+            "add the credentials to .env (see README Setup)."
+        )
+    return praw.Reddit(
+        client_id=client_id,
+        client_secret=client_secret,
+        user_agent=USER_AGENT,
+    )
 
 def pull_reddit():
     cutoff = time.time() - LOOKBACK_HOURS * 3600
     items = []
 
-    # 1. Get the newest posts from the subreddit
-    listing = _reddit_get(f"/r/{SUBREDDIT}/new.json", {"limit": MAX_POSTS})
-    posts = [child["data"] for child in listing["data"]["children"]]
+    reddit = _reddit_client()
+    subreddit = reddit.subreddit(SUBREDDIT)
 
-    for post in posts:
-        if post.get("created_utc", 0) < cutoff:
+    # 1. Get the newest posts from the subreddit
+    for post in subreddit.new(limit=MAX_POSTS):
+        if (post.created_utc or 0) < cutoff:
             continue
 
-        title = post["title"]
+        title = post.title
         match = is_match_thread(title)
         items.append({
             "kind": "post",
             "title": title,
-            "body": (post.get("selftext") or "")[:500],
-            "score": post.get("score", 0),
-            "created_utc": post["created_utc"],
+            "body": (post.selftext or "")[:500],
+            "score": post.score or 0,
+            "created_utc": post.created_utc,
             "is_match_thread": match,
         })
 
         # 2. Pull top comments for each post. Match threads get a bigger budget.
         cap = MATCH_THREAD_COMMENT_CAP if match else REGULAR_POST_COMMENT_CAP
-        post_id = post["id"]
         try:
-            comment_data = _reddit_get(
-                f"/r/{SUBREDDIT}/comments/{post_id}.json",
-                {"limit": cap, "sort": "top"},
-            )
-            # comment_data is [post_listing, comment_listing]
-            comment_children = comment_data[1]["data"]["children"]
-            for child in comment_children[:cap]:
-                c = child.get("data", {})
-                body = (c.get("body") or "").strip()
+            post.comment_sort = "top"
+            post.comment_limit = cap
+            # Drop "load more comments" placeholders so iteration yields real
+            # comments only; we keep just the top-level ones (no recursion), same
+            # as the old listing-based fetch.
+            post.comments.replace_more(limit=0)
+            for c in post.comments[:cap]:
+                body = (c.body or "").strip()
                 if not body or body in ("[deleted]", "[removed]") or len(body) < 10:
                     continue
-                if c.get("created_utc", 0) < cutoff:
+                if (c.created_utc or 0) < cutoff:
                     continue
                 items.append({
                     "kind": "comment",
                     "parent_title": title,
                     "body": body[:400],
-                    "score": c.get("score", 0),
-                    "created_utc": c["created_utc"],
+                    "score": c.score or 0,
+                    "created_utc": c.created_utc,
                 })
-            time.sleep(1.0)  # Be polite — stay well under 60 req/min unauthenticated limit
         except Exception as e:
             print(f"  ! error fetching comments for '{title[:40]}': {e}")
 
@@ -584,8 +600,9 @@ def main():
     tag = f" ({', '.join(tags)})" if tags else ""
     print(f"[{today}] Phan-o-meter daily run{tag}")
 
-    # 1. Pull Reddit (unless explicitly skipped — e.g. from GitHub Actions,
-    # where Reddit 403s cloud provider IPs on its public JSON endpoints).
+    # 1. Pull Reddit (unless explicitly skipped). Note: --no-reddit was added
+    # back when GitHub Actions runs 403'd; the real cause was the unauthenticated
+    # auth wall, now fixed by OAuth (see pull_reddit), not the runner's IP.
     if skip_reddit:
         print(f"Skipping r/{SUBREDDIT} (--no-reddit).")
         items = []
