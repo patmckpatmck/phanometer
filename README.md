@@ -13,12 +13,17 @@ Running nightly from GitHub Actions, with two user-facing surfaces:
   talk-radio host) that the scoring prompt weights distinctly.
 - **Reddit (r/phillies) ingestion.** Pulls recent posts, comments,
   and match-thread chatter from the subreddit's public JSON endpoints.
-  Treated as one of the four voice categories the scoring prompt
+  Treated as one of the five voice categories the scoring prompt
   weights distinctly.
 - **YouTube clips** from 94WIP and similar channels — `youtube.py`
   resolves video metadata via the YouTube Data API and fetches
   captions via `youtube-transcript-api`, contributing to the
   talk-radio voice track alongside WIP podcast feeds.
+- **YouTube fan comments** from the same channels — `youtube.py` pulls
+  top-level comments via the Data API `commentThreads.list` endpoint
+  (quota-metered, no caption scraping, so unaffected by the transcript
+  IP block). These form their own raw-fan voice category, `youtube_fan`,
+  kept distinct from the caption/talk-radio track.
 - **MLB attendance** hard signal from the Stats API — recent home-game
   capacity %, compared to a prior-year same-window baseline.
 - **MLB Stats API ground-truth injection.** Each scoring call prepends an
@@ -112,6 +117,9 @@ app under `web/` for the frontend and the chatbot's serverless endpoint.
 - `youtube.py` — YouTube Data API + `youtube-transcript-api` client.
   Resolves channel uploads, filters to clips inside the lookback
   window, and fetches captions that feed into the talk-radio voice.
+  `pull_youtube_comments()` separately pulls top-level video comments
+  via `commentThreads.list` for the `youtube_fan` voice (Data API only,
+  not the caption scraper).
 - `bot.py` — CLI development tool for the chatbot. One-shot
   `python3 bot.py "question"`. Reads the same `data/history.json` the
   frontend reads, sends it to Claude with the bot's system prompt.
@@ -264,7 +272,8 @@ and the new reel HTML deployed under `phanometer.com/reels/`.
     "fan_analyst":    { "score": 58, "note": "..." },
     "beat_writer":    { "score": 52, "note": "..." },
     "radio_populist": { "score": null, "note": null },
-    "reddit":         { "score": null, "note": null }
+    "reddit":         { "score": null, "note": null },
+    "youtube_fan":    { "score": 44, "note": "..." }
   },
   "themes": [
     { "name": "...", "delta": -4, "sample": "..." }
@@ -278,7 +287,8 @@ and the new reel HTML deployed under `phanometer.com/reels/`.
   "source_counts": {
     "reddit_posts": 0, "reddit_comments": 0, "match_threads": 0,
     "podcasts_attempted": 5, "podcasts_transcribed": 2, "podcast_chars": 84000,
-    "youtube_attempted": 3, "youtube_transcribed": 0, "youtube_chars": 0
+    "youtube_attempted": 3, "youtube_transcribed": 0, "youtube_chars": 0,
+    "youtube_comments": 37, "youtube_comment_chars": 4200
   },
   "podcasts_used": [
     { "feed_name": "Hittin' Season", "voice": "fan_analyst", "title": "...", "chars": 48000 }

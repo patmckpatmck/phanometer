@@ -34,7 +34,7 @@ from anthropic import Anthropic
 
 from attendance import pull_attendance, get_team_facts
 from podcasts import pull_podcasts
-from youtube import pull_youtube
+from youtube import pull_youtube, pull_youtube_comments
 
 # Load .env into environment if present. Keeps `python3 phanometer.py` working
 # without needing `export` or `source .env` first. run.sh already handles this
@@ -200,10 +200,11 @@ NEVER write the internal key in prose — always translate to the human label.
   fan_analyst         fan analyst         Hittin' Season / Stolnis, Klugh, Roscher
   beat_writer         beat writer         Phillies Therapy / Matt Gelb
   radio_populist      talk-radio host     WIP Daily / Joe Giglio
+  youtube_fan         YouTube commenters  raw fan voice from video comment sections, reactive, unfiltered
 
-Weight the PODCAST sources slightly more than individual Reddit comments because hosts
-summarize and represent broader fan sentiment. But Reddit match-thread reactions are
-the most emotionally real content — weight those heavily when present.
+Weight the PODCAST sources slightly more than individual Reddit or YouTube comments
+because hosts summarize and represent broader fan sentiment. But Reddit match-thread
+reactions are the most emotionally real content — weight those heavily when present.
 
 Return ONLY a valid JSON object with this exact schema. No preamble, no markdown, no code fences.
 
@@ -230,7 +231,8 @@ Return ONLY a valid JSON object with this exact schema. No preamble, no markdown
     "reddit":           {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"},
     "fan_analyst":      {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"},
     "beat_writer":      {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"},
-    "radio_populist":   {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"}
+    "radio_populist":   {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"},
+    "youtube_fan":      {"score": <int 0-100 or null>, "note": "<1 line, or null if no content>"}
   },
   "themes": [
     {"name": "<short phrase>", "delta": <int -10 to 10, no leading + on positives>, "sample": "<one-line summary>"}
@@ -299,7 +301,7 @@ NARRATIVE PROSE fields (attribution is FORBIDDEN — the UI renders attribution 
 - quotes[].text                — renders as the In the Air blurb body (must still be verbatim from input; see below)
 
 HARD RULE for every narrative-prose field:
-Do NOT reference sources, shows, hosts, podcasts, callers, Reddit, "voices," or any meta-language about who is saying something. Write about the SUBSTANCE only — what is happening with the team, not who is discussing it.
+Do NOT reference sources, shows, hosts, podcasts, callers, Reddit, YouTube, comment sections, "voices," or any meta-language about who is saying something. Write about the SUBSTANCE only — what is happening with the team, not who is discussing it.
 
 Violations — these phrases and any close variants are FORBIDDEN in narrative prose fields:
 - "both shows", "both podcasts", "both shows agree", "the shows agree"
@@ -311,6 +313,7 @@ Violations — these phrases and any close variants are FORBIDDEN in narrative p
 - "fan analyst", "talk-radio host", "beat writer" as subjects of a sentence in narrative prose
 - "according to the fan analyst", "per the beat writer"
 - "Reddit", "r/phillies" as a subject (e.g., "Reddit is outraged")
+- "YouTube", "YouTube commenters", "the comments", "commenters" as a subject (e.g., "YouTube commenters are furious")
 - any other formulation that names WHERE the sentiment is coming from
 
 Correct (substance only):
@@ -337,7 +340,7 @@ Correct rewrite of the above:
 For quotes[].text specifically: the quote must appear verbatim in the input. Prefer verbatim quotes about the team, players, or front office. If the only verbatim candidate is meta-commentary about other media ("both shows agree," "fan hosts say"), pick a different verbatim candidate instead.
 
 SELF-CHECK — MANDATORY before emitting JSON:
-Re-read each narrative-prose field below and confirm no sentence references sources, shows, hosts, callers, voices, Reddit, or where a sentiment is coming from:
+Re-read each narrative-prose field below and confirm no sentence references sources, shows, hosts, callers, voices, Reddit, YouTube, comment sections, or where a sentiment is coming from:
   - reasoning
   - every themes[].name
   - every themes[].sample
@@ -351,7 +354,7 @@ Rules:
 - Podcast ads and sponsor reads should be ignored — they are NOT sentiment signal
 - CRITICAL: For voice_breakdown, only score voices that have content in the input below. If a voice is absent from the input (no [PODCAST fan_analyst:...] tag appears, for example), return null for that voice, NOT an inferred score. Never hallucinate a voice's sentiment from context.
 - CRITICAL: For quotes, only include text that appears verbatim in the input below. Do not invent or paraphrase quotes.
-- CRITICAL: In the METADATA fields where attribution is expected (voice_breakdown[*].note, quotes[].source_hint), NEVER write the internal voice keys (reddit, fan_analyst, beat_writer, radio_populist) verbatim. Use the human labels from the table above (r/phillies, fan analyst, beat writer, talk-radio host). Example: write "the beat writer (Phillies Therapy)", not "the beat_writer (Phillies Therapy)".
+- CRITICAL: In the METADATA fields where attribution is expected (voice_breakdown[*].note, quotes[].source_hint), NEVER write the internal voice keys (reddit, fan_analyst, beat_writer, radio_populist, youtube_fan) verbatim. Use the human labels from the table above (r/phillies, fan analyst, beat writer, talk-radio host, YouTube commenters). Example: write "the beat writer (Phillies Therapy)", not "the beat_writer (Phillies Therapy)".
 
 GROUND-TRUTH FACTS:
 The "Content to analyze" section may begin with a "GROUND TRUTH (authoritative...)" block listing the team's current record, streak, and division position as of pipeline run time. When this block is present:
@@ -362,10 +365,13 @@ The "Content to analyze" section may begin with a "GROUND TRUTH (authoritative..
 Content to analyze:
 """
 
-def format_content_for_scoring(reddit_items, podcast_transcripts, team_facts=None):
-    """Format both Reddit items and podcast transcripts into a single prompt body.
-    If team_facts has all three fields populated, prepend a GROUND TRUTH block."""
+def format_content_for_scoring(reddit_items, podcast_transcripts, team_facts=None,
+                               youtube_comments=None):
+    """Format Reddit items, podcast transcripts, and YouTube fan comments into a
+    single prompt body. If team_facts has all three fields populated, prepend a
+    GROUND TRUTH block."""
     lines = []
+    youtube_comments = youtube_comments or []
 
     if team_facts and all(team_facts.get(k) is not None for k in ("record", "streak", "games_behind")):
         lines.append(
@@ -380,6 +386,8 @@ def format_content_for_scoring(reddit_items, podcast_transcripts, team_facts=Non
     voices_present = set()
     if reddit_items:
         voices_present.add("reddit")
+    if youtube_comments:
+        voices_present.add("youtube_fan")
     for pod in podcast_transcripts:
         if pod.get("transcript"):
             voices_present.add(pod.get("voice", "unknown"))
@@ -421,6 +429,16 @@ def format_content_for_scoring(reddit_items, podcast_transcripts, team_facts=Non
                     f'[COMMENT on "{item["parent_title"][:60]}"] ({item["score"]}⬆): {item["body"]}'
                 )
 
+    # Section 3: YouTube fan comments (youtube_fan voice). Raw, unfiltered fan
+    # reactions — kept distinct from the caption/transcript track, which is
+    # talk-radio media voice. Sorted by likes so the loudest comments lead.
+    if youtube_comments:
+        lines.append("\n=== YOUTUBE FAN COMMENTS ===\n")
+        for c in sorted(youtube_comments, key=lambda x: -x.get("likes", 0)):
+            lines.append(
+                f'[COMMENT on "{c["video_title"][:60]}"] ({c.get("likes", 0)}👍): {c["text"]}'
+            )
+
     return "\n".join(lines)
 
 def recent_vibe_summaries(history, n=3):
@@ -461,9 +479,12 @@ def format_recent_vibes_block(recent_vibes):
     return "\n".join(lines)
 
 
-def score_with_claude(reddit_items, podcast_transcripts, team_facts=None, recent_vibes=None):
+def score_with_claude(reddit_items, podcast_transcripts, team_facts=None, recent_vibes=None,
+                      youtube_comments=None):
     client = Anthropic()
-    content = format_content_for_scoring(reddit_items, podcast_transcripts, team_facts)
+    content = format_content_for_scoring(
+        reddit_items, podcast_transcripts, team_facts, youtube_comments=youtube_comments
+    )
     prompt = SCORING_PROMPT + content + format_recent_vibes_block(recent_vibes)
 
     message = client.messages.create(
@@ -528,10 +549,17 @@ def compute_baseline(history):
         baseline = alpha * day["reactive_score"] + (1 - alpha) * baseline
     return round(baseline)
 
-def compute_content_volume(reddit_item_count, audio_chars):
-    """Reddit items + transcribed audio minutes. Used for the insufficient-signal gate."""
+def compute_content_volume(text_item_count, audio_chars):
+    """Discrete text items + transcribed audio minutes. Used for the
+    insufficient-signal gate.
+
+    Decision: YouTube fan comments count as discrete text items (like Reddit
+    posts/comments), so they join the text-item tally — NOT the audio-minutes
+    side. A comment is one short fan utterance, the same unit a Reddit item is;
+    it carries no playback duration, so converting it to "minutes" would be
+    meaningless. Callers pass len(reddit_items) + len(youtube_comments) here."""
     audio_minutes = audio_chars / CHARS_PER_AUDIO_MINUTE
-    return round(reddit_item_count + audio_minutes)
+    return round(text_item_count + audio_minutes)
 
 # -----------------------------------------------------------------------------
 # Main
@@ -593,6 +621,17 @@ def main():
             print(f"  ! youtube pull crashed: {e}")
             youtube_clips = []
 
+    # 2b-ii. Pull YouTube fan comments — a direct-fan-voice source (youtube_fan),
+    # distinct from the caption track above. This is a Data API call, not the
+    # caption scraper, so it is unaffected by the transcript IP block.
+    youtube_comments = []
+    if not dry_run and not skip_youtube:
+        try:
+            youtube_comments = pull_youtube_comments()
+        except Exception as e:
+            print(f"  ! youtube comment pull crashed: {e}")
+            youtube_comments = []
+
     successful_podcasts_only = [p for p in podcasts if p.get("transcript")]
     successful_youtube = [y for y in youtube_clips if y.get("transcript")]
     successful_podcasts = successful_podcasts_only + successful_youtube
@@ -604,10 +643,11 @@ def main():
             print(f"  - {item}")
         return
 
-    if not items and not successful_podcasts:
-        print("  ! No Reddit items and no audio transcripts — nothing to score. Aborting.")
+    if not items and not successful_podcasts and not youtube_comments:
+        print("  ! No Reddit items, audio transcripts, or YouTube comments — "
+              "nothing to score. Aborting.")
         sys.exit(2)
-    if len(items) < 5 and not successful_podcasts:
+    if len(items) + len(youtube_comments) < 5 and not successful_podcasts:
         print("  ! Very low content volume — results may be unreliable")
 
     # 2c. Pull ground-truth team facts (record, streak, GB) so the scoring
@@ -628,13 +668,16 @@ def main():
     history = json.loads(history_path.read_text()) if history_path.exists() else []
     history = [h for h in history if h["date"] != today]
 
-    # 3. Score with Claude (Reddit + podcasts + youtube, all treated as audio)
+    # 3. Score with Claude (Reddit + podcasts + youtube captions as audio,
+    # YouTube comments as the youtube_fan voice)
     print(f"Scoring with {MODEL}...")
     print(f"  Input: {len(items)} Reddit items + {len(successful_podcasts_only)} podcast(s) "
-          f"+ {len(successful_youtube)} YouTube clip(s), {total_audio_chars:,} audio chars")
+          f"+ {len(successful_youtube)} YouTube clip(s) + {len(youtube_comments)} YouTube "
+          f"comment(s), {total_audio_chars:,} audio chars")
     result = score_with_claude(
         items, successful_podcasts, team_facts,
         recent_vibes=recent_vibe_summaries(history),
+        youtube_comments=youtube_comments,
     )
 
     # 4. Compute composite
@@ -643,7 +686,7 @@ def main():
     reactive = compute_reactive_score(dimensions, confidence)
     baseline = compute_baseline(history)
 
-    content_volume = compute_content_volume(len(items), total_audio_chars)
+    content_volume = compute_content_volume(len(items) + len(youtube_comments), total_audio_chars)
     insufficient_signal = content_volume < MIN_CONTENT_VOLUME
     display = None if insufficient_signal else reactive
     display_mood = mood_label(display) if display is not None else None
@@ -694,6 +737,10 @@ def main():
             "youtube_transcribed": len(successful_youtube),
             "youtube_chars": sum(
                 y.get("transcript_chars", 0) for y in successful_youtube
+            ),
+            "youtube_comments": len(youtube_comments),
+            "youtube_comment_chars": sum(
+                len(c.get("text", "")) for c in youtube_comments
             ),
         },
         "podcasts_used": [
