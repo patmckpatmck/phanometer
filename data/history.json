@@ -9098,29 +9098,29 @@
   },
   {
     "date": "2026-05-30",
-    "display_score": 66,
-    "reactive_score": 66,
+    "display_score": 59,
+    "reactive_score": 59,
     "baseline_score": 62,
     "insufficient_signal": false,
-    "content_volume": 254,
-    "mood_label": "High Hopes",
+    "content_volume": 257,
+    "mood_label": "Touch and Go",
     "dimensions": {
-      "results_satisfaction": 72,
-      "front_office_trust": 60,
-      "manager_confidence": 68,
-      "lineup_confidence": 42,
-      "pitching_confidence": 91,
-      "health_outlook": 65,
-      "postseason_belief": 48
+      "results_satisfaction": 68,
+      "front_office_trust": 48,
+      "manager_confidence": 62,
+      "lineup_confidence": 32,
+      "pitching_confidence": 88,
+      "health_outlook": 60,
+      "postseason_belief": 38
     },
     "dimension_confidence": {
-      "results_satisfaction": 78,
+      "results_satisfaction": 72,
       "front_office_trust": 45,
-      "manager_confidence": 60,
-      "lineup_confidence": 80,
-      "pitching_confidence": 97,
+      "manager_confidence": 55,
+      "lineup_confidence": 88,
+      "pitching_confidence": 95,
       "health_outlook": 40,
-      "postseason_belief": 65
+      "postseason_belief": 60
     },
     "voice_breakdown": {
       "reddit": {
@@ -9129,93 +9129,97 @@
       },
       "fan_analyst": {
         "score": 72,
-        "note": "Hittin' Season, The Phillies Show, and Phillies Talk all lead with deep historical reverence for Sanchez's scoreless streak, tempered by honest concern about offensive consistency and Nola's reliability; Mattingly draws measured credit."
+        "note": "Hittin' Season and the NBC/Phillies Show podcasts are euphoric about Cristopher Sanchez's historical scoreless streak and the Padres sweep, while soberly noting offensive limitations heading into the Dodgers series."
       },
       "beat_writer": {
-        "score": null,
-        "note": null
+        "score": 42,
+        "note": "The beat writer (Phillies Therapy) is the most measured and pessimistic voice \u2014 probing whether a team hovering near .500 is actually showing its true level, flagging historically bad leadoff OBP and a broken right-handed lineup."
       },
       "radio_populist": {
-        "score": 65,
-        "note": "WIP/High Hopes and 94WIP clips convey genuine Sanchez excitement alongside frank distrust of the offense and lively deadline speculation around Skubal and a right-handed bat; bullpen confidence in Dur\u00e1n is notably high."
+        "score": 55,
+        "note": "Talk-radio host (94WIP) energy is split between distrust of the offense and excitement about a hypothetical Skubal trade that would make the rotation 'terrifying.'"
+      },
+      "youtube_fan": {
+        "score": 44,
+        "note": "YouTube commenters range from dismissive ('Not happening') on the Skubal talk to frustrated criticism of Painter, Nola, Luzardo, and Dombrowski, with little of the pitching euphoria present in the podcast voices."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
       }
     },
     "themes": [
       {
-        "name": "Sanchez in Rarefied Historical Air",
+        "name": "Sanchez Chasing Immortality",
         "delta": 9,
-        "sample": "Passing Grover Cleveland Alexander's 115-year franchise record and sitting seventh all-time in the live-ball era has the pitching conversation operating at a level of awe usually reserved for postseason moments \u2014 comparisons to Hershiser, Drysdale, and Carlton are being made without irony."
+        "sample": "A 115-year Phillies franchise scoreless innings record has been shattered, with Orel Hershiser's all-time mark of 59 innings now a genuine \u2014 if still distant \u2014 target, and every start feels like must-watch history."
       },
       {
-        "name": "Offense Still the Stubborn Asterisk",
-        "delta": -6,
-        "sample": "Despite the Padres sweep, batting .194 with zero runs on a bases-loaded chance and repeatedly failing to damage sub-par starters has fans openly admitting they will not trust this offense until October \u2014 and possibly not even then without a deadline acquisition."
+        "name": "Offense Nobody Trusts",
+        "delta": -7,
+        "sample": "Right-handed hitters are collectively posting sub-.300 OBP, the leadoff spot has the worst on-base percentage in franchise history going back to 1898, and no one believes the bats until they prove it in October \u2014 or until a real bat is added at the deadline."
       },
       {
-        "name": "Mattingly Getting Quiet Credit",
+        "name": "Mattingly's Small Wins Adding Up",
         "delta": 4,
-        "sample": "Small but accumulating managerial adjustments \u2014 Marsh and Stott in the lineup daily, willingness to re-use relievers, steadying a shaken clubhouse \u2014 are being credited with the team's 20-8 run under his watch, even if the players are still seen as the primary cause."
+        "sample": "Playing Marsh and Stott every day, reusing effective relievers without hesitation \u2014 the new manager's incremental adjustments are credited with steadying a team that desperately needed a reset, even if the players deserve most of the credit."
       },
       {
-        "name": "Deadline Bat and Skubal Speculation Heating Up",
-        "delta": 3,
-        "sample": "Talk of trading for Tarik Skubal and landing a right-handed impact bat \u2014 Wilson Contreras as the dream, Mike Trout as the fantasy \u2014 is gaining traction as fans and analysts frame the rotation as already elite enough to carry a World Series run if the lineup gets fixed."
+        "name": "Skubal Trade Fantasy vs. Reality",
+        "delta": 2,
+        "sample": "The idea of adding a top-five starter to an already historic rotation generates genuine excitement, but skepticism runs deep \u2014 about the prospect cost, about Dombrowski's willingness to spend that capital, and about whether pitching alone can carry a team that can't score."
       },
       {
-        "name": "Dodgers Series as a True Measuring Stick",
-        "delta": 0,
-        "sample": "The first return to Dodger Stadium since last year's NLDS elimination is framed as a genuine test \u2014 Zach Wheeler leading off gives real confidence, but the Dodgers are viewed as a ceiling-setter the Phillies have not yet proven they can match when it matters most."
+        "name": "Dodgers Series as Real Test",
+        "delta": -3,
+        "sample": "Sweeping a second-place Padres squad built confidence, but facing the best team in baseball \u2014 who eliminated the Phillies in last year's NLDS \u2014 immediately resets expectations and reminds everyone that postseason trauma is fresh."
       }
     ],
     "quotes": [
       {
-        "text": "Him and Shohei, I guess, the two best pitchers in baseball.",
-        "score": 92,
-        "source_hint": "talk-radio host (High Hopes / WIP)"
-      },
-      {
-        "text": "I don't think fans are out, but I don't think they're in.",
-        "score": 38,
-        "source_hint": "talk-radio host (94WIP)"
-      },
-      {
-        "text": "Adding Skubal to this rotation, that is terrifying.",
-        "score": 80,
-        "source_hint": "talk-radio host (94WIP / High Hopes)"
-      },
-      {
-        "text": "I don't think I also don't think they're in. I still don't trust the offense.",
+        "text": "This is nice, but I still don't trust the offense.",
         "score": 35,
         "source_hint": "talk-radio host (94WIP)"
+      },
+      {
+        "text": "Christopher Sanchez is just riding a wave \u2014 it's Neo in the Matrix when he finally learns all of the stuff.",
+        "score": 90,
+        "source_hint": "fan analyst (Hittin' Season)"
+      },
+      {
+        "text": "Every single right-handed hitter on this team right now has an on-base percentage under 300.",
+        "score": 22,
+        "source_hint": "beat writer (Phillies Therapy)"
+      },
+      {
+        "text": "Thing is, we need 5 aces not just 3 because we only have 2 right now. Dombrowski fucked us but good and should be fired.",
+        "score": 18,
+        "source_hint": "YouTube commenter on Phillies rotation video"
       }
     ],
-    "vibe_summary": "The Dodgers series arrives as a genuine referendum on a team whose pitching has ascended to all-time territory but whose lineup keeps leaving the question unanswered.",
-    "reasoning": "The dominant driver of mood is Christopher Sanchez's historically unprecedented scoreless streak, which has pushed pitching confidence to near-maximum and generated comparisons to Hershiser and Drysdale across every show. However, the offense \u2014 batting .194 in the sweep, failing to punish mediocre starters, and drawing zero trust from even enthusiastic observers \u2014 keeps overall sentiment well short of conviction. The most notable divergence is between the pitching euphoria and the frank, nearly unanimous skepticism about whether this lineup can carry its weight in October without a significant deadline addition; deadline speculation around Skubal and a right-handed bat is the forward-looking thread that gives fans something to project optimism onto.",
+    "vibe_summary": "The Dodgers series looms as the real measuring stick, and while Cristopher Sanchez's scoreless-inning heroics keep the mood elevated, a lineup that can't be trusted \u2014 especially from the right side \u2014 is the stubborn cloud over what should feel like a triumphant West Coast swing.",
+    "reasoning": "The dominant emotional throughline is a sharp divergence between pitching euphoria and offensive despair. Sanchez's record-breaking run generates genuine historical excitement across analytical and broadcast voices, while the beat writer frames the team's .500-ish record as possibly its true level, anchored by historically bad leadoff production and a right-handed hitting crisis that spans the whole sport but hits the Phillies especially hard. The trade-deadline Skubal conversation signals the fan base understands what the roster needs but is skeptical it will arrive; postseason belief stays low because the framing is almost entirely structural reassurance and coping rather than expressed confidence in a deep October run.",
     "people_mentioned": [
       "Sanchez",
+      "Turner",
       "Wheeler",
       "Mattingly",
+      "Garcia",
+      "Harper",
+      "Schwarber",
       "Nola",
       "Luzardo",
       "Painter",
-      "Turner",
-      "Harper",
-      "Schwarber",
-      "Kirkering",
+      "Kerkering",
       "Stott",
       "Marsh",
-      "Bohm",
       "Crawford",
-      "Dur\u00e1n",
-      "Keller",
+      "Bohm",
       "Dombrowski",
       "Thomson",
-      "Skubal",
-      "Rincones",
-      "Garcia",
+      "Realmuto",
       "Sosa",
-      "Trout",
-      "Contreras"
+      "Konies"
     ],
     "source_counts": {
       "reddit_posts": 0,
@@ -9223,35 +9227,39 @@
       "match_threads": 0,
       "podcasts_attempted": 4,
       "podcasts_transcribed": 4,
-      "podcast_chars": 173653,
+      "podcast_chars": 165488,
       "youtube_attempted": 3,
       "youtube_transcribed": 3,
-      "youtube_chars": 16825
+      "youtube_chars": 16825,
+      "youtube_comments": 14,
+      "youtube_comment_chars": 1134,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
     },
     "podcasts_used": [
       {
         "feed_name": "Hittin' Season",
         "title": "Phillies Face Tough Task Against Surging Dodgers",
         "voice": "fan_analyst",
-        "chars": 54594
+        "chars": 54305
       },
       {
         "feed_name": "The Phillies Show",
         "title": "Simply the Best: Cristopher S\u00e1nchez makes Phillies history",
         "voice": "fan_analyst",
-        "chars": 30682
-      },
-      {
-        "feed_name": "High Hopes",
-        "title": "Bye Bye Grover & A Plan To Help The Outfield",
-        "voice": "radio_populist",
-        "chars": 46663
+        "chars": 31260
       },
       {
         "feed_name": "Phillies Talk",
         "title": "In awe of Cristopher S\u00e1nchez's greatness after sweep of Padres",
         "voice": "fan_analyst",
         "chars": 41714
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Right-Handed and Right Stranded",
+        "voice": "beat_writer",
+        "chars": 38209
       },
       {
         "feed_name": "94WIP",
@@ -9353,6 +9361,6 @@
       "streak": "L1",
       "games_behind": "9.5"
     },
-    "generated_at": "2026-05-30T14:26:18.083522+00:00"
+    "generated_at": "2026-05-30T19:35:20.763187+00:00"
   }
 ]
