@@ -238,7 +238,7 @@ Return ONLY a valid JSON object with this exact schema. No preamble, no markdown
   "quotes": [
     {"text": "<quote under 20 words>", "score": <int 0-100>, "source_hint": "<short context, e.g. 'Hittin' Season host' or 'r/phillies game thread'>"}
   ],
-  "vibe_summary": "<ONE sentence, max 25 words, describing how Phillies fans feel today. Plain prose suitable for display under a 'How Philly feels about the Phillies, today' header. Do NOT start with a number or statistic. Do NOT include decimal figures (e.g. ERA, batting averages). Write it as a standalone sentence that reads naturally on its own.>",
+  "vibe_summary": "<ONE sentence, max 25 words, describing how Phillies fans feel today. Plain prose suitable for display under a 'How Philly feels about the Phillies, today' header. Do NOT start with a number or statistic. Do NOT include decimal figures (e.g. ERA, batting averages). Write it as a standalone sentence that reads naturally on its own. If a RECENT VIBE SUMMARIES block appears below the input, do not echo its sentence structure, opening, or framing.>",
   "reasoning": "<2-3 sentences on what's driving today's mood. Note any divergence between the voices, e.g. 'beat writers cautious while fans outraged'.>",
   "people_mentioned": ["Thomson", "Mattingly", "Dombrowski", "Luzardo", "Stott"]
   }
@@ -423,10 +423,48 @@ def format_content_for_scoring(reddit_items, podcast_transcripts, team_facts=Non
 
     return "\n".join(lines)
 
-def score_with_claude(reddit_items, podcast_transcripts, team_facts=None):
+def recent_vibe_summaries(history, n=3):
+    """Return up to the last n non-empty vibe summaries as (date, summary)
+    pairs, oldest-first. Fed into the scoring prompt so vibe_summary doesn't
+    collapse into the same sentence frame on days when the dominant storyline
+    is unchanged. Empty summaries (e.g. insufficient-signal days) are skipped."""
+    out = []
+    for h in reversed(history):
+        vs = (h.get("vibe_summary") or "").strip()
+        if vs:
+            out.append((h["date"], vs))
+        if len(out) >= n:
+            break
+    return list(reversed(out))
+
+
+def format_recent_vibes_block(recent_vibes):
+    """Render recent vibe summaries plus an anti-repetition instruction.
+    Scoped to the wording of vibe_summary ONLY — it must not change dimension
+    scores, and it must not pressure Claude to invent a change the content
+    doesn't support."""
+    if not recent_vibes:
+        return ""
+    lines = ["\n\n=== RECENT VIBE SUMMARIES (most recent last) ==="]
+    for date, vs in recent_vibes:
+        lines.append(f"- {date}: {vs}")
+    lines.append("=== END RECENT VIBE SUMMARIES ===")
+    lines.append(
+        "Your vibe_summary must NOT reuse the sentence structure, opening, or "
+        "framing of the recent summaries above. Find a fresh angle. If today's "
+        "dominant storyline is genuinely unchanged from those days, foreground a "
+        "different thread from today's content rather than restating the same "
+        "frame. Do NOT manufacture a change the content doesn't support, and do "
+        "NOT let this instruction alter your dimension scores — it governs the "
+        "wording of vibe_summary only.\n"
+    )
+    return "\n".join(lines)
+
+
+def score_with_claude(reddit_items, podcast_transcripts, team_facts=None, recent_vibes=None):
     client = Anthropic()
     content = format_content_for_scoring(reddit_items, podcast_transcripts, team_facts)
-    prompt = SCORING_PROMPT + content
+    prompt = SCORING_PROMPT + content + format_recent_vibes_block(recent_vibes)
 
     message = client.messages.create(
         model=MODEL,
@@ -583,18 +621,23 @@ def main():
     else:
         print("  ! team facts unavailable — prompt will omit ground-truth block")
 
+    # Load history before scoring so recent vibe summaries can be fed into the
+    # prompt (anti-repetition for vibe_summary). Exclude today for idempotency
+    # on same-day re-runs.
+    history_path = DATA_DIR / "history.json"
+    history = json.loads(history_path.read_text()) if history_path.exists() else []
+    history = [h for h in history if h["date"] != today]
+
     # 3. Score with Claude (Reddit + podcasts + youtube, all treated as audio)
     print(f"Scoring with {MODEL}...")
     print(f"  Input: {len(items)} Reddit items + {len(successful_podcasts_only)} podcast(s) "
           f"+ {len(successful_youtube)} YouTube clip(s), {total_audio_chars:,} audio chars")
-    result = score_with_claude(items, successful_podcasts, team_facts)
+    result = score_with_claude(
+        items, successful_podcasts, team_facts,
+        recent_vibes=recent_vibe_summaries(history),
+    )
 
-    # 4. Load history and compute composite
-    history_path = DATA_DIR / "history.json"
-    history = json.loads(history_path.read_text()) if history_path.exists() else []
-    # Exclude today from history if re-running same day (idempotency)
-    history = [h for h in history if h["date"] != today]
-
+    # 4. Compute composite
     dimensions = result["dimensions"]
     confidence = result["dimension_confidence"]
     reactive = compute_reactive_score(dimensions, confidence)
