@@ -13,7 +13,7 @@ export type DimensionKey =
 export type Dimensions = Record<DimensionKey, number>;
 export type DimensionConfidence = Partial<Record<DimensionKey, number>>;
 
-export type VoiceKey = 'reddit' | 'beat_writer' | 'fan_analyst' | 'radio_populist' | 'youtube_fan';
+export type VoiceKey = 'reddit' | 'beat_writer' | 'fan_analyst' | 'radio_populist' | 'youtube_fan' | 'twitter_fan';
 
 export interface Voice {
   score: number | null;
@@ -48,6 +48,10 @@ export interface SourceCounts {
   // generated after this field was added; older records omit them.
   youtube_comments?: number;
   youtube_comment_chars?: number;
+  // X (Twitter) fan-post counts (twitter_fan voice). Only present on records
+  // generated after this field was added; older records omit them.
+  twitter_posts?: number;
+  twitter_post_chars?: number;
 }
 
 export interface PodcastUsed {

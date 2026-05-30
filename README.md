@@ -13,7 +13,7 @@ Running nightly from GitHub Actions, with two user-facing surfaces:
   talk-radio host) that the scoring prompt weights distinctly.
 - **Reddit (r/phillies) ingestion.** Pulls recent posts, comments,
   and match-thread chatter via the Reddit Data API (authenticated
-  read-only OAuth through PRAW). Treated as one of the five voice
+  read-only OAuth through PRAW). Treated as one of the six voice
   categories the scoring prompt weights distinctly.
 - **YouTube clips** from 94WIP and similar channels — `youtube.py`
   resolves video metadata via the YouTube Data API and fetches
@@ -24,6 +24,15 @@ Running nightly from GitHub Actions, with two user-facing surfaces:
   (quota-metered, no caption scraping, so unaffected by the transcript
   IP block). These form their own raw-fan voice category, `youtube_fan`,
   kept distinct from the caption/talk-radio track.
+- **X (Twitter) fan posts** — `twitter.py` runs an authenticated v2
+  recent-search (`/2/tweets/search/recent`) over the 24h window for the
+  `twitter_fan` voice. X is pay-per-use (billed per post returned), so
+  the pull is hard-capped per run (~$0.75/day) well under the console
+  spend cap. The query filters retweets, replies, and gambling/betting
+  spam at the query level (so excluded posts are never returned or
+  billed). Some media voice (beat writers, team/fan-brand accounts like
+  Phillies Nation) still bleeds in alongside real fans — the known,
+  accepted v1 limitation.
 - **MLB attendance** hard signal from the Stats API — recent home-game
   capacity %, compared to a prior-year same-window baseline.
 - **MLB Stats API ground-truth injection.** Each scoring call prepends an
@@ -120,6 +129,10 @@ app under `web/` for the frontend and the chatbot's serverless endpoint.
   `pull_youtube_comments()` separately pulls top-level video comments
   via `commentThreads.list` for the `youtube_fan` voice (Data API only,
   not the caption scraper).
+- `twitter.py` — X (Twitter) v2 recent-search client. `pull_tweets()`
+  fetches recent Phillies fan posts (the `twitter_fan` voice) via
+  `X_BEARER_TOKEN`, hard-capped per run for cost safety (X bills per
+  post returned). `--search` runs a cheap capped smoke test.
 - `bot.py` — CLI development tool for the chatbot. One-shot
   `python3 bot.py "question"`. Reads the same `data/history.json` the
   frontend reads, sends it to Claude with the bot's system prompt.
@@ -279,7 +292,8 @@ and the new reel HTML deployed under `phanometer.com/reels/`.
     "beat_writer":    { "score": 52, "note": "..." },
     "radio_populist": { "score": null, "note": null },
     "reddit":         { "score": null, "note": null },
-    "youtube_fan":    { "score": 44, "note": "..." }
+    "youtube_fan":    { "score": 44, "note": "..." },
+    "twitter_fan":    { "score": 48, "note": "..." }
   },
   "themes": [
     { "name": "...", "delta": -4, "sample": "..." }
@@ -294,7 +308,8 @@ and the new reel HTML deployed under `phanometer.com/reels/`.
     "reddit_posts": 0, "reddit_comments": 0, "match_threads": 0,
     "podcasts_attempted": 5, "podcasts_transcribed": 2, "podcast_chars": 84000,
     "youtube_attempted": 3, "youtube_transcribed": 0, "youtube_chars": 0,
-    "youtube_comments": 37, "youtube_comment_chars": 4200
+    "youtube_comments": 37, "youtube_comment_chars": 4200,
+    "twitter_posts": 150, "twitter_post_chars": 18000
   },
   "podcasts_used": [
     { "feed_name": "Hittin' Season", "voice": "fan_analyst", "title": "...", "chars": 48000 }
