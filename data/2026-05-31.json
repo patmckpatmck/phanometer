@@ -1,28 +1,28 @@
 {
   "date": "2026-05-31",
-  "display_score": 54,
-  "reactive_score": 54,
+  "display_score": 59,
+  "reactive_score": 59,
   "baseline_score": 61,
   "insufficient_signal": false,
-  "content_volume": 190,
+  "content_volume": 343,
   "mood_label": "Touch and Go",
   "dimensions": {
-    "results_satisfaction": 62,
-    "front_office_trust": 45,
-    "manager_confidence": 52,
+    "results_satisfaction": 68,
+    "front_office_trust": 52,
+    "manager_confidence": 58,
     "lineup_confidence": 32,
-    "pitching_confidence": 82,
-    "health_outlook": 58,
-    "postseason_belief": 38
+    "pitching_confidence": 88,
+    "health_outlook": 62,
+    "postseason_belief": 42
   },
   "dimension_confidence": {
-    "results_satisfaction": 70,
+    "results_satisfaction": 72,
     "front_office_trust": 55,
-    "manager_confidence": 40,
-    "lineup_confidence": 88,
-    "pitching_confidence": 92,
+    "manager_confidence": 45,
+    "lineup_confidence": 85,
+    "pitching_confidence": 95,
     "health_outlook": 40,
-    "postseason_belief": 65
+    "postseason_belief": 60
   },
   "voice_breakdown": {
     "reddit": {
@@ -30,97 +30,100 @@
       "note": null
     },
     "fan_analyst": {
-      "score": 68,
-      "note": "The fan analyst voices are in awe of Sanchez's historical dominance and celebrate the Padres sweep, but express real concern about Turner's struggles, Nola's reliability, and whether the offense can carry its weight in LA."
+      "score": 72,
+      "note": "The Phillies Show and Phillies Talk overflow with historical awe for Sanchez while honestly wrestling with Turner's slump, Nola's fragility, and whether the offense can support a playoff run."
     },
     "beat_writer": {
-      "score": 42,
-      "note": "The beat writer delivers the most sobering read \u2014 worst leadoff OBP in Phillies history going back to 1898, a right-handed hitting epidemic, Adolis Garcia at 2-for-40, and genuine uncertainty about whether this roster is built to contend at its current level."
+      "score": 48,
+      "note": "Phillies Therapy offers the sharpest structural critique \u2014 league-historically bad leadoff OBP, right-handed hitting epidemic, and a sober question of whether hovering around .500 is the team's true level."
     },
     "radio_populist": {
-      "score": 55,
-      "note": "Talk-radio hosts are energized by the Skubal trade speculation and Sanchez's dominance, but the refrain is clear: nobody trusts this offense until it proves something in October or the front office lands a real bat."
+      "score": 60,
+      "note": "WIP oscillates between excitement over a dream rotation scenario involving a Skubal trade and frank distrust of the offense, saying fans won't believe until October."
     },
     "youtube_fan": {
       "score": 38,
-      "note": "YouTube commenters are the most cynical voice \u2014 dismissing the Skubal idea as futile given the offense, blasting Painter and Nola, and questioning Dombrowski's roster construction outright."
+      "note": "YouTube commenters are largely skeptical \u2014 dismissing a Skubal trade as unrealistic, blasting Dombrowski, and predicting a great rotation still loses 1-0 every night."
     },
     "twitter_fan": {
-      "score": null,
-      "note": null
+      "score": 65,
+      "note": "X posts are buoyant after the Sosa walk-off win over the Dodgers, celebrating the late-game heroics and the strong Mattingly-era record, while also surfacing the ugly offense numbers and the vast gap behind Atlanta."
     }
   },
   "themes": [
     {
-      "name": "S\u00e1nchez Chasing Hershiser",
+      "name": "Sanchez chasing immortality",
       "delta": 9,
-      "sample": "Now 44-and-two-thirds innings of scoreless ball, S\u00e1nchez has passed Grover Cleveland Alexander's 115-year franchise record and sits 14-plus innings from the all-time MLB mark \u2014 the historical comparisons to Drysdale, Gibson, and Hubbell are flowing freely."
+      "sample": "A 44-plus inning scoreless streak now ranks among the greatest in baseball history since 1900, with Orel Hershiser's all-time record coming into view for a June 3rd start."
     },
     {
-      "name": "Leadoff Spot Is a Black Hole",
+      "name": "Offense structurally broken from the right side",
       "delta": -8,
-      "sample": "Turner's .281 on-base percentage from the leadoff spot has produced the worst such mark in Phillies history dating to 1898 \u2014 worse than wartime-era teams \u2014 and the math of losing when your most frequent batter barely gets on base is catching up to this roster."
+      "sample": "Every right-handed hitter on the roster has an on-base percentage under .300, the leadoff spot is posting the worst OBP in franchise history going back to 1898, and Turner's .281 OBP is nearly unthinkable for a two-time batting champion."
     },
     {
-      "name": "Right-Handed Hitting Is Broken",
-      "delta": -6,
-      "sample": "Garcia at 2-for-40 with no home run since May 6th, Turner at .226, and a sport-wide righty outfield OPS of .695 \u2014 the lowest since 1969 \u2014 have combined to make the Phillies' lineup construction feel genuinely compromised with no obvious internal fix before August."
+      "name": "Sosa walk-off lifts spirits in LA",
+      "delta": 5,
+      "sample": "Edmundo Sosa's go-ahead two-run homer in the eighth inning off Tanner Scott gave the Phillies a 4-3 win over the Dodgers, generating genuine late-night excitement and a series victory in enemy territory."
     },
     {
-      "name": "Skubal Trade Fantasy",
-      "delta": 4,
-      "sample": "The idea of a S\u00e1nchez-Wheeler-Skubal playoff rotation has fans and hosts dreaming, but the cost \u2014 likely top prospects, possibly Luzardo \u2014 and the near-certainty that Skubal walks in free agency make the fantasy feel more fun than actionable."
+      "name": "Skubal trade fantasy vs. deadline reality",
+      "delta": 2,
+      "sample": "The idea of adding Tarik Skubal to a Sanchez-Wheeler rotation is being floated as terrifying, but skeptics note the price in prospects would be enormous and the offense \u2014 not the rotation \u2014 remains the actual problem."
     },
     {
-      "name": "Offense Still Can't Be Trusted",
-      "delta": -5,
-      "sample": "Even with a Padres sweep in hand, the consensus is that the offense has done just enough rather than turned a corner \u2014 eight shutouts lead baseball, Walker Buehler and Griffin Canning held them in check, and no one expects runs to come easily in Los Angeles."
+      "name": "20-8 under Mattingly masks a middling roster",
+      "delta": -3,
+      "sample": "A remarkable managerial turnaround since the 9-19 start has the Phillies at 30-28, but honest assessment suggests this team hovering near .500 may be closer to its true level than the hot-streak numbers imply."
     }
   ],
   "quotes": [
     {
-      "text": "He's the second pitcher since at least 1900 to make five plus starts in a calendar month and not allow a single run.",
-      "score": 95,
-      "source_hint": "fan analyst, The Phillies Show"
+      "text": "Baseball's fun again. Baseball's funny when you watch Christopher Sanchez pitch.",
+      "score": 92,
+      "source_hint": "Phillies Show fan analyst (Ruben Amaro Jr.)"
     },
     {
-      "text": "It's the worst ever for the Phillies. The 1941 Phillies, who lost 111 games, had a 276 on base from the leadoff spot. These Phillies are worse.",
-      "score": 18,
-      "source_hint": "beat writer, Phillies Therapy"
+      "text": "I don't think fans are out, but I also don't think they're in.",
+      "score": 38,
+      "source_hint": "talk-radio host (WIP Daily)"
     },
     {
-      "text": "I don't think anybody's going to trust the offense unless they go get a real bat at the deadline.",
-      "score": 30,
-      "source_hint": "talk-radio host, 94WIP"
-    },
-    {
-      "text": "We'd lose 1-0 every game.",
+      "text": "He is a 300 million dollar shortstop who needs to start playing like one.",
       "score": 22,
-      "source_hint": "YouTube commenters on the Skubal rotation discussion"
+      "source_hint": "Phillies Talk fan analyst (Michael Barkan) on Trea Turner"
+    },
+    {
+      "text": "The Phillies are three games back of a playoff spot right now. Play it as it lies.",
+      "score": 55,
+      "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
     }
   ],
-  "vibe_summary": "Historical pitching glory has never felt more real, but every conversation eventually circles back to the same uncomfortable truth: this lineup simply cannot be relied upon.",
-  "reasoning": "The dominant emotional driver remains S\u00e1nchez's historically unprecedented run, now framed explicitly against Hershiser's all-time record with a realistic shot at breaking it. But the analytical layer has grown darker \u2014 the beat writer's revelation that this Phillies leadoff OBP is historically the worst in franchise history reframes what's actually happening: a transcendent pitching staff holding together a roster with a genuinely broken offense. The Skubal speculation provides a brief lift, but even that conversation quickly pivots to the underlying problem: pitching isn't what's holding this team back. The gap between the two narratives \u2014 one of all-time greatness on the mound, one of historically bad production at the plate \u2014 is what defines the current mood.",
+  "vibe_summary": "A late-night walk-off in Los Angeles has Phillies fans exhaling, but the joy is borrowed \u2014 a historically broken right-handed lineup remains the team's stubborn anchor even as Sanchez approaches baseball immortality.",
+  "reasoning": "The dominant energy is a split between genuine historical wonder at Sanchez's scoreless streak and sober structural alarm about the offense. The beat writer framing is the most analytically damning \u2014 a leadoff OBP that is the worst in franchise history since the 1940s \u2014 while fan analysts are more emotionally buoyant, leaning on the Mattingly-era turnaround record and Sanchez's Cy Young case. The Sosa walk-off win over the Dodgers injected short-term relief on X, but the underlying skepticism about whether this lineup can carry a playoff team is consistent across every source.",
   "people_mentioned": [
-    "Sanchez",
-    "Turner",
-    "Mattingly",
-    "Dombrowski",
-    "Wheeler",
-    "Nola",
-    "Luzardo",
-    "Painter",
-    "Garcia",
-    "Harper",
-    "Schwarber",
-    "Bohm",
-    "Crawford",
-    "Marsh",
-    "Skubal",
-    "Sosa",
-    "Realmuto",
-    "Thomson",
-    "Stott"
+    "Cristopher Sanchez",
+    "Trea Turner",
+    "Don Mattingly",
+    "Aaron Nola",
+    "Bryce Harper",
+    "Kyle Schwarber",
+    "Adolis Garcia",
+    "Edmundo Sosa",
+    "Zach Wheeler",
+    "Jesus Luzardo",
+    "Andrew Painter",
+    "Justin Crawford",
+    "Brandon Marsh",
+    "J.T. Realmuto",
+    "Alec Bohm",
+    "Bryson Stott",
+    "Dave Dombrowski",
+    "Rob Thomson",
+    "Jhoan Duran",
+    "Tarik Skubal",
+    "Gage Wood",
+    "Nick Castellanos"
   ],
   "source_counts": {
     "reddit_posts": 0,
@@ -128,21 +131,21 @@
     "match_threads": 0,
     "podcasts_attempted": 3,
     "podcasts_transcribed": 3,
-    "podcast_chars": 114603,
+    "podcast_chars": 116147,
     "youtube_attempted": 3,
     "youtube_transcribed": 3,
     "youtube_chars": 16825,
-    "youtube_comments": 15,
-    "youtube_comment_chars": 1164,
-    "twitter_posts": 0,
-    "twitter_post_chars": 0
+    "youtube_comments": 16,
+    "youtube_comment_chars": 1224,
+    "twitter_posts": 150,
+    "twitter_post_chars": 26091
   },
   "podcasts_used": [
     {
       "feed_name": "The Phillies Show",
       "title": "Simply the Best: Cristopher S\u00e1nchez makes Phillies history",
       "voice": "fan_analyst",
-      "chars": 32323
+      "chars": 33799
     },
     {
       "feed_name": "Phillies Talk",
@@ -154,7 +157,7 @@
       "feed_name": "Phillies Therapy",
       "title": "Right-Handed and Right Stranded",
       "voice": "beat_writer",
-      "chars": 40097
+      "chars": 40165
     },
     {
       "feed_name": "94WIP",
@@ -256,5 +259,5 @@
     "streak": "W1",
     "games_behind": "9.5"
   },
-  "generated_at": "2026-05-31T11:46:38.123453+00:00"
+  "generated_at": "2026-05-31T14:34:05.442443+00:00"
 }
