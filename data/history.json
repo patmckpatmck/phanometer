@@ -9362,5 +9362,265 @@
       "games_behind": "9.5"
     },
     "generated_at": "2026-05-30T19:35:20.763187+00:00"
+  },
+  {
+    "date": "2026-05-31",
+    "display_score": 54,
+    "reactive_score": 54,
+    "baseline_score": 61,
+    "insufficient_signal": false,
+    "content_volume": 190,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 45,
+      "manager_confidence": 52,
+      "lineup_confidence": 32,
+      "pitching_confidence": 82,
+      "health_outlook": 58,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 70,
+      "front_office_trust": 55,
+      "manager_confidence": 40,
+      "lineup_confidence": 88,
+      "pitching_confidence": 92,
+      "health_outlook": 40,
+      "postseason_belief": 65
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 68,
+        "note": "The fan analyst voices are in awe of Sanchez's historical dominance and celebrate the Padres sweep, but express real concern about Turner's struggles, Nola's reliability, and whether the offense can carry its weight in LA."
+      },
+      "beat_writer": {
+        "score": 42,
+        "note": "The beat writer delivers the most sobering read \u2014 worst leadoff OBP in Phillies history going back to 1898, a right-handed hitting epidemic, Adolis Garcia at 2-for-40, and genuine uncertainty about whether this roster is built to contend at its current level."
+      },
+      "radio_populist": {
+        "score": 55,
+        "note": "Talk-radio hosts are energized by the Skubal trade speculation and Sanchez's dominance, but the refrain is clear: nobody trusts this offense until it proves something in October or the front office lands a real bat."
+      },
+      "youtube_fan": {
+        "score": 38,
+        "note": "YouTube commenters are the most cynical voice \u2014 dismissing the Skubal idea as futile given the offense, blasting Painter and Nola, and questioning Dombrowski's roster construction outright."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "S\u00e1nchez Chasing Hershiser",
+        "delta": 9,
+        "sample": "Now 44-and-two-thirds innings of scoreless ball, S\u00e1nchez has passed Grover Cleveland Alexander's 115-year franchise record and sits 14-plus innings from the all-time MLB mark \u2014 the historical comparisons to Drysdale, Gibson, and Hubbell are flowing freely."
+      },
+      {
+        "name": "Leadoff Spot Is a Black Hole",
+        "delta": -8,
+        "sample": "Turner's .281 on-base percentage from the leadoff spot has produced the worst such mark in Phillies history dating to 1898 \u2014 worse than wartime-era teams \u2014 and the math of losing when your most frequent batter barely gets on base is catching up to this roster."
+      },
+      {
+        "name": "Right-Handed Hitting Is Broken",
+        "delta": -6,
+        "sample": "Garcia at 2-for-40 with no home run since May 6th, Turner at .226, and a sport-wide righty outfield OPS of .695 \u2014 the lowest since 1969 \u2014 have combined to make the Phillies' lineup construction feel genuinely compromised with no obvious internal fix before August."
+      },
+      {
+        "name": "Skubal Trade Fantasy",
+        "delta": 4,
+        "sample": "The idea of a S\u00e1nchez-Wheeler-Skubal playoff rotation has fans and hosts dreaming, but the cost \u2014 likely top prospects, possibly Luzardo \u2014 and the near-certainty that Skubal walks in free agency make the fantasy feel more fun than actionable."
+      },
+      {
+        "name": "Offense Still Can't Be Trusted",
+        "delta": -5,
+        "sample": "Even with a Padres sweep in hand, the consensus is that the offense has done just enough rather than turned a corner \u2014 eight shutouts lead baseball, Walker Buehler and Griffin Canning held them in check, and no one expects runs to come easily in Los Angeles."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "He's the second pitcher since at least 1900 to make five plus starts in a calendar month and not allow a single run.",
+        "score": 95,
+        "source_hint": "fan analyst, The Phillies Show"
+      },
+      {
+        "text": "It's the worst ever for the Phillies. The 1941 Phillies, who lost 111 games, had a 276 on base from the leadoff spot. These Phillies are worse.",
+        "score": 18,
+        "source_hint": "beat writer, Phillies Therapy"
+      },
+      {
+        "text": "I don't think anybody's going to trust the offense unless they go get a real bat at the deadline.",
+        "score": 30,
+        "source_hint": "talk-radio host, 94WIP"
+      },
+      {
+        "text": "We'd lose 1-0 every game.",
+        "score": 22,
+        "source_hint": "YouTube commenters on the Skubal rotation discussion"
+      }
+    ],
+    "vibe_summary": "Historical pitching glory has never felt more real, but every conversation eventually circles back to the same uncomfortable truth: this lineup simply cannot be relied upon.",
+    "reasoning": "The dominant emotional driver remains S\u00e1nchez's historically unprecedented run, now framed explicitly against Hershiser's all-time record with a realistic shot at breaking it. But the analytical layer has grown darker \u2014 the beat writer's revelation that this Phillies leadoff OBP is historically the worst in franchise history reframes what's actually happening: a transcendent pitching staff holding together a roster with a genuinely broken offense. The Skubal speculation provides a brief lift, but even that conversation quickly pivots to the underlying problem: pitching isn't what's holding this team back. The gap between the two narratives \u2014 one of all-time greatness on the mound, one of historically bad production at the plate \u2014 is what defines the current mood.",
+    "people_mentioned": [
+      "Sanchez",
+      "Turner",
+      "Mattingly",
+      "Dombrowski",
+      "Wheeler",
+      "Nola",
+      "Luzardo",
+      "Painter",
+      "Garcia",
+      "Harper",
+      "Schwarber",
+      "Bohm",
+      "Crawford",
+      "Marsh",
+      "Skubal",
+      "Sosa",
+      "Realmuto",
+      "Thomson",
+      "Stott"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 114603,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 16825,
+      "youtube_comments": 15,
+      "youtube_comment_chars": 1164,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Simply the Best: Cristopher S\u00e1nchez makes Phillies history",
+        "voice": "fan_analyst",
+        "chars": 32323
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "In awe of Cristopher S\u00e1nchez's greatness after sweep of Padres",
+        "voice": "fan_analyst",
+        "chars": 42183
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Right-Handed and Right Stranded",
+        "voice": "beat_writer",
+        "chars": 40097
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Hard To Trust Phillies Offense",
+        "voice": "radio_populist",
+        "chars": 650
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "A Tarik Skubal Trade Makes Phillies TERRIFYING!",
+        "voice": "radio_populist",
+        "chars": 700
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Imagine THIS Phillies Rotation\u2014Sanchez, Wheeler, Skubal \ud83e\udd2f",
+        "voice": "radio_populist",
+        "chars": 15475
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 88.5,
+        "baseline_games_count": 38,
+        "baseline_avg_pct": 97.3,
+        "delta_pct": -8.8,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823465,
+            "date": "2026-05-18",
+            "day_of_week": "Monday",
+            "opponent": "Cincinnati Reds",
+            "result": "W 5-4",
+            "attendance": 40065,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823464,
+            "date": "2026-05-19",
+            "day_of_week": "Tuesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 1-4",
+            "attendance": 37527,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823462,
+            "date": "2026-05-20",
+            "day_of_week": "Wednesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 4-9",
+            "attendance": 38222,
+            "pct_capacity": 89.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823461,
+            "date": "2026-05-22",
+            "day_of_week": "Friday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 0-1",
+            "attendance": 38092,
+            "pct_capacity": 88.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823458,
+            "date": "2026-05-23",
+            "day_of_week": "Saturday",
+            "opponent": "Cleveland Guardians",
+            "result": "W 3-0",
+            "attendance": 36125,
+            "pct_capacity": 84.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823459,
+            "date": "2026-05-24",
+            "day_of_week": "Sunday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 1-3",
+            "attendance": 37808,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "30-28",
+      "streak": "W1",
+      "games_behind": "9.5"
+    },
+    "generated_at": "2026-05-31T11:46:38.123453+00:00"
   }
 ]
