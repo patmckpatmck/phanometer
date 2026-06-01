@@ -9625,5 +9625,271 @@
       "games_behind": "9.5"
     },
     "generated_at": "2026-05-31T14:34:05.442443+00:00"
+  },
+  {
+    "date": "2026-06-01",
+    "display_score": 43,
+    "reactive_score": 43,
+    "baseline_score": 60,
+    "insufficient_signal": false,
+    "content_volume": 355,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 42,
+      "front_office_trust": 32,
+      "manager_confidence": 55,
+      "lineup_confidence": 18,
+      "pitching_confidence": 78,
+      "health_outlook": 52,
+      "postseason_belief": 28
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 60,
+      "manager_confidence": 50,
+      "lineup_confidence": 95,
+      "pitching_confidence": 85,
+      "health_outlook": 65,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 38,
+        "note": "Both Phillies Show and Phillies Talk hosts share alarm over historic offensive futility \u2014 bottom-five in nearly every category \u2014 with Garcia, Turner, and the right-handed lineup gap driving sustained frustration despite a 4-2 road trip."
+      },
+      "beat_writer": {
+        "score": 40,
+        "note": "Phillies Therapy contextualizes the offensive collapse as a sport-wide righty-outfielder epidemic but does not absolve the Phillies; the team is described as plausibly a middling 500-level club, with Turner's OBP from the leadoff spot potentially the worst in franchise history."
+      },
+      "radio_populist": {
+        "score": 45,
+        "note": "WIP Daily oscillates between offense distrust ('nobody will trust the offense until October') and dreamy rotation fantasy involving a Skubal trade, landing in cautious mid-range sentiment overall."
+      },
+      "youtube_fan": {
+        "score": 25,
+        "note": "YouTube commenters are uniformly skeptical \u2014 the rotation upgrade fantasy is met with 'we'd lose 1-0 every game,' Dombrowski is called out for mismanagement, and the offense is described as 'putrid.'"
+      },
+      "twitter_fan": {
+        "score": 30,
+        "note": "X posts are dominated by offensive collapse statistics, Garcia's 3-for-57 slump, Aidan Miller shutdown news, and a 9.5-game division deficit \u2014 a few rally cries mixed into largely grim sentiment."
+      }
+    },
+    "themes": [
+      {
+        "name": "Historically Bad Offense Overshadows Everything",
+        "delta": -8,
+        "sample": "No runs scored above four in over two weeks, dead last in NL on-base percentage, worst leadoff-spot OBP in franchise history going back to 1898 \u2014 the numbers have crossed from slump territory into genuine structural alarm."
+      },
+      {
+        "name": "Adolis Garc\u00eda Situation Reaches Breaking Point",
+        "delta": -7,
+        "sample": "Three hits in his last 57 at-bats, the third-worst OPS by a qualified Phillies outfielder since 1920, and no viable replacement in the system \u2014 Garc\u00eda's elite defense is the only thread keeping him in the lineup."
+      },
+      {
+        "name": "Rotation Is Carrying an Impossible Load",
+        "delta": 5,
+        "sample": "Cristopher S\u00e1nchez's historic scoreless-inning streak and Wheeler's dominance are keeping the team afloat, but the consensus is clear: pitching at this level is not sustainable, and the offense must eventually contribute."
+      },
+      {
+        "name": "Skubal Trade Fantasy Offers Escape Valve",
+        "delta": 2,
+        "sample": "Buster Olney's mention of the Phillies as Skubal suitors ignited debate about trading Luzardo for a right-handed bat versus going all-in on a rotation that would be historically elite \u2014 but most conclude the offense problem can't be rotation-papered-over."
+      },
+      {
+        "name": "Injury and Depth Anxiety Mounting",
+        "delta": -5,
+        "sample": "Realmuto's left wrist contusion, Aidan Miller still shut down from all baseball activities four months in, and a catching depth chart that inspires little confidence behind JT \u2014 the roster's fragility is a quiet but persistent worry."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "It's hitting season. And their offense has been really pretty terrible.",
+        "score": 18,
+        "source_hint": "fan analyst (The Phillies Show)"
+      },
+      {
+        "text": "They can't continue with this putrid lineup. They just can't.",
+        "score": 12,
+        "source_hint": "YouTube commenters"
+      },
+      {
+        "text": "I still am bullish on this team because of the pitching. The pitching that they have makes them relevant no matter what happens.",
+        "score": 62,
+        "source_hint": "beat writer (Phillies Therapy)"
+      },
+      {
+        "text": "I don't think fans are out, but I also don't think they're in.",
+        "score": 35,
+        "source_hint": "talk-radio host (WIP Daily)"
+      }
+    ],
+    "vibe_summary": "The offense has curdled into a genuine crisis \u2014 historically bad at getting on base, silent for two weeks above four runs \u2014 and even a winning road trip can't paper over the growing fear that this team's ceiling is whatever the pitching staff can carry alone.",
+    "reasoning": "The dominant mood entering June is one of grudging acknowledgment that the Phillies are something close to a .500 team being saved by elite pitching. The offensive collapse \u2014 no game with five-plus runs since May 18, bottom-five in nearly every major category, a leadoff OBP tracking as the worst in franchise history \u2014 is no longer dismissed as a cold stretch. Contextualizing framings exist (the sport-wide righty-outfielder drought, a winning May record) but they read as mitigation, not confidence. The rotation discourse, including Skubal trade speculation, provides momentary excitement but fan-level cynicism quickly reasserts that adding aces doesn't fix a lineup that can't score. Postseason belief stays low because expressed faith in the roster's October ceiling is absent \u2014 what's present instead is worry.",
+    "people_mentioned": [
+      "Garc\u00eda",
+      "S\u00e1nchez",
+      "Turner",
+      "Realmuto",
+      "Mattingly",
+      "Marsh",
+      "Sosa",
+      "Wheeler",
+      "Painter",
+      "Luzardo",
+      "Nola",
+      "Miller",
+      "Harper",
+      "Schwarber",
+      "Dombrowski",
+      "Stott",
+      "Bohm",
+      "Stubbs",
+      "Marshawn",
+      "Crawford",
+      "Duran",
+      "Thomson",
+      "Castellanos",
+      "Skubal",
+      "Long"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 123523,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 16825,
+      "youtube_comments": 18,
+      "youtube_comment_chars": 1300,
+      "twitter_posts": 150,
+      "twitter_post_chars": 25265
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Adolis Garc\u00eda and the Phillies' struggling offense",
+        "voice": "fan_analyst",
+        "chars": 29236
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Glaring concerns for the Phillies after series loss to Dodgers",
+        "voice": "fan_analyst",
+        "chars": 56344
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Right-Handed and Right Stranded",
+        "voice": "beat_writer",
+        "chars": 37943
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Hard To Trust Phillies Offense",
+        "voice": "radio_populist",
+        "chars": 650
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "A Tarik Skubal Trade Makes Phillies TERRIFYING!",
+        "voice": "radio_populist",
+        "chars": 700
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Imagine THIS Phillies Rotation\u2014Sanchez, Wheeler, Skubal \ud83e\udd2f",
+        "voice": "radio_populist",
+        "chars": 15475
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 88.5,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.5,
+        "delta_pct": -9.0,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823465,
+            "date": "2026-05-18",
+            "day_of_week": "Monday",
+            "opponent": "Cincinnati Reds",
+            "result": "W 5-4",
+            "attendance": 40065,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823464,
+            "date": "2026-05-19",
+            "day_of_week": "Tuesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 1-4",
+            "attendance": 37527,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823462,
+            "date": "2026-05-20",
+            "day_of_week": "Wednesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 4-9",
+            "attendance": 38222,
+            "pct_capacity": 89.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823461,
+            "date": "2026-05-22",
+            "day_of_week": "Friday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 0-1",
+            "attendance": 38092,
+            "pct_capacity": 88.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823458,
+            "date": "2026-05-23",
+            "day_of_week": "Saturday",
+            "opponent": "Cleveland Guardians",
+            "result": "W 3-0",
+            "attendance": 36125,
+            "pct_capacity": 84.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823459,
+            "date": "2026-05-24",
+            "day_of_week": "Sunday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 1-3",
+            "attendance": 37808,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "30-29",
+      "streak": "L1",
+      "games_behind": "9.5"
+    },
+    "generated_at": "2026-06-01T14:27:28.540018+00:00"
   }
 ]
