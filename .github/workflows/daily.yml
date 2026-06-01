@@ -66,4 +66,15 @@ jobs:
           fi
 
           git commit -m "Daily Phan-o-meter update $(date -u +%Y-%m-%d)"
-          git push
+
+          # main has more than one writer (manual commits land here too), so the
+          # push can lose the fast-forward race if main advanced during the run.
+          # Rebase our data/reels commit onto the latest remote and retry.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "push attempt $attempt failed; retrying in 5s" >&2
+            sleep 5
+          done
+
+          echo "Failed to push after 3 attempts" >&2
+          exit 1
