@@ -1,0 +1,259 @@
+{
+  "date": "2026-06-02",
+  "display_score": 40,
+  "reactive_score": 40,
+  "baseline_score": 55,
+  "insufficient_signal": false,
+  "content_volume": 435,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 42,
+    "front_office_trust": 32,
+    "manager_confidence": 52,
+    "lineup_confidence": 18,
+    "pitching_confidence": 72,
+    "health_outlook": 28,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 60,
+    "manager_confidence": 55,
+    "lineup_confidence": 95,
+    "pitching_confidence": 80,
+    "health_outlook": 70,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 38,
+      "note": "The Phillies Show and Phillies Talk both catalog historically bad offensive metrics \u2014 last in OBP, 28th in OPS, worst leadoff on-base since 1898 \u2014 while Aidan Miller's stalled return and Adolis Garcia's collapse dominate the alarm."
+    },
+    "beat_writer": {
+      "score": 40,
+      "note": "The beat writer frames the team as plausibly hovering near .500 talent, noting a leaguewide right-handed hitting epidemic as context but not absolution, and identifying Trea Turner as arguably the season's most pivotal figure."
+    },
+    "radio_populist": {
+      "score": 33,
+      "note": "Talk-radio voices describe the offense as 'jarring' and 'falling off a cliff,' question whether the roster mentally buys in to a grind-it-out identity, and float the idea of going all-in on pitching at the deadline instead."
+    },
+    "youtube_fan": {
+      "score": 22,
+      "note": "YouTube commenters are scathing \u2014 calling for Dombrowski's dismissal, questioning Kevin Long's job security, labeling Garcia a bust, and broadly characterizing the payroll as wasted on an overrated roster."
+    },
+    "twitter_fan": {
+      "score": 38,
+      "note": "X posts are split between betting-angle optimism for the upcoming Padres series and macro pessimism, with FanGraphs playoff odds declining after the Dodgers series and the division gap at 9.5 games cited repeatedly."
+    }
+  },
+  "themes": [
+    {
+      "name": "Historically Broken Offense",
+      "delta": -8,
+      "sample": "Worst leadoff on-base percentage since 1898, last in OBP, 28th in OPS, no game with more than four runs in two weeks \u2014 the numbers have moved from concerning to historically damning."
+    },
+    {
+      "name": "Adolis Garcia Approaching a Breaking Point",
+      "delta": -7,
+      "sample": "Three hits in his last 57 at-bats with 30 strikeouts has the entire fanbase asking when the plug gets pulled, even as his right-field defense remains the only reason he's still in the lineup."
+    },
+    {
+      "name": "Aidan Miller's Back \u2014 A Season-Long Wound",
+      "delta": -6,
+      "sample": "Preston Mattingly confirmed Miller has stopped baseball activities again, and the realistic read is hardening: he is unlikely to play at all in 2026, removing the one power bat that could have changed the right-handed equation."
+    },
+    {
+      "name": "Pitching Staff Carrying an Impossible Load",
+      "delta": 5,
+      "sample": "Christopher Sanchez is chasing baseball immortality with his scoreless streak, Wheeler and Luzardo are dependable, and even Painter's struggles are framed as correctable \u2014 the rotation remains the one unambiguous source of confidence."
+    },
+    {
+      "name": "Deadline Urgency Building, But Options Are Thin",
+      "delta": -3,
+      "sample": "The team is expected to pursue a right-handed outfield bat for the third straight year, but the market is barren, the prospect capital is uncertain, and Dombrowski's recent one-year-deal track record \u2014 Merrifield, Kepler, Garcia \u2014 has eroded trust in that approach."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "What's happening with this offense is jarring. 27th in slug, last in average, last in OBP, last in runs.",
+      "score": 15,
+      "source_hint": "talk-radio host, WIP High Hopes / 94WIP segment"
+    },
+    {
+      "text": "Three for 57 is wild to me. I don't know, Ruben, like give me a bat. Maybe I'm blooping one in the left field here.",
+      "score": 12,
+      "source_hint": "fan analyst, Phillies Talk"
+    },
+    {
+      "text": "It's their longest streak like that since 2017. They haven't scored five runs in a game since May 18th.",
+      "score": 10,
+      "source_hint": "fan analyst, The Phillies Show"
+    },
+    {
+      "text": "I still am bullish on this team because of the pitching. The question that they have makes them relevant no matter what happens.",
+      "score": 62,
+      "source_hint": "beat writer, Phillies Therapy"
+    }
+  ],
+  "vibe_summary": "Fans are staring at a payroll built for October and an offense that looks borrowed from a rebuilding era, with Aidan Miller's back situation and Adolis Garcia's crater-level production turning the deadline into an emergency rather than an upgrade.",
+  "reasoning": "The dominant mood is one of structural resignation \u2014 the pitching is elite but the lineup has produced historically bad on-base numbers, and the leaguewide right-handed hitting collapse offers context without comfort. The beat writer is the most measured, contextualizing the team as a plausible .500 squad riding extraordinary pitching, while talk-radio and YouTube voices have moved into sharper alarm about the mental makeup of the offense and accountability for the hitting coach and front office. Postseason belief stays low because the only forward-looking optimism is deadline speculation, not expressed conviction that the current roster can make a deep run.",
+  "people_mentioned": [
+    "Garcia",
+    "Turner",
+    "Sanchez",
+    "Painter",
+    "Aidan Miller",
+    "Mattingly",
+    "Harper",
+    "Schwarber",
+    "Marsh",
+    "Wheeler",
+    "Luzardo",
+    "Realmuto",
+    "Stott",
+    "Bohm",
+    "Crawford",
+    "Sosa",
+    "Dombrowski",
+    "Long",
+    "Marchan",
+    "Barroa",
+    "Rincones",
+    "Preston Mattingly"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 176633,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 19398,
+    "youtube_comments": 24,
+    "youtube_comment_chars": 3638,
+    "twitter_posts": 150,
+    "twitter_post_chars": 29104
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "This Offense Is Offensive",
+      "voice": "radio_populist",
+      "chars": 51371
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Adolis Garc\u00eda and the Phillies' struggling offense",
+      "voice": "fan_analyst",
+      "chars": 31591
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Glaring concerns for the Phillies after series loss to Dodgers",
+      "voice": "fan_analyst",
+      "chars": 56209
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Right-Handed and Right Stranded",
+      "voice": "beat_writer",
+      "chars": 37462
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "\"Phillies Offense Is JARRING\"",
+      "voice": "radio_populist",
+      "chars": 658
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "How To Fix The Phillies Offense?",
+      "voice": "radio_populist",
+      "chars": 17446
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phils STILL Can\u2019t Hit",
+      "voice": "radio_populist",
+      "chars": 1294
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 5,
+      "recent_avg_pct": 87.5,
+      "baseline_games_count": 36,
+      "baseline_avg_pct": 97.6,
+      "delta_pct": -10.0,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823464,
+          "date": "2026-05-19",
+          "day_of_week": "Tuesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 1-4",
+          "attendance": 37527,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823462,
+          "date": "2026-05-20",
+          "day_of_week": "Wednesday",
+          "opponent": "Cincinnati Reds",
+          "result": "L 4-9",
+          "attendance": 38222,
+          "pct_capacity": 89.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823461,
+          "date": "2026-05-22",
+          "day_of_week": "Friday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 0-1",
+          "attendance": 38092,
+          "pct_capacity": 88.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823458,
+          "date": "2026-05-23",
+          "day_of_week": "Saturday",
+          "opponent": "Cleveland Guardians",
+          "result": "W 3-0",
+          "attendance": 36125,
+          "pct_capacity": 84.2,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823459,
+          "date": "2026-05-24",
+          "day_of_week": "Sunday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 1-3",
+          "attendance": 37808,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "30-29",
+    "streak": "L1",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-06-02T14:07:50.822981+00:00"
+}
