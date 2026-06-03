@@ -10150,5 +10150,262 @@
       "games_behind": "9.5"
     },
     "generated_at": "2026-06-02T14:07:50.822981+00:00"
+  },
+  {
+    "date": "2026-06-03",
+    "display_score": 50,
+    "reactive_score": 50,
+    "baseline_score": 51,
+    "insufficient_signal": false,
+    "content_volume": 399,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 32,
+      "manager_confidence": 55,
+      "lineup_confidence": 22,
+      "pitching_confidence": 82,
+      "health_outlook": 45,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 65,
+      "manager_confidence": 45,
+      "lineup_confidence": 92,
+      "pitching_confidence": 90,
+      "health_outlook": 50,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 38,
+        "note": "Hittin' Season and The Phillies Show are deeply alarmed by historically bad offensive numbers \u2014 worst OBP since integration, franchise-low batting average \u2014 while celebrating Sanchez's scoreless streak; front office farm system criticism is pointed and sustained."
+      },
+      "beat_writer": {
+        "score": 42,
+        "note": "Phillies Therapy documents a team that is the only franchise since 1947 with four qualified hitters below .300 OBP, wrestling openly with whether the offense can self-correct or will sink the season; cautiously optimistic about process but structurally worried."
+      },
+      "radio_populist": {
+        "score": 60,
+        "note": "WIP's High Hopes pod celebrates a gritty 3-2 win, praises Nola's corner-turning, and hypes Sanchez's historic chase; acknowledges offensive limits but tone is upbeat and game-focused rather than alarmed."
+      },
+      "youtube_fan": {
+        "score": 35,
+        "note": "Comments are almost entirely dismissive of Nick Castellanos \u2014 'that dude can't hit,' 'he's not even starting this year' \u2014 minimal engagement with broader team topics."
+      },
+      "twitter_fan": {
+        "score": 48,
+        "note": "X posts are split between statistical alarm (worst OBP in baseball, historically bad lineup depth, 206-point OPS gap from 3rd to 4th) and genuine excitement over Marsh's hot bat and Sanchez's scoreless streak chase."
+      }
+    },
+    "themes": [
+      {
+        "name": "Historically Broken Offense",
+        "delta": -8,
+        "sample": "The first team since 1943 to have four qualified regulars with sub-.300 on-base percentage \u2014 a statistical marker that has pushed even cautious analysis toward open alarm about whether this offense can sustain a winning season."
+      },
+      {
+        "name": "Sanchez Chasing Immortality",
+        "delta": 9,
+        "sample": "At 44.2 consecutive scoreless innings, Sanchez is passing Hall of Famers on the all-time list and generating genuine must-see-TV energy heading into his Wednesday start against the Padres at home."
+      },
+      {
+        "name": "Nola Turning a Corner",
+        "delta": 5,
+        "sample": "No walks in three straight outings, 39-40% knuckle curve usage, and a renewed east-to-west approach have fans cautiously optimistic that Nola has found a workable identity after a dreadful April."
+      },
+      {
+        "name": "Farm System and Deadline Anxiety",
+        "delta": -7,
+        "sample": "A bottom-ten farm system, Aidan Miller's ongoing back injury, and Adolis Garcia's three-for-his-last-57 crater have hardened the view that the trade deadline is now triage rather than a chance to add a luxury piece."
+      },
+      {
+        "name": "Brandon Marsh as the Lonely Bright Spot",
+        "delta": 4,
+        "sample": "Marsh's four-hit game, .332 average, and egoless clubhouse presence put him in company with franchise hitting legends through 60 games \u2014 and underscored how wide the gap is between him and the rest of the lineup."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The only team since the sport integrated in 1947 to have four players qualify for the batting title with an on base percentage under 300.",
+        "score": 12,
+        "source_hint": "beat writer (Phillies Therapy)"
+      },
+      {
+        "text": "I don't think over a course of a season it's super sustainable. We need to score more runs.",
+        "score": 30,
+        "source_hint": "Bryce Harper postgame, via WIP/X posts"
+      },
+      {
+        "text": "Last 11 innings pitched, 175 average against, no walks in his last three outings and 13 strikeouts. I think his curveball has been dancing.",
+        "score": 78,
+        "source_hint": "talk-radio host (High Hopes / WIP)"
+      },
+      {
+        "text": "It changed his life. And it could change Christopher Sanchez's life, the higher he goes up on this list.",
+        "score": 85,
+        "source_hint": "fan analyst (The Phillies Show), quoting Orel Hershiser via Matt Klentak interview"
+      }
+    ],
+    "vibe_summary": "Cristopher Sanchez is chasing baseball history while the offense quietly compiles a record that belongs in a different era \u2014 and the tension between those two realities is what defines this Phillies team right now.",
+    "reasoning": "A tight 3-2 win over the Padres provides mild satisfaction, and Sanchez's scoreless streak is a genuine source of joy, but the offensive data released today \u2014 historically low OBP, a 206-point OPS chasm between the third and fourth hitters, and a comparison to the 1943 wartime A's \u2014 has pushed analytical concern to new depths. The talk-radio perspective is measurably more upbeat than the analytical and beat-writer takes, which are both wrestling seriously with whether the offense can self-correct or whether the pitching staff will eventually buckle under the weight of carrying an almost historically inept lineup.",
+    "people_mentioned": [
+      "Sanchez",
+      "Marsh",
+      "Nola",
+      "Harper",
+      "Duran",
+      "Bohm",
+      "Garcia",
+      "Turner",
+      "Stott",
+      "Wheeler",
+      "Painter",
+      "Mattingly",
+      "Dombrowski",
+      "Miller",
+      "Crawford",
+      "Realmuto",
+      "Schwarber",
+      "Luzardo",
+      "Castellanos",
+      "Klentak"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 179275,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 2886,
+      "youtube_comments": 6,
+      "youtube_comment_chars": 133,
+      "twitter_posts": 150,
+      "twitter_post_chars": 29307
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Phillies Beat Padres (Again)",
+        "voice": "radio_populist",
+        "chars": 34061
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "How the Phillies traded for Cristopher S\u00e1nchez",
+        "voice": "fan_analyst",
+        "chars": 48510
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Off Base Percentage",
+        "voice": "beat_writer",
+        "chars": 43254
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Is This the Worst Phillies Offense Ever?",
+        "voice": "fan_analyst",
+        "chars": 53450
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Raise Over $700k For ALS\u2764\ufe0f",
+        "voice": "radio_populist",
+        "chars": 739
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Harper: We Need to Score More Runs.",
+        "voice": "radio_populist",
+        "chars": 1012
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phils Best Padres, 3-2",
+        "voice": "radio_populist",
+        "chars": 1135
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 5,
+        "recent_avg_pct": 88.1,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 97.5,
+        "delta_pct": -9.4,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823462,
+            "date": "2026-05-20",
+            "day_of_week": "Wednesday",
+            "opponent": "Cincinnati Reds",
+            "result": "L 4-9",
+            "attendance": 38222,
+            "pct_capacity": 89.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823461,
+            "date": "2026-05-22",
+            "day_of_week": "Friday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 0-1",
+            "attendance": 38092,
+            "pct_capacity": 88.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823458,
+            "date": "2026-05-23",
+            "day_of_week": "Saturday",
+            "opponent": "Cleveland Guardians",
+            "result": "W 3-0",
+            "attendance": 36125,
+            "pct_capacity": 84.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823459,
+            "date": "2026-05-24",
+            "day_of_week": "Sunday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 1-3",
+            "attendance": 37808,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823460,
+            "date": "2026-06-02",
+            "day_of_week": "Tuesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 38763,
+            "pct_capacity": 90.4,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "31-29",
+      "streak": "W1",
+      "games_behind": "9.5"
+    },
+    "generated_at": "2026-06-03T14:35:38.079406+00:00"
   }
 ]
