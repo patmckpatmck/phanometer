@@ -10407,5 +10407,262 @@
       "games_behind": "9.5"
     },
     "generated_at": "2026-06-03T14:35:38.079406+00:00"
+  },
+  {
+    "date": "2026-06-04",
+    "display_score": 64,
+    "reactive_score": 64,
+    "baseline_score": 50,
+    "insufficient_signal": false,
+    "content_volume": 400,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 78,
+      "front_office_trust": 62,
+      "manager_confidence": 68,
+      "lineup_confidence": 38,
+      "pitching_confidence": 88,
+      "health_outlook": 40,
+      "postseason_belief": 48
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 82,
+      "front_office_trust": 45,
+      "manager_confidence": 55,
+      "lineup_confidence": 80,
+      "pitching_confidence": 90,
+      "health_outlook": 70,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 78,
+        "note": "Phillies Talk and The Phillies Show both reveled in Sanchez's historic streak while flagging real offensive concerns \u2014 Turner's struggles, Garcia's slump, and the absence of a right-handed bat."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 72,
+        "note": "WIP Final Out episodes balanced genuine awe at Sanchez's achievement with pointed anxiety about the offense averaging under four runs, teams intentionally walking Schwarber to face Turner, and Aidan Miller's procedure."
+      },
+      "youtube_fan": {
+        "score": 75,
+        "note": "Single comment expressing simple appreciation for Sanchez \u2014 'One. Game. At. A. Time.' \u2014 upbeat but minimal signal."
+      },
+      "twitter_fan": {
+        "score": 65,
+        "note": "Dominated by Sanchez celebration and win reactions; undercurrent of concern about negative run differential, anemic offense, Miller's timeline, and whether Sanchez's brilliance is being wasted."
+      }
+    },
+    "themes": [
+      {
+        "name": "Sanchez Streak Ends in Bittersweet Glory",
+        "delta": 8,
+        "sample": "The scoreless innings run stopped at 50.2 \u2014 fifth all-time, longest ever by a left-handed pitcher \u2014 and a standing ovation after the opposing team scored captured how extraordinary the moment felt."
+      },
+      {
+        "name": "Offense Can't Carry Its Own Weight",
+        "delta": -6,
+        "sample": "No game with more than four runs scored in nearly two weeks, historically low run production, and teams now openly walking Schwarber to face a struggling Turner have made the lineup a liability."
+      },
+      {
+        "name": "Turner Becoming a Strategic Liability",
+        "delta": -5,
+        "sample": "Opposing managers are deliberately pitching around Schwarber to force Turner into big spots, and Turner has not been able to make them pay \u2014 raising real questions about the lineup construction."
+      },
+      {
+        "name": "Aidan Miller's Back Procedure Clouds the Future",
+        "delta": -4,
+        "sample": "A radiofrequency ablation procedure and a six-to-eight week return timeline ends hope of a near-term callup and puts Miller's 2026 contribution in serious doubt."
+      },
+      {
+        "name": "Deadline Urgency Building Around a Right-Handed Bat",
+        "delta": 3,
+        "sample": "The Castellanos DFA and Turner's struggles have crystallized a consensus that adding a right-handed presence in the lineup is no longer a luxury \u2014 it is the move this team needs to make."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Has a team since 2000 averaged fewer than four runs per game and won a World Series? The answer is no.",
+        "score": 28,
+        "source_hint": "Phillies Talk fan analyst, discussing offensive production threshold"
+      },
+      {
+        "text": "I'm going to need the Phillies to make some kind of miracle trades if they don't want to waste what is so far a masterful season from Cristopher Sanchez.",
+        "score": 42,
+        "source_hint": "X posts, fan expressing urgency around the offense"
+      },
+      {
+        "text": "He just throws 50 consecutive scoreless innings. It's been done five times. Where, you know, you have a scoreless inning streak of 50-plus. And you put it in perspective. That's five.",
+        "score": 95,
+        "source_hint": "Phillies Talk fan analyst, putting Sanchez's streak in historical context"
+      },
+      {
+        "text": "This is definitely the most special run I've ever been a part of with a starting pitcher.",
+        "score": 94,
+        "source_hint": "X posts, JT Realmuto quoted on Sanchez's streak"
+      }
+    ],
+    "vibe_summary": "Citizens Bank Park gave a standing ovation after the opposing team scored \u2014 a moment that perfectly captures where this Phillies team lives: lifted by historic pitching greatness, grounded by an offense that still hasn't found an answer.",
+    "reasoning": "The dominant emotion is a bittersweet pride \u2014 Sanchez's streak ending produced genuine historical awe and a memorable ballpark moment, but the celebration keeps bumping into a cold offensive reality. The pitching staff, including a resurgent Nola and a dominant Duran, is carrying the team on its back, while the lineup sits near the bottom of baseball in run production and is being actively exploited through Turner. Miller's procedure and the Castellanos DFA have sharpened deadline anxiety \u2014 the question is no longer whether the Phillies need a right-handed bat but how urgently they pursue one.",
+    "people_mentioned": [
+      "Sanchez",
+      "Turner",
+      "Schwarber",
+      "Harper",
+      "Marsh",
+      "Mattingly",
+      "Miller",
+      "Dombrowski",
+      "Wheeler",
+      "Nola",
+      "Duran",
+      "Realmuto",
+      "Garcia",
+      "Bohm",
+      "Crawford",
+      "Luzardo",
+      "Painter",
+      "Keller",
+      "Castellanos",
+      "Klentak"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 173285,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 13338,
+      "youtube_comments": 1,
+      "youtube_comment_chars": 44,
+      "twitter_posts": 150,
+      "twitter_post_chars": 29237
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Don't cry that it's over, smile that it happened: Sanchez's run comes to an end",
+        "voice": "fan_analyst",
+        "chars": 52279
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Sanchez's Streak Ends, But Phillies Win Again",
+        "voice": "radio_populist",
+        "chars": 33088
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Phillies Beat Padres (Again)",
+        "voice": "radio_populist",
+        "chars": 36241
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "How the Phillies traded for Cristopher S\u00e1nchez",
+        "voice": "fan_analyst",
+        "chars": 51677
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Untrusted to UNSTOPPABLE: Cristopher Sanchez's Historical Streak Ends | 94WIP",
+        "voice": "radio_populist",
+        "chars": 10274
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Bryce Harper On Cristopher S\u00e1nchez's Scoreless Inning Streak",
+        "voice": "radio_populist",
+        "chars": 850
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Dave Dombrowski Provides Aidan Miller Update",
+        "voice": "radio_populist",
+        "chars": 2214
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 5,
+        "recent_avg_pct": 89.2,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 97.4,
+        "delta_pct": -8.2,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823461,
+            "date": "2026-05-22",
+            "day_of_week": "Friday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 0-1",
+            "attendance": 38092,
+            "pct_capacity": 88.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823458,
+            "date": "2026-05-23",
+            "day_of_week": "Saturday",
+            "opponent": "Cleveland Guardians",
+            "result": "W 3-0",
+            "attendance": 36125,
+            "pct_capacity": 84.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823459,
+            "date": "2026-05-24",
+            "day_of_week": "Sunday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 1-3",
+            "attendance": 37808,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823460,
+            "date": "2026-06-02",
+            "day_of_week": "Tuesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 38763,
+            "pct_capacity": 90.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823456,
+            "date": "2026-06-03",
+            "day_of_week": "Wednesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 40453,
+            "pct_capacity": 94.3,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "32-29",
+      "streak": "W2",
+      "games_behind": "9.5"
+    },
+    "generated_at": "2026-06-04T12:55:17.036284+00:00"
   }
 ]
