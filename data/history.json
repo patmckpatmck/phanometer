@@ -10664,5 +10664,272 @@
       "games_behind": "9.5"
     },
     "generated_at": "2026-06-04T12:55:17.036284+00:00"
+  },
+  {
+    "date": "2026-06-05",
+    "display_score": 60,
+    "reactive_score": 60,
+    "baseline_score": 54,
+    "insufficient_signal": false,
+    "content_volume": 407,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 74,
+      "front_office_trust": 55,
+      "manager_confidence": 65,
+      "lineup_confidence": 38,
+      "pitching_confidence": 88,
+      "health_outlook": 42,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 55,
+      "manager_confidence": 60,
+      "lineup_confidence": 90,
+      "pitching_confidence": 95,
+      "health_outlook": 75,
+      "postseason_belief": 80
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 68,
+        "note": "Hittin' Season and Phillies Talk both celebrated the Sanchez scoreless streak as all-time history, praised Wheeler, Duran, and Nola's evolution, while flagging the historically anemic offense and Aidan Miller's back procedure as serious concerns."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 72,
+        "note": "WIP hosts were energized by the Padres sweep and Wheeler's outing, credited Mattingly's turnaround, and debated deadline moves, but consistently flagged the offense as the unresolved question heading into October."
+      },
+      "youtube_fan": {
+        "score": null,
+        "note": null
+      },
+      "twitter_fan": {
+        "score": 62,
+        "note": "X posts reflected sweep-celebration energy and wild-card position awareness, but recurring notes on the offense struggles against lefties, Trey Turner's slump, and skepticism about the trade deadline tempered the mood."
+      }
+    },
+    "themes": [
+      {
+        "name": "Sanchez Streak Ends, Legacy Secured",
+        "delta": 7,
+        "sample": "The 50.2-inning scoreless streak \u2014 fifth all-time, longest ever by a left-handed pitcher \u2014 ended Wednesday, and the standing ovation that followed captured a fanbase that knows it witnessed something irreproducible."
+      },
+      {
+        "name": "Offense Still the Elephant in the Room",
+        "delta": -6,
+        "sample": "Scoring more than four runs for the first time since May 18th was celebrated as a breakthrough, but that lowered bar \u2014 and historical comparisons to 1970s-era bad teams \u2014 underlines how fragile this lineup remains heading toward October."
+      },
+      {
+        "name": "Rotation Depth and Wheeler's Return Are Real",
+        "delta": 5,
+        "sample": "Wheeler's seven-inning gem completed the Padres sweep and renewed the ace debate; Nola's pitch-mix evolution and Sanchez's ERA leadership give the rotation genuine top-of-the-sport credibility right now."
+      },
+      {
+        "name": "Aidan Miller's Back Procedure Clouds the Future",
+        "delta": -5,
+        "sample": "The radiofrequency ablation diagnosis signals a recurring condition rather than a cure, casting doubt on Miller's availability for 2027 and leaving the Phillies with no obvious answer at third base after Bohm's likely departure."
+      },
+      {
+        "name": "Deadline Hope vs. Thin Farm System Reality",
+        "delta": -2,
+        "sample": "Names like Skubal, Buxton, and Pena were floated with enthusiasm, but the consensus is the Phillies lack the prospect capital for a transformative deal and are more likely limited to rental-tier additions."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "He is hard to match right now. It's almost impossible.",
+        "score": 88,
+        "source_hint": "Zack Wheeler on Cristopher Sanchez, via WIP interview"
+      },
+      {
+        "text": "For the first time since May 18th, they scored more than four runs in a game. Congratulations.",
+        "score": 32,
+        "source_hint": "talk-radio host (WIP High Hopes), drily noting the offensive drought"
+      },
+      {
+        "text": "I don't think I'm ever going to see or we may never see again.",
+        "score": 90,
+        "source_hint": "WIP High Hopes host on Sanchez's scoreless streak"
+      },
+      {
+        "text": "I don't know how much they've done to erase concerns about will they hit in the postseason.",
+        "score": 28,
+        "source_hint": "talk-radio host (WIP Final Out), on the offense's playoff credibility"
+      }
+    ],
+    "vibe_summary": "The Phillies have swept into a wild-card spot on the strength of a pitching staff that is genuinely historic, but the lineup's inability to string together runs \u2014 and a back procedure for their top prospect \u2014 keeps a ceiling on how good this moment actually feels.",
+    "reasoning": "The dominant energy is a split between genuine awe at the pitching staff \u2014 Sanchez's streak, Wheeler's gem, Nola's reinvention, Duran's dominance \u2014 and persistent, unresolved anxiety about an offense that only just cleared four runs for the first time in over two weeks. The postseason belief score stays low because the prevailing framing is concern that this offense will be exposed in October, not confidence that the roster is built for a deep run. Aidan Miller's back procedure adds a longer-term cloud, and the trade-deadline conversation is tempered by frank acknowledgment of a thin farm system. The mood is celebratory on the surface and quietly worried underneath.",
+    "people_mentioned": [
+      "Sanchez",
+      "Wheeler",
+      "Nola",
+      "Duran",
+      "Marsh",
+      "Harper",
+      "Schwarber",
+      "Aidan Miller",
+      "Garcia",
+      "Mattingly",
+      "Turner",
+      "Bohm",
+      "Stott",
+      "Realmuto",
+      "Dombrowski",
+      "Keller",
+      "Castellanos",
+      "Alvarado",
+      "Painter",
+      "Luzardo"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 180985,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 11935,
+      "youtube_comments": 0,
+      "youtube_comment_chars": 0,
+      "twitter_posts": 150,
+      "twitter_post_chars": 27692
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Thinking ahead: potential trade targets for the Phillies",
+        "voice": "fan_analyst",
+        "chars": 35828
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Can The Phillies Play The Padres Everyday?",
+        "voice": "radio_populist",
+        "chars": 54699
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Cristopher Sanchez' Scoreless Streak Ends",
+        "voice": "fan_analyst",
+        "chars": 38215
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Don't cry that it's over, smile that it happened: Sanchez's run comes to an end",
+        "voice": "fan_analyst",
+        "chars": 52243
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Final Out: Recapping Phillies Season Sweep Of The San Diego Padres!",
+        "voice": "radio_populist",
+        "chars": 9646
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Justin Crawford: \"Adolis Garc\u00eda Is The Best Right Fielder I've Ever Seen.\"",
+        "voice": "radio_populist",
+        "chars": 1127
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Zack Wheeler On Pitching With Cristopher S\u00e1nchez In This Year's All-Star Game In Philly: \"Special\"",
+        "voice": "radio_populist",
+        "chars": 1162
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 89.0,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 97.1,
+        "delta_pct": -8.1,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823461,
+            "date": "2026-05-22",
+            "day_of_week": "Friday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 0-1",
+            "attendance": 38092,
+            "pct_capacity": 88.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823458,
+            "date": "2026-05-23",
+            "day_of_week": "Saturday",
+            "opponent": "Cleveland Guardians",
+            "result": "W 3-0",
+            "attendance": 36125,
+            "pct_capacity": 84.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823459,
+            "date": "2026-05-24",
+            "day_of_week": "Sunday",
+            "opponent": "Cleveland Guardians",
+            "result": "L 1-3",
+            "attendance": 37808,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823460,
+            "date": "2026-06-02",
+            "day_of_week": "Tuesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 38763,
+            "pct_capacity": 90.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823456,
+            "date": "2026-06-03",
+            "day_of_week": "Wednesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 40453,
+            "pct_capacity": 94.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823457,
+            "date": "2026-06-04",
+            "day_of_week": "Thursday",
+            "opponent": "San Diego Padres",
+            "result": "W 6-4",
+            "attendance": 37812,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "33-29",
+      "streak": "W3",
+      "games_behind": "8.5"
+    },
+    "generated_at": "2026-06-05T12:44:19.835909+00:00"
   }
 ]
