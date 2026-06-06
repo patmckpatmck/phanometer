@@ -1,0 +1,268 @@
+{
+  "date": "2026-06-06",
+  "display_score": 60,
+  "reactive_score": 60,
+  "baseline_score": 56,
+  "insufficient_signal": false,
+  "content_volume": 446,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 52,
+    "manager_confidence": 68,
+    "lineup_confidence": 32,
+    "pitching_confidence": 88,
+    "health_outlook": 42,
+    "postseason_belief": 48
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 70,
+    "manager_confidence": 60,
+    "lineup_confidence": 90,
+    "pitching_confidence": 92,
+    "health_outlook": 65,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 68,
+      "note": "Hittin' Season, The Phillies Show, and Phillies Talk all celebrate the Sanchez streak and Padres sweep with genuine warmth, while flagging the historically bad right-handed offense, Garcia's uncertainty, and Aidan Miller's back procedure as persistent concerns."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 62,
+      "note": "WIP High Hopes and related segments are energized by the win streak and playoff positioning, but the dominant note is an urgent demand that the front office go all-in at the trade deadline \u2014 framed as a moral obligation, not a sure thing."
+    },
+    "youtube_fan": {
+      "score": 38,
+      "note": "Comment sections are dominated by harsh takes on Trea Turner \u2014 bad contract, slowing the offense, defensive concerns \u2014 with a minority pushing back by citing last year's batting title; overall tone is skeptical and frustrated with the lineup."
+    },
+    "twitter_fan": {
+      "score": 60,
+      "note": "X posts reflect a split: game-result celebration (four-game win streak, playoff spot) alongside deadline urgency, Adolis Garcia cautious optimism, and nagging awareness of the 8.5-game deficit to the Braves."
+    }
+  },
+  "themes": [
+    {
+      "name": "Trade Deadline Urgency",
+      "delta": 2,
+      "sample": "With the pitching staff performing at a historic level, pressure is mounting for a significant deadline move \u2014 whether Tarik Skubal, Byron Buxton, or another impact bat \u2014 and the window being open right now is treated as a non-negotiable reason to act."
+    },
+    {
+      "name": "Adolis Garcia Cautious Revival",
+      "delta": 4,
+      "sample": "A homer, double, and off-day cage work sparked genuine optimism that Garcia may be turning a corner, but the bar is acknowledged to be low and the sample size tiny \u2014 hope camp, not belief camp."
+    },
+    {
+      "name": "Trea Turner Contract Anxiety",
+      "delta": -4,
+      "sample": "Opponents are beginning to intentionally walk Schwarber to face Turner in key spots, and the combination of a low batting average, diminished power, and a massive long-term contract has fans and analysts openly questioning the investment."
+    },
+    {
+      "name": "Aidan Miller Back Procedure Concern",
+      "delta": -3,
+      "sample": "The radiofrequency ablation on Miller's lumbar spine \u2014 three-plus months after being shut down in spring training \u2014 dims top-prospect hopes for meaningful 2026 action and raises questions about the farm system's ability to fuel a deadline trade."
+    },
+    {
+      "name": "Four-Game Win Streak and Playoff Spot",
+      "delta": 6,
+      "sample": "Climbing from 9-19 to a wild-card position in roughly six weeks has shifted the mood from crisis to cautious momentum, with the Padres season sweep adding a meaningful tiebreaker cushion."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It's a terrifying way to play baseball. It's a terrifying way to watch baseball.",
+      "score": 38,
+      "source_hint": "Hittin' Season fan analyst, on the offense's inability to build cushion"
+    },
+    {
+      "text": "This starting pitching is good enough to win a World Series.",
+      "score": 82,
+      "source_hint": "WIP High Hopes talk-radio host, on the rotation's ceiling"
+    },
+    {
+      "text": "I agree with Turner. He really slows this offense down and defense is average at best.",
+      "score": 22,
+      "source_hint": "YouTube commenter on Trea Turner video"
+    },
+    {
+      "text": "The Phillies are 25 and 10 with Donnie baseball \u2014 any idiot that thinks we needed to keep Rob Thomson needs their head examined.",
+      "score": 74,
+      "source_hint": "X posts, on the Mattingly managerial boost"
+    }
+  ],
+  "vibe_summary": "A four-game win streak and a playoff spot feel genuinely earned, but the mood turns urgent fast \u2014 the rotation can carry this team only so far, and the deadline is coming.",
+  "reasoning": "The dominant force lifting sentiment is a real four-game win streak, a Padres season sweep, and wild-card positioning after a brutal start. That positive momentum is real and fans feel it. But it sits on top of a structurally anxious foundation: the offense ranks near the bottom of baseball in nearly every meaningful category, Trea Turner is being intentionally walked to exploit the lineup's weakness, and Aidan Miller's back surgery removes the top trade chip at the precise moment deadline urgency is peaking. The result is a mood that is genuinely buoyant about the pitching and the wins, but increasingly insistent \u2014 almost demanding \u2014 that the front office acts boldly before July, with the fear that standing pat while the Dodgers potentially add Skubal would feel like a failure of nerve.",
+  "people_mentioned": [
+    "Sanchez",
+    "Garcia",
+    "Mattingly",
+    "Schwarber",
+    "Harper",
+    "Marsh",
+    "Turner",
+    "Duran",
+    "Wheeler",
+    "Nola",
+    "Dombrowski",
+    "Aidan Miller",
+    "Keller",
+    "Luzardo",
+    "Bohm",
+    "Stott",
+    "RealMuto",
+    "Crawford",
+    "Skubal",
+    "Painter",
+    "Castellanos"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 192534,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 15310,
+    "youtube_comments": 20,
+    "youtube_comment_chars": 1393,
+    "twitter_posts": 149,
+    "twitter_post_chars": 28484
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "What if the Phillies Traded for Tarik Skubal?",
+      "voice": "fan_analyst",
+      "chars": 50407
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Thinking ahead: potential trade targets for the Phillies",
+      "voice": "fan_analyst",
+      "chars": 36009
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Can The Phillies Play The Padres Everyday?",
+      "voice": "radio_populist",
+      "chars": 53884
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Don't cry that it's over, smile that it happened: Sanchez's run comes to an end",
+      "voice": "fan_analyst",
+      "chars": 52234
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Front Offense Has Chance To Make Everyone Believe In World Series Glory",
+      "voice": "radio_populist",
+      "chars": 516
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Fans Need To Believe Phillies Can Win World Series Before Trade Deadline",
+      "voice": "radio_populist",
+      "chars": 13412
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Are One Bat Away From World Series Contender Status",
+      "voice": "radio_populist",
+      "chars": 1382
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 91.0,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 97.2,
+      "delta_pct": -6.2,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823458,
+          "date": "2026-05-23",
+          "day_of_week": "Saturday",
+          "opponent": "Cleveland Guardians",
+          "result": "W 3-0",
+          "attendance": 36125,
+          "pct_capacity": 84.2,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823459,
+          "date": "2026-05-24",
+          "day_of_week": "Sunday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 1-3",
+          "attendance": 37808,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823460,
+          "date": "2026-06-02",
+          "day_of_week": "Tuesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 38763,
+          "pct_capacity": 90.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823456,
+          "date": "2026-06-03",
+          "day_of_week": "Wednesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 40453,
+          "pct_capacity": 94.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823457,
+          "date": "2026-06-04",
+          "day_of_week": "Thursday",
+          "opponent": "San Diego Padres",
+          "result": "W 6-4",
+          "attendance": 37812,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823455,
+          "date": "2026-06-05",
+          "day_of_week": "Friday",
+          "opponent": "Chicago White Sox",
+          "result": "W 8-6",
+          "attendance": 43232,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "34-29",
+    "streak": "W4",
+    "games_behind": "8.5"
+  },
+  "generated_at": "2026-06-06T11:35:13.476702+00:00"
+}
