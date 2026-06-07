@@ -1,0 +1,261 @@
+{
+  "date": "2026-06-07",
+  "display_score": 51,
+  "reactive_score": 51,
+  "baseline_score": 57,
+  "insufficient_signal": false,
+  "content_volume": 370,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 42,
+    "front_office_trust": 52,
+    "manager_confidence": 58,
+    "lineup_confidence": 28,
+    "pitching_confidence": 82,
+    "health_outlook": 38,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 68,
+    "manager_confidence": 55,
+    "lineup_confidence": 90,
+    "pitching_confidence": 92,
+    "health_outlook": 70,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 62,
+      "note": "Fan analysts (Phillies Show / Phillies Talk) celebrated Sanchez's historic streak and Duran's dominance while flagging a depleted farm system limiting deadline ambition; cautiously optimistic on the roster's ceiling."
+    },
+    "beat_writer": {
+      "score": 40,
+      "note": "Beat writer (Phillies Therapy / Matt Gelb) delivered the most sobering read \u2014 historically bad OBP, league-worst walk rate outside Harper/Schwarber, and genuine doubt the offense recovers enough to sustain a playoff run."
+    },
+    "radio_populist": {
+      "score": 60,
+      "note": "Talk-radio host (WIP Daily / Joe Giglio) framed urgency as belief: the pitching is World Series-caliber, the window is real, and the front office must make a big move at the deadline or face fan backlash."
+    },
+    "youtube_fan": {
+      "score": 32,
+      "note": "YouTube commenters are heavily negative on Trea Turner \u2014 comparing him to Tobias Harris, blaming Harper for the contract \u2014 with scattered pushback citing last year's batting title."
+    },
+    "twitter_fan": {
+      "score": 38,
+      "note": "X posts reflect a split: celebration of Sanchez/Marsh/Schwarber stat lines alongside sharp criticism of Painter's struggles, Turner's underperformance, and Saturday's loss to the White Sox."
+    }
+  },
+  "themes": [
+    {
+      "name": "Painter's rotation spot in crisis",
+      "delta": -7,
+      "sample": "Back-to-back shellackings have fans calling for a demotion to Triple-A, and the question of whether Alan Rangel should replace him as the fifth starter is now mainstream rather than fringe."
+    },
+    {
+      "name": "Trea Turner: broken contract or fixable slump?",
+      "delta": -6,
+      "sample": "Opposing managers walking Schwarber to face Turner in big spots, a sub-.230 average, and a historic $300M commitment are converging into the team's most uncomfortable conversation."
+    },
+    {
+      "name": "Deadline urgency: go all-in or get left behind",
+      "delta": 5,
+      "sample": "With the pitching staff carrying a historically bad offense to a playoff spot, the argument for an aggressive deadline move \u2014 a Skubal, a Buxton, any meaningful right-handed bat \u2014 is growing louder and more specific."
+    },
+    {
+      "name": "Aidan Miller's back procedure clouds the future",
+      "delta": -5,
+      "sample": "A radiofrequency ablation removes Miller from meaningful 2026 action and also strips the front office of its most valuable trade chip at the worst possible time."
+    },
+    {
+      "name": "Pitching staff carrying an impossible load",
+      "delta": 3,
+      "sample": "Sanchez's historic scoreless streak may be over, but a 1.46 ERA, Duran's perfect save record, and Wheeler's steadiness mean the rotation and bullpen are still doing something that hasn't been done in years \u2014 winning games despite one of the worst offenses in baseball."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Has there ever been a world series winner that averaged fewer than four runs per game? The answer is no.",
+      "score": 22,
+      "source_hint": "fan analyst (Phillies Talk)"
+    },
+    {
+      "text": "This starting pitching is good enough to win a World Series. If you add one guy and you have this starting pitching, I'm good enough.",
+      "score": 68,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "The only team since the sport integrated in 1947 to have four players qualify for the batting title with an on base percentage under 300.",
+      "score": 12,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "Turner stinks especially for 300 million \u2026 total clown",
+      "score": 8,
+      "source_hint": "YouTube commenter"
+    }
+  ],
+  "vibe_summary": "Saturday's loss to the White Sox and Painter's latest implosion dragged the mood down just as deadline urgency is peaking \u2014 fans know the pitching is elite, but the offense and the farm system both feel like ticking clocks.",
+  "reasoning": "The dominant tension today is a widening gap between what the pitching staff is achieving and what the offense and prospect depth can sustain. The beat writer framed it most starkly, surfacing historically unprecedented OBP futility and questioning whether the lineup can rescue itself without a wholesale trade. Talk radio pushed back with genuine World Series conviction, but rooted that belief in the necessity of a big deadline acquisition rather than confidence in the current roster as built. YouTube and X commentary sharpened around two failure points \u2014 Turner's contract-sized underperformance and Painter's worsening rotation spot \u2014 while Miller's back procedure removes the front office's most obvious trade asset. Postseason belief scores modestly positive because the deadline-buyer framing is genuine and specific (Skubal, Buxton, right-handed bat), not merely reassurance that it's early.",
+  "people_mentioned": [
+    "Sanchez",
+    "Turner",
+    "Painter",
+    "Duran",
+    "Marsh",
+    "Schwarber",
+    "Harper",
+    "Wheeler",
+    "Dombrowski",
+    "Mattingly",
+    "Luzardo",
+    "Nola",
+    "Garcia",
+    "Miller",
+    "Bohm",
+    "Stott",
+    "Realmuto",
+    "Castellanos",
+    "Buxton",
+    "Skubal"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 130645,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 15310,
+    "youtube_comments": 25,
+    "youtube_comment_chars": 1792,
+    "twitter_posts": 150,
+    "twitter_post_chars": 25559
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Thinking ahead: potential trade targets for the Phillies",
+      "voice": "fan_analyst",
+      "chars": 34916
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Don't cry that it's over, smile that it happened: Sanchez's run comes to an end",
+      "voice": "fan_analyst",
+      "chars": 52723
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Off Base Percentage",
+      "voice": "beat_writer",
+      "chars": 43006
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Front Offense Has Chance To Make Everyone Believe In World Series Glory",
+      "voice": "radio_populist",
+      "chars": 516
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Fans Need To Believe Phillies Can Win World Series Before Trade Deadline",
+      "voice": "radio_populist",
+      "chars": 13412
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Are One Bat Away From World Series Contender Status",
+      "voice": "radio_populist",
+      "chars": 1382
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 93.6,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 97.3,
+      "delta_pct": -3.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823459,
+          "date": "2026-05-24",
+          "day_of_week": "Sunday",
+          "opponent": "Cleveland Guardians",
+          "result": "L 1-3",
+          "attendance": 37808,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823460,
+          "date": "2026-06-02",
+          "day_of_week": "Tuesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 38763,
+          "pct_capacity": 90.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823456,
+          "date": "2026-06-03",
+          "day_of_week": "Wednesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 40453,
+          "pct_capacity": 94.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823457,
+          "date": "2026-06-04",
+          "day_of_week": "Thursday",
+          "opponent": "San Diego Padres",
+          "result": "W 6-4",
+          "attendance": 37812,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823455,
+          "date": "2026-06-05",
+          "day_of_week": "Friday",
+          "opponent": "Chicago White Sox",
+          "result": "W 8-6",
+          "attendance": 43232,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823454,
+          "date": "2026-06-06",
+          "day_of_week": "Saturday",
+          "opponent": "Chicago White Sox",
+          "result": "L 3-6",
+          "attendance": 42949,
+          "pct_capacity": 100.1,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "34-30",
+    "streak": "L1",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-06-07T11:53:34.460901+00:00"
+}
