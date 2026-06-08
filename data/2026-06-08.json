@@ -1,0 +1,267 @@
+{
+  "date": "2026-06-08",
+  "display_score": 60,
+  "reactive_score": 60,
+  "baseline_score": 55,
+  "insufficient_signal": false,
+  "content_volume": 398,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 74,
+    "front_office_trust": 42,
+    "manager_confidence": 65,
+    "lineup_confidence": 58,
+    "pitching_confidence": 55,
+    "health_outlook": 68,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 88,
+    "front_office_trust": 62,
+    "manager_confidence": 55,
+    "lineup_confidence": 82,
+    "pitching_confidence": 85,
+    "health_outlook": 45,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 68,
+      "note": "Phillies Show and Phillies Talk both enthusiastic about the 5-1 homestand and Marsh's historic run, but measured concern about Painter's fastball mechanics and Lozardo's inconsistency tempers the mood."
+    },
+    "beat_writer": {
+      "score": 62,
+      "note": "Phillies Therapy (Matt Gelb) offers the most honest accounting \u2014 relieved the offense finally showed up, genuinely impressed by Duran, but still troubled by the historically bad on-base numbers and the fragility of the formula."
+    },
+    "radio_populist": {
+      "score": 44,
+      "note": "WIP hosts and callers are blunter: Painter and Crawford are called outright disappointments, Dombrowski doesn't get trust on deadline moves, and Lozardo's inconsistency is treated as a structural problem."
+    },
+    "youtube_fan": {
+      "score": null,
+      "note": null
+    },
+    "twitter_fan": {
+      "score": 60,
+      "note": "X posts reflect a split mood \u2014 genuine buzz around Marsh's batting average lead and the 5-1 homestand, offset by persistent Painter alarm, Dombrowski skepticism, and acknowledgment that the division is essentially gone."
+    }
+  },
+  "themes": [
+    {
+      "name": "Brandon Marsh Arriving as a Star",
+      "delta": 8,
+      "sample": "Homering in three straight games, leading the majors in batting average, and carrying the cleanup spot \u2014 the transformation from platoon afterthought to legitimate All-Star candidate is now undeniable and is the week's dominant good-news story."
+    },
+    {
+      "name": "Offense Finally Bailing Out the Pitching",
+      "delta": 6,
+      "sample": "Twenty runs in the White Sox series ended a three-week stretch without a multi-run margin of victory; the role reversal \u2014 hitters rescuing starters for once \u2014 is being treated as a meaningful inflection point, not just a fluke."
+    },
+    {
+      "name": "Andrew Painter's Fastball Crisis",
+      "delta": -7,
+      "sample": "A 1-7 record, a fastball that hasn't reliably found the zone in weeks, and a mechanical diagnosis centered on extension and downhill plane have shifted the conversation from patience to whether a demotion is imminent."
+    },
+    {
+      "name": "Dombrowski Deadline Skepticism",
+      "delta": -5,
+      "sample": "With the rotation thin and the farm system depleted, skepticism that the front office can land a legitimate right-handed bat or starting pitcher at the deadline is hardening \u2014 the Bader move is cited as the lone convincing example in recent memory."
+    },
+    {
+      "name": "Jhoan Duran as a Genuine Shutdown Force",
+      "delta": 7,
+      "sample": "Fifteen consecutive batters retired, a strikeout rate starting with a four, and five different pitches thrown with elite confidence in any count \u2014 Duran is being discussed as perhaps the best closer in baseball right now, and fans are noticing."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Crawford and Painter in year one have been a disappointment. I mean they really have.",
+      "score": 22,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "Brandon Marsh from point A to point B might be the most improved everyday player that I've seen.",
+      "score": 88,
+      "source_hint": "fan analyst (The Phillies Show)"
+    },
+    {
+      "text": "I do not trust Dumbrowski to get a legit right-handed hitter cuz he hasn't.",
+      "score": 20,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "We have not seen their best effort yet for a prolonged period and they remain in playoff position on an 87 win pace.",
+      "score": 63,
+      "source_hint": "beat writer (Phillies Therapy)"
+    }
+  ],
+  "vibe_summary": "Brandon Marsh is carrying a baseball town on his back, and a 5-1 homestand has fans breathing easier \u2014 but the rotation's bottom half and a depleted farm system are keeping euphoria well out of reach.",
+  "reasoning": "The 5-1 homestand and Marsh's emergence as a legitimate MVP-conversation player have meaningfully lifted the mood coming out of the weekend, with the offense-bailing-out-pitching role reversal treated as a genuine milestone. Duran's dominance reinforces confidence in late-game situations. However, the more analytical take remains cautious: the on-base numbers are historically bad, Painter's mechanical issues look structural rather than incidental, and deadline skepticism toward the front office is real and loud \u2014 particularly on talk radio. The gap between the buoyant offensive narrative and the sober rotation/front-office reality creates a split mood where satisfaction with results coexists with genuine anxiety about sustainability.",
+  "people_mentioned": [
+    "Marsh",
+    "Painter",
+    "Duran",
+    "Lozardo",
+    "Nola",
+    "Sanchez",
+    "Wheeler",
+    "Schwarber",
+    "Harper",
+    "Bohm",
+    "Mattingly",
+    "Dombrowski",
+    "Garcia",
+    "Stott",
+    "Turner",
+    "Crawford",
+    "Realmuto",
+    "Marchan",
+    "Corbin",
+    "Gage Wood"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 181750,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 4131,
+    "youtube_comments": 0,
+    "youtube_comment_chars": 0,
+    "twitter_posts": 150,
+    "twitter_post_chars": 26982
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Brandon Marsh has become one of baseball's best hitters",
+      "voice": "fan_analyst",
+      "chars": 35802
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "In This Home On Bryce",
+      "voice": "beat_writer",
+      "chars": 48084
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Is the offense... BACK?! Phillies finish homestand with 5-1 record",
+      "voice": "fan_analyst",
+      "chars": 52549
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Off Base Percentage",
+      "voice": "beat_writer",
+      "chars": 45315
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "\"DISAPPOINTMENTS!\" \u2014 Justin Crawford, Andrew Painter",
+      "voice": "radio_populist",
+      "chars": 1728
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Aaron Nola Continues To STRUGGLE \ud83d\ude33",
+      "voice": "radio_populist",
+      "chars": 707
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Rhea: CANNOT Trust Dave Dombrowski",
+      "voice": "radio_populist",
+      "chars": 1696
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 95.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 97.3,
+      "delta_pct": -2.1,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823460,
+          "date": "2026-06-02",
+          "day_of_week": "Tuesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 38763,
+          "pct_capacity": 90.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823456,
+          "date": "2026-06-03",
+          "day_of_week": "Wednesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 40453,
+          "pct_capacity": 94.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823457,
+          "date": "2026-06-04",
+          "day_of_week": "Thursday",
+          "opponent": "San Diego Padres",
+          "result": "W 6-4",
+          "attendance": 37812,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823455,
+          "date": "2026-06-05",
+          "day_of_week": "Friday",
+          "opponent": "Chicago White Sox",
+          "result": "W 8-6",
+          "attendance": 43232,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823454,
+          "date": "2026-06-06",
+          "day_of_week": "Saturday",
+          "opponent": "Chicago White Sox",
+          "result": "L 3-6",
+          "attendance": 42949,
+          "pct_capacity": 100.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823453,
+          "date": "2026-06-07",
+          "day_of_week": "Sunday",
+          "opponent": "Chicago White Sox",
+          "result": "W 9-5",
+          "attendance": 41978,
+          "pct_capacity": 97.8,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "35-30",
+    "streak": "W1",
+    "games_behind": "9.5"
+  },
+  "generated_at": "2026-06-08T14:13:43.278912+00:00"
+}
