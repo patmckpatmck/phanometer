@@ -1,0 +1,267 @@
+{
+  "date": "2026-06-09",
+  "display_score": 63,
+  "reactive_score": 63,
+  "baseline_score": 57,
+  "insufficient_signal": false,
+  "content_volume": 418,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 52,
+    "manager_confidence": 78,
+    "lineup_confidence": 60,
+    "pitching_confidence": 65,
+    "health_outlook": 58,
+    "postseason_belief": 48
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 65,
+    "manager_confidence": 70,
+    "lineup_confidence": 78,
+    "pitching_confidence": 85,
+    "health_outlook": 55,
+    "postseason_belief": 72
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 68,
+      "note": "Hittin' Season and The Phillies Show are genuinely excited about Marsh and the offense's resurgence, but analytical concern about Painter's mechanics and the back-end rotation is front and center."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 70,
+      "note": "WIP High Hopes is bullish on Sanchez's gem and Mattingly's 27-11 run, but split internally on whether to mortgage the farm for Skubal vs. prioritizing a right-handed bat."
+    },
+    "youtube_fan": {
+      "score": 48,
+      "note": "YouTube commenters are deeply skeptical about the farm system's trade value and pessimistic that acquiring Skubal is even realistic given the thin prospect cupboard."
+    },
+    "twitter_fan": {
+      "score": 65,
+      "note": "X posts are celebratory about the win and Sanchez's dominance, with enthusiastic All-Star chatter around Marsh, though most Phillies-specific engagement is diluted by sports betting recaps."
+    }
+  },
+  "themes": [
+    {
+      "name": "Sanchez Cementing Ace Status",
+      "delta": 8,
+      "sample": "Seven innings, ten strikeouts, a 1.54 ERA on the season \u2014 another dominant outing caps a stretch so good it has Cy Young conversation gaining momentum."
+    },
+    {
+      "name": "Marsh All-Star Push",
+      "delta": 7,
+      "sample": "Homering in all three White Sox games, leading the majors in batting average, and now hitting lefties at a .294 clip \u2014 the case for Brandon Marsh as a starter at the Philadelphia All-Star Game is being made loudly."
+    },
+    {
+      "name": "Skubal Deadline Debate Divides",
+      "delta": -2,
+      "sample": "One camp says mortgage the farm for the best available pitcher and go win a World Series now; the other says the offense is the real problem and a thin farm system can't afford a two-month rental at that price."
+    },
+    {
+      "name": "Painter's Mechanics a Growing Crisis",
+      "delta": -6,
+      "sample": "Hitters are batting over .390 against his four-seamer, he's posting the highest ERA among qualified rookies, and even sympathetic analysis concedes a Triple-A reassignment may be necessary before it gets worse."
+    },
+    {
+      "name": "Mattingly's Run Earning Real Respect",
+      "delta": 5,
+      "sample": "At 27-11 since the managerial change \u2014 best record in baseball over that span \u2014 the credit being extended to Mattingly has shifted from cautious to genuine, with players like Marsh visibly thriving under his everyday-player philosophy."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Sanchez, I did think he was fighting himself a little bit, but still 7 innings, 10-plus strikeouts. His standard is just so high.",
+      "score": 80,
+      "source_hint": "talk-radio host, WIP High Hopes game wrap"
+    },
+    {
+      "text": "He is streaking towards beloved national All-Star figure.",
+      "score": 85,
+      "source_hint": "fan analyst, Hittin' Season roundtable on Brandon Marsh"
+    },
+    {
+      "text": "Pointless debate because no one is going to want anyone from this dogshit farm system in the first place.",
+      "score": 18,
+      "source_hint": "YouTube commenters, Skubal trade debate video"
+    },
+    {
+      "text": "You do not mortgage the future for two months of a starting pitcher.",
+      "score": 35,
+      "source_hint": "talk-radio host, WIP High Hopes deadline debate"
+    }
+  ],
+  "vibe_summary": "Sanchez is pitching like a Cy Young frontrunner, Marsh is chasing a batting title, and Mattingly's turnaround is real \u2014 but the Skubal-or-a-bat deadline argument is already consuming the fanbase, with a depleted farm system making every option feel costly.",
+  "reasoning": "The dominant energy today is a split-screen: genuine optimism about an elite top of the rotation and a franchise-altering Marsh breakthrough on one side, and structural anxiety about Painter's mechanical regression and a thin farm system constraining deadline options on the other. Analytical commentary is enthusiastic about the team's trajectory under Mattingly but carefully measured about postseason ceiling \u2014 no one is confidently projecting a deep October run, only debating which trade might make it plausible. The Skubal debate is the loudest single topic, with real disagreement rather than consensus, and YouTube commenters are notably more pessimistic than podcast voices about the organization's ability to compete for elite trade targets.",
+  "people_mentioned": [
+    "Sanchez",
+    "Marsh",
+    "Mattingly",
+    "Painter",
+    "Luzardo",
+    "Skubal",
+    "Wheeler",
+    "Schwarber",
+    "Harper",
+    "Bohm",
+    "Garcia",
+    "Stott",
+    "Duran",
+    "Nola",
+    "Gage Wood",
+    "Aidan Miller",
+    "Dombrowski",
+    "Turner",
+    "Kevin Long",
+    "Muto"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 178045,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 11634,
+    "youtube_comments": 15,
+    "youtube_comment_chars": 2132,
+    "twitter_posts": 150,
+    "twitter_post_chars": 30164
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Reacting to Cristopher Sanchez's Latest Gem",
+      "voice": "radio_populist",
+      "chars": 24483
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Brandon Marsh's Case For The All Star Game",
+      "voice": "fan_analyst",
+      "chars": 63480
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Should The Phillies Buy Tickets To The Sku-Ball?",
+      "voice": "radio_populist",
+      "chars": 52897
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Brandon Marsh has become one of baseball's best hitters",
+      "voice": "fan_analyst",
+      "chars": 37185
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Trea's New Mustache Key To Phillies Success?!",
+      "voice": "radio_populist",
+      "chars": 1286
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Why Phillies Should NOT Go All In",
+      "voice": "radio_populist",
+      "chars": 1778
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Should The Phillies Mortgage The Future For Tarik Skubal?",
+      "voice": "radio_populist",
+      "chars": 8570
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 95.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 97.3,
+      "delta_pct": -2.1,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823460,
+          "date": "2026-06-02",
+          "day_of_week": "Tuesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 38763,
+          "pct_capacity": 90.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823456,
+          "date": "2026-06-03",
+          "day_of_week": "Wednesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 40453,
+          "pct_capacity": 94.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823457,
+          "date": "2026-06-04",
+          "day_of_week": "Thursday",
+          "opponent": "San Diego Padres",
+          "result": "W 6-4",
+          "attendance": 37812,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823455,
+          "date": "2026-06-05",
+          "day_of_week": "Friday",
+          "opponent": "Chicago White Sox",
+          "result": "W 8-6",
+          "attendance": 43232,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823454,
+          "date": "2026-06-06",
+          "day_of_week": "Saturday",
+          "opponent": "Chicago White Sox",
+          "result": "L 3-6",
+          "attendance": 42949,
+          "pct_capacity": 100.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823453,
+          "date": "2026-06-07",
+          "day_of_week": "Sunday",
+          "opponent": "Chicago White Sox",
+          "result": "W 9-5",
+          "attendance": 41978,
+          "pct_capacity": 97.8,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "36-30",
+    "streak": "W2",
+    "games_behind": "9.0"
+  },
+  "generated_at": "2026-06-09T12:43:27.211563+00:00"
+}
