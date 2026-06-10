@@ -1,0 +1,268 @@
+{
+  "date": "2026-06-10",
+  "display_score": 58,
+  "reactive_score": 58,
+  "baseline_score": 59,
+  "insufficient_signal": false,
+  "content_volume": 370,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 42,
+    "front_office_trust": 58,
+    "manager_confidence": 72,
+    "lineup_confidence": 52,
+    "pitching_confidence": 74,
+    "health_outlook": 60,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 78,
+    "front_office_trust": 55,
+    "manager_confidence": 65,
+    "lineup_confidence": 72,
+    "pitching_confidence": 80,
+    "health_outlook": 45,
+    "postseason_belief": 60
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 62,
+      "note": "The Phillies Show crew is bullish on Wheeler and Duran's talent ceiling but genuinely alarmed by Turner's prolonged slump and the need for a right-handed bat."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 58,
+      "note": "WIP High Hopes host frames the blown save as a bummer but not a crisis, praises Mattingly's aggressive moves, and is increasingly absorbed in the Skubal-vs.-bat trade deadline debate."
+    },
+    "youtube_fan": {
+      "score": 44,
+      "note": "YouTube commenters are split on Duran's historical standing versus Lidge, and angry that the offense can't score enough runs to protect leads."
+    },
+    "twitter_fan": {
+      "score": 50,
+      "note": "X posts are dominated by betting recaps and game score reactions; genuine fan sentiment is thin but reflects mild frustration over the blown-save loss and 15 strikeouts."
+    }
+  },
+  "themes": [
+    {
+      "name": "Duran's perfect run ends, but trust holds",
+      "delta": -2,
+      "sample": "The first blown save of the season stings, especially on a pair of infield bleeders, but the consensus is that one bad outing doesn't change what Duran has been all year \u2014 and the broader question of a long-term extension is already being debated."
+    },
+    {
+      "name": "Wheeler and Sanchez carry the rotation",
+      "delta": 5,
+      "sample": "The top two starters keep putting up gem after gem \u2014 combined 13-3 with a sub-2 ERA \u2014 and the feeling is that as long as those two take the ball, the team has a chance every fifth day regardless of what surrounds them."
+    },
+    {
+      "name": "Turner's slump is becoming a real problem",
+      "delta": -5,
+      "sample": "The leadoff hitter looks lost at the plate \u2014 working around pitches rather than through them, pull-happy, with no plate coverage \u2014 and there's no obvious in-house solution to move him down for."
+    },
+    {
+      "name": "Trade deadline debate intensifies: Skubal or a bat?",
+      "delta": 3,
+      "sample": "The Skubal discussion is pulling fans in two directions \u2014 a rotation that already looks historically good versus an offense that still can't consistently score four runs \u2014 and a thin farm system makes every option feel expensive."
+    },
+    {
+      "name": "Back-end rotation and Painter remain a liability",
+      "delta": -4,
+      "sample": "Painter's fastball is getting crushed and his command is erratic enough that meaningful in-season improvement feels unlikely; the feeling is that the back of the rotation is something that needs to be either fixed over the winter or addressed at the deadline."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "He might be the most talented closer the Phillies have ever had.",
+      "score": 82,
+      "source_hint": "fan analyst (The Phillies Show), on Duran's pure stuff"
+    },
+    {
+      "text": "Tonight was a couple of bleeders that got through \u2014 more unlucky than anything.",
+      "score": 60,
+      "source_hint": "talk-radio host (WIP High Hopes), contextualizing the blown save"
+    },
+    {
+      "text": "You can't fuckin win if you don't fuckin hit! BASIC.",
+      "score": 30,
+      "source_hint": "YouTube commenter, on the hitter-vs-pitcher deadline debate"
+    },
+    {
+      "text": "The Phillies have the worst run differential in the NL East at a -17.",
+      "score": 28,
+      "source_hint": "X posts, cold statistical reminder of the team's underlying issues"
+    }
+  ],
+  "vibe_summary": "A gut-punch blown save from an otherwise untouchable closer has turned the conversation toward what this offense still can't do \u2014 and whether the deadline answer is a rotation titan or a bat that can actually protect leads.",
+  "reasoning": "The dominant emotion is the sting of a winnable game lost on unlucky infield hits, but there is no panic about Duran himself. Analytical framing is more measured \u2014 the blown save is contextualized as fluky \u2014 while raw fan commentary fixates on the offense's chronic inability to put games away and Turner's alarming slump. The deadline debate is already consuming significant bandwidth, with the Skubal-or-a-bat argument pulling sentiment in opposite directions and the farm system's thinness shading every option toward anxiety rather than excitement.",
+  "people_mentioned": [
+    "Duran",
+    "Wheeler",
+    "Sanchez",
+    "Turner",
+    "Mattingly",
+    "Marsh",
+    "Schwarber",
+    "Harper",
+    "Bohm",
+    "Painter",
+    "Nola",
+    "Luzardo",
+    "Garcia",
+    "Stott",
+    "Realmuto",
+    "Dombrowski",
+    "Keller",
+    "Kirkerink",
+    "Gage Wood",
+    "Marquez",
+    "Aidan Miller"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 137972,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 20496,
+    "youtube_comments": 9,
+    "youtube_comment_chars": 1119,
+    "twitter_posts": 150,
+    "twitter_post_chars": 29673
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Jhoan Duran might be Phillies' most talented closer ever",
+      "voice": "fan_analyst",
+      "chars": 30787
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: The Perfect Season Is Over",
+      "voice": "radio_populist",
+      "chars": 26900
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Reacting to Cristopher Sanchez's Latest Gem",
+      "voice": "radio_populist",
+      "chars": 24640
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Should The Phillies Buy Tickets To The Sku-Ball?",
+      "voice": "radio_populist",
+      "chars": 55645
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Adolis Garcia Is HEATING Up \ud83d\udd25",
+      "voice": "radio_populist",
+      "chars": 651
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Concerning Trend About Leadoff Kyle Schwarber",
+      "voice": "radio_populist",
+      "chars": 9973
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Is Cristopher Sanchez The Best Athlete In Philly? | 94WIP",
+      "voice": "radio_populist",
+      "chars": 9872
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 95.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 97.3,
+      "delta_pct": -2.1,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823460,
+          "date": "2026-06-02",
+          "day_of_week": "Tuesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 38763,
+          "pct_capacity": 90.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823456,
+          "date": "2026-06-03",
+          "day_of_week": "Wednesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 40453,
+          "pct_capacity": 94.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823457,
+          "date": "2026-06-04",
+          "day_of_week": "Thursday",
+          "opponent": "San Diego Padres",
+          "result": "W 6-4",
+          "attendance": 37812,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823455,
+          "date": "2026-06-05",
+          "day_of_week": "Friday",
+          "opponent": "Chicago White Sox",
+          "result": "W 8-6",
+          "attendance": 43232,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823454,
+          "date": "2026-06-06",
+          "day_of_week": "Saturday",
+          "opponent": "Chicago White Sox",
+          "result": "L 3-6",
+          "attendance": 42949,
+          "pct_capacity": 100.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823453,
+          "date": "2026-06-07",
+          "day_of_week": "Sunday",
+          "opponent": "Chicago White Sox",
+          "result": "W 9-5",
+          "attendance": 41978,
+          "pct_capacity": 97.8,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "36-31",
+    "streak": "L1",
+    "games_behind": "9.0"
+  },
+  "generated_at": "2026-06-10T13:02:48.618513+00:00"
+}
