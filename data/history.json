@@ -12262,5 +12262,277 @@
       "games_behind": "9.0"
     },
     "generated_at": "2026-06-10T13:02:48.618513+00:00"
+  },
+  {
+    "date": "2026-06-11",
+    "display_score": 63,
+    "reactive_score": 63,
+    "baseline_score": 58,
+    "insufficient_signal": false,
+    "content_volume": 351,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 72,
+      "front_office_trust": 48,
+      "manager_confidence": 78,
+      "lineup_confidence": 58,
+      "pitching_confidence": 72,
+      "health_outlook": 38,
+      "postseason_belief": 52
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 55,
+      "manager_confidence": 80,
+      "lineup_confidence": 75,
+      "pitching_confidence": 78,
+      "health_outlook": 82,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 68,
+        "note": "Fan analyst voices (Phillies Talk, Hittin' Season, The Phillies Show) are genuinely celebratory about Mattingly's 28-12 run and the Wheeler/Sanchez duo, but tempered by real concern over Trea Turner's prolonged slump, Luzardo's home/road split, and what looks like an extended IL stint for Garcia."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 65,
+        "note": "Talk-radio hosts on WIP shifted from post-blown-save gloom on Tuesday to clear excitement on Wednesday \u2014 one host explicitly said he was 'finally excited' about the Phillies \u2014 while also raising alarms about Painter's rotation spot and the thinning outfield depth."
+      },
+      "youtube_fan": {
+        "score": null,
+        "note": null
+      },
+      "twitter_fan": {
+        "score": 66,
+        "note": "X posts are broadly celebratory about the series win and Mattingly's record, with high engagement on the home run barrage; Garcia's shoulder injury dominates the concern side, and a handful of posts flag Painter's rotation future and the depleted outfield options."
+      }
+    },
+    "themes": [
+      {
+        "name": "Mattingly's Historic Run Continues",
+        "delta": 7,
+        "sample": "A 28-12 record under the new manager \u2014 matching the best 40-game start in franchise history \u2014 has transformed the mood from April despair to genuine belief that this team is built differently now."
+      },
+      {
+        "name": "Garcia Shoulder Scare Thins an Already Thin Outfield",
+        "delta": -6,
+        "sample": "Adolis Garcia's apparent shoulder strain on a maximum-effort throw \u2014 with imaging pending and an extended IL stint widely expected \u2014 exposed how few credible outfield alternatives sit on the 40-man roster."
+      },
+      {
+        "name": "Trea Turner's Slump Reaches Crisis Level",
+        "delta": -5,
+        "sample": "On pace for roughly 150 strikeouts, a .277 OBP, and visibly frustrated in the dugout, Turner's inability to get on base at the top of the order has become one of the team's most discussed and least-solved problems."
+      },
+      {
+        "name": "Wheeler and Sanchez Cement Elite Status",
+        "delta": 6,
+        "sample": "The Wheeler-Sanchez tandem is 13-3 with a combined 1.8 ERA and 166 strikeouts in 150 innings \u2014 generating comparisons to Schilling-Johnson and fueling real All-Star and Cy Young conversation."
+      },
+      {
+        "name": "Deadline Urgency Rises: Rotation Depth and a Righty Bat Needed",
+        "delta": -3,
+        "sample": "With Painter struggling, Nola inconsistent, the outfield suddenly undermanned, and roughly eight weeks to the trade deadline, the front office faces compounding pressure to add both a reliable starter and a right-handed bat."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I am finally excited. I mean, they might be a great team.",
+        "score": 80,
+        "source_hint": "WIP talk-radio host reacting to the series win over Toronto"
+      },
+      {
+        "text": "28-12 under Don Mattingly. The Phillies have now won ten series under Mattingly and lost just three.",
+        "score": 82,
+        "source_hint": "Hittin' Season fan analyst opening segment"
+      },
+      {
+        "text": "To my eye, you cannot enter the post season with Nola or Painter starting if they keep pitching like this.",
+        "score": 28,
+        "source_hint": "WIP talk-radio host on the rotation's bottom half"
+      },
+      {
+        "text": "All of these options are so lackluster it is sad... the Phillies front office only cares about depth in their bullpen and somehow nothing else.",
+        "score": 22,
+        "source_hint": "X posts reacting to Garcia injury and outfield replacement options"
+      }
+    ],
+    "vibe_summary": "Three straight series wins and the sport's most dominant one-two rotation punch have Phillies fans genuinely excited again \u2014 but Garcia's shoulder, Turner's endless slump, and a depleted outfield are already casting shadows over the good feelings.",
+    "reasoning": "The dominant note is cautious optimism rooted in real results: Mattingly's historic pace, Bohm's resurgence, and the Wheeler-Sanchez tandem have moved the needle from relief to belief. The Garcia shoulder injury, however, injected immediate anxiety \u2014 analysts and fans alike expect an extended IL stint that exposes a thin outfield, and it has accelerated deadline urgency. The one notable divergence is tone: the talk-radio voices swung from blown-save despair (Tuesday) to effusive excitement (Wednesday) more sharply than the fan analyst podcasts, which maintained a steadier mix of celebration and structural concern about the rotation's back end and Turner's prolonged offensive absence.",
+    "people_mentioned": [
+      "Mattingly",
+      "Turner",
+      "Garcia",
+      "Duran",
+      "Wheeler",
+      "Sanchez",
+      "Luzardo",
+      "Bohm",
+      "Marsh",
+      "Harper",
+      "Schwarber",
+      "Painter",
+      "Nola",
+      "Crawford",
+      "Rojas",
+      "Rincones",
+      "Reyes",
+      "Kemp",
+      "Stott",
+      "Dombrowski",
+      "Realmuto",
+      "Kirkering",
+      "Keller",
+      "Shugart",
+      "Miller"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 138437,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 12294,
+      "youtube_comments": 0,
+      "youtube_comment_chars": 0,
+      "twitter_posts": 150,
+      "twitter_post_chars": 26796
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies keep it ROLLIN' with ANOTHER series win under Don Mattingly",
+        "voice": "fan_analyst",
+        "chars": 42550
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Take Another Series in Toronto",
+        "voice": "fan_analyst",
+        "chars": 39350
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Jhoan Duran might be Phillies' most talented closer ever",
+        "voice": "fan_analyst",
+        "chars": 31080
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: The Perfect Season Is Over",
+        "voice": "radio_populist",
+        "chars": 25457
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "DeCamara: Finally EXCITED About The Phillies Again! \ud83d\udd25 | 94WIP",
+        "voice": "radio_populist",
+        "chars": 10594
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Could DEMOTE Andrew Painter",
+        "voice": "radio_populist",
+        "chars": 900
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Must Accept The Team They Are",
+        "voice": "radio_populist",
+        "chars": 800
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 95.2,
+        "baseline_games_count": 39,
+        "baseline_avg_pct": 97.3,
+        "delta_pct": -2.1,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823460,
+            "date": "2026-06-02",
+            "day_of_week": "Tuesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 38763,
+            "pct_capacity": 90.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823456,
+            "date": "2026-06-03",
+            "day_of_week": "Wednesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 40453,
+            "pct_capacity": 94.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823457,
+            "date": "2026-06-04",
+            "day_of_week": "Thursday",
+            "opponent": "San Diego Padres",
+            "result": "W 6-4",
+            "attendance": 37812,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823455,
+            "date": "2026-06-05",
+            "day_of_week": "Friday",
+            "opponent": "Chicago White Sox",
+            "result": "W 8-6",
+            "attendance": 43232,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823454,
+            "date": "2026-06-06",
+            "day_of_week": "Saturday",
+            "opponent": "Chicago White Sox",
+            "result": "L 3-6",
+            "attendance": 42949,
+            "pct_capacity": 100.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823453,
+            "date": "2026-06-07",
+            "day_of_week": "Sunday",
+            "opponent": "Chicago White Sox",
+            "result": "W 9-5",
+            "attendance": 41978,
+            "pct_capacity": 97.8,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "37-31",
+      "streak": "W1",
+      "games_behind": "8.0"
+    },
+    "generated_at": "2026-06-11T14:04:34.265960+00:00"
   }
 ]
