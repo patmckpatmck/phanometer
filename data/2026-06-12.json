@@ -1,0 +1,271 @@
+{
+  "date": "2026-06-12",
+  "display_score": 60,
+  "reactive_score": 60,
+  "baseline_score": 60,
+  "insufficient_signal": false,
+  "content_volume": 430,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 68,
+    "front_office_trust": 52,
+    "manager_confidence": 78,
+    "lineup_confidence": 55,
+    "pitching_confidence": 65,
+    "health_outlook": 38,
+    "postseason_belief": 45
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 80,
+    "front_office_trust": 55,
+    "manager_confidence": 82,
+    "lineup_confidence": 78,
+    "pitching_confidence": 72,
+    "health_outlook": 85,
+    "postseason_belief": 50
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 67,
+      "note": "Fan analyst voices across Hittin' Season, Phillies Talk, and The Phillies Show are genuinely encouraged by the 28-12 run under Mattingly and the top-of-rotation brilliance, but all three shows treat Garcia's injury, Turner's slump, and Painter's struggles as real ongoing concerns rather than noise."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 58,
+      "note": "Talk-radio hosts are warmer on Mattingly's game management than any prior period, but the Derek Hill acquisition landed with a collective shrug \u2014 one host called it 'a plug,' and the Bryce Harper top-11 debate generated more heat than any baseball move."
+    },
+    "youtube_fan": {
+      "score": 48,
+      "note": "YouTube commenters ranged from sarcastic World Series hype on the Derek Hill trade to a single earnest Bryce Harper defense; sample is too thin for a confident read."
+    },
+    "twitter_fan": {
+      "score": 52,
+      "note": "X posts are dominated by betting angles on Painter vs. Misiorowski, genuine alarm at Painter's 6.21 ERA, measured approval of the Derek Hill trade as a low-risk move, and frustration that the farm system limits deadline ambition."
+    }
+  },
+  "themes": [
+    {
+      "name": "Mattingly Earning the Job",
+      "delta": 7,
+      "sample": "A 28-12 record under the interim manager, 10 series wins in 13 tries, and proactive bullpen decisions have multiple voices now openly saying just give him the job permanently."
+    },
+    {
+      "name": "Garcia Injury Clouds Outfield",
+      "delta": -7,
+      "sample": "Adolis Garcia's shoulder injury \u2014 widely expected to be an IL stint of six-to-eight weeks \u2014 has exposed an already razor-thin outfield, and the Derek Hill acquisition was received as a necessary but uninspiring band-aid."
+    },
+    {
+      "name": "Painter vs. Misiorowski \u2014 One Prospect Arrived, One Hasn't",
+      "delta": -5,
+      "sample": "Friday's matchup frames the gap starkly: Misiorowski is 7-2 with a 1.50 ERA while Painter sits at 1-7 with a 6.21 ERA, and analysis zeroes in on his command issues and the possibility he's still a 4A pitcher against major-league hitters."
+    },
+    {
+      "name": "Turner Slump Becoming a Crisis",
+      "delta": -6,
+      "sample": "With 65 strikeouts through fewer than 70 games and an OBP barely above .270, Trey Turner's place at the top of the lineup is being openly questioned \u2014 multiple discussions land on moving him down or finding a creative alternative."
+    },
+    {
+      "name": "Rotation Depth Is Two Deep, Not Five",
+      "delta": -4,
+      "sample": "Wheeler and Sanchez are elite and the numbers prove it, but Nola's crossroads, Painter's command struggles, and Luzardo's severe home/road split mean the Phillies are realistically counting on two starters heading into the stretch."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "He's kind of a 4A guy the second time through a lineup, and sometimes the first.",
+      "score": 28,
+      "source_hint": "Former pitcher Chad Durbin on The Phillies Show, describing Andrew Painter's current level"
+    },
+    {
+      "text": "28-12 under Don Mattingly. That's really good. That's really good.",
+      "score": 82,
+      "source_hint": "Talk-radio host on High Hopes / WIP Daily"
+    },
+    {
+      "text": "I think he's going to be a pretty good big league pitcher. I hope it's not somewhere else where he ends up.",
+      "score": 55,
+      "source_hint": "Chad Durbin on The Phillies Show, on Painter's long-term outlook"
+    },
+    {
+      "text": "He is the most disappointing player on the team.",
+      "score": 18,
+      "source_hint": "High Hopes / WIP Daily host on Trey Turner"
+    }
+  ],
+  "vibe_summary": "The Derek Hill trade tells the whole story \u2014 a contending team forced into a bargain-bin fix while Mattingly's fingerprints on a genuine turnaround go mostly uncelebrated, because Turner's bat and Painter's command keep pulling attention back to what still isn't working.",
+  "reasoning": "The dominant mood is cautious optimism tempered by structural anxiety. The 28-12 run under Mattingly is real and is being credited seriously, with his game-management style drawing warmer reviews than at any point this season. But Garcia's injury arriving just as the outfield was stabilizing, Turner's strikeout pace approaching historically bad territory, and Painter facing the sport's hottest young arm on Friday have kept the ceiling feeling far away. The Derek Hill acquisition was broadly received as adequate rather than energizing, and multiple analytical discussions noted the farm system's thinness limits what the deadline can realistically deliver. There is no panic, but there is no runway-clear confidence either.",
+  "people_mentioned": [
+    "Mattingly",
+    "Turner",
+    "Painter",
+    "Garcia",
+    "Lozardo",
+    "Duran",
+    "Wheeler",
+    "Sanchez",
+    "Bohm",
+    "Harper",
+    "Marsh",
+    "Schwarber",
+    "Stott",
+    "Realmuto",
+    "Crawford",
+    "Rincones",
+    "Nola",
+    "Dombrowski",
+    "Kerkering",
+    "Rojas",
+    "Hill",
+    "Misiorowski",
+    "Cotham",
+    "Miller"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 196422,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 10334,
+    "youtube_comments": 4,
+    "youtube_comment_chars": 235,
+    "twitter_posts": 150,
+    "twitter_post_chars": 29811
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "A Phillies trade, and a few thoughts on Andrew Painter",
+      "voice": "fan_analyst",
+      "chars": 54253
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "The Phillies Are 28-12 Under Mattingly... That's Pretty Good",
+      "voice": "radio_populist",
+      "chars": 62481
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies keep it ROLLIN' with ANOTHER series win under Don Mattingly",
+      "voice": "fan_analyst",
+      "chars": 42733
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Take Another Series in Toronto",
+      "voice": "fan_analyst",
+      "chars": 36955
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper Not On Jolly's Top 11 List! \ud83d\ude32",
+      "voice": "radio_populist",
+      "chars": 850
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "JUST IN: Phillies Acquire An OF \ud83d\udea8",
+      "voice": "radio_populist",
+      "chars": 1707
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Jolly: Bryce Harper Not A Top 11 Philly Athlete \ud83e\udd14",
+      "voice": "radio_populist",
+      "chars": 7777
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 95.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 97.3,
+      "delta_pct": -2.1,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823460,
+          "date": "2026-06-02",
+          "day_of_week": "Tuesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 38763,
+          "pct_capacity": 90.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823456,
+          "date": "2026-06-03",
+          "day_of_week": "Wednesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 40453,
+          "pct_capacity": 94.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823457,
+          "date": "2026-06-04",
+          "day_of_week": "Thursday",
+          "opponent": "San Diego Padres",
+          "result": "W 6-4",
+          "attendance": 37812,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823455,
+          "date": "2026-06-05",
+          "day_of_week": "Friday",
+          "opponent": "Chicago White Sox",
+          "result": "W 8-6",
+          "attendance": 43232,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823454,
+          "date": "2026-06-06",
+          "day_of_week": "Saturday",
+          "opponent": "Chicago White Sox",
+          "result": "L 3-6",
+          "attendance": 42949,
+          "pct_capacity": 100.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823453,
+          "date": "2026-06-07",
+          "day_of_week": "Sunday",
+          "opponent": "Chicago White Sox",
+          "result": "W 9-5",
+          "attendance": 41978,
+          "pct_capacity": 97.8,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "37-31",
+    "streak": "W1",
+    "games_behind": "8.0"
+  },
+  "generated_at": "2026-06-12T13:05:07.479322+00:00"
+}
