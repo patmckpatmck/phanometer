@@ -1,0 +1,267 @@
+{
+  "date": "2026-06-13",
+  "display_score": 45,
+  "reactive_score": 45,
+  "baseline_score": 60,
+  "insufficient_signal": false,
+  "content_volume": 449,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 32,
+    "front_office_trust": 38,
+    "manager_confidence": 72,
+    "lineup_confidence": 45,
+    "pitching_confidence": 62,
+    "health_outlook": 28,
+    "postseason_belief": 38
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 60,
+    "manager_confidence": 70,
+    "lineup_confidence": 75,
+    "pitching_confidence": 80,
+    "health_outlook": 82,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 55,
+      "note": "Fan analyst coverage is pre-loss, expressing cautious optimism about the Toronto series win and 28-12 run under Mattingly, while flagging Garcia's injury, Painter's struggles, Nola's crossroads, and a dangerously thin outfield as serious concerns."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 58,
+      "note": "Talk-radio hosts are bullish on Mattingly's proactive managing and enthusiastic about Sanchez as the top Philly athlete, but openly worried about Turner's prolonged slump, Garcia's IL stint, and whether the offense is built to sustain a playoff run."
+    },
+    "youtube_fan": {
+      "score": 22,
+      "note": "YouTube commenters are bitter and sarcastic about Garcia's injury and the roster's organizational ineptitude, offering little sympathy."
+    },
+    "twitter_fan": {
+      "score": 20,
+      "note": "X posts are dominated by awe at Misiorowski's 15-strikeout shutout, with Phillies fans ranging from resigned to disgusted \u2014 calls to send Painter down, frustration at the offense, and dark humor about being historically dominated."
+    }
+  },
+  "themes": [
+    {
+      "name": "Misiorowski's Historic Shutout",
+      "delta": -8,
+      "sample": "A 15-strikeout, one-hit complete-game shutout \u2014 zero Phillies batters reached a 3-0 count \u2014 left fans alternating between stunned admiration for the opposing pitcher and raw frustration that the offense was this thoroughly dismantled."
+    },
+    {
+      "name": "Garcia to the 60-Day IL",
+      "delta": -7,
+      "sample": "Adolis Garcia's shoulder injury, confirmed as a 60-day IL stint, strips the outfield of its best defender and one of its few reliable power sources, forcing a scrambled roster response the organization was not well-equipped to handle."
+    },
+    {
+      "name": "Painter's Command Crisis",
+      "delta": -5,
+      "sample": "Andrew Painter's inability to put hitters away in two-strike counts and his struggles against elite competition have fans calling for a demotion and raising doubts about whether the rotation has a reliable third starter beyond Wheeler and Sanchez."
+    },
+    {
+      "name": "Mattingly's Fingerprints Are Real",
+      "delta": 5,
+      "sample": "The 28-12 record under Mattingly is drawing genuine respect \u2014 his proactive bullpen management, aggressive baserunning, and willingness to pull starters mid-inning are being cited as a meaningful departure from the previous regime's reactive tendencies."
+    },
+    {
+      "name": "Turner's Prolonged Slump Demands Action",
+      "delta": -4,
+      "sample": "Trey Turner continues to lead the lineup with an OBP hovering near .277, a mounting strikeout pace that projects toward 150 on the season, and no sustained signs of the breakout that keeps getting promised \u2014 calls to drop him in the order are growing louder."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "For one night, Jacob Misiorowski was the apotheosis of pitching. He struck out fifteen Phillies in a complete game shutout.",
+      "score": 12,
+      "source_hint": "X posts, recap of Brewers-Phillies game 1"
+    },
+    {
+      "text": "The Phillies just got absolutely bodied by Cristopher's main competition for the Cy Young and now we have to face two lefties back to back Saturday and Sunday this is deadass the worst weekend ever",
+      "score": 8,
+      "source_hint": "X posts, fan reaction after game 1 loss"
+    },
+    {
+      "text": "It just feels like the Phillies feel like they just didn't do their homework over the winter and then rolled into the exam on opening day.",
+      "score": 28,
+      "source_hint": "Hittin' Season fan analyst, on roster depth failures"
+    },
+    {
+      "text": "I think he's going to be a pretty good big league pitcher. I hope it's not somewhere else where he ends up being somebody's two and winning 15 games a year.",
+      "score": 45,
+      "source_hint": "The Phillies Show fan analyst, Chad Durbin on Andrew Painter's ceiling"
+    }
+  ],
+  "vibe_summary": "Jacob Misiorowski just handed the Phillies one of the most complete beatdowns of their season, and with Garcia headed to the 60-day IL and Painter unraveling, the roster's structural fragility is impossible to ignore.",
+  "reasoning": "The dominant story is the Misiorowski shutout \u2014 a historic 15-strikeout complete game that crystallized every offensive anxiety fans already had. Pre-game podcast content was measured but optimistic about the Toronto series win and Mattingly's 28-12 mark; post-game reaction on X is uniformly brutal, with fans calling the loss a guaranteed outcome and demanding Painter be demoted. The gap between the analytical framing \u2014 which contextualizes the loss within a genuine Mattingly-era turnaround \u2014 and the raw fan reaction to both the shutout and the Garcia IL news is significant, pulling overall sentiment sharply downward from where it stood 24 hours ago.",
+  "people_mentioned": [
+    "Misiorowski",
+    "Mattingly",
+    "Garcia",
+    "Painter",
+    "Sanchez",
+    "Wheeler",
+    "Turner",
+    "Bohm",
+    "Harper",
+    "Luzardo",
+    "Marsh",
+    "Schwarber",
+    "Nola",
+    "Duran",
+    "Rincones",
+    "Crawford",
+    "Dombrowski",
+    "Realmuto",
+    "Stott",
+    "Hill"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 220076,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 2830,
+    "youtube_comments": 2,
+    "youtube_comment_chars": 210,
+    "twitter_posts": 150,
+    "twitter_post_chars": 26136
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Face Another First-Place Foe",
+      "voice": "fan_analyst",
+      "chars": 55517
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "A Phillies trade, and a few thoughts on Andrew Painter",
+      "voice": "fan_analyst",
+      "chars": 57451
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "The Phillies Are 28-12 Under Mattingly... That's Pretty Good",
+      "voice": "radio_populist",
+      "chars": 63492
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies keep it ROLLIN' with ANOTHER series win under Don Mattingly",
+      "voice": "fan_analyst",
+      "chars": 43616
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Spike Calls Giglio Ranking Kyle Schwarber As The No. 2 Athlete In Philadelphia \u201cEMBARRASING!\u201d",
+      "voice": "radio_populist",
+      "chars": 681
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Cristopher Sanchez Philadelphia's Undisputed #1 Athlete!",
+      "voice": "radio_populist",
+      "chars": 1173
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Call Up Gabriel Rincones Jr.",
+      "voice": "radio_populist",
+      "chars": 976
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 95.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 97.3,
+      "delta_pct": -2.1,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823460,
+          "date": "2026-06-02",
+          "day_of_week": "Tuesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 38763,
+          "pct_capacity": 90.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823456,
+          "date": "2026-06-03",
+          "day_of_week": "Wednesday",
+          "opponent": "San Diego Padres",
+          "result": "W 3-2",
+          "attendance": 40453,
+          "pct_capacity": 94.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823457,
+          "date": "2026-06-04",
+          "day_of_week": "Thursday",
+          "opponent": "San Diego Padres",
+          "result": "W 6-4",
+          "attendance": 37812,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823455,
+          "date": "2026-06-05",
+          "day_of_week": "Friday",
+          "opponent": "Chicago White Sox",
+          "result": "W 8-6",
+          "attendance": 43232,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823454,
+          "date": "2026-06-06",
+          "day_of_week": "Saturday",
+          "opponent": "Chicago White Sox",
+          "result": "L 3-6",
+          "attendance": 42949,
+          "pct_capacity": 100.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823453,
+          "date": "2026-06-07",
+          "day_of_week": "Sunday",
+          "opponent": "Chicago White Sox",
+          "result": "W 9-5",
+          "attendance": 41978,
+          "pct_capacity": 97.8,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "37-32",
+    "streak": "L1",
+    "games_behind": "8.0"
+  },
+  "generated_at": "2026-06-13T12:05:23.339181+00:00"
+}
