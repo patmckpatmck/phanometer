@@ -13072,5 +13072,264 @@
       "games_behind": "8.0"
     },
     "generated_at": "2026-06-13T12:05:23.339181+00:00"
+  },
+  {
+    "date": "2026-06-14",
+    "display_score": 59,
+    "reactive_score": 59,
+    "baseline_score": 55,
+    "insufficient_signal": false,
+    "content_volume": 355,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 68,
+      "front_office_trust": 55,
+      "manager_confidence": 72,
+      "lineup_confidence": 58,
+      "pitching_confidence": 60,
+      "health_outlook": 38,
+      "postseason_belief": 52
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 75,
+      "front_office_trust": 45,
+      "manager_confidence": 65,
+      "lineup_confidence": 70,
+      "pitching_confidence": 80,
+      "health_outlook": 72,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 68,
+        "note": "The Phillies Show and Phillies Talk both celebrate the Mattingly-era turnaround and Wheeler/Sanchez dominance, while expressing real concern about Painter's development, Nola's decline, Turner's ongoing struggles, and the Garcia injury thinning an already shallow outfield."
+      },
+      "beat_writer": {
+        "score": 70,
+        "note": "Phillies Therapy registers genuine relief and growing comfort \u2014 the team is on an 87-win pace despite a historically weak offense \u2014 but Matt Gelb keeps a measured tone, flagging Nola, Painter, Turner, and a bullpen that could use bolstering as real ongoing concerns."
+      },
+      "radio_populist": {
+        "score": 65,
+        "note": "WIP segments crown Christopher Sanchez the top Philadelphia athlete and treat Rincones Jr.'s callup as semi-exciting, while a lively debate over Schwarber's athletic ranking supplies the only comic friction of the day."
+      },
+      "youtube_fan": {
+        "score": 48,
+        "note": "YouTube commenters are scattered and low-signal \u2014 one dismisses the Garcia injury coverage as contradictory, another quibbles with Wheeler vs. Sanchez hierarchy, and the rest are mostly noise."
+      },
+      "twitter_fan": {
+        "score": 62,
+        "note": "X posts reflect a win-and-exhale mood after the 9-8 Brewers victory: JT Realmuto and the 17-hit output draw genuine praise, Duran's save earns relief, but Brad Keller's meltdown and Nola's continued shakiness generate pointed frustration alongside the celebration."
+      }
+    },
+    "themes": [
+      {
+        "name": "Duran Is Untouchable",
+        "delta": 8,
+        "sample": "The closer has become the emotional anchor of this team \u2014 five straight perfect outings, a strikeout rate that starts with a four, and a five-pitch arsenal that no one can solve. Fans and analysts alike are struggling to find historical comparisons for what he's doing."
+      },
+      {
+        "name": "Painter's Command Clock Is Ticking",
+        "delta": -5,
+        "sample": "A deep dive with a veteran pitcher laid bare the specific flaw \u2014 getting ahead but losing hitters at 1-1, then missing so far out of the zone in two-strike counts that big leaguers simply wait him out. The consensus is he has the stuff but not yet the execution, and patience has a limit."
+      },
+      {
+        "name": "Realmuto and the 17-Hit Offense Deliver a Statement Night",
+        "delta": 6,
+        "sample": "After absorbing a Friday shutout at the hands of Misiorowski, the lineup exploded for 17 hits and a 9-8 win \u2014 JT's three-run homer in the sixth being the decisive blow. The offensive response quieted some alarm about the roster's fragility, at least for one night."
+      },
+      {
+        "name": "Nola at a Career Crossroads",
+        "delta": -5,
+        "sample": "The innings-eater of the last decade is being openly discussed as a pitcher in transition \u2014 velocity down, too many pitches to the pull side late in games, and a gap between ERA and FIP that signals regression rather than bad luck. The hope is he adapts; the fear is the window is closing."
+      },
+      {
+        "name": "Garcia to the 60-Day IL Leaves Outfield Dangerously Thin",
+        "delta": -4,
+        "sample": "A torn lat confirms what the injury looked like in real time. Rincones Jr. gets his shot out of necessity, not plan, and even sympathetic observers admit this is a plug, not a solution \u2014 the depth chart behind the three core starters is genuinely alarming."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Since the change they have the best record in baseball. That correlates to they have the third best ERA in baseball.",
+        "score": 78,
+        "source_hint": "fan analyst (The Phillies Show), Chad Durbin guest segment"
+      },
+      {
+        "text": "When the strikeout rate starts with a four, you take notice.",
+        "score": 85,
+        "source_hint": "beat writer (Phillies Therapy), on Jhoan Duran"
+      },
+      {
+        "text": "He's kind of a 4A guy the second time through a lineup. And sometimes the first.",
+        "score": 28,
+        "source_hint": "fan analyst (The Phillies Show), Chad Durbin on Andrew Painter"
+      },
+      {
+        "text": "THANK GOD FOR DURAN. ANOTHER KELLER DISASTER.",
+        "score": 55,
+        "source_hint": "X posts, game recap after Phillies 9-8 win over Brewers"
+      }
+    ],
+    "vibe_summary": "A 17-hit comeback win over Milwaukee has steadied nerves after Friday's shutout embarrassment, but Duran's brilliance is increasingly the ceiling holding up a rotation with two genuine question marks and an outfield that just lost its best arm for two months.",
+    "reasoning": "The dominant mood is cautious optimism grounded in real results \u2014 a series win against a quality opponent, Duran's historic form, and Wheeler and Sanchez anchoring a legitimate playoff-caliber top of the rotation. Analytical takes are more measured than raw fan celebration, noting that the offense still ranks near the bottom of baseball and that Nola and Painter represent compounding risks. The Garcia 60-day IL move and the Keller bullpen implosion in Saturday's game inject genuine anxiety into what would otherwise be a feel-good stretch, keeping sentiment well short of confident.",
+    "people_mentioned": [
+      "Duran",
+      "Sanchez",
+      "Wheeler",
+      "Painter",
+      "Nola",
+      "Realmuto",
+      "Garcia",
+      "Mattingly",
+      "Turner",
+      "Marsh",
+      "Schwarber",
+      "Bohm",
+      "Rincones",
+      "Crawford",
+      "Keller",
+      "Harper",
+      "Stott",
+      "Misiorowski"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 147240,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 2830,
+      "youtube_comments": 5,
+      "youtube_comment_chars": 382,
+      "twitter_posts": 150,
+      "twitter_post_chars": 26889
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "A Phillies trade, and a few thoughts on Andrew Painter",
+        "voice": "fan_analyst",
+        "chars": 56960
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies keep it ROLLIN' with ANOTHER series win under Don Mattingly",
+        "voice": "fan_analyst",
+        "chars": 41897
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "In This Home On Bryce",
+        "voice": "beat_writer",
+        "chars": 48383
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Spike Calls Giglio Ranking Kyle Schwarber As The No. 2 Athlete In Philadelphia \u201cEMBARRASING!\u201d",
+        "voice": "radio_populist",
+        "chars": 681
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Cristopher Sanchez Philadelphia's Undisputed #1 Athlete!",
+        "voice": "radio_populist",
+        "chars": 1173
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Call Up Gabriel Rincones Jr.",
+        "voice": "radio_populist",
+        "chars": 976
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 95.2,
+        "baseline_games_count": 38,
+        "baseline_avg_pct": 97.6,
+        "delta_pct": -2.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823460,
+            "date": "2026-06-02",
+            "day_of_week": "Tuesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 38763,
+            "pct_capacity": 90.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823456,
+            "date": "2026-06-03",
+            "day_of_week": "Wednesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 40453,
+            "pct_capacity": 94.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823457,
+            "date": "2026-06-04",
+            "day_of_week": "Thursday",
+            "opponent": "San Diego Padres",
+            "result": "W 6-4",
+            "attendance": 37812,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823455,
+            "date": "2026-06-05",
+            "day_of_week": "Friday",
+            "opponent": "Chicago White Sox",
+            "result": "W 8-6",
+            "attendance": 43232,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823454,
+            "date": "2026-06-06",
+            "day_of_week": "Saturday",
+            "opponent": "Chicago White Sox",
+            "result": "L 3-6",
+            "attendance": 42949,
+            "pct_capacity": 100.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823453,
+            "date": "2026-06-07",
+            "day_of_week": "Sunday",
+            "opponent": "Chicago White Sox",
+            "result": "W 9-5",
+            "attendance": 41978,
+            "pct_capacity": 97.8,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "38-32",
+      "streak": "W1",
+      "games_behind": "8.0"
+    },
+    "generated_at": "2026-06-14T12:01:17.305490+00:00"
   }
 ]
