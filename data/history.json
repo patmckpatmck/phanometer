@@ -13331,5 +13331,266 @@
       "games_behind": "8.0"
     },
     "generated_at": "2026-06-14T12:01:17.305490+00:00"
+  },
+  {
+    "date": "2026-06-15",
+    "display_score": 41,
+    "reactive_score": 41,
+    "baseline_score": 56,
+    "insufficient_signal": false,
+    "content_volume": 344,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 38,
+      "front_office_trust": 42,
+      "manager_confidence": 58,
+      "lineup_confidence": 32,
+      "pitching_confidence": 52,
+      "health_outlook": 35,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 82,
+      "front_office_trust": 55,
+      "manager_confidence": 62,
+      "lineup_confidence": 88,
+      "pitching_confidence": 72,
+      "health_outlook": 70,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 44,
+        "note": "The Philly Show hosts acknowledge a talented but flawed roster \u2014 3-9 vs. division leaders, Trea Turner in freefall, thin outfield \u2014 while praising Kirkering and calling for Turner to sit the Marlins series entirely."
+      },
+      "beat_writer": {
+        "score": 58,
+        "note": "Phillies Therapy / Matt Gelb offers the most measured read: the team is past its April nadir, on an 87-win pace, with Duran as a genuine anchor \u2014 but honest about a bottom-five offense and two enigmatic rotation spots."
+      },
+      "radio_populist": {
+        "score": 34,
+        "note": "WIP hosts (High Hopes and 94WIP) are openly alarmed \u2014 Turner labeled the worst contract in Philly sports, Garcia lost for the season, Sunday's performance called 'going through the motions,' and four simultaneous pressure points flagged."
+      },
+      "youtube_fan": {
+        "score": 30,
+        "note": "YouTube commenters pile on Turner ('trash since he got to Philly'), dismiss Schwarber's athleticism despite his production, and one calls for a full rebuild, with only a lone Sanchez-as-Hamels comparison offering any warmth."
+      },
+      "twitter_fan": {
+        "score": 36,
+        "note": "X posts circle on offensive rankings near the bottom of MLB, calls to trade or sit Turner, skepticism about Dombrowski's trade-deadline ability given a depleted system, and acknowledgment the team can't beat top competition."
+      }
+    },
+    "themes": [
+      {
+        "name": "Trea Turner Has Reached a Breaking Point",
+        "delta": -8,
+        "sample": "A .219 average, .269 OBP, and defensive miscues in Milwaukee have converged into a genuine crisis \u2014 Mattingly is openly discussing rest days and a lineup demotion, and the consensus is something has to change immediately."
+      },
+      {
+        "name": "3-9 vs. Division Leaders Raises Legitimate October Doubts",
+        "delta": -6,
+        "sample": "Losses to the Brewers and a season record of 3-9 against first-place teams have crystallized a worry that this roster cannot compete with the sport's best when the stakes are highest."
+      },
+      {
+        "name": "Kirkering's Rise and Duran's Dominance Steady the Ship",
+        "delta": 6,
+        "sample": "Orion Kirkering's 1.27 ERA over his last 24 appearances and Jhoan Duran's five consecutive perfect outings represent genuine bright spots \u2014 with broad agreement that Kirkering should be elevated ahead of Keller in high-leverage spots."
+      },
+      {
+        "name": "Garcia Gone, Outfield Patched With Scraps",
+        "delta": -7,
+        "sample": "Adolis Garcia heading to the 60-day IL strips the outfield of its best defensive player and only real right-handed pop, leaving a patchwork of Rincones, Hill, Crawford, and Marsh \u2014 and forcing a deadline move that may be harder to execute than fans want to admit."
+      },
+      {
+        "name": "Painter and Nola as Lingering Rotation Uncertainties",
+        "delta": -4,
+        "sample": "Painter's body language after home runs and Nola's inability to pitch deep into games have emerged as two of four named pressure points, with growing debate about whether Painter needs a demotion to find himself."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "It's the worst contract in the city, which is crazy cause we got some bad ones.",
+        "score": 10,
+        "source_hint": "talk-radio host (High Hopes / WIP) on Trea Turner's deal"
+      },
+      {
+        "text": "I don't necessarily think it's a really good team. They have talented players. They're not playing great.",
+        "score": 32,
+        "source_hint": "fan analyst (The Philly Show) assessing the roster's ceiling"
+      },
+      {
+        "text": "They have not played nearly their best. And they have proven to us that they can withstand a quite a few body blows.",
+        "score": 62,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb) on the team's resilience"
+      },
+      {
+        "text": "When his strikeout rate starts with a four, you take notice.",
+        "score": 82,
+        "source_hint": "beat writer (Phillies Therapy) on Jhoan Duran's elite closer season"
+      }
+    ],
+    "vibe_summary": "Trea Turner's collapse \u2014 now bleeding into his defense \u2014 has become the season's defining wound, overshadowing a bullpen that is quietly elite and a team that, for all its flaws, is still five games over .500.",
+    "reasoning": "The Milwaukee series loss crystalized two competing storylines: genuine alarm over Turner, Painter, and a patchwork outfield against a team that flatly outclassed the Phillies, versus measured optimism anchored by Duran, Kirkering, and a resilient pitching staff. The beat writer reading is the most sanguine \u2014 87-win pace, past April's nadir, formula for winning established \u2014 while radio and unfiltered fan reactions are harsher, fixating on the Turner contract and a 3-9 record against first-place teams as harbingers for October. Postseason belief stays low because the dominant framing is structural concern about matching up with elite competition, not confident projection of a deep run.",
+    "people_mentioned": [
+      "Turner",
+      "Mattingly",
+      "Duran",
+      "Kirkering",
+      "Painter",
+      "Nola",
+      "Garcia",
+      "Schwarber",
+      "Wheeler",
+      "Sanchez",
+      "Harper",
+      "Marsh",
+      "Keller",
+      "Rincones",
+      "Hill",
+      "Bohm",
+      "Realmuto",
+      "Dombrowski",
+      "Thomson",
+      "Stott"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 131683,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 10318,
+      "youtube_comments": 9,
+      "youtube_comment_chars": 897,
+      "twitter_posts": 146,
+      "twitter_post_chars": 28633
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "A Mizerable Weekend Of Phillies Baseball",
+        "voice": "radio_populist",
+        "chars": 51987
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Miz-ery: Don Mattingly said he'll think about sitting Trea Turner",
+        "voice": "fan_analyst",
+        "chars": 33465
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "In This Home On Bryce",
+        "voice": "beat_writer",
+        "chars": 46231
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Trea Turner Is WORST Contract In Philly Sports \ud83d\ude31 | 94WIP",
+        "voice": "radio_populist",
+        "chars": 8464
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "This Kyle Schwarber Ranking Is \u201cEMBARRASING!\u201d",
+        "voice": "radio_populist",
+        "chars": 681
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Cristopher Sanchez Philly's No. 1 Athlete!",
+        "voice": "radio_populist",
+        "chars": 1173
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 95.2,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.8,
+        "delta_pct": -2.6,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823460,
+            "date": "2026-06-02",
+            "day_of_week": "Tuesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 38763,
+            "pct_capacity": 90.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823456,
+            "date": "2026-06-03",
+            "day_of_week": "Wednesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 40453,
+            "pct_capacity": 94.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823457,
+            "date": "2026-06-04",
+            "day_of_week": "Thursday",
+            "opponent": "San Diego Padres",
+            "result": "W 6-4",
+            "attendance": 37812,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823455,
+            "date": "2026-06-05",
+            "day_of_week": "Friday",
+            "opponent": "Chicago White Sox",
+            "result": "W 8-6",
+            "attendance": 43232,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823454,
+            "date": "2026-06-06",
+            "day_of_week": "Saturday",
+            "opponent": "Chicago White Sox",
+            "result": "L 3-6",
+            "attendance": 42949,
+            "pct_capacity": 100.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823453,
+            "date": "2026-06-07",
+            "day_of_week": "Sunday",
+            "opponent": "Chicago White Sox",
+            "result": "W 9-5",
+            "attendance": 41978,
+            "pct_capacity": 97.8,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "38-33",
+      "streak": "L1",
+      "games_behind": "8.0"
+    },
+    "generated_at": "2026-06-15T15:51:29.050643+00:00"
   }
 ]
