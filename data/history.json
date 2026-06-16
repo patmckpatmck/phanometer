@@ -13592,5 +13592,288 @@
       "games_behind": "8.0"
     },
     "generated_at": "2026-06-15T15:51:29.050643+00:00"
+  },
+  {
+    "date": "2026-06-16",
+    "display_score": 50,
+    "reactive_score": 50,
+    "baseline_score": 52,
+    "insufficient_signal": false,
+    "content_volume": 389,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 32,
+      "manager_confidence": 55,
+      "lineup_confidence": 42,
+      "pitching_confidence": 63,
+      "health_outlook": 48,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 78,
+      "manager_confidence": 60,
+      "lineup_confidence": 82,
+      "pitching_confidence": 80,
+      "health_outlook": 65,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 42,
+        "note": "Hittin' Season and Phillies Talk both register the Milwaukee losses as evidence of a real talent gap vs. NL division leaders; cautious optimism about the Wheeler/Sanchez duo is offset by deep frustration over outfield depth and Dombrowski's inability to address structural holes."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 58,
+        "note": "WIP's High Hopes and Final Out are noticeably more positive after the Monday shutout win \u2014 Wheeler and Rincones give them something to celebrate \u2014 but the Milwaukee disappointment and Turner's freefall keep the overall tone mixed-to-concerned."
+      },
+      "youtube_fan": {
+        "score": 48,
+        "note": "YouTube commenters are warm on Rincones's debut and sympathetic to his call-up timing, but skeptical that the front office develops young talent fast enough, and split on whether benching Turner would help or hurt."
+      },
+      "twitter_fan": {
+        "score": 50,
+        "note": "X reaction is split: genuine excitement over Rincones's homer and Wheeler's gem, tempered by pointed criticism of the $103M one-year free-agent spending record yielding minimal WAR, frustration over the 3-9 mark vs. NL division leaders, and questions about Dombrowski's deadline leverage."
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler & Rincones Deliver a Clean Win",
+        "delta": 6,
+        "sample": "A shutout victory over the Marlins \u2014 six scoreless from Wheeler, a debut home run from Rincones \u2014 gave the fanbase a genuine feel-good moment after a deflating weekend in Milwaukee."
+      },
+      {
+        "name": "Outfield Depth Is a $300M Embarrassment",
+        "delta": -8,
+        "sample": "With Garcia lost for the season, the starting outfield against left-handed pitching is now Edmundo Sosa, Derrick Hill, and Brandon Marsh \u2014 a configuration widely described as indefensible for a roster of this payroll."
+      },
+      {
+        "name": "Trea Turner's Slump Has Reached a Breaking Point",
+        "delta": -7,
+        "sample": "A .219 average, a sub-.600 OPS, and now defensive lapses have pushed Mattingly to openly discuss benching or moving Turner down the order \u2014 a remarkable public admission that the situation can no longer be managed quietly."
+      },
+      {
+        "name": "3-9 vs. NL Division Leaders Is a Playoff Warning",
+        "delta": -6,
+        "sample": "The record against the Brewers, Dodgers, and Braves isn't a fluke \u2014 it reads as a credible preview of playoff vulnerability, with the offense consistently going flat against elite starters."
+      },
+      {
+        "name": "Dombrowski Under Fire Heading Into Deadline",
+        "delta": -5,
+        "sample": "The Derek Hill trade landed with a thud, and with a depleted farm system and multiple roster holes, skepticism is growing that the front office has the assets \u2014 or the decisiveness \u2014 to make a meaningful deadline move."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I think the Phillies are a good team. I think they're going to make the playoffs. But there is a chasm right now between the three division leaders in the National League and where the Phillies are.",
+        "score": 38,
+        "source_hint": "fan analyst (Hittin' Season)"
+      },
+      {
+        "text": "Zack Wheeler threw a 97-98 pitch, masterful six-inning quality start despite not being at his best. I just couldn't be more impressed.",
+        "score": 82,
+        "source_hint": "caller on WIP Final Out"
+      },
+      {
+        "text": "Against left-handers, your starting outfield for a $300 million roster is Edmundo Sosa in left field, Derrick Hill in center, and Brandon Marsh to play right field.",
+        "score": 18,
+        "source_hint": "fan analyst (Hittin' Season)"
+      },
+      {
+        "text": "I got goose bumps from you saying that right now. Surreal. Those fans are awesome. Thank you.",
+        "score": 88,
+        "source_hint": "Gabriel Rincones Jr. interview on 94WIP"
+      }
+    ],
+    "vibe_summary": "Wheeler's gem and Rincones's storybook debut bought real goodwill Monday night, but a roster visibly outclassed by every NL division leader and an outfield depth crisis Dave Dombrowski has yet to solve keeps the mood stuck well below satisfied.",
+    "reasoning": "The Monday shutout win provided genuine emotional relief \u2014 Wheeler's continued excellence and Rincones's debut homer are bright spots that registered across all present voices. But the weekend in Milwaukee cast a long shadow: the 3-9 record against NL division leaders is treated as a meaningful signal about playoff readiness, not a dismissible sample. The fan analyst is more structurally alarmed \u2014 citing Dombrowski's roster construction failures and the outfield's left-handed pitching vulnerability as near-fatal flaws \u2014 while the talk-radio voice is more buoyed by the win and Wheeler's performance, though still candid about Turner and Keller reaching crisis points. The net mood is cautiously negative: a team that can beat the teams it should beat, but hasn't proven it can handle the ones that matter most.",
+    "people_mentioned": [
+      "Wheeler",
+      "Turner",
+      "Rincones",
+      "Sanchez",
+      "Mattingly",
+      "Dombrowski",
+      "Painter",
+      "Keller",
+      "Harper",
+      "Marsh",
+      "Schwarber",
+      "Kerkering",
+      "Realmuto",
+      "Bohm",
+      "Misiorowski",
+      "Garcia",
+      "Nola",
+      "Alvarado",
+      "Stott",
+      "Crawford",
+      "Sosa",
+      "Hill",
+      "Duran",
+      "Luzardo",
+      "Marshawn",
+      "Thomson"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 174491,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 1344,
+      "youtube_comments": 5,
+      "youtube_comment_chars": 572,
+      "twitter_posts": 150,
+      "twitter_post_chars": 30276
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Outmatched in Milwaukee, but there's positive signs as home stand begins",
+        "voice": "fan_analyst",
+        "chars": 43191
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Zack Wheeler Dominates In Phils Shutout Win",
+        "voice": "radio_populist",
+        "chars": 31713
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Jacob Misiorowski Outduels Cristopher Sanchez in Milwaukee",
+        "voice": "fan_analyst",
+        "chars": 47734
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "A Mizerable Weekend Of Phillies Baseball",
+        "voice": "radio_populist",
+        "chars": 51853
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies' Zack Wheeler: I Can Be Even BETTER",
+        "voice": "radio_populist",
+        "chars": 332
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Rookie Gabriel Rincones Jr. Will Help Phillies",
+        "voice": "radio_populist",
+        "chars": 380
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies' Gabriel Rincones Jr. THANKS Philly Fans \u2764\ufe0f",
+        "voice": "radio_populist",
+        "chars": 632
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 94.7,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 98.1,
+        "delta_pct": -3.4,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823460,
+            "date": "2026-06-02",
+            "day_of_week": "Tuesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 38763,
+            "pct_capacity": 90.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823456,
+            "date": "2026-06-03",
+            "day_of_week": "Wednesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 40453,
+            "pct_capacity": 94.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823457,
+            "date": "2026-06-04",
+            "day_of_week": "Thursday",
+            "opponent": "San Diego Padres",
+            "result": "W 6-4",
+            "attendance": 37812,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823455,
+            "date": "2026-06-05",
+            "day_of_week": "Friday",
+            "opponent": "Chicago White Sox",
+            "result": "W 8-6",
+            "attendance": 43232,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823454,
+            "date": "2026-06-06",
+            "day_of_week": "Saturday",
+            "opponent": "Chicago White Sox",
+            "result": "L 3-6",
+            "attendance": 42949,
+            "pct_capacity": 100.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823453,
+            "date": "2026-06-07",
+            "day_of_week": "Sunday",
+            "opponent": "Chicago White Sox",
+            "result": "W 9-5",
+            "attendance": 41978,
+            "pct_capacity": 97.8,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823452,
+            "date": "2026-06-15",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 7-0",
+            "attendance": 39241,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "39-33",
+      "streak": "W1",
+      "games_behind": "7.5"
+    },
+    "generated_at": "2026-06-16T15:11:17.503315+00:00"
   }
 ]
