@@ -13875,5 +13875,283 @@
       "games_behind": "7.5"
     },
     "generated_at": "2026-06-16T15:11:17.503315+00:00"
+  },
+  {
+    "date": "2026-06-17",
+    "display_score": 59,
+    "reactive_score": 59,
+    "baseline_score": 51,
+    "insufficient_signal": false,
+    "content_volume": 367,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 72,
+      "front_office_trust": 38,
+      "manager_confidence": 65,
+      "lineup_confidence": 58,
+      "pitching_confidence": 72,
+      "health_outlook": 48,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 72,
+      "manager_confidence": 70,
+      "lineup_confidence": 82,
+      "pitching_confidence": 80,
+      "health_outlook": 65,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 62,
+        "note": "Phillies Talk (NBC Sports Philadelphia) celebrated the 8-2 win and Wheeler's shutout but spent significant time on the depleted outfield, Trey Turner's historic struggles, and a thin prospect pool limiting trade-deadline options."
+      },
+      "beat_writer": {
+        "score": 45,
+        "note": "Phillies Therapy repeatedly described the roster as a 'house of cards' and 'top heavy,' praising wins while cataloguing fragility \u2014 $103M in one-year deals yielding 2.3 WAR, no safety net, and a paradox of winning while teetering near collapse."
+      },
+      "radio_populist": {
+        "score": 71,
+        "note": "High Hopes / WIP Final Out was genuinely energized by the 8-2 win, Luzardo's turnaround, the Mattingly Blitz lineup experiment, and Bohm's moonshot, while still flagging Turner's slump and Keller's IL stint as ongoing concerns."
+      },
+      "youtube_fan": {
+        "score": 55,
+        "note": "YouTube commenters pushed back mildly on Mattingly's public criticism of Harper's defense, defending Bryce's effort while conceding he's not an elite outfielder."
+      },
+      "twitter_fan": {
+        "score": 63,
+        "note": "X posts highlighted the 40-33 record, Schwarber's historic HR pace, the 31-14 run under Mattingly, and enthusiasm about the lineup blitz \u2014 undercut by scattered frustration over Turner's contract and Harper's hitless streak."
+      }
+    },
+    "themes": [
+      {
+        "name": "The Mattingly Blitz",
+        "delta": 6,
+        "sample": "Stacking Marsh, Schwarber, and Harper at the top against right-handed starters produced a first-inning tone-setter and earned genuine tactical praise, with many fans pushing to make it the permanent arrangement against righties even when Turner returns."
+      },
+      {
+        "name": "Luzardo's Home Redemption",
+        "delta": 5,
+        "sample": "Seven innings, nine strikeouts, and an ERA that is now approaching last year's level gave real reason for optimism about the third starter slot \u2014 especially after his home ERA had ballooned north of seven entering the outing."
+      },
+      {
+        "name": "Trey Turner's Collapse Has No Fix",
+        "delta": -7,
+        "sample": "A wrist contusion offered an accidental escape hatch, but the underlying reality is brutal: a historically bad stretch with no viable replacement at shortstop, and a franchise commitment that forces his name in the lineup regardless of the numbers."
+      },
+      {
+        "name": "Roster Fragility Beneath the Wins",
+        "delta": -6,
+        "sample": "Over $100 million in one-year free-agent deals has produced barely two wins above replacement, the right-field OPS ranks 25th in baseball, and if even one of the top seven contributors goes down for six weeks, the wheels come off."
+      },
+      {
+        "name": "Rincones and the Thin Farm System",
+        "delta": 2,
+        "sample": "Gabriel Rincones Jr.'s storybook first home run added a feel-good moment, but his promotion underlines the absence of alternatives \u2014 he is the organization's answer to a blown right-field situation, and that answer comes with significant uncertainty."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I have no idea what to make of this team. I'm serious.",
+        "score": 42,
+        "source_hint": "Phillies Therapy beat writer (Matt Gelb)"
+      },
+      {
+        "text": "It's just a testament to the guys we have in this clubhouse and the way we feed off each other.",
+        "score": 74,
+        "source_hint": "X posts \u2014 Phillies player quote circulated after 8-2 win"
+      },
+      {
+        "text": "He's the man and we couldn't be happier for him.",
+        "score": 80,
+        "source_hint": "talk-radio host (WIP 94WIP) \u2014 Jesus Luzardo on Kyle Schwarber"
+      },
+      {
+        "text": "When you pay him $135 million, you're like, eh, a 4.20 is not that great.",
+        "score": 38,
+        "source_hint": "talk-radio host (High Hopes / WIP Final Out) on Luzardo's contract expectations"
+      }
+    ],
+    "vibe_summary": "Two lopsided wins have the clubhouse humming and the lineup experiment generating real buzz, but an inescapable tension lingers between a team genuinely winning and a roster one bad break from unraveling.",
+    "reasoning": "The dominant energy is cautiously positive \u2014 a series win, Luzardo's home redemption, Schwarber's historic home run pace, and the Mattingly lineup blitz all gave fans real things to cheer. But the beat-writer perspective introduced a sustained structural alarm: over $100M in one-year deals yielding near-replacement-level production, a right-field situation that is objectively broken, and a roster so top-heavy that a single injury cascades into crisis. The talk-radio and X voices were more celebratory, focused on the 40-33 record and the 31-14 run under Mattingly, while the more analytical lens kept returning to fragility and a trade deadline where the Phillies have little to offer. Trey Turner's ongoing collapse \u2014 framed as having no in-house solution \u2014 is the one thread every perspective agreed on.",
+    "people_mentioned": [
+      "Turner",
+      "Luzardo",
+      "Marsh",
+      "Schwarber",
+      "Mattingly",
+      "Wheeler",
+      "Harper",
+      "Bohm",
+      "Rincones",
+      "Sanchez",
+      "Realmuto",
+      "Dombrowski",
+      "Keller",
+      "Crawford",
+      "Painter",
+      "Garcia",
+      "Hill",
+      "Stott",
+      "Sosa",
+      "Duran",
+      "Mizorowski"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 158173,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 3427,
+      "youtube_comments": 2,
+      "youtube_comment_chars": 377,
+      "twitter_posts": 150,
+      "twitter_post_chars": 29161
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: New Lineup, Who Dis?",
+        "voice": "radio_populist",
+        "chars": 30899
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "What to Make of Any of This",
+        "voice": "beat_writer",
+        "chars": 44011
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Outmatched in Milwaukee, but there's positive signs as home stand begins",
+        "voice": "fan_analyst",
+        "chars": 48932
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Zack Wheeler Dominates In Phils Shutout Win",
+        "voice": "radio_populist",
+        "chars": 34331
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Jesus Luzardo: Kyle Schwarber Is The MAN \ud83d\udd25",
+        "voice": "radio_populist",
+        "chars": 871
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Win 8-2 With New Lineup",
+        "voice": "radio_populist",
+        "chars": 1500
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Kyle Schwarber Felt GOOD At First Base",
+        "voice": "radio_populist",
+        "chars": 1056
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 94.5,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 98.3,
+        "delta_pct": -3.8,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823456,
+            "date": "2026-06-03",
+            "day_of_week": "Wednesday",
+            "opponent": "San Diego Padres",
+            "result": "W 3-2",
+            "attendance": 40453,
+            "pct_capacity": 94.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823457,
+            "date": "2026-06-04",
+            "day_of_week": "Thursday",
+            "opponent": "San Diego Padres",
+            "result": "W 6-4",
+            "attendance": 37812,
+            "pct_capacity": 88.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823455,
+            "date": "2026-06-05",
+            "day_of_week": "Friday",
+            "opponent": "Chicago White Sox",
+            "result": "W 8-6",
+            "attendance": 43232,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823454,
+            "date": "2026-06-06",
+            "day_of_week": "Saturday",
+            "opponent": "Chicago White Sox",
+            "result": "L 3-6",
+            "attendance": 42949,
+            "pct_capacity": 100.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823453,
+            "date": "2026-06-07",
+            "day_of_week": "Sunday",
+            "opponent": "Chicago White Sox",
+            "result": "W 9-5",
+            "attendance": 41978,
+            "pct_capacity": 97.8,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823452,
+            "date": "2026-06-15",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 7-0",
+            "attendance": 39241,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823451,
+            "date": "2026-06-16",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 8-2",
+            "attendance": 38238,
+            "pct_capacity": 89.1,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "40-33",
+      "streak": "W2",
+      "games_behind": "7.0"
+    },
+    "generated_at": "2026-06-17T13:48:47.592506+00:00"
   }
 ]
