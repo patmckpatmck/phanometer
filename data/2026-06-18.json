@@ -1,0 +1,272 @@
+{
+  "date": "2026-06-18",
+  "display_score": 51,
+  "reactive_score": 51,
+  "baseline_score": 54,
+  "insufficient_signal": false,
+  "content_volume": 353,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 52,
+    "front_office_trust": 38,
+    "manager_confidence": 62,
+    "lineup_confidence": 55,
+    "pitching_confidence": 58,
+    "health_outlook": 45,
+    "postseason_belief": 40
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 68,
+    "manager_confidence": 65,
+    "lineup_confidence": 75,
+    "pitching_confidence": 80,
+    "health_outlook": 70,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": null,
+    "fan_analyst": {
+      "score": 52,
+      "note": "Hittin' Season and The Phillies Show both celebrate the 2-of-3 series win, Wheeler and Luzardo's dominance, and Bohm/Marsh's emergence, but are deeply sobered by Painter's demotion and a farm system described as fundamentally broken."
+    },
+    "beat_writer": {
+      "score": 44,
+      "note": "Phillies Therapy is the most candid: the beat writer sees a top-heavy house of cards, calls the roster's underpinnings fragile, and openly admits he has no idea what to make of this team \u2014 enjoyable but teetering."
+    },
+    "radio_populist": {
+      "score": 56,
+      "note": "WIP High Hopes leans into the Mattingly lineup blitz excitement and Bohm's power breakout, while the shorter WIP clips frame Painter's demotion as necessary and fixable \u2014 generally more upbeat than the deeper analytical takes."
+    },
+    "youtube_fan": null,
+    "twitter_fan": {
+      "score": 48,
+      "note": "X posts are dominated by Painter optioning news and betting-sheet noise; a handful of substantive posts note the Braves gap closing and one openly blames Dombrowski for wasted prime years, but most Phillies-specific signal is neutral-to-mildly-negative."
+    }
+  },
+  "themes": [
+    {
+      "name": "Painter's Demotion: Necessary but Depressing",
+      "delta": -4,
+      "sample": "Sending Painter to Triple-A was the right call \u2014 keeping him out there to get shelled every fifth day served no one \u2014 but the underlying reality is stark: a generational pitching prospect has been mechanically broken by Tommy John surgery, with no quick fix in sight and no viable replacement waiting in the wings."
+    },
+    {
+      "name": "The Mattingly Lineup Blitz Generates Real Excitement",
+      "delta": 6,
+      "sample": "Stacking Marsh, Schwarber, and Harper at the top against a right-handed starter worked to perfection, and there is growing enthusiasm for making this the standard operating procedure against righties \u2014 even callers who usually resist unconventional moves want to see it stick."
+    },
+    {
+      "name": "Wheeler and Luzardo Anchor a Quietly Elite Top of the Rotation",
+      "delta": 5,
+      "sample": "Wheeler's return from thoracic outlet surgery continues to look like one of baseball's great comeback stories, and Luzardo's first strong home start of the season eased real concerns \u2014 when these two are locked in, the Phillies feel genuinely formidable."
+    },
+    {
+      "name": "A Farm System That Develops Nothing",
+      "delta": -6,
+      "sample": "Painter's collapse is being framed as emblematic of a decade-long organizational failure to develop pitching prospects; with Aidan Miller hurt, Crawford struggling, and the right-field situation requiring a Derek Hill trade, the cupboard beneath the major-league roster looks bare."
+    },
+    {
+      "name": "A Paradox: Genuinely Winning, Genuinely Fragile",
+      "delta": -3,
+      "sample": "The team has played over .500 ball for two months while being outscored on the season \u2014 the house-of-cards framing has moved from fringe concern to mainstream analytical consensus, with the top seven contributors carrying the entire load and no safety net beneath them."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "He looks like Brandon Duckworth and Spencer Howard had a baby. That's what it's looking like out there.",
+      "score": 15,
+      "source_hint": "Hittin' Season fan analyst, on Andrew Painter's regression"
+    },
+    {
+      "text": "I have no idea what to make of this team. I'm serious. I don't know. I really don't know.",
+      "score": 42,
+      "source_hint": "Phillies Therapy beat writer, on the team's paradoxical season"
+    },
+    {
+      "text": "What has gotten into Alec Bohm? It was at 447 feet. Absolute moonshot.",
+      "score": 82,
+      "source_hint": "WIP High Hopes talk-radio host, on Bohm's power breakout"
+    },
+    {
+      "text": "The season will end with another early playoff loss and cement this as the most underachieving era in Phillies history.",
+      "score": 8,
+      "source_hint": "X posts, frustrated fan on wasted prime years"
+    }
+  ],
+  "vibe_summary": "Andrew Painter's swift demotion to Triple-A crystallizes the central anxiety of this season: a team capable of beautiful baseball on Monday and Tuesday that can look completely helpless by Wednesday, propped up by an elite few with nothing but uncertainty underneath.",
+  "reasoning": "The dominant story is Painter's collapse and demotion, which has cracked open a broader conversation about organizational player development failures stretching back a decade. Against that backdrop, genuine optimism exists around Wheeler, Luzardo, Bohm's power emergence, and the Mattingly lineup experiment \u2014 the radio perspective is measurably more enthusiastic about these wins than the analytical beat-writer lens, which cannot shake a fragility-and-paradox framing despite the team sitting at 40-34. The trade deadline is entering the conversation as a pressure valve, but the farm system's weakness leaves fans uncertain whether meaningful help is even acquirable.",
+  "people_mentioned": [
+    "Painter",
+    "Wheeler",
+    "Luzardo",
+    "Mattingly",
+    "Marsh",
+    "Bohm",
+    "Turner",
+    "Schwarber",
+    "Harper",
+    "Dombrowski",
+    "Sanchez",
+    "Rincones",
+    "Stott",
+    "Realmuto",
+    "Duran",
+    "Kirkering",
+    "Keller",
+    "Garcia",
+    "Miller",
+    "Crawford",
+    "Hill"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 149285,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 2915,
+    "youtube_comments": 0,
+    "youtube_comment_chars": 0,
+    "twitter_posts": 150,
+    "twitter_post_chars": 29629
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Andrew Painter Gets Demoted",
+      "voice": "fan_analyst",
+      "chars": 36136
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "The Phillies continue to rack up wins at home as they look to sweep Miami and get ready for their first look at the NL East rival New York Mets",
+      "voice": "fan_analyst",
+      "chars": 39777
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: New Lineup, Who Dis?",
+      "voice": "radio_populist",
+      "chars": 30217
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "What to Make of Any of This",
+      "voice": "beat_writer",
+      "chars": 43155
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Amaro Still Believes In Andrew Painter",
+      "voice": "radio_populist",
+      "chars": 1388
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Andrew Painter MUST Fix Fastball",
+      "voice": "radio_populist",
+      "chars": 776
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Andrew Painter Has Mechanical Issue",
+      "voice": "radio_populist",
+      "chars": 751
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 93.6,
+      "baseline_games_count": 36,
+      "baseline_avg_pct": 98.5,
+      "delta_pct": -4.9,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823457,
+          "date": "2026-06-04",
+          "day_of_week": "Thursday",
+          "opponent": "San Diego Padres",
+          "result": "W 6-4",
+          "attendance": 37812,
+          "pct_capacity": 88.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823455,
+          "date": "2026-06-05",
+          "day_of_week": "Friday",
+          "opponent": "Chicago White Sox",
+          "result": "W 8-6",
+          "attendance": 43232,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823454,
+          "date": "2026-06-06",
+          "day_of_week": "Saturday",
+          "opponent": "Chicago White Sox",
+          "result": "L 3-6",
+          "attendance": 42949,
+          "pct_capacity": 100.1,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823453,
+          "date": "2026-06-07",
+          "day_of_week": "Sunday",
+          "opponent": "Chicago White Sox",
+          "result": "W 9-5",
+          "attendance": 41978,
+          "pct_capacity": 97.8,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823452,
+          "date": "2026-06-15",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 7-0",
+          "attendance": 39241,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823451,
+          "date": "2026-06-16",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 8-2",
+          "attendance": 38238,
+          "pct_capacity": 89.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823450,
+          "date": "2026-06-17",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "L 4-12",
+          "attendance": 37591,
+          "pct_capacity": 87.6,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "40-34",
+    "streak": "L1",
+    "games_behind": "6.5"
+  },
+  "generated_at": "2026-06-18T12:57:39.561856+00:00"
+}
