@@ -14425,5 +14425,279 @@
       "games_behind": "6.5"
     },
     "generated_at": "2026-06-18T12:57:39.561856+00:00"
+  },
+  {
+    "date": "2026-06-19",
+    "display_score": 36,
+    "reactive_score": 36,
+    "baseline_score": 53,
+    "insufficient_signal": false,
+    "content_volume": 356,
+    "mood_label": "Oh No",
+    "dimensions": {
+      "results_satisfaction": 32,
+      "front_office_trust": 35,
+      "manager_confidence": 48,
+      "lineup_confidence": 45,
+      "pitching_confidence": 30,
+      "health_outlook": 38,
+      "postseason_belief": 33
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 82,
+      "front_office_trust": 65,
+      "manager_confidence": 42,
+      "lineup_confidence": 70,
+      "pitching_confidence": 88,
+      "health_outlook": 60,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 38,
+        "note": "Phillies Talk hosts are genuinely alarmed about the bullpen left side, Nola's decline, Painter's demotion, and a growing trade-deadline checklist that may exceed the farm system's capacity to fund."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 33,
+        "note": "WIP voices are blunter: Alvarado is described as 'dunzo,' Nola as a six-ERA pitcher who no longer exists in his old form, and the deadline shopping list keeps growing while prospect capital shrinks."
+      },
+      "youtube_fan": {
+        "score": 28,
+        "note": "YouTube commenters are harshly critical of Dombrowski specifically, calling for his firing and labeling his roster decisions repeated failures."
+      },
+      "twitter_fan": {
+        "score": 36,
+        "note": "X posts reflect a mix of frustration over the Mets loss, Painter anxiety, Harper's slump, and the ballooning deadline need list, with a few bright notes on Bohm and Wheeler."
+      }
+    },
+    "themes": [
+      {
+        "name": "Alvarado Era Effectively Over",
+        "delta": -7,
+        "sample": "The lefty reliever has become a liability \u2014 walking hitters, surrendering big hits to left-handed batters, and blowing a winnable game in the seventh \u2014 leaving the bullpen's leverage-left slot dangerously empty."
+      },
+      {
+        "name": "Nola Accepted as a Five-Inning Placeholder",
+        "delta": -5,
+        "sample": "A year and a half of sustained mediocrity has shifted the conversation from hoping Nola rebounds to managing expectations around a pitcher who no longer commands the zone and gets punished for any mistake."
+      },
+      {
+        "name": "Deadline Shopping List Keeps Growing",
+        "delta": -6,
+        "sample": "What began as a right-fielder need has snowballed into a required haul of a starter, a leverage lefty, and a right-handed bat \u2014 with a farm system many feel lacks the currency to land impact pieces."
+      },
+      {
+        "name": "Bohm Hot Streak Provides Genuine Lift",
+        "delta": 5,
+        "sample": "Seventeen RBIs in June, two doubles in Thursday's loss, and a career-longest home run earlier in the week have fans and analysts reconsidering whether Bohm has quietly played himself into a long-term future here."
+      },
+      {
+        "name": "Wheeler Quietly Cementing Legend Status",
+        "delta": 6,
+        "sample": "With an ERA hovering near two and a return from a blood-clot scare that defied expectations, Wheeler is drawing Hall of Fame comparisons and being credited as the anchor stabilizing the entire rotation and clubhouse."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Jose Alvarado is dunzo. He is dunzo.",
+        "score": 18,
+        "source_hint": "talk-radio host (WIP High Hopes)"
+      },
+      {
+        "text": "I think they got to start accepting that this is how Aaron Nola is capable of throwing.",
+        "score": 22,
+        "source_hint": "talk-radio host (94WIP)"
+      },
+      {
+        "text": "They're putting bubble gum on holes, and they're one real injury away from being in trouble.",
+        "score": 20,
+        "source_hint": "caller on WIP High Hopes Final Out"
+      },
+      {
+        "text": "Zach Wheeler's a Hall of Fame player, in my opinion.",
+        "score": 82,
+        "source_hint": "talk-radio host (WIP High Hopes)"
+      }
+    ],
+    "vibe_summary": "Losing to the last-place Mets while Alvarado imploded and Harper slept through another at-bat has fans staring at a deadline shopping list that feels longer than the prospect cupboard can cover.",
+    "reasoning": "The mood is defined by the collision of a 6-4 loss to a last-place Mets squad and the accumulating weight of structural problems: a blown-up bullpen left side, a Nola who analysts have now fully reclassified as a back-end innings-eater, Painter already back in Triple-A, and Adolis Garcia gone for the season. The one genuine divergence is tone about the deadline \u2014 some lean toward aggressive all-in moves, others see a farm system too thin to fund them \u2014 but neither framing produces expressed confidence in a deep October run. Bohm's June tear and Wheeler's continued brilliance are real bright spots, but they are outnumbered by the concerns dominating discussion.",
+    "people_mentioned": [
+      "Alvarado",
+      "Nola",
+      "Painter",
+      "Wheeler",
+      "Bohm",
+      "Harper",
+      "Dombrowski",
+      "Mattingly",
+      "Turner",
+      "Soto",
+      "Seth Johnson",
+      "Backus",
+      "Luzardo",
+      "Garcia",
+      "Schwarber",
+      "Marsh",
+      "Crawford",
+      "Stott",
+      "Gage Wood",
+      "Aidan Miller",
+      "Rincones",
+      "Derek Hill",
+      "Tanner Banks"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 148522,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 3581,
+      "youtube_comments": 3,
+      "youtube_comment_chars": 554,
+      "twitter_posts": 150,
+      "twitter_post_chars": 25522
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Phillies Drop Series Opener To Mets",
+        "voice": "radio_populist",
+        "chars": 28496
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Andrew Painter's future and a disappointing start against the Mets",
+        "voice": "fan_analyst",
+        "chars": 59588
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Andrew Painter Has Been Sent Down... Now What?",
+        "voice": "radio_populist",
+        "chars": 60438
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Aaron Nola 3-4, With 5.71 ERA \ud83d\ude33",
+        "voice": "radio_populist",
+        "chars": 1347
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Should Go ALL IN At Deadline",
+        "voice": "radio_populist",
+        "chars": 1041
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Aaron Nola 6+ ERA Pitcher Last 1.5 Years",
+        "voice": "radio_populist",
+        "chars": 1193
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 94.2,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 98.3,
+        "delta_pct": -4.1,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823455,
+            "date": "2026-06-05",
+            "day_of_week": "Friday",
+            "opponent": "Chicago White Sox",
+            "result": "W 8-6",
+            "attendance": 43232,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823454,
+            "date": "2026-06-06",
+            "day_of_week": "Saturday",
+            "opponent": "Chicago White Sox",
+            "result": "L 3-6",
+            "attendance": 42949,
+            "pct_capacity": 100.1,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823453,
+            "date": "2026-06-07",
+            "day_of_week": "Sunday",
+            "opponent": "Chicago White Sox",
+            "result": "W 9-5",
+            "attendance": 41978,
+            "pct_capacity": 97.8,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823452,
+            "date": "2026-06-15",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 7-0",
+            "attendance": 39241,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823451,
+            "date": "2026-06-16",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 8-2",
+            "attendance": 38238,
+            "pct_capacity": 89.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823450,
+            "date": "2026-06-17",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "L 4-12",
+            "attendance": 37591,
+            "pct_capacity": 87.6,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823448,
+            "date": "2026-06-18",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 4-6",
+            "attendance": 39767,
+            "pct_capacity": 92.7,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "40-35",
+      "streak": "L2",
+      "games_behind": "7.0"
+    },
+    "generated_at": "2026-06-19T13:46:00.070739+00:00"
   }
 ]
