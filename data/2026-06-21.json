@@ -1,0 +1,263 @@
+{
+  "date": "2026-06-21",
+  "display_score": 57,
+  "reactive_score": 57,
+  "baseline_score": 44,
+  "insufficient_signal": false,
+  "content_volume": 342,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 78,
+    "front_office_trust": 45,
+    "manager_confidence": 62,
+    "lineup_confidence": 65,
+    "pitching_confidence": 38,
+    "health_outlook": 45,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 60,
+    "manager_confidence": 45,
+    "lineup_confidence": 72,
+    "pitching_confidence": 88,
+    "health_outlook": 65,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 55,
+      "note": "Fan analyst voices (Hittin' Season / Phillies Talk) are stuck between genuine excitement about Bohm's surge and deep structural worry: a thin rotation behind the big three, Alvarado's collapse, and a farm system with little to offer at the deadline."
+    },
+    "beat_writer": {
+      "score": 52,
+      "note": "The beat writer (Phillies Therapy / Gelb) frames the team as paradoxical \u2014 winning 60% of games while sitting dangerously close to collapse if one key contributor goes down; explicitly says he has 'no idea' what to make of this team."
+    },
+    "radio_populist": {
+      "score": 50,
+      "note": "Talk-radio host (WIP Daily) is split between tactical frustration (hitters swinging at bad pitches early in counts), Painter mechanics breakdowns, and a heated debate about whether going all-in at the deadline is even worth the farm cost given the roster's ceiling."
+    },
+    "youtube_fan": {
+      "score": 42,
+      "note": "YouTube commenters are largely dismissive of Painter as a trade chip or viable pitcher, with one camp calling him a bust and another resigned to hoping lightning strikes; thin but consistently skeptical."
+    },
+    "twitter_fan": {
+      "score": 80,
+      "note": "X posts are dominated by euphoric reaction to the 15-3 destruction of the Mets \u2014 Harper's first career cycle, Schwarber's three-homer night, Sanchez bouncing back \u2014 pushing this voice to its highest point in days."
+    }
+  },
+  "themes": [
+    {
+      "name": "Harper Cycle + Schwarber Eruption",
+      "delta": 9,
+      "sample": "Bryce Harper hit for the first cycle of his career and Kyle Schwarber launched three home runs in a 15-3 rout, producing only the second time in MLB history a cycle and a three-homer game occurred in the same game \u2014 a genuinely historic Saturday night at Citizens Bank Park."
+    },
+    {
+      "name": "Painter Sent Down, Rotation Still Fragile",
+      "delta": -6,
+      "sample": "Andrew Painter's demotion to Triple-A after a disastrous two-inning, six-run outing against Miami leaves the rotation dangerously thin behind Wheeler, Sanchez, and Luzardo; Nola has become a five-inning pitcher, and the fifth-starter spot is essentially a bullpen game waiting to happen every turn through the order."
+    },
+    {
+      "name": "Alvarado and Bullpen Depth Eroding",
+      "delta": -5,
+      "sample": "Jose Alvarado's ERA north of six and his seventh-inning meltdown against the Mets have exposed a left-handed relief corps that is down to smoke and mirrors, with Tanner Banks optioned and Kyle Backus not yet back \u2014 raising real questions about whether the bridge to Duran can hold through October."
+    },
+    {
+      "name": "Bohm Emerging as Deadline Wild Card",
+      "delta": 5,
+      "sample": "Alec Bohm's torrid stretch \u2014 well over 800 OPS since May and 17 RBIs in June alone \u2014 has turned him from a near-certain offseason departure into a player worth re-evaluating for a long-term deal, and his production is compressing what the front office actually needs to buy at the deadline."
+    },
+    {
+      "name": "Deadline Pressure: Needs Outpace Assets",
+      "delta": -4,
+      "sample": "The front office faces a laundry list \u2014 backend starter, lefty reliever, right-handed outfielder \u2014 with a farm system that is widely described as thin; the debate over whether to go all-in or protect what little prospect capital remains is unresolved and growing louder as August 3rd approaches."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They stole the show from me tonight. That's for sure \u2026 Perfecto. Perfect. Yeah, I'll take it.",
+      "score": 90,
+      "source_hint": "Cristopher S\u00e1nchez postgame, via X posts"
+    },
+    {
+      "text": "I have no idea what to make of this team, I'm serious, people want to ask me what do I think, I don't know.",
+      "score": 48,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "Harper's hitting 190 in his last 30 games. Like when they face good pitching, they lay down like dogs.",
+      "score": 22,
+      "source_hint": "talk-radio host (WIP Daily), caller debate segment"
+    },
+    {
+      "text": "That was the best Phillies game in recent memory and by far the best I've ever attended.",
+      "score": 95,
+      "source_hint": "X posts, fan at Citizens Bank Park"
+    }
+  ],
+  "vibe_summary": "Harper's cycle and three Schwarbombs delivered the kind of historic, cathartic blowout that reminds everyone why this roster is dangerous \u2014 but the structural cracks underneath haven't healed overnight.",
+  "reasoning": "Saturday's 15-3 demolition of the Mets \u2014 featuring Harper's first career cycle and Schwarber's three-homer game \u2014 sent fan emotion surging on X and injected genuine joy into a week that had been dominated by Painter's demotion, Alvarado's collapse, and rotation anxiety. The podcast content, recorded before the Saturday blowout, captures a more measured and worried register: deep concern about the five-inning Nola era, the thin left side of the bullpen, and a farm system with little to offer at the deadline. The mood is genuinely split \u2014 raw fan reaction is euphoric from Saturday's result, while the analytical layer remains soberly preoccupied with structural fragility that one great game does not fix.",
+  "people_mentioned": [
+    "Harper",
+    "Schwarber",
+    "Sanchez",
+    "Painter",
+    "Bohm",
+    "Alvarado",
+    "Wheeler",
+    "Nola",
+    "Turner",
+    "Dombrowski",
+    "Mattingly",
+    "Luzardo",
+    "Rincones",
+    "Hill",
+    "Stott",
+    "Backus",
+    "Banks",
+    "Johnson",
+    "Adolis Garcia",
+    "Marsh",
+    "JT Realmuto",
+    "Cotham"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 135700,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 4242,
+    "youtube_comments": 5,
+    "youtube_comment_chars": 681,
+    "twitter_posts": 150,
+    "twitter_post_chars": 28659
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "What\u2019s Next For Andrew Painter After Being Optioned To Triple-A?",
+      "voice": "fan_analyst",
+      "chars": 32688
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Andrew Painter's future and a disappointing start against the Mets",
+      "voice": "fan_analyst",
+      "chars": 59361
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "What to Make of Any of This",
+      "voice": "beat_writer",
+      "chars": 43651
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Need To Attack Pitchers Earlier In The Count!",
+      "voice": "radio_populist",
+      "chars": 1124
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "LA Can Help Andrew Painter",
+      "voice": "radio_populist",
+      "chars": 1583
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Spike vs Jack: Should Phillies Go All In?",
+      "voice": "radio_populist",
+      "chars": 1535
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 93.3,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 98.3,
+      "delta_pct": -5.0,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823453,
+          "date": "2026-06-07",
+          "day_of_week": "Sunday",
+          "opponent": "Chicago White Sox",
+          "result": "W 9-5",
+          "attendance": 41978,
+          "pct_capacity": 97.8,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823452,
+          "date": "2026-06-15",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 7-0",
+          "attendance": 39241,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823451,
+          "date": "2026-06-16",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 8-2",
+          "attendance": 38238,
+          "pct_capacity": 89.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823450,
+          "date": "2026-06-17",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "L 4-12",
+          "attendance": 37591,
+          "pct_capacity": 87.6,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823448,
+          "date": "2026-06-18",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 4-6",
+          "attendance": 39767,
+          "pct_capacity": 92.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823447,
+          "date": "2026-06-20",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 15-3",
+          "attendance": 43402,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "41-35",
+    "streak": "W1",
+    "games_behind": "7.5"
+  },
+  "generated_at": "2026-06-21T12:17:07.102074+00:00"
+}
