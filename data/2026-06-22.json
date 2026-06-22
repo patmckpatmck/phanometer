@@ -1,0 +1,270 @@
+{
+  "date": "2026-06-22",
+  "display_score": 56,
+  "reactive_score": 56,
+  "baseline_score": 48,
+  "insufficient_signal": false,
+  "content_volume": 414,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 48,
+    "manager_confidence": 70,
+    "lineup_confidence": 58,
+    "pitching_confidence": 52,
+    "health_outlook": 44,
+    "postseason_belief": 38
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 80,
+    "front_office_trust": 72,
+    "manager_confidence": 65,
+    "lineup_confidence": 78,
+    "pitching_confidence": 82,
+    "health_outlook": 75,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 65,
+      "note": "Hittin' Season / Stolnis, Klugh, Roscher celebrate Schwarber and Harper's history-making weekend but flag the rotation's thinness and the right-field problem as serious unresolved concerns; the Phillies Show similarly revels in the offensive fireworks while noting depth fragility."
+    },
+    "beat_writer": {
+      "score": 48,
+      "note": "Phillies Therapy acknowledges the team is winning but frames the roster as a house of cards \u2014 structurally top-heavy, one injury from unraveling \u2014 with Turner's collapse, Painter's demotion, and the front office's poor one-year-deal track record all weighing heavily."
+    },
+    "radio_populist": {
+      "score": 70,
+      "note": "WIP High Hopes and 94WIP clips are bullish on the Schwarber-Harper tandem and the Mattingly era's best-record-in-baseball run since April 28th, while candidly debating trade-deadline aggression and Harper's base-running inconsistency."
+    },
+    "youtube_fan": {
+      "score": 63,
+      "note": "YouTube commenters are mostly positive on Harper's cycle and Schwarber's power, with some pushback on Harper criticism and mild skepticism about his hustle inconsistency."
+    },
+    "twitter_fan": {
+      "score": 67,
+      "note": "X posts lean celebratory around Schwarber's home-run pace and the best-record-since-Mattingly stat, with undercurrent worry about the rotation, Alvarado, and whether the deadline will be aggressive enough."
+    }
+  },
+  "themes": [
+    {
+      "name": "Schwarber and Harper: Historical Power, Real Stakes",
+      "delta": 7,
+      "sample": "Schwarber's third-best all-time HR pace with one franchise in baseball history and Harper's cycle have fans genuinely marveling \u2014 but the observation that the team essentially cannot win without both men being elite simultaneously keeps the celebration from feeling complete."
+    },
+    {
+      "name": "Rotation Depth: A Thread Pulling Loose",
+      "delta": -6,
+      "sample": "With Painter back in Triple-A, Nola grading out as a five-inning guy at best, and no reliable fifth starter, the pitching foundation that looked solid behind Wheeler and Sanchez is visibly thinning \u2014 and the bullpen's left-handed options are barely functional."
+    },
+    {
+      "name": "Trade Deadline Pressure Building",
+      "delta": -3,
+      "sample": "The front office faces a gauntlet of needs \u2014 a right-handed outfielder, a starter, a reliable lefty reliever \u2014 against a prospect cupboard that most observers describe as thin, making the upcoming deadline feel more like a high-wire act than an opportunity."
+    },
+    {
+      "name": "Mattingly Era's Best-Record Run Earns Real Credit",
+      "delta": 5,
+      "sample": "The 33-16 record since the manager change, best in baseball over that span, is being cited not just as a feel-good stat but as evidence the roster has genuine quality \u2014 with the division gap trimming from 10.5 to 6.5 games over a month adding substance to the optimism."
+    },
+    {
+      "name": "Turner's Struggles and Roster Fragility",
+      "delta": -5,
+      "sample": "Trey Turner batting in the low .200s with no viable replacement and the Garcia injury leaving right field as arguably the weakest-performing position in the majors since 1942 are the clearest symbols of how precarious this winning record actually feels."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I have no idea what to make of this team. I'm serious. I don't know.",
+      "score": 35,
+      "source_hint": "beat writer (Phillies Therapy), capturing the mood of qualified anxiety beneath the winning record"
+    },
+    {
+      "text": "My biggest thing on my mind right now is not having a World Series.",
+      "score": 72,
+      "source_hint": "Bryce Harper on 94WIP, expressing singular championship focus"
+    },
+    {
+      "text": "I don't think there's a better power hitter in the game than him.",
+      "score": 88,
+      "source_hint": "Bryce Harper on 94WIP, praising Kyle Schwarber"
+    },
+    {
+      "text": "This thing is top-heavy. It's a house of cards. It is one or two injuries to key performers away from really falling flat on its face.",
+      "score": 28,
+      "source_hint": "beat writer (Phillies Therapy), articulating the structural risk framing"
+    }
+  ],
+  "vibe_summary": "A weekend of legitimate, history-book offensive fireworks has given way to a cooler-headed accounting of what this team actually is: electrifying at the top, dangerously thin everywhere else, and heading into a deadline that cannot come fast enough.",
+  "reasoning": "The dominant emotional current is one of conflicted appreciation \u2014 the Schwarber-Harper power display genuinely thrills, and the best-record-since-Mattingly stat commands real respect, but that optimism is met immediately by structural alarm over the rotation's depth, Alvarado's regression, Turner's historic slump, and a right-field situation described as the worst by a Phillies team since 1942. The analytical contingent is more explicitly worried than the radio voices, who remain energized by the offensive ceiling; the beat-writing perspective frames the whole enterprise as a house of cards that has been fortunate to stay standing. Postseason belief stays low because the dominant framing is risk management and roster anxiety, not expressed confidence in an October run.",
+  "people_mentioned": [
+    "Schwarber",
+    "Harper",
+    "Painter",
+    "Turner",
+    "Mattingly",
+    "Dombrowski",
+    "Alvarado",
+    "Wheeler",
+    "Sanchez",
+    "Nola",
+    "Bohm",
+    "Luzardo",
+    "Marsh",
+    "Rincones",
+    "Garcia",
+    "Hill",
+    "Stott",
+    "Crawford",
+    "Backus",
+    "Bader",
+    "Marquez",
+    "Wood",
+    "Thomson"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 189567,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 3241,
+    "youtube_comments": 7,
+    "youtube_comment_chars": 439,
+    "twitter_posts": 150,
+    "twitter_post_chars": 26895
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "The Most Ethical Cycle In The History Of Baseball?",
+      "voice": "radio_populist",
+      "chars": 56124
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Kyle Schwarber\u2019s and Bryce Harper\u2019s history-making weekend",
+      "voice": "fan_analyst",
+      "chars": 31201
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Andrew Painter's future and a disappointing start against the Mets",
+      "voice": "fan_analyst",
+      "chars": 58651
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "What to Make of Any of This",
+      "voice": "beat_writer",
+      "chars": 43591
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper: Chasing Ghost Of Myself",
+      "voice": "radio_populist",
+      "chars": 1367
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Don Mattingly Defends Bryce Harper",
+      "voice": "radio_populist",
+      "chars": 732
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper: Kyle Schwarber Best MLB Power Hitter",
+      "voice": "radio_populist",
+      "chars": 1142
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 93.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 98.3,
+      "delta_pct": -5.2,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823452,
+          "date": "2026-06-15",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 7-0",
+          "attendance": 39241,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823451,
+          "date": "2026-06-16",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 8-2",
+          "attendance": 38238,
+          "pct_capacity": 89.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823450,
+          "date": "2026-06-17",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "L 4-12",
+          "attendance": 37591,
+          "pct_capacity": 87.6,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823448,
+          "date": "2026-06-18",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 4-6",
+          "attendance": 39767,
+          "pct_capacity": 92.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823447,
+          "date": "2026-06-20",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 15-3",
+          "attendance": 43402,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823449,
+          "date": "2026-06-21",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "W 6-2",
+          "attendance": 41552,
+          "pct_capacity": 96.9,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "42-35",
+    "streak": "W2",
+    "games_behind": "6.5"
+  },
+  "generated_at": "2026-06-22T15:32:52.653837+00:00"
+}
