@@ -1,0 +1,267 @@
+{
+  "date": "2026-06-24",
+  "display_score": 68,
+  "reactive_score": 68,
+  "baseline_score": 52,
+  "insufficient_signal": false,
+  "content_volume": 382,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 82,
+    "front_office_trust": 58,
+    "manager_confidence": 62,
+    "lineup_confidence": 68,
+    "pitching_confidence": 64,
+    "health_outlook": 60,
+    "postseason_belief": 62
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 90,
+    "front_office_trust": 55,
+    "manager_confidence": 40,
+    "lineup_confidence": 78,
+    "pitching_confidence": 72,
+    "health_outlook": 52,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 74,
+      "note": "The Phillies Show celebrated the historic comeback while pivoting to urgent deadline talk \u2014 bullpen reinforcement and a bat are both needed; Phillies Talk was euphoric about Harper and Schwarber's weekend heroics while acknowledging the right-field hole and thin farm system."
+    },
+    "beat_writer": {
+      "score": 70,
+      "note": "Phillies Therapy offered measured optimism \u2014 five of six series won, Schwarber on a historic home-run pace, Harper's bat revived \u2014 but the beat writer flagged right field as a glaring unresolved problem and tempered the hype with honest roster-depth concerns."
+    },
+    "radio_populist": {
+      "score": 72,
+      "note": "WIP's High Hopes was openly jubilant about the nine-inning comeback and Marsh's emergence, while raising pointed concerns about Kerkering's reliability in high-leverage spots and Turner's defensive regression; the Foster Griffin segment was generally encouraged about the team's overall trajectory."
+    },
+    "youtube_fan": {
+      "score": 55,
+      "note": "YouTube commenters were split \u2014 skeptical about Griffin trade value and Nationals' willingness to sell, mildly critical of Harper's inconsistent leadership displays, and one sharp jab that the offense makes average pitching look elite."
+    },
+    "twitter_fan": {
+      "score": 78,
+      "note": "X posts were dominated by excitement over the eight-run ninth, multiple fans flagging the 5.5-game deficit on the Braves with genuine belief the gap is closeable, and broad celebration of Stott and Marsh as emerging stars."
+    }
+  },
+  "themes": [
+    {
+      "name": "Eight-Run Ninth Ignites the Fanbase",
+      "delta": 9,
+      "sample": "Down to the final strike, eight runs with two outs in the ninth \u2014 including Marsh's tying homer and Stott's go-ahead three-run shot \u2014 gave fans one of the most memorable regular-season rallies in recent franchise history."
+    },
+    {
+      "name": "Kerkering's High-Leverage Ceiling in Question",
+      "delta": -5,
+      "sample": "Even on a night the team won, Kerkering's implosion in the eighth reignited the persistent worry that the bullpen lacks a reliable bridge arm between the starters and Duran when the game is on the line."
+    },
+    {
+      "name": "Trade Deadline Urgency: Bullpen Arm vs. Impact Bat",
+      "delta": 4,
+      "sample": "The debate has crystallized \u2014 a lockdown setup arm (with Chapman and Whitlock as archetypes) versus an impact outfield bat \u2014 with the bullpen argument winning on the grounds that October collapses have been a repeating pattern."
+    },
+    {
+      "name": "Braves Gap Shrinking, Division Race Feels Real Again",
+      "delta": 7,
+      "sample": "At 5.5 games back with Atlanta cooling off and seven head-to-head games remaining in September, fans and analysts alike are treating the division title as a genuine target rather than a consolation-prize conversation."
+    },
+    {
+      "name": "Turner and Right Field Still the Roster's Open Wounds",
+      "delta": -4,
+      "sample": "Trey Turner's defense has visibly declined over the past three weeks, his offensive numbers remain a drag on the top of the order, and right field is openly described as a problem that a Hill-Rincon platoon cannot fix."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They score eight times in the ninth inning \u2014 that never happens, that never happens.",
+      "score": 92,
+      "source_hint": "fan analyst (The Phillies Show), reacting to the comeback win"
+    },
+    {
+      "text": "Six blown saves and a six-plus ERA in the bullpen \u2014 both Game 1s the last two years, they lost leads in the bullpen.",
+      "score": 32,
+      "source_hint": "fan analyst (The Phillies Show), on October bullpen failures"
+    },
+    {
+      "text": "He just goes through these waves of confidence issues \u2014 that killer instinct isn't always in there for Orion Kerkering.",
+      "score": 28,
+      "source_hint": "talk-radio host (WIP High Hopes), on Kerkering's reliability"
+    },
+    {
+      "text": "Not trying to get crazy or anything but the Phillies are just 5.5 games behind the Braves.",
+      "score": 72,
+      "source_hint": "X posts, on the narrowing division deficit"
+    }
+  ],
+  "vibe_summary": "Tuesday night's absurd comeback \u2014 eight runs with two outs in the ninth \u2014 has Phillies fans riding high and eyeing the Braves with genuine conviction, even as the bullpen and right-field questions refuse to go away.",
+  "reasoning": "The dominant emotional driver today is pure elation over one of the most dramatic ninth-inning rallies in recent franchise memory, amplified by the 5.5-game deficit on Atlanta feeling suddenly conquerable. Detailed deadline analysis runs parallel to the celebration, with broad agreement that a high-leverage bullpen arm is the most critical acquisition \u2014 a conclusion sharpened by Kerkering's eighth-inning meltdown on the very night the offense bailed everyone out. The beat writer brings the most grounded perspective, noting the right-field platoon is clearly insufficient and the farm system limits what Dombrowski can realistically offer, while the fan analyst and talk-radio voices are more openly bullish on the team's postseason trajectory.",
+  "people_mentioned": [
+    "Marsh",
+    "Stott",
+    "Kerkering",
+    "Turner",
+    "Harper",
+    "Schwarber",
+    "Luzardo",
+    "Sosa",
+    "Duran",
+    "Wheeler",
+    "Sanchez",
+    "Bohm",
+    "Dombrowski",
+    "Nola",
+    "Ronhell",
+    "Painter",
+    "Alvarado",
+    "Keller",
+    "Hill",
+    "Chapman"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 157832,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 10303,
+    "youtube_comments": 8,
+    "youtube_comment_chars": 1049,
+    "twitter_posts": 150,
+    "twitter_post_chars": 27009
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Do the Phillies need a lockdown reliever or a bat?",
+      "voice": "fan_analyst",
+      "chars": 38296
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: ARE YOU KIDDING ME?!",
+      "voice": "radio_populist",
+      "chars": 30278
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "A deeper dive into a HISTORIC weekend for Harper, Schwarber, and the Phillies",
+      "voice": "fan_analyst",
+      "chars": 47781
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Barrel-Aged",
+      "voice": "beat_writer",
+      "chars": 41477
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Alec Bohm's 100th Career Double Play \ud83e\udd26",
+      "voice": "radio_populist",
+      "chars": 862
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper Displaying His Leadership",
+      "voice": "radio_populist",
+      "chars": 843
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Could Phillies Trade For Foster Griffin? | 94WIP",
+      "voice": "radio_populist",
+      "chars": 8598
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 93.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 98.3,
+      "delta_pct": -5.2,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823452,
+          "date": "2026-06-15",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 7-0",
+          "attendance": 39241,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823451,
+          "date": "2026-06-16",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 8-2",
+          "attendance": 38238,
+          "pct_capacity": 89.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823450,
+          "date": "2026-06-17",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "L 4-12",
+          "attendance": 37591,
+          "pct_capacity": 87.6,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823448,
+          "date": "2026-06-18",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 4-6",
+          "attendance": 39767,
+          "pct_capacity": 92.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823447,
+          "date": "2026-06-20",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 15-3",
+          "attendance": 43402,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823449,
+          "date": "2026-06-21",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "W 6-2",
+          "attendance": 41552,
+          "pct_capacity": 96.9,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "43-36",
+    "streak": "W1",
+    "games_behind": "5.5"
+  },
+  "generated_at": "2026-06-24T12:26:35.724098+00:00"
+}
