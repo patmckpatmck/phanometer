@@ -1,0 +1,271 @@
+{
+  "date": "2026-06-25",
+  "display_score": 73,
+  "reactive_score": 73,
+  "baseline_score": 57,
+  "insufficient_signal": false,
+  "content_volume": 374,
+  "mood_label": "Buzzing",
+  "dimensions": {
+    "results_satisfaction": 88,
+    "front_office_trust": 62,
+    "manager_confidence": 75,
+    "lineup_confidence": 72,
+    "pitching_confidence": 68,
+    "health_outlook": 65,
+    "postseason_belief": 58
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 92,
+    "front_office_trust": 55,
+    "manager_confidence": 60,
+    "lineup_confidence": 70,
+    "pitching_confidence": 72,
+    "health_outlook": 50,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 82,
+      "note": "Phillies Talk and The Philly Show hosts are euphoric about back-to-back ninth-inning comebacks, Harper's cycle weekend, and Schwarber's historic pace, while coolly debating whether the deadline move should be a bullpen arm or an impact bat."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 80,
+      "note": "WIP High Hopes and morning-drive hosts are 'really fired up' for the first time this season, praising Mattingly's managing and Derek Hill's heroics, though one voice explicitly worries the regular-season peak won't translate to October."
+    },
+    "youtube_fan": {
+      "score": 60,
+      "note": "YouTube commenters celebrate Hill's clutch homer but remain split \u2014 one says the team is 'not special yet' and another doubts playoff reliability, tempering the surrounding enthusiasm."
+    },
+    "twitter_fan": {
+      "score": 72,
+      "note": "X posts buzz with comeback celebration, Braves-gap tracking, and Jhoan Duran trade speculation, though a vocal skeptical thread calls postseason excitement 'premature' and one poster flatly says the team 'has no chance' in October."
+    }
+  },
+  "themes": [
+    {
+      "name": "Back-to-Back Ninth-Inning Magic",
+      "delta": 9,
+      "sample": "Two consecutive wins completed with two outs in the ninth inning \u2014 including an eight-run explosion and a Derek Hill pinch homer \u2014 have produced some of the most memorable moments of the season and left fans feeling the team is simply unwilling to lose."
+    },
+    {
+      "name": "Derek Hill Becomes a Folk Hero",
+      "delta": 7,
+      "sample": "An obscure acquisition from the White Sox less than a month ago, Hill has now delivered clutch pinch-hit heroics in back-to-back nights, immediately earning cult status and sparking comparisons to past unsung deadline contributors."
+    },
+    {
+      "name": "Bullpen or Bat at the Deadline?",
+      "delta": 1,
+      "sample": "The trade deadline debate is sharpening: one camp argues a lockdown setup arm is essential given the bullpen's repeated October collapses, while the other insists an impact outfield bat would do more to fix the roster's structural weakness \u2014 names like Aroldis Chapman and Byron Buxton keep surfacing."
+    },
+    {
+      "name": "Braves Freefall Opens Division Race",
+      "delta": 6,
+      "sample": "Atlanta's collapse \u2014 losers of ten of their last thirteen \u2014 has shrunk a nine-and-a-half game deficit to four and a half, turning what looked like a wild-card-only path into a genuine division chase and giving fans a tangible goal to rally around."
+    },
+    {
+      "name": "October Skepticism Underneath the Buzz",
+      "delta": -4,
+      "sample": "Even in the glow of the comeback wins, a persistent undercurrent of doubt lingers: the bullpen's playoff ERA, Kerkering's ceiling questions, Trea Turner's offensive inconsistency, and memories of blown Game 1 leads keep some fans from fully buying in on a deep run."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They're winning the World Series. It's just crazy. You're finding ways to win when you're down to your last out.",
+      "score": 92,
+      "source_hint": "Phillies Talk fan analyst host, reacting to back-to-back ninth-inning wins"
+    },
+    {
+      "text": "The bullpen, I mean, if I could get Chapman, that is really \u2014 but you're going to have to give up a haul to get that guy because that's a piece you get to win the World Series.",
+      "score": 70,
+      "source_hint": "The Philly Show fan analyst host, on deadline priorities"
+    },
+    {
+      "text": "The Phillies have no chance at that so just entertain me until hockey and football start.",
+      "score": 12,
+      "source_hint": "X posts, skeptical fan reaction to the comeback wins"
+    },
+    {
+      "text": "I'd say for the first time this year I would refer to myself as like really fired up, like really freaking fired up with our club.",
+      "score": 88,
+      "source_hint": "WIP High Hopes talk-radio host, morning reaction to Derek Hill's walk-off"
+    }
+  ],
+  "vibe_summary": "Derek Hill's back-to-back ninth-inning heroics have turned a simmering belief into something louder \u2014 but the deadline debate and October doubts are running just as hot as the celebration.",
+  "reasoning": "Two consecutive walk-off comeback wins, a shrinking Braves deficit, and Harper's cycle weekend have combined to push overall sentiment to a genuine seasonal high. The trade deadline conversation has crystallized around a real philosophical split \u2014 lockdown reliever versus impact bat \u2014 with the bullpen's postseason failures cited repeatedly as the unresolved flaw underneath the good vibes. Postseason belief scores are elevated by expressed confidence in the roster's trajectory and active deadline-buyer framing, but are held in check by a vocal skeptical thread and explicit acknowledgment of the bullpen's October track record.",
+  "people_mentioned": [
+    "Derek Hill",
+    "Mattingly",
+    "Schwarber",
+    "Harper",
+    "Marsh",
+    "Stott",
+    "Turner",
+    "Luzardo",
+    "Nola",
+    "Kerkering",
+    "Sanchez",
+    "Wheeler",
+    "Dombrowski",
+    "Sosa",
+    "Bohm",
+    "Painter",
+    "Alan Ron Hill",
+    "Chapman",
+    "Buxton",
+    "Alvarado",
+    "Boland",
+    "Keller",
+    "Stubbs",
+    "Rincon"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 148937,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 14874,
+    "youtube_comments": 6,
+    "youtube_comment_chars": 628,
+    "twitter_posts": 150,
+    "twitter_post_chars": 27469
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Talk",
+      "title": "NINTH INNING MAGIC: Making sense of two of the WILDEST wins of the season",
+      "voice": "fan_analyst",
+      "chars": 32181
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Do the Phillies need a lockdown reliever or a bat?",
+      "voice": "fan_analyst",
+      "chars": 37372
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: ARE YOU KIDDING ME?!",
+      "voice": "radio_populist",
+      "chars": 30750
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "A deeper dive into a HISTORIC weekend for Harper, Schwarber, and the Phillies",
+      "voice": "fan_analyst",
+      "chars": 48634
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Back-To-Back Thrillers! Derek Hill Saves Phillies! | 94WIP",
+      "voice": "radio_populist",
+      "chars": 12905
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Can Chase Down The Braves!",
+      "voice": "radio_populist",
+      "chars": 1294
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "\"I Don't Want This To Be The Peak For The Phillies\"",
+      "voice": "radio_populist",
+      "chars": 675
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 93.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 98.3,
+      "delta_pct": -5.2,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823452,
+          "date": "2026-06-15",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 7-0",
+          "attendance": 39241,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823451,
+          "date": "2026-06-16",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 8-2",
+          "attendance": 38238,
+          "pct_capacity": 89.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823450,
+          "date": "2026-06-17",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "L 4-12",
+          "attendance": 37591,
+          "pct_capacity": 87.6,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823448,
+          "date": "2026-06-18",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 4-6",
+          "attendance": 39767,
+          "pct_capacity": 92.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823447,
+          "date": "2026-06-20",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 15-3",
+          "attendance": 43402,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823449,
+          "date": "2026-06-21",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "W 6-2",
+          "attendance": 41552,
+          "pct_capacity": 96.9,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "44-36",
+    "streak": "W2",
+    "games_behind": "4.5"
+  },
+  "generated_at": "2026-06-25T12:23:51.530964+00:00"
+}
