@@ -1,0 +1,270 @@
+{
+  "date": "2026-06-26",
+  "display_score": 76,
+  "reactive_score": 76,
+  "baseline_score": 62,
+  "insufficient_signal": false,
+  "content_volume": 395,
+  "mood_label": "Buzzing",
+  "dimensions": {
+    "results_satisfaction": 88,
+    "front_office_trust": 68,
+    "manager_confidence": 80,
+    "lineup_confidence": 72,
+    "pitching_confidence": 65,
+    "health_outlook": 72,
+    "postseason_belief": 72
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 72,
+    "manager_confidence": 78,
+    "lineup_confidence": 82,
+    "pitching_confidence": 70,
+    "health_outlook": 55,
+    "postseason_belief": 78
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 82,
+      "note": "Hittin' Season and Phillies Talk hosts are euphoric about the historic ninth-inning comebacks, praise Mattingly's aggressive managing, and frame the team as a legitimate October contender \u2014 though both flag the bullpen depth and right-field hole as real concerns heading into the deadline."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 85,
+      "note": "WIP hosts are loudly bullish \u2014 declaring the team a genuine World Series contender, celebrating the 'cardiac' comeback streak, and urging fans who doubted them four days ago to wake up; trade deadline 'go all in' debate is heating up with hosts openly flipping toward aggressive action."
+    },
+    "youtube_fan": {
+      "score": 72,
+      "note": "Single comment is a generic host shout-out with no substantive sentiment; scored neutrally given minimal signal."
+    },
+    "twitter_fan": {
+      "score": 78,
+      "note": "X posts are broadly celebratory around the historic ninth-inning run and Bryce Harper's silencing of Nationals fans, with some sober notes about needing real bullpen help and skepticism that the wins were partly gift-wrapped by Washington's historically bad relief corps."
+    }
+  },
+  "themes": [
+    {
+      "name": "Cardiac Kids Go Historic",
+      "delta": 9,
+      "sample": "Three consecutive go-ahead ninth-inning home runs \u2014 the first time any team has done it in MLB history \u2014 have turned a simmering belief into something approaching genuine conviction that this group is special."
+    },
+    {
+      "name": "Deadline Decision Looms Large",
+      "delta": 3,
+      "sample": "The trade deadline debate has shifted from 'if' to 'how much' \u2014 the bullpen and right-field vacancy are widely identified as fixable, and momentum is building toward a 'push the chips in' posture with Middleton as the ultimate decision-maker."
+    },
+    {
+      "name": "Mattingly's Fingerprints All Over the Wins",
+      "delta": 6,
+      "sample": "Aggressive pinch-hit sequencing, finding the right role for Aaron Nola, and fostering a 'we're not dead' clubhouse culture are being credited directly to the new manager, with the turnaround since his arrival now tracking as the best record in baseball."
+    },
+    {
+      "name": "Marsh and Stott Arriving at the Right Time",
+      "delta": 5,
+      "sample": "Brandon Marsh's breakout all-star case and Bryson Stott's June resurgence are giving the middle of the order a depth it lacked earlier in the year, though the question of whether both can sustain it into October remains open."
+    },
+    {
+      "name": "Nationals Bullpen Caveat",
+      "delta": -2,
+      "sample": "There is an honest acknowledgment running beneath the celebration that the historic comeback streak was enabled by one of the worst bullpens in baseball history \u2014 and that the true test of this team's character comes against stiffer late-inning competition."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They are going to win the division. They probably are. They are locked in.",
+      "score": 90,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    },
+    {
+      "text": "We're a great team. This may be the springboard to people believing they're a great team.",
+      "score": 88,
+      "source_hint": "Bryce Harper quote relayed on WIP Daily"
+    },
+    {
+      "text": "The Phillies are the only Major League team in the modern era to be down to their last strike with nobody on base in the ninth inning, two games in a row, and win both.",
+      "score": 95,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "Phillies spent $320m to have to put up a record breaking streak against Gus Varland, Richard Lovelady, and Brad Lord... Harper's ring finger is still empty.",
+      "score": 22,
+      "source_hint": "X posts"
+    }
+  ],
+  "vibe_summary": "Three historic ninth-inning comebacks have flipped the fan mood from cautious optimism to something genuinely loud \u2014 a 45-36 record, a W3 streak, and a shrinking gap on Atlanta have the trade-deadline debate shifting from restraint to 'just go do it.'",
+  "reasoning": "The dominant driver today is collective euphoria over the most historically improbable comeback sequence in modern baseball, compressed into one series against Washington. The mood is elevated across every source, with the trade-deadline 'go all in' conversation escalating in parallel \u2014 hosts who were cautious a week ago are now openly flipping toward aggressive action. The one note of sobriety, present but not loud, is the honest caveat that the Nationals bullpen was historically bad and that the true character test comes in October against stiffer competition; a handful of skeptical posts note the ring finger is still empty. Mattingly is drawing real credit for aggressive in-game decision-making, and the lineup depth conversation is the most optimistic it has been all season.",
+  "people_mentioned": [
+    "Harper",
+    "Marsh",
+    "Mattingly",
+    "Dombrowski",
+    "Stott",
+    "Schwarber",
+    "Hill",
+    "Turner",
+    "Nola",
+    "Lozardo",
+    "Kerkering",
+    "Bohm",
+    "Realmuto",
+    "Sanchez",
+    "Wheeler",
+    "Sosa",
+    "Crawford",
+    "Middleton",
+    "Painter",
+    "Alvarado",
+    "Duran",
+    "Bolin",
+    "Wood"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 168715,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 14162,
+    "youtube_comments": 1,
+    "youtube_comment_chars": 18,
+    "twitter_posts": 150,
+    "twitter_post_chars": 25997
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Another Day, Another Dramatic Comeback",
+      "voice": "radio_populist",
+      "chars": 30821
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "They're Gonna Win The Division",
+      "voice": "radio_populist",
+      "chars": 50089
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Cardiac Kids in DC!",
+      "voice": "fan_analyst",
+      "chars": 54497
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "NINTH INNING MAGIC: Making sense of two of the WILDEST wins of the season",
+      "voice": "fan_analyst",
+      "chars": 33308
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "\"WAKE THE H* UP!\" \ud83e\udd2c The Disrespect To This Phillies Team Has Gone Too Far! | 94WIP",
+      "voice": "radio_populist",
+      "chars": 11461
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Taylor Ward A Phillies Trade Deadline Target",
+      "voice": "radio_populist",
+      "chars": 1113
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Wheeler vs Sanchez! Who Deserves the All Star Starting Spot?",
+      "voice": "radio_populist",
+      "chars": 1588
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 93.2,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 98.3,
+      "delta_pct": -5.2,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823452,
+          "date": "2026-06-15",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 7-0",
+          "attendance": 39241,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823451,
+          "date": "2026-06-16",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 8-2",
+          "attendance": 38238,
+          "pct_capacity": 89.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823450,
+          "date": "2026-06-17",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "L 4-12",
+          "attendance": 37591,
+          "pct_capacity": 87.6,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823448,
+          "date": "2026-06-18",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 4-6",
+          "attendance": 39767,
+          "pct_capacity": 92.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823447,
+          "date": "2026-06-20",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 15-3",
+          "attendance": 43402,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823449,
+          "date": "2026-06-21",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "W 6-2",
+          "attendance": 41552,
+          "pct_capacity": 96.9,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "45-36",
+    "streak": "W3",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-06-26T12:19:19.625544+00:00"
+}
