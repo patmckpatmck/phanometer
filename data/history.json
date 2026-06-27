@@ -16581,5 +16581,276 @@
       "games_behind": "4.0"
     },
     "generated_at": "2026-06-26T12:19:19.625544+00:00"
+  },
+  {
+    "date": "2026-06-27",
+    "display_score": 79,
+    "reactive_score": 79,
+    "baseline_score": 66,
+    "insufficient_signal": false,
+    "content_volume": 424,
+    "mood_label": "Buzzing",
+    "dimensions": {
+      "results_satisfaction": 88,
+      "front_office_trust": 72,
+      "manager_confidence": 78,
+      "lineup_confidence": 76,
+      "pitching_confidence": 80,
+      "health_outlook": 72,
+      "postseason_belief": 74
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 92,
+      "front_office_trust": 70,
+      "manager_confidence": 65,
+      "lineup_confidence": 78,
+      "pitching_confidence": 75,
+      "health_outlook": 55,
+      "postseason_belief": 72
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 85,
+        "note": "Hittin' Season and The Phillies Show both revel in the historic ninth-inning comeback series, lavish praise on Marsh as MVP-caliber, and frame the Braves gap as genuinely closeable \u2014 tempered only by Nola questions and thin-depth concerns."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 84,
+        "note": "Talk-radio host is fully energized by the W4 streak and Wheeler's gem at Citi Field, openly declaring the division is winnable and pushing hard for an aggressive trade-deadline swing including Gage Wood in a headline deal."
+      },
+      "youtube_fan": {
+        "score": 72,
+        "note": "Sparse but positive \u2014 praise for Scott Franzke's announcing and mild approval of measured deadline commentary."
+      },
+      "twitter_fan": {
+        "score": 80,
+        "note": "X posts buzz with Derek Hill's Soto-robbing catch, Wheeler's masterpiece, a first Citi Field win in 10 games, and the team hitting a season-high 10 games over .500 \u2014 raw enthusiasm with a side of deadline speculation."
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler Silences Citi Field",
+        "delta": 8,
+        "sample": "A dominant 7-inning, 1-run outing against the Mets \u2014 combined with Derek Hill's over-the-fence robbery of Juan Soto \u2014 gave fans a signature pitching-and-defense win to complement the week's earlier offensive fireworks."
+      },
+      {
+        "name": "Derek Hill Becoming a Folk Hero",
+        "delta": 7,
+        "sample": "Back-to-back clutch home runs during the Washington series, now a jaw-dropping catch at Citi Field \u2014 Hill has gone from trade-deadline afterthought to the kind of fourth-outfielder every championship team needs."
+      },
+      {
+        "name": "All-In Deadline Debate Intensifies",
+        "delta": 3,
+        "sample": "With the Braves now just four games up and the team at a season-high 10 games over .500, the question has shifted from whether to push chips in to how many \u2014 Gage Wood headlines as the centerpiece of proposed blockbuster packages."
+      },
+      {
+        "name": "Marsh Ascending, Division Race Real",
+        "delta": 6,
+        "sample": "Brandon Marsh has emerged as the team's most consistent hitter and an All-Star starter in waiting; meanwhile the Braves' recent skid has turned a seemingly closed division race back into a genuine chase."
+      },
+      {
+        "name": "Mets in Freefall, Phillies Capitalize",
+        "delta": 4,
+        "sample": "Carlos Mendoza's firing, six-error games, Juan Soto injured, David Peterson traded \u2014 the Mets' collapse has made the NL East look like a two-team race and reinforced confidence that the Phillies made the right call firing their own manager when they did."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "They're going to win the division. They probably are. They probably are.",
+        "score": 89,
+        "source_hint": "talk-radio host, High Hopes Pod"
+      },
+      {
+        "text": "This Phillies team late is a wagon. 15 ninth inning runs this week. That is crazy.",
+        "score": 90,
+        "source_hint": "talk-radio host, WIP Final Out"
+      },
+      {
+        "text": "I'm ready to put Gage Wood on the table for one package.",
+        "score": 75,
+        "source_hint": "talk-radio host, WIP High Hopes \u2014 deadline debate segment"
+      },
+      {
+        "text": "One of the best catches I've ever seen in person. Unbelievable. The replay was almost even better. That won us the game.",
+        "score": 88,
+        "source_hint": "X posts \u2014 fan reactions to Derek Hill's catch at Citi Field"
+      }
+    ],
+    "vibe_summary": "Wheeler's gem, Hill's miraculous catch, and a first Citi Field win in 10 games have crystallized what this team might actually be \u2014 and the deadline conversation has stopped being theoretical.",
+    "reasoning": "A Wheeler-dominant pitching performance and Derek Hill's over-the-fence robbery gave fans a different kind of win to celebrate after three straight comeback spectacles \u2014 defense and starting pitching rather than ninth-inning miracles. The mood is broadly euphoric, with the only real friction being how aggressively the front office should move at the deadline; the more cautious posture of recent weeks has given way to open 'just do it' advocacy across multiple voices. The Mets' chaos serves as a flattering backdrop, reinforcing belief that the Phillies' earlier managerial shakeup was the right call and that the division \u2014 now just four games back \u2014 is a legitimate target.",
+    "people_mentioned": [
+      "Marsh",
+      "Wheeler",
+      "Hill",
+      "Harper",
+      "Schwarber",
+      "Mattingly",
+      "Dombrowski",
+      "Stott",
+      "Bohm",
+      "Turner",
+      "Kerkering",
+      "Duran",
+      "Sanchez",
+      "Nola",
+      "Lozardo",
+      "Middleton",
+      "Crawford",
+      "Alvarado",
+      "Painter",
+      "Rincones",
+      "Realmuto",
+      "Sosa",
+      "Stubbs",
+      "Milt Thompson"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 169498,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 34656,
+      "youtube_comments": 2,
+      "youtube_comment_chars": 81,
+      "twitter_posts": 150,
+      "twitter_post_chars": 25915
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Phillies make MLB history in Washington",
+        "voice": "fan_analyst",
+        "chars": 26752
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Crush the Nationals and Look Ahead to the Mets",
+        "voice": "fan_analyst",
+        "chars": 59093
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Another Day, Another Dramatic Comeback",
+        "voice": "radio_populist",
+        "chars": 33086
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "They're Gonna Win The Division",
+        "voice": "radio_populist",
+        "chars": 50567
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Must Give Braves Race Until The End!",
+        "voice": "radio_populist",
+        "chars": 466
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "A Bold Phillies Deadline Move \ud83d\udc40",
+        "voice": "radio_populist",
+        "chars": 11290
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Ex-Phillies Hitting Coach Milt Thompson On 2026 Team",
+        "voice": "radio_populist",
+        "chars": 22900
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 93.2,
+        "baseline_games_count": 38,
+        "baseline_avg_pct": 98.3,
+        "delta_pct": -5.1,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823452,
+            "date": "2026-06-15",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 7-0",
+            "attendance": 39241,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823451,
+            "date": "2026-06-16",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 8-2",
+            "attendance": 38238,
+            "pct_capacity": 89.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823450,
+            "date": "2026-06-17",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "L 4-12",
+            "attendance": 37591,
+            "pct_capacity": 87.6,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823448,
+            "date": "2026-06-18",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 4-6",
+            "attendance": 39767,
+            "pct_capacity": 92.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823447,
+            "date": "2026-06-20",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 15-3",
+            "attendance": 43402,
+            "pct_capacity": 101.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823449,
+            "date": "2026-06-21",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "W 6-2",
+            "attendance": 41552,
+            "pct_capacity": 96.9,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "46-36",
+      "streak": "W4",
+      "games_behind": "4.0"
+    },
+    "generated_at": "2026-06-27T11:35:54.777108+00:00"
   }
 ]
