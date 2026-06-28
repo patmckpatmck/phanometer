@@ -1,0 +1,262 @@
+{
+  "date": "2026-06-28",
+  "display_score": 62,
+  "reactive_score": 62,
+  "baseline_score": 70,
+  "insufficient_signal": false,
+  "content_volume": 334,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 52,
+    "front_office_trust": 58,
+    "manager_confidence": 65,
+    "lineup_confidence": 70,
+    "pitching_confidence": 65,
+    "health_outlook": 62,
+    "postseason_belief": 62
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 45,
+    "manager_confidence": 50,
+    "lineup_confidence": 80,
+    "pitching_confidence": 60,
+    "health_outlook": 45,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 78,
+      "note": "The fan analyst (Hittin' Season / Phillies Show and Phillies Talk) was euphoric about the historic three-game ninth-inning comeback run and Brandon Marsh's All-Star push, while also bullish on deadline acquisitions targeting Boston's bullpen and outfield depth."
+    },
+    "beat_writer": {
+      "score": 68,
+      "note": "The beat writer (Phillies Therapy / Matt Gelb) was warmly optimistic about Schwarber and Harper carrying the offense into summer, but flagged the right-field situation as an unresolved problem and kept expectations measured on Nola."
+    },
+    "radio_populist": {
+      "score": 72,
+      "note": "The talk-radio host (WIP Daily / Joe Giglio) was energized by the Washington comebacks and openly argued for aggressive deadline moves \u2014 Chapman and Contreras from Boston \u2014 while noting the Phillies are now only four games back of the division lead."
+    },
+    "youtube_fan": {
+      "score": 58,
+      "note": "YouTube commenters were mildly engaged, questioning whether Dombrowski would actually make the bold deadline move suggested on-air and praising Scott Franzke's broadcast work."
+    },
+    "twitter_fan": {
+      "score": 50,
+      "note": "X posts were sharply split: residual historic-comeback glow colliding with a fresh 6-2 loss to the Mets that snapped a four-game win streak, with Braves fans openly relieved and a strand of Phillies frustration about the fifth-starter hole and Citi Field struggles."
+    }
+  },
+  "themes": [
+    {
+      "name": "Mets Snap the Streak",
+      "delta": -4,
+      "sample": "A 6-2 loss at Citi Field ended a four-game win streak and reintroduced the familiar frustration of failing against quality pitching \u2014 with Lindor and Soto triples doing the damage and the bullpen completing a dominant night for New York's interim manager."
+    },
+    {
+      "name": "Brandon Marsh All-Star Surge",
+      "delta": 8,
+      "sample": "Marsh has emerged as arguably the team's MVP through June, batting .324 with 12 home runs, and is a finalist for the NL All-Star starting outfield at Citizens Bank Park \u2014 a development that would have seemed impossible in April 2025."
+    },
+    {
+      "name": "Deadline Aggression Demanded",
+      "delta": 5,
+      "sample": "Riding a historic Washington comeback series, the conversation has fully shifted to what the front office should add \u2014 Aroldis Chapman for the eighth inning, Boston outfield depth, and Sonny Gray as a potential playoff fourth starter are all being floated seriously."
+    },
+    {
+      "name": "Schwarber's All-Time Power Display",
+      "delta": 7,
+      "sample": "Kyle Schwarber's home run pace \u2014 on track for 60-plus, already third in MLB history for homers in a player's first five seasons with a club \u2014 has made him unmissable viewing and the unquestioned engine of the offense."
+    },
+    {
+      "name": "Right Field and the Fifth Starter Problem",
+      "delta": -5,
+      "sample": "The outfield corner opposite Marsh remains a genuine structural weakness, and the bulk-boy fifth-starter arrangement is widely acknowledged as a liability that needs addressing before October \u2014 the Mets loss, where the lineup was mowed down by quality pitching, underscored both concerns."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The Phillies are the first team in Major League Baseball history to hit a go-ahead home run in the ninth inning in three consecutive games.",
+      "score": 92,
+      "source_hint": "X posts \u2014 widely circulated stat following the Washington series"
+    },
+    {
+      "text": "I was sitting down here in the clubhouse, kind of staying loose, walking up and down the steps. And I jumped around like a little school girl.",
+      "score": 88,
+      "source_hint": "Kyle Schwarber quote, cited by fan analyst (Phillies Talk)"
+    },
+    {
+      "text": "I'm ready to put Gage Wood ON THE TABLE. For one package.",
+      "score": 74,
+      "source_hint": "Talk-radio host (WIP Daily) on aggressive deadline thinking"
+    },
+    {
+      "text": "Does anyone want to talk about how the Phillies should have lost 6 in a row... They are an avg team.",
+      "score": 22,
+      "source_hint": "X posts \u2014 dissenting take after the Mets loss"
+    }
+  ],
+  "vibe_summary": "The Mets loss has cooled the room after a historic week \u2014 but with four games back in the division, a Schwarber power barrage, and a deadline conversation that has moved past 'if' to 'who,' the mood is restless ambition more than worry.",
+  "reasoning": "The dominant emotional arc of the last 24-48 hours is a collision between the historic Washington comeback euphoria \u2014 still being processed in depth across analytical and radio coverage \u2014 and a sharp Saturday loss to a reeling Mets team that exposed the fifth-starter gap and the lineup's vulnerability against quality pitching. The deeper analytical coverage remained constructively bullish, cataloguing Schwarber's all-time power numbers, Marsh's All-Star case, and the specific deadline targets that could seal a deep October run. The rawer fan voice on X registered the loss more bitterly, with a strand of 'average team' cynicism creeping back in. The gap between those two registers is the defining tension of the day.",
+  "people_mentioned": [
+    "Marsh",
+    "Schwarber",
+    "Harper",
+    "Mattingly",
+    "Stott",
+    "Hill",
+    "Lozardo",
+    "Nola",
+    "Wheeler",
+    "Sanchez",
+    "Turner",
+    "Bohm",
+    "Kerkering",
+    "Dombrowski",
+    "Realmuto",
+    "Crawford",
+    "Duran",
+    "Thompson",
+    "Bolin",
+    "Ronhill",
+    "Pham"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 101199,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 34656,
+    "youtube_comments": 3,
+    "youtube_comment_chars": 415,
+    "twitter_posts": 150,
+    "twitter_post_chars": 25233
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Phillies make MLB history in Washington",
+      "voice": "fan_analyst",
+      "chars": 29436
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "NINTH INNING MAGIC: Making sense of two of the WILDEST wins of the season",
+      "voice": "fan_analyst",
+      "chars": 33326
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Barrel-Aged",
+      "voice": "beat_writer",
+      "chars": 38437
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Must Give Braves Race Until The End!",
+      "voice": "radio_populist",
+      "chars": 466
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "A Bold Phillies Deadline Move \ud83d\udc40",
+      "voice": "radio_populist",
+      "chars": 11290
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Ex-Phillies Hitting Coach Milt Thompson On 2026 Team",
+      "voice": "radio_populist",
+      "chars": 22900
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 93.2,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 98.3,
+      "delta_pct": -5.1,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823452,
+          "date": "2026-06-15",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 7-0",
+          "attendance": 39241,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823451,
+          "date": "2026-06-16",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 8-2",
+          "attendance": 38238,
+          "pct_capacity": 89.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823450,
+          "date": "2026-06-17",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "L 4-12",
+          "attendance": 37591,
+          "pct_capacity": 87.6,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823448,
+          "date": "2026-06-18",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 4-6",
+          "attendance": 39767,
+          "pct_capacity": 92.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823447,
+          "date": "2026-06-20",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 15-3",
+          "attendance": 43402,
+          "pct_capacity": 101.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823449,
+          "date": "2026-06-21",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "W 6-2",
+          "attendance": 41552,
+          "pct_capacity": 96.9,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "46-37",
+    "streak": "L1",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-06-28T11:51:39.551051+00:00"
+}
