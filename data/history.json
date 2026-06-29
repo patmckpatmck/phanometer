@@ -17114,5 +17114,273 @@
       "games_behind": "4.0"
     },
     "generated_at": "2026-06-28T11:51:39.551051+00:00"
+  },
+  {
+    "date": "2026-06-29",
+    "display_score": 75,
+    "reactive_score": 75,
+    "baseline_score": 67,
+    "insufficient_signal": false,
+    "content_volume": 341,
+    "mood_label": "Buzzing",
+    "dimensions": {
+      "results_satisfaction": 82,
+      "front_office_trust": 68,
+      "manager_confidence": 78,
+      "lineup_confidence": 76,
+      "pitching_confidence": 72,
+      "health_outlook": 68,
+      "postseason_belief": 70
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 92,
+      "front_office_trust": 60,
+      "manager_confidence": 72,
+      "lineup_confidence": 80,
+      "pitching_confidence": 78,
+      "health_outlook": 45,
+      "postseason_belief": 75
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 80,
+        "note": "Fan analyst (Hittin' Season / Phillies Show / Phillies Talk) is broadly euphoric about the comeback from 10-under, the Braves gap closing to 3, and Schwarber/Harper/Marsh production, but carries clear-eyed concern about bullpen depth, Kerkering's inconsistency, the backend rotation, and skepticism about Tommy Pham as a meaningful addition."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 65,
+        "note": "Talk-radio host (WIP Daily) is genuinely impressed by the surge and the Mattingly record but stops short of calling this team 'great,' repeatedly citing the bullpen shakiness, lack of a reliable fourth/fifth starter, and the need for multiple trade-deadline upgrades as reasons for caution."
+      },
+      "youtube_fan": {
+        "score": 38,
+        "note": "YouTube commenter singles out Keller as a disappointment, a lone negative note with no broader positive context."
+      },
+      "twitter_fan": {
+        "score": 78,
+        "note": "X posts are broadly celebratory \u2014 Schwarber milestones, the historic .500 swing, the division gap closing \u2014 with active deadline speculation (Caminero, Arraez, Skubal) and a persistent undercurrent of bullpen anxiety and questions about whether 'great' is the right word yet."
+      }
+    },
+    "themes": [
+      {
+        "name": "Historic Turnaround Now a Pennant Race",
+        "delta": 9,
+        "sample": "From 10.5 games back to 3 in under six weeks \u2014 the first team in MLB history to swing from 10-under to 10-over before July 1 \u2014 has turned what looked like a wild-card campaign into a genuine NL East chase."
+      },
+      {
+        "name": "Schwarber and Harper Carrying the Offense",
+        "delta": 8,
+        "sample": "Schwarber's 30th home run \u2014 the fastest in franchise history \u2014 and Harper's elite OPS have the top of the lineup functioning at an MVP level, giving fans confidence the offense can win games late even when pitching wobbles."
+      },
+      {
+        "name": "Bullpen Is the Team's Clearest Flaw",
+        "delta": -7,
+        "sample": "Kerkering walking the bases loaded, Alvarado's throwing error, Shugart coughing up a lead in a third of an inning \u2014 the backend of the bullpen is viewed as the single biggest obstacle between this roster and a deep October run."
+      },
+      {
+        "name": "Mattingly Effect Is Real and Documented",
+        "delta": 7,
+        "sample": "A 38-18 record under Don Mattingly, a cultural reset described by Brandon Marsh himself, and the diverging trajectories of the Phillies and Mets since both started 9-19 have given the managerial change undeniable credibility."
+      },
+      {
+        "name": "Trade Deadline: Buyers With Unanswered Questions",
+        "delta": 2,
+        "sample": "There is consensus this team will \u2014 and should \u2014 act at the deadline, but disagreement sharpens around what to prioritize: bullpen arm, right-handed outfielder, or a backend starter, with Dombrowski expected to spend but the target list still unsettled."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "This team's going to make the playoffs. Unless they have major breakdowns, they're making the playoffs.",
+        "score": 82,
+        "source_hint": "fan analyst (The Phillies Show)"
+      },
+      {
+        "text": "They are playing great baseball, but if we were great we wouldn't have the holes that we have.",
+        "score": 55,
+        "source_hint": "talk-radio host (WIP Daily)"
+      },
+      {
+        "text": "First place by the All-Star break isn't off the table. This month has been like April inverted.",
+        "score": 88,
+        "source_hint": "X posts"
+      },
+      {
+        "text": "Kirkring is just by default \u2014 he's nowhere close to what I thought he was projected to be.",
+        "score": 32,
+        "source_hint": "talk-radio host (WIP Daily)"
+      }
+    ],
+    "vibe_summary": "Philadelphia is 47-37, three games behind Atlanta, and the question has quietly shifted from 'can they catch the Braves?' to 'how much will Dombrowski spend to make sure they do?'",
+    "reasoning": "The dominant mood is confident and forward-looking, driven by a historically unprecedented mid-season reversal, Schwarber's record-setting power, and the Mattingly-era winning percentage. Postseason belief rises meaningfully here \u2014 there is genuine, substantive talk of catching Atlanta, closing the gap before the All-Star break, and identifying the Phillies as active trade-deadline buyers who need to fortify, not just survive. The only real friction point is the bullpen, which receives consistent criticism from multiple angles: Kerkering's command issues, Alvarado's volatility, and Keller's absence leave an acknowledged hole that prevents full-throated declarations of 'greatness.' The talk-radio perspective is notably more cautious than the fan analyst voices, insisting the roster's remaining flaws disqualify 'great' status, while the broader fan base on X is already discussing specific trade targets and projecting a division title.",
+    "people_mentioned": [
+      "Schwarber",
+      "Harper",
+      "Mattingly",
+      "Marsh",
+      "Wheeler",
+      "Kerkering",
+      "Luzardo",
+      "Turner",
+      "Alvarado",
+      "Hill",
+      "Nola",
+      "Bohm",
+      "Stott",
+      "Duran",
+      "JT Realmuto",
+      "Dombrowski",
+      "Sanchez",
+      "Rincones",
+      "Painter",
+      "Pham",
+      "Amaro"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 138137,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 4365,
+      "youtube_comments": 1,
+      "youtube_comment_chars": 42,
+      "twitter_posts": 150,
+      "twitter_post_chars": 27975
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Comeback Kids: the Phillies are running down Atlanta in the NL East",
+        "voice": "fan_analyst",
+        "chars": 40591
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Spank the Mets, Trail the Braves By 3 Games!",
+        "voice": "fan_analyst",
+        "chars": 34260
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "HERE THEY COME: Phillies 10 games above .500 after good old fashioned series win over Mets",
+        "voice": "fan_analyst",
+        "chars": 32445
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Phillies make MLB history in Washington",
+        "voice": "fan_analyst",
+        "chars": 30841
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Is Phillies Greatness Upon Us?",
+        "voice": "radio_populist",
+        "chars": 1749
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Are Phils Great Enough to Go All In On At Trade Deadline?",
+        "voice": "radio_populist",
+        "chars": 963
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Disappointed By Phillies' Orion Kerkering",
+        "voice": "radio_populist",
+        "chars": 1653
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 93.2,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 98.8,
+        "delta_pct": -5.7,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823452,
+            "date": "2026-06-15",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 7-0",
+            "attendance": 39241,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823451,
+            "date": "2026-06-16",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 8-2",
+            "attendance": 38238,
+            "pct_capacity": 89.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823450,
+            "date": "2026-06-17",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "L 4-12",
+            "attendance": 37591,
+            "pct_capacity": 87.6,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823448,
+            "date": "2026-06-18",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 4-6",
+            "attendance": 39767,
+            "pct_capacity": 92.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823447,
+            "date": "2026-06-20",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 15-3",
+            "attendance": 43402,
+            "pct_capacity": 101.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823449,
+            "date": "2026-06-21",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "W 6-2",
+            "attendance": 41552,
+            "pct_capacity": 96.9,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "47-37",
+      "streak": "W1",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-06-29T14:09:33.435300+00:00"
   }
 ]
