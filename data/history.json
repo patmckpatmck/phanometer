@@ -17643,5 +17643,272 @@
       "games_behind": "3.5"
     },
     "generated_at": "2026-06-30T12:12:54.315484+00:00"
+  },
+  {
+    "date": "2026-07-01",
+    "display_score": 60,
+    "reactive_score": 60,
+    "baseline_score": 62,
+    "insufficient_signal": false,
+    "content_volume": 323,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 68,
+      "front_office_trust": 55,
+      "manager_confidence": 62,
+      "lineup_confidence": 62,
+      "pitching_confidence": 52,
+      "health_outlook": 62,
+      "postseason_belief": 52
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 78,
+      "front_office_trust": 60,
+      "manager_confidence": 55,
+      "lineup_confidence": 70,
+      "pitching_confidence": 85,
+      "health_outlook": 45,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 62,
+        "note": "Hittin' Season panel bullish on Sanchez and Wheeler but urgently concerned about Nola's decline and the need to acquire rotation depth before the August 3 deadline."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 65,
+        "note": "WIP Daily host reacted positively to the 8-0 Sanchez win and Crawford/Turner resurgence, but was sharply critical of Nola after Monday's collapse and alarmed by bullpen depth heading into the deadline."
+      },
+      "youtube_fan": {
+        "score": 28,
+        "note": "YouTube commenters almost exclusively vented about Nola, calling him a head case and a wasted contract who will cost the team the season."
+      },
+      "twitter_fan": {
+        "score": 68,
+        "note": "X posts celebrated the Sanchez shutout, Braves slippage to 2.5 games back, and Turner/Crawford hot streaks; some griped about Nola and roster construction."
+      }
+    },
+    "themes": [
+      {
+        "name": "Sanchez Silences Doubts",
+        "delta": 7,
+        "sample": "Seven scoreless innings, a 2.00 ERA, and a home record that is historically dominant \u2014 Tuesday's shutout erased any lingering worry about a brief rough patch and restarted talk of an All-Star game start at Citizens Bank Park."
+      },
+      {
+        "name": "Nola's Tank Is Empty",
+        "delta": -7,
+        "sample": "A 6.02 ERA over his last two seasons, unable to survive the fifth inning, and four years left on his contract \u2014 the Monday collapse crystallized a growing consensus that the fourth or fifth rotation spot must be addressed before the deadline, one way or another."
+      },
+      {
+        "name": "Turner and Crawford Heating Up",
+        "delta": 6,
+        "sample": "Trea Turner posting a .345 average over his last 13 games and Justin Crawford going three-for-three Tuesday, including a bases-loaded double, are injecting real optimism into the bottom third of the lineup."
+      },
+      {
+        "name": "Deadline Urgency Building",
+        "delta": -4,
+        "sample": "With three acknowledged pressure points \u2014 rotation depth, a right-field bat, and bullpen reinforcement \u2014 and a farm system described as thin, the sense that the front office faces more holes than answers is intensifying as August 3 approaches."
+      },
+      {
+        "name": "Braves Slipping, Division in Sight",
+        "delta": 6,
+        "sample": "Atlanta's struggles have trimmed the deficit to 2.5 games, and the mood has shifted from chasing a wild card to genuinely believing the division title is within reach \u2014 the Phillies have made up eight games on the Braves in roughly five weeks."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "There's four years left on the Aaron Nola contract. Four. And he just doesn't have much left in the tank.",
+        "score": 18,
+        "source_hint": "talk-radio host reacting to Monday's loss on WIP Final Out"
+      },
+      {
+        "text": "The Phillies are 34-13 this season in games started by Cristopher Sanchez, Zack Wheeler and Jesus Luzardo.",
+        "score": 82,
+        "source_hint": "X posts celebrating rotation top-three dominance"
+      },
+      {
+        "text": "I would do Andrew Painter for Ranger Suarez. Absolutely. I would do it. He solves so many issues.",
+        "score": 65,
+        "source_hint": "fan analyst (Hittin' Season / Ruben Amaro Jr.) on trade deadline options"
+      },
+      {
+        "text": "The first team in baseball to beat 10 games under .500 and crawl to 10 games over .500 before July in baseball history.",
+        "score": 76,
+        "source_hint": "talk-radio host caller on WIP Final Out marveling at the turnaround"
+      }
+    ],
+    "vibe_summary": "Tuesday's dominant shutout win lifted spirits and the Braves lead is down to 2.5 games, but Aaron Nola's accelerating decline has sharpened deadline anxiety into something that now feels like a genuine structural emergency.",
+    "reasoning": "The 8-0 Sanchez shutout and the tightening division race generated real positivity \u2014 Turner and Crawford are both swinging well, and the team's overall trajectory under Mattingly remains a source of pride. However, the Monday Nola implosion cast a long shadow, with pointed alarm about his inability to survive the fifth inning, four years remaining on his contract, and a bullpen already running on fumes. There is a clear split: the results-driven mood is cautiously optimistic, while the structural pitching conversation is closer to crisis-level. Postseason belief is modest \u2014 the confidence expressed is in winning the division, not necessarily in a deep October run, and the deadline urgency frames the roster as incomplete rather than championship-ready.",
+    "people_mentioned": [
+      "Sanchez",
+      "Nola",
+      "Wheeler",
+      "Turner",
+      "Crawford",
+      "Mattingly",
+      "Schwarber",
+      "Harper",
+      "Dombrowski",
+      "Luzardo",
+      "Painter",
+      "Ranger Suarez",
+      "Kerkering",
+      "Alvarado",
+      "Bolin",
+      "Derek Hill",
+      "Shugart",
+      "Renteria",
+      "Gage Wood",
+      "Tommy Pham"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 123256,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 2372,
+      "youtube_comments": 5,
+      "youtube_comment_chars": 862,
+      "twitter_posts": 150,
+      "twitter_post_chars": 28744
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "The Phillies need a starting pitcher before Aug. 3 trade deadline",
+        "voice": "fan_analyst",
+        "chars": 38122
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: That's More Like It!",
+        "voice": "radio_populist",
+        "chars": 23722
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: What An Annoying Loss",
+        "voice": "radio_populist",
+        "chars": 18009
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Thank You, Ronny Mauricio!",
+        "voice": "radio_populist",
+        "chars": 43403
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Don Mattingly On Cristopher Sanchez Starting All-Star Game",
+        "voice": "radio_populist",
+        "chars": 770
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Trea Turner HRs in 2 Straight",
+        "voice": "radio_populist",
+        "chars": 887
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Aaron Nola Hit A WALL",
+        "voice": "radio_populist",
+        "chars": 715
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 94.7,
+        "baseline_games_count": 35,
+        "baseline_avg_pct": 98.7,
+        "delta_pct": -4.0,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823450,
+            "date": "2026-06-17",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "L 4-12",
+            "attendance": 37591,
+            "pct_capacity": 87.6,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823448,
+            "date": "2026-06-18",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 4-6",
+            "attendance": 39767,
+            "pct_capacity": 92.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823447,
+            "date": "2026-06-20",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 15-3",
+            "attendance": 43402,
+            "pct_capacity": 101.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823449,
+            "date": "2026-06-21",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "W 6-2",
+            "attendance": 41552,
+            "pct_capacity": 96.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823444,
+            "date": "2026-06-29",
+            "day_of_week": "Monday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 7-11",
+            "attendance": 39791,
+            "pct_capacity": 92.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823445,
+            "date": "2026-06-30",
+            "day_of_week": "Tuesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 8-0",
+            "attendance": 41710,
+            "pct_capacity": 97.2,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "48-38",
+      "streak": "W1",
+      "games_behind": "2.5"
+    },
+    "generated_at": "2026-07-01T12:41:03.885687+00:00"
   }
 ]
