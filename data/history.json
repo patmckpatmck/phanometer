@@ -17910,5 +17910,272 @@
       "games_behind": "2.5"
     },
     "generated_at": "2026-07-01T12:41:03.885687+00:00"
+  },
+  {
+    "date": "2026-07-02",
+    "display_score": 68,
+    "reactive_score": 68,
+    "baseline_score": 61,
+    "insufficient_signal": false,
+    "content_volume": 366,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 78,
+      "front_office_trust": 62,
+      "manager_confidence": 60,
+      "lineup_confidence": 72,
+      "pitching_confidence": 63,
+      "health_outlook": 62,
+      "postseason_belief": 65
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 82,
+      "front_office_trust": 70,
+      "manager_confidence": 65,
+      "lineup_confidence": 78,
+      "pitching_confidence": 85,
+      "health_outlook": 55,
+      "postseason_belief": 72
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 72,
+        "note": "The Phillies Show and Phillies Talk both project genuine optimism about the rotation's top end (Wheeler, Sanchez) and Trea Turner's resurgence, while treating Nola's decline and the bottom of the rotation as urgent deadline business; the Ranger Suarez idea and controllable-starter names signal a buyer mindset."
+      },
+      "beat_writer": {
+        "score": 68,
+        "note": "Phillies Therapy celebrates the remarkable turnaround (38-18 since the low point) and Duran's case as team MVP, but digs hard into structural liabilities \u2014 historically bad defense converting batted balls, a porous outfield, and a bullpen path to the ninth that worries the beat writer enough to rank a late-inning reliever as a co-top deadline priority."
+      },
+      "radio_populist": {
+        "score": 65,
+        "note": "High Hopes rides the wave of Tuesday's shutout win and Crawford/Sanchez breakouts; the WIP LA segment is more measured, voicing genuine concern that Nola sounded 'defeated' and calling a lefty bullpen arm the single most important deadline addition; Wheeler's irritation at Mattingly after the Wednesday outing adds a minor managerial friction note."
+      },
+      "youtube_fan": {
+        "score": 60,
+        "note": "Comments are low-volume and mixed \u2014 appreciation for Nola's effort and Harper's consistency sits alongside a blunt 'he's shot' take on Nola's decline; Harper's All-Star case debated but no strong consensus."
+      },
+      "twitter_fan": {
+        "score": 74,
+        "note": "X posts buzz with celebration over the 10-6 win against Skenes, Turner's home run streak, Marsh's breakout numbers, and the division gap narrowing; Wheeler's unhappiness with Mattingly is a recurring thread, and deadline speculation (Dombrowski as 'executive to watch') keeps a forward-looking undertone."
+      }
+    },
+    "themes": [
+      {
+        "name": "Bats Batter Skenes, Offense Arrives",
+        "delta": 8,
+        "sample": "A 10-6 demolition of the reigning Cy Young winner \u2014 the most runs he has ever allowed \u2014 with Turner hitting a three-run homer, Marsh going deep, and Harper driving in two, has the offense looking like a legitimate October weapon rather than the season-long question mark it has been."
+      },
+      {
+        "name": "Nola Decline Sharpens Deadline Urgency",
+        "delta": -5,
+        "sample": "Across multiple analyses, Aaron Nola's inability to sustain stuff past the third or fourth inning \u2014 underscored by JT Realmuto's observation that the stuff 'just went away' and by Nola sounding 'defeated' after his last start \u2014 has elevated finding a rotation supplement from a nice-to-have to a near-emergency before August 3rd."
+      },
+      {
+        "name": "Wheeler vs. Mattingly: A Bulldog's Grievance",
+        "delta": -2,
+        "sample": "Zack Wheeler's on-record frustration at being pulled with two outs in the fifth \u2014 'I feel like I've earned that' \u2014 while the Phillies were winning big generated widespread discussion; fans largely sided with Wheeler's competitive fire even as the managerial logic in a blowout is defensible."
+      },
+      {
+        "name": "Trade Deadline Blueprint Taking Shape",
+        "delta": 3,
+        "sample": "The conversation has matured from panic-buying to strategic targeting: a late-inning left-handed reliever, a rotation supplement for the regular season, and a glove-first outfielder to plug the defense \u2014 seen as the team's most underappreciated structural flaw \u2014 with marquee swings constrained by a thinned prospect pool."
+      },
+      {
+        "name": "Turner and Crawford Resurgence Raises Ceiling",
+        "delta": 6,
+        "sample": "Trea Turner hitting in five of his last seven games with three home runs in three days, combined with Justin Crawford's swing adjustments producing a .362 clip over his last 15 games, has turned the bottom and top of the lineup into something that feels like a genuine threat rather than a liability."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "They're coming, he says. They're coming, he says. Watch out. Watch your rearview mirrors, Atlanta.",
+        "score": 84,
+        "source_hint": "beat writer (Phillies Therapy), quoting Bryce Harper's postgame comments"
+      },
+      {
+        "text": "Nola just sounded defeated after that start Monday. He's got to get that swagger back, that confidence back.",
+        "score": 28,
+        "source_hint": "talk-radio host (WIP Daily), Larry Andersen segment on Aaron Nola"
+      },
+      {
+        "text": "Yeah, I was upset. Getting taken out of the game. You'd like to finish \u2014 obviously. Feel like I burned that.",
+        "score": 45,
+        "source_hint": "talk-radio host (94WIP), Zack Wheeler post-game interview"
+      },
+      {
+        "text": "John Duran, I think, if we're doing hot takes \u2014 I think John Duran was their most valuable player in the first 81 games this season.",
+        "score": 88,
+        "source_hint": "beat writer (Phillies Therapy)"
+      }
+    ],
+    "vibe_summary": "Back-to-back wins, a shellacking of the reigning Cy Young winner, and Turner finally looking like himself have Phillies fans feeling the division race is very much alive \u2014 but the roster's structural cracks in defense and the back of the bullpen are keeping the mood optimistic rather than euphoric.",
+    "reasoning": "The dominant emotional driver is the combination of a W2 streak, a convincing offense-led win over Paul Skenes, and Trea Turner's hot stretch, which has measurably lifted sentiment across all present sources. However, analysis runs deeper than celebration: Nola's decline is now being treated as a confirmed structural problem rather than a slump, the defense is statistically identified as a hidden team weakness, and the bullpen path beyond Duran is an open wound headed into October. The Wheeler-Mattingly friction added a small but real note of managerial friction that tempers confidence in the dugout. Beat-writer analysis was the most sobering \u2014 quantifying defensive failures and the prospect-pool constraints on deadline ambition \u2014 while fan voices on X leaned into the celebratory wins and narrowing division gap.",
+    "people_mentioned": [
+      "Wheeler",
+      "Nola",
+      "Sanchez",
+      "Turner",
+      "Crawford",
+      "Duran",
+      "Mattingly",
+      "Marsh",
+      "Harper",
+      "Schwarber",
+      "Luzardo",
+      "Dombrowski",
+      "Painter",
+      "Kerkering",
+      "Alvarado",
+      "Bohm",
+      "Stott",
+      "Hill",
+      "Realmuto",
+      "Andersen"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 138614,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 16492,
+      "youtube_comments": 9,
+      "youtube_comment_chars": 657,
+      "twitter_posts": 150,
+      "twitter_post_chars": 27609
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "The Phillies need a starting pitcher before Aug. 3 trade deadline",
+        "voice": "fan_analyst",
+        "chars": 34070
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: That's More Like It!",
+        "voice": "radio_populist",
+        "chars": 22979
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "One-Run Fun in the Sun",
+        "voice": "beat_writer",
+        "chars": 50169
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "HERE THEY COME: Phillies 10 games above .500 after good old fashioned series win over Mets",
+        "voice": "fan_analyst",
+        "chars": 31396
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Zack Wheeler ANNOYED With Don Mattingly",
+        "voice": "radio_populist",
+        "chars": 645
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Figuring Out Aaron Nola",
+        "voice": "radio_populist",
+        "chars": 1137
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Larry Andersen Analyzes Aaron Nola's Recent Struggles",
+        "voice": "radio_populist",
+        "chars": 14710
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 96.4,
+        "baseline_games_count": 34,
+        "baseline_avg_pct": 98.6,
+        "delta_pct": -2.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823448,
+            "date": "2026-06-18",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 4-6",
+            "attendance": 39767,
+            "pct_capacity": 92.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823447,
+            "date": "2026-06-20",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 15-3",
+            "attendance": 43402,
+            "pct_capacity": 101.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823449,
+            "date": "2026-06-21",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "W 6-2",
+            "attendance": 41552,
+            "pct_capacity": 96.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823444,
+            "date": "2026-06-29",
+            "day_of_week": "Monday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 7-11",
+            "attendance": 39791,
+            "pct_capacity": 92.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823445,
+            "date": "2026-06-30",
+            "day_of_week": "Tuesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 8-0",
+            "attendance": 41710,
+            "pct_capacity": 97.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823446,
+            "date": "2026-07-01",
+            "day_of_week": "Wednesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 10-6",
+            "attendance": 41766,
+            "pct_capacity": 97.4,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "49-38",
+      "streak": "W2",
+      "games_behind": "2.5"
+    },
+    "generated_at": "2026-07-02T12:15:34.572890+00:00"
   }
 ]
