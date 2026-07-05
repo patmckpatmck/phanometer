@@ -18711,5 +18711,268 @@
       "games_behind": "3.0"
     },
     "generated_at": "2026-07-04T11:33:30.434959+00:00"
+  },
+  {
+    "date": "2026-07-05",
+    "display_score": 65,
+    "reactive_score": 65,
+    "baseline_score": 63,
+    "insufficient_signal": false,
+    "content_volume": 301,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 72,
+      "front_office_trust": 58,
+      "manager_confidence": 78,
+      "lineup_confidence": 68,
+      "pitching_confidence": 52,
+      "health_outlook": 62,
+      "postseason_belief": 55
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 78,
+      "front_office_trust": 65,
+      "manager_confidence": 90,
+      "lineup_confidence": 72,
+      "pitching_confidence": 85,
+      "health_outlook": 55,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 65,
+        "note": "Hittin' Season and the Phillies Show both celebrate the offensive resurgence and the division being alive at 3 back, but flag Aaron Nola's decline, bullpen fragility, and a thin farm system as real pre-deadline anxieties."
+      },
+      "beat_writer": {
+        "score": 62,
+        "note": "Phillies Therapy applauds the 38-18 run since the low point and Duran's historic season, while sounding the alarm on defense, a troubling BABIP allowed, and a bullpen path to October that feels incomplete without at least one more reliever."
+      },
+      "radio_populist": {
+        "score": 70,
+        "note": "WIP segments celebrate the division turnaround and frame Mattingly's willingness to pull Wheeler as proof of exactly the managerial authority this team has needed; overall tone is upbeat with a 'finally' quality."
+      },
+      "youtube_fan": {
+        "score": 66,
+        "note": "Comments are largely supportive of Mattingly's decision and bullish on his long-term fit, though a vocal minority sides with Wheeler and a few question whether the bullpen can back up the manager's boldness."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Division Race Legitimately Alive",
+        "delta": 7,
+        "sample": "From 10.5 games back in late April to 3 games back now, the turnaround is real \u2014 and the schedule heading into the All-Star break favors the Phillies catching the sliding Braves."
+      },
+      {
+        "name": "Nola in Freefall, Bullpen Overtaxed",
+        "delta": -7,
+        "sample": "Aaron Nola can't survive past the third or fourth inning without imploding, and the resulting strain on a bullpen featuring Alvarado's 6-plus ERA and Backhus's struggles has become the team's most urgent problem."
+      },
+      {
+        "name": "Mattingly's Authority Earns Real Credibility",
+        "delta": 6,
+        "sample": "Pulling Wheeler at 104 pitches mid-inning \u2014 and standing behind it without apology \u2014 has become a rallying symbol: this team is finally being managed with backbone."
+      },
+      {
+        "name": "Offense Genuinely Hot, RISP Production Historic",
+        "delta": 6,
+        "sample": "Since June 1st, the Phillies lead all of baseball in batting average with runners in scoring position, erasing months of frustration and carrying the team through the pitching staff's rough patch."
+      },
+      {
+        "name": "Trade Deadline: Rotation Help Now the Priority",
+        "delta": -3,
+        "sample": "Nola's collapse has reshuffled deadline thinking \u2014 a starting pitcher is now the most urgent acquisition, ahead of the bat most fans still want, and ahead of a bullpen that may or may not have an answer in Brad Keller."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "They are the epitome of what the fight it feels all about.",
+        "score": 80,
+        "source_hint": "talk-radio host on WIP, describing the Phillies' turnaround"
+      },
+      {
+        "text": "I cannot trust him. He's got a six ERA. I just can't trust him.",
+        "score": 28,
+        "source_hint": "Phillies Show beat writer, on Jose Alvarado as a playoff leverage option"
+      },
+      {
+        "text": "Feel like I've earned that.",
+        "score": 45,
+        "source_hint": "Zach Wheeler postgame, quoted on-air during WIP segment on the Mattingly pullout decision"
+      },
+      {
+        "text": "He has a gravitas just by the nature of who he is and what he's accomplished that other people could not bring.",
+        "score": 78,
+        "source_hint": "talk-radio host (High Hopes) on Don Mattingly's authority with the roster"
+      }
+    ],
+    "vibe_summary": "Three games back with a hot offense and a manager earning genuine respect, Phillies fans are more energized than they've been all year \u2014 but Aaron Nola's collapse and a bullpen that can't be trusted in October are casting a long shadow over the pre-deadline stretch.",
+    "reasoning": "The dominant emotional current is cautious optimism fueled by a real division race and an offense that has finally arrived, but it is checked on every side by concrete pitching concerns \u2014 Nola's inability to survive past three or four innings, Alvarado's ballooning ERA, and a farm system too thin to fix problems internally. The Mattingly-Wheeler moment generated mostly positive sentiment, with fans and analysts agreeing that firm managerial authority is exactly what this team needed, even if the specifics of the pull were debatable. The beat writer is the most structurally worried, raising the defense and BABIP allowed as a Death Star vent that the pitching staff's excellence is currently masking; the talk-radio and fan-analyst voices are more energized by the standings and the schedule, but all agree the deadline must produce at minimum a starter and a late-inning reliever.",
+    "people_mentioned": [
+      "Mattingly",
+      "Wheeler",
+      "Nola",
+      "Alvarado",
+      "Duran",
+      "Harper",
+      "Marsh",
+      "Schwarber",
+      "Dombrowski",
+      "Stott",
+      "Bohm",
+      "Turner",
+      "Sanchez",
+      "Kerkering",
+      "Keller",
+      "Painter",
+      "Crawford",
+      "Rincones",
+      "Reyes",
+      "Kemp",
+      "Hill",
+      "Skeens",
+      "Rollins",
+      "Howard",
+      "McGonigal",
+      "Luzardo"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 201892,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 11044,
+      "youtube_comments": 17,
+      "youtube_comment_chars": 2995,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies July 4th Preview!",
+        "voice": "fan_analyst",
+        "chars": 37107
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "James Needs To LOCK IN!",
+        "voice": "radio_populist",
+        "chars": 62685
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "The Phillies offense heats up, Zack Wheeler gets fired up",
+        "voice": "fan_analyst",
+        "chars": 50948
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "One-Run Fun in the Sun",
+        "voice": "beat_writer",
+        "chars": 51152
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "2026 Phillies Are Epitome Of FIGHTING Phils",
+        "voice": "radio_populist",
+        "chars": 1285
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Don Mattingly \"PERFECT\" Manager For Phillies",
+        "voice": "radio_populist",
+        "chars": 1618
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Manager Don Mattingly Does Not Care About Feelings",
+        "voice": "radio_populist",
+        "chars": 8141
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 5,
+        "recent_avg_pct": 94.5,
+        "baseline_games_count": 35,
+        "baseline_avg_pct": 98.7,
+        "delta_pct": -4.2,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823449,
+            "date": "2026-06-21",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "W 6-2",
+            "attendance": 41552,
+            "pct_capacity": 96.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823444,
+            "date": "2026-06-29",
+            "day_of_week": "Monday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 7-11",
+            "attendance": 39791,
+            "pct_capacity": 92.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823445,
+            "date": "2026-06-30",
+            "day_of_week": "Tuesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 8-0",
+            "attendance": 41710,
+            "pct_capacity": 97.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823446,
+            "date": "2026-07-01",
+            "day_of_week": "Wednesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 10-6",
+            "attendance": 41766,
+            "pct_capacity": 97.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823442,
+            "date": "2026-07-02",
+            "day_of_week": "Thursday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 1-6",
+            "attendance": 37851,
+            "pct_capacity": 88.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "50-39",
+      "streak": "W1",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-07-05T11:39:22.241805+00:00"
   }
 ]
