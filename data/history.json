@@ -18974,5 +18974,244 @@
       "games_behind": "3.0"
     },
     "generated_at": "2026-07-05T11:39:22.241805+00:00"
+  },
+  {
+    "date": "2026-07-06",
+    "display_score": 68,
+    "reactive_score": 68,
+    "baseline_score": 64,
+    "insufficient_signal": false,
+    "content_volume": 224,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 72,
+      "front_office_trust": 62,
+      "manager_confidence": 74,
+      "lineup_confidence": 70,
+      "pitching_confidence": 68,
+      "health_outlook": 62,
+      "postseason_belief": 55
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 45,
+      "manager_confidence": 80,
+      "lineup_confidence": 65,
+      "pitching_confidence": 78,
+      "health_outlook": 55,
+      "postseason_belief": 50
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 74,
+        "note": "Fan analyst voices (Hittin' Season / Phillies Show / Phillies Talk) are celebratory about five All-Star selections, bullish on Harper and Duran, encouraged by Nola's bounce-back, but openly critical of the Wheeler snub and anxious about the bullpen depth behind Duran."
+      },
+      "beat_writer": {
+        "score": 68,
+        "note": "Beat writer (Phillies Therapy / Matt Gelb) is genuinely encouraged by the turnaround \u2014 47-37, three back \u2014 but analytically worried about defense, the corner outfield void, and whether the bullpen bridge to Duran is reliable enough for October; deadline framing is realistic, not euphoric."
+      },
+      "radio_populist": {
+        "score": 76,
+        "note": "Talk-radio host (WIP Daily / Joe Giglio) is enthusiastic about the turnaround and effusive about Mattingly's managerial nerve, treating the Wheeler pull as a clear positive signal; tone is upbeat and vindicated."
+      },
+      "youtube_fan": {
+        "score": 70,
+        "note": "YouTube commenters broadly back Mattingly's Wheeler decision and celebrate his toughness vs. Thomson, though a minority defends Wheeler's frustration and one dissenter argues the move backfired when the bullpen hit batters."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Five All-Stars, One Glaring Snub",
+        "delta": 5,
+        "sample": "Five Phillies earning All-Star nods \u2014 led by Harper as commissioner's legend pick, Marsh earning his first start, and Duran in his first appearance \u2014 generated genuine pride, but Wheeler's omission despite a sub-2.40 ERA drew sharp criticism as the clearest injustice of the selection process."
+      },
+      {
+        "name": "Nola's Seven-Inning Revival",
+        "delta": 6,
+        "sample": "Aaron Nola's seven-inning outing against Kansas City \u2014 his longest since April 2025 \u2014 offered real encouragement after a dreadful June, with his curveball and chase rates returning to form, though questions linger about whether it signals a true reset or just one good day."
+      },
+      {
+        "name": "Mattingly's Wheeler Gamble Divides the Room",
+        "delta": 2,
+        "sample": "The decision to pull Wheeler before completing the fifth inning \u2014 breaking a 53-start streak \u2014 sparked a public standoff, with most fans ultimately siding with the manager's authority and big-picture thinking, while acknowledging Wheeler's frustration as legitimate and the subsequent bullpen handling as messy."
+      },
+      {
+        "name": "Bullpen Depth Remains the Pre-Deadline Anxiety",
+        "delta": -4,
+        "sample": "Duran is elite and historically good, but the bridge to him through the seventh and eighth innings \u2014 Alvarado's inconsistency, Kirkering's shaky moments, Keller's health uncertainty \u2014 is generating real concern about whether this bullpen can actually hold leads in October."
+      },
+      {
+        "name": "Defense Is the Quiet Crisis Nobody Wants to Talk About",
+        "delta": -3,
+        "sample": "Analytical scrutiny reveals the Phillies are allowing one of the highest batting averages on balls in play in baseball, a direct consequence of corner outfield defense that has been genuinely bad, raising uncomfortable questions about whether a deadline glove acquisition matters more than a bat."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Harper is elite. He's an elite ball player. And he's a future Hall of Famer.",
+        "score": 85,
+        "source_hint": "Hittin' Season / Phillies Show fan analyst"
+      },
+      {
+        "text": "I think John Duran was their most valuable player in the first 81 games of the season. I really do.",
+        "score": 88,
+        "source_hint": "Phillies Therapy beat writer"
+      },
+      {
+        "text": "Wheeler I'm sorry your feelings got hurt, but you definitely need to grow up and pitch much better.",
+        "score": 42,
+        "source_hint": "YouTube commenter on WIP Mattingly clip"
+      },
+      {
+        "text": "I'm not convinced they have everything they need back there.",
+        "score": 38,
+        "source_hint": "Phillies Therapy beat writer on bullpen"
+      }
+    ],
+    "vibe_summary": "Five All-Stars and a revived Aaron Nola have Phillies fans feeling good heading into the break, but the Wheeler standoff, a shaky bullpen bridge, and a defense that keeps leaking runs are keeping full euphoria just out of reach.",
+    "reasoning": "The dominant current driving fan mood is a mix of All-Star pride and cautious pre-deadline calculation. The five All-Star selections \u2014 particularly Marsh's first career start and Duran's first nod \u2014 generated genuine warmth, while Harper's numbers being strong enough to merit a commissioner's legend pick rather than a standard reserve slot carried a tinge of disrespect that lingered. Nola's bounce-back was warmly received as meaningful progress after a dismal June. The Wheeler-Mattingly standoff produced a mostly pro-Mattingly verdict from fans, though the beat-writer voice was more analytically nuanced, flagging the bullpen reliability and defensive deficiencies as the real systemic risks heading toward the deadline \u2014 concerns the talk-radio and YouTube voices acknowledged but treated as secondary to the turnaround story.",
+    "people_mentioned": [
+      "Harper",
+      "Duran",
+      "Mattingly",
+      "Marsh",
+      "Wheeler",
+      "Nola",
+      "Schwarber",
+      "Sanchez",
+      "Turner",
+      "Dombrowski",
+      "Painter",
+      "Luzardo",
+      "Stott",
+      "Rincones",
+      "Hill",
+      "Alvarado",
+      "Keller",
+      "Bohm"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 143195,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 11044,
+      "youtube_comments": 18,
+      "youtube_comment_chars": 3030,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Yes, NL All-Star Bryce Harper is still elite",
+        "voice": "fan_analyst",
+        "chars": 39359
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies WELL represented in the 2026 All-Star Game, but did Wheeler get snubbed?",
+        "voice": "fan_analyst",
+        "chars": 50743
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "One-Run Fun in the Sun",
+        "voice": "beat_writer",
+        "chars": 53093
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "2026 Phillies Are Epitome Of FIGHTING Phils",
+        "voice": "radio_populist",
+        "chars": 1285
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Don Mattingly \"PERFECT\" Manager For Phillies",
+        "voice": "radio_populist",
+        "chars": 1618
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Manager Don Mattingly Does Not Care About Feelings",
+        "voice": "radio_populist",
+        "chars": 8141
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 4,
+        "recent_avg_pct": 93.9,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 98.5,
+        "delta_pct": -4.6,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823444,
+            "date": "2026-06-29",
+            "day_of_week": "Monday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 7-11",
+            "attendance": 39791,
+            "pct_capacity": 92.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823445,
+            "date": "2026-06-30",
+            "day_of_week": "Tuesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 8-0",
+            "attendance": 41710,
+            "pct_capacity": 97.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823446,
+            "date": "2026-07-01",
+            "day_of_week": "Wednesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 10-6",
+            "attendance": 41766,
+            "pct_capacity": 97.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823442,
+            "date": "2026-07-02",
+            "day_of_week": "Thursday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 1-6",
+            "attendance": 37851,
+            "pct_capacity": 88.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "50-40",
+      "streak": "L1",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-07-06T13:49:38.409402+00:00"
   }
 ]
