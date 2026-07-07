@@ -19213,5 +19213,253 @@
       "games_behind": "3.0"
     },
     "generated_at": "2026-07-06T13:49:38.409402+00:00"
+  },
+  {
+    "date": "2026-07-07",
+    "display_score": 54,
+    "reactive_score": 54,
+    "baseline_score": 65,
+    "insufficient_signal": false,
+    "content_volume": 282,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 42,
+      "front_office_trust": 55,
+      "manager_confidence": 62,
+      "lineup_confidence": 58,
+      "pitching_confidence": 60,
+      "health_outlook": 58,
+      "postseason_belief": 52
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 50,
+      "manager_confidence": 60,
+      "lineup_confidence": 65,
+      "pitching_confidence": 78,
+      "health_outlook": 45,
+      "postseason_belief": 48
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 58,
+        "note": "Hittin' Season and companion fan analyst shows are celebratory about five All-Stars and Brandon Marsh's rise, but sharply critical of the 15-1 blowout, Trey Turner's defensive liability at short, and the deep-bullpen trust vacuum outside Duran."
+      },
+      "beat_writer": {
+        "score": 62,
+        "note": "The beat writer (Phillies Therapy) is the most structurally optimistic voice \u2014 47-37, three back of Atlanta, historic one-run-game record \u2014 but raises pointed alarms about defense, right-field production, and trade-deadline limitations that temper the good feeling. NOTE: This episode predates the ground-truth record of 50-41 and the current L2 streak; tone and qualitative signals used, not its record figures."
+      },
+      "radio_populist": {
+        "score": 50,
+        "note": "Talk-radio host (WIP Daily) is enthusiastic about the five All-Stars and Marsh's story but vocal about the bullpen being untrustworthy outside Duran, the offense going quiet in losses, and the Wheeler snub being a genuine injustice."
+      },
+      "youtube_fan": {
+        "score": 40,
+        "note": "YouTube commenters are split and combative \u2014 one calls for Wheeler to apologize and threatens a trade demand, the other defends Harper's All-Star merit; overall tone is irritable rather than celebratory."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler Snub Stings",
+        "delta": -6,
+        "sample": "Zach Wheeler's omission from the All-Star roster \u2014 despite a 2.36 ERA and a WAR nearly doubling Logan Webb's \u2014 is the sharpest grievance cutting through what should be a purely celebratory week, amplified by his agent's public broadside calling it 'ludicrous' and 'tone-deaf'."
+      },
+      {
+        "name": "Marsh Mania Is Real",
+        "delta": 7,
+        "sample": "Brandon Marsh earning an All-Star starting nod after nearly losing his roster spot in 2025 is the feel-good story of the first half, with genuine excitement about a player who has reinvented himself as a cleanup hitter approaching 30 home runs."
+      },
+      {
+        "name": "Sanchez Blown Up, All-Star Start in Doubt",
+        "delta": -5,
+        "sample": "A 15-1 series-ending loss in Kansas City \u2014 the first time the Phillies gave up a run in every inning in over 100 years \u2014 put Christopher Sanchez's worst career start on display right before the All-Star break, complicating his shot at starting the Midsummer Classic in his home park."
+      },
+      {
+        "name": "Trey Turner's Defense Is a Breaking Point",
+        "delta": -6,
+        "sample": "Turner's 12th error of the season, on a would-be double-play that triggered a six-run first inning, has moved the conversation from frustration to frank debate about whether he can continue at shortstop and what a mid-season position change would actually cost the team."
+      },
+      {
+        "name": "Duran Is Elite, Bullpen Bridge Is Not",
+        "delta": -3,
+        "sample": "Johan Duran's near-perfect closing season is masking a genuine crisis of trust in the seventh and eighth innings, with Alvarado unreliable, Seth Johnson walking batters, and Brad Keller's health status unresolved \u2014 a problem that feels playoff-sized."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "It's ludicrous. Major League Baseball knows. Everybody knows what he's been through.",
+        "score": 22,
+        "source_hint": "Wheeler's agent quoted on talk-radio host (WIP Daily) Wheeler snub segment"
+      },
+      {
+        "text": "He's boring. He just goes out and does his job and he's the best pitcher in baseball the last 6, 7, 8, 9, 10 years.",
+        "score": 35,
+        "source_hint": "Wheeler's agent quoted on talk-radio host (WIP Daily)"
+      },
+      {
+        "text": "I think John Duran was their most valuable player in the first 81 games of the season.",
+        "score": 82,
+        "source_hint": "beat writer (Phillies Therapy)"
+      },
+      {
+        "text": "He pitched like crap today.",
+        "score": 18,
+        "source_hint": "Christopher Sanchez via interpreter, quoted on fan analyst (Hittin' Season)"
+      }
+    ],
+    "vibe_summary": "Celebration and irritation are running in parallel this week \u2014 five All-Stars and a feel-good Marsh story on one hand, a historically ugly blowout, a snubbed Wheeler, and a shortstop whose glove is becoming undeniable on the other.",
+    "reasoning": "The dominant mood is split between the genuine pride of five All-Star selections \u2014 anchored by Marsh's remarkable turnaround story \u2014 and real anger over the 15-1 Kansas City demolition, Wheeler's omission, and Trey Turner's defensive liability reaching a tipping point. The beat writer is the most measured and structurally optimistic, grounding enthusiasm in the team's winning record and historic one-run-game performance, while the fan analyst and talk-radio voices are more reactive to the blowout and All-Star injustice. YouTube commenters are the most combative, with Wheeler blame running in two directions at once.",
+    "people_mentioned": [
+      "Marsh",
+      "Wheeler",
+      "Sanchez",
+      "Turner",
+      "Duran",
+      "Harper",
+      "Schwarber",
+      "Mattingly",
+      "Dombrowski",
+      "Nola",
+      "Luzardo",
+      "Stott",
+      "Painter",
+      "Alvarado",
+      "Kerkering",
+      "Sosa",
+      "Harper",
+      "Realmuto",
+      "Bohm",
+      "Hill",
+      "Rincones"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 181653,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 28314,
+      "youtube_comments": 2,
+      "youtube_comment_chars": 555,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Cristopher Sanchez and the Phillies Roughed Up In Kansas City",
+        "voice": "fan_analyst",
+        "chars": 48271
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Yes, NL All-Star Bryce Harper is still elite",
+        "voice": "fan_analyst",
+        "chars": 35744
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies WELL represented in the 2026 All-Star Game, but did Wheeler get snubbed?",
+        "voice": "fan_analyst",
+        "chars": 50316
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "One-Run Fun in the Sun",
+        "voice": "beat_writer",
+        "chars": 47322
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Zack Wheeler Deserved All Star Nod Over Bryce Harper",
+        "voice": "radio_populist",
+        "chars": 1473
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Zack Wheeler Snubbed From MLB All Star Game!",
+        "voice": "radio_populist",
+        "chars": 12758
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "5 Phillies All-Stars, One MAJOR Snub | 94WIP",
+        "voice": "radio_populist",
+        "chars": 14083
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 4,
+        "recent_avg_pct": 93.9,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 98.5,
+        "delta_pct": -4.6,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823444,
+            "date": "2026-06-29",
+            "day_of_week": "Monday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 7-11",
+            "attendance": 39791,
+            "pct_capacity": 92.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823445,
+            "date": "2026-06-30",
+            "day_of_week": "Tuesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 8-0",
+            "attendance": 41710,
+            "pct_capacity": 97.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823446,
+            "date": "2026-07-01",
+            "day_of_week": "Wednesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 10-6",
+            "attendance": 41766,
+            "pct_capacity": 97.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823442,
+            "date": "2026-07-02",
+            "day_of_week": "Thursday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 1-6",
+            "attendance": 37851,
+            "pct_capacity": 88.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "50-41",
+      "streak": "L2",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-07-07T12:35:19.134373+00:00"
   }
 ]
