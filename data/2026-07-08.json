@@ -1,0 +1,250 @@
+{
+  "date": "2026-07-08",
+  "display_score": 55,
+  "reactive_score": 55,
+  "baseline_score": 62,
+  "insufficient_signal": false,
+  "content_volume": 282,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 58,
+    "front_office_trust": 52,
+    "manager_confidence": 50,
+    "lineup_confidence": 55,
+    "pitching_confidence": 62,
+    "health_outlook": 58,
+    "postseason_belief": 47
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 60,
+    "manager_confidence": 55,
+    "lineup_confidence": 65,
+    "pitching_confidence": 85,
+    "health_outlook": 62,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 55,
+      "note": "Hittin' Season roundtable balanced Wheeler's dominance and Marsh's All-Star start against deep concern over Trey Turner's defense and a historically bad BABIP-allowed rate that the hosts frame as a potential October dealbreaker."
+    },
+    "beat_writer": {
+      "score": 50,
+      "note": "Phillies Therapy (Matt Gelb) delivered the most alarming structural analysis \u2014 worst BABIP-allowed in modern history, a defense that cannot be patched at the deadline, and a farm system ranked 29th \u2014 tempered only by genuine belief in the rotation's ceiling."
+    },
+    "radio_populist": {
+      "score": 57,
+      "note": "WIP/High Hopes voices split between Wheeler celebration and Sanchez road-split anxiety; the Skubal trade push and bullpen frustration (McFarlane stuck in AA, Alvarado unreliable) dominated alongside anger at the All-Star snub."
+    },
+    "youtube_fan": {
+      "score": 35,
+      "note": "YouTube commenters were sharply negative on Turner's defense, skeptical of the front office, and several flatly doubted the team would make the playoffs without major additions."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Wheeler Dominates, Then Calls Out the System",
+      "delta": 6,
+      "sample": "A 14-strikeout masterpiece \u2014 the sixth such performance in franchise history \u2014 gave fans something to cheer, and Wheeler's own postgame frustration about the All-Star snub ('it pisses me off, it's kind of BS') turned him into a rallying figure rather than a sympathetic victim."
+    },
+    {
+      "name": "Defense Is a Historically Broken Achilles Heel",
+      "delta": -8,
+      "sample": "The worst batting average on balls in play allowed in modern baseball history, a Turner error that cascaded into six earned runs for Sanchez, and a ground-ball conversion rate 20-plus points worse than any other National League team have analysts questioning whether this flaw can survive October."
+    },
+    {
+      "name": "Sanchez Road Splits Spark Genuine Worry",
+      "delta": -5,
+      "sample": "A 5.32 ERA away from Citizens Bank Park and a flattened changeup have moved the conversation from 'bad day' to 'structural concern,' with some pushing for a Skubal acquisition at the deadline specifically as insurance against Sanchez's road version."
+    },
+    {
+      "name": "Bullpen Held Together With String",
+      "delta": -6,
+      "sample": "Alvarado unreliable, Backus ineffective, Kirkering inconsistent, and Alex McFarlane \u2014 touching 102 mph in Double-A \u2014 perceived as being deliberately kept away from the big league roster as trade bait rather than a solution, generating real frustration."
+    },
+    {
+      "name": "Marsh All-Star Start a Genuine Bright Spot",
+      "delta": 7,
+      "sample": "Brandon Marsh starting the All-Star Game in Philadelphia as the only Phillie in the lineup was celebrated as earned recognition of a breakout season, with five total representatives giving the fanbase something to feel good about heading into the break."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It pisses me off and it's kind of BS \u2014 I feel like I've earned it.",
+      "score": 72,
+      "source_hint": "Zack Wheeler postgame, quoted on talk-radio host segment (94WIP)"
+    },
+    {
+      "text": "No team in Major League Baseball has a higher batting average on balls in play allowed than the Philadelphia Phillies.",
+      "score": 22,
+      "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+    },
+    {
+      "text": "The bullpen has reached the point where you're kind of just hanging on for dear life.",
+      "score": 28,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "If Alex McFarlane goes elsewhere and turns into a legitimate late-inning bullpen piece, I'm going to blow a gasket.",
+      "score": 30,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    }
+  ],
+  "vibe_summary": "Wheeler's fury-fueled gem has given fans a genuine hero to rally behind, but a defense rotting at its foundation and a bullpen barely held together are making the road to October feel narrower than the record suggests.",
+  "reasoning": "The dominant emotional current today is a tension between Wheeler's dominant, emotionally charged performance and a growing structural anxiety about the team's defensive and bullpen limitations. The most analytically alarming content came from the beat writer, who documented a historically bad BABIP-allowed rate and concluded there is no trade-deadline fix available \u2014 a sobering framing that sits well below the celebratory Wheeler and Marsh narratives from the radio and podcast voices. The fan analyst added the Turner defense debate as an unresolved long-term threat, while YouTube commenters were the most pessimistic group, with several openly doubting a playoff berth. The result is a fanbase that feels energized by individual moments but increasingly unsettled by systemic flaws that even a thin trade-deadline haul cannot address.",
+  "people_mentioned": [
+    "Wheeler",
+    "Sanchez",
+    "Turner",
+    "Marsh",
+    "Mattingly",
+    "Dombrowski",
+    "Luzardo",
+    "Stott",
+    "Schwarber",
+    "Harper",
+    "Duran",
+    "Kirkering",
+    "Bolin",
+    "Alvarado",
+    "Nola",
+    "Keller",
+    "McFarlane",
+    "Painter",
+    "Bohm",
+    "Sosa",
+    "Crawford",
+    "Rincones",
+    "Skubal"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 178853,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 22842,
+    "youtube_comments": 13,
+    "youtube_comment_chars": 1788,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Zack Wheeler Sure Looks Like An All Star",
+      "voice": "radio_populist",
+      "chars": 31907
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Our Cristopher Sanchez Concern Level & The Ultimate MLB Draft Preview",
+      "voice": "radio_populist",
+      "chars": 50081
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Grounds For Improvement",
+      "voice": "beat_writer",
+      "chars": 48346
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Cristopher Sanchez and the Phillies Roughed Up In Kansas City",
+      "voice": "fan_analyst",
+      "chars": 48519
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "\"IT PISSES ME OFF\" Zack Wheeler Destroys MLB Over \"BS\" All-Star Snub \ud83d\ude33 \u26be\ufe0f | 94WIP",
+      "voice": "radio_populist",
+      "chars": 7150
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies\u2014\u2018Go Get Tarik Skubal!\u2019",
+      "voice": "radio_populist",
+      "chars": 1210
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "The Phillies NEED Tarik Skubal",
+      "voice": "radio_populist",
+      "chars": 14482
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 93.9,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 98.6,
+      "delta_pct": -4.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823444,
+          "date": "2026-06-29",
+          "day_of_week": "Monday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 7-11",
+          "attendance": 39791,
+          "pct_capacity": 92.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823445,
+          "date": "2026-06-30",
+          "day_of_week": "Tuesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 8-0",
+          "attendance": 41710,
+          "pct_capacity": 97.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823446,
+          "date": "2026-07-01",
+          "day_of_week": "Wednesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 10-6",
+          "attendance": 41766,
+          "pct_capacity": 97.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823442,
+          "date": "2026-07-02",
+          "day_of_week": "Thursday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 1-6",
+          "attendance": 37851,
+          "pct_capacity": 88.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "51-41",
+    "streak": "W1",
+    "games_behind": "2.0"
+  },
+  "generated_at": "2026-07-08T11:56:10.172062+00:00"
+}
