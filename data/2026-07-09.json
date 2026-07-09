@@ -1,0 +1,252 @@
+{
+  "date": "2026-07-09",
+  "display_score": 48,
+  "reactive_score": 48,
+  "baseline_score": 60,
+  "insufficient_signal": false,
+  "content_volume": 261,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 38,
+    "front_office_trust": 42,
+    "manager_confidence": 62,
+    "lineup_confidence": 55,
+    "pitching_confidence": 52,
+    "health_outlook": 58,
+    "postseason_belief": 40
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 72,
+    "manager_confidence": 68,
+    "lineup_confidence": 60,
+    "pitching_confidence": 90,
+    "health_outlook": 45,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 52,
+      "note": "Hittin' Season and The Philly Show both celebrate Wheeler's dominant outing while sounding sustained alarms over a 29th-ranked farm system, a collapsing lefty bullpen, and Trea Turner's defensive liability at short."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 44,
+      "note": "High Hopes and 94WIP hosts are fixated on the bullpen crisis \u2014 Banks and Alvarado ERAs above seven \u2014 and frame the trade deadline as urgent but constrained by a depleted farm system; Mattingly's managerial future adds a distracting subplot."
+    },
+    "youtube_fan": {
+      "score": 30,
+      "note": "YouTube commenters are pessimistic and blunt \u2014 calling out Dombrowski's roster construction failures, questioning playoff viability, and in some cases calling for a teardown rather than a deadline push."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Bullpen in Freefall",
+      "delta": -8,
+      "sample": "Both Tanner Banks and Jose Alvarado now carry ERAs above seven \u2014 two of only three pitchers in baseball with that mark in 25-plus appearances \u2014 leaving the team with essentially no trustworthy left-handed leverage arm heading into the deadline."
+    },
+    {
+      "name": "Wheeler Snub Fuels a Dominant Gem",
+      "delta": 6,
+      "sample": "Zach Wheeler channeled his All-Star anger into 14 strikeouts over seven innings, tying a career high and pushing his ERA to 2.28, but the scheduling rule that cost him the honor is drawing widespread calls for reform and legitimate Hall of Fame concerns."
+    },
+    {
+      "name": "Trade Deadline Roulette With a Thin Farm",
+      "delta": -5,
+      "sample": "Baseball America's 29th-ranked farm system ranking confirms what the deadline conversation keeps circling back to: the Phillies need a lefty reliever, a right-handed bat, and perhaps a starter, but lack the prospect capital to address all three."
+    },
+    {
+      "name": "Trea Turner's Glove Is Becoming Undeniable",
+      "delta": -4,
+      "sample": "A first-inning error that gifted the Royals five runs and derailed Christopher Sanchez's worst career start is the latest example of a defensive liability at short that is creating cascading bullpen overuse and postseason anxiety."
+    },
+    {
+      "name": "Mattingly's Future Muddies the Clubhouse Air",
+      "delta": -2,
+      "sample": "Don Mattingly publicly stating he wants to return next year, while the front office continues to leak interest in Alex Cora, creates an awkward managerial limbo that could become a distraction as the team fights to stay ahead in the division."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It pisses me off and, you know, it's kind of BS.",
+      "score": 35,
+      "source_hint": "Zach Wheeler, quoted on Hittin' Season (fan analyst)"
+    },
+    {
+      "text": "They both have an ERA over seven after tonight. They both looked incredibly ineffective.",
+      "score": 22,
+      "source_hint": "High Hopes post-game pod (talk-radio host)"
+    },
+    {
+      "text": "The circle of trust at the back end of the bullpen, to me, is shrinking.",
+      "score": 28,
+      "source_hint": "The Philly Show (fan analyst)"
+    },
+    {
+      "text": "Sell sell sell. You're not going to fix all the problems they have.",
+      "score": 15,
+      "source_hint": "YouTube commenter on bullpen video"
+    }
+  ],
+  "vibe_summary": "The trade deadline can't arrive fast enough \u2014 a bullpen in genuine crisis, a shortstop whose errors keep metastasizing into blowouts, and a depleted farm system have turned every off day into an anxious accounting of what this roster actually is.",
+  "reasoning": "The dominant mood is urgent, transactional anxiety \u2014 not despair about the standings (51-42, three back) but real alarm that structural flaws will be exposed in October if left unaddressed. The bullpen collapse is the sharpest pain point, with the two players who were supposed to be the left-handed bridge both posting ERAs above seven and no credible internal alternatives. The farm system ranking at 29th compounds the deadline problem, generating debate about whether the front office has enough to fix even one of three clear needs. The manager situation adds a low-grade distraction. Wheeler's gem provided genuine emotional relief and pride but functions more as a single bright star against a backdrop of concern than as a tide-turning development.",
+  "people_mentioned": [
+    "Wheeler",
+    "Alvarado",
+    "Banks",
+    "Mattingly",
+    "Turner",
+    "Dombrowski",
+    "Schwarber",
+    "Harper",
+    "Luzardo",
+    "Kerkering",
+    "Duran",
+    "Sanchez",
+    "Chapman",
+    "Nola",
+    "Painter",
+    "McFarlane",
+    "Crawford",
+    "Bohm",
+    "Stott",
+    "Rincones",
+    "Cora",
+    "Aidan Miller",
+    "Gage Wood",
+    "Backus",
+    "Keller"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 160236,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 26005,
+    "youtube_comments": 13,
+    "youtube_comment_chars": 1702,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Will Bryce Harper Hit Leadoff Tomorrow? (Probably Not)",
+      "voice": "radio_populist",
+      "chars": 41032
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Zack Wheeler Is Pitching Angry After All Star Snub!",
+      "voice": "fan_analyst",
+      "chars": 42455
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Zack Wheeler's angry, Trea Turner's concerns at shortstop",
+      "voice": "fan_analyst",
+      "chars": 45319
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Zack Wheeler Sure Looks Like An All Star",
+      "voice": "radio_populist",
+      "chars": 31430
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Could Andrew Painter Solve Phils 5th Starter Struggles?",
+      "voice": "radio_populist",
+      "chars": 1476
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Bullpen Just BLEW IT\u2026 Dave Dombrowski, Fix This Now!! | 94WIP",
+      "voice": "radio_populist",
+      "chars": 14558
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Zack Wheeler All-Star Snub GOOD For Phillies",
+      "voice": "radio_populist",
+      "chars": 9971
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 93.9,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 98.8,
+      "delta_pct": -4.9,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823444,
+          "date": "2026-06-29",
+          "day_of_week": "Monday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 7-11",
+          "attendance": 39791,
+          "pct_capacity": 92.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823445,
+          "date": "2026-06-30",
+          "day_of_week": "Tuesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 8-0",
+          "attendance": 41710,
+          "pct_capacity": 97.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823446,
+          "date": "2026-07-01",
+          "day_of_week": "Wednesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 10-6",
+          "attendance": 41766,
+          "pct_capacity": 97.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823442,
+          "date": "2026-07-02",
+          "day_of_week": "Thursday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 1-6",
+          "attendance": 37851,
+          "pct_capacity": 88.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "51-42",
+    "streak": "L1",
+    "games_behind": "3.0"
+  },
+  "generated_at": "2026-07-09T12:38:23.919059+00:00"
+}
