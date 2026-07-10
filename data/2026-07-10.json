@@ -1,0 +1,252 @@
+{
+  "date": "2026-07-10",
+  "display_score": 62,
+  "reactive_score": 62,
+  "baseline_score": 56,
+  "insufficient_signal": false,
+  "content_volume": 266,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 68,
+    "front_office_trust": 52,
+    "manager_confidence": 55,
+    "lineup_confidence": 62,
+    "pitching_confidence": 72,
+    "health_outlook": 58,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 75,
+    "front_office_trust": 60,
+    "manager_confidence": 80,
+    "lineup_confidence": 65,
+    "pitching_confidence": 85,
+    "health_outlook": 50,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 70,
+      "note": "Hittin' Season and Phillies Talk hosts are genuinely excited about Luzardo and Wheeler headlining a legitimate big three, while flagging the bullpen left side as a real deadline priority; tone is optimistic but clear-eyed about roster gaps."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 48,
+      "note": "WIP Daily / High Hopes hosts are sharply divided \u2014 bullpen alarm is loud, managerial future debate is heating up with a strong faction demanding Alex Cora, and a smaller WIP clip predicts the team will underperform; overall sentiment more anxious than hopeful."
+    },
+    "youtube_fan": {
+      "score": 45,
+      "note": "YouTube commenters are blunt: the bullpen stinks, deadline help is urgently needed, and skepticism about both Dombrowski and Mattingly surfaces in multiple threads."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Luzardo and Wheeler carrying the rotation",
+      "delta": 7,
+      "sample": "A dominant 1-0 win behind Jesus Luzardo \u2014 11 strikeouts, seven shutout innings, chippy intensity \u2014 capped a series where the top of the rotation combined for 30-plus strikeouts, cementing belief in a legitimate big three."
+    },
+    {
+      "name": "Bullpen left side in genuine crisis",
+      "delta": -7,
+      "sample": "Alvarado and Banks both carry ERAs above seven; Banks is now on the IL with a forearm strain; the most reliable lefty is Tim Mazza, a circumstance nobody envisioned in March, making a deadline acquisition imperative."
+    },
+    {
+      "name": "Mattingly vs. Cora managerial debate intensifying",
+      "delta": -3,
+      "sample": "Mattingly's public declaration that he wants to return in 2026 ignited a sharp split \u2014 some see a deserving incumbent who has flipped a 9-19 start, others want Alex Cora's edge and longer commitment before the window closes."
+    },
+    {
+      "name": "Bolin emerging as internal bullpen X-factor",
+      "delta": 5,
+      "sample": "Jonathan Bolin's last six appearances feature 11 strikeouts, no runs, and a clean eighth inning in a 1-0 game \u2014 growing confidence he could be a legitimate high-leverage option heading into October."
+    },
+    {
+      "name": "Trade deadline urgency: lefty reliever and right-handed bat",
+      "delta": -2,
+      "sample": "With Chapman, Daniel Lynch IV, and Spencer Steer all surfacing as targets, Dombrowski faces a complicated calculus \u2014 a thin farm system limits how many holes can realistically be filled before August 3rd."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They need bullpen help. They need bullpen help. Because you can't pitch Bolin and Kerkering every game.",
+      "score": 38,
+      "source_hint": "fan analyst (The Phillies Show)"
+    },
+    {
+      "text": "Don Mattingly was the nurse to help stop the bleeding. Alex Cora is the surgeon that could finish the operation.",
+      "score": 40,
+      "source_hint": "talk-radio host (94WIP)"
+    },
+    {
+      "text": "His ERA on the road now is 1.38, best in the National League.",
+      "score": 82,
+      "source_hint": "talk-radio host (High Hopes)"
+    },
+    {
+      "text": "The Phillies bullpen STINKS!",
+      "score": 20,
+      "source_hint": "YouTube commenters"
+    }
+  ],
+  "vibe_summary": "Luzardo and Wheeler are pitching like aces on a genuine contender, but a collapsing bullpen left side and a swirling managerial debate are stealing the spotlight heading into the All-Star break.",
+  "reasoning": "A satisfying series win in Cincinnati \u2014 punctuated by Luzardo's electric gem and Bolin's continued growth \u2014 has lifted the mood modestly, and Harper's Home Run Derby participation adds All-Star buzz. But the dominant anxiety is structural: the two designed bullpen lefties have ERAs above seven, Tanner Banks is now on the IL, and the deadline is less than four weeks away with a thin farm system limiting options. The managerial conversation adds another layer of unease, with a loud contingent pushing for Alex Cora and questioning whether Mattingly has the playoff killer instinct, while a more patient faction argues results should determine the outcome. The fan analysts are cautiously optimistic about the roster's ceiling; the talk-radio sphere is significantly more agitated, particularly on the manager question.",
+  "people_mentioned": [
+    "Luzardo",
+    "Wheeler",
+    "Mattingly",
+    "Bolin",
+    "Alvarado",
+    "Duran",
+    "Schwarber",
+    "Harper",
+    "Crawford",
+    "Dombrowski",
+    "Banks",
+    "Cora",
+    "Mazza",
+    "Kerkering",
+    "Sanchez",
+    "Nola",
+    "Thomson",
+    "Stott",
+    "Marsh",
+    "Dickerson",
+    "Cotham",
+    "Turner",
+    "Rincones",
+    "Gage Wood",
+    "McGonigal"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 180417,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 10908,
+    "youtube_comments": 11,
+    "youtube_comment_chars": 1020,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Sweet Jes\u00fas! Luzardo, Harper, Mattingly, bullpen issues and more",
+      "voice": "fan_analyst",
+      "chars": 36071
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "MAJOR storylines after Phillies win a series in Cincinnati",
+      "voice": "fan_analyst",
+      "chars": 50783
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: A Series Win & Jack's Final Draft Thoughts",
+      "voice": "radio_populist",
+      "chars": 51525
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Will Bryce Harper Hit Leadoff Tomorrow? (Probably Not)",
+      "voice": "radio_populist",
+      "chars": 42038
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Will Benefit From Change Next Season",
+      "voice": "radio_populist",
+      "chars": 1018
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Brodes: \"Phillies Need Alex Cora!\"",
+      "voice": "radio_populist",
+      "chars": 1820
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Do The Phillies Need To Go Get Alex Cora?",
+      "voice": "radio_populist",
+      "chars": 8070
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 93.9,
+      "baseline_games_count": 39,
+      "baseline_avg_pct": 98.8,
+      "delta_pct": -4.9,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823444,
+          "date": "2026-06-29",
+          "day_of_week": "Monday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 7-11",
+          "attendance": 39791,
+          "pct_capacity": 92.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823445,
+          "date": "2026-06-30",
+          "day_of_week": "Tuesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 8-0",
+          "attendance": 41710,
+          "pct_capacity": 97.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823446,
+          "date": "2026-07-01",
+          "day_of_week": "Wednesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 10-6",
+          "attendance": 41766,
+          "pct_capacity": 97.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823442,
+          "date": "2026-07-02",
+          "day_of_week": "Thursday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 1-6",
+          "attendance": 37851,
+          "pct_capacity": 88.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "52-42",
+    "streak": "W1",
+    "games_behind": "3.0"
+  },
+  "generated_at": "2026-07-10T12:33:06.111312+00:00"
+}
