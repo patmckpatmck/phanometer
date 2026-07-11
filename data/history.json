@@ -20215,5 +20215,257 @@
       "games_behind": "3.0"
     },
     "generated_at": "2026-07-10T12:33:06.111312+00:00"
+  },
+  {
+    "date": "2026-07-11",
+    "display_score": 66,
+    "reactive_score": 66,
+    "baseline_score": 58,
+    "insufficient_signal": false,
+    "content_volume": 304,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 68,
+      "front_office_trust": 58,
+      "manager_confidence": 72,
+      "lineup_confidence": 55,
+      "pitching_confidence": 78,
+      "health_outlook": 60,
+      "postseason_belief": 62
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 70,
+      "manager_confidence": 65,
+      "lineup_confidence": 68,
+      "pitching_confidence": 85,
+      "health_outlook": 50,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 65,
+        "note": "Hittin' Season, The Philly Show, and Phillies Talk all celebrate the series win and Luzardo's gem but share genuine anxiety about bullpen depth, lefty reliever collapse, and a thin farm system limiting deadline options."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 70,
+        "note": "WIP High Hopes and the midday show are broadly optimistic \u2014 an MLB analyst flatly named the Phillies and Dodgers as NL favorites \u2014 but temper that with skepticism about Moniak and real concern about right-handed bat scarcity at the deadline."
+      },
+      "youtube_fan": {
+        "score": 42,
+        "note": "Comments are skeptical and pointed: Moniak dismissed as Coors Field fraud, and a direct warning that even three aces can't save October if Harper, Turner, and Schwarber go cold simultaneously."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Luzardo Cements Big-Three Status",
+        "delta": 7,
+        "sample": "Seven shutout innings, 11 strikeouts, a career ERA on the road now best in the NL, and a fired-up mound presence have turned Luzardo from a question mark into a genuine third ace alongside Wheeler and Sanchez."
+      },
+      {
+        "name": "Bullpen Left Side Is a Crisis",
+        "delta": -7,
+        "sample": "Banks on the IL with a forearm strain, Alvarado and Banks both carrying ERAs above seven, four home runs surrendered in a single inning \u2014 the left-handed relief situation is the most urgent need heading into the August 3rd deadline."
+      },
+      {
+        "name": "Deadline Firepower Is Limited",
+        "delta": -5,
+        "sample": "A thin farm system and no obvious win-now trading chip means the Phillies can likely make one meaningful move; Lane Thomas or Joe Adell are the realistic targets, not the kind of name that gets fans excited."
+      },
+      {
+        "name": "Mattingly Wants to Return, Fans Mostly On Board",
+        "delta": 4,
+        "sample": "Mattingly's public declaration that he wants to manage again in 2027 landed positively, with the team's record since he took over making it hard to argue against him \u2014 though Alex Cora's name continues to lurk."
+      },
+      {
+        "name": "Harper-FanDuel Story a Reputational Ding",
+        "delta": -3,
+        "sample": "Bryce Harper's personalized video for a gambling addict being baited by FanDuel is an uncomfortable story that analysts wish would just go away, even as most believe Harper didn't understand the full context."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "In the National League, it is the Phillies and the Dodgers to see who goes to the World Series for me.",
+        "score": 82,
+        "source_hint": "MLB analyst Harold Reynolds on WIP Daily"
+      },
+      {
+        "text": "Those 3 starting pitchers only give the Phils a shot in October if Harper, Turner, and Schwarber don't collectively go 0-for-90 at the plate.",
+        "score": 35,
+        "source_hint": "YouTube commenter on 94WIP Luzardo video"
+      },
+      {
+        "text": "They have serious issues from the left side in the bullpen. Right now Tim Maza is probably their best left-handed pitcher in the bullpen.",
+        "score": 30,
+        "source_hint": "Phillies Talk co-host on NBC Sports Philadelphia"
+      },
+      {
+        "text": "They have a legitimate big three at the top of the rotation, and it's good to see the ERA start to reflect how good this guy has been.",
+        "score": 75,
+        "source_hint": "WIP High Hopes host on Luzardo's first half"
+      }
+    ],
+    "vibe_summary": "A series win capped by Luzardo's masterpiece has the fanbase cautiously energized, but the clock is ticking on a bullpen emergency that three elite starters alone cannot solve.",
+    "reasoning": "The dominant mood is one of qualified optimism anchored by elite starting pitching \u2014 an external analyst's declaration of the Phillies as NL co-favorites with the Dodgers gave fans something to hold onto \u2014 but real anxiety persists around a left-handed relief corps that has collapsed and a deadline toolkit that experts consider insufficient for a bidding war. The YouTube commenter voice was notably more pessimistic than the podcast voices, warning that October depends entirely on whether the offense shows up, not just the rotation. The Mattingly managerial future and the Harper-FanDuel story added off-field noise, but neither dominated the way the bullpen crisis did.",
+    "people_mentioned": [
+      "Luzardo",
+      "Wheeler",
+      "Duran",
+      "Mattingly",
+      "Harper",
+      "Schwarber",
+      "Alvarado",
+      "Banks",
+      "Crawford",
+      "Bolan",
+      "Dombrowski",
+      "Marsh",
+      "Sanchez",
+      "Turner",
+      "Painter",
+      "Kerkering",
+      "Maza",
+      "Nola",
+      "Cora",
+      "Gage Wood",
+      "Stott",
+      "Rincones",
+      "Hill",
+      "Realmuto",
+      "Keller"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 187055,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 37241,
+      "youtube_comments": 5,
+      "youtube_comment_chars": 516,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Do Just Enough to Win in Cincinnati",
+        "voice": "fan_analyst",
+        "chars": 46371
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Sweet Jes\u00fas! Luzardo, Harper, Mattingly, bullpen issues and more",
+        "voice": "fan_analyst",
+        "chars": 35715
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "MAJOR storylines after Phillies win a series in Cincinnati",
+        "voice": "fan_analyst",
+        "chars": 53402
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: A Series Win & Jack's Final Draft Thoughts",
+        "voice": "radio_populist",
+        "chars": 51567
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Trade Candidate: Mickey Moniak | 94WIP",
+        "voice": "radio_populist",
+        "chars": 12446
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Jack Fritz's Phillies MLB Draft Preview | High Hopes",
+        "voice": "radio_populist",
+        "chars": 12601
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "MLB Analyst: Phillies And Dodgers Are NL Favorites",
+        "voice": "radio_populist",
+        "chars": 12194
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 4,
+        "recent_avg_pct": 93.9,
+        "baseline_games_count": 39,
+        "baseline_avg_pct": 98.8,
+        "delta_pct": -4.9,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823444,
+            "date": "2026-06-29",
+            "day_of_week": "Monday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 7-11",
+            "attendance": 39791,
+            "pct_capacity": 92.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823445,
+            "date": "2026-06-30",
+            "day_of_week": "Tuesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 8-0",
+            "attendance": 41710,
+            "pct_capacity": 97.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823446,
+            "date": "2026-07-01",
+            "day_of_week": "Wednesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 10-6",
+            "attendance": 41766,
+            "pct_capacity": 97.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823442,
+            "date": "2026-07-02",
+            "day_of_week": "Thursday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 1-6",
+            "attendance": 37851,
+            "pct_capacity": 88.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "52-43",
+      "streak": "L1",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-07-11T11:11:27.564953+00:00"
   }
 ]
