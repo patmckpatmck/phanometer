@@ -1,0 +1,245 @@
+{
+  "date": "2026-07-12",
+  "display_score": 65,
+  "reactive_score": 65,
+  "baseline_score": 60,
+  "insufficient_signal": false,
+  "content_volume": 239,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 68,
+    "front_office_trust": 47,
+    "manager_confidence": 70,
+    "lineup_confidence": 65,
+    "pitching_confidence": 75,
+    "health_outlook": 60,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 65,
+    "manager_confidence": 70,
+    "lineup_confidence": 60,
+    "pitching_confidence": 82,
+    "health_outlook": 45,
+    "postseason_belief": 60
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 68,
+      "note": "The Phillies Show and Phillies Talk both celebrate Luzardo and Wheeler while sounding genuine alarms about the left-handed bullpen and the team's historically poor ground-ball defense; Dombrowski trades graded favorably, Mattingly praised."
+    },
+    "beat_writer": {
+      "score": 52,
+      "note": "Phillies Therapy delivers a sobering deep-dive on historically bad BABIP allowed and ground-ball defense, drawing explicit parallels to the 2014 Tigers' postseason collapse; optimism is hedged and conditional on the top-end stars carrying the load."
+    },
+    "radio_populist": {
+      "score": 60,
+      "note": "WIP's High Hopes frames the team as leaking oil heading into the All-Star break \u2014 bullpen, defense, and depth concerns dominate \u2014 but All-Star Week energy and Schwarber/Harper Derby excitement provide genuine lift."
+    },
+    "youtube_fan": {
+      "score": 38,
+      "note": "Comments are skeptical to hostile: calls to fire Dombrowski, mockery of the Spangler draft pick, complaints about the bullpen and offense, with only scattered excitement for the Derby or the draft."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Luzardo Masterclass Carries the Day",
+      "delta": 7,
+      "sample": "A seven-inning, 11-strikeout gem \u2014 with a side of mound-chirping intensity \u2014 has cemented Luzardo as one of the NL's best starters and extended the Phillies' win streak in his starts to nine."
+    },
+    {
+      "name": "Bullpen Left Side in Freefall",
+      "delta": -7,
+      "sample": "Banks on the IL with a forearm strain, Alvarado posting an ERA north of seven and lacking command, Bacchus optioned \u2014 the left-handed relief corps is a genuine crisis with the deadline less than four weeks away."
+    },
+    {
+      "name": "Defense Is a Historical Liability",
+      "delta": -6,
+      "sample": "The Phillies' BABIP allowed and ground-ball conversion rate rank among the worst in modern baseball history, prompting sober comparisons to teams that flamed out in October despite good pitching."
+    },
+    {
+      "name": "Mattingly's Job Future Enters the Conversation",
+      "delta": 2,
+      "sample": "Mattingly publicly said for the first time he wants to manage beyond this season, earning genuine praise for his even-keeled leadership \u2014 though Alex Cora's name continues to hover in the background."
+    },
+    {
+      "name": "All-Star Week Buzz Provides Real Lift",
+      "delta": 5,
+      "sample": "Harper confirmed for the Home Run Derby with Dino Ebel throwing, Schwarber officially in, Wheeler's snub channeled into playoff motivation \u2014 the All-Star break is generating genuine excitement in Philadelphia."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They need bullpen help. They need bullpen help because you can't pitch Bolin and Kerkering every game.",
+      "score": 32,
+      "source_hint": "fan analyst (The Phillies Show)"
+    },
+    {
+      "text": "There has never been a team in the history of Major League Baseball \u2014 one team \u2014 with a higher batting average on balls in play that has made the postseason.",
+      "score": 28,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "They've won Jesus Luzardo's last nine starts dating back to May 25th.",
+      "score": 78,
+      "source_hint": "fan analyst (Phillies Talk / NBC Sports Philadelphia)"
+    },
+    {
+      "text": "Just fire Dombrowski already\u2026this team has proven time again they don't have what it takes.",
+      "score": 12,
+      "source_hint": "YouTube commenter on Mickey Moniak trade candidate video"
+    }
+  ],
+  "vibe_summary": "All-Star Week electricity is real, but the fanbase is heading into the break with eyes wide open \u2014 celebrating elite starting pitching while bracing for a deadline that must fix a bullpen and a defense that history says cannot be ignored.",
+  "reasoning": "The dominant mood is cautiously positive on the strength of Luzardo and Wheeler but meaningfully anxious about structural flaws. The most analytically rigorous content delivered a historically grounded indictment of the team's defense and ground-ball conversion, framing it as a potential October killer \u2014 a sharper alarm than the more celebratory tone of the other podcast voices. The trade deadline looms as the central pressure point: a thin farm system, clear bullpen need, and outfield depth questions converge just as the team enters what should be a celebratory All-Star week at home. Mattingly's public declaration of wanting to return added a mild positive undercurrent, while YouTube sentiment skewed more hostile toward the front office.",
+  "people_mentioned": [
+    "Luzardo",
+    "Wheeler",
+    "Mattingly",
+    "Dombrowski",
+    "Bolin",
+    "Alvarado",
+    "Schwarber",
+    "Harper",
+    "Stott",
+    "Turner",
+    "Bohm",
+    "Marsh",
+    "Duran",
+    "Nola",
+    "Sanchez",
+    "Kerkering",
+    "Keller",
+    "Banks",
+    "Crawford",
+    "Dickerson",
+    "Cotham",
+    "Mazza",
+    "Ynoa",
+    "Wood"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 135600,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 31780,
+    "youtube_comments": 16,
+    "youtube_comment_chars": 1143,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Sweet Jes\u00fas! Luzardo, Harper, Mattingly, bullpen issues and more",
+      "voice": "fan_analyst",
+      "chars": 34356
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "MAJOR storylines after Phillies win a series in Cincinnati",
+      "voice": "fan_analyst",
+      "chars": 53016
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Grounds For Improvement",
+      "voice": "beat_writer",
+      "chars": 48228
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies VIBE Check Entering All Star Break | High Hopes Podcast",
+      "voice": "radio_populist",
+      "chars": 18645
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Select Tyler Spangler",
+      "voice": "radio_populist",
+      "chars": 689
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Trade Candidate: Mickey Moniak | 94WIP",
+      "voice": "radio_populist",
+      "chars": 12446
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 93.9,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 98.9,
+      "delta_pct": -5.0,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823444,
+          "date": "2026-06-29",
+          "day_of_week": "Monday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 7-11",
+          "attendance": 39791,
+          "pct_capacity": 92.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823445,
+          "date": "2026-06-30",
+          "day_of_week": "Tuesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 8-0",
+          "attendance": 41710,
+          "pct_capacity": 97.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823446,
+          "date": "2026-07-01",
+          "day_of_week": "Wednesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 10-6",
+          "attendance": 41766,
+          "pct_capacity": 97.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823442,
+          "date": "2026-07-02",
+          "day_of_week": "Thursday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 1-6",
+          "attendance": 37851,
+          "pct_capacity": 88.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "53-43",
+    "streak": "W1",
+    "games_behind": "2.0"
+  },
+  "generated_at": "2026-07-12T11:14:39.361693+00:00"
+}
