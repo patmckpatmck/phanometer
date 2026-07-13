@@ -20712,5 +20712,250 @@
       "games_behind": "2.0"
     },
     "generated_at": "2026-07-12T11:14:39.361693+00:00"
+  },
+  {
+    "date": "2026-07-13",
+    "display_score": 65,
+    "reactive_score": 65,
+    "baseline_score": 62,
+    "insufficient_signal": false,
+    "content_volume": 263,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 72,
+      "front_office_trust": 45,
+      "manager_confidence": 68,
+      "lineup_confidence": 60,
+      "pitching_confidence": 80,
+      "health_outlook": 58,
+      "postseason_belief": 55
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 82,
+      "front_office_trust": 70,
+      "manager_confidence": 65,
+      "lineup_confidence": 72,
+      "pitching_confidence": 90,
+      "health_outlook": 55,
+      "postseason_belief": 75
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 74,
+        "note": "Fan analyst (Phillies Talk / NBC Sports Philly) is genuinely upbeat \u2014 11 games over .500, Angry Zach Wheeler's Cy Young trajectory, Sanchez starting the All-Star game, Derek Hill's emergence, and All-Star Week excitement all drive warmth, tempered by bullpen anxiety and outfield depth questions."
+      },
+      "beat_writer": {
+        "score": 48,
+        "note": "Beat writer (Phillies Therapy / Matt Gelb) delivers the most sobering content: historically bad batted-ball conversion rates, Trey Turner's declining range, a 29th-ranked farm system limiting deadline flexibility, and sobering historical parallels to the 2014 Tigers all drag the score down despite genuine optimism about the top of the roster."
+      },
+      "radio_populist": {
+        "score": 62,
+        "note": "Talk-radio host (WIP Daily / High Hopes) is energized by All-Star Week atmosphere and excited by the Tyler Spangler draft pick, but openly worried about bullpen ERA north of 6, the team 'leaking oil' heading into the break, and a front office facing a seller's market with limited prospects to spend."
+      },
+      "youtube_fan": {
+        "score": 44,
+        "note": "YouTube commenters are scattered and unfiltered \u2014 some excitement about Spangler but also calls to fire Dombrowski, skepticism about Mickey Moniak, frustration over bullpen and offense, and general cynicism about the front office's ability to fix things at the deadline."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Angry Zach and the Cy Young Chase",
+        "delta": 8,
+        "sample": "Wheeler's All-Star snub has clearly ignited him \u2014 three straight double-digit strikeout starts, a 2.13 ERA, and a 13-2 record in his starts have the fanbase increasingly convinced this is the year he finally wins a Cy Young, with the snub rejection adding fuel to an already compelling story."
+      },
+      {
+        "name": "Defense Is a Historically Serious Problem",
+        "delta": -8,
+        "sample": "The highest batting average on balls in play allowed in baseball \u2014 over 20 points worse than the next-worst NL team \u2014 is not a quirk but a structural flaw that historical research suggests has derailed teams with far more to offer defensively, and there is no obvious fix at the deadline or otherwise."
+      },
+      {
+        "name": "Bullpen Left Side Is Broken, Deadline Clock Is Ticking",
+        "delta": -7,
+        "sample": "Alvarado and Banks both carrying ERAs north of seven, Keller's health clouded by a suspicious absence, and the bullpen posting a 6-plus ERA over the past month have made a left-handed reliever the clearest and most urgent deadline need \u2014 with under four weeks remaining."
+      },
+      {
+        "name": "All-Star Week Is a Genuine Celebration",
+        "delta": 7,
+        "sample": "Sanchez starting the All-Star game on his home field, Schwarber and Harper in the Derby, Marsh and Duran on the roster, and the citywide energy at the All-Star Village have given fans a rare moment of collective joy that cuts across the roster anxiety."
+      },
+      {
+        "name": "Farm System Constraints Shadow Every Deadline Move",
+        "delta": -6,
+        "sample": "A 29th-ranked farm system leaves the front office with few arrows in the quiver heading into a seller's market deadline, forcing painful prioritization between a left-handed reliever, a corner outfielder, and rotation depth \u2014 almost certainly without getting all three."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "He's been great all year. Unbelievably great, considering what he went through in the offseason.",
+        "score": 82,
+        "source_hint": "fan analyst (Phillies Talk / NBC Sports Philly) on Zach Wheeler"
+      },
+      {
+        "text": "There has never been a team in the history of major league baseball \u2014 one team \u2014 with a higher batting average on balls in play that has made the postseason.",
+        "score": 22,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb) on the defense"
+      },
+      {
+        "text": "They just drafted Corey Seager 2.0 at 36. He should not have been there. He is a top 15 pick.",
+        "score": 78,
+        "source_hint": "talk-radio host (94WIP / High Hopes) reacting to Tyler Spangler pick"
+      },
+      {
+        "text": "Just fire Dombrowski already\u2026 this team has proven time and again they don't have what it takes.",
+        "score": 15,
+        "source_hint": "YouTube commenter on Phillies Trade Candidate video"
+      }
+    ],
+    "vibe_summary": "Phillies fans are riding into the All-Star break genuinely proud of where this team stands \u2014 11 games over .500 \u2014 but the deeper the analysis goes, the harder it becomes to ignore a defense that history says could end everything in October.",
+    "reasoning": "The dominant tension today is between surface-level celebration and structural dread. The All-Star Week atmosphere, Wheeler's Cy Young march, Sanchez starting at home, and a winning road trip give fans real reasons to feel good. But the beat writer's meticulous research into batted-ball conversion rates \u2014 historically unprecedented territory for a playoff team \u2014 introduces a sobering counterweight that the more optimistic fan analyst content cannot fully paper over. The front office faces a deadline with limited ammunition and multiple urgent needs, and even sympathetic analysis concedes there is no trade-market solution to a defense this broken.",
+    "people_mentioned": [
+      "Wheeler",
+      "Sanchez",
+      "Lozardo",
+      "Mattingly",
+      "Duran",
+      "Harper",
+      "Schwarber",
+      "Marsh",
+      "Turner",
+      "Stott",
+      "Hill",
+      "Crawford",
+      "Keller",
+      "Alvarado",
+      "Dombrowski",
+      "Bohm",
+      "Realmuto",
+      "Nola",
+      "Bolin",
+      "Kerkering",
+      "Painter",
+      "Aidan Miller",
+      "Gage Wood",
+      "Tyler Spangler"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 155185,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 26223,
+      "youtube_comments": 21,
+      "youtube_comment_chars": 1363,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Feeling GOOD as Phillies head into the All-Star break 11 GAMES over .500",
+        "voice": "fan_analyst",
+        "chars": 54837
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "MAJOR storylines after Phillies win a series in Cincinnati",
+        "voice": "fan_analyst",
+        "chars": 52508
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Grounds For Improvement",
+        "voice": "beat_writer",
+        "chars": 47840
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Pick Tyler Spangler at No. 36! | 94WIP",
+        "voice": "radio_populist",
+        "chars": 6889
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies VIBE Check Entering All Star Break | High Hopes Podcast",
+        "voice": "radio_populist",
+        "chars": 18645
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Select Tyler Spangler",
+        "voice": "radio_populist",
+        "chars": 689
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 4,
+        "recent_avg_pct": 93.9,
+        "baseline_games_count": 38,
+        "baseline_avg_pct": 98.9,
+        "delta_pct": -5.0,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823444,
+            "date": "2026-06-29",
+            "day_of_week": "Monday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 7-11",
+            "attendance": 39791,
+            "pct_capacity": 92.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823445,
+            "date": "2026-06-30",
+            "day_of_week": "Tuesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 8-0",
+            "attendance": 41710,
+            "pct_capacity": 97.2,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823446,
+            "date": "2026-07-01",
+            "day_of_week": "Wednesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 10-6",
+            "attendance": 41766,
+            "pct_capacity": 97.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823442,
+            "date": "2026-07-02",
+            "day_of_week": "Thursday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 1-6",
+            "attendance": 37851,
+            "pct_capacity": 88.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "54-43",
+      "streak": "W2",
+      "games_behind": "2.0"
+    },
+    "generated_at": "2026-07-13T12:38:17.124695+00:00"
   }
 ]
