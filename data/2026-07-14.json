@@ -1,0 +1,232 @@
+{
+  "date": "2026-07-14",
+  "display_score": 65,
+  "reactive_score": 65,
+  "baseline_score": 63,
+  "insufficient_signal": false,
+  "content_volume": 227,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 52,
+    "manager_confidence": 68,
+    "lineup_confidence": 58,
+    "pitching_confidence": 85,
+    "health_outlook": 48,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 60,
+    "manager_confidence": 55,
+    "lineup_confidence": 65,
+    "pitching_confidence": 90,
+    "health_outlook": 70,
+    "postseason_belief": 68
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 74,
+      "note": "Fan analyst coverage (Phillies Talk / Phillies Show) was All-Star festivity focused \u2014 genuine pride in Schwarber and Harper's derby run, Wheeler's historic two-start stretch, and Sanchez's All-Star start; acknowledged bullpen and lineup flaws without alarm."
+    },
+    "beat_writer": {
+      "score": 66,
+      "note": "Beat writer (Phillies Therapy / Matt Gelb) offered the most analytical take: cautiously optimistic at the break, flagging the negative run differential, Brad Keller's worrying absence, a thin bullpen, and a below-average on-base percentage as real concerns requiring deadline action."
+    },
+    "radio_populist": {
+      "score": 73,
+      "note": "Talk-radio host (WIP High Hopes / 94WIP) balanced civic All-Star pride with substantive credit for the team's 46-25 run under Mattingly, while being clear-eyed that the bullpen remains leaking oil and a trade is needed; Schwarber and Harper postgame clips were warm and celebratory."
+    },
+    "youtube_fan": {
+      "score": 69,
+      "note": "YouTube commenters were overwhelmingly positive and emotional about the Home Run Derby atmosphere, cheering Schwarber's effort; one mild note of friction over Harper's phrasing about Philly fans."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "All-Star Glow, Derby Heartbreak",
+      "delta": 4,
+      "sample": "Citizens Bank Park delivered a playoff-level atmosphere for the Home Run Derby \u2014 Schwarber was championship worthy, the crowd was electric \u2014 but Jordan Walker's clutch finish left fans filing out with a familiar sting of near-miss disappointment."
+    },
+    {
+      "name": "Wheeler and Sanchez Carrying a Flawed Roster",
+      "delta": 6,
+      "sample": "The top three starters went 40-14 this half, with Wheeler's historic two-start stretch and Sanchez's All-Star starting nod cementing the rotation as the team's genuine championship asset \u2014 the rest of the roster remains a work in progress."
+    },
+    {
+      "name": "Bullpen Crisis Looming at the Deadline",
+      "delta": -6,
+      "sample": "Brad Keller's unexplained absence from a 5-0 win is alarming for a $22 million bridge reliever; without him, the team enters August needing a setup arm it cannot currently identify from within, and the deadline window is narrow."
+    },
+    {
+      "name": "Mattingly's Turnaround Deserves Credit",
+      "delta": 5,
+      "sample": "From 9-19 to 11 games over .500 \u2014 the 46-25 run under Mattingly represents one of the more remarkable half-season rebounds in recent franchise history, and the argument is gaining traction that fans haven't given the group enough credit."
+    },
+    {
+      "name": "Outfield and Lineup Depth Still a Real Concern",
+      "delta": -4,
+      "sample": "A 303 team on-base percentage, Turner's continued offensive inconsistency, and the unresolved question of who plays alongside Hill and Crawford in October keep the offense from being something fans can confidently hang their hat on heading into the second half."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It erupted and that's what you live for \u2014 your hometown to be behind you every second of it.",
+      "score": 90,
+      "source_hint": "Kyle Schwarber postgame on 94WIP, Home Run Derby night"
+    },
+    {
+      "text": "When those guys start, they went 40-14, which is something around 120-win pace, give or take.",
+      "score": 82,
+      "source_hint": "Beat writer (Phillies Therapy), discussing the top three starters at the break"
+    },
+    {
+      "text": "I don't have that feeling. I think this is a year where they could make some noise.",
+      "score": 65,
+      "source_hint": "Talk-radio host (WIP High Hopes), on postseason belief despite the rough start"
+    },
+    {
+      "text": "You spent $22 million, $11 per, on this guy to be the bridge to Duran, and he is not that right now.",
+      "score": 28,
+      "source_hint": "Beat writer (Phillies Therapy / Matt Gelb), on Brad Keller's worrying situation"
+    }
+  ],
+  "vibe_summary": "The Home Run Derby brought genuine civic joy to Citizens Bank Park, but underneath the All-Star pageantry, an unresolved bullpen crisis and a hobbled roster remind fans that this team's October ceiling still depends on moves yet to be made.",
+  "reasoning": "The dominant mood is warm but clear-eyed: All-Star week delivered real civic pride, Schwarber's derby performance generated affection even in defeat, and Wheeler's historic two-start stretch anchors genuine optimism about the rotation. The more analytical the voice, however, the harder it is to ignore Brad Keller's alarming absence, a below-average team on-base percentage, and a bullpen that needs reinforcement the front office may struggle to supply. The Mattingly-era turnaround (46-25) earns broad credit across every voice, but that framing coexists with honest acknowledgment that a 303 OBP and one trusted reliever outside Duran are structural problems, not April noise.",
+  "people_mentioned": [
+    "Wheeler",
+    "Schwarber",
+    "Harper",
+    "Sanchez",
+    "Mattingly",
+    "Duran",
+    "Keller",
+    "Luzardo",
+    "Stott",
+    "Turner",
+    "Marsh",
+    "Crawford",
+    "Hill",
+    "Bohm",
+    "Painter",
+    "Bolin",
+    "Kirkering",
+    "Alvarado",
+    "Dombrowski",
+    "McGonigal",
+    "Wood"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 163543,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 2,
+    "youtube_chars": 1995,
+    "youtube_comments": 6,
+    "youtube_comment_chars": 285,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Talk",
+      "title": "WHAT A HOME RUN DERBY! Recapping a fun night at Citizens Bank Park",
+      "voice": "fan_analyst",
+      "chars": 30247
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "HR Derby Day! Kyle Schwarber & Bryce Harper are ready to hit BOMBS",
+      "voice": "fan_analyst",
+      "chars": 31233
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "The All Star Game Is Here! (And So Is Jack's Draft Reaction)",
+      "voice": "radio_populist",
+      "chars": 58231
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "A Good Hang: The 2026 Phillies at the Break",
+      "voice": "beat_writer",
+      "chars": 43832
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Kyle Schwarber: Thank You, Philadelphia \u2764\ufe0f",
+      "voice": "radio_populist",
+      "chars": 1162
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper Hopes Everyone Enjoys Philly \u2764\ufe0f",
+      "voice": "radio_populist",
+      "chars": 833
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 3,
+      "recent_avg_pct": 94.3,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 99.4,
+      "delta_pct": -5.2,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823445,
+          "date": "2026-06-30",
+          "day_of_week": "Tuesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 8-0",
+          "attendance": 41710,
+          "pct_capacity": 97.2,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823446,
+          "date": "2026-07-01",
+          "day_of_week": "Wednesday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "W 10-6",
+          "attendance": 41766,
+          "pct_capacity": 97.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823442,
+          "date": "2026-07-02",
+          "day_of_week": "Thursday",
+          "opponent": "Pittsburgh Pirates",
+          "result": "L 1-6",
+          "attendance": 37851,
+          "pct_capacity": 88.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "54-43",
+    "streak": "W2",
+    "games_behind": "2.0"
+  },
+  "generated_at": "2026-07-14T11:32:52.585786+00:00"
+}
