@@ -21189,5 +21189,229 @@
       "games_behind": "2.0"
     },
     "generated_at": "2026-07-14T11:32:52.585786+00:00"
+  },
+  {
+    "date": "2026-07-15",
+    "display_score": 68,
+    "reactive_score": 68,
+    "baseline_score": 63,
+    "insufficient_signal": false,
+    "content_volume": 190,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 68,
+      "front_office_trust": 58,
+      "manager_confidence": 72,
+      "lineup_confidence": 70,
+      "pitching_confidence": 78,
+      "health_outlook": 62,
+      "postseason_belief": 63
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 55,
+      "front_office_trust": 72,
+      "manager_confidence": 65,
+      "lineup_confidence": 50,
+      "pitching_confidence": 70,
+      "health_outlook": 35,
+      "postseason_belief": 68
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 72,
+        "note": "Fan analyst coverage across Hittin' Season and the Philly Show is celebratory about All-Star Week atmosphere and Wheeler's dominance, optimistic about the trade deadline as buyers, with measured concern about a thin farm system and bullpen depth."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 63,
+        "note": "Talk-radio host voices enthusiasm for Mattingly's turnaround and Harper's All-Star showmanship, while flagging real skepticism about whether the farm system has enough chips to land the difference-making reliever the roster clearly needs."
+      },
+      "youtube_fan": {
+        "score": 48,
+        "note": "YouTube commenters are thin and uneven \u2014 one dismisses the Sanchez All-Star start as 'ridiculous,' another suggests the bullpen need is so acute that a second ace is required, tempering the week's celebratory mood."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Philly Fans Steal All-Star Week",
+        "delta": 8,
+        "sample": "The electric atmosphere at Citizens Bank Park \u2014 ferocious booing, playoff-level noise, and Harper's wrestling-ring entrance \u2014 was widely framed as a civic triumph that overshadowed the games themselves."
+      },
+      {
+        "name": "Trade Deadline: Buyers, But Thin on Chips",
+        "delta": -3,
+        "sample": "Expectations are firm that the front office will be aggressive before August 3rd, but the shallow farm system makes it genuinely unclear how a difference-making reliever gets acquired without surrendering Gage Wood or Andrew Painter."
+      },
+      {
+        "name": "Wheeler's Historic Run Anchors Second-Half Hope",
+        "delta": 7,
+        "sample": "Zach Wheeler's dominant final stretch before the break \u2014 24 strikeouts over two starts, Cy Young chatter, and a lethal new splitter \u2014 has given the rotation a ceiling that feels elite heading into the pennant race."
+      },
+      {
+        "name": "Mattingly Settling In as the Guy",
+        "delta": 5,
+        "sample": "The gut-feeling consensus is hardening that Mattingly is the full-time manager going forward, with credit given for pushing the right buttons during a real turnaround even as questions linger about how much was roster correction versus managing."
+      },
+      {
+        "name": "Bullpen Remains the Unresolved Flaw",
+        "delta": -4,
+        "sample": "Even amid All-Star celebration, the middle-relief problem keeps surfacing \u2014 Alvarado's uncertainty, Keller's absence from the Detroit series, and the acknowledged gap between the plus leverage guys and everyone else behind them."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "You have got to take advantage of this. You have got to supplement this roster so that these career seasons don't go to waste.",
+        "score": 72,
+        "source_hint": "Hittin' Season host (fan analyst)"
+      },
+      {
+        "text": "I guarantee you that they're hopeful that John Milton trades everybody and David Brodsky trades everybody if they can get the right guys to help them win a World Series.",
+        "score": 68,
+        "source_hint": "Philly Show host Ruben Amaro Jr. (fan analyst)"
+      },
+      {
+        "text": "Don Mattingly. That's my gut feeling.",
+        "score": 65,
+        "source_hint": "WIP Daily talk-radio host on full-time manager odds"
+      },
+      {
+        "text": "They need another starting ace to pair with Wheeler now that Sanchez is toast.",
+        "score": 28,
+        "source_hint": "YouTube commenter on deadline needs"
+      }
+    ],
+    "vibe_summary": "Philadelphia fans are walking into the second half proud, loud, and impatient \u2014 the All-Star spectacle confirmed this city's identity, but the trade deadline clock is now the only story that matters.",
+    "reasoning": "The dominant mood is a post-All-Star glow tempered by urgent, practical anxiety about the August 3rd deadline. There is genuine pride in the team's position \u2014 two games back, a historic starting rotation, Mattingly stabilizing the clubhouse \u2014 but the conversation keeps returning to a bullpen that everyone acknowledges is incomplete and a farm system that may not have enough currency to fix it. The talk-radio perspective is slightly more skeptical about the front office's ability to execute than the fan analyst shows, which lean celebratory; YouTube commenters, though sparse, introduce a sharper edge of doubt about Sanchez and roster depth.",
+    "people_mentioned": [
+      "Wheeler",
+      "Mattingly",
+      "Harper",
+      "Schwarber",
+      "Sanchez",
+      "Dombrowski",
+      "Duran",
+      "Luzardo",
+      "Marsh",
+      "Nola",
+      "Alvarado",
+      "Keller",
+      "Painter",
+      "Wood",
+      "Middleton",
+      "Thomson",
+      "Mattingly"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 136747,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 3544,
+      "youtube_comments": 3,
+      "youtube_comment_chars": 142,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Fans Steal the Show at All Star Week in Philadelphia",
+        "voice": "fan_analyst",
+        "chars": 40836
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "All-Star Week continues at Citizens Bank Park! HR Derby Recap, Media Day & Game Preview",
+        "voice": "fan_analyst",
+        "chars": 35265
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "WHAT A HOME RUN DERBY! Recapping a fun night at Citizens Bank Park",
+        "voice": "fan_analyst",
+        "chars": 29557
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "HR Derby Day! Kyle Schwarber & Bryce Harper are ready to hit BOMBS",
+        "voice": "fan_analyst",
+        "chars": 31089
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Will Be Aggressive At Deadline!",
+        "voice": "radio_populist",
+        "chars": 717
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Is Don Mattingly Becoming Phillies Full Time Manager Getting Likely?!",
+        "voice": "radio_populist",
+        "chars": 1518
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Bryce Harper Made His Mark At Home Run Derby!",
+        "voice": "radio_populist",
+        "chars": 1309
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 2,
+        "recent_avg_pct": 92.8,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 99.4,
+        "delta_pct": -6.6,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823446,
+            "date": "2026-07-01",
+            "day_of_week": "Wednesday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "W 10-6",
+            "attendance": 41766,
+            "pct_capacity": 97.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823442,
+            "date": "2026-07-02",
+            "day_of_week": "Thursday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 1-6",
+            "attendance": 37851,
+            "pct_capacity": 88.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "54-43",
+      "streak": "W2",
+      "games_behind": "2.0"
+    },
+    "generated_at": "2026-07-15T11:34:45.288169+00:00"
   }
 ]
