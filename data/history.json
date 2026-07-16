@@ -21413,5 +21413,217 @@
       "games_behind": "2.0"
     },
     "generated_at": "2026-07-15T11:34:45.288169+00:00"
+  },
+  {
+    "date": "2026-07-16",
+    "display_score": 66,
+    "reactive_score": 66,
+    "baseline_score": 65,
+    "insufficient_signal": false,
+    "content_volume": 230,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 72,
+      "front_office_trust": 58,
+      "manager_confidence": 62,
+      "lineup_confidence": 70,
+      "pitching_confidence": 74,
+      "health_outlook": 63,
+      "postseason_belief": 55
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 60,
+      "front_office_trust": 72,
+      "manager_confidence": 45,
+      "lineup_confidence": 55,
+      "pitching_confidence": 68,
+      "health_outlook": 40,
+      "postseason_belief": 65
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 72,
+        "note": "Hittin' Season and The Phillies Show hosts effusive about All-Star Week atmosphere; cautiously optimistic on second half but frank about thin trade assets limiting deadline ambitions."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 65,
+        "note": "WIP hosts celebrated Harper and Schwarber's All-Star presence and Marsh's breakout, but LA flagged trade deadline difficulty and bullpen inconsistency as real concerns heading into the second half."
+      },
+      "youtube_fan": {
+        "score": 63,
+        "note": "Commenters defended Harper's authenticity, backed Wheeler's snub decision, and offered specific trade-deadline wish lists \u2014 engaged and forward-looking but not euphoric."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Philadelphia Owned All-Star Week",
+        "delta": 8,
+        "sample": "The Citizens Bank Park crowd transformed both the Home Run Derby and the All-Star Game into something resembling a playoff atmosphere, earning praise from players, analysts, and national observers alike."
+      },
+      {
+        "name": "Trade Deadline Urgency vs. Thin Farm System",
+        "delta": -4,
+        "sample": "With career years unfolding across the roster and a window narrowing, the front office faces real pressure to add at the deadline \u2014 but a depleted minor-league system makes meaningful upgrades genuinely difficult."
+      },
+      {
+        "name": "Wheeler Snub Still Stings",
+        "delta": -3,
+        "sample": "Wheeler's exclusion from the All-Star roster remains a sore point; after watching a Phillies-heavy National League struggle in a losing effort, the feeling that he should have pitched only deepened."
+      },
+      {
+        "name": "Bullpen: The Unresolved Question",
+        "delta": -4,
+        "sample": "Middle-relief inconsistency \u2014 particularly Keller's command issues and Kirkering's reliability under pressure \u2014 is the most cited structural flaw as the second half begins, with Bowling's emergence offering a partial answer."
+      },
+      {
+        "name": "Harper and Schwarber: Genuine Stars, Genuine Commitment",
+        "delta": 6,
+        "sample": "Harper's wrestling-ring entrance and Schwarber's runner-up performance reinforced why both players are central to the franchise's identity \u2014 and fan affection for them is at a high point."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "You gave this event weight, and it was awesome. My hat is off to everyone who was there.",
+        "score": 88,
+        "source_hint": "fan analyst (Hittin' Season)"
+      },
+      {
+        "text": "I think part of it's going to depend on the trade deadline. I don't know what's going to be available.",
+        "score": 45,
+        "source_hint": "talk-radio host (WIP Daily), Larry Andersen"
+      },
+      {
+        "text": "Christopher Sanchez unfortunately ended up being the goat in a bad way last night.",
+        "score": 32,
+        "source_hint": "talk-radio host (WIP Daily)"
+      },
+      {
+        "text": "These guys want to win today. And this year. They would send their mothers to be traded to try to win a world series.",
+        "score": 70,
+        "source_hint": "fan analyst (The Phillies Show), Ruben Amaro Jr."
+      }
+    ],
+    "vibe_summary": "The All-Star spectacle gave Phillies fans a moment to feel like the center of the baseball universe, but the trade deadline \u2014 and a bullpen that still isn't fully trusted \u2014 is where the real second-half verdict will be written.",
+    "reasoning": "The dominant emotional current is warm pride in the All-Star Week showcase, with Harper's entrance, Schwarber's run, and the electric Citizens Bank Park atmosphere generating genuine joy. But that pride coexists with a clear-eyed anxiety about the front office's ability to address bullpen depth at the deadline given a thin farm system \u2014 a concern articulated frankly even by front-office insiders. There is expressed belief that this roster can make a deep run, grounded in the Wheeler-Sanchez-Luzardo rotation and career seasons across the lineup, but it is conditional on deadline additions, keeping postseason_belief from rising too high.",
+    "people_mentioned": [
+      "Harper",
+      "Schwarber",
+      "Wheeler",
+      "Sanchez",
+      "Luzardo",
+      "Duran",
+      "Marsh",
+      "Mattingly",
+      "Dombrowski",
+      "Nola",
+      "Keller",
+      "Bowling",
+      "Kirkering",
+      "Painter",
+      "Amaro"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 139205,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 29115,
+      "youtube_comments": 6,
+      "youtube_comment_chars": 839,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Fans Steal the Show at All Star Week in Philadelphia",
+        "voice": "fan_analyst",
+        "chars": 40836
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "All-Star Week continues at Citizens Bank Park! HR Derby Recap, Media Day & Game Preview",
+        "voice": "fan_analyst",
+        "chars": 35489
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "WHAT A HOME RUN DERBY! Recapping a fun night at Citizens Bank Park",
+        "voice": "fan_analyst",
+        "chars": 29404
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "HR Derby Day! Kyle Schwarber & Bryce Harper are ready to hit BOMBS",
+        "voice": "fan_analyst",
+        "chars": 33476
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "We LOVE Bryce Harper's \u2018Pandering\u2019 To Philadelphia | 94WIP",
+        "voice": "radio_populist",
+        "chars": 12901
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Larry Andersen: Trade Deadline Deal Will Be DIFFICULT For Phillies",
+        "voice": "radio_populist",
+        "chars": 14783
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Disappointed In Zack Wheeler",
+        "voice": "radio_populist",
+        "chars": 1431
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 1,
+        "recent_avg_pct": 88.2,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 99.3,
+        "delta_pct": -11.1,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823442,
+            "date": "2026-07-02",
+            "day_of_week": "Thursday",
+            "opponent": "Pittsburgh Pirates",
+            "result": "L 1-6",
+            "attendance": 37851,
+            "pct_capacity": 88.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "54-43",
+      "streak": "W2",
+      "games_behind": "2.0"
+    },
+    "generated_at": "2026-07-16T11:45:18.013441+00:00"
   }
 ]
