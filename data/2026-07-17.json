@@ -1,0 +1,221 @@
+{
+  "date": "2026-07-17",
+  "display_score": 40,
+  "reactive_score": 40,
+  "baseline_score": 65,
+  "insufficient_signal": false,
+  "content_volume": 252,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 32,
+    "front_office_trust": 52,
+    "manager_confidence": 38,
+    "lineup_confidence": 44,
+    "pitching_confidence": 45,
+    "health_outlook": 35,
+    "postseason_belief": 42
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 68,
+    "manager_confidence": 65,
+    "lineup_confidence": 70,
+    "pitching_confidence": 60,
+    "health_outlook": 75,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 58,
+      "note": "The Philly Show and Phillies Talk focused heavily on All-Star week positivity \u2014 Home Run Derby buzz, draft optimism with Brian Barber \u2014 but underlying concern about the bullpen and deadline needs kept the overall tone measured rather than euphoric."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 36,
+      "note": "Talk-radio host (High Hopes / WIP) drove a consistently anxious tone: Mattingly's Nola mismanagement, Keller's season-ending UCL tear, Bohm's slump, Trea Turner's offensive and defensive decline, and a bullpen the host describes as 'rocky until the trade deadline.'"
+    },
+    "youtube_fan": {
+      "score": 22,
+      "note": "YouTube commenters reacted to the Keller news with dismissiveness and pessimism, with one declaring 'this whole ass team done for the season' and another flagging no-hit offense and a deteriorating Marsh."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Mattingly's Nola Decision Backfires",
+      "delta": -6,
+      "sample": "Sending Nola back out for the seventh inning with 82-88 pitches \u2014 over what felt like the whole stadium's objection \u2014 immediately cost the game, renewing questions about whether the manager has a reliable feel for his starter."
+    },
+    {
+      "name": "Keller UCL Tear Deepens Bullpen Crisis",
+      "delta": -7,
+      "sample": "Losing Keller to a torn UCL for the remainder of the season removes the one arm that was supposed to bridge to Duran, leaving Seth Johnson and Chase Shugart as the gap-fillers for 18 days until the trade deadline."
+    },
+    {
+      "name": "Trea Turner's Offensive and Defensive Slide",
+      "delta": -5,
+      "sample": "The $300 million leadoff man is hitting near the Mendoza line with a sub-.290 OBP, and his defense \u2014 once a calling card \u2014 has drawn 'atrocious' assessments, yet the organization appears locked in regardless."
+    },
+    {
+      "name": "Trade Deadline as the Only Lifeline",
+      "delta": 4,
+      "sample": "Harper's public message that Middleton will 'put all his chips in' and Dombrowski's reputation for multi-year-control acquisitions keep deadline optimism alive, with the Mets bullpen pieces and third-base upgrades among the most discussed targets."
+    },
+    {
+      "name": "Farm System Depth Quietly Building",
+      "delta": 5,
+      "sample": "A lengthy draft deep-dive with the assistant GM revealed genuine enthusiasm for Tyler Spangler, Caden Bogenpool, Ruger, and the pitching pipeline \u2014 a longer-term signal of organizational health amid short-term bullpen pain."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I don't know what Aaron Nola's still doing out there. You take six innings from Aaron Nola and you run with it.",
+      "score": 30,
+      "source_hint": "talk-radio host (High Hopes / WIP), postgame reaction"
+    },
+    {
+      "text": "This bullpen is going to be rocky until the trade deadline or as fast as they can make a deal.",
+      "score": 28,
+      "source_hint": "talk-radio host (High Hopes / WIP), Brad Keller injury segment"
+    },
+    {
+      "text": "I think Dave is going to do a great job or I hope he does and gets the things we need.",
+      "score": 50,
+      "source_hint": "Bryce Harper quote read aloud on talk-radio host (High Hopes / WIP), attributed to Jim Salisbury"
+    },
+    {
+      "text": "this whole ass team done for the season tbh",
+      "score": 8,
+      "source_hint": "YouTube commenters, Brad Keller injury video"
+    }
+  ],
+  "vibe_summary": "A 4-1 opening-night loss, a manager decision that irked fans at the ballpark and on the couch, and a season-ending injury to a bullpen arm have set a sour tone for the second half \u2014 with 18 days left to fix it.",
+  "reasoning": "The dominant mood is frustration shading toward anxiety. The Keller UCL tear and Mattingly's decision to run Nola back out for the seventh inning are the twin catalysts: both felt preventable and both had immediate consequences. Trea Turner's two-way decline compounds the unease around the lineup. The fan analyst content from the All-Star week offered genuine warmth around the Home Run Derby and the draft, softening the overall score, but that content predates the second-half opener and carries less weight against the game-night reaction. Bryce Harper's quote about Dombrowski \u2014 'or I hope he does' \u2014 is being read as a subtle breach-of-trust signal rather than a vote of confidence, keeping front-office sentiment mixed rather than positive.",
+  "people_mentioned": [
+    "Mattingly",
+    "Nola",
+    "Keller",
+    "Turner",
+    "Bohm",
+    "Dombrowski",
+    "Harper",
+    "Schwarber",
+    "Duran",
+    "Alvarado",
+    "Kerkering",
+    "Bolin",
+    "Crawford",
+    "Wood",
+    "McFarlane",
+    "Stott",
+    "Marsh",
+    "Hill",
+    "Ward",
+    "Chapman",
+    "Lindor",
+    "Spangler",
+    "Barber",
+    "Middleton"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 164920,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 21078,
+    "youtube_comments": 4,
+    "youtube_comment_chars": 293,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Phillies Start Second Half With Annoying Loss",
+      "voice": "radio_populist",
+      "chars": 30322
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Recapping All Star Week & The Phillies' Draft With Brian Barber!",
+      "voice": "radio_populist",
+      "chars": 68720
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "All-Star Week continues at Citizens Bank Park! HR Derby Recap, Media Day & Game Preview",
+      "voice": "fan_analyst",
+      "chars": 35377
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "WHAT A HOME RUN DERBY! Recapping a fun night at Citizens Bank Park",
+      "voice": "fan_analyst",
+      "chars": 30501
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Trea Turner's Struggles Raising Eyebrows Ahead of Trade Deadline",
+      "voice": "radio_populist",
+      "chars": 881
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Reliever Brad Keller DONE For Season \ud83d\ude33",
+      "voice": "radio_populist",
+      "chars": 19047
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Potential Phillies Trade Deadline Upgrade \ud83d\udc40",
+      "voice": "radio_populist",
+      "chars": 1150
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 1,
+      "recent_avg_pct": 93.5,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 99.3,
+      "delta_pct": -5.8,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823440,
+          "date": "2026-07-16",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 1-4",
+          "attendance": 40109,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "54-44",
+    "streak": "L1",
+    "games_behind": "2.5"
+  },
+  "generated_at": "2026-07-17T11:28:37.383583+00:00"
+}
