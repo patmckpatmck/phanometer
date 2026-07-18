@@ -1,0 +1,225 @@
+{
+  "date": "2026-07-18",
+  "display_score": 45,
+  "reactive_score": 45,
+  "baseline_score": 58,
+  "insufficient_signal": false,
+  "content_volume": 297,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 32,
+    "front_office_trust": 55,
+    "manager_confidence": 42,
+    "lineup_confidence": 44,
+    "pitching_confidence": 58,
+    "health_outlook": 38,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 78,
+    "front_office_trust": 62,
+    "manager_confidence": 72,
+    "lineup_confidence": 80,
+    "pitching_confidence": 70,
+    "health_outlook": 65,
+    "postseason_belief": 55
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 52,
+      "note": "Hittin' Season and The Phillies Show are measured but honest \u2014 Nola's start was fine, Marsh's average dip is noted without panic, and the rotation's top-end remains a genuine source of pride, but Turner's defense and the thin bullpen keep the mood cautious."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 36,
+      "note": "WIP High Hopes is the most agitated voice: Mattingly's Nola decision draws repeated criticism from callers and hosts alike, Bohm is described as 'horrible,' Turner earns the 'serenity prayer' nickname in resigned acceptance, and Keller's UCL tear is treated as a crisis requiring immediate deadline action."
+    },
+    "youtube_fan": {
+      "score": 28,
+      "note": "The lone comment floats a Turner-for-Lindor swap, signaling low confidence in Turner and desire for a disruptive change."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Mattingly's Nola decision draws the loudest groans",
+      "delta": -4,
+      "sample": "Sending Nola back out for the seventh with 90-plus pitches, a depleted bullpen, and an off day looming struck fans at the park and on the couch as an obvious mistake \u2014 one that immediately backfired with Alvarez's second home run."
+    },
+    {
+      "name": "Keller's UCL tear escalates deadline urgency",
+      "delta": -5,
+      "sample": "Brad Keller is done for the season, stripping the bullpen of even a marginal arm and turning the August 3rd trade deadline from a want into a genuine need \u2014 with a bullpen ERA over six since June 1 making the stakes hard to overstate."
+    },
+    {
+      "name": "Trey Turner accepted with resigned fatalism",
+      "delta": -3,
+      "sample": "Batting .236 with defensive miscues piling up, Turner has inspired not outrage but a kind of philosophical surrender \u2014 fans and analysts alike acknowledge the contract is immovable and hope a second-half offensive spike bails everyone out."
+    },
+    {
+      "name": "Wheeler and the top of the rotation remain a genuine point of pride",
+      "delta": 5,
+      "sample": "Zack Wheeler's ERA ranks second in Phillies franchise history through the All-Star break, and the big-three starters are drawing comparisons to the Halladay-Lee-Hamels era \u2014 a genuine source of confidence heading into the stretch run."
+    },
+    {
+      "name": "Bullpen depth crisis turns every close game into a gamble",
+      "delta": -6,
+      "sample": "Without Keller and with legitimate concerns about the lefty relievers, any deficit forces Seth Johnson-type arms into leverage spots they aren't built for \u2014 a structural problem that won't be solved until the trade deadline passes."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Since July 1, the bullpen ERA is over eight. That has become their big need.",
+      "score": 22,
+      "source_hint": "fan analyst (The Phillies Show)"
+    },
+    {
+      "text": "To just say we don't want to chase it \u2014 that irks me. That irks me one bit.",
+      "score": 30,
+      "source_hint": "talk-radio host (WIP High Hopes / Final Out)"
+    },
+    {
+      "text": "Alec Bohm is horrible. He stinks at the plate. He's hitting .214 this year, dude.",
+      "score": 18,
+      "source_hint": "talk-radio host (WIP High Hopes)"
+    },
+    {
+      "text": "The ERA for Zach Wheeler before the All-Star break is second in Phillies franchise history.",
+      "score": 80,
+      "source_hint": "fan analyst (The Phillies Show / Tom McCarthy)"
+    }
+  ],
+  "vibe_summary": "Zack Wheeler's historic first half gives fans something real to hold onto, but a paper-thin bullpen, a struggling Trey Turner, and a manager decision that backfired almost instantly have left the fanbase grinding its teeth through the wait for deadline relief.",
+  "reasoning": "The dominant mood is one of structural anxiety rather than acute despair \u2014 the rotation's top end is legitimately excellent, and the team is 54-44, but the bullpen has become a near-nightly liability, Keller's season-ending UCL tear has made the urgency undeniable, and Mattingly's handling of Nola in the loss crystallized a management-confidence problem. The fan analyst perspective is more measured, contextualizing flaws while maintaining genuine optimism about the roster's ceiling; the talk-radio perspective is considerably sharper, with Bohm's slump, Turner's defensive regression, and bullpen depth all treated as compounding crises demanding immediate action at the deadline.",
+  "people_mentioned": [
+    "Nola",
+    "Turner",
+    "Keller",
+    "Mattingly",
+    "Wheeler",
+    "Marsh",
+    "Bohm",
+    "Schwarber",
+    "Harper",
+    "Duran",
+    "Alvarez",
+    "Alvarado",
+    "Kerkering",
+    "Bolin",
+    "Wood",
+    "Painter",
+    "Sanchez",
+    "Lizardo",
+    "Dombrowski",
+    "Miller",
+    "Amaro",
+    "Bowa",
+    "Manuel",
+    "McCarthy",
+    "Duckworth",
+    "McFarlane",
+    "Crawford",
+    "Hill"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 206588,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 15074,
+    "youtube_comments": 1,
+    "youtube_comment_chars": 21,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Brad Keller Out For Season, Larry Bowa, Charlie Manuel, Tom McCarthy & Brandon Duckworth Join",
+      "voice": "fan_analyst",
+      "chars": 64633
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Make a Hazy Return from the All-Star Break",
+      "voice": "fan_analyst",
+      "chars": 43679
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Phillies Start Second Half With Annoying Loss",
+      "voice": "radio_populist",
+      "chars": 29322
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Recapping All Star Week & The Phillies' Draft With Brian Barber!",
+      "voice": "radio_populist",
+      "chars": 68954
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Main Takeaways From Aaron Nola's Start Yesterday",
+      "voice": "radio_populist",
+      "chars": 1217
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Was Last Night A Turning Of The Corner For Aaron Nola?",
+      "voice": "radio_populist",
+      "chars": 12883
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Need 5+ Runs Per Game",
+      "voice": "radio_populist",
+      "chars": 974
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 1,
+      "recent_avg_pct": 93.5,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 99.3,
+      "delta_pct": -5.8,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823440,
+          "date": "2026-07-16",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 1-4",
+          "attendance": 40109,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "54-44",
+    "streak": "L1",
+    "games_behind": "3.0"
+  },
+  "generated_at": "2026-07-18T11:11:19.999179+00:00"
+}
