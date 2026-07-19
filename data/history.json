@@ -22071,5 +22071,225 @@
       "games_behind": "3.0"
     },
     "generated_at": "2026-07-18T11:11:19.999179+00:00"
+  },
+  {
+    "date": "2026-07-19",
+    "display_score": 57,
+    "reactive_score": 57,
+    "baseline_score": 54,
+    "insufficient_signal": false,
+    "content_volume": 160,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 52,
+      "manager_confidence": 48,
+      "lineup_confidence": 55,
+      "pitching_confidence": 72,
+      "health_outlook": 38,
+      "postseason_belief": 58
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 70,
+      "front_office_trust": 65,
+      "manager_confidence": 55,
+      "lineup_confidence": 68,
+      "pitching_confidence": 80,
+      "health_outlook": 75,
+      "postseason_belief": 65
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 65,
+        "note": "The fan analyst (Hittin' Season / Philly Show) is bullish on the rotation and postseason ceiling but openly alarmed by the bullpen, urging aggressive deadline action including big-game hunting for Mason Miller."
+      },
+      "beat_writer": {
+        "score": 60,
+        "note": "The beat writer (Phillies Therapy / Matt Gelb) offers a measured 'good, not great' read \u2014 praising the 40-14 record with the big three but flagging the OBP, bullpen depth, Keller injury, and Turner frustrations as real unresolved concerns."
+      },
+      "radio_populist": {
+        "score": 45,
+        "note": "The talk-radio host (WIP Daily) is the most agitated voice \u2014 criticizing Mattingly for leaving Nola in too long, venting about Turner's defense, and half-seriously floating a Lindor-for-Turner swap."
+      },
+      "youtube_fan": {
+        "score": 30,
+        "note": "YouTube commenters are the most pessimistic, calling the roster old and declining and floating a rebuild scenario, with one dismissively joking about trading Turner for Lindor."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Brad Keller's UCL: Bullpen Alarm Bells at Full Volume",
+        "delta": -8,
+        "sample": "A season-ending UCL tear for Keller \u2014 a $22M offseason addition \u2014 has turned a manageable bullpen concern into a genuine deadline emergency, with the back-end ERA since July 1 sitting above eight."
+      },
+      {
+        "name": "The Big Three Are Carrying Everything",
+        "delta": 7,
+        "sample": "A 40-14 record when Wheeler, Sanchez, or Luzardo starts is the single most reassuring number of the first half, and the clearest argument that this team is built for October if it can get there healthy."
+      },
+      {
+        "name": "Mattingly's Bullpen Management Under Fire",
+        "delta": -5,
+        "sample": "Leaving Aaron Nola in for a seventh inning he didn't need to face, with an off day available and the bullpen already depleted, drew sharp criticism as a damned-if-you-do situation that went the wrong way."
+      },
+      {
+        "name": "Trey Turner: Still the Most Frustrating Phillie",
+        "delta": -4,
+        "sample": "Turner enters the second half struggling at the plate and taking a visible step back defensively, with even sympathetic observers conceding his defense has been the team's worst among everyday players."
+      },
+      {
+        "name": "Deadline Urgency: Big Game Hunting vs. Lottery Tickets",
+        "delta": 2,
+        "sample": "The front office faces pressure to land a true lockdown reliever \u2014 Mason Miller is the dream, though the thin farm system makes it a long shot \u2014 with most expecting incremental upgrades rather than a marquee addition."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Since July 1, the bullpen ERA is over eight. The need for bullpen help just escalated like a hundredfold.",
+        "score": 22,
+        "source_hint": "fan analyst (Philly Show / Ruben Amaro Jr.)"
+      },
+      {
+        "text": "They are 40 and 14 when their big three guys start. That is unbelievable.",
+        "score": 82,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+      },
+      {
+        "text": "Last night sucked. Aaron Nola pitched really well and he should not have been out there for the seventh.",
+        "score": 28,
+        "source_hint": "talk-radio host (WIP Daily)"
+      },
+      {
+        "text": "This team is basically the same as the team eliminated the last two playoffs \u2014 older and declining.",
+        "score": 18,
+        "source_hint": "YouTube commenter on Phillies offense video"
+      }
+    ],
+    "vibe_summary": "Confidence in the rotation's October ceiling is real, but Brad Keller's elbow, an unsettled bullpen, and Trey Turner's continued struggles keep this fanbase firmly in 'cautiously hopeful but genuinely worried' territory heading into deadline season.",
+    "reasoning": "The dominant emotional current is one of structured anxiety: the top of the rotation inspires genuine belief, but the Keller injury has crystallized a bullpen problem that was already festering. The most measured analysis lands at 'good, not great' \u2014 acknowledging the impressive second-half turnaround while cataloguing flaws that deadline additions may not fully patch. The talk-radio perspective is the most irritated, focusing on in-game management and Turner's defensive regression, while the more pessimistic fringe questions whether an aging core can break a playoff ceiling pattern.",
+    "people_mentioned": [
+      "Wheeler",
+      "Keller",
+      "Turner",
+      "Mattingly",
+      "Nola",
+      "Duran",
+      "Luzardo",
+      "Sanchez",
+      "Dombrowski",
+      "Harper",
+      "Stott",
+      "Bohm",
+      "Kirkering",
+      "Alvarado",
+      "Bolin",
+      "Marsh",
+      "Crawford",
+      "Hill",
+      "Painter",
+      "Aidan Miller",
+      "Thomson",
+      "Manuel",
+      "Bowa",
+      "McCarthy",
+      "Schwarber"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 2,
+      "podcasts_transcribed": 2,
+      "podcast_chars": 103387,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 15022,
+      "youtube_comments": 2,
+      "youtube_comment_chars": 314,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Brad Keller Out For Season, Larry Bowa, Charlie Manuel, Tom McCarthy & Brandon Duckworth Join",
+        "voice": "fan_analyst",
+        "chars": 57440
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "A Good Hang: The 2026 Phillies at the Break",
+        "voice": "beat_writer",
+        "chars": 45947
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Trea Turner Is Working On His Defense",
+        "voice": "radio_populist",
+        "chars": 922
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Donnie Baseball Left Aaron Nola In Too Long",
+        "voice": "radio_populist",
+        "chars": 1217
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Aaron Nola Is Turning The Corner ",
+        "voice": "radio_populist",
+        "chars": 12883
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 2,
+        "recent_avg_pct": 94.7,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 99.3,
+        "delta_pct": -4.6,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823440,
+            "date": "2026-07-16",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 1-4",
+            "attendance": 40109,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823441,
+            "date": "2026-07-18",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 6-1",
+            "attendance": 41133,
+            "pct_capacity": 95.9,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "55-44",
+      "streak": "W1",
+      "games_behind": "2.0"
+    },
+    "generated_at": "2026-07-19T11:13:35.568323+00:00"
   }
 ]
