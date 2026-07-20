@@ -157,6 +157,10 @@ NAME_NORMALIZATIONS = {
     # Bigram-only: "Aiden" alone is a very common real first name unrelated
     # to this prospect, so a standalone normalization would be unsafe.
     "aiden miller":    "Aidan Miller",
+    # Trea Turner — Whisper renders "Trea" as the more common "Trey".
+    # Bigram-only: "Trey" alone is a common real first name (several other
+    # MLB players go by Trey), so a standalone normalization would be unsafe.
+    "trey turner":     "Trea Turner",
     # Rob Thomson (no P) is correct; Thompson is a common mis-hearing. Scoped to
     # specific manager-related phrases to avoid touching other Thompsons.
     "rob thompson":    "Rob Thomson",
