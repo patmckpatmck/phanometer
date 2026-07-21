@@ -22529,5 +22529,246 @@
       "games_behind": "3.0"
     },
     "generated_at": "2026-07-20T12:21:41.956590+00:00"
+  },
+  {
+    "date": "2026-07-21",
+    "display_score": 44,
+    "reactive_score": 44,
+    "baseline_score": 52,
+    "insufficient_signal": false,
+    "content_volume": 188,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 32,
+      "front_office_trust": 38,
+      "manager_confidence": 52,
+      "lineup_confidence": 38,
+      "pitching_confidence": 62,
+      "health_outlook": 63,
+      "postseason_belief": 42
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 55,
+      "manager_confidence": 60,
+      "lineup_confidence": 88,
+      "pitching_confidence": 80,
+      "health_outlook": 40,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 42,
+        "note": "The Phillies Show and Phillies Talk both flag the fifth-starter catastrophe (5-20, 7.33 ERA), Harper and Marsh slumps, and an offense graded C \u2014 tempered by genuine optimism about Luzardo's recent run and the Wheeler/Sanchez top-of-rotation ceiling."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 35,
+        "note": "Talk-radio host (WIP Daily/High Hopes) opens with blunt frustration \u2014 7.5 games behind the Brewers for a bye, 1.9 runs per game in fifth-starter losses, a 'show me' Dodgers series framing \u2014 while acknowledging the top-three rotation keeps the team alive."
+      },
+      "youtube_fan": {
+        "score": 30,
+        "note": "YouTube commenters are dismissive and sarcastic \u2014 mocking media hype around pitching prospects and offering dark humor about the team's play, with no positive signal present."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Fifth-Starter Catastrophe",
+        "delta": -8,
+        "sample": "Ten straight losses in fifth-starter games, a combined ERA north of 7, and 0-for-15 since May \u2014 the hole in the rotation is a season-long wound that is now actively threatening a bye and burning through the bullpen."
+      },
+      {
+        "name": "Harper and Marsh Slumping in Tandem",
+        "delta": -6,
+        "sample": "No home run from Harper in three weeks, a sub-.150 average from Marsh over his last 25-plus games \u2014 the two bats counted on to carry the middle of the lineup have gone cold at the same time, leaving the offense running on Schwarber and Turner."
+      },
+      {
+        "name": "Trea Turner's Offensive Revival",
+        "delta": 6,
+        "sample": "An .866 OPS over his last 26 games, better pitch selection, and a Saturday performance that made the team go \u2014 Turner is legitimately turning a corner even as his defense remains a chronic problem."
+      },
+      {
+        "name": "Luzardo as a Quiet Ace",
+        "delta": 5,
+        "sample": "An 11-1 record and 2.01 ERA over his last 12 starts has gone underappreciated beside Wheeler and Sanchez \u2014 the top three form a rotation argument as strong as anyone's in the NL."
+      },
+      {
+        "name": "Deadline Urgency With Limited Assets",
+        "delta": -4,
+        "sample": "The trade deadline is two weeks away and the gaps are real \u2014 a locked-down eighth-inning arm, a fifth starter, and questions about what assets remain to fill them without gutting a system already thin on homegrown MLB contributors."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "They are exceptional when one, two, and three go. They are horrendous when four and five go.",
+        "score": 28,
+        "source_hint": "talk-radio host (WIP Daily)"
+      },
+      {
+        "text": "There isn't a better one, two, three at the top of anybody's rotation across baseball.",
+        "score": 78,
+        "source_hint": "talk-radio host (High Hopes)"
+      },
+      {
+        "text": "The Phillies are five and 20 this season. Those pitchers have a combined 7.33 ERA.",
+        "score": 15,
+        "source_hint": "fan analyst (The Phillies Show)"
+      },
+      {
+        "text": "He makes them go.",
+        "score": 68,
+        "source_hint": "fan analyst (The Phillies Show), quoting Don Mattingly on Trea Turner"
+      }
+    ],
+    "vibe_summary": "Harper is cold, Marsh has cratered, and a fifth-starter spot posting a 7.33 ERA is bleeding wins \u2014 but Wheeler, Sanchez, and a quietly elite Luzardo keep October from feeling like wishful thinking.",
+    "reasoning": "The dominant mood is frustration anchored in two concrete problems: a fifth-starter slot that has gone 5-20 with a historically bad ERA, and simultaneous slumps from Harper and Marsh that leave the lineup running thin. The talk-radio perspective is the sharpest in its alarm, emphasizing the 7.5-game gap behind Milwaukee for a bye and calling this a 'show me' Dodgers series. The fan-analyst perspective shares the concern but spends more time on the constructive \u2014 Trea Turner's resurgence, Luzardo's quiet excellence, and optimism that the Dodgers series can reset the tone. The YouTube signal is dismissive and low-engagement but uniformly negative. Postseason belief stays measured rather than elevated: deadline-buyer framing is present but hedged heavily by asset concerns, and no voice is confidently projecting a deep October run unprompted.",
+    "people_mentioned": [
+      "Wheeler",
+      "Sanchez",
+      "Luzardo",
+      "Harper",
+      "Marsh",
+      "Turner",
+      "Mattingly",
+      "Nola",
+      "Schwarber",
+      "Duran",
+      "McFarlane",
+      "Gage Wood",
+      "Ron Hell",
+      "Painter",
+      "Bohm",
+      "Dombrowski",
+      "Alvarado",
+      "Ker\u043aering",
+      "Ohtani",
+      "Stott"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 130965,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 7850,
+      "youtube_comments": 3,
+      "youtube_comment_chars": 229,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "We're Only Kidding, But Bullying Definitely Works",
+        "voice": "radio_populist",
+        "chars": 58851
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "The Phillies' No. 5 starter problem",
+        "voice": "fan_analyst",
+        "chars": 39943
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Ugly start to second half as Mets take two of three, plus first half grades",
+        "voice": "fan_analyst",
+        "chars": 32171
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Why the Phillies' 4th and 5th Pitchers are RUINING Their Season | 94WIP",
+        "voice": "radio_populist",
+        "chars": 5951
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phils' 5th Starter Struggles Losing Streak Continues",
+        "voice": "radio_populist",
+        "chars": 1038
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "\u2018SHOW ME\u2019 Series For Phillies",
+        "voice": "radio_populist",
+        "chars": 861
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 4,
+        "recent_avg_pct": 94.2,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 99.3,
+        "delta_pct": -5.1,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823440,
+            "date": "2026-07-16",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 1-4",
+            "attendance": 40109,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823441,
+            "date": "2026-07-18",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 6-1",
+            "attendance": 41133,
+            "pct_capacity": 95.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823439,
+            "date": "2026-07-19",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "L 1-6",
+            "attendance": 40132,
+            "pct_capacity": 93.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823436,
+            "date": "2026-07-20",
+            "day_of_week": "Monday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "W 10-7",
+            "attendance": 40265,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "56-45",
+      "streak": "W1",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-07-21T11:52:36.789944+00:00"
   }
 ]
