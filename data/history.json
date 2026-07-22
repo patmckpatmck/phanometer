@@ -22770,5 +22770,258 @@
       "games_behind": "3.0"
     },
     "generated_at": "2026-07-21T11:52:36.789944+00:00"
+  },
+  {
+    "date": "2026-07-22",
+    "display_score": 54,
+    "reactive_score": 54,
+    "baseline_score": 49,
+    "insufficient_signal": false,
+    "content_volume": 176,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 45,
+      "manager_confidence": 48,
+      "lineup_confidence": 45,
+      "pitching_confidence": 63,
+      "health_outlook": 65,
+      "postseason_belief": 48
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 55,
+      "manager_confidence": 70,
+      "lineup_confidence": 80,
+      "pitching_confidence": 75,
+      "health_outlook": 40,
+      "postseason_belief": 60
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 52,
+        "note": "The Philly Show dissects the 5-20 record in fifth-starter games and a combined 7.33 ERA in that slot, framing it as the team's most urgent structural flaw; offset by real optimism about the top-three rotation and Trea Turner's recent offensive resurgence."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 58,
+        "note": "High Hopes reacts to a win over the Dodgers with genuine excitement about the offense and milestone moments, but tempers it with mounting concern over Mattingly's bullpen management, Trea Turner's defensive yips, and a depleted relief corps heading into deadline season."
+      },
+      "youtube_fan": {
+        "score": 42,
+        "note": "YouTube commenters focus narrowly on managerial moves \u2014 questioning the Stubbs DL move and recalling Girardi-era mismanagement \u2014 signaling low confidence in the decision-making around the roster."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Trea Turner's Jekyll-and-Hyde Night",
+        "delta": 2,
+        "sample": "Two home runs and a scorching double made Turner the offensive hero; four misplayed grounders made him the defensive villain. The gap between his bat and glove has fans simultaneously thrilled and terrified every time a ball rolls his way."
+      },
+      {
+        "name": "Fifth-Starter Slot Is a Black Hole",
+        "delta": -6,
+        "sample": "A 5-20 record and a 7.33 ERA in fifth-starter appearances \u2014 with no win in that slot since mid-May \u2014 is bleeding the bullpen dry and exposing a pipeline that simply hasn't developed enough depth to cover the gap."
+      },
+      {
+        "name": "Mattingly's Bullpen Calls Draw Real Skepticism",
+        "delta": -5,
+        "sample": "From leaving Nola in too long on Thursday to pulling Sanchez for Kerkering in a tight spot, the pattern of questionable late-game decisions is no longer being dismissed as noise \u2014 it's becoming a genuine worry about October readiness."
+      },
+      {
+        "name": "Top Three Rotation Still the Backbone",
+        "delta": 5,
+        "sample": "Wheeler, Sanchez, and a quietly elite Luzardo \u2014 11-1 with a 2.01 ERA over Luzardo's last 12 starts \u2014 give the team a legitimate claim to having the best 1-2-3 in the NL, and that ceiling keeps postseason hope alive."
+      },
+      {
+        "name": "Deadline Pressure Mounting Fast",
+        "delta": -3,
+        "sample": "With two weeks until the trade deadline, the wish list is long \u2014 bullpen arms, a back-end starter, an outfield bat \u2014 and the farm system's thin depth makes it unclear how many holes can realistically be filled before August 3rd."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Every time a ground ball is hit to him, you're just covering your eyes and praying he makes the play.",
+        "score": 28,
+        "source_hint": "talk-radio host (High Hopes / WIP) on Trea Turner's defensive struggles"
+      },
+      {
+        "text": "Phillies, number five starters this season \u2014 5-20, combined 7.33 ERA. They haven't won a game in that spot since May 18th.",
+        "score": 18,
+        "source_hint": "fan analyst (The Philly Show) presenting the fifth-starter stat"
+      },
+      {
+        "text": "Those three guys \u2014 there isn't a better 1-2-3 at the top of anybody's rotation across baseball.",
+        "score": 82,
+        "source_hint": "fan analyst (The Philly Show) on Wheeler, Sanchez, and Luzardo"
+      },
+      {
+        "text": "The Donnie baseball bullpen decisions are really starting to give me some fear about October.",
+        "score": 30,
+        "source_hint": "talk-radio host (High Hopes / WIP) on Mattingly's late-game management"
+      }
+    ],
+    "vibe_summary": "A win over the Dodgers lifted spirits, but Trea Turner's defensive chaos and a fifth-starter slot that hasn't produced a win in two months are the stories that won't go away.",
+    "reasoning": "The dominant mood is split between genuine encouragement from an offensive explosion against the Dodgers \u2014 punctuated by milestone home runs from Turner and Harper \u2014 and persistent structural anxiety. The fifth-starter crisis (5-20, 7.33 ERA, no win since May) and Mattingly's increasingly questioned bullpen decisions are the sharpest pain points, while the top-three rotation remains the one source of durable confidence. The YouTube signal is thin and narrowly focused on managerial competence, reinforcing the skepticism already present in the longer-form content.",
+    "people_mentioned": [
+      "Turner",
+      "Mattingly",
+      "Harper",
+      "Marsh",
+      "Luzardo",
+      "Wheeler",
+      "Sanchez",
+      "Nola",
+      "Duran",
+      "Schwarber",
+      "McFarland",
+      "Gage Wood",
+      "Kerkering",
+      "Alvarado",
+      "Realmuto",
+      "Crawford",
+      "Painter",
+      "Dombrowski",
+      "Bohm",
+      "Stott",
+      "Hill",
+      "Sosa"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 127211,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 3061,
+      "youtube_comments": 2,
+      "youtube_comment_chars": 138,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Trea Turner's Wild Night",
+        "voice": "radio_populist",
+        "chars": 33061
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "We're Only Kidding, But Bullying Definitely Works",
+        "voice": "radio_populist",
+        "chars": 56834
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "The Phillies' No. 5 starter problem",
+        "voice": "fan_analyst",
+        "chars": 37316
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "J.T. Realmuto: Games Are Won By the \"Little Things\"",
+        "voice": "radio_populist",
+        "chars": 1426
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Crawford: Gotta Make a Better Read Next Time",
+        "voice": "radio_populist",
+        "chars": 975
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "J.T. Baserunning Blunder Blows Phillies Game",
+        "voice": "radio_populist",
+        "chars": 660
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 5,
+        "recent_avg_pct": 94.0,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 99.3,
+        "delta_pct": -5.3,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823440,
+            "date": "2026-07-16",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 1-4",
+            "attendance": 40109,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823441,
+            "date": "2026-07-18",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 6-1",
+            "attendance": 41133,
+            "pct_capacity": 95.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823439,
+            "date": "2026-07-19",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "L 1-6",
+            "attendance": 40132,
+            "pct_capacity": 93.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823436,
+            "date": "2026-07-20",
+            "day_of_week": "Monday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "W 10-7",
+            "attendance": 40265,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823437,
+            "date": "2026-07-21",
+            "day_of_week": "Tuesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 1-2",
+            "attendance": 40077,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "56-46",
+      "streak": "L1",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-07-22T11:53:09.402237+00:00"
   }
 ]
