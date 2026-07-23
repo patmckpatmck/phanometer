@@ -1,0 +1,259 @@
+{
+  "date": "2026-07-23",
+  "display_score": 44,
+  "reactive_score": 44,
+  "baseline_score": 51,
+  "insufficient_signal": false,
+  "content_volume": 146,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 32,
+    "front_office_trust": 38,
+    "manager_confidence": 52,
+    "lineup_confidence": 42,
+    "pitching_confidence": 55,
+    "health_outlook": 60,
+    "postseason_belief": 44
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 60,
+    "manager_confidence": 55,
+    "lineup_confidence": 75,
+    "pitching_confidence": 78,
+    "health_outlook": 40,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 45,
+      "note": "Fan analyst (The Phillies Show / Phillies Talk) dissects the base-running collapse, a 5-20 record in the fifth-starter slot, and a C-grade offense, but balances with Wheeler Cy Young optimism and Trea Turner's offensive resurgence."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 28,
+      "note": "Talk-radio host (94WIP) segment features Mattingly and Larry Andersen expressing raw frustration over 'brain dead' base-running errors and a lack of situational awareness that has no clear fix."
+    },
+    "youtube_fan": {
+      "score": 30,
+      "note": "YouTube commenters express disgust at the base-running blunder, blaming a launch-angle organizational philosophy and calling the mistakes 'lazy' for generationally-paid players."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Base-Running Blunders Haunt Another Close Loss",
+      "delta": -7,
+      "sample": "A cue shot to third base with runners on second and third, one out, bottom of the ninth became the latest entry in a growing Phillies self-destruction reel \u2014 miscommunication, a rundown, and a walk-off loss to the Dodgers echoing last October's pain."
+    },
+    {
+      "name": "Fifth-Starter Spot Is a Black Hole",
+      "delta": -8,
+      "sample": "A 5-20 record, a 7.33 ERA, and zero wins since mid-May in the fifth-starter role is draining the bullpen and costing games before the lineup even gets a chance \u2014 and the farm system has no clear answer."
+    },
+    {
+      "name": "Wheeler's Cy Young Push Is Must-Watch Baseball",
+      "delta": 7,
+      "sample": "Ten wins, a sub-2.20 ERA, and 43 strikeouts in his last four starts have Wheeler legitimate in the National League Cy Young conversation \u2014 the one dimension of this team generating pure excitement."
+    },
+    {
+      "name": "Trea Turner's Bat Resurges, Glove Remains a Liability",
+      "delta": 2,
+      "sample": "A .322 average and .928 OPS over 28 games has Turner's offense back, but his defensive inconsistency \u2014 especially on routine plays \u2014 is a recurring wound the team can only manage, not cure, in the short term."
+    },
+    {
+      "name": "Trade Deadline Framing Signals Buyer Mentality",
+      "delta": 3,
+      "sample": "Discussion has turned squarely toward what the front office can acquire \u2014 a fifth starter, a late-inning reliever, or both \u2014 with names like Brady Singer and Robbie Ray floated, reflecting a roster still viewed as a genuine postseason contender despite its flaws."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The Dodgers do all the little things right and we don't, and that's why we lose to them.",
+      "score": 22,
+      "source_hint": "JT Realmuto quote read on The Phillies Show (fan analyst)"
+    },
+    {
+      "text": "There was no judgement. That's not a lapse in judgment because that means there's some judgment there.",
+      "score": 18,
+      "source_hint": "Larry Andersen on 94WIP (talk-radio host segment)"
+    },
+    {
+      "text": "The Phillies are only focused on launch angles, exit velocity \u2014 running the bases is way down that list. It is not a playoff winning formula.",
+      "score": 20,
+      "source_hint": "YouTube commenter on Larry Andersen clip"
+    },
+    {
+      "text": "They haven't won a game in that spot since May 18th. That's more than two months ago.",
+      "score": 25,
+      "source_hint": "Phillies Talk host on the fifth-starter crisis (fan analyst)"
+    }
+  ],
+  "vibe_summary": "Base-running incompetence against the Dodgers has ripped open a familiar wound, and with the fifth-starter slot a two-month disaster, the gap between this team's ceiling and its daily execution has never felt wider.",
+  "reasoning": "The dominant emotion is frustrated disbelief \u2014 a winnable game handed away on the bases, compounding a structural pitching problem that has no obvious internal solution. The talk-radio segment is the most emotionally raw, with Larry Andersen openly mocking JT Realmuto's decision-making, while the fan analyst content is more measured, contextualizing Turner's offensive rebound and Wheeler's brilliance. The front office comes under quiet scrutiny for a farm system that cannot fill the fifth-starter hole, with deadline acquisition talk the only real optimism about fixing it before October.",
+  "people_mentioned": [
+    "Wheeler",
+    "Trea Turner",
+    "Mattingly",
+    "JT Realmuto",
+    "Crawford",
+    "Marsh",
+    "Bohm",
+    "Sanchez",
+    "Nola",
+    "Luzardo",
+    "Schwarber",
+    "Harper",
+    "Muncy",
+    "Painter",
+    "Dombrowski",
+    "Kirkering",
+    "Alvarado",
+    "Stott"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 103088,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 3041,
+    "youtube_comments": 4,
+    "youtube_comment_chars": 691,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "What the ...  ? Phillies' base running blunders sink them vs. LA",
+      "voice": "fan_analyst",
+      "chars": 34543
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "The Phillies' No. 5 starter problem",
+      "voice": "fan_analyst",
+      "chars": 36816
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Ugly start to second half as Mets take two of three, plus first half grades",
+      "voice": "fan_analyst",
+      "chars": 31729
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Don Mattingly On Cleaning Up Phillies Base Running Errors",
+      "voice": "radio_populist",
+      "chars": 1089
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Out Of Solutions For Phillies \"Stupid Mistakes.\"",
+      "voice": "radio_populist",
+      "chars": 1116
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Larry Andersen On J.T. Realmuto's Game Costing Base Running Error: \"There Was No Judgement.\"",
+      "voice": "radio_populist",
+      "chars": 836
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 94.2,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 99.3,
+      "delta_pct": -5.2,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823440,
+          "date": "2026-07-16",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 1-4",
+          "attendance": 40109,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823441,
+          "date": "2026-07-18",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 6-1",
+          "attendance": 41133,
+          "pct_capacity": 95.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823439,
+          "date": "2026-07-19",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "L 1-6",
+          "attendance": 40132,
+          "pct_capacity": 93.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823436,
+          "date": "2026-07-20",
+          "day_of_week": "Monday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "W 10-7",
+          "attendance": 40265,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823437,
+          "date": "2026-07-21",
+          "day_of_week": "Tuesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 1-2",
+          "attendance": 40077,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823438,
+          "date": "2026-07-22",
+          "day_of_week": "Wednesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 5-9",
+          "attendance": 40675,
+          "pct_capacity": 94.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "56-47",
+    "streak": "L2",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-07-23T11:54:21.441453+00:00"
+}
