@@ -23282,5 +23282,287 @@
       "games_behind": "4.0"
     },
     "generated_at": "2026-07-23T11:54:21.441453+00:00"
+  },
+  {
+    "date": "2026-07-24",
+    "display_score": 36,
+    "reactive_score": 36,
+    "baseline_score": 49,
+    "insufficient_signal": false,
+    "content_volume": 284,
+    "mood_label": "Oh No",
+    "dimensions": {
+      "results_satisfaction": 28,
+      "front_office_trust": 42,
+      "manager_confidence": 38,
+      "lineup_confidence": 32,
+      "pitching_confidence": 44,
+      "health_outlook": 52,
+      "postseason_belief": 30
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 88,
+      "front_office_trust": 72,
+      "manager_confidence": 80,
+      "lineup_confidence": 85,
+      "pitching_confidence": 82,
+      "health_outlook": 45,
+      "postseason_belief": 78
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 33,
+        "note": "Hittin' Season and The Phillies Show both alarmed by fundamental breakdowns, historic bad baserunning, and a lineup that can't sustain pressure \u2014 though The Phillies Show goes all-in on a trade-deadline optimism framing around pushing all prospects in."
+      },
+      "beat_writer": {
+        "score": 45,
+        "note": "Phillies Therapy (Matt Gelb) is measured but clear-eyed: the team is a good-not-great playoff contender with a fixable rotation hole, and a postseason-caliber rental starter is the path of most impact \u2014 cautiously constructive rather than alarmed."
+      },
+      "radio_populist": {
+        "score": 26,
+        "note": "WIP / High Hopes is the most emotionally raw voice \u2014 'disheartened,' 'outclassed,' rattled by losing a series without facing Ohtani, Glasnow, or Snell, and frustrated by Mattingly's bullpen management and the roster's systemic offensive deficiency."
+      },
+      "youtube_fan": {
+        "score": 28,
+        "note": "YouTube commenters are dismissive and cynical \u2014 Nola called the 'new Taijuan Walker,' Skubal seen as a pipe dream, Dombrowski questioned for not fixing the offense in the offseason, one commenter quipping 'Like it really matters by this point.'"
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Outclassed Without Their Aces",
+        "delta": -8,
+        "sample": "Losing two of three to the Dodgers without facing Ohtani, Yamamoto, Glasnow, or Snell \u2014 and getting shut down by Eric Lauer \u2014 is the series result that has genuinely rattled confidence in this roster's October ceiling."
+      },
+      {
+        "name": "Deadline Direction: Arm Over Bat",
+        "delta": 2,
+        "sample": "The emerging consensus is that a postseason-caliber rental starter \u2014 someone who can slot into the rotation now and become a high-leverage bullpen option in October \u2014 is where the Phillies should direct their limited prospect capital, even as the offensive deficiency remains glaring."
+      },
+      {
+        "name": "Mattingly's Bullpen Decisions Under Fire",
+        "delta": -5,
+        "sample": "Sending Nola back out to face Freeman and Muncy a third time, with a depleted bullpen and Alvarado unavailable, crystallized a recurring concern: the manager is caught in an impossible math problem, but some moves are still drawing heavy criticism."
+      },
+      {
+        "name": "Wheeler as a Hall of Fame Case Study",
+        "delta": 6,
+        "sample": "Reports that Wheeler is reconsidering retirement beyond next year injected a rare note of genuine optimism \u2014 his historically elite late-career production, best ERA-plus of any live-ball starter at ages 34-36, is a legitimate organizational cornerstone argument."
+      },
+      {
+        "name": "Offensive Identity Crisis",
+        "delta": -7,
+        "sample": "The worst or second-worst on-base percentage in baseball, a lineup that scores one or zero runs in nearly two dozen games, and All-Star trio Harper, Schwarber, and Marsh all struggling simultaneously has produced a team that wins only when its top starters dominate \u2014 and can't grind out anything else."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "My big overarching emotion is I feel disheartened. They didn't face Ohtani, Yamamoto, Glasnow, or Snell. They couldn't hit Eric Lauer.",
+        "score": 18,
+        "source_hint": "WIP High Hopes host, post-Dodgers series"
+      },
+      {
+        "text": "I don't know how this team gets through October. I can't see how this is the last team standing by the end of the season.",
+        "score": 20,
+        "source_hint": "fan analyst, Hittin' Season"
+      },
+      {
+        "text": "Push all the damn chips in. The hell with the rest of the guys in the minor leagues. They got multiple needs and not enough prospects to fill them.",
+        "score": 55,
+        "source_hint": "fan analyst, The Phillies Show (Ruben Amaro Jr.)"
+      },
+      {
+        "text": "It is a good team, not a great team. Whatever they do at the deadline, it's not going to fix everything.",
+        "score": 42,
+        "source_hint": "beat writer, Phillies Therapy (Matt Gelb)"
+      }
+    ],
+    "vibe_summary": "The trade deadline looms as the only hope for a team that just dropped two games to the Dodgers' B-squad, exposing an offense too passive, a bullpen too thin, and a roster whose flaws feel too familiar to paper over with one move.",
+    "reasoning": "The dominant mood is genuine alarm, not just reactive frustration \u2014 losing to a Dodgers lineup missing its four best starters crystallized fears about October readiness in a way that two weeks of hand-wringing could not. The beat writer offers the most composed framing, arguing the team is a legitimate playoff contender with a solvable rotation problem, while the talk-radio and fan-analyst perspectives have moved into bleaker territory: systemic offensive dysfunction, Mattingly's bullpen management drawing real scrutiny, and a prospect cupboard too thin to make a transformative swing. YouTube commenters are the most nihilistic, with Nola comparisons to Taijuan Walker and Dombrowski skepticism dominating. Wheeler's potential retirement reversal is the one thread lifting postseason confidence above the floor.",
+    "people_mentioned": [
+      "Wheeler",
+      "Nola",
+      "Mattingly",
+      "Dombrowski",
+      "Luzardo",
+      "Sanchez",
+      "Harper",
+      "Schwarber",
+      "Marsh",
+      "Stott",
+      "Realmuto",
+      "Turner",
+      "Kerkering",
+      "Mesa",
+      "Alvarado",
+      "Duran",
+      "Kirkering",
+      "Bohm",
+      "De La Cruz",
+      "Painter",
+      "Gausman",
+      "Alcantara",
+      "Singer",
+      "Ray",
+      "Holmes",
+      "Peralta",
+      "Hoffman",
+      "Miller",
+      "Amaro",
+      "Salisbury",
+      "Gelb",
+      "Crawford",
+      "McFarlane",
+      "Bolan",
+      "Banks"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 189652,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 16769,
+      "youtube_comments": 9,
+      "youtube_comment_chars": 724,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "We've got 50 trade names for the Phillies",
+        "voice": "fan_analyst",
+        "chars": 42619
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Outclassed",
+        "voice": "radio_populist",
+        "chars": 63188
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "A Ray of Hope",
+        "voice": "beat_writer",
+        "chars": 42118
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Put the \"Fun\" in Fundamentals Against the Dodgers & Trade Deadline Rumors",
+        "voice": "fan_analyst",
+        "chars": 41727
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The Problem With Aaron Nola Starts",
+        "voice": "radio_populist",
+        "chars": 1535
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Trade Deadline Priority: Starter vs. Bat",
+        "voice": "radio_populist",
+        "chars": 14532
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "\"Disheartened\" By Phillies",
+        "voice": "radio_populist",
+        "chars": 702
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 94.2,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 99.3,
+        "delta_pct": -5.2,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823440,
+            "date": "2026-07-16",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 1-4",
+            "attendance": 40109,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823441,
+            "date": "2026-07-18",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 6-1",
+            "attendance": 41133,
+            "pct_capacity": 95.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823439,
+            "date": "2026-07-19",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "L 1-6",
+            "attendance": 40132,
+            "pct_capacity": 93.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823436,
+            "date": "2026-07-20",
+            "day_of_week": "Monday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "W 10-7",
+            "attendance": 40265,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823437,
+            "date": "2026-07-21",
+            "day_of_week": "Tuesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 1-2",
+            "attendance": 40077,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823438,
+            "date": "2026-07-22",
+            "day_of_week": "Wednesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 5-9",
+            "attendance": 40675,
+            "pct_capacity": 94.8,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "56-47",
+      "streak": "L2",
+      "games_behind": "4.5"
+    },
+    "generated_at": "2026-07-24T11:49:33.853006+00:00"
   }
 ]
