@@ -1,0 +1,273 @@
+{
+  "date": "2026-07-25",
+  "display_score": 35,
+  "reactive_score": 35,
+  "baseline_score": 45,
+  "insufficient_signal": false,
+  "content_volume": 274,
+  "mood_label": "Oh No",
+  "dimensions": {
+    "results_satisfaction": 28,
+    "front_office_trust": 42,
+    "manager_confidence": 35,
+    "lineup_confidence": 32,
+    "pitching_confidence": 48,
+    "health_outlook": 38,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 72,
+    "manager_confidence": 80,
+    "lineup_confidence": 82,
+    "pitching_confidence": 75,
+    "health_outlook": 60,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 35,
+      "note": "Hittin' Season and the Phillies Show both dissect base-running disasters, a struggling Big 3, and a thin farm system \u2014 cautiously hopeful about the deadline but clear-eyed about the roster's depth problem."
+    },
+    "beat_writer": {
+      "score": 42,
+      "note": "The beat writer (Phillies Therapy / Matt Gelb) is the most measured voice: frames a mid-rotation rental as the smartest deadline path, acknowledges sloppiness and Mattingly concerns, but still sees the Phillies as a legitimate playoff team."
+    },
+    "radio_populist": {
+      "score": 26,
+      "note": "The talk-radio host (WIP Daily / High Hopes) is the most alarmed \u2014 calls the team 'outclassed,' rips the bullpen depth, questions Mattingly's management, and says the offense is the most deficient it's been in years."
+    },
+    "youtube_fan": {
+      "score": 30,
+      "note": "YouTube commenters on the Trea Turner clip are mildly positive about Turner personally but call out the team's recent play as 'awful' and flag his defensive errors as an ongoing concern."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Base-Running Blunders Still Haunting",
+      "delta": -7,
+      "sample": "The JT Realmuto double-play gaffe and Bryson Stott's run-on-contact mistake are still the dominant wound from the Dodgers series \u2014 framed not as flukes but as symptoms of a team that consistently makes big, dumb mistakes at the worst moments."
+    },
+    {
+      "name": "Trade Deadline as Only Real Answer",
+      "delta": 3,
+      "sample": "Despite farm-system concerns, the dominant consensus is that the Phillies need multiple acquisitions \u2014 a mid-rotation starter who can also slot into the bullpen in October, at least one right-handed bat, and bullpen reinforcement \u2014 with the August 3rd deadline now urgent."
+    },
+    {
+      "name": "Mattingly Under Growing Scrutiny",
+      "delta": -5,
+      "sample": "Sending Nola back out to face Freeman and Muncy a third time, questionable bullpen sequencing, and unclear platoon logic have moved Mattingly from honeymoon phase to legitimate criticism \u2014 with his interim status and the Alex Cora specter both mentioned."
+    },
+    {
+      "name": "Offense Alarmingly Passive and Thin",
+      "delta": -6,
+      "sample": "The team's OPS against lefties could be the worst by a Phillies squad since 1969, the Big 3 of Harper, Schwarber, and Marsh has collectively collapsed since the All-Star break, and the lineup's inability to create traffic without home runs is drawing serious concern."
+    },
+    {
+      "name": "Wheeler Extension Whispers Offer a Rare Bright Spot",
+      "delta": 4,
+      "sample": "Reports that Phillies officials privately believe Zach Wheeler may reconsider retirement after next season inject a rare note of optimism, with the long-term rotation picture around Wheeler, Sanchez, and Luzardo described as genuinely strong."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "This team has way more problems than one injury risk outfielder is going to solve.",
+      "score": 22,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "They are unbelievably deficient in the lineup. Unbelievably deficient.",
+      "score": 15,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    },
+    {
+      "text": "It's a good team, not a great team. It is a team that is contending, a team that should make the playoffs.",
+      "score": 50,
+      "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+    },
+    {
+      "text": "The city loves winning, so win.",
+      "score": 60,
+      "source_hint": "Trea Turner on WIP, via YouTube clip"
+    }
+  ],
+  "vibe_summary": "Fans and analysts broadly agree this roster has genuine ceiling \u2014 but watching it give away games through mental errors, a hollowed-out bullpen, and a lifeless offense against lefties makes the trade deadline feel less like an upgrade and more like urgent triage.",
+  "reasoning": "The Dodgers series losses \u2014 particularly the Realmuto base-running gaffe \u2014 have crystallized a broader anxiety that this team makes large, unforced mistakes at critical moments. The beat writer is the calmest, framing a mid-rotation rental as a smart, achievable fix and still viewing the Phillies as a playoff team; the talk-radio perspective is sharply more alarmed, calling the offense the most deficient in years and warning that chasing starting pitching over lineup help would be a catastrophic misuse of resources. The farm system's low rankings and thin catching depth compound concerns, though the quiet Wheeler extension reports and Luzardo's continued excellence give fans something real to hold onto.",
+  "people_mentioned": [
+    "Realmuto",
+    "Mattingly",
+    "Nola",
+    "Wheeler",
+    "Luzardo",
+    "Schwarber",
+    "Harper",
+    "Marsh",
+    "Turner",
+    "Dombrowski",
+    "Bohm",
+    "Stott",
+    "Duran",
+    "Kirkering",
+    "Meza",
+    "Alvarado",
+    "De La Cruz",
+    "Sosa",
+    "Bolin",
+    "Gausman",
+    "Alcantara",
+    "Buxton",
+    "Painter",
+    "Stubbs",
+    "Marchand",
+    "McFarland",
+    "Scherzer",
+    "Hoffman"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 202582,
+    "youtube_attempted": 1,
+    "youtube_transcribed": 1,
+    "youtube_chars": 934,
+    "youtube_comments": 3,
+    "youtube_comment_chars": 212,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "The Phillies are Starting the Second Half Slowly",
+      "voice": "fan_analyst",
+      "chars": 52680
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "We've got 50 trade names for the Phillies",
+      "voice": "fan_analyst",
+      "chars": 43191
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Outclassed",
+      "voice": "radio_populist",
+      "chars": 62990
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "A Ray of Hope",
+      "voice": "beat_writer",
+      "chars": 43721
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Trea Turner When Asked About Advice For LeBron James: \"He Can Do Whatever The Hell But Win.\"",
+      "voice": "radio_populist",
+      "chars": 934
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 95.1,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 99.3,
+      "delta_pct": -4.2,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823440,
+          "date": "2026-07-16",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 1-4",
+          "attendance": 40109,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823441,
+          "date": "2026-07-18",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 6-1",
+          "attendance": 41133,
+          "pct_capacity": 95.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823439,
+          "date": "2026-07-19",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "L 1-6",
+          "attendance": 40132,
+          "pct_capacity": 93.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823436,
+          "date": "2026-07-20",
+          "day_of_week": "Monday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "W 10-7",
+          "attendance": 40265,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823437,
+          "date": "2026-07-21",
+          "day_of_week": "Tuesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 1-2",
+          "attendance": 40077,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823438,
+          "date": "2026-07-22",
+          "day_of_week": "Wednesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 5-9",
+          "attendance": 40675,
+          "pct_capacity": 94.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823434,
+          "date": "2026-07-24",
+          "day_of_week": "Friday",
+          "opponent": "New York Yankees",
+          "result": "L 0-1",
+          "attendance": 43165,
+          "pct_capacity": 100.6,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "56-48",
+    "streak": "L3",
+    "games_behind": "5.5"
+  },
+  "generated_at": "2026-07-25T11:18:34.415760+00:00"
+}
