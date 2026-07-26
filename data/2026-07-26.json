@@ -1,0 +1,264 @@
+{
+  "date": "2026-07-26",
+  "display_score": 36,
+  "reactive_score": 36,
+  "baseline_score": 42,
+  "insufficient_signal": false,
+  "content_volume": 125,
+  "mood_label": "Oh No",
+  "dimensions": {
+    "results_satisfaction": 32,
+    "front_office_trust": 52,
+    "manager_confidence": 38,
+    "lineup_confidence": 30,
+    "pitching_confidence": 28,
+    "health_outlook": 45,
+    "postseason_belief": 42
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 68,
+    "manager_confidence": 62,
+    "lineup_confidence": 78,
+    "pitching_confidence": 82,
+    "health_outlook": 40,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 48,
+      "note": "Fan analyst (Hittin' Season / Stolnis, Klugh, Roscher) frames the deadline with energy and urgency \u2014 push all prospects in \u2014 but the underlying tone acknowledges a short window, a broken fifth-starter slot, and a lineup with the worst on-base percentage in baseball."
+    },
+    "beat_writer": {
+      "score": 40,
+      "note": "Beat writer (Phillies Therapy / Matt Gelb) is measured but candid: the team is good, not great; Mattingly's recent bullpen management has been questionable; the deadline can help but won't fix everything; acquiring a postseason-caliber starter is the clearest path."
+    },
+    "radio_populist": {
+      "score": 50,
+      "note": "Talk-radio host (WIP Daily / Joe Giglio) clip is almost entirely a Trea Turner quote about LeBron James \u2014 minimal Phillies team sentiment signal beyond Turner's brevity."
+    },
+    "youtube_fan": {
+      "score": 28,
+      "note": "YouTube commenters are bluntly critical \u2014 the team has been 'awful to watch,' Turner is told to stop committing errors, and there's general exasperation with recent play."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "All Chips In at the Deadline",
+      "delta": 4,
+      "sample": "The prevailing argument is that the window is two years at most \u2014 trade every viable prospect now for legitimate pitching and stop half-measures, because there are not enough farm pieces to be precious about anyway."
+    },
+    {
+      "name": "Fifth Starter Is a Black Hole",
+      "delta": -7,
+      "sample": "The rotation slot behind the top three has produced a 5-20 record across Walker, Painter, and assorted openers \u2014 an urgent, present crisis that the deadline must address before October becomes a conversation."
+    },
+    {
+      "name": "Offense Can't Create Traffic",
+      "delta": -6,
+      "sample": "The team carries the worst or second-worst on-base percentage in baseball, has been held to zero or one run in roughly two dozen games, and relies almost entirely on the home run \u2014 a fragile and unsustainable formula."
+    },
+    {
+      "name": "Mattingly Bullpen Calls Under Fire",
+      "delta": -5,
+      "sample": "Sending Nola back out to face Freeman and Muncy a third time, when a lefty reliever was available, crystallized recurring concerns about in-game decision-making at pivotal moments in close games."
+    },
+    {
+      "name": "Trade Market Has Real Rotation Options",
+      "delta": 5,
+      "sample": "Gausman, Peralta, Robbie Ray, Brady Singer, Sandy Alcantara, and others represent a deep rental pool of starters who could both fill the immediate hole and convert to bullpen leverage in October \u2014 genuine reason for optimism heading into the deadline."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Push all the damn chips in. Push them all in. The Phillies are pot committed.",
+      "score": 62,
+      "source_hint": "fan analyst (The Phillies Show) \u2014 Ruben Amaro Jr. on deadline strategy"
+    },
+    {
+      "text": "It is a good team, not a great team. It is a team that is contending. It is a team that should make the playoffs.",
+      "score": 45,
+      "source_hint": "beat writer (Phillies Therapy) \u2014 Matt Gelb's honest assessment of the roster ceiling"
+    },
+    {
+      "text": "Now you and the rest of the Phillies team need to play better ball because it's been awful watching games whether on TV or in person.",
+      "score": 18,
+      "source_hint": "YouTube commenter on Trea Turner LeBron interview clip"
+    },
+    {
+      "text": "They're 5-20 in those games. The fifth spot's been a total black hole.",
+      "score": 22,
+      "source_hint": "fan analyst (The Phillies Show) \u2014 on the combined record in non-top-four starts"
+    }
+  ],
+  "vibe_summary": "With the deadline ten days out, the dominant mood is urgent pragmatism \u2014 trade everything available, because the rotation is broken, the offense is passive, and waiting is not an option.",
+  "reasoning": "The clearest signal across today's content is that optimism is deadline-conditional, not roster-based: the pitching situation \u2014 a 5-20 record in fifth-starter games, bullpen mismanagement against the Dodgers, Nola's regression \u2014 generates genuine alarm, while the offensive profile (worst or second-worst OBP in baseball, reliance on home runs alone) reinforces how fragile this team is. The more contextualizing framing \u2014 'this is a good team that should make the playoffs,' a rich rental rotation market \u2014 provides a floor but not a ceiling. Manager confidence is the most pointed area of divergence: candid analysis flags Mattingly's handling of Nola's final innings in three straight starts as a real concern, while raw fan sentiment skips nuance entirely and just registers frustration. Postseason belief is moderate rather than low because multiple analysts explicitly frame the Phillies as buyers with a genuine path to a playoff rotation, not merely reassuring fans to stay calm.",
+  "people_mentioned": [
+    "Mattingly",
+    "Nola",
+    "Dombrowski",
+    "Luzardo",
+    "Turner",
+    "Gausman",
+    "Alcantara",
+    "Singer",
+    "Ray",
+    "Holmes",
+    "Peralta",
+    "Painter",
+    "Hoffman",
+    "Scherzer",
+    "Harper",
+    "Stott",
+    "Alvarado",
+    "Crawford",
+    "de la Cruz",
+    "Hill",
+    "Marsh"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 2,
+    "podcasts_transcribed": 2,
+    "podcast_chars": 89480,
+    "youtube_attempted": 1,
+    "youtube_transcribed": 1,
+    "youtube_chars": 934,
+    "youtube_comments": 4,
+    "youtube_comment_chars": 259,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "We've got 50 trade names for the Phillies",
+      "voice": "fan_analyst",
+      "chars": 46331
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "A Ray of Hope",
+      "voice": "beat_writer",
+      "chars": 43149
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Trea Turner When Asked About Advice For LeBron James: \"He Can Do Whatever The Hell But Win.\"",
+      "voice": "radio_populist",
+      "chars": 934
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 8,
+      "recent_avg_pct": 96.2,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 99.3,
+      "delta_pct": -3.1,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823440,
+          "date": "2026-07-16",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 1-4",
+          "attendance": 40109,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823441,
+          "date": "2026-07-18",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 6-1",
+          "attendance": 41133,
+          "pct_capacity": 95.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823439,
+          "date": "2026-07-19",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "L 1-6",
+          "attendance": 40132,
+          "pct_capacity": 93.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823436,
+          "date": "2026-07-20",
+          "day_of_week": "Monday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "W 10-7",
+          "attendance": 40265,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823437,
+          "date": "2026-07-21",
+          "day_of_week": "Tuesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 1-2",
+          "attendance": 40077,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823438,
+          "date": "2026-07-22",
+          "day_of_week": "Wednesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 5-9",
+          "attendance": 40675,
+          "pct_capacity": 94.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823434,
+          "date": "2026-07-24",
+          "day_of_week": "Friday",
+          "opponent": "New York Yankees",
+          "result": "L 0-1",
+          "attendance": 43165,
+          "pct_capacity": 100.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823435,
+          "date": "2026-07-25",
+          "day_of_week": "Saturday",
+          "opponent": "New York Yankees",
+          "result": "L 1-3",
+          "attendance": 44562,
+          "pct_capacity": 103.9,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "56-49",
+    "streak": "L4",
+    "games_behind": "5.5"
+  },
+  "generated_at": "2026-07-26T11:20:54.526279+00:00"
+}
