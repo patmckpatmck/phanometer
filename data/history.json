@@ -24101,5 +24101,288 @@
       "games_behind": "5.5"
     },
     "generated_at": "2026-07-26T11:20:54.526279+00:00"
+  },
+  {
+    "date": "2026-07-27",
+    "display_score": 44,
+    "reactive_score": 44,
+    "baseline_score": 40,
+    "insufficient_signal": false,
+    "content_volume": 180,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 42,
+      "front_office_trust": 52,
+      "manager_confidence": 38,
+      "lineup_confidence": 35,
+      "pitching_confidence": 55,
+      "health_outlook": 52,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 70,
+      "manager_confidence": 60,
+      "lineup_confidence": 90,
+      "pitching_confidence": 75,
+      "health_outlook": 55,
+      "postseason_belief": 65
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 40,
+        "note": "The fan analyst (Hittin' Season / Phillies Talk / Philly Show) is deeply concerned about a 3-6 homestand, an embarrassing number of roster holes for a $350M payroll, a brutalized outfield, and a Harper funk; urgency to trade prospects is high, but optimism is tempered by thin trade chips."
+      },
+      "beat_writer": {
+        "score": 45,
+        "note": "The beat writer (Phillies Therapy / Matt Gelb) is measured but candid \u2014 sloppy fundamentals, Nola management concerns, and a thin bullpen are real problems, though the trade market for rental starters offers a credible path forward; Luzardo is genuinely elite and the team remains a playoff-caliber unit."
+      },
+      "radio_populist": {
+        "score": 55,
+        "note": "The talk-radio host (WIP Daily) clip is brief and largely off-topic \u2014 Trea Turner reacting to the LeBron Sixers news \u2014 offering minimal Phillies-specific sentiment signal beyond a lightly upbeat athlete quote."
+      },
+      "youtube_fan": {
+        "score": 30,
+        "note": "YouTube commenters are pointed and critical, directing frustration at sloppy play and Turner's defensive errors specifically, with little charity for recent performance."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "3-6 Homestand Exposes Every Hole",
+        "delta": -6,
+        "sample": "A nine-game homestand against the Mets, Dodgers, and Yankees ended at 3-6, and the losses weren't close \u2014 one run or fewer in five of the first eight games, sloppy defense, thin pitching, and an offense that lives and dies by the solo home run."
+      },
+      {
+        "name": "Harper Slump Signals Fatigue, Not Just a Funk",
+        "delta": -5,
+        "sample": "Over his last 20 games Harper has posted the lowest OPS stretch of his Phillies career, and the growing theory is that skipping a real All-Star break \u2014 the Home Run Derby, media obligations, the game itself \u2014 left him running on fumes entering the second half."
+      },
+      {
+        "name": "Trade Deadline: Spend the Prospects, Get a Real Starter",
+        "delta": 4,
+        "sample": "Historical data showing 81% of traded prospects amount to nothing has hardened the consensus: the Phillies' window is closing, the farm system is already thin, and the clearest path to October impact is landing a playoff-caliber rental starter who can also move to the bullpen in October."
+      },
+      {
+        "name": "Trea Turner's Defense Is a Crisis",
+        "delta": -5,
+        "sample": "Turner has effectively committed 18 errors and counting, with a game against the Dodgers that arguably featured four miscues scored as one; the defense as a whole ranks as the worst in baseball by defensive runs saved, and the sloppiness has become a recurring embarrassment."
+      },
+      {
+        "name": "Mattingly's In-Game Management Drawing Scrutiny",
+        "delta": -3,
+        "sample": "Leaving Nola to face dangerous left-handed hitters for a third time through the order, questionable bullpen timing, and delayed roster recalls have eroded confidence in the manager's tactical decisions at critical moments."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Their window is closing, man. It's going to close. They better make it happen soon, if not this year.",
+        "score": 32,
+        "source_hint": "fan analyst (The Phillies Show / Ruben Amaro Jr.)"
+      },
+      {
+        "text": "It's the lowest OPS over a 20-game stretch of his career. Maybe he just needs some time off his feet.",
+        "score": 28,
+        "source_hint": "fan analyst (Phillies Talk / NBC Sports Philadelphia)"
+      },
+      {
+        "text": "A good team, not a great team. It is a team that is contending. It is a team that should make the playoffs.",
+        "score": 50,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+      },
+      {
+        "text": "The city loves winning so win.",
+        "score": 55,
+        "source_hint": "talk-radio host (94WIP / Trea Turner interview)"
+      }
+    ],
+    "vibe_summary": "Harper is visibly worn down, Turner keeps giving games away with his glove, and the outfield is a patchwork mess \u2014 but all eyes are now on Dombrowski to spend whatever it takes before the deadline closes.",
+    "reasoning": "The dominant mood coming off a 3-6 homestand is anxious urgency rather than despair: the team is 57-49, still in a wildcard spot, but the margin for error is shrinking with the Braves 5.5 games ahead. Analytical framing around the trade deadline leans constructively toward rental starters, but the underlying roster critiques \u2014 historically bad outfield OBP, Harper fatigue, Turner's defensive errors, and Mattingly's bullpen decisions \u2014 are sharp and consistent across all present sources. YouTube commenters are the most purely critical voice, while the beat writer offers the most sober, layered read; the fan analysts are urgently pro-trade but acknowledge a shallow prospect pool limits the Phillies' leverage.",
+    "people_mentioned": [
+      "Harper",
+      "Turner",
+      "Luzardo",
+      "Stott",
+      "Bohm",
+      "Mattingly",
+      "Dombrowski",
+      "Nola",
+      "Sanchez",
+      "Marsh",
+      "Schwarber",
+      "Wheeler",
+      "Painter",
+      "Aidan Miller",
+      "Realmuto",
+      "De La Cruz",
+      "Gausman",
+      "Buxton",
+      "Crawford",
+      "Alcantara",
+      "Hoffman",
+      "Keller",
+      "Scherzer",
+      "Amaro"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 131224,
+      "youtube_attempted": 1,
+      "youtube_transcribed": 1,
+      "youtube_chars": 934,
+      "youtube_comments": 4,
+      "youtube_comment_chars": 259,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Trade \u2018em: Phillies can\u2019t worry about dealing top prospects",
+        "voice": "fan_analyst",
+        "chars": 28366
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "As deadline looms, Phillies leaking water with slow start to second half===",
+        "voice": "fan_analyst",
+        "chars": 58827
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "A Ray of Hope",
+        "voice": "beat_writer",
+        "chars": 44031
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Trea Turner When Asked About Advice For LeBron James: \"He Can Do Whatever The Hell But Win.\"",
+        "voice": "radio_populist",
+        "chars": 934
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 9,
+        "recent_avg_pct": 96.6,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 99.0,
+        "delta_pct": -2.4,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823440,
+            "date": "2026-07-16",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 1-4",
+            "attendance": 40109,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823441,
+            "date": "2026-07-18",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 6-1",
+            "attendance": 41133,
+            "pct_capacity": 95.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823439,
+            "date": "2026-07-19",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "L 1-6",
+            "attendance": 40132,
+            "pct_capacity": 93.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823436,
+            "date": "2026-07-20",
+            "day_of_week": "Monday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "W 10-7",
+            "attendance": 40265,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823437,
+            "date": "2026-07-21",
+            "day_of_week": "Tuesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 1-2",
+            "attendance": 40077,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823438,
+            "date": "2026-07-22",
+            "day_of_week": "Wednesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 5-9",
+            "attendance": 40675,
+            "pct_capacity": 94.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823434,
+            "date": "2026-07-24",
+            "day_of_week": "Friday",
+            "opponent": "New York Yankees",
+            "result": "L 0-1",
+            "attendance": 43165,
+            "pct_capacity": 100.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823435,
+            "date": "2026-07-25",
+            "day_of_week": "Saturday",
+            "opponent": "New York Yankees",
+            "result": "L 1-3",
+            "attendance": 44562,
+            "pct_capacity": 103.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823433,
+            "date": "2026-07-26",
+            "day_of_week": "Sunday",
+            "opponent": "New York Yankees",
+            "result": "W 11-4",
+            "attendance": 42799,
+            "pct_capacity": 99.8,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "57-49",
+      "streak": "W1",
+      "games_behind": "5.5"
+    },
+    "generated_at": "2026-07-27T12:59:51.581826+00:00"
   }
 ]
