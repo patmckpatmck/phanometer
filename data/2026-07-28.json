@@ -1,0 +1,302 @@
+{
+  "date": "2026-07-28",
+  "display_score": 38,
+  "reactive_score": 38,
+  "baseline_score": 41,
+  "insufficient_signal": false,
+  "content_volume": 251,
+  "mood_label": "Oh No",
+  "dimensions": {
+    "results_satisfaction": 28,
+    "front_office_trust": 42,
+    "manager_confidence": 38,
+    "lineup_confidence": 32,
+    "pitching_confidence": 52,
+    "health_outlook": 55,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 90,
+    "front_office_trust": 78,
+    "manager_confidence": 72,
+    "lineup_confidence": 88,
+    "pitching_confidence": 75,
+    "health_outlook": 60,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 28,
+      "note": "Hittin' Season panel describes the team as 'putrid' after going 3-6 on the homestand, flags a worst-in-baseball OBP, a 13-27 record vs. playoff teams, and sees no in-house fix for the fifth starter or the lineup's passivity."
+    },
+    "beat_writer": {
+      "score": 42,
+      "note": "Phillies Therapy beat writer takes a measured tone \u2014 calling the homestand forgettable but unsurprising \u2014 and expresses genuine confidence the Phillies can make three meaningful deadline moves without surrendering top prospects."
+    },
+    "radio_populist": {
+      "score": 33,
+      "note": "WIP High Hopes is frustrated by the losing streak and sloppy fundamentals, openly worried about Turner's yips potentially being permanent, and mourning the Marlins gut-punch loss, while holding out hope that Harper/Schwarber will heat back up."
+    },
+    "youtube_fan": {
+      "score": 18,
+      "note": "YouTube commenters are brief and bleak \u2014 one says 'we suck and baseball gods hate us,' another doubts the team can fill its multiple holes at the deadline."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Trea Turner's yips are an open wound",
+      "delta": -8,
+      "sample": "The error total at shortstop keeps climbing, the 'yips' conversation has gone mainstream, and there is genuine fear \u2014 drawn from Rick Ankiel and Chuck Knoblauch comparisons \u2014 that this may never resolve itself this season."
+    },
+    {
+      "name": "A gut-punch Marlins loss caps a miserable homestand",
+      "delta": -7,
+      "sample": "Blowing a two-run lead with Duran on the mound against a team that had lost 12 straight felt like a microcosm of the whole 3-6 stretch \u2014 good stretches of play repeatedly undermined by one catastrophic moment."
+    },
+    {
+      "name": "Harper, Schwarber, and Marsh all cold at the same time",
+      "delta": -6,
+      "sample": "The three offensive engines that carried the team through the spring are simultaneously slumping, and when a top-heavy lineup loses all three horses at once, the run-scoring collapses entirely."
+    },
+    {
+      "name": "Trade deadline as the only realistic fix",
+      "delta": 3,
+      "sample": "There is convergent thinking that Foster Griffin, a right-handed outfield bat like Heliot Ramos, and a reliever such as Jeff Hoffman or Clay Holmes represent the realistic \u2014 if uninspiring \u2014 cocktail Dombrowski will pursue, and the front office is believed to have the chips to pull it off."
+    },
+    {
+      "name": "Worst OBP in baseball exposes a structural flaw",
+      "delta": -6,
+      "sample": "A .303 on-base percentage tied for last in the majors means the offense only works when homers are flying; when they aren't, the Phillies rank among the worst run-scoring teams in the National League."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I'm as down on this team as I think I've been really since the end of the 2022 season.",
+      "score": 15,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "Every time I think there's going to be progress by these Phillies, another one of these traps hits us and we get knocked backwards.",
+      "score": 18,
+      "source_hint": "r/phillies caller on WIP Final Out"
+    },
+    {
+      "text": "I feel like they're wading into these waters with players that I just generally don't like.",
+      "score": 30,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "We suck and baseball gods hate us.",
+      "score": 5,
+      "source_hint": "YouTube commenters on Byron Buxton video"
+    }
+  ],
+  "vibe_summary": "A gut-punch loss to a 12-game skidding Marlins team, a shortstop who may have the yips, and three cold offensive stars at once have left the fanbase hanging everything on a trade deadline that feels more like a lifeline than a celebration.",
+  "reasoning": "The dominant mood is one of compounding frustration: a miserable 3-6 homestand against quality opponents was followed immediately by a crushing blown-save loss to the league's worst team, and the structural issues \u2014 worst OBP in baseball, a 13-27 record against playoff teams, Trea Turner's defensive collapse \u2014 feel chronic rather than correctable. The beat writer offers the most grounded perspective, expressing quiet confidence that the Phillies can execute three meaningful deadline upgrades without gutting the farm; the fan analyst panel is far harsher, flatly calling the team 'putrid' and questioning whether any deadline haul can fix deeply embedded flaws. The talk-radio voice lands somewhere in between, hopeful that Harper and Schwarber will return to form but openly alarmed that Turner's yips may be permanent.",
+  "people_mentioned": [
+    "Turner",
+    "Harper",
+    "Dombrowski",
+    "Schwarber",
+    "Mattingly",
+    "Wheeler",
+    "Bohm",
+    "Duran",
+    "Bolin",
+    "Sanchez",
+    "Marsh",
+    "Stott",
+    "Crawford",
+    "Rincones",
+    "Painter",
+    "Keller",
+    "Lozardo",
+    "Nola",
+    "Realmuto",
+    "Hoffman",
+    "Holmes",
+    "Ramos",
+    "Meisner",
+    "Miller",
+    "Middleton"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 182869,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 3700,
+    "youtube_comments": 2,
+    "youtube_comment_chars": 188,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Will This Team Ever Wake Up?",
+      "voice": "radio_populist",
+      "chars": 25646
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Inconsistencies On Display After Dodgers and Yankees Homestand",
+      "voice": "fan_analyst",
+      "chars": 61148
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "We Have the Mis* at Home",
+      "voice": "beat_writer",
+      "chars": 39912
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Just Get Us To The Trade Deadline!",
+      "voice": "radio_populist",
+      "chars": 56163
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Byron Buxton To The Phillies? \ud83d\udc40",
+      "voice": "radio_populist",
+      "chars": 1209
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Trea Turner Must Cure His Yips",
+      "voice": "radio_populist",
+      "chars": 817
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Trea Turner 'CLEARLY' Has The Yips",
+      "voice": "radio_populist",
+      "chars": 1674
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 9,
+      "recent_avg_pct": 96.6,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 98.9,
+      "delta_pct": -2.3,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823440,
+          "date": "2026-07-16",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 1-4",
+          "attendance": 40109,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823441,
+          "date": "2026-07-18",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 6-1",
+          "attendance": 41133,
+          "pct_capacity": 95.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823439,
+          "date": "2026-07-19",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "L 1-6",
+          "attendance": 40132,
+          "pct_capacity": 93.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823436,
+          "date": "2026-07-20",
+          "day_of_week": "Monday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "W 10-7",
+          "attendance": 40265,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823437,
+          "date": "2026-07-21",
+          "day_of_week": "Tuesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 1-2",
+          "attendance": 40077,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823438,
+          "date": "2026-07-22",
+          "day_of_week": "Wednesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 5-9",
+          "attendance": 40675,
+          "pct_capacity": 94.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823434,
+          "date": "2026-07-24",
+          "day_of_week": "Friday",
+          "opponent": "New York Yankees",
+          "result": "L 0-1",
+          "attendance": 43165,
+          "pct_capacity": 100.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823435,
+          "date": "2026-07-25",
+          "day_of_week": "Saturday",
+          "opponent": "New York Yankees",
+          "result": "L 1-3",
+          "attendance": 44562,
+          "pct_capacity": 103.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823433,
+          "date": "2026-07-26",
+          "day_of_week": "Sunday",
+          "opponent": "New York Yankees",
+          "result": "W 11-4",
+          "attendance": 42799,
+          "pct_capacity": 99.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "57-50",
+    "streak": "L1",
+    "games_behind": "5.5"
+  },
+  "generated_at": "2026-07-28T12:05:26.592852+00:00"
+}
