@@ -24686,5 +24686,305 @@
       "games_behind": "5.5"
     },
     "generated_at": "2026-07-28T12:05:26.592852+00:00"
+  },
+  {
+    "date": "2026-07-29",
+    "display_score": 41,
+    "reactive_score": 41,
+    "baseline_score": 40,
+    "insufficient_signal": false,
+    "content_volume": 221,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 28,
+      "front_office_trust": 52,
+      "manager_confidence": 45,
+      "lineup_confidence": 38,
+      "pitching_confidence": 55,
+      "health_outlook": 52,
+      "postseason_belief": 32
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 72,
+      "manager_confidence": 60,
+      "lineup_confidence": 80,
+      "pitching_confidence": 70,
+      "health_outlook": 55,
+      "postseason_belief": 65
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": null,
+      "beat_writer": {
+        "score": 52,
+        "note": "Phillies Therapy takes a measured, analytical view \u2014 acknowledging a forgettable homestand, real roster flaws, and an 87-win pace, while expressing genuine optimism that multiple deadline upgrades are achievable without gutting the farm."
+      },
+      "radio_populist": {
+        "score": 34,
+        "note": "WIP Daily host is frustrated and reactive across multiple episodes \u2014 four straight series losses, 26 scoreless games, a gut-punch Marlins blown save \u2014 but pushes back hard on calls to sell, argues the deadline can still save this team, and finds silver linings in Nola and Alvarado."
+      },
+      "youtube_fan": {
+        "score": 40,
+        "note": "Single YouTube comment on the Clay Holmes clip is muted and underwhelmed \u2014 acknowledging a starter acquisition is needed but not sufficient on its own."
+      },
+      "twitter_fan": null
+    },
+    "themes": [
+      {
+        "name": "Four Straight Series Losses",
+        "delta": -7,
+        "sample": "Dropping four consecutive series \u2014 capped by a 1-0 shutout loss to a team that had lost 12 straight \u2014 has pushed frustration to a peak, with 26 scoreless games on the year now the most in baseball."
+      },
+      {
+        "name": "Deadline as Last Resort, Not Celebration",
+        "delta": -3,
+        "sample": "The trade deadline is discussed less as an exciting opportunity and more as a lifeline \u2014 multiple holes to fill, a thin farm system, and real questions about whether enough upgrades are even available on the market."
+      },
+      {
+        "name": "Nola and Alvarado Quietly Turning Corners",
+        "delta": 4,
+        "sample": "Aaron Nola has quietly settled in as a reliable five-inning arm, and Jose Alvarado is taking the ball every night without complaint \u2014 two stabilizing developments that get lost in the broader noise of the losing streak."
+      },
+      {
+        "name": "Harper, Schwarber, and Marsh Slumping Simultaneously",
+        "delta": -6,
+        "sample": "The three offensive engines are all cold at the same time \u2014 Harper posting a sub-600 OPS over his last 28 days, Schwarber with three homers all of July, and Marsh cratering to a sub-420 OPS over the last month."
+      },
+      {
+        "name": "Defense and Fundamentals Eroding",
+        "delta": -5,
+        "sample": "Sloppy throws, misread balls in the outfield, and a shortstop who looks like he may have the yips on routine grounders have become nightly fixtures, with pointed concern that these problems can't be fixed by any trade."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "It is getting dire in the streets of Philadelphia.",
+        "score": 20,
+        "source_hint": "WIP Daily talk-radio host, reacting to four straight series losses"
+      },
+      {
+        "text": "They're back on an 87 win pace for the season. And if you told me right now that they finished the season with 87 wins, I'd say that sounds about right.",
+        "score": 42,
+        "source_hint": "Beat writer on Phillies Therapy, assessing where the team realistically stands"
+      },
+      {
+        "text": "I do believe that they are a well-executed deadline away.",
+        "score": 58,
+        "source_hint": "WIP Daily talk-radio host, arguing against calls to sell"
+      },
+      {
+        "text": "Every time I think there's going to be progress by these Phillies, another one of these traps hits us, and we get knocked backwards.",
+        "score": 18,
+        "source_hint": "Caller to WIP Daily, expressing gut-punch frustration with the team's pattern"
+      }
+    ],
+    "vibe_summary": "Four straight series losses and three offensive stars simultaneously slumping have the fanbase clinging to the deadline like a reset button \u2014 but whether Dombrowski can plug enough holes fast enough to change the story is genuinely unresolved.",
+    "reasoning": "The dominant driver is the compounding losing streak against weak competition, with the 1-0 shutout loss to a Marlins team fresh off a 12-game skid landing as a particular gut-punch. The beat writer offers the most sober framing \u2014 an 87-win pace, addressable but not fixable roster flaws, and cautious optimism about multiple modest deadline upgrades \u2014 while the talk-radio voice is louder and more emotionally raw, oscillating between alarm and forceful resistance to defeatism. Postseason belief stays low because most of the forward-looking commentary is framed around managing despair and waiting for deadline reinforcements rather than any expressed conviction that this roster, as constructed, is a genuine October threat.",
+    "people_mentioned": [
+      "Harper",
+      "Nola",
+      "Wheeler",
+      "Alvarado",
+      "Schwarber",
+      "Mattingly",
+      "Dombrowski",
+      "Turner",
+      "Marsh",
+      "Bohm",
+      "Stott",
+      "Luzardo",
+      "Sanchez",
+      "Bolin",
+      "Crawford",
+      "Schwarber",
+      "de la Cruz",
+      "Keller",
+      "Meisner",
+      "Buxton",
+      "Holmes",
+      "Gossman",
+      "Peralta",
+      "Morales",
+      "Varsho",
+      "Neto",
+      "Painter",
+      "Renteria",
+      "Miller"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 146052,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 19090,
+      "youtube_comments": 1,
+      "youtube_comment_chars": 44,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Things Are Getting Dire",
+        "voice": "radio_populist",
+        "chars": 28960
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Will This Team Ever Wake Up?",
+        "voice": "radio_populist",
+        "chars": 26529
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "We Have the Mis* at Home",
+        "voice": "beat_writer",
+        "chars": 36856
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Just Get Us To The Trade Deadline!",
+        "voice": "radio_populist",
+        "chars": 53707
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Trade Target Zach Neto",
+        "voice": "radio_populist",
+        "chars": 1145
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Clay Holmes To The Phillies?! \ud83d\udc40",
+        "voice": "radio_populist",
+        "chars": 947
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Trade Deadline Targets \ud83c\udfaf",
+        "voice": "radio_populist",
+        "chars": 16998
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 9,
+        "recent_avg_pct": 96.6,
+        "baseline_games_count": 38,
+        "baseline_avg_pct": 98.9,
+        "delta_pct": -2.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823440,
+            "date": "2026-07-16",
+            "day_of_week": "Thursday",
+            "opponent": "New York Mets",
+            "result": "L 1-4",
+            "attendance": 40109,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823441,
+            "date": "2026-07-18",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 6-1",
+            "attendance": 41133,
+            "pct_capacity": 95.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823439,
+            "date": "2026-07-19",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "L 1-6",
+            "attendance": 40132,
+            "pct_capacity": 93.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823436,
+            "date": "2026-07-20",
+            "day_of_week": "Monday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "W 10-7",
+            "attendance": 40265,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823437,
+            "date": "2026-07-21",
+            "day_of_week": "Tuesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 1-2",
+            "attendance": 40077,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823438,
+            "date": "2026-07-22",
+            "day_of_week": "Wednesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 5-9",
+            "attendance": 40675,
+            "pct_capacity": 94.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823434,
+            "date": "2026-07-24",
+            "day_of_week": "Friday",
+            "opponent": "New York Yankees",
+            "result": "L 0-1",
+            "attendance": 43165,
+            "pct_capacity": 100.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823435,
+            "date": "2026-07-25",
+            "day_of_week": "Saturday",
+            "opponent": "New York Yankees",
+            "result": "L 1-3",
+            "attendance": 44562,
+            "pct_capacity": 103.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823433,
+            "date": "2026-07-26",
+            "day_of_week": "Sunday",
+            "opponent": "New York Yankees",
+            "result": "W 11-4",
+            "attendance": 42799,
+            "pct_capacity": 99.8,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "57-51",
+      "streak": "L2",
+      "games_behind": "6.0"
+    },
+    "generated_at": "2026-07-29T12:07:11.276720+00:00"
   }
 ]
