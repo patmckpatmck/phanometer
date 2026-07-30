@@ -1,0 +1,299 @@
+{
+  "date": "2026-07-30",
+  "display_score": 30,
+  "reactive_score": 30,
+  "baseline_score": 41,
+  "insufficient_signal": false,
+  "content_volume": 211,
+  "mood_label": "Oh No",
+  "dimensions": {
+    "results_satisfaction": 12,
+    "front_office_trust": 38,
+    "manager_confidence": 42,
+    "lineup_confidence": 28,
+    "pitching_confidence": 40,
+    "health_outlook": 44,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 80,
+    "manager_confidence": 65,
+    "lineup_confidence": 85,
+    "pitching_confidence": 70,
+    "health_outlook": 60,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 22,
+      "note": "Both fan analyst shows (Phillies Talk and The Phillies Show) express genuine alarm \u2014 four straight series losses, swept by a team on a 12-game skid, bullpen and lineup failures piling up, with cautious deadline hope as the only thin thread of optimism."
+    },
+    "beat_writer": {
+      "score": 38,
+      "note": "The beat writer (Phillies Therapy / Matt Gelb) is the most measured voice, accepting the team's flawed-but-functional ceiling and expressing real confidence that multiple deadline moves are achievable and meaningful, even while acknowledging deep roster limitations."
+    },
+    "radio_populist": {
+      "score": 18,
+      "note": "The talk-radio host (WIP Daily / Joe Giglio) swings between calling out fan panic-selling mentality and venting genuine frustration \u2014 four straight series losses, blowing a 6-0 lead, most errors in baseball since the break, and Harper's public comments all generating heated debate."
+    },
+    "youtube_fan": {
+      "score": 10,
+      "note": "YouTube commenters are at near-peak frustration \u2014 calls to trade Harper and Turner, references to forfeiting the season, and comparisons to the Bad News Bears dominate the unfiltered reactions."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Swept by the worst team in baseball",
+      "delta": -9,
+      "sample": "Getting swept at home by a Marlins squad that had just lost 12 in a row \u2014 including blowing a 6-0 fifth-inning lead \u2014 is being called the worst series of the season and a new low point, arriving at the worst possible moment in the final third."
+    },
+    {
+      "name": "Harper's 'we need help' ignites clubhouse debate",
+      "delta": -4,
+      "sample": "Bryce Harper's public call for reinforcements drew fierce debate: some see honest leadership from a franchise player running out of time, others see it as throwing teammates under the bus while posting a sub-600 OPS himself in July."
+    },
+    {
+      "name": "Deadline as last resort, not celebration",
+      "delta": -3,
+      "sample": "The trade deadline is framed less as an exciting upgrade opportunity and more as a triage operation \u2014 the farm system is bottom-10, needs span rotation, bullpen, and offense simultaneously, and even aggressive moves may not be enough to change the team's fundamental ceiling."
+    },
+    {
+      "name": "Wheeler health scare adds injury anxiety",
+      "delta": -5,
+      "sample": "Zach Wheeler's dramatically diminished velocity and three-inning outing stirred deep concern given his blood clot history from the same time last year; the team says he's fine, but skepticism is high until his next start proves it."
+    },
+    {
+      "name": "Silver linings: Nola, bullpen stabilizing",
+      "delta": 3,
+      "sample": "Aaron Nola has quietly settled into a reliable five-inning starter, Alvarado has taken the ball four times in five games, and Tim Mazza has been a useful find \u2014 small but real positives heading into the deadline window."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "3-9 out of the break, swept in Miami for the first time since 2017 by a team on a 12-game losing streak. It's brutal.",
+      "score": 8,
+      "source_hint": "Phillies Talk fan analyst co-host"
+    },
+    {
+      "text": "I feel better about my perception of this team. I know what they are. I know where they can look to improve.",
+      "score": 55,
+      "source_hint": "Phillies Therapy beat writer (Matt Gelb)"
+    },
+    {
+      "text": "Nobody wants to watch this! At this point I don't even know what they can do, maybe just forfeit the rest of the games.",
+      "score": 4,
+      "source_hint": "YouTube commenter on the blown 6-0 lead game"
+    },
+    {
+      "text": "Since the All-Star break, the Phillies have more errors than any team in baseball.",
+      "score": 10,
+      "source_hint": "WIP Daily talk-radio host"
+    }
+  ],
+  "vibe_summary": "The blown 6-0 lead and sweep at the hands of baseball's worst team have crystallized a harsh truth: this roster, as currently constructed, cannot go deep in October \u2014 and the deadline is now the only thing standing between this group and a slow fade.",
+  "reasoning": "The dominant mood is one of genuine crisis, with a blown 6-0 lead to complete a sweep by a Marlins team fresh off 12 losses encapsulating everything wrong \u2014 bullpen fragility, defensive breakdowns, inconsistent offense, and a mounting sense of bad mojo. The beat writer (Phillies Therapy) stands apart as the only measured presence, expressing real confidence that the team can execute a multi-pronged deadline and accepting its flawed ceiling without despair; every other voice ranges from alarm to near-despair. Harper's public 'we need help' comments became a Rorschach test \u2014 half the room sees honest leadership, half sees a distraction from his own poor July \u2014 while Wheeler's velocity drop added a health undercurrent that won't fully resolve until his next start.",
+  "people_mentioned": [
+    "Harper",
+    "Wheeler",
+    "Luzardo",
+    "Mattingly",
+    "Dombrowski",
+    "Schwarber",
+    "Nola",
+    "Turner",
+    "Stott",
+    "Alvarado",
+    "Crawford",
+    "Rincones",
+    "De La Cruz",
+    "Bohm",
+    "Realmuto",
+    "Marsh",
+    "Johnson",
+    "Keller",
+    "Preston Mattingly",
+    "Mazza",
+    "Duran",
+    "Sanchez"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 133478,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 17810,
+    "youtube_comments": 9,
+    "youtube_comment_chars": 659,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Talk",
+      "title": "ROCK BOTTOM? Phillies need more than \"HELP\" after being swept by Marlins",
+      "voice": "fan_analyst",
+      "chars": 36391
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Bryce Harper knows it, too. The Phillies \"need some help.\"",
+      "voice": "fan_analyst",
+      "chars": 32180
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Things Are Getting Dire",
+      "voice": "radio_populist",
+      "chars": 27863
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "We Have the Mis* at Home",
+      "voice": "beat_writer",
+      "chars": 37044
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Was Bryce Harper's Comments Draw Similarities To A.J. Brown?",
+      "voice": "radio_populist",
+      "chars": 10067
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Final Out: Phillies Blow 6-0 Lead To Get Swept By Marlins!",
+      "voice": "radio_populist",
+      "chars": 5782
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper Fatigue?!",
+      "voice": "radio_populist",
+      "chars": 1961
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 9,
+      "recent_avg_pct": 96.6,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 98.9,
+      "delta_pct": -2.3,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823440,
+          "date": "2026-07-16",
+          "day_of_week": "Thursday",
+          "opponent": "New York Mets",
+          "result": "L 1-4",
+          "attendance": 40109,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823441,
+          "date": "2026-07-18",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 6-1",
+          "attendance": 41133,
+          "pct_capacity": 95.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823439,
+          "date": "2026-07-19",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "L 1-6",
+          "attendance": 40132,
+          "pct_capacity": 93.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823436,
+          "date": "2026-07-20",
+          "day_of_week": "Monday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "W 10-7",
+          "attendance": 40265,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823437,
+          "date": "2026-07-21",
+          "day_of_week": "Tuesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 1-2",
+          "attendance": 40077,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823438,
+          "date": "2026-07-22",
+          "day_of_week": "Wednesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 5-9",
+          "attendance": 40675,
+          "pct_capacity": 94.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823434,
+          "date": "2026-07-24",
+          "day_of_week": "Friday",
+          "opponent": "New York Yankees",
+          "result": "L 0-1",
+          "attendance": 43165,
+          "pct_capacity": 100.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823435,
+          "date": "2026-07-25",
+          "day_of_week": "Saturday",
+          "opponent": "New York Yankees",
+          "result": "L 1-3",
+          "attendance": 44562,
+          "pct_capacity": 103.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823433,
+          "date": "2026-07-26",
+          "day_of_week": "Sunday",
+          "opponent": "New York Yankees",
+          "result": "W 11-4",
+          "attendance": 42799,
+          "pct_capacity": 99.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "57-52",
+    "streak": "L3",
+    "games_behind": "6.5"
+  },
+  "generated_at": "2026-07-30T11:57:19.100726+00:00"
+}
