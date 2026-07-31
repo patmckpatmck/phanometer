@@ -1,0 +1,289 @@
+{
+  "date": "2026-07-31",
+  "display_score": 26,
+  "reactive_score": 26,
+  "baseline_score": 37,
+  "insufficient_signal": false,
+  "content_volume": 304,
+  "mood_label": "Not Again",
+  "dimensions": {
+    "results_satisfaction": 14,
+    "front_office_trust": 28,
+    "manager_confidence": 22,
+    "lineup_confidence": 24,
+    "pitching_confidence": 35,
+    "health_outlook": 42,
+    "postseason_belief": 28
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 88,
+    "manager_confidence": 85,
+    "lineup_confidence": 82,
+    "pitching_confidence": 72,
+    "health_outlook": 68,
+    "postseason_belief": 80
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 28,
+      "notes": "Hittin' Season and The Phillies Show both paint a bleak picture \u2014 swept by a team on a 12-game skid, a clubhouse cold war between Harper and Dombrowski, managerial bullpen mismanagement, and a roster described as top-heavy with replacement-level depth; Phillies Talk echoes the same alarm with a faint hope the deadline fixes something."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 22,
+      "note": "WIP High Hopes and 94WIP segments characterize this as the season's second rock bottom, openly questioning whether Harper is still elite, calling the Dombrowski-Harper rift combustible, and lambasting the Seth Johnson deployment as managerial malpractice."
+    },
+    "youtube_fan": {
+      "score": 18,
+      "note": "Raw YouTube comments are dismissive and fatalistic \u2014 'no they're not good,' 'will not make the playoffs without 2 big trades,' reflecting unfiltered despair."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Harper-Mattingly-Dombrowski Cold War Goes Public",
+      "delta": -7,
+      "sample": "What began as a simmering roster-building dispute has erupted into open clubhouse discord \u2014 Harper calling for help, Mattingly pushing back with pointed remarks about players wanting to be GMs, and a reported rift with Dombrowski that multiple observers now call combustible and potentially irreparable."
+    },
+    {
+      "name": "Seth Johnson as Symbol of Bullpen Desperation",
+      "delta": -6,
+      "sample": "The decision to deploy Seth Johnson in a tight seventh inning with a six-run lead already squandered has become a lightning rod \u2014 seen as both a damning indictment of the bullpen's depth and a question mark over whether the manager understands leverage situations heading into October."
+    },
+    {
+      "name": "Roster Construction Put on Trial",
+      "delta": -5,
+      "sample": "Dombrowski's offseason decisions \u2014 veteran outfielder gambles that failed, the Trea Turner extension, re-signing JT Realmuto at a steep rate \u2014 are being relitigated with new urgency as the team's top-heavy design collapses whenever the superstars slump simultaneously."
+    },
+    {
+      "name": "Trade Deadline as Last Resort, Not Celebration",
+      "delta": -3,
+      "sample": "Discussion of the deadline has shifted from excited speculation to anxious triage \u2014 most analysis concludes the Phillies will acquire at least one arm and one bat, but the available talent pool is seen as too thin and the team's prospect capital too depleted to expect a transformative haul."
+    },
+    {
+      "name": "Wheeler Health Watch Adds to the Dread",
+      "delta": -4,
+      "sample": "Zach Wheeler's diminished velocity and early exit against the Marlins \u2014 arriving almost exactly a year after his blood clot was discovered \u2014 has opened a quiet but serious fear that the rotation's anchor may be fading at the worst possible moment, even as the team insists he is healthy."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Congratulations, Phillies. You have completely drained all the enthusiasm from the fan base.",
+      "score": 8,
+      "source_hint": "Hittin' Season co-host (fan analyst)"
+    },
+    {
+      "text": "There's a chance now, and you didn't think that was humanly possible.",
+      "score": 15,
+      "source_hint": "The Phillies Show panelist on missing the playoffs (fan analyst)"
+    },
+    {
+      "text": "It appears the Phillies have a Bryce Harper problem... they obviously have a bullpen problem.",
+      "score": 20,
+      "source_hint": "WIP High Hopes host (talk-radio host)"
+    },
+    {
+      "text": "He's not an elite player anymore. There's plenty of elite hitters in baseball. Bryce Harper's not one of them.",
+      "score": 18,
+      "source_hint": "94WIP segment on Harper (talk-radio host)"
+    }
+  ],
+  "vibe_summary": "Bryce Harper's public plea for help, Don Mattingly's sharp rebuke, and a clubhouse cold war with Dave Dombrowski have turned a losing streak into something that feels like a franchise identity crisis.",
+  "reasoning": "The dominant mood is one of compounding alarm \u2014 a 3-9 skid capped by a historically embarrassing sweep has triggered not just performance anxiety but an organizational trust collapse. The Harper-Dombrowski-Mattingly triangle is consuming nearly as much oxygen as the on-field failures, with most analysis concluding the rift is real, personal, and unlikely to resolve quietly. There is a clear divergence between the fan analyst perspective \u2014 which still allows for the possibility the team rights itself before the deadline \u2014 and the talk-radio tone, which has moved into explicit questioning of whether Harper remains a franchise cornerstone and whether Dombrowski deserves an extension. Postseason belief is low not because of coping framing but because even optimistic voices frame the deadline as damage control rather than a springboard to a deep October run.",
+  "people_mentioned": [
+    "Harper",
+    "Dombrowski",
+    "Mattingly",
+    "Wheeler",
+    "Luzardo",
+    "Schwarber",
+    "Turner",
+    "Stott",
+    "Bohm",
+    "Realmuto",
+    "Sanchez",
+    "Duran",
+    "Johnson",
+    "Kerkering",
+    "Alvarado",
+    "Bolin",
+    "Crawford",
+    "Nola",
+    "Painter",
+    "Netto",
+    "Varsh\u043e",
+    "Preston Mattingly"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 208767,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 16679,
+    "youtube_comments": 3,
+    "youtube_comment_chars": 298,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Don Mattingly wants to know what the Phillies are made of",
+      "voice": "fan_analyst",
+      "chars": 43781
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Bryce Harper, Don Mattingly, Everyone Is Mad About the Phillies",
+      "voice": "fan_analyst",
+      "chars": 61622
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "The Perfect Trade Deadline Pod",
+      "voice": "radio_populist",
+      "chars": 66241
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "ROCK BOTTOM? Phillies need more than \"HELP\" after being swept by Marlins",
+      "voice": "fan_analyst",
+      "chars": 37123
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "'Bryce Harper NOT Elite Anymore' \ud83d\ude33",
+      "voice": "radio_populist",
+      "chars": 2212
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Hugh Douglas On Bryce Harper-Dave Dombrowski",
+      "voice": "radio_populist",
+      "chars": 997
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper vs. Dave Dombrowski ESCALATES \ud83d\ude33 | 94WIP",
+      "voice": "radio_populist",
+      "chars": 13470
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 8,
+      "recent_avg_pct": 97.0,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 98.7,
+      "delta_pct": -1.8,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823441,
+          "date": "2026-07-18",
+          "day_of_week": "Saturday",
+          "opponent": "New York Mets",
+          "result": "W 6-1",
+          "attendance": 41133,
+          "pct_capacity": 95.9,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823439,
+          "date": "2026-07-19",
+          "day_of_week": "Sunday",
+          "opponent": "New York Mets",
+          "result": "L 1-6",
+          "attendance": 40132,
+          "pct_capacity": 93.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823436,
+          "date": "2026-07-20",
+          "day_of_week": "Monday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "W 10-7",
+          "attendance": 40265,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823437,
+          "date": "2026-07-21",
+          "day_of_week": "Tuesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 1-2",
+          "attendance": 40077,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823438,
+          "date": "2026-07-22",
+          "day_of_week": "Wednesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 5-9",
+          "attendance": 40675,
+          "pct_capacity": 94.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823434,
+          "date": "2026-07-24",
+          "day_of_week": "Friday",
+          "opponent": "New York Yankees",
+          "result": "L 0-1",
+          "attendance": 43165,
+          "pct_capacity": 100.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823435,
+          "date": "2026-07-25",
+          "day_of_week": "Saturday",
+          "opponent": "New York Yankees",
+          "result": "L 1-3",
+          "attendance": 44562,
+          "pct_capacity": 103.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823433,
+          "date": "2026-07-26",
+          "day_of_week": "Sunday",
+          "opponent": "New York Yankees",
+          "result": "W 11-4",
+          "attendance": 42799,
+          "pct_capacity": 99.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "57-52",
+    "streak": "L3",
+    "games_behind": "7.0"
+  },
+  "generated_at": "2026-07-31T12:08:24.822197+00:00"
+}
