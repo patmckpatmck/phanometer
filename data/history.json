@@ -25574,5 +25574,297 @@
       "games_behind": "7.0"
     },
     "generated_at": "2026-07-31T12:08:24.822197+00:00"
+  },
+  {
+    "date": "2026-08-01",
+    "display_score": 27,
+    "reactive_score": 27,
+    "baseline_score": 34,
+    "insufficient_signal": false,
+    "content_volume": 316,
+    "mood_label": "Not Again",
+    "dimensions": {
+      "results_satisfaction": 14,
+      "front_office_trust": 22,
+      "manager_confidence": 28,
+      "lineup_confidence": 30,
+      "pitching_confidence": 35,
+      "health_outlook": 42,
+      "postseason_belief": 28
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 92,
+      "front_office_trust": 85,
+      "manager_confidence": 82,
+      "lineup_confidence": 80,
+      "pitching_confidence": 75,
+      "health_outlook": 60,
+      "postseason_belief": 78
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 24,
+        "note": "Hittin' Season and The Phillies Show both describe a team at or near rock bottom \u2014 swept by a franchise-record losing streak team, window closing on Harper, Dombrowski criticized for lack of imagination, Mattingly's bullpen management called malpractice; Phillies Talk echoes the same alarm with 'danger time' framing around the playoff spot."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 26,
+        "note": "WIP High Hopes and the 94WIP segments are in open alarm \u2014 Dombrowski's offseason graded F, Andrew Painter's recall called organizational malpractice, the front office described as having no cohesive plan, and the Harper-Mattingly-Dombrowski triangle characterized as genuinely combustible for the first time."
+      },
+      "youtube_fan": {
+        "score": 18,
+        "note": "YouTube commenters are raw and unfiltered \u2014 'season is toast,' calls for Painter to quit baseball, Harper labeled a 'cancer,' Kerkering told to go, and the outfield described as needing wholesale replacement; among the most pessimistic voices in the day's content."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Harper vs. Mattingly vs. Dombrowski",
+        "delta": -6,
+        "sample": "A 10-month cold war turned hot: Harper's public plea for help, Mattingly's pointed rebuke about players wanting to be GMs, and a reported mutual dislike between Harper and Dombrowski have created something that feels less like a distraction and more like a genuine fracture \u2014 with no one apparently willing to sit in a room and resolve it."
+      },
+      {
+        "name": "Seth Johnson and bullpen malpractice",
+        "delta": -7,
+        "sample": "Bringing Seth Johnson into a 6-4 game with runners on and the season on the line \u2014 while Jonathan Bolin sat available \u2014 has become the defining managerial failure of the stretch, with multiple observers calling it the worst in-game decision of the Mattingly era and questioning whether he understands leverage situations at all."
+      },
+      {
+        "name": "Trade deadline as last lifeline",
+        "delta": 3,
+        "sample": "With the roster described as top-heavy and replacement-level in the middle, the deadline is the singular focus of what remains of fan optimism \u2014 targets like Dalton Varsho, Brady Singer, Jeff Hoffman, and Zach Netto dominate discussion, though the prospect cost and lack of high-end trade chips temper enthusiasm considerably."
+      },
+      {
+        "name": "Andrew Painter's rushed recall called organizational malpractice",
+        "delta": -5,
+        "sample": "Bringing Painter back with just three minor league starts after a disastrous stretch \u2014 while front-office messaging just days earlier suggested he might not return this season \u2014 is cited as the clearest evidence that the organization lacks a coherent plan, whether for development or for the deadline."
+      },
+      {
+        "name": "Window closing on this core",
+        "delta": -6,
+        "sample": "The question is no longer just whether this team makes the playoffs but whether this group of players will ever win a championship together \u2014 with Hittin' Season explicitly entertaining the possibility that Bryce Harper never wins a World Series ring, and multiple voices noting 2027 labor uncertainty makes next year no guarantee either."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Congratulations, Phillies. You have completely drained all the enthusiasm from the fan base.",
+        "score": 8,
+        "source_hint": "fan analyst (Hittin' Season)"
+      },
+      {
+        "text": "I don't know what they're made of. We're going to find out.",
+        "score": 30,
+        "source_hint": "fan analyst (The Phillies Show)"
+      },
+      {
+        "text": "This is organizational disfunction, malpractice. This is a team without a plan.",
+        "score": 12,
+        "source_hint": "talk-radio host (94WIP)"
+      },
+      {
+        "text": "Season is toast lol",
+        "score": 5,
+        "source_hint": "YouTube commenter on Painter return video"
+      }
+    ],
+    "vibe_summary": "With the roster fracturing along personality lines and a deadline that feels more like triage than transformation, long-simmering doubts about this core have finally boiled over into something harder to dismiss.",
+    "reasoning": "The dominant mood is defined by two converging crises: a 3-9 skid capped by a sweep at the hands of baseball's worst team, and a Harper-Mattingly-Dombrowski conflict that has moved from cold war to open friction. Analytical voices are more measured \u2014 acknowledging the team's resilience history while cataloguing structural flaws like the worst on-base percentage in baseball, a bullpen without trustworthy leverage arms, and an offense that can't grind at-bats. Unfiltered fan reaction is considerably darker, with calls for trades of Harper, Painter being labeled a bust, and outright declarations that the season is over. Postseason belief is held low because the only positive postseason framing is structural reassurance about the wild-card era, not expressed confidence in this roster's October ceiling.",
+    "people_mentioned": [
+      "Harper",
+      "Mattingly",
+      "Dombrowski",
+      "Luzardo",
+      "Wheeler",
+      "Schwarber",
+      "Painter",
+      "Turner",
+      "Bohm",
+      "Stott",
+      "Duran",
+      "Johnson",
+      "Bolin",
+      "Kerkering",
+      "Alvarado",
+      "Sanchez",
+      "Crawford",
+      "Realmuto",
+      "Nola",
+      "Marsh",
+      "Netto",
+      "Preston Mattingly",
+      "Middleton",
+      "Varsho",
+      "Singer"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 207552,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 18417,
+      "youtube_comments": 15,
+      "youtube_comment_chars": 1752,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Don Mattingly wants to know what the Phillies are made of",
+        "voice": "fan_analyst",
+        "chars": 43034
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Bryce Harper, Don Mattingly, Everyone Is Mad About the Phillies",
+        "voice": "fan_analyst",
+        "chars": 60985
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "The Perfect Trade Deadline Pod",
+        "voice": "radio_populist",
+        "chars": 67178
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "ROCK BOTTOM? Phillies need more than \"HELP\" after being swept by Marlins",
+        "voice": "fan_analyst",
+        "chars": 36355
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Never Have A Cohesive Plan",
+        "voice": "radio_populist",
+        "chars": 1683
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies \u2018Rushing\u2019 Andrew Painter Back",
+        "voice": "radio_populist",
+        "chars": 851
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Why Are The Phillies Rushing Andrew Painter Back?",
+        "voice": "radio_populist",
+        "chars": 15883
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 8,
+        "recent_avg_pct": 97.0,
+        "baseline_games_count": 38,
+        "baseline_avg_pct": 98.7,
+        "delta_pct": -1.8,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823441,
+            "date": "2026-07-18",
+            "day_of_week": "Saturday",
+            "opponent": "New York Mets",
+            "result": "W 6-1",
+            "attendance": 41133,
+            "pct_capacity": 95.9,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823439,
+            "date": "2026-07-19",
+            "day_of_week": "Sunday",
+            "opponent": "New York Mets",
+            "result": "L 1-6",
+            "attendance": 40132,
+            "pct_capacity": 93.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823436,
+            "date": "2026-07-20",
+            "day_of_week": "Monday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "W 10-7",
+            "attendance": 40265,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823437,
+            "date": "2026-07-21",
+            "day_of_week": "Tuesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 1-2",
+            "attendance": 40077,
+            "pct_capacity": 93.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823438,
+            "date": "2026-07-22",
+            "day_of_week": "Wednesday",
+            "opponent": "Los Angeles Dodgers",
+            "result": "L 5-9",
+            "attendance": 40675,
+            "pct_capacity": 94.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823434,
+            "date": "2026-07-24",
+            "day_of_week": "Friday",
+            "opponent": "New York Yankees",
+            "result": "L 0-1",
+            "attendance": 43165,
+            "pct_capacity": 100.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823435,
+            "date": "2026-07-25",
+            "day_of_week": "Saturday",
+            "opponent": "New York Yankees",
+            "result": "L 1-3",
+            "attendance": 44562,
+            "pct_capacity": 103.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823433,
+            "date": "2026-07-26",
+            "day_of_week": "Sunday",
+            "opponent": "New York Yankees",
+            "result": "W 11-4",
+            "attendance": 42799,
+            "pct_capacity": 99.8,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "57-53",
+      "streak": "L4",
+      "games_behind": "8.0"
+    },
+    "generated_at": "2026-08-01T11:24:28.546949+00:00"
   }
 ]
