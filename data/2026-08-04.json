@@ -1,0 +1,267 @@
+{
+  "date": "2026-08-04",
+  "display_score": 43,
+  "reactive_score": 43,
+  "baseline_score": 32,
+  "insufficient_signal": false,
+  "content_volume": 286,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 62,
+    "front_office_trust": 28,
+    "manager_confidence": 42,
+    "lineup_confidence": 55,
+    "pitching_confidence": 32,
+    "health_outlook": 45,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 70,
+    "front_office_trust": 90,
+    "manager_confidence": 55,
+    "lineup_confidence": 78,
+    "pitching_confidence": 88,
+    "health_outlook": 55,
+    "postseason_belief": 82
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 50,
+      "note": "The Phillies Show panel is excited about Arr\u00e1ez and the lineup shakeup but deeply concerned about rotation depth; Ruben Amaro Jr. and Jim Salisbury flag the missing locked-down eighth-inning arm and insurance starter as significant gaps."
+    },
+    "beat_writer": {
+      "score": 48,
+      "note": "The beat writer (Phillies Therapy) talks himself into the offensive and defensive logic of the realignment but draws a hard line on the pitching whiff, calling the failure to add a trustworthy October reliever or starter a 'major misstep.'"
+    },
+    "radio_populist": {
+      "score": 35,
+      "note": "Talk-radio hosts (High Hopes / WIP Daily) are the most critical voice, calling the deadline half-assed, questioning Dombrowski's credibility, mocking the Nola analytics defense, and expressing fear the team is built to make the playoffs rather than win the World Series."
+    },
+    "youtube_fan": {
+      "score": 42,
+      "note": "YouTube commenters are sharply split \u2014 a vocal minority defends the Arr\u00e1ez acquisition enthusiastically, but the majority echo rotation anxiety, Turner positional frustration, and distrust of Dombrowski, with several calling for his firing."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Half-Assed Deadline",
+      "delta": -6,
+      "sample": "Getting Arr\u00e1ez is genuinely exciting, but trading a top pitching prospect for a rental while leaving the rotation untouched and the defensive alignment in chaos feels like a team that got in the red zone and kicked a field goal."
+    },
+    {
+      "name": "Rotation Roulette",
+      "delta": -8,
+      "sample": "Banking on Aaron Nola's recent stretch and one Andrew Painter start against a depleted Orioles lineup to carry playoff starts is the single most alarming decision of the deadline \u2014 and there were plenty of starters available."
+    },
+    {
+      "name": "The Arr\u00e1ez Spark",
+      "delta": 5,
+      "sample": "Luis Arr\u00e1ez arriving as the best hitter moved at the deadline injects genuine optimism into a lineup that has been hemorrhaging contact and on-base production \u2014 his approach alone could have a contagion effect on the whole order."
+    },
+    {
+      "name": "Harper to Right Field: Leap of Faith",
+      "delta": -3,
+      "sample": "Moving a 33-year-old with a reconstructed arm and zero outfield reps since 2021 back to right field is the most physically risky domino in the realignment, and nobody is fully buying the idea even if they're rooting for it to work."
+    },
+    {
+      "name": "Trea Turner's Immovable Problem",
+      "delta": -4,
+      "sample": "The refusal to even have a conversation with Turner about changing positions \u2014 while moving every other veteran on the roster \u2014 reads as the organization's biggest cultural failure, and the defensive damage at shortstop remains unaddressed heading into the stretch run."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I feel worse about their chances to win the World Series after yesterday, and that's crazy because they went out and got a rise.",
+      "score": 22,
+      "source_hint": "High Hopes host (WIP Daily)"
+    },
+    {
+      "text": "I cannot be talked into what they did or did not do on the pitching side at this deadline. I think there was a major whiff.",
+      "score": 20,
+      "source_hint": "Beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "They added THE best hitter in baseball (batting average) and a reliever with a 1.96. They did great.",
+      "score": 78,
+      "source_hint": "YouTube commenter"
+    },
+    {
+      "text": "I don't come away from this deadline thinking they can compete for the World Series. And that's really what would have moved me yesterday.",
+      "score": 18,
+      "source_hint": "WIP Daily caller segment"
+    }
+  ],
+  "vibe_summary": "Arr\u00e1ez's arrival has injected real excitement into a lineup starved for contact, but the failure to add rotation depth has left fans convinced the front office settled for interesting rather than transformative.",
+  "reasoning": "The dominant mood is a frustrated ambivalence: genuine enthusiasm for Luis Arr\u00e1ez is undercut almost universally by alarm over the rotation. The beat writer offers the most measured framing \u2014 talking himself into the offensive logic while drawing a firm line on the pitching failure \u2014 while talk-radio analysis is far harsher, openly questioning whether Dombrowski's decision-making reflects an organization more interested in making the playoffs than winning the World Series. The Harper-to-right-field gamble and the Turner positional standoff add compounding anxiety; Derek Hill's grand slam provided a brief emotional release, but it hasn't shifted the structural concern that this roster, at 60-53 and seven and a half games back, is built with too many single points of failure to survive October.",
+  "people_mentioned": [
+    "Arr\u00e1ez",
+    "Dombrowski",
+    "Harper",
+    "Turner",
+    "Stott",
+    "Bohm",
+    "Painter",
+    "Nola",
+    "Mattingly",
+    "Hill",
+    "Schwarber",
+    "Killian",
+    "Raley",
+    "Alvarado",
+    "Duran",
+    "Bolin",
+    "De La Cruz",
+    "Marquez",
+    "Crawford",
+    "Marsh"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 139244,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 31583,
+    "youtube_comments": 58,
+    "youtube_comment_chars": 7613,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "What Are They Doing?",
+      "voice": "radio_populist",
+      "chars": 49874
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Arraez, My Love",
+      "voice": "beat_writer",
+      "chars": 31941
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Phillies trade deadline: What do we like? Don't like?",
+      "voice": "fan_analyst",
+      "chars": 38472
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: The Derek Hill Game 2.0",
+      "voice": "radio_populist",
+      "chars": 18957
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Dave Dombrowski DEFENDS Phillies' Rotation After Not Adding A Starter",
+      "voice": "radio_populist",
+      "chars": 11386
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "\u2018HORRIBLE\u2019 Trade Deadline From Phillies \ud83d\ude31",
+      "voice": "radio_populist",
+      "chars": 2219
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Needed Another Starting Pitcher\u2014Joe Giglio | 94WIP",
+      "voice": "radio_populist",
+      "chars": 17978
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 98.0,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 98.7,
+      "delta_pct": -0.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823437,
+          "date": "2026-07-21",
+          "day_of_week": "Tuesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 1-2",
+          "attendance": 40077,
+          "pct_capacity": 93.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823438,
+          "date": "2026-07-22",
+          "day_of_week": "Wednesday",
+          "opponent": "Los Angeles Dodgers",
+          "result": "L 5-9",
+          "attendance": 40675,
+          "pct_capacity": 94.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823434,
+          "date": "2026-07-24",
+          "day_of_week": "Friday",
+          "opponent": "New York Yankees",
+          "result": "L 0-1",
+          "attendance": 43165,
+          "pct_capacity": 100.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823435,
+          "date": "2026-07-25",
+          "day_of_week": "Saturday",
+          "opponent": "New York Yankees",
+          "result": "L 1-3",
+          "attendance": 44562,
+          "pct_capacity": 103.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823433,
+          "date": "2026-07-26",
+          "day_of_week": "Sunday",
+          "opponent": "New York Yankees",
+          "result": "W 11-4",
+          "attendance": 42799,
+          "pct_capacity": 99.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823431,
+          "date": "2026-08-03",
+          "day_of_week": "Monday",
+          "opponent": "Washington Nationals",
+          "result": "W 6-3",
+          "attendance": 41115,
+          "pct_capacity": 95.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "60-53",
+    "streak": "W3",
+    "games_behind": "7.5"
+  },
+  "generated_at": "2026-08-04T20:05:07.733199+00:00"
+}
