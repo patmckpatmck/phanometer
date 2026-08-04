@@ -2,6 +2,7 @@
   "functions": {
     "api/ask.py": {
       "includeFiles": "{bot_core.py,data/history.json}",
+      "excludeFiles": "{node_modules/**,.next/**,out/**,public/**}",
       "maxDuration": 60
     }
   },
