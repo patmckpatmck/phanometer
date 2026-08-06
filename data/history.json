@@ -26402,5 +26402,275 @@
       "games_behind": "7.5"
     },
     "generated_at": "2026-08-05T12:05:26.862261+00:00"
+  },
+  {
+    "date": "2026-08-06",
+    "display_score": 56,
+    "reactive_score": 56,
+    "baseline_score": 41,
+    "insufficient_signal": false,
+    "content_volume": 241,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 72,
+      "front_office_trust": 32,
+      "manager_confidence": 55,
+      "lineup_confidence": 63,
+      "pitching_confidence": 58,
+      "health_outlook": 55,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 80,
+      "front_office_trust": 85,
+      "manager_confidence": 55,
+      "lineup_confidence": 78,
+      "pitching_confidence": 72,
+      "health_outlook": 45,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 52,
+        "note": "Fan analyst (Hittin' Season / Stolnis, Klugh, Roscher) praised Arr\u00e1ez and Killian as interesting acquisitions but delivered sustained criticism of the front office's process, calling the deadline half-assed and arguing the Phillies fell short of what the Dodgers and Cubs did."
+      },
+      "beat_writer": {
+        "score": 55,
+        "note": "Beat writer (Phillies Therapy / Matt Gelb) acknowledged Arr\u00e1ez as the best mid-season hitting acquisition under Dombrowski, cautiously bought into the defensive shakeup's energy, but was unambiguous that not adding a trustworthy October reliever or rotation depth was a meaningful misstep."
+      },
+      "radio_populist": {
+        "score": 68,
+        "note": "Talk-radio host (WIP Daily / Joe Giglio and High Hopes) led with genuine euphoria over the 5-0 win, Arr\u00e1ez's debut RBI, and Lozardo's gem, while still acknowledging the deadline left fans deflated; Spike gave Harper credit for the position move; Larry Andersen expressed renewed optimism."
+      },
+      "youtube_fan": {
+        "score": 28,
+        "note": "YouTube commenters were largely negative \u2014 repeated 'this team ain't going nowhere' sentiments, criticism of WIP's production quality, and agreement that Bohm is too inconsistent \u2014 with almost no positive signal."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Arr\u00e1ez Arrival Ignites the Lineup",
+        "delta": 6,
+        "sample": "Back-to-back RBI hits in his first two Phillies at-bats, a standing ovation from the crowd, and a 382 career average with runners in scoring position have made Arr\u00e1ez an immediate fan favorite and genuine source of optimism for the offense."
+      },
+      {
+        "name": "Deadline Left Fans Wanting More",
+        "delta": -5,
+        "sample": "Despite genuine excitement about Arr\u00e1ez, the failure to add rotation depth or a lockdown October reliever overshadows the deadline haul \u2014 with pointed criticism that the Cubs, Padres, and Dodgers all had demonstrably better deadline days."
+      },
+      {
+        "name": "Lozardo Quietly Cements Himself in the Top Three",
+        "delta": 4,
+        "sample": "Eight shutout innings, seven strikeouts, under 100 pitches, and a 2.23 ERA over his last 15 starts have moved Lozardo from question mark to legitimate co-ace alongside Wheeler and Sanchez."
+      },
+      {
+        "name": "Harper's Right Field Move: Respect, Reservations",
+        "delta": 2,
+        "sample": "Harper earned broad credit for moving to right field after five years away \u2014 a real show of team-first commitment \u2014 but real anxieties remain about his routes, first-step quickness, and reconstructed arm in a position he hasn't played since 2021."
+      },
+      {
+        "name": "Bohm, Turner, and the Defensive Gamble",
+        "delta": -4,
+        "sample": "Shifting Stott to third, Bohm to first, and Harper to right simultaneously is unprecedented for a contending team mid-season, and skepticism runs deep that Bohm's offensive numbers \u2014 among the worst of any qualified first baseman \u2014 justify his continued presence in the lineup."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I feel worse about their chances to win the world series after yesterday. And that's crazy.",
+        "score": 22,
+        "source_hint": "fan analyst (Hittin' Season / High Hopes pod) on the trade deadline's net effect"
+      },
+      {
+        "text": "THIS TEAM Ain't going NOWHERE",
+        "score": 10,
+        "source_hint": "YouTube commenter on a Bryce Harper highlight video"
+      },
+      {
+        "text": "Luzardo is money. He's nails. His upside is obviously tremendous.",
+        "score": 82,
+        "source_hint": "talk-radio host (WIP High Hopes) after Lozardo's eight-inning shutout"
+      },
+      {
+        "text": "I think he deserves a large amount of credit for actually going to right field.",
+        "score": 72,
+        "source_hint": "talk-radio host (WIP Daily / Spike) crediting Bryce Harper's position sacrifice"
+      }
+    ],
+    "vibe_summary": "Arr\u00e1ez's electric debut and Lozardo's dominance have given fans something real to cheer, but deep frustration with the front office's failure to solve October pitching keeps the mood split between genuine joy and quiet dread.",
+    "reasoning": "A 5-0 win featuring Arr\u00e1ez's RBI debut and eight shutout innings from Lozardo produced genuine celebration, particularly across the radio and beat-writer coverage, which noted the team's energy and renewed offensive identity. But that positivity sits in direct tension with sustained, substantive criticism of the trade deadline \u2014 not coping framing, but specific arguments that the Dodgers, Cubs, and Padres made the Phillies look passive, that the rotation remains unaddressed, and that the October bullpen still lacks a trustworthy bridge arm. YouTube commenters registered no bounce from the win whatsoever, anchoring sentiment with blunt pessimism. The mood is genuinely bifurcated: real enthusiasm for the new-look lineup coexisting with unresolved structural doubt.",
+    "people_mentioned": [
+      "Arr\u00e1ez",
+      "Lozardo",
+      "Harper",
+      "Bohm",
+      "Stott",
+      "Turner",
+      "Dombrowski",
+      "Mattingly",
+      "Painter",
+      "Killian",
+      "Raley",
+      "Hill",
+      "Schwarber",
+      "Nola",
+      "Wheeler",
+      "Sanchez",
+      "De La Cruz",
+      "Bolin",
+      "Duran",
+      "Alvarado",
+      "Crawford",
+      "Marquez",
+      "Anderson"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 159347,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 16649,
+      "youtube_comments": 6,
+      "youtube_comment_chars": 547,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Luis Arraez Arrives!",
+        "voice": "radio_populist",
+        "chars": 33199
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "What Are They Doing?",
+        "voice": "radio_populist",
+        "chars": 52824
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Arraez, My Love",
+        "voice": "beat_writer",
+        "chars": 35453
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Phillies trade deadline: What do we like? Don't like?",
+        "voice": "fan_analyst",
+        "chars": 37871
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Mattingly: Dugout Called For Harper's Steal Attempt",
+        "voice": "radio_populist",
+        "chars": 953
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Spike Gives Credit To Bryce Harper",
+        "voice": "radio_populist",
+        "chars": 1614
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Larry Andersen Back On Board With The Phillies",
+        "voice": "radio_populist",
+        "chars": 14082
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 96.1,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 98.5,
+        "delta_pct": -2.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823434,
+            "date": "2026-07-24",
+            "day_of_week": "Friday",
+            "opponent": "New York Yankees",
+            "result": "L 0-1",
+            "attendance": 43165,
+            "pct_capacity": 100.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823435,
+            "date": "2026-07-25",
+            "day_of_week": "Saturday",
+            "opponent": "New York Yankees",
+            "result": "L 1-3",
+            "attendance": 44562,
+            "pct_capacity": 103.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823433,
+            "date": "2026-07-26",
+            "day_of_week": "Sunday",
+            "opponent": "New York Yankees",
+            "result": "W 11-4",
+            "attendance": 42799,
+            "pct_capacity": 99.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823431,
+            "date": "2026-08-03",
+            "day_of_week": "Monday",
+            "opponent": "Washington Nationals",
+            "result": "W 6-3",
+            "attendance": 41115,
+            "pct_capacity": 95.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823432,
+            "date": "2026-08-04",
+            "day_of_week": "Tuesday",
+            "opponent": "Washington Nationals",
+            "result": "W 5-0",
+            "attendance": 38731,
+            "pct_capacity": 90.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823429,
+            "date": "2026-08-05",
+            "day_of_week": "Wednesday",
+            "opponent": "Washington Nationals",
+            "result": "L 4-10",
+            "attendance": 37025,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "61-54",
+      "streak": "L1",
+      "games_behind": "8.5"
+    },
+    "generated_at": "2026-08-06T12:09:33.684935+00:00"
   }
 ]
