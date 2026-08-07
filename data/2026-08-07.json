@@ -1,0 +1,269 @@
+{
+  "date": "2026-08-07",
+  "display_score": 43,
+  "reactive_score": 43,
+  "baseline_score": 45,
+  "insufficient_signal": false,
+  "content_volume": 218,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 42,
+    "front_office_trust": 38,
+    "manager_confidence": 40,
+    "lineup_confidence": 62,
+    "pitching_confidence": 38,
+    "health_outlook": 35,
+    "postseason_belief": 42
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 80,
+    "front_office_trust": 72,
+    "manager_confidence": 68,
+    "lineup_confidence": 78,
+    "pitching_confidence": 82,
+    "health_outlook": 85,
+    "postseason_belief": 65
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 50,
+      "note": "Hittin' Season, The Phillies Show, and Phillies Talk all praised the Arr\u00e1ez acquisition and Derrick Hill's heroics, but each show expressed real alarm at the failure to add rotation depth and concern over Painter's hamstring and the new bullpen arms' rough debut."
+    },
+    "beat_writer": {
+      "score": 48,
+      "note": "Phillies Therapy (Matt Gelb) was cautiously open to the defensive reshuffling and credited Arr\u00e1ez as the best midseason offensive acquisition of the Dombrowski era, but was unambiguous that not adding a trustworthy October reliever or starter was a significant misstep."
+    },
+    "radio_populist": {
+      "score": 36,
+      "note": "WIP Daily (Joe Giglio) was sharply critical of Mattingly's stolen-base call, alarmed by three simultaneous injury scares, and questioned whether Mattingly is a better in-game manager than his predecessor \u2014 a notably blunt take."
+    },
+    "youtube_fan": {
+      "score": 33,
+      "note": "YouTube comments split between excitement about Arr\u00e1ez and blunt rage \u2014 one comment called for Dombrowski's firing, another declared the team doesn't deserve the postseason, and several blamed Schwarber and the offense for the extra-innings collapse."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Painter Hamstring Scare Reopens Rotation Wound",
+      "delta": -6,
+      "sample": "Andrew Painter was pulled after just four innings with hamstring tightness \u2014 exactly the depth-at-starter scenario analysts warned about days before the deadline \u2014 and the lack of a backup option is now a live, not theoretical, problem."
+    },
+    {
+      "name": "Historic Extra-Innings Collapse Against Washington",
+      "delta": -5,
+      "sample": "Surrendering six runs in the 11th inning \u2014 only the third time in franchise history \u2014 on two hits but five free passes was described as a complete meltdown, with Alvarado and the new relievers Killian and Raley all failing in their moments."
+    },
+    {
+      "name": "Mattingly's Steal Call Draws Real Scrutiny",
+      "delta": -4,
+      "sample": "Sending Bryce Harper on a steal attempt with two outs and Luis Arr\u00e1ez at the plate cost the Phillies their best chance to win in extras, injured Harper's wrist in the process, and sparked the sharpest in-game managerial criticism of the season."
+    },
+    {
+      "name": "Three Injury Scares in One Night",
+      "delta": -6,
+      "sample": "Harper's wrist on the slide, Derrick Hill's shoulder after crashing into the center-field wall, and Painter's hamstring all in one evening left fans and analysts deeply unsettled about the health of key contributors entering a crucial stretch."
+    },
+    {
+      "name": "Arr\u00e1ez and Hill Remain Genuine Bright Spots",
+      "delta": 5,
+      "sample": "Despite the ugly loss, Arr\u00e1ez's early production \u2014 two RBI hits, a home run, enormous energy \u2014 and Hill's ongoing heroics continue to represent real, tangible reasons for optimism about the offense's ceiling down the stretch."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Are we sure Don Mattingly knows what the hell he's doing as a manager?",
+      "score": 22,
+      "source_hint": "WIP Daily host, reacting to the Harper stolen-base call in extra innings"
+    },
+    {
+      "text": "I cannot be talked into what they did or did not do on the pitching side at this deadline.",
+      "score": 30,
+      "source_hint": "beat writer (Phillies Therapy), assessing the trade deadline's pitching outcome"
+    },
+    {
+      "text": "Dave Dombrowski needs to be fired. This Phillies team will not make playoffs.",
+      "score": 5,
+      "source_hint": "YouTube commenter reacting to the extra-innings loss"
+    },
+    {
+      "text": "Luis Urias is that energy jolt. But even more so than the energy. I think he brings fundamentals to this team that it hasn't had.",
+      "score": 74,
+      "source_hint": "fan analyst (Hittin' Season), on Arr\u00e1ez's early impact"
+    }
+  ],
+  "vibe_summary": "The joy of Arr\u00e1ez's arrival is colliding hard with a nightmare night \u2014 a historic bullpen collapse, three injury scares in one game, and a manager decision that had everyone second-guessing \u2014 leaving the mood genuinely rattled.",
+  "reasoning": "The dominant storyline is a brutal extra-innings loss that brought multiple crises at once: Painter's hamstring, Hill's shoulder, Harper's wrist, a six-run 11th inning implosion, and a controversial managerial call that cost the Phillies their best chance to win. The blunter voices \u2014 talk radio and YouTube commenters \u2014 moved into open Mattingly criticism and even front-office calls for dismissal, while the more analytical voices contextualized the loss but remained unambiguous that the failure to add rotation depth is now actively hurting the team. The Arr\u00e1ez enthusiasm remains real but is clearly playing second fiddle to health anxiety and in-game alarm.",
+  "people_mentioned": [
+    "Arr\u00e1ez",
+    "Painter",
+    "Harper",
+    "Hill",
+    "Mattingly",
+    "Alvarado",
+    "Killian",
+    "Raley",
+    "Schwarber",
+    "Stott",
+    "Bohm",
+    "Turner",
+    "Dombrowski",
+    "Nola",
+    "Sanchez",
+    "Lozardo",
+    "Crawford",
+    "Marsh"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 142323,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 2,
+    "youtube_chars": 14716,
+    "youtube_comments": 9,
+    "youtube_comment_chars": 1047,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "An Extra Inning Loss That Was Historic for the Phillies",
+      "voice": "fan_analyst",
+      "chars": 30447
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Arraez, My Love",
+      "voice": "beat_writer",
+      "chars": 32079
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Phillies trade deadline: What do we like? Don't like?",
+      "voice": "fan_analyst",
+      "chars": 36125
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies add Arr\u00e1ez, but did they strike out during the rest of MLB Trade Deadline?",
+      "voice": "fan_analyst",
+      "chars": 43672
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Brett Oberholtzer On Participating In Phillies Alumni Weekend At The 2026 MLB Field of Dreams Game",
+      "voice": "radio_populist",
+      "chars": 2476
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Don Mattingly's ABSURD Decision On Bryce Harper's Steal",
+      "voice": "radio_populist",
+      "chars": 12240
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 95.8,
+      "baseline_games_count": 35,
+      "baseline_avg_pct": 98.5,
+      "delta_pct": -2.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823434,
+          "date": "2026-07-24",
+          "day_of_week": "Friday",
+          "opponent": "New York Yankees",
+          "result": "L 0-1",
+          "attendance": 43165,
+          "pct_capacity": 100.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823435,
+          "date": "2026-07-25",
+          "day_of_week": "Saturday",
+          "opponent": "New York Yankees",
+          "result": "L 1-3",
+          "attendance": 44562,
+          "pct_capacity": 103.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823433,
+          "date": "2026-07-26",
+          "day_of_week": "Sunday",
+          "opponent": "New York Yankees",
+          "result": "W 11-4",
+          "attendance": 42799,
+          "pct_capacity": 99.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823431,
+          "date": "2026-08-03",
+          "day_of_week": "Monday",
+          "opponent": "Washington Nationals",
+          "result": "W 6-3",
+          "attendance": 41115,
+          "pct_capacity": 95.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823432,
+          "date": "2026-08-04",
+          "day_of_week": "Tuesday",
+          "opponent": "Washington Nationals",
+          "result": "W 5-0",
+          "attendance": 38731,
+          "pct_capacity": 90.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823429,
+          "date": "2026-08-05",
+          "day_of_week": "Wednesday",
+          "opponent": "Washington Nationals",
+          "result": "L 4-10",
+          "attendance": 37025,
+          "pct_capacity": 86.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823430,
+          "date": "2026-08-06",
+          "day_of_week": "Thursday",
+          "opponent": "Washington Nationals",
+          "result": "W 7-3",
+          "attendance": 40301,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "62-54",
+    "streak": "W1",
+    "games_behind": "8.5"
+  },
+  "generated_at": "2026-08-07T10:57:22.675948+00:00"
+}
