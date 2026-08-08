@@ -1,0 +1,282 @@
+{
+  "date": "2026-08-08",
+  "display_score": 62,
+  "reactive_score": 62,
+  "baseline_score": 45,
+  "insufficient_signal": false,
+  "content_volume": 289,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 48,
+    "manager_confidence": 60,
+    "lineup_confidence": 73,
+    "pitching_confidence": 52,
+    "health_outlook": 58,
+    "postseason_belief": 55
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 75,
+    "front_office_trust": 70,
+    "manager_confidence": 55,
+    "lineup_confidence": 88,
+    "pitching_confidence": 82,
+    "health_outlook": 65,
+    "postseason_belief": 60
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 68,
+      "note": "Hittin' Season and The Phillies Show are both genuinely excited about Arr\u00e1ez's immediate impact and energy but carry real concern about starting pitching depth and bullpen trustworthiness in October."
+    },
+    "beat_writer": {
+      "score": 58,
+      "note": "Phillies Therapy (Gelb) is measured \u2014 bought into the offensive upside of the Arr\u00e1ez trade but openly critical of the failure to add a trustworthy October reliever or rotation depth, calling it a 'major whiff.'"
+    },
+    "radio_populist": {
+      "score": 72,
+      "note": "High Hopes and 94WIP segments are enthusiastic about Arr\u00e1ez's 'smart ball' influence and the Chase Utley Wall of Fame celebration, with optimism about the lineup's ceiling even while flagging bullpen and Schwarber concerns."
+    },
+    "youtube_fan": {
+      "score": 70,
+      "note": "YouTube commenters are charmed by Arr\u00e1ez, drawing Rod Carew comparisons and celebrating the trade value, with nostalgic energy around Chase Utley's induction."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Arr\u00e1ez Era Begins in Earnest",
+      "delta": 8,
+      "sample": "Four games in, the cleanup experiment is working \u2014 a contact-first approach with runners in scoring position is producing exactly what the lineup has lacked, and his infectious energy is pulling teammates into a different rhythm."
+    },
+    {
+      "name": "Bullpen Depth Remains the Unresolved Fear",
+      "delta": -6,
+      "sample": "The rotation and bullpen got marginally deeper at the deadline, but there is no consensus that a trustworthy seventh-or-eighth inning arm for October was actually added, and that gap looms larger as the calendar turns to August."
+    },
+    {
+      "name": "Harper in Right Field \u2014 Exciting and Unnerving",
+      "delta": -3,
+      "sample": "The defensive realignment has sparked energy and a new challenge mentality across the roster, but real skepticism remains about whether a reconstructed arm returning to right field after four years holds up through a playoff run."
+    },
+    {
+      "name": "Schwarber's Slump Is a Real and Present Concern",
+      "delta": -5,
+      "sample": "The numbers since July 1st are genuinely bad \u2014 slugging collapsed, home run rate cratered \u2014 and while history suggests he finds his way back, the timing with a tight wild-card race makes the cold stretch harder to shrug off."
+    },
+    {
+      "name": "Painter and Rotation Depth on a Razor's Edge",
+      "delta": -4,
+      "sample": "Andrew Painter's hamstring tightness is a reminder that the decision not to acquire a fifth starter at the deadline leaves the rotation one injury away from a genuine crisis with two months left in the season."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Luis Arise is a great fit because he does so many things the Phillies do not do.",
+      "score": 78,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "I cannot be talked into what they did or did not do on the pitching side at this deadline.",
+      "score": 32,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "He has not swung the bat and missed. He has made the contact he's sought to make every time he swung his bat as a Philly.",
+      "score": 85,
+      "source_hint": "talk-radio host (94WIP)"
+    },
+    {
+      "text": "The lack of depth in that starting rotation and the bullpen remains a major concern.",
+      "score": 28,
+      "source_hint": "fan analyst (The Phillies Show)"
+    }
+  ],
+  "vibe_summary": "Phillies fans are riding a genuine wave of Arr\u00e1ez-fueled optimism, but a nagging dread about October pitching \u2014 no trustworthy reliever added, Painter's hamstring already a scare \u2014 keeps the mood from ever fully exhaling.",
+  "reasoning": "The dominant energy right now is real enthusiasm for what Arr\u00e1ez has changed in the lineup \u2014 contact rate, run-scoring consistency, clubhouse energy \u2014 and that is lifting overall mood measurably. However, the beat writer is considerably more cautious than the radio and fan-analyst voices, arguing forcefully that the bullpen whiff at the deadline is a meaningful flaw that could cost the team in October. The defensive realignment around Harper returning to right field adds a layer of fascinating but unsettling uncertainty. The record sits at 62-55 with an L1 streak and 8.5 games back, which keeps postseason belief grounded \u2014 there is genuine confidence in the roster's ceiling but no division-race optimism driving scores higher.",
+  "people_mentioned": [
+    "Arr\u00e1ez",
+    "Harper",
+    "Schwarber",
+    "Wheeler",
+    "Lizardo",
+    "Sanchez",
+    "Painter",
+    "Stott",
+    "Bohm",
+    "Turner",
+    "Mattingly",
+    "Dombrowski",
+    "Crawford",
+    "Hill",
+    "Marsh",
+    "Nola",
+    "Killian",
+    "Raley",
+    "Alvarado",
+    "Duran",
+    "Bolin",
+    "Kerkering",
+    "Utley",
+    "Franke",
+    "Aidan Miller"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 199410,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 14731,
+    "youtube_comments": 3,
+    "youtube_comment_chars": 384,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "All Arraez!",
+      "voice": "radio_populist",
+      "chars": 59540
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "We answer your post-trade deadline questions",
+      "voice": "fan_analyst",
+      "chars": 55684
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Luis Arraez Makes A Great First Impression for the Phillies",
+      "voice": "fan_analyst",
+      "chars": 50347
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Arraez, My Love",
+      "voice": "beat_writer",
+      "chars": 33839
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Reminiscing Chase Utley's Career Ahead Utley's Phillies Wall of Fame Induction Tonight",
+      "voice": "radio_populist",
+      "chars": 1607
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Scott Franzke on Utley\u2019s Induction and Sanchez\u2019s Postseason Consistency",
+      "voice": "radio_populist",
+      "chars": 11945
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "The Arr\u00e1ez Age of Phillies' Offense\ud83e\udd29",
+      "voice": "radio_populist",
+      "chars": 1179
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 96.0,
+      "baseline_games_count": 35,
+      "baseline_avg_pct": 98.5,
+      "delta_pct": -2.5,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823435,
+          "date": "2026-07-25",
+          "day_of_week": "Saturday",
+          "opponent": "New York Yankees",
+          "result": "L 1-3",
+          "attendance": 44562,
+          "pct_capacity": 103.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823433,
+          "date": "2026-07-26",
+          "day_of_week": "Sunday",
+          "opponent": "New York Yankees",
+          "result": "W 11-4",
+          "attendance": 42799,
+          "pct_capacity": 99.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823431,
+          "date": "2026-08-03",
+          "day_of_week": "Monday",
+          "opponent": "Washington Nationals",
+          "result": "W 6-3",
+          "attendance": 41115,
+          "pct_capacity": 95.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823432,
+          "date": "2026-08-04",
+          "day_of_week": "Tuesday",
+          "opponent": "Washington Nationals",
+          "result": "W 5-0",
+          "attendance": 38731,
+          "pct_capacity": 90.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823429,
+          "date": "2026-08-05",
+          "day_of_week": "Wednesday",
+          "opponent": "Washington Nationals",
+          "result": "L 4-10",
+          "attendance": 37025,
+          "pct_capacity": 86.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823430,
+          "date": "2026-08-06",
+          "day_of_week": "Thursday",
+          "opponent": "Washington Nationals",
+          "result": "W 7-3",
+          "attendance": 40301,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823428,
+          "date": "2026-08-07",
+          "day_of_week": "Friday",
+          "opponent": "Toronto Blue Jays",
+          "result": "L 4-5",
+          "attendance": 43641,
+          "pct_capacity": 101.7,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "62-55",
+    "streak": "L1",
+    "games_behind": "8.5"
+  },
+  "generated_at": "2026-08-08T10:39:10.658517+00:00"
+}
