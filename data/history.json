@@ -27223,5 +27223,278 @@
       "games_behind": "8.5"
     },
     "generated_at": "2026-08-08T10:39:10.658517+00:00"
+  },
+  {
+    "date": "2026-08-09",
+    "display_score": 59,
+    "reactive_score": 59,
+    "baseline_score": 50,
+    "insufficient_signal": false,
+    "content_volume": 216,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 68,
+      "front_office_trust": 45,
+      "manager_confidence": 60,
+      "lineup_confidence": 72,
+      "pitching_confidence": 48,
+      "health_outlook": 58,
+      "postseason_belief": 52
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 70,
+      "manager_confidence": 55,
+      "lineup_confidence": 85,
+      "pitching_confidence": 80,
+      "health_outlook": 60,
+      "postseason_belief": 65
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 65,
+        "note": "The Phillies Show panel is enthusiastic about Arr\u00e1ez's contact skills, energy, and fit at cleanup, but repeatedly flags starting pitching depth and bullpen reliability as major unresolved concerns heading into October."
+      },
+      "beat_writer": {
+        "score": 52,
+        "note": "Phillies Therapy co-hosts are analytically conflicted \u2014 sold on the offensive upside of the Arr\u00e1ez acquisition but openly calling the failure to add a trustworthy October reliever or a fifth starter a significant, possibly costly misstep by the front office."
+      },
+      "radio_populist": {
+        "score": 70,
+        "note": "High Hopes and 94WIP segments are broadly upbeat about Arr\u00e1ez's arrival, the lineup's new energy, and Sanchez's win total, while voicing some concern about Kirkering, Schwarber's funk, and Painter's hamstring."
+      },
+      "youtube_fan": {
+        "score": 68,
+        "note": "YouTube commenters marveled at the Arr\u00e1ez trade's value (a three-time batting champion for two low-cost prospects) and compared him favorably to Rod Carew, reflecting genuine excitement about the acquisition."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "The Arr\u00e1ez Effect Is Real",
+        "delta": 8,
+        "sample": "Eight doubles from seven different hitters in one game, no strikeouts in 28 swings as a Phillie, and contagious energy in the dugout \u2014 the acquisition has immediately changed the texture of the offense and lifted spirits across the fanbase."
+      },
+      {
+        "name": "October Pitching Depth Still the Wound",
+        "delta": -7,
+        "sample": "The rotation is unchanged from pre-deadline, the bullpen additions are depth moves rather than genuine October weapons, and the failure to land a trustworthy late-innings arm remains the loudest objection to how the front office handled the deadline."
+      },
+      {
+        "name": "Positional Shuffle: Cautious Optimism With Nerves",
+        "delta": 3,
+        "sample": "Moving Harper to right field, Stott to third, and Bohm to first is an unprecedented mid-season gambit \u2014 most analysis lands on intriguing rather than alarming, but Harper's defensive adjustment is flagged as the highest-risk element of the entire realignment."
+      },
+      {
+        "name": "Sanchez Quietly Slipping From Ace Status",
+        "delta": -4,
+        "sample": "An ERA that has climbed from 1.46 to 2.65 since his scoreless streak ended, diminishing pitch counts, and a look that invites genuine debate over whether Wheeler or even Lozardo should be the Game 1 starter in October."
+      },
+      {
+        "name": "Chase Utley Wall of Fame Night Stirs Deep Emotional Pride",
+        "delta": 5,
+        "sample": "Alumni weekend and Utley's induction brought an outpouring of affection for the 2008 core and a renewed hunger \u2014 almost urgency \u2014 for this current team to deliver a championship before the window closes."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "He has not swung the bat and missed. He has made the contact he's sought to make every time he swung his bat as a Philly.",
+        "score": 88,
+        "source_hint": "talk-radio host (94WIP), on Arr\u00e1ez's debut"
+      },
+      {
+        "text": "I cannot be talked into what they did or did not do on the pitching side at this deadline.",
+        "score": 22,
+        "source_hint": "beat writer (Phillies Therapy), on the front office's failure to add October pitching"
+      },
+      {
+        "text": "I am excited to see what this could change for this team in the postseason.",
+        "score": 78,
+        "source_hint": "talk-radio host (High Hopes), on Arr\u00e1ez's potential October impact"
+      },
+      {
+        "text": "3x batting champ in exchange for 2 minor league players that were signed for a total of 160k",
+        "score": 85,
+        "source_hint": "YouTube commenters, reacting to the Arr\u00e1ez trade value"
+      }
+    ],
+    "vibe_summary": "Watching Arr\u00e1ez make contact every single swing has genuinely changed what the Phillies offense feels like \u2014 but the deeper you look at this roster, the more the bullpen and rotation questions feel like a debt that hasn't been paid yet.",
+    "reasoning": "The dominant mood is one of real, earned excitement about Arr\u00e1ez reshaping the offense combined with a persistent, substantive anxiety about October pitching that the deadline did not resolve. The offensive enthusiasm is genuine \u2014 not coping framing \u2014 as fans and analysts discuss a lineup that looks structurally different and more threatening. However, the beat-writer perspective is notably more guarded than the radio and fan-analyst takes: the failure to acquire an October-caliber reliever or a genuine fifth-starter insurance policy is treated as a meaningful organizational miss, not a minor quibble. The positional shuffle adds intrigue and some nerves, particularly around Harper in right field, while Sanchez's gradual fade from Cy Young form opens a quiet but real conversation about the playoff rotation order.",
+    "people_mentioned": [
+      "Arr\u00e1ez",
+      "Harper",
+      "Mattingly",
+      "Dombrowski",
+      "Stott",
+      "Bohm",
+      "Lozardo",
+      "Sanchez",
+      "Wheeler",
+      "Painter",
+      "Turner",
+      "Schwarber",
+      "Crawford",
+      "Alvarado",
+      "Kirkering",
+      "Killian",
+      "Bolin",
+      "Nola",
+      "Duran",
+      "Marsh",
+      "Utley",
+      "Franzke"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 144998,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 14873,
+      "youtube_comments": 3,
+      "youtube_comment_chars": 384,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "All Arraez!",
+        "voice": "radio_populist",
+        "chars": 58126
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "We answer your post-trade deadline questions",
+        "voice": "fan_analyst",
+        "chars": 53129
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Arraez, My Love",
+        "voice": "beat_writer",
+        "chars": 33743
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Reminiscing Chase Utley's Career Ahead Utley's Phillies Wall of Fame Induction Tonight",
+        "voice": "radio_populist",
+        "chars": 1607
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Scott Franzke on Utley\u2019s Induction and Sanchez\u2019s Postseason Consistency",
+        "voice": "radio_populist",
+        "chars": 12087
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The Arr\u00e1ez Age of Phillies' Offense\ud83e\udd29",
+        "voice": "radio_populist",
+        "chars": 1179
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 94.4,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 98.2,
+        "delta_pct": -3.7,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823433,
+            "date": "2026-07-26",
+            "day_of_week": "Sunday",
+            "opponent": "New York Yankees",
+            "result": "W 11-4",
+            "attendance": 42799,
+            "pct_capacity": 99.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823431,
+            "date": "2026-08-03",
+            "day_of_week": "Monday",
+            "opponent": "Washington Nationals",
+            "result": "W 6-3",
+            "attendance": 41115,
+            "pct_capacity": 95.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823432,
+            "date": "2026-08-04",
+            "day_of_week": "Tuesday",
+            "opponent": "Washington Nationals",
+            "result": "W 5-0",
+            "attendance": 38731,
+            "pct_capacity": 90.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823429,
+            "date": "2026-08-05",
+            "day_of_week": "Wednesday",
+            "opponent": "Washington Nationals",
+            "result": "L 4-10",
+            "attendance": 37025,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823430,
+            "date": "2026-08-06",
+            "day_of_week": "Thursday",
+            "opponent": "Washington Nationals",
+            "result": "W 7-3",
+            "attendance": 40301,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823428,
+            "date": "2026-08-07",
+            "day_of_week": "Friday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 4-5",
+            "attendance": 43641,
+            "pct_capacity": 101.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823426,
+            "date": "2026-08-08",
+            "day_of_week": "Saturday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 5-7",
+            "attendance": 40010,
+            "pct_capacity": 93.3,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "62-56",
+      "streak": "L2",
+      "games_behind": "8.5"
+    },
+    "generated_at": "2026-08-09T10:38:38.477120+00:00"
   }
 ]
