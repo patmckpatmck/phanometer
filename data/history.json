@@ -27496,5 +27496,280 @@
       "games_behind": "8.5"
     },
     "generated_at": "2026-08-09T10:38:38.477120+00:00"
+  },
+  {
+    "date": "2026-08-10",
+    "display_score": 52,
+    "reactive_score": 52,
+    "baseline_score": 53,
+    "insufficient_signal": false,
+    "content_volume": 199,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 58,
+      "front_office_trust": 48,
+      "manager_confidence": 55,
+      "lineup_confidence": 66,
+      "pitching_confidence": 42,
+      "health_outlook": 52,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 65,
+      "manager_confidence": 40,
+      "lineup_confidence": 82,
+      "pitching_confidence": 80,
+      "health_outlook": 60,
+      "postseason_belief": 55
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 60,
+        "note": "Phillies Talk and The Phillies Show hosts broadly positive on Arr\u00e1ez and the offense, but candid about a shrinking bullpen trust circle and mounting rotation depth concerns."
+      },
+      "beat_writer": {
+        "score": 50,
+        "note": "Phillies Therapy (Matt Gelb) is genuinely intrigued by the Arr\u00e1ez shakeup but unambiguous that the pitching deadline was a major whiff, calling the bullpen relief addition insufficient for October."
+      },
+      "radio_populist": {
+        "score": 62,
+        "note": "WIP voices enthusiastic about the 'smart ball' energy Arr\u00e1ez brings and warm on Franzke's Utley reminiscences, with lighter treatment of the pitching concerns."
+      },
+      "youtube_fan": {
+        "score": 65,
+        "note": "YouTube commenters impressed by the Arr\u00e1ez trade value and drew Rod Carew comparisons; one commenter mildly critical of a host for not naming specific Utley moments."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Arr\u00e1ez Transforms the Lineup's Identity",
+        "delta": 7,
+        "sample": "Zero swings and misses since arriving, RBIs in each of his first three games, and a cleanup-spot presence that is already changing how pitchers approach Bryce Harper \u2014 the offense feels genuinely different."
+      },
+      {
+        "name": "Bullpen Trust Circle Is Nearly Closed",
+        "delta": -7,
+        "sample": "Duran is trusted, Bolin is promising, and after that the confidence falls off a cliff \u2014 Kerkering blew a three-run lead, Killian may be injured, and Alvarado remains unreliable, leaving October relief as the roster's most glaring hole."
+      },
+      {
+        "name": "Rotation Depth: The Deadline Whiff",
+        "delta": -6,
+        "sample": "The front office failed to add a single starter or high-leverage bullpen arm that profiles for October, leaving Andrew Painter's hamstring and Aaron Nola's late-career form as the only answers behind the top three."
+      },
+      {
+        "name": "Schwarber Snaps the Drought, Lineup Has Length",
+        "delta": 6,
+        "sample": "Two home runs on Sunday \u2014 one to the opposite field, one into the upper deck \u2014 end a historic power drought, and with Stott hitting over .300 for two months straight, the lineup finally has depth behind the stars."
+      },
+      {
+        "name": "Eight and a Half Back, September Schedule Looms",
+        "delta": -5,
+        "sample": "The division is effectively over at 8.5 games back, the September schedule ranks among the hardest in baseball, and what was a two-game deficit a few weeks ago now requires a near-perfect wild card run with an unresolved pitching staff."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The trust tree in the bullpen, the trust circle is shrinking, and it's shrinking at the wrong time of year.",
+        "score": 28,
+        "source_hint": "fan analyst (Phillies Talk)"
+      },
+      {
+        "text": "I cannot be talked into what they did or did not do on the pitching side at this deadline.",
+        "score": 22,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+      },
+      {
+        "text": "This is amazing. This is going to rub off. I am positive the offense will be lifted to some degree.",
+        "score": 74,
+        "source_hint": "talk-radio host (WIP Daily)"
+      },
+      {
+        "text": "3x batting champ in exchange for 2 minor league players that were signed for a total of 160k",
+        "score": 80,
+        "source_hint": "YouTube commenter on the Arr\u00e1ez segment"
+      }
+    ],
+    "vibe_summary": "Schwarber is finally hitting again, Stott is quietly having a great season, and Arr\u00e1ez has made the lineup feel alive \u2014 but an 8.5-game division deficit and a bullpen that can't be trusted in August makes October feel like a question the roster hasn't answered.",
+    "reasoning": "The dominant thread across all sources is a genuine split between offensive optimism and pitching dread. Arr\u00e1ez's arrival has energized the lineup and Schwarber's return from his home-run drought adds further momentum, creating real enthusiasm about the offense's ceiling. However, the beat writer and fan analysts are in uncommon alignment that the trade deadline was an incomplete job \u2014 no trustworthy October reliever was added, the rotation has no safety net behind the top three, and Killian's potential injury compounds an already thin bullpen. The talk-radio segment leans most positive, focusing on the 'smart ball' energy and Utley nostalgia, while the beat writer is the sharpest critic, calling the pitching decision a 'big, big, big misstep.' The 8.5-game deficit frames everything as a wild-card fight on a brutal schedule, and postseason belief stays low because the dominant conversation is about structural pitching gaps, not expressed confidence in a deep October run.",
+    "people_mentioned": [
+      "Arr\u00e1ez",
+      "Schwarber",
+      "Wheeler",
+      "Painter",
+      "Nola",
+      "Stott",
+      "Harper",
+      "Bohm",
+      "Kerkering",
+      "Dombrowski",
+      "Mattingly",
+      "Duran",
+      "Bolin",
+      "Alvarado",
+      "Killian",
+      "Raley",
+      "Sanchez",
+      "Turner",
+      "Hill",
+      "Utley",
+      "Crawford",
+      "McFarlane",
+      "Wood",
+      "Thomson"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 132402,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 14873,
+      "youtube_comments": 3,
+      "youtube_comment_chars": 384,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Arr\u00e1ez's instant impact, angry Wheeler, and more after 4-3 homestand",
+        "voice": "fan_analyst",
+        "chars": 47870
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "We answer your post-trade deadline questions",
+        "voice": "fan_analyst",
+        "chars": 52453
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Arraez, My Love",
+        "voice": "beat_writer",
+        "chars": 32079
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Reminiscing Chase Utley's Career Ahead Utley's Phillies Wall of Fame Induction Tonight",
+        "voice": "radio_populist",
+        "chars": 1607
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Scott Franzke on Utley\u2019s Induction and Sanchez\u2019s Postseason Consistency",
+        "voice": "radio_populist",
+        "chars": 12087
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The Arr\u00e1ez Age of Phillies' Offense\ud83e\udd29",
+        "voice": "radio_populist",
+        "chars": 1179
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 93.6,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.9,
+        "delta_pct": -4.2,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823431,
+            "date": "2026-08-03",
+            "day_of_week": "Monday",
+            "opponent": "Washington Nationals",
+            "result": "W 6-3",
+            "attendance": 41115,
+            "pct_capacity": 95.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823432,
+            "date": "2026-08-04",
+            "day_of_week": "Tuesday",
+            "opponent": "Washington Nationals",
+            "result": "W 5-0",
+            "attendance": 38731,
+            "pct_capacity": 90.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823429,
+            "date": "2026-08-05",
+            "day_of_week": "Wednesday",
+            "opponent": "Washington Nationals",
+            "result": "L 4-10",
+            "attendance": 37025,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823430,
+            "date": "2026-08-06",
+            "day_of_week": "Thursday",
+            "opponent": "Washington Nationals",
+            "result": "W 7-3",
+            "attendance": 40301,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823428,
+            "date": "2026-08-07",
+            "day_of_week": "Friday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 4-5",
+            "attendance": 43641,
+            "pct_capacity": 101.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823426,
+            "date": "2026-08-08",
+            "day_of_week": "Saturday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 5-7",
+            "attendance": 40010,
+            "pct_capacity": 93.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823425,
+            "date": "2026-08-09",
+            "day_of_week": "Sunday",
+            "opponent": "Toronto Blue Jays",
+            "result": "W 7-6",
+            "attendance": 40398,
+            "pct_capacity": 94.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "63-56",
+      "streak": "W1",
+      "games_behind": "8.5"
+    },
+    "generated_at": "2026-08-10T11:16:30.983226+00:00"
   }
 ]
