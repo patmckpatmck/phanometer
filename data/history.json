@@ -27771,5 +27771,288 @@
       "games_behind": "8.5"
     },
     "generated_at": "2026-08-10T11:16:30.983226+00:00"
+  },
+  {
+    "date": "2026-08-11",
+    "display_score": 38,
+    "reactive_score": 38,
+    "baseline_score": 52,
+    "insufficient_signal": false,
+    "content_volume": 294,
+    "mood_label": "Oh No",
+    "dimensions": {
+      "results_satisfaction": 42,
+      "front_office_trust": 32,
+      "manager_confidence": 28,
+      "lineup_confidence": 45,
+      "pitching_confidence": 48,
+      "health_outlook": 35,
+      "postseason_belief": 30
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 82,
+      "front_office_trust": 65,
+      "manager_confidence": 78,
+      "lineup_confidence": 72,
+      "pitching_confidence": 80,
+      "health_outlook": 70,
+      "postseason_belief": 75
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 38,
+        "note": "Hittin' Season roundtable flatly calls the team mediocre (26-25 since June 10), treats bullpen collapse as the defining postseason threat, and debates benching Bohm; The Phillies Show (Amaro/Salisbury/Zolecki) surfaces similar bullpen alarm and Bohm frustration while giving Luzardo and Stott genuine praise."
+      },
+      "beat_writer": {
+        "score": 40,
+        "note": "Beat writer (Phillies Therapy / Gelb) walks through the last nine losses to show how close \u2014 and how damaging \u2014 each has been, flags bullpen as redlined, calls Killian injury a serious blow, and frames October as a grind-to-survive scenario rather than a confident projection."
+      },
+      "radio_populist": {
+        "score": 36,
+        "note": "Talk-radio hosts (WIP High Hopes and WIP 94) are harshly critical of Mattingly's bullpen usage, Dombrowski's deadline haul, and the team's fundamental sloppiness, while reluctantly defending Bohm as the least-bad option and calling for McFarlane's immediate promotion."
+      },
+      "youtube_fan": {
+        "score": 22,
+        "note": "YouTube commenters overwhelmingly reject the Bohm-must-start argument, advocate Harper to first and De La Cruz/Hill in the outfield, and dismiss the counter-take as sensationalism \u2014 the most viscerally negative voice present today."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Bullpen in freefall",
+        "delta": -8,
+        "sample": "A 5.40-plus ERA since July 1, an 11-percent walk rate ranking third-worst in baseball, Alvarado getting destroyed by left-handers, Kerkering's velocity and confidence visibly cratering, and now Killian likely done for the year \u2014 the relief corps has become the clearest obstacle between this roster and October."
+      },
+      {
+        "name": "Mattingly's decisions under fire",
+        "delta": -6,
+        "sample": "Using Brooks Raley in the sixth inning of a game the Phillies trailed, then running out Alvarado to protect a late lead; leaving Kerkering in too long on multiple occasions; and cycling through relievers so aggressively that the bullpen needed a two-man Monday night just to recover \u2014 the managerial fingerprints on the losing stretch are impossible to ignore."
+      },
+      {
+        "name": "Alec Bohm: the roster's most divisive figure",
+        "delta": -5,
+        "sample": "A first-pitch sinker chopped into the dirt with the bases loaded and one out, a mental error at first base, a drop to eighth in the order \u2014 Bohm's late-game failures have crystallized a debate about whether De La Cruz and Harper at first would simply be better, with raw fan opinion overwhelmingly in favor of the change and more measured analysis reluctantly concluding there is no clean replacement."
+      },
+      {
+        "name": "Luzardo and Stott as the two bright spots",
+        "delta": 6,
+        "sample": "Luzardo's 2.04 ERA since June 10 with the most strikeouts in baseball over that stretch has fueled a genuine debate about whether he should start Game 2 of a playoff series over Wheeler; Stott's .444 average and 22-for-22 stolen-base record over a recent six-game stretch have made him the quiet MVP of a lineup that needs every baserunner it can manufacture."
+      },
+      {
+        "name": "Schwarber's return and the 50-homer chase",
+        "delta": 4,
+        "sample": "After going more than a month without a home run while somehow never relinquishing the NL lead, Schwarber hit two bombs in Sunday's win and looks like his August power surge has arrived \u2014 with 35 homers and roughly seven weeks left, reaching 50 is now a realistic conversation."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The bullpen is the monster that just keeps rearing its head for this team.",
+        "score": 18,
+        "source_hint": "Hittin' Season host (fan analyst)"
+      },
+      {
+        "text": "I think Alec Bohm's a bummer. I think he bums people out.",
+        "score": 22,
+        "source_hint": "Hittin' Season host (fan analyst)"
+      },
+      {
+        "text": "Derek Hill has come in clutch more times for this team in half a season than Bohm has his entire career.",
+        "score": 20,
+        "source_hint": "YouTube commenter on Bohm lineup debate"
+      },
+      {
+        "text": "They could have won all nine of those games. It's not crazy.",
+        "score": 35,
+        "source_hint": "Beat writer (Phillies Therapy / Gelb) on last nine losses"
+      }
+    ],
+    "vibe_summary": "The bullpen's collapse into one of baseball's worst relief units has turned every late-inning lead into a white-knuckle ordeal, and fans have stopped pretending the current roster is built to simply coast into October.",
+    "reasoning": "The dominant mood across all present voices is anxious frustration: the team is clinging to a wild-card spot but doing it ugly, with a bullpen that has redlined its key arms and lost its trade-deadline acquisition to injury. Mattingly's in-game decisions \u2014 particularly his bullpen deployment \u2014 are drawing sharp criticism from every angle, while Bohm's mental errors and passive at-bats have become the emotional lightning rod for a broader malaise. The more measured beat-writer framing acknowledges the offense has quietly improved (11-straight games scoring four-plus runs) and that close losses could easily have gone the other way, but even that contextualizing voice stops well short of genuine October confidence. Raw fan commentary is the harshest, treating the Bohm debate as essentially settled in favor of moving him out, and dismissing counterarguments as contrarianism.",
+    "people_mentioned": [
+      "Bohm",
+      "Mattingly",
+      "Kerkering",
+      "Alvarado",
+      "Luzardo",
+      "Schwarber",
+      "McFarlane",
+      "Stott",
+      "Wheeler",
+      "Dombrowski",
+      "Harper",
+      "Killian",
+      "Raley",
+      "Painter",
+      "Duran",
+      "Nola",
+      "De La Cruz",
+      "Hill",
+      "Turner",
+      "Marsh",
+      "Aidan Miller",
+      "Sanchez",
+      "Bolin",
+      "Utley",
+      "Thomson",
+      "Wood"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 208601,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 4310,
+      "youtube_comments": 10,
+      "youtube_comment_chars": 1515,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies \"True or False\" and Other Musings",
+        "voice": "fan_analyst",
+        "chars": 68888
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Who's Worse Situationally: Jack's WiFi or The Phillies?",
+        "voice": "radio_populist",
+        "chars": 63545
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Fuel For the Embers",
+        "voice": "beat_writer",
+        "chars": 40788
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Signs of Trouble: Phillies bullpen problems continue",
+        "voice": "fan_analyst",
+        "chars": 35380
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "\"Move Bohm Down In The Order But Don't DFA Him\"",
+        "voice": "radio_populist",
+        "chars": 739
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Alec Bohm Isn't Going Anywhere",
+        "voice": "radio_populist",
+        "chars": 1031
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Alec Bohm Has To Start The Rest Of The Season",
+        "voice": "radio_populist",
+        "chars": 2540
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 93.6,
+        "baseline_games_count": 38,
+        "baseline_avg_pct": 97.5,
+        "delta_pct": -3.9,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823431,
+            "date": "2026-08-03",
+            "day_of_week": "Monday",
+            "opponent": "Washington Nationals",
+            "result": "W 6-3",
+            "attendance": 41115,
+            "pct_capacity": 95.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823432,
+            "date": "2026-08-04",
+            "day_of_week": "Tuesday",
+            "opponent": "Washington Nationals",
+            "result": "W 5-0",
+            "attendance": 38731,
+            "pct_capacity": 90.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823429,
+            "date": "2026-08-05",
+            "day_of_week": "Wednesday",
+            "opponent": "Washington Nationals",
+            "result": "L 4-10",
+            "attendance": 37025,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823430,
+            "date": "2026-08-06",
+            "day_of_week": "Thursday",
+            "opponent": "Washington Nationals",
+            "result": "W 7-3",
+            "attendance": 40301,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823428,
+            "date": "2026-08-07",
+            "day_of_week": "Friday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 4-5",
+            "attendance": 43641,
+            "pct_capacity": 101.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823426,
+            "date": "2026-08-08",
+            "day_of_week": "Saturday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 5-7",
+            "attendance": 40010,
+            "pct_capacity": 93.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823425,
+            "date": "2026-08-09",
+            "day_of_week": "Sunday",
+            "opponent": "Toronto Blue Jays",
+            "result": "W 7-6",
+            "attendance": 40398,
+            "pct_capacity": 94.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "64-56",
+      "streak": "W2",
+      "games_behind": "7.5"
+    },
+    "generated_at": "2026-08-11T10:58:17.187894+00:00"
   }
 ]
