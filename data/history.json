@@ -28054,5 +28054,291 @@
       "games_behind": "7.5"
     },
     "generated_at": "2026-08-11T10:58:17.187894+00:00"
+  },
+  {
+    "date": "2026-08-12",
+    "display_score": 43,
+    "reactive_score": 43,
+    "baseline_score": 48,
+    "insufficient_signal": false,
+    "content_volume": 329,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 42,
+      "front_office_trust": 38,
+      "manager_confidence": 32,
+      "lineup_confidence": 55,
+      "pitching_confidence": 58,
+      "health_outlook": 38,
+      "postseason_belief": 35
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 72,
+      "manager_confidence": 90,
+      "lineup_confidence": 78,
+      "pitching_confidence": 82,
+      "health_outlook": 80,
+      "postseason_belief": 75
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 48,
+        "note": "Hittin' Season panel called the team definitively mediocre since June 10th, with bullpen as the postseason killer; Phillies Show highlighted Luzardo and Stott as bright spots but shared deep bullpen alarm and Bohm fatigue."
+      },
+      "beat_writer": {
+        "score": 44,
+        "note": "Beat writer (Phillies Therapy / Matt Gelb) framed the team as frustrating but still in the race, flagging the bullpen's redlined state, Killian's injury, and the fifth inning collapse on Chase Utley night as defining emblems of this squad."
+      },
+      "radio_populist": {
+        "score": 40,
+        "note": "Talk-radio hosts (WIP Daily / Joe Giglio) wrestled aloud with whether the team is good or bad, landing on a thin-margin verdict of 'slightly good,' while shifting noticeably toward out on Mattingly and spotlighting Dombrowski's open door for Alex Cora."
+      },
+      "youtube_fan": {
+        "score": 33,
+        "note": "YouTube commenters were broadly negative \u2014 fixating on Bohm, Mattingly's bullpen mismanagement, and structural roster problems from years of drafting, with one calling it a 'shit roster' and another likening Mattingly to a pure caretaker."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Bullpen in freefall",
+        "delta": -8,
+        "sample": "A 5.40+ ERA since July 1st, a walk rate third-highest in baseball, Kerkering's velocity cratering, Alvarado torched by lefties, and Killian now likely done for the year \u2014 the relief corps has become the dominant anxiety swallowing every late-inning lead."
+      },
+      {
+        "name": "Mattingly's job security crumbling",
+        "delta": -6,
+        "sample": "Dombrowski's non-answer on Mattingly's future, his explicit praise of Alex Cora, and a mounting list of bullpen mismanagement moments have tipped talk-radio analysis from lukewarm support to a lean-out verdict, with hosts and commenters alike questioning whether he has the feel for pitching to survive."
+      },
+      {
+        "name": "Bohm has become a drain on the roster",
+        "delta": -5,
+        "sample": "The sinker-into-the-ground at-bat in the ninth inning with bases loaded Friday, the Saturday mental error at first base, the double-play grounders \u2014 Bohm is now described as a 'bummer' who brings the team's energy down, and calls to bench him in favor of De La Cruz are growing serious."
+      },
+      {
+        "name": "Luzardo and Stott quietly carrying",
+        "delta": 6,
+        "sample": "Luzardo is putting up a 2.04 ERA since June 10th with the most strikeouts in baseball in that span, while Stott's .444 average with a 1.267 OPS over a recent six-game stretch and 22-for-22 stolen bases have made him the team's most valuable position player by fWAR."
+      },
+      {
+        "name": "Schwarber's power returning raises the floor",
+        "delta": 4,
+        "sample": "After going over a month without a home run while still leading the National League, Schwarber's back-to-back multi-homer performances feel like a potential August surge that the team badly needs \u2014 and his 35 home runs give the lineup a genuine threat it had been missing."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The bullpen is real, real, real bad and I don't want to see them anywhere near a playoff.",
+        "score": 15,
+        "source_hint": "Hittin' Season host (fan analyst)"
+      },
+      {
+        "text": "I think Alec Bohm's a bummer. I think he bums people out.",
+        "score": 20,
+        "source_hint": "Hittin' Season host (fan analyst)"
+      },
+      {
+        "text": "Seven and three in the last 10 games, and all I've thought about for the last week and a half is how bad the Phillies are.",
+        "score": 38,
+        "source_hint": "WIP Daily talk-radio host"
+      },
+      {
+        "text": "Lazardo has been the best pitcher on the staff for the last six weeks.",
+        "score": 72,
+        "source_hint": "WIP Daily talk-radio host"
+      }
+    ],
+    "vibe_summary": "Mattingly's grip on the job is loosening, Bohm has curdled from frustration into genuine drag, and a bullpen that cannot be trusted past the seventh inning is the cloud hanging over a team that still has three aces and a resurgent Schwarber.",
+    "reasoning": "The dominant mood is one of structural anxiety rather than acute crisis \u2014 the Phillies are 64-57 and clinging to a playoff spot, but the bullpen's collapse, Killian's likely season-ending oblique injury, and deepening skepticism about Mattingly's bullpen management have pushed sentiment well below neutral across every analytical source. There is genuine brightness around Luzardo, Stott, and Schwarber's return, which prevents complete despair, but the front-office trust dimension is being dragged down by Dombrowski's underwhelming deadline and his conspicuous refusal to commit to Mattingly's future while praising Cora. YouTube commenters are the harshest, viewing the roster as structurally flawed from years of poor drafting, while analytical voices are more measured but equally alarmed about the bullpen's direction heading into October.",
+    "people_mentioned": [
+      "Mattingly",
+      "Luzardo",
+      "Bohm",
+      "Kerkering",
+      "Alvarado",
+      "Schwarber",
+      "Stott",
+      "Dombrowski",
+      "Harper",
+      "Painter",
+      "Killian",
+      "McFarlane",
+      "Wheeler",
+      "Sanchez",
+      "Nola",
+      "Turner",
+      "Duran",
+      "Bolin",
+      "Raley",
+      "Wood",
+      "Miller",
+      "De La Cruz",
+      "Hill",
+      "Crawford",
+      "Marsh",
+      "Thomson",
+      "Cora",
+      "Rollins",
+      "Utley"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 209880,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 31197,
+      "youtube_comments": 8,
+      "youtube_comment_chars": 1144,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies \"True or False\" and Other Musings",
+        "voice": "fan_analyst",
+        "chars": 68888
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Who's Worse Situationally: Jack's WiFi or The Phillies?",
+        "voice": "radio_populist",
+        "chars": 64997
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Fuel For the Embers",
+        "voice": "beat_writer",
+        "chars": 40366
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Signs of Trouble: Phillies bullpen problems continue",
+        "voice": "fan_analyst",
+        "chars": 35629
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Are The Phillies Actually Good?",
+        "voice": "radio_populist",
+        "chars": 2068
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Inconsistent Phillies Are IMPOSSIBLE To Project ",
+        "voice": "radio_populist",
+        "chars": 16419
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Dave Dombrowski Keeps Door Open For Alex Cora As Phillies Manager \ud83d\udc40",
+        "voice": "radio_populist",
+        "chars": 12710
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 93.6,
+        "baseline_games_count": 39,
+        "baseline_avg_pct": 97.4,
+        "delta_pct": -3.8,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823431,
+            "date": "2026-08-03",
+            "day_of_week": "Monday",
+            "opponent": "Washington Nationals",
+            "result": "W 6-3",
+            "attendance": 41115,
+            "pct_capacity": 95.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823432,
+            "date": "2026-08-04",
+            "day_of_week": "Tuesday",
+            "opponent": "Washington Nationals",
+            "result": "W 5-0",
+            "attendance": 38731,
+            "pct_capacity": 90.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823429,
+            "date": "2026-08-05",
+            "day_of_week": "Wednesday",
+            "opponent": "Washington Nationals",
+            "result": "L 4-10",
+            "attendance": 37025,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823430,
+            "date": "2026-08-06",
+            "day_of_week": "Thursday",
+            "opponent": "Washington Nationals",
+            "result": "W 7-3",
+            "attendance": 40301,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823428,
+            "date": "2026-08-07",
+            "day_of_week": "Friday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 4-5",
+            "attendance": 43641,
+            "pct_capacity": 101.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823426,
+            "date": "2026-08-08",
+            "day_of_week": "Saturday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 5-7",
+            "attendance": 40010,
+            "pct_capacity": 93.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823425,
+            "date": "2026-08-09",
+            "day_of_week": "Sunday",
+            "opponent": "Toronto Blue Jays",
+            "result": "W 7-6",
+            "attendance": 40398,
+            "pct_capacity": 94.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "64-57",
+      "streak": "L1",
+      "games_behind": "8.5"
+    },
+    "generated_at": "2026-08-12T11:08:12.726532+00:00"
   }
 ]
