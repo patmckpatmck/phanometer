@@ -28340,5 +28340,284 @@
       "games_behind": "8.5"
     },
     "generated_at": "2026-08-12T11:08:12.726532+00:00"
+  },
+  {
+    "date": "2026-08-13",
+    "display_score": 29,
+    "reactive_score": 29,
+    "baseline_score": 47,
+    "insufficient_signal": false,
+    "content_volume": 223,
+    "mood_label": "Not Again",
+    "dimensions": {
+      "results_satisfaction": 22,
+      "front_office_trust": 32,
+      "manager_confidence": 38,
+      "lineup_confidence": 35,
+      "pitching_confidence": 34,
+      "health_outlook": 30,
+      "postseason_belief": 22
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 90,
+      "front_office_trust": 45,
+      "manager_confidence": 60,
+      "lineup_confidence": 82,
+      "pitching_confidence": 88,
+      "health_outlook": 85,
+      "postseason_belief": 88
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 28,
+        "note": "Hittin' Season and companion fan analyst shows all express first-ever serious playoff doubt this season \u2014 10-15 since the break, offense AWOL in two straight losses, Wheeler alarming, Alvarado unusable; still a sliver of belief the Phillies outlast Arizona."
+      },
+      "beat_writer": {
+        "score": 30,
+        "note": "The beat writer (Phillies Therapy) catalogs nine recent losses where the Phillies could have won, notes a redlined bullpen and Killian likely lost for the season, and calls for a massive recalibration \u2014 'just get in and see what happens' is the ceiling of optimism."
+      },
+      "radio_populist": {
+        "score": 25,
+        "note": "Talk-radio host (WIP Daily) openly wavers on the Phillies making the playoffs at all, calls Harper's iron-man pursuit potentially selfish given knee concerns, and concedes the division is 'all but dead.'"
+      },
+      "youtube_fan": {
+        "score": 18,
+        "note": "YouTube commenters are among the most pessimistic voices present \u2014 multiple comments insist the Phillies are already eliminated in spirit, call for Dombrowski and Mattingly to be fired, and mock any remaining optimism."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Playoff spot slipping away in real time",
+        "delta": -8,
+        "sample": "For the first time since June, the Phillies are on the outside of a wild-card spot \u2014 10-15 since the break, six of eight series losses, and the Padres rocketing past them while 40 games remain."
+      },
+      {
+        "name": "Wheeler's decline raising red flags",
+        "delta": -7,
+        "sample": "Three rough starts in the last four outings, velocity down, fastball command gone, and an ERA ballooning past the All-Star break \u2014 echoes of last year's blood-clot prelude are impossible to ignore."
+      },
+      {
+        "name": "Bryce Harper's knee clouding everything",
+        "delta": -6,
+        "sample": "Harper's left knee, aggravated since moving to right field, has him DHing repeatedly, barely running out ground balls, and looking uncomfortable at the plate \u2014 the debate over whether his iron-man pursuit is hurting the team is growing loud."
+      },
+      {
+        "name": "Offense collapses when it matters most",
+        "delta": -6,
+        "sample": "One total run in the last 18 innings against St. Louis, 0-for-7 with RISP on Tuesday, a bases-loaded-nobody-out implosion in the eighth \u2014 the lineup's Jekyll-and-Hyde nature is at its most maddening."
+      },
+      {
+        "name": "Stott's emergence one of the few bright spots",
+        "delta": 5,
+        "sample": "Bryson Stott is hitting at a near-.300 clip, getting on base at an elite rate, stealing bases at a perfect clip, and making highlight-reel plays at a third base position he only recently inherited."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "This is the first time all year I've had a serious doubt as to whether the Phillies would make the playoffs.",
+        "score": 18,
+        "source_hint": "Hittin' Season host (fan analyst)"
+      },
+      {
+        "text": "For the first time this season, I don't have hope in this team. And that's a concern. It's a huge concern.",
+        "score": 12,
+        "source_hint": "Phillies Talk co-host (fan analyst)"
+      },
+      {
+        "text": "My confidence in the Phillies even making the playoffs is wavering.",
+        "score": 20,
+        "source_hint": "WIP Daily host (talk-radio host)"
+      },
+      {
+        "text": "They make it harder than it needs to be, always. I think that's the root of it.",
+        "score": 28,
+        "source_hint": "Phillies Therapy beat writer"
+      }
+    ],
+    "vibe_summary": "Harper's knee, Wheeler's fade, a road trip through a cornfield, and a wild-card race the Phillies are now losing \u2014 the question has shifted from how deep they can go in October to whether they get there at all.",
+    "reasoning": "The dominant force today is a convergence of genuine alarm across every present source: the Phillies dropped out of a wild-card spot for the first time since early June, lost six of eight series since the All-Star break, and watched their two most important players \u2014 Harper and Wheeler \u2014 show worrying physical and performance signs simultaneously. The bullpen exhaustion and Killian injury compound the rotation anxiety. The only measurable optimism comes from Stott's breakout and the Padres tiebreaker cushion, but those are footnotes. YouTube commenters are the angriest, openly dismissing any playoff hope; the analytical podcast voices are more measured but have abandoned their prior certainty; the beat writer frames the season as a grinding survival exercise rather than a contender's march.",
+    "people_mentioned": [
+      "Wheeler",
+      "Harper",
+      "Stott",
+      "Mattingly",
+      "Sanchez",
+      "Alvarado",
+      "Bohm",
+      "Arr\u00e1ez",
+      "Schwarber",
+      "Turner",
+      "Realmuto",
+      "Painter",
+      "Luzardo",
+      "Dombrowski",
+      "Crawford",
+      "De La Cruz",
+      "Marsh",
+      "Kerkering",
+      "McFarlane",
+      "Bolin",
+      "Nola",
+      "Killian"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 155522,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 5560,
+      "youtube_comments": 8,
+      "youtube_comment_chars": 693,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Could the Phillies Really Not Make the Playoffs?",
+        "voice": "fan_analyst",
+        "chars": 31721
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "An ugly finish to the Cardinals series has the Phillies playoff hopes diminishing",
+        "voice": "fan_analyst",
+        "chars": 43106
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "The Phillies have fallen into a tie for the final NL Wild Card",
+        "voice": "fan_analyst",
+        "chars": 40487
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Fuel For the Embers",
+        "voice": "beat_writer",
+        "chars": 40208
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Bryce Harper Is Being \u2018Selfish\u2019",
+        "voice": "radio_populist",
+        "chars": 2240
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Hugh Remains Hopeful In Phillies",
+        "voice": "radio_populist",
+        "chars": 904
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Could Phillies Actually MISS The Playoffs?!",
+        "voice": "radio_populist",
+        "chars": 2416
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 93.6,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 97.3,
+        "delta_pct": -3.7,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823431,
+            "date": "2026-08-03",
+            "day_of_week": "Monday",
+            "opponent": "Washington Nationals",
+            "result": "W 6-3",
+            "attendance": 41115,
+            "pct_capacity": 95.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823432,
+            "date": "2026-08-04",
+            "day_of_week": "Tuesday",
+            "opponent": "Washington Nationals",
+            "result": "W 5-0",
+            "attendance": 38731,
+            "pct_capacity": 90.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823429,
+            "date": "2026-08-05",
+            "day_of_week": "Wednesday",
+            "opponent": "Washington Nationals",
+            "result": "L 4-10",
+            "attendance": 37025,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823430,
+            "date": "2026-08-06",
+            "day_of_week": "Thursday",
+            "opponent": "Washington Nationals",
+            "result": "W 7-3",
+            "attendance": 40301,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823428,
+            "date": "2026-08-07",
+            "day_of_week": "Friday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 4-5",
+            "attendance": 43641,
+            "pct_capacity": 101.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823426,
+            "date": "2026-08-08",
+            "day_of_week": "Saturday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 5-7",
+            "attendance": 40010,
+            "pct_capacity": 93.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823425,
+            "date": "2026-08-09",
+            "day_of_week": "Sunday",
+            "opponent": "Toronto Blue Jays",
+            "result": "W 7-6",
+            "attendance": 40398,
+            "pct_capacity": 94.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "64-58",
+      "streak": "L2",
+      "games_behind": "9.5"
+    },
+    "generated_at": "2026-08-13T11:06:36.071174+00:00"
   }
 ]
