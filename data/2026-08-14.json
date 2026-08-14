@@ -1,0 +1,279 @@
+{
+  "date": "2026-08-14",
+  "display_score": 25,
+  "reactive_score": 25,
+  "baseline_score": 41,
+  "insufficient_signal": false,
+  "content_volume": 272,
+  "mood_label": "Not Again",
+  "dimensions": {
+    "results_satisfaction": 22,
+    "front_office_trust": 18,
+    "manager_confidence": 28,
+    "lineup_confidence": 25,
+    "pitching_confidence": 30,
+    "health_outlook": 30,
+    "postseason_belief": 20
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 90,
+    "front_office_trust": 82,
+    "manager_confidence": 75,
+    "lineup_confidence": 85,
+    "pitching_confidence": 88,
+    "health_outlook": 80,
+    "postseason_belief": 85
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 28,
+      "note": "Hittin' Season, Phillies Talk, and The Phillies Show all describe a team in genuine playoff jeopardy \u2014 10-15 since the break, out of a wild card spot, with Wheeler fading, the offense Jekyll-and-Hyde, and Harper's knee a mounting concern; Stolnis says it's the first time all year he's had a serious doubt about the playoffs."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 14,
+      "note": "WIP voices are the most despairing in the batch \u2014 one host delivers an extended 'I hate them' monologue cataloguing every dysfunction, Fritz flatly declares the season done, and both agree the bullpen is 'beyond cooked' and the front office is reactive and disorganized."
+    },
+    "youtube_fan": {
+      "score": 18,
+      "note": "Comments range from numb ('too traumatizing to watch sober') to outright angry, with the Harper-Bohm defensive arrangement drawing mockery and at least one commenter calling for a Harper sell-off."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Wheeler's Fade Rattles the Foundation",
+      "delta": -7,
+      "sample": "Three poor starts in four outings, velocity down, and the eerie parallel to last year's pre-blood-clot spiral have turned the ace from a certainty into a worry \u2014 and with him goes the entire postseason calculus."
+    },
+    {
+      "name": "Wild Card Race Has Become a Fight for Survival",
+      "delta": -6,
+      "sample": "For the first time since June, the Phillies are outside a playoff spot, sitting 10-15 since the All-Star break while the Padres and Diamondbacks surge past them with 40 games left."
+    },
+    {
+      "name": "Harper's Knee and the Right-Field Experiment Backfire",
+      "delta": -5,
+      "sample": "Moving Harper to right field to accommodate Bohm at first has resulted in visible knee soreness, compromised at-bats, and a near-consensus that protecting the franchise player has to take priority over keeping Bohm in the lineup."
+    },
+    {
+      "name": "Dombrowski's Offseason Gets Its Verdict",
+      "delta": -5,
+      "sample": "The failure to land a right-handed power bat, the Bichette whiff, the reliance on reclamation projects, and a bullpen that's been worked to the bone have hardened a damning view that the front office has consistently been two steps behind."
+    },
+    {
+      "name": "Stott Emerges as a Rare Bright Spot",
+      "delta": 4,
+      "sample": "Bryson Stott's defensive transformation at third base and his hot bat since the All-Star break have made him the one player generating consistent praise \u2014 and a growing argument that he should be hitting higher in the order."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I actively dislike a lot of portions of this team. I think they're done this year.",
+      "score": 8,
+      "source_hint": "talk-radio host (94WIP High Hopes / WIP Daily)"
+    },
+    {
+      "text": "This is the first time all year I've had a serious doubt as to whether the Phillies would make the playoffs.",
+      "score": 22,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "I'm numb at this point. They are too traumatizing to watch sober.",
+      "score": 10,
+      "source_hint": "YouTube commenter on WIP content"
+    },
+    {
+      "text": "Bryson Stott, he's killing it at third base. What a baseball player.",
+      "score": 72,
+      "source_hint": "fan analyst (Hittin' Season)"
+    }
+  ],
+  "vibe_summary": "Exhaustion has curdled into something closer to resignation \u2014 a fanbase watching its team's two cornerstones, Wheeler and Harper, visibly deteriorate while a 40-game clock runs down on a fading playoff bid.",
+  "reasoning": "The dominant mood is one of genuine alarm, not reactive panic \u2014 the Phillies are statistically out of a wild card spot with a brutal September schedule looming, and the structural pillars (Wheeler's arm, Harper's health, a depleted bullpen) are all cracking simultaneously. The fan-analyst tier is more measured, contextualizing the 2022 precedent and still believing the Phillies can sneak in, but even those voices have stopped speaking with confidence; the talk-radio tier has moved past frustration into raw despair, with one host delivering a lengthy cathartic breakdown and the other flatly calling the season done. The ground-truth record of 65-58 on a one-game win streak offers a thin sliver of positivity that the content's tone does not yet reflect.",
+  "people_mentioned": [
+    "Wheeler",
+    "Harper",
+    "Sanchez",
+    "Stott",
+    "Mattingly",
+    "Dombrowski",
+    "Bohm",
+    "Luzardo",
+    "Turner",
+    "Alvarado",
+    "Schwarber",
+    "Arise",
+    "Bolan",
+    "Painter",
+    "Realmuto",
+    "Marsh",
+    "Crawford",
+    "De La Cruz",
+    "Nola",
+    "Kirkering",
+    "Duran",
+    "McFarlane"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 163358,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 32230,
+    "youtube_comments": 11,
+    "youtube_comment_chars": 701,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "The Phillies Should Be More Like The Eagles (Jack's Not Here So We Can Say That)",
+      "voice": "radio_populist",
+      "chars": 46698
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Could the Phillies Really Not Make the Playoffs?",
+      "voice": "fan_analyst",
+      "chars": 31721
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "An ugly finish to the Cardinals series has the Phillies playoff hopes diminishing",
+      "voice": "fan_analyst",
+      "chars": 43809
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "The Phillies have fallen into a tie for the final NL Wild Card",
+      "voice": "fan_analyst",
+      "chars": 41130
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Jack Fritz Declares Phillies Done \ud83d\ude14",
+      "voice": "radio_populist",
+      "chars": 2439
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Are The Phillies Cooked?",
+      "voice": "radio_populist",
+      "chars": 14951
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "How Do You Feel Watching The Phillies?",
+      "voice": "radio_populist",
+      "chars": 14840
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 93.6,
+      "baseline_games_count": 41,
+      "baseline_avg_pct": 97.4,
+      "delta_pct": -3.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823431,
+          "date": "2026-08-03",
+          "day_of_week": "Monday",
+          "opponent": "Washington Nationals",
+          "result": "W 6-3",
+          "attendance": 41115,
+          "pct_capacity": 95.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823432,
+          "date": "2026-08-04",
+          "day_of_week": "Tuesday",
+          "opponent": "Washington Nationals",
+          "result": "W 5-0",
+          "attendance": 38731,
+          "pct_capacity": 90.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823429,
+          "date": "2026-08-05",
+          "day_of_week": "Wednesday",
+          "opponent": "Washington Nationals",
+          "result": "L 4-10",
+          "attendance": 37025,
+          "pct_capacity": 86.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823430,
+          "date": "2026-08-06",
+          "day_of_week": "Thursday",
+          "opponent": "Washington Nationals",
+          "result": "W 7-3",
+          "attendance": 40301,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823428,
+          "date": "2026-08-07",
+          "day_of_week": "Friday",
+          "opponent": "Toronto Blue Jays",
+          "result": "L 4-5",
+          "attendance": 43641,
+          "pct_capacity": 101.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823426,
+          "date": "2026-08-08",
+          "day_of_week": "Saturday",
+          "opponent": "Toronto Blue Jays",
+          "result": "L 5-7",
+          "attendance": 40010,
+          "pct_capacity": 93.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823425,
+          "date": "2026-08-09",
+          "day_of_week": "Sunday",
+          "opponent": "Toronto Blue Jays",
+          "result": "W 7-6",
+          "attendance": 40398,
+          "pct_capacity": 94.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "65-58",
+    "streak": "W1",
+    "games_behind": "9.0"
+  },
+  "generated_at": "2026-08-14T11:03:00.618473+00:00"
+}
