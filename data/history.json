@@ -28898,5 +28898,281 @@
       "games_behind": "9.0"
     },
     "generated_at": "2026-08-14T11:03:00.618473+00:00"
+  },
+  {
+    "date": "2026-08-15",
+    "display_score": 40,
+    "reactive_score": 40,
+    "baseline_score": 36,
+    "insufficient_signal": false,
+    "content_volume": 246,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 55,
+      "front_office_trust": 28,
+      "manager_confidence": 32,
+      "lineup_confidence": 42,
+      "pitching_confidence": 40,
+      "health_outlook": 38,
+      "postseason_belief": 34
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 68,
+      "manager_confidence": 65,
+      "lineup_confidence": 75,
+      "pitching_confidence": 80,
+      "health_outlook": 70,
+      "postseason_belief": 75
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 48,
+        "note": "Hittin' Season and The Phillies Show and Phillies Talk all registered relief at the Field of Dreams win but tempered it with alarm over Wheeler's slide, bullpen fragility, and a brutal remaining schedule; cautious belief the team can still make the playoffs but no illusions about the hole they've dug."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 33,
+        "note": "WIP High Hopes delivered the harshest verdict \u2014 F-minus offseason grade, adversarial Harper-Mattingly dynamic, roster described as running out of gas, bullpen untrusted, and postseason prediction of a wild-card exit; Joe Girardi clips offered mild praise for the roster's talent and danger as a playoff team, slightly softening the overall score."
+      },
+      "youtube_fan": {
+        "score": 55,
+        "note": "One substantive comment praised Nola's changeup commitment as the key to his recent improvement; the other comment was irrelevant noise."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Field of Dreams Win Brings Momentary Relief",
+        "delta": 4,
+        "sample": "A 7-1 win in Iowa \u2014 Schwarber's two home runs, Nola's nine strikeouts, a clean bullpen \u2014 briefly interrupted a month of losing and gave fans something to feel good about, even if one primetime win doesn't erase six lost series since the All-Star break."
+      },
+      {
+        "name": "Wheeler's Fade Is the Season's Defining Alarm",
+        "delta": -6,
+        "sample": "A 7.63 ERA over his last four starts, a 116-pitch outing followed by an early exit in St. Louis, and postgame comments about not feeling himself have turned Wheeler's unexplained decline into the central anxiety of the stretch run \u2014 the rotation's ceiling depends entirely on him recovering."
+      },
+      {
+        "name": "Front Office Decisions Under Fire",
+        "delta": -7,
+        "sample": "The offseason earned an F-minus in one assessment: no real Plan B after missing Bichette, a defensive shuffle that put Harper's knees at risk, bullpen additions that immediately imploded, and a roster described as reactive and two steps behind \u2014 with bigger roster changes forecast regardless of how October goes."
+      },
+      {
+        "name": "Stott's Rise Offers a Rare Bright Spot",
+        "delta": 5,
+        "sample": "Bryson Stott's emergence \u2014 gold-glove defense at third, batting near .300 since June, custom Field of Dreams cleats that made grown men misty \u2014 has turned him into the team's most complete player and sparked debate about moving him to the top of the order."
+      },
+      {
+        "name": "Bullpen and Playoff Math Creating Genuine Dread",
+        "delta": -6,
+        "sample": "A bullpen described as exhausted and untrustworthy beyond Duran, a schedule that gets harder in September, a half-game margin for the final wild-card spot, and a road to four playoff rounds that analysts can't map without finding a fatal gap \u2014 the arithmetic is sobering."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "They lost six of their last eight series. They have the fourth worst record in the National League.",
+        "score": 22,
+        "source_hint": "fan analyst (The Phillies Show)"
+      },
+      {
+        "text": "If anything happens to one of these three starters, everything I just said is off the table. It's over.",
+        "score": 20,
+        "source_hint": "fan analyst (Hittin' Season)"
+      },
+      {
+        "text": "I think they're really talented. I do. And I think they're dangerous if they get in the playoffs.",
+        "score": 65,
+        "source_hint": "talk-radio host (94WIP), Joe Girardi interview"
+      },
+      {
+        "text": "Ever since Nola committed to throwing his changeup more, he's been a lot better.",
+        "score": 62,
+        "source_hint": "YouTube commenters on 94WIP Nola video"
+      }
+    ],
+    "vibe_summary": "One feel-good win in an Iowa cornfield has softened the edges of a fanbase that, underneath the Schwarber home runs and Stott's custom cleats, is doing quiet math on a fading playoff bid.",
+    "reasoning": "The Field of Dreams victory genuinely lifted spirits and gave analysts something positive to discuss \u2014 Schwarber's resurgence, Nola's improving changeup, Stott's all-around excellence \u2014 but it landed on top of a pile of unresolved structural concerns. Talk-radio analysis was significantly darker than the fan analyst takes, delivering a near-verdict on the offseason, the manager's handling of Harper, and a bullpen it simply refuses to trust in high-leverage moments. The Girardi interview provided a rare outside voice of genuine confidence in the roster's playoff danger, but it reads as contextual reassurance rather than deep belief, keeping postseason sentiment anchored low despite the win.",
+    "people_mentioned": [
+      "Wheeler",
+      "Schwarber",
+      "Harper",
+      "Nola",
+      "Stott",
+      "Mattingly",
+      "Sanchez",
+      "Lozardo",
+      "Bohm",
+      "Marsh",
+      "Turner",
+      "Painter",
+      "Dombrowski",
+      "Duran",
+      "Bohm",
+      "Arise",
+      "De La Cruz",
+      "Girardi",
+      "Cora"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 178958,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 3955,
+      "youtube_comments": 2,
+      "youtube_comment_chars": 408,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Pop Some Corn at the MLB Field of Dreams Game",
+        "voice": "fan_analyst",
+        "chars": 52000
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Kyle Schwarber, Aaron Nola deliver in Field of Dreams Game",
+        "voice": "fan_analyst",
+        "chars": 37678
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "The Phillies Should Be More Like The Eagles (Jack's Not Here So We Can Say That)",
+        "voice": "radio_populist",
+        "chars": 45059
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "An ugly finish to the Cardinals series has the Phillies playoff hopes diminishing",
+        "voice": "fan_analyst",
+        "chars": 44221
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Joe Girardi Praises Phillies Fans",
+        "voice": "radio_populist",
+        "chars": 979
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Cristopher Sanchez's Progression",
+        "voice": "radio_populist",
+        "chars": 1333
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "This Phillies Team Is Dangerous",
+        "voice": "radio_populist",
+        "chars": 1643
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 93.6,
+        "baseline_games_count": 40,
+        "baseline_avg_pct": 97.3,
+        "delta_pct": -3.6,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823431,
+            "date": "2026-08-03",
+            "day_of_week": "Monday",
+            "opponent": "Washington Nationals",
+            "result": "W 6-3",
+            "attendance": 41115,
+            "pct_capacity": 95.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823432,
+            "date": "2026-08-04",
+            "day_of_week": "Tuesday",
+            "opponent": "Washington Nationals",
+            "result": "W 5-0",
+            "attendance": 38731,
+            "pct_capacity": 90.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823429,
+            "date": "2026-08-05",
+            "day_of_week": "Wednesday",
+            "opponent": "Washington Nationals",
+            "result": "L 4-10",
+            "attendance": 37025,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823430,
+            "date": "2026-08-06",
+            "day_of_week": "Thursday",
+            "opponent": "Washington Nationals",
+            "result": "W 7-3",
+            "attendance": 40301,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823428,
+            "date": "2026-08-07",
+            "day_of_week": "Friday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 4-5",
+            "attendance": 43641,
+            "pct_capacity": 101.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823426,
+            "date": "2026-08-08",
+            "day_of_week": "Saturday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 5-7",
+            "attendance": 40010,
+            "pct_capacity": 93.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823425,
+            "date": "2026-08-09",
+            "day_of_week": "Sunday",
+            "opponent": "Toronto Blue Jays",
+            "result": "W 7-6",
+            "attendance": 40398,
+            "pct_capacity": 94.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "65-58",
+      "streak": "W1",
+      "games_behind": "8.5"
+    },
+    "generated_at": "2026-08-15T10:27:58.425427+00:00"
   }
 ]
