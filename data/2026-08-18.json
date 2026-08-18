@@ -1,0 +1,276 @@
+{
+  "date": "2026-08-18",
+  "display_score": 65,
+  "reactive_score": 65,
+  "baseline_score": 47,
+  "insufficient_signal": false,
+  "content_volume": 217,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 78,
+    "front_office_trust": 52,
+    "manager_confidence": 55,
+    "lineup_confidence": 74,
+    "pitching_confidence": 60,
+    "health_outlook": 68,
+    "postseason_belief": 58
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 88,
+    "front_office_trust": 72,
+    "manager_confidence": 78,
+    "lineup_confidence": 85,
+    "pitching_confidence": 82,
+    "health_outlook": 60,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 72,
+      "note": "Hittin' Season and The Philly Show are genuinely encouraged by the sweep and the offensive resurgence, especially Bohm and Stott, but both shows resist declaring a corner truly turned \u2014 'erratic,' 'dizzying,' and 'confusing' are the adjectives of choice for the season as a whole."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 74,
+      "note": "WIP High Hopes is riding the four-game win streak with clear enthusiasm \u2014 crediting the offensive plan-of-attack shift and Araiz's influence \u2014 while flagging Wheeler/Sanchez velocity concerns and the Cora succession story as the two clouds over the good vibes."
+    },
+    "youtube_fan": {
+      "score": 28,
+      "note": "YouTube commenters are outliers in a sea of positivity \u2014 focused on Harper primadonna narratives, dysfunction in the clubhouse, and skepticism about Mattingly's tenure, representing a vocal but low-engagement minority."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Offense Finds a Plan \u2014 And It's Working",
+      "delta": 8,
+      "sample": "Four straight wins, 11 hits and 7 walks in the latest game, and a lineup leading baseball in on-base percentage since August 1st \u2014 the approach shift credited to Araiz's arrival and a hitters' meeting has produced real, measurable results."
+    },
+    {
+      "name": "Wheeler and Sanchez Velocity Dip Clouds the Rotation Picture",
+      "delta": -5,
+      "sample": "Both aces are showing velocity decline \u2014 Sanchez touching 92-93 on a pitch that usually sits 95-96, Wheeler coming off a rough start in Miami \u2014 and the hope is this is a dead-arm period rather than fatigue, because the team goes nowhere without them."
+    },
+    {
+      "name": "The Cora Succession Story Nobody Asked For",
+      "delta": -4,
+      "sample": "The Bob Nightingale report that Alex Cora is the expected next Phillies manager \u2014 unless Mattingly wins the World Series \u2014 landed awkwardly mid-pennant-chase, with theories ranging from a Middleton pressure tactic to a Scott Boras leak tied to Harper friction."
+    },
+    {
+      "name": "Bohm and Stott Hot Streaks Are Real \u2014 But Trust Is Fragile",
+      "delta": 6,
+      "sample": "Bohm's five-hit game and Stott's All-Star-caliber numbers since June have fans genuinely excited, but a season of volatility means nobody is making declarations \u2014 'Mickey Mouse hot streak' sits alongside 'playing his way into contract extension discussions' in the same breath."
+    },
+    {
+      "name": "Lozardo Emerging as the Undisputed Ace",
+      "delta": 7,
+      "sample": "Six and two-thirds innings, one run, nine strikeouts in the latest start \u2014 Lozardo's ERA is down to 3.23 and he's been named the team's best pitcher right now, with his sweeper generating over 100 strikeouts on the season and his emotional maturity called out as a key development."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The Field of Dreams game saved the season. Of course, there are leaks about our manager, and there's all kinds of stuff like that.",
+      "score": 65,
+      "source_hint": "talk-radio host, WIP High Hopes"
+    },
+    {
+      "text": "Lozardo is truly emerging as an ace. If you took out that Marlin start, he would have a 1.6 ERA.",
+      "score": 85,
+      "source_hint": "talk-radio host, WIP High Hopes"
+    },
+    {
+      "text": "Win or bust. You win it all or you don't. None of that frustrates me. I'm not worried about any of that kind of stuff. Just trying to win a game tonight against Miami.",
+      "score": 60,
+      "source_hint": "Don Mattingly, via WIP 94 radio clip"
+    },
+    {
+      "text": "They can't hang your hat on anything with this team ever in any way, shape or form. So we just have to live in the moment.",
+      "score": 45,
+      "source_hint": "fan analyst, Hittin' Season"
+    }
+  ],
+  "vibe_summary": "Four wins in a row and a humming offense have given fans a genuine exhale, but Wheeler's velocity, a manager who may already be a lame duck, and this team's habit of yanking the rug out keeps the mood cautiously hopeful rather than fully bought in.",
+  "reasoning": "The dominant emotional current today is real relief \u2014 a four-game winning streak, an offense that has flipped from worst to first in on-base percentage since August 1st, and individual breakouts from Bohm, Stott, and Lozardo give fans legitimate things to celebrate. The more analytical perspective resists full commitment, emphasizing the season's erratic, oscillating nature and the lingering concern about Wheeler and Sanchez losing velocity. The sharpest fault line is the Cora succession story: on one side, measured acceptance that Mattingly may be a lame duck; on the other, a vocal fringe furious at perceived clubhouse dysfunction and Harper's influence. The Cora leak is a real mood dampener sitting underneath an otherwise positive news cycle.",
+  "people_mentioned": [
+    "Lozardo",
+    "Bohm",
+    "Stott",
+    "Wheeler",
+    "Sanchez",
+    "Mattingly",
+    "Harper",
+    "Araiz",
+    "Painter",
+    "Nola",
+    "Cora",
+    "Dombrowski",
+    "Turner",
+    "De La Cruz",
+    "Hill",
+    "Schwarber",
+    "Marsh",
+    "Duran",
+    "Realmuto",
+    "Middleton",
+    "McFarlane",
+    "Bolin",
+    "Raley",
+    "Alvarado",
+    "Kerkering"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 158324,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 2,
+    "youtube_chars": 1507,
+    "youtube_comments": 4,
+    "youtube_comment_chars": 818,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Sanchez Wins 16th, Phils Win 4th In A Row",
+      "voice": "radio_populist",
+      "chars": 22362
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Did Field Of Dreams Save The Season?",
+      "voice": "radio_populist",
+      "chars": 49325
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Who are these Phillies? Alec Bohm and the offense heats up",
+      "voice": "fan_analyst",
+      "chars": 38571
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "The Phillies Bats Come Alive in a Weekend Sweep of the Twins",
+      "voice": "fan_analyst",
+      "chars": 48066
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper's Knee Is \u201cFine.\"",
+      "voice": "radio_populist",
+      "chars": 831
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Don Mattingly On Alex Cora Phillies Rumors \ud83e\udd2f",
+      "voice": "radio_populist",
+      "chars": 676
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 92.5,
+      "baseline_games_count": 38,
+      "baseline_avg_pct": 97.5,
+      "delta_pct": -5.0,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823432,
+          "date": "2026-08-04",
+          "day_of_week": "Tuesday",
+          "opponent": "Washington Nationals",
+          "result": "W 5-0",
+          "attendance": 38731,
+          "pct_capacity": 90.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823429,
+          "date": "2026-08-05",
+          "day_of_week": "Wednesday",
+          "opponent": "Washington Nationals",
+          "result": "L 4-10",
+          "attendance": 37025,
+          "pct_capacity": 86.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823430,
+          "date": "2026-08-06",
+          "day_of_week": "Thursday",
+          "opponent": "Washington Nationals",
+          "result": "W 7-3",
+          "attendance": 40301,
+          "pct_capacity": 93.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823428,
+          "date": "2026-08-07",
+          "day_of_week": "Friday",
+          "opponent": "Toronto Blue Jays",
+          "result": "L 4-5",
+          "attendance": 43641,
+          "pct_capacity": 101.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823426,
+          "date": "2026-08-08",
+          "day_of_week": "Saturday",
+          "opponent": "Toronto Blue Jays",
+          "result": "L 5-7",
+          "attendance": 40010,
+          "pct_capacity": 93.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823425,
+          "date": "2026-08-09",
+          "day_of_week": "Sunday",
+          "opponent": "Toronto Blue Jays",
+          "result": "W 7-6",
+          "attendance": 40398,
+          "pct_capacity": 94.2,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823427,
+          "date": "2026-08-17",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-5",
+          "attendance": 37544,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "68-58",
+    "streak": "W4",
+    "games_behind": "6.5"
+  },
+  "generated_at": "2026-08-18T10:33:03.109531+00:00"
+}
