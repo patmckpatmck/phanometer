@@ -30003,5 +30003,286 @@
       "games_behind": "6.5"
     },
     "generated_at": "2026-08-18T10:33:03.109531+00:00"
+  },
+  {
+    "date": "2026-08-19",
+    "display_score": 64,
+    "reactive_score": 64,
+    "baseline_score": 52,
+    "insufficient_signal": false,
+    "content_volume": 229,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 82,
+      "front_office_trust": 48,
+      "manager_confidence": 45,
+      "lineup_confidence": 72,
+      "pitching_confidence": 55,
+      "health_outlook": 62,
+      "postseason_belief": 58
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 90,
+      "front_office_trust": 60,
+      "manager_confidence": 72,
+      "lineup_confidence": 85,
+      "pitching_confidence": 80,
+      "health_outlook": 45,
+      "postseason_belief": 65
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": null,
+        "note": null
+      },
+      "beat_writer": {
+        "score": 62,
+        "note": "Phillies Therapy host and guest offer measured optimism \u2014 playoff trajectory is real but fragile, offense has been rotten all year, and getting in is 'way more of a question this year than the previous two.'"
+      },
+      "radio_populist": {
+        "score": 74,
+        "note": "Talk-radio host (WIP / High Hopes) is energized by a five-game win streak and the offensive 'have-a-plan' meeting but peppers excitement with caveats about Wheeler's velocity, Sanchez's fatigue, and Mattingly's lame-duck status."
+      },
+      "youtube_fan": {
+        "score": 38,
+        "note": "YouTube commenters are largely negative, griping about on-air personalities and skeptical of the Cora succession narrative; low engagement suggests thin signal."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "The 'Have a Plan' Offensive Revival",
+        "delta": 7,
+        "sample": "A clubhouse meeting about plate approach has coincided with back-to-back six-run games without a home run, five-for-ten with runners in scoring position, and a genuine shift toward working counts \u2014 the kind of baseball that wins in October."
+      },
+      {
+        "name": "Wheeler and Sanchez Velocity Concern",
+        "delta": -5,
+        "sample": "Both rotation anchors are showing worrying velocity dips and fifth-inning collapses, raising real questions about fatigue or dead-arm periods heading into the stretch run \u2014 a five-inning staff cannot sustain a playoff push."
+      },
+      {
+        "name": "Mattingly Lame-Duck Cloud",
+        "delta": -4,
+        "sample": "The Bob Nightingale report naming Alex Cora as the presumptive next manager has made Mattingly effectively a lame duck mid-pennant-race, with competing theories about who leaked it and why swirling through the fanbase."
+      },
+      {
+        "name": "Bohm and Stott Carrying the Middle",
+        "delta": 6,
+        "sample": "Stott is making a legitimate case for a contract extension with gold-glove defense at multiple positions and consistent production since June, while Bohm is scorching hot \u2014 though past hot streaks have made fans cautious about buying in fully."
+      },
+      {
+        "name": "Lozardo as the Rotation's Anchor",
+        "delta": 5,
+        "sample": "With Wheeler and Sanchez shaky, Lozardo has emerged as the clear ace, logging six-or-seven inning quality starts regularly and giving the team a genuine top-of-the-rotation weapon to lean on in October."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "If they can legitimately commit and stay true to this and just have total team buy-in it's pretty dang good.",
+        "score": 78,
+        "source_hint": "talk-radio host (WIP High Hopes), reacting to the five-game win streak"
+      },
+      {
+        "text": "It's a bigger question than it's been since this entire run started, whether they can do like the easy regular season stuff right enough to actually get there.",
+        "score": 42,
+        "source_hint": "Phillies Therapy guest analyst, assessing the team's playoff odds"
+      },
+      {
+        "text": "The guy we saw in the fifth inning looked like a shell of Zach Wheeler, a shell of him.",
+        "score": 30,
+        "source_hint": "talk-radio host (WIP High Hopes), on Wheeler's troubling fifth-inning decline"
+      },
+      {
+        "text": "He's in a lot of ways an MVP of this team at this stage in the game.",
+        "score": 85,
+        "source_hint": "Ruben Amaro Jr. on Bryson Stott, appearing on WIP morning show"
+      }
+    ],
+    "vibe_summary": "A five-game winning streak and a legitimate offensive identity have fans daring to believe again, even as Wheeler's fading velocity, a lame-duck managerial cloud, and this team's well-documented habit of reverting to old ways keep full conviction just out of reach.",
+    "reasoning": "The dominant mood is cautiously reinvigorated \u2014 a W5 streak, contact-based offense, and Lozardo's ace-level performance have pulled sentiment meaningfully upward from the mid-August malaise. The more analytical framing from Phillies Therapy is sobering, noting the offense has been 'rotten all year' and that simply getting in is harder this year than the previous two, while the WIP talk-radio coverage is more emotionally engaged but still hedged by real concerns about Wheeler and Sanchez fatigue. The Mattingly-Cora succession story is a persistent drag on manager_confidence across all present voices, with nobody fully buying that it doesn't create distraction.",
+    "people_mentioned": [
+      "Stott",
+      "Bohm",
+      "Wheeler",
+      "Sanchez",
+      "Lozardo",
+      "Mattingly",
+      "Harper",
+      "Schwarber",
+      "Arraez",
+      "Painter",
+      "Raley",
+      "Alvarado",
+      "Kerkering",
+      "McFarlane",
+      "Crawford",
+      "Hill",
+      "Turner",
+      "Marsh",
+      "Nola",
+      "Dombrowski",
+      "Cora",
+      "Amaro",
+      "Middleton",
+      "Duran"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 132440,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 32816,
+      "youtube_comments": 9,
+      "youtube_comment_chars": 549,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: The Plan Might Be Working",
+        "voice": "radio_populist",
+        "chars": 27681
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Big Wheel, Keep On Turning",
+        "voice": "beat_writer",
+        "chars": 38833
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Sanchez Wins 16th, Phils Win 4th In A Row",
+        "voice": "radio_populist",
+        "chars": 22141
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Did Field Of Dreams Save The Season?",
+        "voice": "radio_populist",
+        "chars": 43785
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The Phillies Bats Are Alive Again!",
+        "voice": "radio_populist",
+        "chars": 12151
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Ruben Amaro Jr. On Alex Cora Phillies Rumors | 94WIP",
+        "voice": "radio_populist",
+        "chars": 9803
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "'MVP Of The Phillies!' \u2014 Ruben Amaro Jr. Has HIGH Praise For Bryson Stott",
+        "voice": "radio_populist",
+        "chars": 10862
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 92.6,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.4,
+        "delta_pct": -4.8,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823429,
+            "date": "2026-08-05",
+            "day_of_week": "Wednesday",
+            "opponent": "Washington Nationals",
+            "result": "L 4-10",
+            "attendance": 37025,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823430,
+            "date": "2026-08-06",
+            "day_of_week": "Thursday",
+            "opponent": "Washington Nationals",
+            "result": "W 7-3",
+            "attendance": 40301,
+            "pct_capacity": 93.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823428,
+            "date": "2026-08-07",
+            "day_of_week": "Friday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 4-5",
+            "attendance": 43641,
+            "pct_capacity": 101.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823426,
+            "date": "2026-08-08",
+            "day_of_week": "Saturday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 5-7",
+            "attendance": 40010,
+            "pct_capacity": 93.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823425,
+            "date": "2026-08-09",
+            "day_of_week": "Sunday",
+            "opponent": "Toronto Blue Jays",
+            "result": "W 7-6",
+            "attendance": 40398,
+            "pct_capacity": 94.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823427,
+            "date": "2026-08-17",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-5",
+            "attendance": 37544,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823423,
+            "date": "2026-08-18",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-4",
+            "attendance": 39237,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "69-58",
+      "streak": "W5",
+      "games_behind": "5.5"
+    },
+    "generated_at": "2026-08-19T10:33:43.258011+00:00"
   }
 ]
