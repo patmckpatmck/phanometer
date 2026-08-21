@@ -30559,5 +30559,262 @@
       "games_behind": "4.5"
     },
     "generated_at": "2026-08-20T10:33:04.859616+00:00"
+  },
+  {
+    "date": "2026-08-21",
+    "display_score": 72,
+    "reactive_score": 72,
+    "baseline_score": 60,
+    "insufficient_signal": false,
+    "content_volume": 240,
+    "mood_label": "Buzzing",
+    "dimensions": {
+      "results_satisfaction": 82,
+      "front_office_trust": 72,
+      "manager_confidence": 62,
+      "lineup_confidence": 76,
+      "pitching_confidence": 70,
+      "health_outlook": 65,
+      "postseason_belief": 62
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 90,
+      "front_office_trust": 55,
+      "manager_confidence": 40,
+      "lineup_confidence": 85,
+      "pitching_confidence": 88,
+      "health_outlook": 70,
+      "postseason_belief": 72
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 78,
+        "note": "Hittin' Season and The Phillies Show both celebrate the sweep, Nola's revival, and the offensive transformation, while flagging Wheeler's struggles and expressing tempered postseason belief."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 80,
+        "note": "High Hopes and WIP Final Out are energized by the six-game streak, Nola's performance, and a tightening division race, with bullpen concerns and Wheeler's lull as the main anxieties."
+      },
+      "youtube_fan": {
+        "score": 38,
+        "note": "One skeptical comment dismisses the streak as coming against weak competition and questions playoff-caliber readiness."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Nola's Revival Is Real",
+        "delta": 8,
+        "sample": "A 2.51 ERA over his last five starts, a dominant seven-inning performance against Miami, and a revived knuckle curve have turned the most anxious storyline of the summer into one of the most encouraging."
+      },
+      {
+        "name": "Offensive Identity Found \u2014 But Can It Hold?",
+        "delta": 7,
+        "sample": "The transformation from dead-last in on-base percentage to first in the majors in August is staggering, and Stott's Barry Bonds-esque walk-to-strikeout ratio and Harper's near-.400 OBP month are the engine \u2014 the open question is whether pitchers will adjust."
+      },
+      {
+        "name": "Wheeler's Lull Keeps the Rotation Honest",
+        "delta": -5,
+        "sample": "Ten walks in his last three starts, a 6.64 ERA over his last five, and an inability to get deep into games raise real questions about whether a truncated offseason from his thoracic injury is catching up to him at the worst possible time."
+      },
+      {
+        "name": "Nestor Cortez Signing Buys Depth and Peace of Mind",
+        "delta": 4,
+        "sample": "Signed to a major league deal and beginning work in Clearwater, Cortez gives the rotation insurance, potentially a long man for a taxed bullpen, and the kind of postseason-experienced wildcard the Dodgers have used to great effect."
+      },
+      {
+        "name": "Division Race Quietly Alive",
+        "delta": 5,
+        "sample": "From 9.5 games back a week ago to 5.0 back now, with seven games remaining against Atlanta and the Braves in a tailspin, the NL East is no longer a formality in favor of Atlanta \u2014 and that shift in the standings is reshaping how fans think about October."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I'm going into these starts not expecting to lose the game because of Aaron Nola. And that is a major step forward.",
+        "score": 78,
+        "source_hint": "talk-radio host, High Hopes / WIP"
+      },
+      {
+        "text": "Since August 1st, they are second in runs only to Boston. They are first in on-base percentage. They are third in OPS.",
+        "score": 85,
+        "source_hint": "fan analyst, The Phillies Show"
+      },
+      {
+        "text": "Sure, against terrible teams... They need to do it against playoff caliber teams which hasn't happened.",
+        "score": 28,
+        "source_hint": "YouTube commenter on WIP six-game winning streak clip"
+      },
+      {
+        "text": "I think the bullpen is the biggest thing that I feel very confident will falter in the postseason.",
+        "score": 35,
+        "source_hint": "talk-radio host, High Hopes / WIP"
+      }
+    ],
+    "vibe_summary": "Nola's reinvention as a reliable fourth starter has quietly become the feel-good story of August, and with the division race alive and the offense unrecognizable from its summer lows, Phillies fans are letting themselves dream \u2014 carefully, nervously, but genuinely.",
+    "reasoning": "The dominant mood is genuine optimism rooted in concrete numbers: a six-game winning streak, a historic offensive turnaround, and Nola pitching the best stretch of his recent career. Postseason belief is moderate-to-real rather than coping-framed \u2014 discussion centers on rotation construction for October, playoff matchup preferences, and the Phillies as a legitimate NL contender if Wheeler and the bullpen hold. The one dissenting note comes from a skeptical YouTube comment questioning whether the streak is meaningful against weak competition, a concern that the podcast voices acknowledge but largely dismiss given the Alcantara performance. The bullpen remains the most cited structural anxiety, with Wheeler's fading command as the secondary worry keeping enthusiasm from tipping into full conviction.",
+    "people_mentioned": [
+      "Nola",
+      "Wheeler",
+      "Stott",
+      "Bohm",
+      "Harper",
+      "Luzardo",
+      "Sanchez",
+      "Painter",
+      "Stubbs",
+      "Cortez",
+      "Crawford",
+      "Marsh",
+      "Turner",
+      "Schwarber",
+      "Urias",
+      "Mattingly",
+      "Dombrowski",
+      "Kerkering",
+      "McFarlane",
+      "Boling",
+      "Spangler",
+      "Gasparino"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 178656,
+      "youtube_attempted": 1,
+      "youtube_transcribed": 1,
+      "youtube_chars": 637,
+      "youtube_comments": 1,
+      "youtube_comment_chars": 102,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Is Aaron Nola back?",
+        "voice": "fan_analyst",
+        "chars": 51184
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "We Are Monitoring The \"Have A Plan At The Plate\" Phils",
+        "voice": "radio_populist",
+        "chars": 55354
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "A Joyous Phillies Sweep of the Marlins",
+        "voice": "fan_analyst",
+        "chars": 42090
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Aaron Nola Is Back?",
+        "voice": "radio_populist",
+        "chars": 30028
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies 6 Game Winning Streak \ud83d\udd25",
+        "voice": "radio_populist",
+        "chars": 637
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 92.4,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 97.7,
+        "delta_pct": -5.2,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823428,
+            "date": "2026-08-07",
+            "day_of_week": "Friday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 4-5",
+            "attendance": 43641,
+            "pct_capacity": 101.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823426,
+            "date": "2026-08-08",
+            "day_of_week": "Saturday",
+            "opponent": "Toronto Blue Jays",
+            "result": "L 5-7",
+            "attendance": 40010,
+            "pct_capacity": 93.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823425,
+            "date": "2026-08-09",
+            "day_of_week": "Sunday",
+            "opponent": "Toronto Blue Jays",
+            "result": "W 7-6",
+            "attendance": 40398,
+            "pct_capacity": 94.2,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823427,
+            "date": "2026-08-17",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-5",
+            "attendance": 37544,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823423,
+            "date": "2026-08-18",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-4",
+            "attendance": 39237,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823424,
+            "date": "2026-08-19",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "W 4-1",
+            "attendance": 37031,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "70-58",
+      "streak": "W6",
+      "games_behind": "5.0"
+    },
+    "generated_at": "2026-08-21T10:36:20.892756+00:00"
   }
 ]
