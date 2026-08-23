@@ -169,6 +169,11 @@ NAME_NORMALIZATIONS = {
     # safe in this corpus because the only Boehm under discussion is the player;
     # revisit if a different Boehm enters the conversation.
     "boehm":           "Bohm",
+    # Jesús Luzardo — Whisper renders the second syllable with an "o"
+    # ("Lozardo"). Standalone is safe: "Lozardo" is not a real name, so there is
+    # no collision risk. Note the corpus writes first names unaccented
+    # ("Jesus", "Suarez", "Sanchez"), so this only touches the surname.
+    "lozardo":         "Luzardo",
 }
 
 

@@ -33,7 +33,7 @@ import praw
 from anthropic import Anthropic
 
 from attendance import pull_attendance, get_team_facts
-from podcasts import pull_podcasts
+from podcasts import pull_podcasts, normalize_names
 from youtube import pull_youtube, pull_youtube_comments
 from twitter import pull_tweets
 
@@ -513,13 +513,34 @@ def format_recent_vibes_block(recent_vibes):
     return "\n".join(lines)
 
 
+def normalize_result_names(obj):
+    """Recursively apply NAME_NORMALIZATIONS to every string in Claude's parsed
+    response. Belt to the input-side braces: even with normalized input, Claude
+    can reintroduce a misspelling when it paraphrases or reconstructs a name.
+    Running it here is what makes a spelling fix stick across every field —
+    reasoning, themes, quotes, voice_breakdown notes — rather than one at a
+    time. Quotes stay verbatim against the (already normalized) transcript."""
+    if isinstance(obj, str):
+        return normalize_names(obj)
+    if isinstance(obj, list):
+        return [normalize_result_names(v) for v in obj]
+    if isinstance(obj, dict):
+        return {k: normalize_result_names(v) for k, v in obj.items()}
+    return obj
+
+
 def score_with_claude(reddit_items, podcast_transcripts, team_facts=None, recent_vibes=None,
                       youtube_comments=None, tweets=None):
     client = Anthropic()
-    content = format_content_for_scoring(
+    # Normalize the whole assembled payload, not just podcast transcripts.
+    # podcasts.py and youtube.py normalize their own transcripts at fetch time,
+    # but Reddit posts/comments, YouTube fan comments, and X posts never passed
+    # through the normalizer — a misspelling in any of those reached the prompt
+    # intact and came back out in the day's record.
+    content = normalize_names(format_content_for_scoring(
         reddit_items, podcast_transcripts, team_facts,
         youtube_comments=youtube_comments, tweets=tweets,
-    )
+    ))
     prompt = SCORING_PROMPT + content + format_recent_vibes_block(recent_vibes)
 
     message = client.messages.create(
@@ -545,7 +566,7 @@ def score_with_claude(reddit_items, podcast_transcripts, team_facts=None, recent
     raw = re.sub(r':\s*\+(\d)', r': \1', raw)
 
     try:
-        return json.loads(raw)
+        return normalize_result_names(json.loads(raw))
     except json.JSONDecodeError as e:
         # Save the raw response for post-mortem debugging
         debug_path = DATA_DIR / "last_failed_response.txt"
