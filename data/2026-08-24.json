@@ -1,0 +1,238 @@
+{
+  "date": "2026-08-24",
+  "display_score": 78,
+  "reactive_score": 78,
+  "baseline_score": 67,
+  "insufficient_signal": false,
+  "content_volume": 142,
+  "mood_label": "Buzzing",
+  "dimensions": {
+    "results_satisfaction": 93,
+    "front_office_trust": 62,
+    "manager_confidence": 72,
+    "lineup_confidence": 82,
+    "pitching_confidence": 65,
+    "health_outlook": 72,
+    "postseason_belief": 74
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 97,
+    "front_office_trust": 45,
+    "manager_confidence": 50,
+    "lineup_confidence": 85,
+    "pitching_confidence": 80,
+    "health_outlook": 65,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 87,
+      "note": "Phillies Talk hosts are openly euphoric about the nine-game streak and division race, with real but measured concern about Wheeler and Sanchez heading into October."
+    },
+    "beat_writer": {
+      "score": 68,
+      "note": "Phillies Therapy takes a measured, analytical tone \u2014 genuinely optimistic about the playoff core but candid about roster limitations, farm system depth, and the uncertainty of getting in."
+    },
+    "radio_populist": {
+      "score": 95,
+      "note": "WIP Daily reacts in pure all-caps disbelief and joy at the nine-game streak and Schwarber's walk-off, fully in celebration mode."
+    },
+    "youtube_fan": {
+      "score": 88,
+      "note": "YouTube commenters are overwhelmingly euphoric about Schwarber's walk-off and the winning streak, with isolated notes of 'it only matters in the playoffs' skepticism."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Schwarber's Walk-Off Caps an Unbelievable Comeback",
+      "delta": 10,
+      "sample": "Six runs in the ninth inning \u2014 four of them on a 459-foot walk-off by Schwarber \u2014 completed the most stunning comeback since Bryce Harper's grand slam in 2019, sending the nine-game streak into legend territory."
+    },
+    {
+      "name": "Division Race Is Suddenly and Genuinely Real",
+      "delta": 8,
+      "sample": "With Atlanta struggling and seven head-to-head games remaining, what felt impossible in early August is now a concrete chase \u2014 the Phillies could be sitting atop the NL East by midweek."
+    },
+    {
+      "name": "Wheeler and Sanchez Raise Quiet October Alarms",
+      "delta": -5,
+      "sample": "Both starters have been inconsistent for over a month \u2014 Sanchez accumulating hits without damage, Wheeler's command erratic \u2014 and there is real unease about whether either can be a true ace in a playoff series."
+    },
+    {
+      "name": "Offensive Transformation Since August 1st Is Historic",
+      "delta": 7,
+      "sample": "Team OBP up nearly 70 points, walks almost doubling, strikeouts falling \u2014 the numbers confirm this lineup has fundamentally changed its approach, with Bryce Harper and Stott leading the charge."
+    },
+    {
+      "name": "Painter and the Bottom of the Rotation Have Emerged",
+      "delta": 6,
+      "sample": "Andrew Painter's career-best outing \u2014 seven innings, 20 whiffs, 22 of 27 first-pitch strikes \u2014 has fans and analysts alike dreaming about him as a high-leverage weapon come October."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Is this team the best team in baseball currently? I mean, they're playing like it.",
+      "score": 96,
+      "source_hint": "fan analyst (Phillies Talk)"
+    },
+    {
+      "text": "I'm starting to feel real good about right now at the right time.",
+      "score": 85,
+      "source_hint": "YouTube commenters on Schwarber walk-off video"
+    },
+    {
+      "text": "They never quit. They never say we're done.",
+      "score": 92,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "It's just a matter of getting in. I think expectations are low and they probably should be because the offense has been just rotten all season.",
+      "score": 52,
+      "source_hint": "beat writer (Phillies Therapy)"
+    }
+  ],
+  "vibe_summary": "Schwarber's 459-foot walk-off finished the job, but it's the bigger picture \u2014 a legitimate division race, a remade offense, and Painter emerging \u2014 that has Phillies fans feeling like something special is being built right now.",
+  "reasoning": "The nine-game win streak, capped by one of the most dramatic comebacks in recent memory, has pushed results satisfaction and fan excitement to near-peak levels. The mood is split between pure celebration and sober analysis: the offensive transformation and division-race positioning are genuinely believed, while the postseason concern centers on Wheeler's inconsistency and whether Sanchez can recapture his May dominance in time for October. Analytical framing cautions that getting in is still not certain and the roster has real holes, but even cautious perspectives acknowledge this team's playoff ceiling is formidable when healthy.",
+  "people_mentioned": [
+    "Schwarber",
+    "Harper",
+    "Wheeler",
+    "Sanchez",
+    "Painter",
+    "Stott",
+    "Bohm",
+    "Luzardo",
+    "Mattingly",
+    "Arise",
+    "De La Cruz",
+    "Sosa",
+    "Nola",
+    "Hill",
+    "Duran"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 2,
+    "podcasts_transcribed": 2,
+    "podcast_chars": 79757,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 1,
+    "youtube_chars": 2550,
+    "youtube_comments": 32,
+    "youtube_comment_chars": 2477,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Making sense of the Phillies playing their best baseball of the season",
+      "voice": "fan_analyst",
+      "chars": 43832
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Big Wheel, Keep On Turning",
+      "voice": "beat_writer",
+      "chars": 35925
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies ERASE 4-Run 9th Inning Deficit To Win NINTH Straight \ud83d\udd25",
+      "voice": "radio_populist",
+      "chars": 2550
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 94.6,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 97.9,
+      "delta_pct": -3.3,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823427,
+          "date": "2026-08-17",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-5",
+          "attendance": 37544,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823423,
+          "date": "2026-08-18",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-4",
+          "attendance": 39237,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823424,
+          "date": "2026-08-19",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "W 4-1",
+          "attendance": 37031,
+          "pct_capacity": 86.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823420,
+          "date": "2026-08-21",
+          "day_of_week": "Friday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 7-6",
+          "attendance": 44802,
+          "pct_capacity": 104.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823422,
+          "date": "2026-08-22",
+          "day_of_week": "Saturday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 12-3",
+          "attendance": 42218,
+          "pct_capacity": 98.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823421,
+          "date": "2026-08-23",
+          "day_of_week": "Sunday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 6-4",
+          "attendance": 42610,
+          "pct_capacity": 99.3,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "73-58",
+    "streak": "W9",
+    "games_behind": "3.0"
+  },
+  "generated_at": "2026-08-24T10:38:25.130937+00:00"
+}
