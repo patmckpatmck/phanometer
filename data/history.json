@@ -31565,5 +31565,279 @@
       "games_behind": "3.0"
     },
     "generated_at": "2026-08-24T10:38:25.130937+00:00"
+  },
+  {
+    "date": "2026-08-25",
+    "display_score": 77,
+    "reactive_score": 77,
+    "baseline_score": 71,
+    "insufficient_signal": false,
+    "content_volume": 284,
+    "mood_label": "Buzzing",
+    "dimensions": {
+      "results_satisfaction": 88,
+      "front_office_trust": 68,
+      "manager_confidence": 65,
+      "lineup_confidence": 82,
+      "pitching_confidence": 75,
+      "health_outlook": 62,
+      "postseason_belief": 72
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 95,
+      "front_office_trust": 55,
+      "manager_confidence": 45,
+      "lineup_confidence": 90,
+      "pitching_confidence": 88,
+      "health_outlook": 50,
+      "postseason_belief": 80
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 85,
+        "note": "Hittin' Season and The Phillies Show are both euphoric \u2014 nine-game streak, Painter's emergence, Schwarber walk-off, and a legitimate division race are driving near-peak enthusiasm, tempered slightly by bullpen concerns and uncertainty about sustaining the offensive approach."
+      },
+      "beat_writer": {
+        "score": 82,
+        "note": "The beat writer (Phillies Therapy) is cautiously celebratory \u2014 the nine-game streak and clubhouse energy are real, but Matt Gelb deliberately holds back from full buy-in on Painter and flags that the offensive numbers are probably not sustainable."
+      },
+      "radio_populist": {
+        "score": 84,
+        "note": "Talk-radio hosts (WIP Daily / High Hopes) are riding high on the streak and Painter's resurgence, openly discussing World Series possibility for the first time this season, while flagging Alvarado's decline and base-running sloppiness as genuine concerns."
+      },
+      "youtube_fan": {
+        "score": 52,
+        "note": "YouTube commenters are split \u2014 one dismisses Painter entirely and would trade him today, another credits Arraez for the entire turnaround, and a third withholds belief until October performance is proven; raw skepticism cuts through the surrounding euphoria."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Nine Straight and a Division Race Nobody Expected",
+        "delta": 9,
+        "sample": "A nine-and-a-half-game deficit to Atlanta has shrunk to three in less than two weeks, and the Cubs are only two games away for the top wild-card spot \u2014 sentences that felt impossible to say a fortnight ago."
+      },
+      {
+        "name": "Painter's Resurrection Changes the Rotation's Ceiling",
+        "delta": 8,
+        "sample": "Seven innings, 20 whiffs, a 100th-pitch near-triple-digits \u2014 Saturday's start is being called the most important development of the season, with real talk of a postseason role either as a starter or high-leverage bullpen arm."
+      },
+      {
+        "name": "Offensive Identity Overhaul: Real or Rental?",
+        "delta": 5,
+        "sample": "A 370 on-base percentage in August, fewest strikeouts in baseball, and a walk-off built entirely on two-strike discipline are electrifying \u2014 but the hard question of whether it holds against playoff-caliber pitching is being asked as loudly as the celebration."
+      },
+      {
+        "name": "Bullpen Fragility Still Looms Over October Dreams",
+        "delta": -4,
+        "sample": "Alvarado is being written off entirely, Kerkering trust is cratering, and the lefty relief question remains unresolved \u2014 McFarland is the brightest new hope but is still unproven in high-leverage spots."
+      },
+      {
+        "name": "West Coast Trip as the First Real Test",
+        "delta": -2,
+        "sample": "Wheeler's recent struggles make Monday's start the most scrutinized of the trip, and the annual West Coast weirdness has everyone tempering expectations \u2014 a 5-4 record out there is the widely shared floor for satisfaction."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Right now, today is by far the most I believe they can win the World Series this season, and it's not even close.",
+        "score": 95,
+        "source_hint": "talk-radio host (High Hopes / WIP)"
+      },
+      {
+        "text": "I cannot believe that. No, they certainly can. They can win the National League East.",
+        "score": 90,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+      },
+      {
+        "text": "Talk to me after they hit in the playoffs. Four years of silent bats choking.",
+        "score": 18,
+        "source_hint": "YouTube commenter on WIP video"
+      },
+      {
+        "text": "There was a ZERO percent chance this team was gonna turn it around before Arraez. Arraez approach woke them up. Just gotta sustain it.",
+        "score": 60,
+        "source_hint": "YouTube commenter on WIP video"
+      }
+    ],
+    "vibe_summary": "Nine straight wins have turned a team that looked finished into a legitimate pennant contender, and Andrew Painter's emergence means Phillies fans are no longer just riding a hot streak \u2014 they're rewriting what this season can actually become.",
+    "reasoning": "The dominant mood is genuine, earned euphoria \u2014 a nine-game winning streak, a closing division gap, a remade offensive identity, and Painter's breakthrough have converged into the most optimistic moment of the season. Analytical takes are slightly more measured, flagging the unsustainability of the offensive numbers and withholding full Painter buy-in, while talk-radio energy is closer to unguarded belief. The one consistent drag across all present voices is bullpen anxiety, particularly around Alvarado's decline and the unresolved lefty relief problem \u2014 and YouTube commenters inject the sharpest cold water, refusing to celebrate until October proves the transformation real.",
+    "people_mentioned": [
+      "Painter",
+      "Schwarber",
+      "Mattingly",
+      "Luzardo",
+      "Arraez",
+      "Bohm",
+      "Harper",
+      "Sanchez",
+      "Wheeler",
+      "Nola",
+      "Stott",
+      "Realmuto",
+      "De La Cruz",
+      "Sosa",
+      "Alvarado",
+      "McFarland",
+      "Marsh",
+      "Hill",
+      "Crawford",
+      "Dombrowski",
+      "Cotham",
+      "Turner",
+      "Urias",
+      "Raley",
+      "Kerkering",
+      "Stubbs",
+      "Rojas"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 186327,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 21966,
+      "youtube_comments": 6,
+      "youtube_comment_chars": 601,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "Who would you rather have for the next ten years\u2026 Andrew Painter or Paul Skenes?",
+        "voice": "radio_populist",
+        "chars": 48601
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "See It, Believe It",
+        "voice": "beat_writer",
+        "chars": 40249
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Kyle Schwarber's \"Schwarbomb\" Caps A Thrilling Phillies Weekend Against the Cardinals!",
+        "voice": "fan_analyst",
+        "chars": 54505
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Kyle Schwarber's walk-off blast leads Phillies to nine straight wins",
+        "voice": "fan_analyst",
+        "chars": 42972
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Andrew Painter 2.0 \ud83d\udd25",
+        "voice": "radio_populist",
+        "chars": 2106
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The Renaissance Of Andrew Painter \ud83d\udd25",
+        "voice": "radio_populist",
+        "chars": 17661
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Never Gave Up On The Phillies! \ud83d\udcaa",
+        "voice": "radio_populist",
+        "chars": 2199
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 94.6,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.9,
+        "delta_pct": -3.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823427,
+            "date": "2026-08-17",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-5",
+            "attendance": 37544,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823423,
+            "date": "2026-08-18",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-4",
+            "attendance": 39237,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823424,
+            "date": "2026-08-19",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "W 4-1",
+            "attendance": 37031,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823420,
+            "date": "2026-08-21",
+            "day_of_week": "Friday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 7-6",
+            "attendance": 44802,
+            "pct_capacity": 104.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823422,
+            "date": "2026-08-22",
+            "day_of_week": "Saturday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 12-3",
+            "attendance": 42218,
+            "pct_capacity": 98.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823421,
+            "date": "2026-08-23",
+            "day_of_week": "Sunday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 6-4",
+            "attendance": 42610,
+            "pct_capacity": 99.3,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "73-59",
+      "streak": "L1",
+      "games_behind": "3.5"
+    },
+    "generated_at": "2026-08-25T10:37:21.003997+00:00"
   }
 ]
