@@ -1,0 +1,269 @@
+{
+  "date": "2026-08-26",
+  "display_score": 65,
+  "reactive_score": 65,
+  "baseline_score": 72,
+  "insufficient_signal": false,
+  "content_volume": 271,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 62,
+    "front_office_trust": 58,
+    "manager_confidence": 60,
+    "lineup_confidence": 78,
+    "pitching_confidence": 58,
+    "health_outlook": 65,
+    "postseason_belief": 68
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 30,
+    "manager_confidence": 45,
+    "lineup_confidence": 88,
+    "pitching_confidence": 85,
+    "health_outlook": 55,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 78,
+      "note": "The Phillies Show and Phillies Talk hosts are euphoric about the nine-game win streak, Schwarber's walk-off, and Painter's emergence, with genuine division-race belief tempering only by Wheeler and Sanchez concerns."
+    },
+    "beat_writer": {
+      "score": 75,
+      "note": "The beat writer (Phillies Therapy) is cautiously optimistic \u2014 celebrating the streak and clubhouse energy while deliberately withholding full buy-in on Painter and acknowledging the offensive approach may not be fully sustainable."
+    },
+    "radio_populist": {
+      "score": 60,
+      "note": "Talk-radio host (High Hopes / WIP Daily) is celebratory about the streak and Painter but sounding real alarms on Wheeler's command loss and Alvarado's reliability heading into October."
+    },
+    "youtube_fan": {
+      "score": 38,
+      "note": "YouTube commenters are narrowly focused and anxious \u2014 pushing hard to skip or bench Wheeler, with one darkly joking Mattingly would pitch him until his arm falls off."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Wheeler's Command Crisis Clouds the Celebration",
+      "delta": -6,
+      "sample": "Zack Wheeler himself admitted he can only throw his fastball for strikes right now and needs to rebuild his confidence \u2014 jarring words from an ace, with calls growing to skip a start before the playoff stretch."
+    },
+    {
+      "name": "Painter's Resurrection Rewrites the Rotation Ceiling",
+      "delta": 8,
+      "sample": "A career-high 20 whiffs, 99.6 mph on pitch 100, and five swing-and-misses on the fastball alone have transformed Andrew Painter from a question mark into a legitimate weapon \u2014 and possibly a bullpen X-factor in October."
+    },
+    {
+      "name": "Offensive Approach Transformation Is the Real Story",
+      "delta": 7,
+      "sample": "Leading baseball in walks, last in strikeouts, and a 370 on-base percentage in August \u2014 the lineup's identity has flipped entirely, fueled by a team meeting, Louisa Arise's presence behind Harper, and two-strike hitting that produced all five runs in Sunday's ninth-inning comeback."
+    },
+    {
+      "name": "Division Race Is Real \u2014 and the Braves Are Wobbling",
+      "delta": 6,
+      "sample": "With Atlanta just a few games ahead and seven head-to-head matchups remaining including a home series after this West Coast trip, what felt impossible in early August is now a genuine NL East title conversation."
+    },
+    {
+      "name": "Bullpen Depth: McFarlane Rising, Alvarado Done",
+      "delta": -3,
+      "sample": "Alex McFarlane's electric stuff is generating real optimism as a leverage option, but Jose Alvarado is viewed by many as effectively unusable in high-stakes playoff innings \u2014 a left-side hole that still has no clean answer."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "You had to see it to believe it. Happy I was there.",
+      "score": 90,
+      "source_hint": "fan analyst (The Phillies Show) on Schwarber's walk-off"
+    },
+    {
+      "text": "All I can throw for a strike is a fastball and I got to build my confidence back up.",
+      "score": 22,
+      "source_hint": "Zack Wheeler postgame, as quoted on talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "Right now, today is by far the most I believe they can win the World Series this season, and it's not even close.",
+      "score": 88,
+      "source_hint": "talk-radio host (High Hopes)"
+    },
+    {
+      "text": "I just cannot remember a streak of baseball that was such a divergence from what we had previously saw and thought about this team.",
+      "score": 82,
+      "source_hint": "beat writer (Phillies Therapy)"
+    }
+  ],
+  "vibe_summary": "Wheeler's alarming command loss is the one real storm cloud over a fan base otherwise drunk on a nine-game win streak, a genuine division race, and Andrew Painter looking like the pitcher everyone always hoped he would become.",
+  "reasoning": "The dominant mood is exhilarated but not uncritical. The nine-game win streak, Schwarber's historic comeback walk-off, and Painter's breakout start have produced the most genuine playoff belief of the season \u2014 with the division race against Atlanta adding stakes that felt unthinkable three weeks ago. The one significant anxiety pulling scores down is Wheeler: his own postgame admission that he can only locate his fastball, described as 'jarring' and 'stunning,' has prompted urgent calls to skip a start, and Alvarado's continued decline leaves a real bullpen vulnerability. The beat writer is the most measured, deliberately withholding full buy-in on Painter and flagging that the offensive approach may not be sustainable against elite pitching \u2014 while the fan analyst voices and talk-radio are closer to full belief.",
+  "people_mentioned": [
+    "Painter",
+    "Wheeler",
+    "Schwarber",
+    "Sanchez",
+    "Mattingly",
+    "Harper",
+    "Nola",
+    "Luzardo",
+    "McFarlane",
+    "Alvarado",
+    "Bohm",
+    "Stott",
+    "De La Cruz",
+    "Realmuto",
+    "Sosa",
+    "Arise",
+    "Hill",
+    "Marsh",
+    "Crawford",
+    "Raley",
+    "Duran",
+    "Stubbs"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 187449,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 13691,
+    "youtube_comments": 3,
+    "youtube_comment_chars": 306,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Who would you rather have for the next ten years\u2026 Andrew Painter or Paul Skenes?",
+      "voice": "radio_populist",
+      "chars": 52215
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "See It, Believe It",
+      "voice": "beat_writer",
+      "chars": 39385
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Kyle Schwarber's walk-off blast leads Phillies to nine straight wins",
+      "voice": "fan_analyst",
+      "chars": 47444
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Making sense of the Phillies playing their best baseball of the season",
+      "voice": "fan_analyst",
+      "chars": 48405
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Zack Wheeler's Wild Last Year",
+      "voice": "radio_populist",
+      "chars": 1068
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Zack Wheeler Needs To Skip A Start",
+      "voice": "radio_populist",
+      "chars": 1284
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Should the Phillies Rest Zack Wheeler For A Start?",
+      "voice": "radio_populist",
+      "chars": 11339
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 94.6,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 97.9,
+      "delta_pct": -3.3,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823427,
+          "date": "2026-08-17",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-5",
+          "attendance": 37544,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823423,
+          "date": "2026-08-18",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-4",
+          "attendance": 39237,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823424,
+          "date": "2026-08-19",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "W 4-1",
+          "attendance": 37031,
+          "pct_capacity": 86.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823420,
+          "date": "2026-08-21",
+          "day_of_week": "Friday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 7-6",
+          "attendance": 44802,
+          "pct_capacity": 104.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823422,
+          "date": "2026-08-22",
+          "day_of_week": "Saturday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 12-3",
+          "attendance": 42218,
+          "pct_capacity": 98.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823421,
+          "date": "2026-08-23",
+          "day_of_week": "Sunday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 6-4",
+          "attendance": 42610,
+          "pct_capacity": 99.3,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "73-60",
+    "streak": "L2",
+    "games_behind": "4.5"
+  },
+  "generated_at": "2026-08-26T10:41:50.309603+00:00"
+}
