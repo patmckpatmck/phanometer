@@ -32108,5 +32108,272 @@
       "games_behind": "4.5"
     },
     "generated_at": "2026-08-26T10:41:50.309603+00:00"
+  },
+  {
+    "date": "2026-08-27",
+    "display_score": 57,
+    "reactive_score": 57,
+    "baseline_score": 70,
+    "insufficient_signal": false,
+    "content_volume": 289,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 52,
+      "manager_confidence": 45,
+      "lineup_confidence": 52,
+      "pitching_confidence": 58,
+      "health_outlook": 72,
+      "postseason_belief": 58
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 80,
+      "front_office_trust": 45,
+      "manager_confidence": 70,
+      "lineup_confidence": 85,
+      "pitching_confidence": 90,
+      "health_outlook": 55,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 63,
+        "note": "Hittin' Season and Phillies Talk both celebrate the series-salvaging win and Harper/Schwarber milestones, but share real alarm over Wheeler's command crisis and Trea Turner's black-hole status at the top of the order."
+      },
+      "beat_writer": {
+        "score": 72,
+        "note": "The beat writer (Phillies Therapy) is notably the most optimistic, framing August as a genuine transformation \u2014 contributions from the whole roster, pitchers no longer needing to be perfect \u2014 while still acknowledging the wild ride isn't over."
+      },
+      "radio_populist": {
+        "score": 50,
+        "note": "Talk-radio host (WIP Daily) frames the Phillies as a 'flawed contender' \u2014 good but not great, bullpen a serious liability, and raises pointed questions about player power over lineup decisions."
+      },
+      "youtube_fan": {
+        "score": 45,
+        "note": "YouTube commenters are split between Harper vs. Schwarber MVP debates, frustration with Turner's ongoing struggles, and one voice calling out Dombrowski as the root of the team's flaws."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler's Command Crisis",
+        "delta": -7,
+        "sample": "Five walks, four home runs, an ERA above nine in his last six starts \u2014 the ace everyone counted on for October looks lost on the mound, and his own admission that he only has one pitch he can locate is ringing alarm bells everywhere."
+      },
+      {
+        "name": "Trea Turner: Black Hole at Two",
+        "delta": -6,
+        "sample": "An OPS in the low 670s, 0-for-5 in the series finale, two errors in Seattle \u2014 Turner remains among the worst qualified hitters in baseball, and the roster has no clean right-handed alternative to slot above Harper."
+      },
+      {
+        "name": "Harper and Schwarber Carrying the Offense",
+        "delta": 7,
+        "sample": "Harper's 29-game on-base streak, a 514 on-base percentage in August, and Schwarber's 40th homer put both players in legitimate MVP conversations and anchor real optimism about the lineup's ceiling when it works."
+      },
+      {
+        "name": "Luzardo Emerging as the Ace",
+        "delta": 8,
+        "sample": "Seven one-hit shutout innings in Seattle \u2014 his road ERA now the fourth-best in baseball \u2014 has cemented the case that Luzardo deserves Game 1 consideration in October and is the rotation's most reliable arm right now."
+      },
+      {
+        "name": "Mattingly's Bullpen and Starter Management Under Fire",
+        "delta": -5,
+        "sample": "Pulling Nola after six innings of two-run ball while sending a struggling Wheeler back out in the fifth, plus a shaky bullpen that turned a 2-1 game into a 4-1 loss, has raised consistent questions about consistency and feel for the pitching staff."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "He is an absolute black hole at the top of the lineup. Hitting in front of Bryce Harper, it's just a disaster.",
+        "score": 20,
+        "source_hint": "fan analyst (Hittin' Season) on Trea Turner"
+      },
+      {
+        "text": "I have one pitch right now that I can throw for a quality strike. And that's his fastball.",
+        "score": 18,
+        "source_hint": "Zach Wheeler, as recounted on fan analyst show (Phillies Talk)"
+      },
+      {
+        "text": "Bryce Harper has surpassed Kyle Schwarber as this team's MVP. He's the Phillies most valuable player again.",
+        "score": 82,
+        "source_hint": "talk-radio host (WIP Daily)"
+      },
+      {
+        "text": "Since June 10th, here are the ERAs for the Phillies top three guys. Zack Wheeler 4.15. Christopher Sanchez 3.84. Hazes Lazardo 1.90. It's not even close.",
+        "score": 75,
+        "source_hint": "talk-radio host (WIP Daily) on Luzardo's case for Game 1"
+      }
+    ],
+    "vibe_summary": "Phillies fans are riding a genuine high from Harper, Schwarber, and Luzardo's brilliance, but the euphoria has a crack in it \u2014 Trea Turner's black-hole production and Zach Wheeler's alarming command loss are the two problems no amount of winning can paper over.",
+    "reasoning": "The series loss in Seattle snapped the nine-game winning streak but was softened by a dominant Wednesday getaway win, leaving the mood cautiously optimistic rather than deflated. The dominant story driving anxiety is Wheeler's sustained command crisis \u2014 his own comments about having only one trustworthy pitch landed harder than his ERA \u2014 paired with Turner's historically bad season at arguably the most important spot in the lineup. Against that backdrop, the beat writer struck a more broadly positive tone than the analytical or radio voices, emphasizing roster balance and the pitchers' new comfort knowing the offense can bail them out, while the talk-radio perspective was blunter about the team being flawed and the bullpen being a genuine October liability.",
+    "people_mentioned": [
+      "Luzardo",
+      "Wheeler",
+      "Harper",
+      "Schwarber",
+      "Turner",
+      "Mattingly",
+      "Nola",
+      "Stott",
+      "Bohm",
+      "Painter",
+      "Sanchez",
+      "Realmuto",
+      "Dombrowski",
+      "Crawford",
+      "De La Cruz",
+      "Sosa",
+      "Kerkering",
+      "Urias",
+      "Cotham",
+      "Stubbs"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 181339,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 27959,
+      "youtube_comments": 10,
+      "youtube_comment_chars": 1825,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Can the Phillies Move Trea Turner Down in the Lineup?",
+        "voice": "fan_analyst",
+        "chars": 42839
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Concerns about Wheeler, but the big names help Phillies avoid sweep in Seattle",
+        "voice": "fan_analyst",
+        "chars": 48758
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "See It, Believe It",
+        "voice": "beat_writer",
+        "chars": 40786
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Making sense of the Phillies playing their best baseball of the season",
+        "voice": "fan_analyst",
+        "chars": 48956
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Bryce Harper \"SURPASSES' Kyle Schwarber As Phillies MVP",
+        "voice": "radio_populist",
+        "chars": 10892
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The Phillies Flawed Bullpen Will COST Them | 94WIP",
+        "voice": "radio_populist",
+        "chars": 8772
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Who TRULY Controls The Phillies Lineup? | 94WIP",
+        "voice": "radio_populist",
+        "chars": 8295
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 94.6,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.9,
+        "delta_pct": -3.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823427,
+            "date": "2026-08-17",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-5",
+            "attendance": 37544,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823423,
+            "date": "2026-08-18",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-4",
+            "attendance": 39237,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823424,
+            "date": "2026-08-19",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "W 4-1",
+            "attendance": 37031,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823420,
+            "date": "2026-08-21",
+            "day_of_week": "Friday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 7-6",
+            "attendance": 44802,
+            "pct_capacity": 104.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823422,
+            "date": "2026-08-22",
+            "day_of_week": "Saturday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 12-3",
+            "attendance": 42218,
+            "pct_capacity": 98.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823421,
+            "date": "2026-08-23",
+            "day_of_week": "Sunday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 6-4",
+            "attendance": 42610,
+            "pct_capacity": 99.3,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "74-60",
+      "streak": "W1",
+      "games_behind": "4.5"
+    },
+    "generated_at": "2026-08-27T20:20:05.427017+00:00"
   }
 ]
