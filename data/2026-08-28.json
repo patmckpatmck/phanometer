@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-28",
+  "display_score": 53,
+  "reactive_score": 53,
+  "baseline_score": 66,
+  "insufficient_signal": false,
+  "content_volume": 270,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 62,
+    "front_office_trust": 52,
+    "manager_confidence": 42,
+    "lineup_confidence": 44,
+    "pitching_confidence": 58,
+    "health_outlook": 60,
+    "postseason_belief": 48
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 30,
+    "manager_confidence": 68,
+    "lineup_confidence": 85,
+    "pitching_confidence": 90,
+    "health_outlook": 65,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 60,
+      "note": "Hittin' Season and Phillies Talk / The Phillies Show hosts are encouraged by Luzardo, Harper, and Nola's form but sharply critical of Trea Turner and genuinely alarmed by Wheeler's command loss heading into October."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 44,
+      "note": "Talk-radio hosts (WIP / High Hopes, 94WIP) are frustrated and outspoken \u2014 calling Turner's placement at second 'ridiculous,' questioning Mattingly's bullpen deployment, and expressing real concern about postseason readiness."
+    },
+    "youtube_fan": {
+      "score": 38,
+      "note": "YouTube commenters are largely dismissive of Turner, calling him overrated and demanding he be benched, with little patience for arguments defending the status quo."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Trea Turner's Black Hole at the Top of the Order",
+      "delta": -7,
+      "sample": "Turner's 0-for-17 stretch, a .671 OPS ranking 131st among qualifiers, and a .472 OPS in high-leverage situations have made him the most debated Phillie, with nearly every voice agreeing something needs to change even if no clean alternative exists."
+    },
+    {
+      "name": "Wheeler's Command Crisis Clouds October",
+      "delta": -6,
+      "sample": "A historically bad start \u2014 four homers, five walks, a career-first stat line \u2014 has pushed concern about Wheeler past the 50% threshold, with the unknown of his non-standard offseason recovery adding an unsettling layer to what might otherwise look like a familiar August lull."
+    },
+    {
+      "name": "Luzardo and Harper Carrying the Load",
+      "delta": 7,
+      "sample": "Luzardo's seven-inning, one-hit gem against Seattle cemented his case as the team's ace and prospective Game 1 starter; Harper's 509 on-base percentage in August and 29-game on-base streak represent MVP-caliber production that is quietly one of the great months of his Phillies career."
+    },
+    {
+      "name": "Mattingly's Bullpen and Pitching Decisions Under Fire",
+      "delta": -5,
+      "sample": "Leaving Wheeler in for a disastrous fifth inning while lifting a breezing Nola after 92 pitches, plus a persistent reluctance to deploy Duran for multi-out situations, have accumulated into a sustained critique of managerial decision-making with the playoffs approaching."
+    },
+    {
+      "name": "Postseason Picture Solidifying but Precarious",
+      "delta": 2,
+      "sample": "At 74-60 with 28 games left, the Phillies hold a playoff spot but sit five games back in the division and face a gauntlet that includes a massive Diamondbacks series; the rotation's ceiling depends heavily on Wheeler and whether Painter's recent form is real."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Trea Turner is in the running for least likable player in Philadelphia. I just dislike rooting for him.",
+      "score": 15,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    },
+    {
+      "text": "It is just ridiculous. The fact that he's been there for five months hitting this way is crazy.",
+      "score": 18,
+      "source_hint": "talk-radio host (94WIP)"
+    },
+    {
+      "text": "In his last 17 starts, the Phillies are 15-2. This is the first time it's happened in a single season.",
+      "score": 88,
+      "source_hint": "fan analyst (The Phillies Show)"
+    },
+    {
+      "text": "My concern level is probably a seven out of ten, six out of ten. My antenna is up. I'm not sounding the alarm bells yet.",
+      "score": 35,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    }
+  ],
+  "vibe_summary": "Two elite performances and a Bryce Harper hot streak have the Phillies breathing easier after avoiding a Seattle sweep, but the specter of a broken-down Wheeler and an unmovable Turner at second keep this fan base stuck between genuine belief and nagging dread.",
+  "reasoning": "The dominant emotional tone is split between celebration of what Luzardo, Harper, and Nola are doing and anxiety about what Wheeler's command collapse and Turner's historic futility could mean in October. Analytical commentary is more measured \u2014 acknowledging Wheeler's mechanical explanations and the lineup's structural constraints \u2014 while talk-radio and YouTube fan reactions are blunter, treating Turner's presence at second as an active embarrassment and Mattingly's bullpen management as a persistent failure. Postseason belief stays middling because the only forward-looking confidence expressed is contingent on Wheeler's recovery and Turner's turnaround, neither of which feels assured.",
+  "people_mentioned": [
+    "Turner",
+    "Wheeler",
+    "Luzardo",
+    "Harper",
+    "Schwarber",
+    "Nola",
+    "Mattingly",
+    "Painter",
+    "Sanchez",
+    "Stott",
+    "Bohm",
+    "Realmuto",
+    "Duran",
+    "Kerkering",
+    "Alvarado",
+    "Dombrowski",
+    "Crawford",
+    "Sosa",
+    "De La Cruz",
+    "Marsh",
+    "Urias",
+    "McFarlane",
+    "Cotham",
+    "Stubbs"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 185267,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 10157,
+    "youtube_comments": 9,
+    "youtube_comment_chars": 1013,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Phillies avoid sweep in Seattle, but Trea Turner's struggles continue",
+      "voice": "fan_analyst",
+      "chars": 38926
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Are You Worried About Zack Wheeler Yet?",
+      "voice": "radio_populist",
+      "chars": 54827
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Can the Phillies Move Trea Turner Down in the Lineup?",
+      "voice": "fan_analyst",
+      "chars": 42839
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Concerns about Wheeler, but the big names help Phillies avoid sweep in Seattle",
+      "voice": "fan_analyst",
+      "chars": 48675
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "'RIDICULOUS' Trea Turner At Top Of Lineup",
+      "voice": "radio_populist",
+      "chars": 1621
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Trea Turner Hitting 2nd Is Hurting The Phillies \ud83e\udd2c | 94WIP",
+      "voice": "radio_populist",
+      "chars": 7573
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Let Trea Turner Be",
+      "voice": "radio_populist",
+      "chars": 963
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 94.6,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 97.9,
+      "delta_pct": -3.3,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823427,
+          "date": "2026-08-17",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-5",
+          "attendance": 37544,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823423,
+          "date": "2026-08-18",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-4",
+          "attendance": 39237,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823424,
+          "date": "2026-08-19",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "W 4-1",
+          "attendance": 37031,
+          "pct_capacity": 86.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823420,
+          "date": "2026-08-21",
+          "day_of_week": "Friday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 7-6",
+          "attendance": 44802,
+          "pct_capacity": 104.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823422,
+          "date": "2026-08-22",
+          "day_of_week": "Saturday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 12-3",
+          "attendance": 42218,
+          "pct_capacity": 98.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823421,
+          "date": "2026-08-23",
+          "day_of_week": "Sunday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 6-4",
+          "attendance": 42610,
+          "pct_capacity": 99.3,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "74-60",
+    "streak": "W1",
+    "games_behind": "5.0"
+  },
+  "generated_at": "2026-08-28T14:44:56.398209+00:00"
+}
