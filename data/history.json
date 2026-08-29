@@ -32576,5 +32576,280 @@
       "games_behind": "5.0"
     },
     "generated_at": "2026-08-28T21:14:25.553818+00:00"
+  },
+  {
+    "date": "2026-08-29",
+    "display_score": 52,
+    "reactive_score": 52,
+    "baseline_score": 62,
+    "insufficient_signal": false,
+    "content_volume": 309,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 45,
+      "manager_confidence": 40,
+      "lineup_confidence": 45,
+      "pitching_confidence": 55,
+      "health_outlook": 58,
+      "postseason_belief": 52
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 75,
+      "front_office_trust": 60,
+      "manager_confidence": 65,
+      "lineup_confidence": 85,
+      "pitching_confidence": 90,
+      "health_outlook": 55,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 58,
+        "note": "Hittin' Season and Phillies Talk both celebrate Luzardo and Harper's excellence, but genuine concern over Wheeler's command loss and Trea Turner's sustained slump tempers the mood; farm system restructuring draws cautious hope."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 50,
+        "note": "High Hopes and WIP voices are openly worried about Wheeler, the bullpen's playoff viability, and Mattingly's in-game decisions, while acknowledging Harper's historic August and the team's solid overall position; Turner frustration runs hot."
+      },
+      "youtube_fan": {
+        "score": 32,
+        "note": "YouTube commenters are unanimously furious about Trea Turner batting second, calling for benching or batting ninth, and frustrated by the Seattle series losses while Atlanta swept the Dodgers."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler's Command Crisis Looms Over October",
+        "delta": -7,
+        "sample": "A 7.18 ERA since July 15th, admissions that only the fastball can be thrown for quality strikes, and an inability to get past five innings have turned Wheeler from rotation anchor into the team's most urgent question heading into the playoffs."
+      },
+      {
+        "name": "Trea Turner: From Slump to Structural Concern",
+        "delta": -6,
+        "sample": "An 0-for-17 stretch, an OPS of .671 that would be a career worst, and brutal high-leverage numbers have fans and analysts alike questioning whether Turner's decline is permanent \u2014 and whether he can be moved without stacking four straight lefties."
+      },
+      {
+        "name": "Bryce Harper's Historic August Quietly Ignored",
+        "delta": 6,
+        "sample": "A .509 on-base percentage in August, a 29-game career-best on-base streak, and a 1.109 OPS for the month make Harper arguably the best hitter in the National League right now \u2014 yet the noise around Turner and Wheeler has drowned out the celebration."
+      },
+      {
+        "name": "Bullpen Depth and Mattingly's Usage Raise October Alarms",
+        "delta": -5,
+        "sample": "Kerkering and Alvarado drawing near-zero trust in high-leverage spots, inconsistent starter removal decisions, and the absence of any plan to extend Duran beyond one inning have fans genuinely worried about the team's ability to string together three bullpen innings in October."
+      },
+      {
+        "name": "Front Office Restructuring: Hopeful but Unproven",
+        "delta": 2,
+        "sample": "New assistant GM titles for Dan Aquan and Luke Merton, plus an outside hire incoming for farm director, are seen as necessary steps given a 29th-ranked system \u2014 but the Phillies' habit of shuffling internal names rather than cutting bait tempers enthusiasm."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I don't trust Don Mattingly's ability to use them in the correct situation.",
+        "score": 28,
+        "source_hint": "High Hopes / WIP talk-radio host on the bullpen"
+      },
+      {
+        "text": "He is in the running for least likable player in Philadelphia.",
+        "score": 15,
+        "source_hint": "High Hopes / WIP talk-radio host on Trea Turner"
+      },
+      {
+        "text": "Bryce Harper, in 24 games in August, has a 509 on base percentage in August.",
+        "score": 88,
+        "source_hint": "High Hopes / WIP talk-radio host citing Harper's historic month"
+      },
+      {
+        "text": "Bench Turner, Play Sosa",
+        "score": 18,
+        "source_hint": "YouTube commenter on Trea Turner's lineup spot"
+      }
+    ],
+    "vibe_summary": "August has handed the Phillies a genuine identity crisis: Harper is quietly putting together one of the best months of his career while Wheeler's unraveling and Turner's prolonged slump force an uncomfortable reckoning about whether this roster's flaws can survive October.",
+    "reasoning": "The dominant mood is cautiously anxious despite a 17-7 August and solid playoff position. Wheeler's command collapse is the single biggest story \u2014 framed not as a typical mid-season lull but as an unknown made scarier by his injury history, with multiple voices crossing the 50-percent concern threshold. Turner frustration has hardened from slump-talk into decline-talk, and YouTube commenters are the angriest voice in the room, demanding him benched outright. The fan analyst voices are more measured and celebrate Luzardo's brilliance and Harper's historic on-base streak, but even they can't avoid the bullpen and Mattingly concerns that talk-radio hammers repeatedly. Postseason belief stays moderate \u2014 the team is clearly a buyer mentality, Luzardo is a genuine game-one argument, and the roster ceiling is real \u2014 but it is anchored down by the Wheeler and bullpen unknowns rather than lifted by coping framing.",
+    "people_mentioned": [
+      "Trea Turner",
+      "Zach Wheeler",
+      "Bryce Harper",
+      "Jesus Luzardo",
+      "Kyle Schwarber",
+      "Don Mattingly",
+      "Aaron Nola",
+      "Andrew Painter",
+      "Christopher Sanchez",
+      "Bryson Stott",
+      "Yohan Duran",
+      "Orion Kerkering",
+      "JT Realmuto",
+      "Alec Bohm",
+      "Luis Arraez",
+      "Dave Dombrowski",
+      "Caleb Cotham",
+      "Brandon Marsh",
+      "Scott Franzke",
+      "Luke Merton",
+      "Dan Aquan",
+      "Edmundo Sosa",
+      "Brian De La Cruz",
+      "Garrett Stubbs",
+      "Alex McFarlane",
+      "Justin Crawford",
+      "Tommy Pham",
+      "Nestor Cortes"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 189999,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 32448,
+      "youtube_comments": 12,
+      "youtube_comment_chars": 1362,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "The Phillies Should Get Back to Winning Against the Angels",
+        "voice": "fan_analyst",
+        "chars": 48512
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Phillies avoid sweep in Seattle, but Trea Turner's struggles continue",
+        "voice": "fan_analyst",
+        "chars": 38552
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Are You Worried About Zack Wheeler Yet?",
+        "voice": "radio_populist",
+        "chars": 54907
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Concerns about Wheeler, but the big names help Phillies avoid sweep in Seattle",
+        "voice": "fan_analyst",
+        "chars": 48028
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Should Phillies Move Andrew Painter To The Bullpen?",
+        "voice": "radio_populist",
+        "chars": 19129
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Andrew Painter To The Bullpen?",
+        "voice": "radio_populist",
+        "chars": 825
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Bryce Harper Is Having An ASBURD August \ud83d\udd25",
+        "voice": "radio_populist",
+        "chars": 12494
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 94.6,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.9,
+        "delta_pct": -3.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823427,
+            "date": "2026-08-17",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-5",
+            "attendance": 37544,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823423,
+            "date": "2026-08-18",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-4",
+            "attendance": 39237,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823424,
+            "date": "2026-08-19",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "W 4-1",
+            "attendance": 37031,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823420,
+            "date": "2026-08-21",
+            "day_of_week": "Friday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 7-6",
+            "attendance": 44802,
+            "pct_capacity": 104.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823422,
+            "date": "2026-08-22",
+            "day_of_week": "Saturday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 12-3",
+            "attendance": 42218,
+            "pct_capacity": 98.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823421,
+            "date": "2026-08-23",
+            "day_of_week": "Sunday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 6-4",
+            "attendance": 42610,
+            "pct_capacity": 99.3,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "75-60",
+      "streak": "W2",
+      "games_behind": "5.0"
+    },
+    "generated_at": "2026-08-29T15:07:11.456513+00:00"
   }
 ]
