@@ -1,28 +1,28 @@
 {
   "date": "2026-08-29",
-  "display_score": 52,
-  "reactive_score": 52,
+  "display_score": 53,
+  "reactive_score": 53,
   "baseline_score": 62,
   "insufficient_signal": false,
   "content_volume": 309,
   "mood_label": "Touch and Go",
   "dimensions": {
     "results_satisfaction": 62,
-    "front_office_trust": 45,
-    "manager_confidence": 40,
+    "front_office_trust": 48,
+    "manager_confidence": 42,
     "lineup_confidence": 45,
     "pitching_confidence": 55,
-    "health_outlook": 58,
+    "health_outlook": 65,
     "postseason_belief": 52
   },
   "dimension_confidence": {
-    "results_satisfaction": 75,
+    "results_satisfaction": 78,
     "front_office_trust": 60,
     "manager_confidence": 65,
-    "lineup_confidence": 85,
-    "pitching_confidence": 90,
+    "lineup_confidence": 82,
+    "pitching_confidence": 88,
     "health_outlook": 55,
-    "postseason_belief": 70
+    "postseason_belief": 72
   },
   "voice_breakdown": {
     "reddit": {
@@ -31,19 +31,19 @@
     },
     "fan_analyst": {
       "score": 58,
-      "note": "Hittin' Season and Phillies Talk both celebrate Luzardo and Harper's excellence, but genuine concern over Wheeler's command loss and Trea Turner's sustained slump tempers the mood; farm system restructuring draws cautious hope."
+      "note": "Hittin' Season and The Phillies Show both celebrate Luzardo and Harper's brilliance while expressing genuine alarm over Wheeler's command loss and Trea Turner's seemingly bottomless slump; cautiously hopeful about front office restructuring but skeptical."
     },
     "beat_writer": {
       "score": null,
       "note": null
     },
     "radio_populist": {
-      "score": 50,
-      "note": "High Hopes and WIP voices are openly worried about Wheeler, the bullpen's playoff viability, and Mattingly's in-game decisions, while acknowledging Harper's historic August and the team's solid overall position; Turner frustration runs hot."
+      "score": 53,
+      "note": "WIP High Hopes and midday segments mirror the broader mood \u2014 enthusiastic about Luzardo and Painter's emergence, deeply worried about Wheeler, Turner, and bullpen depth, with one host explicitly stating no faith in the lineup's plate discipline holding in October."
     },
     "youtube_fan": {
-      "score": 32,
-      "note": "YouTube commenters are unanimously furious about Trea Turner batting second, calling for benching or batting ninth, and frustrated by the Seattle series losses while Atlanta swept the Dodgers."
+      "score": 35,
+      "note": "YouTube commenters are almost uniformly furious at Trea Turner batting second, calling for benching him entirely and proposing alternative lineups that push him to ninth; Seattle losses used as evidence the status quo isn't working."
     },
     "twitter_fan": {
       "score": null,
@@ -52,84 +52,79 @@
   },
   "themes": [
     {
-      "name": "Wheeler's Command Crisis Looms Over October",
+      "name": "Zach Wheeler's Command Crisis",
       "delta": -7,
-      "sample": "A 7.18 ERA since July 15th, admissions that only the fastball can be thrown for quality strikes, and an inability to get past five innings have turned Wheeler from rotation anchor into the team's most urgent question heading into the playoffs."
+      "sample": "Wheeler has allowed a 7+ ERA over his last seven starts, admitting he can only locate his fastball \u2014 and even that inconsistently \u2014 raising genuine questions about whether the ace who carried the rotation in the first half can reestablish himself before October."
     },
     {
-      "name": "Trea Turner: From Slump to Structural Concern",
+      "name": "Trea Turner Reaches a Breaking Point",
       "delta": -6,
-      "sample": "An 0-for-17 stretch, an OPS of .671 that would be a career worst, and brutal high-leverage numbers have fans and analysts alike questioning whether Turner's decline is permanent \u2014 and whether he can be moved without stacking four straight lefties."
+      "sample": "0-for-13 in Seattle, batting average at a career-worst clip, and high-leverage numbers that match an automatic out \u2014 the consensus has shifted from concern to something closer to managed despair, with multiple voices preferring bench players in big spots over him."
     },
     {
-      "name": "Bryce Harper's Historic August Quietly Ignored",
-      "delta": 6,
-      "sample": "A .509 on-base percentage in August, a 29-game career-best on-base streak, and a 1.109 OPS for the month make Harper arguably the best hitter in the National League right now \u2014 yet the noise around Turner and Wheeler has drowned out the celebration."
+      "name": "Luzardo and Harper Operating at an Elite Level",
+      "delta": 7,
+      "sample": "Luzardo's 15-2 record in his last 17 starts and Harper's career-best 29-game on-base streak represent the genuine ceiling of this roster, and both are performing at a level that keeps playoff optimism alive despite the negatives."
     },
     {
-      "name": "Bullpen Depth and Mattingly's Usage Raise October Alarms",
+      "name": "Bullpen Trust at an All-Time Low",
       "delta": -5,
-      "sample": "Kerkering and Alvarado drawing near-zero trust in high-leverage spots, inconsistent starter removal decisions, and the absence of any plan to extend Duran beyond one inning have fans genuinely worried about the team's ability to string together three bullpen innings in October."
+      "sample": "Kerkering and Alvarado have eroded confidence to the point where Duran and potentially a rotation arm are the only trusted relievers \u2014 a structure seen as insufficient for a deep postseason run without unconventional deployment."
     },
     {
-      "name": "Front Office Restructuring: Hopeful but Unproven",
+      "name": "Front Office Restructuring \u2014 Hope Tempered by Pattern",
       "delta": 2,
-      "sample": "New assistant GM titles for Dan Aquan and Luke Merton, plus an outside hire incoming for farm director, are seen as necessary steps given a 29th-ranked system \u2014 but the Phillies' habit of shuffling internal names rather than cutting bait tempers enthusiasm."
+      "sample": "The Phillies' front office reshuffling \u2014 a new R&D head, an assistant GM of hitting, and a farm director search \u2014 is acknowledged as necessary given a 29th-ranked farm system, but skepticism lingers about whether the organization will truly go outside its comfort zone."
     }
   ],
   "quotes": [
     {
-      "text": "I don't trust Don Mattingly's ability to use them in the correct situation.",
-      "score": 28,
-      "source_hint": "High Hopes / WIP talk-radio host on the bullpen"
+      "text": "I am definitely more over 50% in terms of concern. I've crossed the 50% threshold, but not by that much.",
+      "score": 38,
+      "source_hint": "WIP High Hopes host on Zach Wheeler's struggles"
     },
     {
-      "text": "He is in the running for least likable player in Philadelphia.",
-      "score": 15,
-      "source_hint": "High Hopes / WIP talk-radio host on Trea Turner"
-    },
-    {
-      "text": "Bryce Harper, in 24 games in August, has a 509 on base percentage in August.",
-      "score": 88,
-      "source_hint": "High Hopes / WIP talk-radio host citing Harper's historic month"
-    },
-    {
-      "text": "Bench Turner, Play Sosa",
+      "text": "He is in the running for least likable player in Philadelphia. Like, I just dislike rooting for Trea Turner.",
       "score": 18,
-      "source_hint": "YouTube commenter on Trea Turner's lineup spot"
+      "source_hint": "WIP High Hopes host on Trea Turner"
+    },
+    {
+      "text": "Bryce Harper, in 24 games in August, has a 509 on base percentage in August. He's slugging 600. 1109. Like, yeah, dude.",
+      "score": 88,
+      "source_hint": "WIP High Hopes host celebrating Harper's historic August"
+    },
+    {
+      "text": "In his last 17 starts, the Phillies are 15-2. This is the first time it's happened in a single season.",
+      "score": 90,
+      "source_hint": "The Phillies Show host on Jesus Luzardo's remarkable run"
     }
   ],
-  "vibe_summary": "August has handed the Phillies a genuine identity crisis: Harper is quietly putting together one of the best months of his career while Wheeler's unraveling and Turner's prolonged slump force an uncomfortable reckoning about whether this roster's flaws can survive October.",
-  "reasoning": "The dominant mood is cautiously anxious despite a 17-7 August and solid playoff position. Wheeler's command collapse is the single biggest story \u2014 framed not as a typical mid-season lull but as an unknown made scarier by his injury history, with multiple voices crossing the 50-percent concern threshold. Turner frustration has hardened from slump-talk into decline-talk, and YouTube commenters are the angriest voice in the room, demanding him benched outright. The fan analyst voices are more measured and celebrate Luzardo's brilliance and Harper's historic on-base streak, but even they can't avoid the bullpen and Mattingly concerns that talk-radio hammers repeatedly. Postseason belief stays moderate \u2014 the team is clearly a buyer mentality, Luzardo is a genuine game-one argument, and the roster ceiling is real \u2014 but it is anchored down by the Wheeler and bullpen unknowns rather than lifted by coping framing.",
+  "vibe_summary": "Philadelphia is stuck between genuine pride in what this roster can do at its best and a gnawing fear that Wheeler's unraveling and Turner's lineup black hole are problems too structural to fix before October arrives.",
+  "reasoning": "The dominant mood is cautious optimism undercut by specific, named anxieties \u2014 Wheeler's command disappearing, Turner's historically bad situational hitting, and a bullpen that inspires almost no confidence. Luzardo's brilliance and Harper's career-best August keep postseason belief alive and prevent outright pessimism. The fan analyst voices are the most balanced, contextualizing both the highs and lows; the talk-radio perspective is more alarmed, particularly about the offense's playoff durability, with one host flatly stating he doesn't believe the new hitting approach will hold for a full postseason. YouTube commenters represent the raw emotional floor \u2014 almost entirely focused on Turner frustration with little interest in the positive storylines.",
   "people_mentioned": [
-    "Trea Turner",
-    "Zach Wheeler",
-    "Bryce Harper",
-    "Jesus Luzardo",
-    "Kyle Schwarber",
-    "Don Mattingly",
-    "Aaron Nola",
-    "Andrew Painter",
-    "Christopher Sanchez",
-    "Bryson Stott",
-    "Yohan Duran",
-    "Orion Kerkering",
-    "JT Realmuto",
-    "Alec Bohm",
-    "Luis Arraez",
-    "Dave Dombrowski",
-    "Caleb Cotham",
-    "Brandon Marsh",
-    "Scott Franzke",
-    "Luke Merton",
-    "Dan Aquan",
-    "Edmundo Sosa",
-    "Brian De La Cruz",
-    "Garrett Stubbs",
-    "Alex McFarlane",
-    "Justin Crawford",
-    "Tommy Pham",
-    "Nestor Cortes"
+    "Turner",
+    "Wheeler",
+    "Luzardo",
+    "Harper",
+    "Schwarber",
+    "Painter",
+    "Nola",
+    "Mattingly",
+    "Sanchez",
+    "Stott",
+    "Kerkering",
+    "Dombrowski",
+    "Duran",
+    "Alvarado",
+    "Stubbs",
+    "Bohm",
+    "Arraez",
+    "Realmuto",
+    "Marsh",
+    "Crawford",
+    "De La Cruz",
+    "Cotham",
+    "Franzke"
   ],
   "source_counts": {
     "reddit_posts": 0,
@@ -137,7 +132,7 @@
     "match_threads": 0,
     "podcasts_attempted": 4,
     "podcasts_transcribed": 4,
-    "podcast_chars": 189999,
+    "podcast_chars": 190221,
     "youtube_attempted": 3,
     "youtube_transcribed": 3,
     "youtube_chars": 32448,
@@ -151,13 +146,13 @@
       "feed_name": "Hittin' Season",
       "title": "The Phillies Should Get Back to Winning Against the Angels",
       "voice": "fan_analyst",
-      "chars": 48512
+      "chars": 49322
     },
     {
       "feed_name": "The Phillies Show",
       "title": "Phillies avoid sweep in Seattle, but Trea Turner's struggles continue",
       "voice": "fan_analyst",
-      "chars": 38552
+      "chars": 37964
     },
     {
       "feed_name": "High Hopes",
@@ -271,5 +266,5 @@
     "streak": "W2",
     "games_behind": "5.0"
   },
-  "generated_at": "2026-08-29T15:07:11.456513+00:00"
+  "generated_at": "2026-08-29T20:50:34.054656+00:00"
 }
