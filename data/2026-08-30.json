@@ -1,0 +1,262 @@
+{
+  "date": "2026-08-30",
+  "display_score": 55,
+  "reactive_score": 55,
+  "baseline_score": 60,
+  "insufficient_signal": false,
+  "content_volume": 217,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 62,
+    "front_office_trust": 52,
+    "manager_confidence": 45,
+    "lineup_confidence": 48,
+    "pitching_confidence": 60,
+    "health_outlook": 65,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 38,
+    "manager_confidence": 55,
+    "lineup_confidence": 80,
+    "pitching_confidence": 82,
+    "health_outlook": 45,
+    "postseason_belief": 60
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 62,
+      "note": "The Phillies Show and Phillies Talk both celebrate Luzardo's dominance and Schwarber's 40 HRs, but spend significant time debating whether to bench Turner and expressing real alarm over Wheeler's command loss and Mattingly's inconsistent bullpen management."
+    },
+    "beat_writer": {
+      "score": 68,
+      "note": "Phillies Therapy (Matt Gelb) is the most optimistic voice \u2014 framing the nine-game winning streak as a season-defining pivot, praising the balanced offensive contributions, and expressing genuine belief the Phillies can win the NL East, while acknowledging the streak's sustainability is uncertain."
+    },
+    "radio_populist": {
+      "score": 55,
+      "note": "WIP Daily (Joe Giglio) is bullish on Luzardo and Painter but openly skeptical the new plate-discipline approach survives October, expresses low faith in the hitters in the postseason, and debates whether Painter belongs in the bullpen come playoff time."
+    },
+    "youtube_fan": {
+      "score": 30,
+      "note": "YouTube commenters are uniformly harsh on Trea Turner \u2014 calling him overrated, demanding he be dropped to ninth or benched entirely, and pointing to the Seattle series loss as evidence the lineup construction is broken."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Trea Turner's Slump Is the Lineup's Open Wound",
+      "delta": -7,
+      "sample": "An 0-for-17+ stretch, uncompetitive at-bats, and no clean solution for who bats second against left-handed-heavy lineups has the fan base increasingly frustrated \u2014 with calls ranging from dropping him to ninth to benching him outright for a reset."
+    },
+    {
+      "name": "Luzardo Is the Staff Ace \u2014 and Everyone Knows It",
+      "delta": 7,
+      "sample": "Seven scoreless innings, the best sweeper in baseball, a 3.09 ERA, and the Phillies going 15-2 in his last 17 starts have cemented Luzardo as the undisputed rotation anchor \u2014 with the game-one playoff debate already starting to tilt his way."
+    },
+    {
+      "name": "Wheeler's Command Crisis Is a Real October Problem",
+      "delta": -6,
+      "sample": "Career-high walks, four home runs allowed in a single start, and Wheeler's own admission that he only trusts one pitch right now have moved concern from background noise to a genuine countdown clock with 28 games left."
+    },
+    {
+      "name": "Mattingly's Bullpen Management Draws Consistent Heat",
+      "delta": -4,
+      "sample": "Sending a struggling Wheeler back out while pulling a cruising Nola after six innings the very next night crystallized a pattern of inconsistency that is quietly becoming a recurring criticism \u2014 even from sympathetic observers."
+    },
+    {
+      "name": "Painter's Revival Offers Genuine Depth Hope",
+      "delta": 5,
+      "sample": "A 99.6 mph fastball on pitch 100, a developing changeup, and visible conviction on the mound have reopened the conversation about Painter as either a fifth starter or high-leverage October arm \u2014 a luxury problem that felt impossible two months ago."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "He's the weak link of the rotation. Shockingly to say it. And he's got to figure it out here.",
+      "score": 25,
+      "source_hint": "fan analyst (Phillies Talk) on Zach Wheeler"
+    },
+    {
+      "text": "He's throwing as hard as he is and he's got life on that fastball and he got movement. That's really what you need.",
+      "score": 78,
+      "source_hint": "talk-radio host (WIP Daily) on Andrew Painter"
+    },
+    {
+      "text": "I don't believe in the hitters. Like I don't. And now Bryce has been better this year, but I don't feel much better about Bryce going into the postseason than I do most years.",
+      "score": 28,
+      "source_hint": "talk-radio host (WIP Daily) on playoff lineup concerns"
+    },
+    {
+      "text": "They can win the National League East. I cannot believe that.",
+      "score": 80,
+      "source_hint": "beat writer (Phillies Therapy / Matt Gelb) after nine-game winning streak"
+    }
+  ],
+  "vibe_summary": "Luzardo's brilliance and Harper's elite August have the fanbase feeling good, but Turner's seemingly bottomless slump and Wheeler's command crisis are making October feel less like a destination than a question mark.",
+  "reasoning": "The dominant mood is cautiously optimistic but structurally anxious: the nine-game winning streak has genuinely restored belief that this team can compete for the division and host a wildcard series, and Luzardo's emergence as the de facto ace provides a real foundation. However, the Trea Turner problem \u2014 uncompetitive at-bats, no clean lineup alternative, and a defensive regression \u2014 combined with Wheeler's historic command struggles are treated not as minor slumps but as roster-level vulnerabilities that could define October. The beat writer is the most bullish, framing the streak as a season-defining moment; the talk-radio voice is the most skeptical, openly doubting the plate-discipline approach survives playoff pressure and expressing low faith in the lineup as currently constructed.",
+  "people_mentioned": [
+    "Luzardo",
+    "Turner",
+    "Wheeler",
+    "Harper",
+    "Schwarber",
+    "Painter",
+    "Nola",
+    "Mattingly",
+    "Bohm",
+    "Stott",
+    "Arraez",
+    "Sanchez",
+    "Realmuto",
+    "Stubbs",
+    "Marsh",
+    "De La Cruz",
+    "Crawford",
+    "Sosa",
+    "Dombrowski",
+    "Cortez",
+    "Franzke"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 3,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 121482,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 32448,
+    "youtube_comments": 12,
+    "youtube_comment_chars": 1362,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Phillies avoid sweep in Seattle, but Trea Turner's struggles continue",
+      "voice": "fan_analyst",
+      "chars": 39628
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Concerns about Wheeler, but the big names help Phillies avoid sweep in Seattle",
+      "voice": "fan_analyst",
+      "chars": 42083
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "See It, Believe It",
+      "voice": "beat_writer",
+      "chars": 39771
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Should Phillies Move Andrew Painter To The Bullpen?",
+      "voice": "radio_populist",
+      "chars": 19129
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Andrew Painter To The Bullpen?",
+      "voice": "radio_populist",
+      "chars": 825
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper Is Having An ASBURD August \ud83d\udd25",
+      "voice": "radio_populist",
+      "chars": 12494
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 94.6,
+      "baseline_games_count": 37,
+      "baseline_avg_pct": 97.9,
+      "delta_pct": -3.3,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823427,
+          "date": "2026-08-17",
+          "day_of_week": "Monday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-5",
+          "attendance": 37544,
+          "pct_capacity": 87.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823423,
+          "date": "2026-08-18",
+          "day_of_week": "Tuesday",
+          "opponent": "Miami Marlins",
+          "result": "W 6-4",
+          "attendance": 39237,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823424,
+          "date": "2026-08-19",
+          "day_of_week": "Wednesday",
+          "opponent": "Miami Marlins",
+          "result": "W 4-1",
+          "attendance": 37031,
+          "pct_capacity": 86.3,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823420,
+          "date": "2026-08-21",
+          "day_of_week": "Friday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 7-6",
+          "attendance": 44802,
+          "pct_capacity": 104.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823422,
+          "date": "2026-08-22",
+          "day_of_week": "Saturday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 12-3",
+          "attendance": 42218,
+          "pct_capacity": 98.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823421,
+          "date": "2026-08-23",
+          "day_of_week": "Sunday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 6-4",
+          "attendance": 42610,
+          "pct_capacity": 99.3,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "76-60",
+    "streak": "W3",
+    "games_behind": "5.0"
+  },
+  "generated_at": "2026-08-30T14:47:36.154414+00:00"
+}
