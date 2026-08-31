@@ -33108,5 +33108,276 @@
       "games_behind": "5.0"
     },
     "generated_at": "2026-08-30T14:47:36.154414+00:00"
+  },
+  {
+    "date": "2026-08-31",
+    "display_score": 73,
+    "reactive_score": 73,
+    "baseline_score": 58,
+    "insufficient_signal": false,
+    "content_volume": 280,
+    "mood_label": "Buzzing",
+    "dimensions": {
+      "results_satisfaction": 82,
+      "front_office_trust": 62,
+      "manager_confidence": 68,
+      "lineup_confidence": 72,
+      "pitching_confidence": 74,
+      "health_outlook": 70,
+      "postseason_belief": 68
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 92,
+      "front_office_trust": 45,
+      "manager_confidence": 55,
+      "lineup_confidence": 78,
+      "pitching_confidence": 88,
+      "health_outlook": 60,
+      "postseason_belief": 80
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 78,
+        "note": "Hittin' Season and The Phillies Show both celebrate the sweep, Wheeler's bounce-back, and the deep bench, while flagging first-inning Painter struggles and cautious optimism on the division race."
+      },
+      "beat_writer": {
+        "score": 80,
+        "note": "Phillies Therapy (Matt Gelb) is genuinely energized by the nine-game winning streak and the clubhouse energy, though he notes walk-rate and strikeout-rate gains may not be fully sustainable."
+      },
+      "radio_populist": {
+        "score": 82,
+        "note": "WIP Daily (Joe Giglio) is arguably the most bullish voice, declaring this team 'different' with 'more guts than any Phillies team since 2022' and confidently predicting a Phillies-Cubs playoff series."
+      },
+      "youtube_fan": {
+        "score": 38,
+        "note": "YouTube commenters remain the most skeptical cohort \u2014 convinced the schedule has been soft, that the team chokes in October, and that playoff belief is media hype."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler's mechanical fix steadies the rotation",
+        "delta": 7,
+        "sample": "A glove-position tweak and improved posture over the rubber produced six innings of one-run ball against Anaheim \u2014 not a full declaration of 'he's back,' but enough for a collective exhale across the fanbase heading into a start against Atlanta."
+      },
+      {
+        "name": "Bench depth emerging as a genuine October weapon",
+        "delta": 6,
+        "sample": "Edmundo Sosa's pinch-hit grand slam, Derek Hill's clutch catches, and De La Cruz's late-game contributions have transformed what was a roster liability into a source of real confidence \u2014 the bench is finally big-league caliber."
+      },
+      {
+        "name": "Painter's first-inning fragility clouds an otherwise encouraging arc",
+        "delta": -4,
+        "sample": "A 10.00 ERA in the first inning this season \u2014 and a wild-pitch nightmare opening the Angels game \u2014 keeps the ceiling question mark alive, even as he retired 15 straight batters after settling in."
+      },
+      {
+        "name": "Soft schedule asterisk dampens full buy-in",
+        "delta": -3,
+        "sample": "Three consecutive sweeps of below-.500 opponents have produced elite August numbers, but a meaningful contingent refuses to fully commit until the Phillies prove it against the Braves and beyond."
+      },
+      {
+        "name": "Bryce Harper's August elite-level production finally getting its due",
+        "delta": 5,
+        "sample": "A 500-plus on-base percentage for the month, a 32-game on-base streak, and leadership at the top of the lineup have Harper earning genuine appreciation \u2014 not just grudging acknowledgment \u2014 heading into September."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "This team has more guts than any Phillies team we've seen since 2022.",
+        "score": 85,
+        "source_hint": "talk-radio host (WIP Daily / Joe Giglio)"
+      },
+      {
+        "text": "We'll likely get into the playoffs. We'll be out in round 1 but at least we got in.",
+        "score": 30,
+        "source_hint": "YouTube commenter on the WIP playoff-odds video"
+      },
+      {
+        "text": "There's no holes in the rotation right now, which is huge.",
+        "score": 80,
+        "source_hint": "talk-radio host (High Hopes / WIP)"
+      },
+      {
+        "text": "I just cannot remember a streak of baseball that was such a divergence from what we had previously saw and thought about this team.",
+        "score": 82,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+      }
+    ],
+    "vibe_summary": "Wheeler's mechanical fix and a bench that keeps delivering in the ninth have Phillies fans genuinely believing again \u2014 though the Braves loom, the schedule skeptics are loud, and Painter's first-inning gremlin refuses to leave.",
+    "reasoning": "The dominant mood is cautious but real optimism, fueled by Wheeler's encouraging bounce-back, Sosa's heroics, and a rotation that suddenly looks complete. The beat writer frames the streak as a season-defining inflection point, while the talk-radio perspective goes furthest in declaring the team qualitatively different from recent incarnations. The gap between the broadcast enthusiasm and the YouTube comment section is stark \u2014 unfiltered fan reaction remains anchored by October skepticism and a 'soft schedule' caveat that the podcasters largely wave away. Postseason belief scores meaningfully above neutral because multiple voices are actively projecting a Phillies-Cubs playoff matchup and discussing the roster's October ceiling \u2014 not just managing despair.",
+    "people_mentioned": [
+      "Wheeler",
+      "Painter",
+      "Sosa",
+      "Harper",
+      "Mattingly",
+      "Luzardo",
+      "Sanchez",
+      "Nola",
+      "Crawford",
+      "Schwarber",
+      "Stott",
+      "Bohm",
+      "De La Cruz",
+      "Hill",
+      "McFarlane",
+      "Duran",
+      "Bolin",
+      "Kerkering",
+      "JT Realmuto",
+      "Turner",
+      "Dombrowski",
+      "Cotham",
+      "Marsh",
+      "Raley"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 185132,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 19712,
+      "youtube_comments": 7,
+      "youtube_comment_chars": 1134,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "High Hopes",
+        "title": "The Phillies Are 3-0 In The Archer Fritz Era",
+        "voice": "radio_populist",
+        "chars": 60922
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Zack Wheeler rebounds, Phillies hot in August",
+        "voice": "fan_analyst",
+        "chars": 39842
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "The Cardiac Kids stay hot, complete yet ANOTHER SWEEP after wild series in Anaheim",
+        "voice": "fan_analyst",
+        "chars": 47591
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "See It, Believe It",
+        "voice": "beat_writer",
+        "chars": 36777
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "'MORE GUTS!' \u2014 Giglio Says THIS Phillies Team Is Different",
+        "voice": "radio_populist",
+        "chars": 9917
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Vs. Cubs In Playoffs \ud83d\udc40",
+        "voice": "radio_populist",
+        "chars": 2343
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The RED HOT Phillies Have 98.6% Chance To Make Playoffs \ud83d\udd25 | 94WIP",
+        "voice": "radio_populist",
+        "chars": 7452
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 94.6,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.9,
+        "delta_pct": -3.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823427,
+            "date": "2026-08-17",
+            "day_of_week": "Monday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-5",
+            "attendance": 37544,
+            "pct_capacity": 87.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823423,
+            "date": "2026-08-18",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-4",
+            "attendance": 39237,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823424,
+            "date": "2026-08-19",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "W 4-1",
+            "attendance": 37031,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823420,
+            "date": "2026-08-21",
+            "day_of_week": "Friday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 7-6",
+            "attendance": 44802,
+            "pct_capacity": 104.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823422,
+            "date": "2026-08-22",
+            "day_of_week": "Saturday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 12-3",
+            "attendance": 42218,
+            "pct_capacity": 98.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823421,
+            "date": "2026-08-23",
+            "day_of_week": "Sunday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 6-4",
+            "attendance": 42610,
+            "pct_capacity": 99.3,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "77-60",
+      "streak": "W4",
+      "games_behind": "5.0"
+    },
+    "generated_at": "2026-08-31T17:33:00.511376+00:00"
   }
 ]
