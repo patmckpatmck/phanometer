@@ -33379,5 +33379,267 @@
       "games_behind": "5.0"
     },
     "generated_at": "2026-08-31T17:33:00.511376+00:00"
+  },
+  {
+    "date": "2026-09-01",
+    "display_score": 71,
+    "reactive_score": 71,
+    "baseline_score": 63,
+    "insufficient_signal": false,
+    "content_volume": 337,
+    "mood_label": "Buzzing",
+    "dimensions": {
+      "results_satisfaction": 82,
+      "front_office_trust": 52,
+      "manager_confidence": 63,
+      "lineup_confidence": 72,
+      "pitching_confidence": 74,
+      "health_outlook": 72,
+      "postseason_belief": 62
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 90,
+      "front_office_trust": 70,
+      "manager_confidence": 55,
+      "lineup_confidence": 75,
+      "pitching_confidence": 92,
+      "health_outlook": 60,
+      "postseason_belief": 80
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 76,
+        "note": "Hittin' Season and the Philly Show/Phillies Talk hosts are riding a genuine August high \u2014 four sweeps, 20-7 record, Sosa heroics \u2014 but are measured about Wheeler, candid about farm system dysfunction, and explicitly wary of projecting October success."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 73,
+        "note": "WIP Daily and High Hopes hosts are the most emotionally fired up, repeatedly declaring this team 'different,' citing guts, bench depth, and the McFarlane addition \u2014 while callers and co-hosts hedge on whether it translates to October."
+      },
+      "youtube_fan": {
+        "score": 32,
+        "note": "YouTube commenters are overwhelmingly skeptical \u2014 dismissing the Angels sweep as meaningless, predicting early playoff exits, and dunking on the media for flip-flopping from sell-the-deadline takes to hype."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "The Rotation Is Coming Back to Life",
+        "delta": 7,
+        "sample": "Wheeler's mechanical fix, Sanchez's 200-strikeout milestone, Luzardo's consistency, Nola's resurgence, and Painter's promising bounce-backs after terrible first innings have the rotation looking deeper than it has all season \u2014 a genuine reason for October confidence."
+      },
+      {
+        "name": "Sosa and the Bench Are Carrying the Vibe",
+        "delta": 8,
+        "sample": "Edmundo Sosa's ninth-inning pinch-hit grand slam and a .423 August have made the bench a legitimate strength \u2014 with De La Cruz, Derek Hill, and Justin Crawford all contributing late-game heroics in ways that feel new for this franchise."
+      },
+      {
+        "name": "Skeptics Won't Buy the Angels Sweep as Proof",
+        "delta": -5,
+        "sample": "The loudest counter-narrative is that sweeping one of the worst teams in baseball proves nothing \u2014 and that the Phillies' inability to beat teams with winning records remains the unresolved question heading into the Braves series and beyond."
+      },
+      {
+        "name": "Farm System Shake-Up Draws Both Hope and Frustration",
+        "delta": -2,
+        "sample": "The restructuring of player development \u2014 one man doing three jobs, inconsistent messaging between levels, no hitting lab equivalent to the pitching infrastructure \u2014 drew sharp criticism even as the organizational acknowledgment and the changes themselves were welcomed."
+      },
+      {
+        "name": "Postseason Belief Is Real but Conditional on the Braves Series",
+        "delta": 4,
+        "sample": "The coming head-to-head series against Atlanta is widely framed as the true referendum \u2014 the Angels sweep built confidence and momentum, but earning a division shot or locking down the top wild-card seed against a quality opponent is what will determine whether this surge is real."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Today, on August 31st, I come into this pod feeling by far the most hopeful about this team that I've felt all year.",
+        "score": 85,
+        "source_hint": "talk-radio host, High Hopes / WIP"
+      },
+      {
+        "text": "They have guts to them right now that I don't think any team we've seen around here has and or had in a long time.",
+        "score": 82,
+        "source_hint": "talk-radio host, WIP Daily"
+      },
+      {
+        "text": "Beating the worst teams in baseball is not impressive. Last time we played a good team was over a month ago, which we lost. As usual, we'll be out even earlier this post season.",
+        "score": 18,
+        "source_hint": "YouTube commenter, WIP video"
+      },
+      {
+        "text": "I just can't do that anymore. I can't project anything anymore. Like I'm just trying to live in the moment and enjoy the moment.",
+        "score": 55,
+        "source_hint": "fan analyst, Hittin' Season"
+      }
+    ],
+    "vibe_summary": "Four sweeps in August, a revitalized bench delivering ninth-inning magic, and a rotation quietly reassembling itself have Phillies fans feeling something close to genuine belief \u2014 but the Braves series looming on the horizon is where everyone knows this month's momentum gets tested for real.",
+    "reasoning": "The dominant mood is cautious optimism fueled by a historic August (20-7, four sweeps) and specific positives: Wheeler's mechanical fix, Sanchez's dominance, McFarlane's emergence, and Sosa's clutch heroics. Enthusiasm is highest among radio voices who are openly calling this team 'different,' while the analytically oriented fan podcasts are warmer but deliberately restrained about projecting into October, citing the Angels' weakness and unresolved concerns. YouTube commenters represent a sharp dissent, dismissing the sweep as schedule-driven noise and predicting the familiar playoff disappointment. The farm system restructuring discussion cuts across the positive grain \u2014 acknowledged as necessary but mocked for how long the dysfunction persisted.",
+    "people_mentioned": [
+      "Wheeler",
+      "Sosa",
+      "Sanchez",
+      "Painter",
+      "Luzardo",
+      "Harper",
+      "Crawford",
+      "McFarlane",
+      "Mattingly",
+      "Dombrowski",
+      "Nola",
+      "Stott",
+      "Hill",
+      "De La Cruz",
+      "Turner",
+      "Marsh",
+      "Duran",
+      "Bolin",
+      "Kerkering",
+      "Realmuto",
+      "Schwarber",
+      "Aidan Miller",
+      "Merton",
+      "Cotham",
+      "Renteria"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 212332,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 31089,
+      "youtube_comments": 12,
+      "youtube_comment_chars": 1913,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "The Phillies Own August",
+        "voice": "fan_analyst",
+        "chars": 63547
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "The Phillies Are 3-0 In The Archer Fritz Era",
+        "voice": "radio_populist",
+        "chars": 62197
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Zack Wheeler rebounds, Phillies hot in August",
+        "voice": "fan_analyst",
+        "chars": 39521
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "The Cardiac Kids stay hot, complete yet ANOTHER SWEEP after wild series in Anaheim",
+        "voice": "fan_analyst",
+        "chars": 47067
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "'Phillies DEFINITELY Have A Shot To Win World Series' \u2014 DeCamara",
+        "voice": "radio_populist",
+        "chars": 11530
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Do You Believe In The Phillies NOW? ",
+        "voice": "radio_populist",
+        "chars": 9497
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "'MORE GUTS!' \u2014 Giglio Says THIS Phillies Team Is Different",
+        "voice": "radio_populist",
+        "chars": 10062
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 5,
+        "recent_avg_pct": 96.0,
+        "baseline_games_count": 37,
+        "baseline_avg_pct": 97.9,
+        "delta_pct": -1.9,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823423,
+            "date": "2026-08-18",
+            "day_of_week": "Tuesday",
+            "opponent": "Miami Marlins",
+            "result": "W 6-4",
+            "attendance": 39237,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823424,
+            "date": "2026-08-19",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "W 4-1",
+            "attendance": 37031,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823420,
+            "date": "2026-08-21",
+            "day_of_week": "Friday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 7-6",
+            "attendance": 44802,
+            "pct_capacity": 104.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823422,
+            "date": "2026-08-22",
+            "day_of_week": "Saturday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 12-3",
+            "attendance": 42218,
+            "pct_capacity": 98.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823421,
+            "date": "2026-08-23",
+            "day_of_week": "Sunday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 6-4",
+            "attendance": 42610,
+            "pct_capacity": 99.3,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "78-60",
+      "streak": "W5",
+      "games_behind": "4.0"
+    },
+    "generated_at": "2026-09-01T14:41:49.764902+00:00"
   }
 ]
