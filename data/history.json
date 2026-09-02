@@ -33641,5 +33641,259 @@
       "games_behind": "4.0"
     },
     "generated_at": "2026-09-01T14:41:49.764902+00:00"
+  },
+  {
+    "date": "2026-09-02",
+    "display_score": 72,
+    "reactive_score": 72,
+    "baseline_score": 65,
+    "insufficient_signal": false,
+    "content_volume": 336,
+    "mood_label": "Buzzing",
+    "dimensions": {
+      "results_satisfaction": 88,
+      "front_office_trust": 52,
+      "manager_confidence": 63,
+      "lineup_confidence": 68,
+      "pitching_confidence": 76,
+      "health_outlook": 72,
+      "postseason_belief": 67
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 95,
+      "front_office_trust": 72,
+      "manager_confidence": 58,
+      "lineup_confidence": 80,
+      "pitching_confidence": 90,
+      "health_outlook": 60,
+      "postseason_belief": 82
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 78,
+        "note": "Hittin' Season and The Phillies Show both celebrate the historic August, Wheeler's mechanical fix, Sanchez's dominance, and Sosa's heroics, while flagging real concerns about left-handed pitching, base running, and Painter's first-inning meltdowns."
+      },
+      "beat_writer": {
+        "score": 80,
+        "note": "The beat writer (Phillies Therapy) frames August 2026 as one of the franchise's best months ever, expressing genuine optimism about the rotation reassembling and McFarlane's emergence, though candidly uncertain about bullpen depth and Turner's trajectory."
+      },
+      "radio_populist": {
+        "score": 75,
+        "note": "Talk-radio hosts (WIP Daily / High Hopes) are riding the wave of 21 wins in August and Harper's fire, openly debating playoff seeding strategy and asking former doubters to recalibrate \u2014 tempered by honest acknowledgment of bullpen vulnerabilities and Citizens Bank Park's rough playoff record."
+      },
+      "youtube_fan": {
+        "score": 32,
+        "note": "YouTube commenters remain the most skeptical voice \u2014 citing the same roster flaws from prior playoff exits, dismissing wins over weak opponents, and warning against being fooled by a hot August again."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Historic August, But Prove It in September",
+        "delta": 7,
+        "sample": "Twenty-one wins in August \u2014 the most in any month since 2010 \u2014 and four sweeps in six series have created real momentum, but the unforgiving skepticism that 'we've seen this movie before' hasn't fully dissolved among the most battle-scarred segment of the fanbase."
+      },
+      {
+        "name": "Wheeler's Mechanical Fix Breathes Life Into the Rotation",
+        "delta": 6,
+        "sample": "A glove-position tweak and improved leg drive produced Wheeler's best start in nearly two months, and with Sanchez at 202 strikeouts and Luzardo locked in, the rotation's ceiling looks playoff-worthy again \u2014 though Wheeler himself said he's not all the way back yet."
+      },
+      {
+        "name": "McFarlane Emerges as the Bullpen Wild Card",
+        "delta": 8,
+        "sample": "Alex McFarlane's 102 mph heater and his dominant six-inning sample since coming up \u2014 including a massive spot with runners on in a one-run game \u2014 have fans genuinely excited about a bullpen weapon they didn't know they had in August."
+      },
+      {
+        "name": "Farm System Restructuring Raises Uncomfortable Questions",
+        "delta": -4,
+        "sample": "The removal of Luke Merton as farm director \u2014 after it emerged he was simultaneously running player development, hitting instruction, and amateur scouting \u2014 is seen as a meaningful but overdue admission that the pipeline has lagged, with Aidan Miller's lost season cited as the most painful symbol of systemic dysfunction."
+      },
+      {
+        "name": "Harper's On-Base Streak and the Top-of-Lineup Puzzle",
+        "delta": 3,
+        "sample": "Bryce Harper's 34-game on-base streak and a near-.500 on-base percentage in August have been quietly elite, but the two-headed slump from Turner and Schwarber at the top of the order remains the biggest unresolved question heading into the stretch run."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "August 2026 will go down, amazingly enough, as one of the best months in the history of this crazy franchise.",
+        "score": 90,
+        "source_hint": "beat writer (Phillies Therapy)"
+      },
+      {
+        "text": "I come into this pod feeling by far the most hopeful about this team that I've felt all year. Like, nothing's even close.",
+        "score": 85,
+        "source_hint": "talk-radio host (WIP High Hopes)"
+      },
+      {
+        "text": "We beat the worst teams in baseball, some of them just barely, and now we're amazing? Good pitching has always/will always shut us down. Period.",
+        "score": 18,
+        "source_hint": "YouTube commenter on WIP playoff doubters video"
+      },
+      {
+        "text": "I can't trust him in October. I can't trust that he's going to come into a game and it's going to go well.",
+        "score": 28,
+        "source_hint": "beat writer (Phillies Therapy) on Kirkering's reliability"
+      }
+    ],
+    "vibe_summary": "September opens with Phillies fans riding the warmth of a franchise-best August, cautiously daring to believe the rotation is healing and McFarlane is the missing bullpen piece \u2014 while the farm system's structural failures and playoff ghosts keep the celebration honest.",
+    "reasoning": "The dominant mood is one of earned but measured optimism: a 21-7 August, Wheeler's mechanical correction, Sanchez's strikeout milestones, and McFarlane's emergence have all combined to push sentiment meaningfully higher than it's been most of the season. Analytical and beat coverage are genuinely bullish on the rotation ceiling and the bench depth, while also cataloguing real concerns \u2014 Turner's prolonged slump, Kirkering's shakiness, and a top-of-lineup that is underperforming from Schwarber. The loudest dissent comes from YouTube commenters, who are the most resistant to the hot streak, pointing to prior playoff collapses and easy early-September scheduling. The farm system restructuring story adds a layer of long-view unease beneath the short-term excitement.",
+    "people_mentioned": [
+      "Harper",
+      "Wheeler",
+      "McFarlane",
+      "Luzardo",
+      "Sanchez",
+      "Stott",
+      "Sosa",
+      "Painter",
+      "Nola",
+      "Crawford",
+      "Mattingly",
+      "Dombrowski",
+      "Schwarber",
+      "Turner",
+      "Kirkering",
+      "Bolin",
+      "Duran",
+      "Realmuto",
+      "Bohm",
+      "Stubbs",
+      "Arraez",
+      "Merton",
+      "Aidan Miller",
+      "Marsh",
+      "Hill",
+      "De La Cruz",
+      "Alvarado"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 211689,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 35468,
+      "youtube_comments": 6,
+      "youtube_comment_chars": 928,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "An August August",
+        "voice": "beat_writer",
+        "chars": 46801
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "The Phillies Own August",
+        "voice": "fan_analyst",
+        "chars": 62912
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "The Phillies Are 3-0 In The Archer Fritz Era",
+        "voice": "radio_populist",
+        "chars": 61894
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Zack Wheeler rebounds, Phillies hot in August",
+        "voice": "fan_analyst",
+        "chars": 40082
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Bryce Harper Is On FIRE, As Phillies Continue To Play ELITE Baseball \ud83d\udd25",
+        "voice": "radio_populist",
+        "chars": 9337
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The Value Of Citizens Bank Park During RED October \ud83d\udd25",
+        "voice": "radio_populist",
+        "chars": 18421
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "DeCamara CALLS OUT The Extreme Phillies Playoff Doubters \ud83d\ude33 | 94WIP",
+        "voice": "radio_populist",
+        "chars": 7710
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 4,
+        "recent_avg_pct": 97.1,
+        "baseline_games_count": 36,
+        "baseline_avg_pct": 97.7,
+        "delta_pct": -0.6,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823424,
+            "date": "2026-08-19",
+            "day_of_week": "Wednesday",
+            "opponent": "Miami Marlins",
+            "result": "W 4-1",
+            "attendance": 37031,
+            "pct_capacity": 86.3,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823420,
+            "date": "2026-08-21",
+            "day_of_week": "Friday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 7-6",
+            "attendance": 44802,
+            "pct_capacity": 104.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823422,
+            "date": "2026-08-22",
+            "day_of_week": "Saturday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 12-3",
+            "attendance": 42218,
+            "pct_capacity": 98.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823421,
+            "date": "2026-08-23",
+            "day_of_week": "Sunday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 6-4",
+            "attendance": 42610,
+            "pct_capacity": 99.3,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "79-60",
+      "streak": "W6",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-09-02T14:14:57.742660+00:00"
   }
 ]
