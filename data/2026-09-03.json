@@ -1,0 +1,239 @@
+{
+  "date": "2026-09-03",
+  "display_score": 74,
+  "reactive_score": 74,
+  "baseline_score": 67,
+  "insufficient_signal": false,
+  "content_volume": 246,
+  "mood_label": "Buzzing",
+  "dimensions": {
+    "results_satisfaction": 74,
+    "front_office_trust": 72,
+    "manager_confidence": 68,
+    "lineup_confidence": 65,
+    "pitching_confidence": 85,
+    "health_outlook": 72,
+    "postseason_belief": 74
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 45,
+    "manager_confidence": 50,
+    "lineup_confidence": 78,
+    "pitching_confidence": 95,
+    "health_outlook": 55,
+    "postseason_belief": 80
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 80,
+      "note": "Hittin' Season, Phillies Talk, and The Phillies Show all glow over the 6-3 road trip, Painter's emergence, Luzardo's dominance, and Harper's elite month \u2014 enthusiasm is high with measured concern about Kerkering and Turner."
+    },
+    "beat_writer": {
+      "score": 72,
+      "note": "The beat writer (Phillies Therapy) is encouraged by the franchise-best August and McFarlane's emergence but applies the most skepticism, flagging Schwarber and Turner's struggles, Kerkering's unreliability, and bullpen depth questions."
+    },
+    "radio_populist": {
+      "score": 70,
+      "note": "The talk-radio host (WIP Daily) oscillates between genuine belief \u2014 'I think this is the year' \u2014 and Philly-fan guardedness, framing the tension as a devil-vs-angel conflict but landing on cautious optimism."
+    },
+    "youtube_fan": {
+      "score": 65,
+      "note": "YouTube commenters offer sparse but positive reactions, celebrating the win over a good pitcher with minimal elaboration."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Andrew Painter's Transformation Is Real",
+      "delta": 8,
+      "sample": "Seven shutout innings, 98.7 mph max velo, a devastating new changeup, and historically elite ratios since his recall have turned the rotation's biggest question mark into its most exciting answer heading into October."
+    },
+    {
+      "name": "Luzardo and Sanchez: Two of Baseball's Best Lefties",
+      "delta": 7,
+      "sample": "Luzardo's 11-of-15 starts allowing one earned run or fewer, his 9-0 road record, and the Pedro Martinez first-inning comparison have fans debating who starts a hypothetical Game 7 \u2014 a conversation that reflects genuine confidence rather than wishful thinking."
+    },
+    {
+      "name": "Bryce Harper's Elite Month Drives Everything",
+      "delta": 6,
+      "sample": "A 35-game on-base streak, an OPS over .900, and August numbers matching Aaron Judge for times on base have cemented Harper as the Phillies' offensive engine \u2014 and the one constant as Schwarber and Turner stay quiet."
+    },
+    {
+      "name": "Bullpen Depth: McFarlane Rises, Kerkering Worries Linger",
+      "delta": 3,
+      "sample": "Alex McFarlane's sub-1.00 ERA and clutch sixth-inning work have fans and analysts genuinely excited, but Kerkering's inconsistency and the broader question of getting 11 outs in a playoff game remain unsettling."
+    },
+    {
+      "name": "Schwarber and Turner's Slumps Cloud an Otherwise Hot Lineup",
+      "delta": -4,
+      "sample": "The Phillies went 21-7 in August while the 1-2 hitters scuffled \u2014 Schwarber quiet for weeks and Turner struggling mechanically \u2014 raising real questions about whether the offense can sustain deep October runs without those two contributing."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Jesus Luzardo has stepped on the mound. It is win day.",
+      "score": 88,
+      "source_hint": "Phillies Talk podcast host"
+    },
+    {
+      "text": "I think this team has it, man. I do. They have the juice.",
+      "score": 79,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "I just can't trust him in October. I can't trust that he's going to come into a game and it's going to go well.",
+      "score": 28,
+      "source_hint": "beat writer (Phillies Therapy), on Kerkering"
+    },
+    {
+      "text": "He's been awesome. He's been great. It's just so funny. He was asked what is happening and he's like, I honestly have no idea.",
+      "score": 85,
+      "source_hint": "Phillies Talk podcast host, on Bryce Harper"
+    }
+  ],
+  "vibe_summary": "A franchise-best August is in the books and the Braves series at Citizens Bank Park has every fan dreaming about catching the division \u2014 but Kerkering's fragility and a quiet Schwarber and Turner keep the champagne on ice.",
+  "reasoning": "The dominant mood is genuine, earned optimism: a 6-3 West Coast road trip, Painter's historic turnaround, Luzardo's Cy Young-caliber stretch, and Harper's elite on-base run have pushed postseason confidence to a real high rather than a coping posture. The fan analyst voices are the most bullish, cataloguing historic milestones and openly projecting playoff rotations. The beat writer applies the most discipline, dwelling on Kerkering's untrustworthiness and the 1-2 hitters' prolonged slumps as legitimate October liabilities. The talk-radio voice threads between full belief and Philly-fan superstition, landing on cautious conviction. The Braves four-game home series is the universal focal point \u2014 universally framed as a genuine division-chase opportunity, not just a vibes test.",
+  "people_mentioned": [
+    "Harper",
+    "Luzardo",
+    "Painter",
+    "McFarlane",
+    "Kerkering",
+    "Mattingly",
+    "Sanchez",
+    "Nola",
+    "Wheeler",
+    "Stott",
+    "Schwarber",
+    "Turner",
+    "Alvarado",
+    "Duran",
+    "Bolin",
+    "Crawford",
+    "Bohm",
+    "Stubbs",
+    "Dombrowski",
+    "Arraez",
+    "Sale",
+    "Realmuto"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 172870,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 9811,
+    "youtube_comments": 2,
+    "youtube_comment_chars": 66,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "The Phillies Playoff Push Begins In Earnest Right Now!",
+      "voice": "fan_analyst",
+      "chars": 46806
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies complete SOLID trip out west, Harper stays RED hot as postseason nears",
+      "voice": "fan_analyst",
+      "chars": 43402
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "What we want to see from the Phillies in September",
+      "voice": "fan_analyst",
+      "chars": 35028
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "An August August",
+      "voice": "beat_writer",
+      "chars": 47634
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies ONE Win Away From Getting Spike Back",
+      "voice": "radio_populist",
+      "chars": 2106
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "This Is The Phillies Year! \ud83c\udfc6",
+      "voice": "radio_populist",
+      "chars": 744
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "It Is Starting To Feel Like THE YEAR For The Phillies \ud83c\udfc6",
+      "voice": "radio_populist",
+      "chars": 6961
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 3,
+      "recent_avg_pct": 100.7,
+      "baseline_games_count": 35,
+      "baseline_avg_pct": 97.6,
+      "delta_pct": 3.1,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823420,
+          "date": "2026-08-21",
+          "day_of_week": "Friday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 7-6",
+          "attendance": 44802,
+          "pct_capacity": 104.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823422,
+          "date": "2026-08-22",
+          "day_of_week": "Saturday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 12-3",
+          "attendance": 42218,
+          "pct_capacity": 98.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823421,
+          "date": "2026-08-23",
+          "day_of_week": "Sunday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 6-4",
+          "attendance": 42610,
+          "pct_capacity": 99.3,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "79-61",
+    "streak": "L1",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-09-03T14:14:40.123076+00:00"
+}
