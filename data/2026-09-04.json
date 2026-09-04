@@ -1,0 +1,233 @@
+{
+  "date": "2026-09-04",
+  "display_score": 68,
+  "reactive_score": 68,
+  "baseline_score": 69,
+  "insufficient_signal": false,
+  "content_volume": 211,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 74,
+    "manager_confidence": 52,
+    "lineup_confidence": 58,
+    "pitching_confidence": 82,
+    "health_outlook": 68,
+    "postseason_belief": 62
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 80,
+    "front_office_trust": 60,
+    "manager_confidence": 55,
+    "lineup_confidence": 75,
+    "pitching_confidence": 90,
+    "health_outlook": 50,
+    "postseason_belief": 72
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 76,
+      "note": "Hittin' Season and Phillies Talk analysts are bullish on Painter, Luzardo, Harper, and McFarlane \u2014 enthusiastically framing the Braves series as a genuine division-race moment with postseason belief expressed concretely."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 65,
+      "note": "WIP hosts oscillate between devil-and-angel framing \u2014 genuinely excited about the rotation and 15-2 run, but still guardedly skeptical about sloppy play, bullpen depth, and whether this team can be trusted in October."
+    },
+    "youtube_fan": {
+      "score": 52,
+      "note": "YouTube commenters are split \u2014 some see Painter as a future star, others dismiss him as unproven or predict the offense will go cold against elite pitching like Sale."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Painter's Transformation Is Real",
+      "delta": 8,
+      "sample": "The change-up addition and mechanical fixes have turned Andrew Painter from a liability into a legitimate postseason weapon, with a 0.555 OPS against since his recall and seven scoreless innings in his best career start."
+    },
+    {
+      "name": "Luzardo Quietly Becoming an All-Time Phillies Trade",
+      "delta": 7,
+      "sample": "With 209 strikeouts, a 2.07 ERA over his last 20 starts, and a perfect 9-0 road record, Luzardo's acquisition is being called an all-timer \u2014 a locked-up ace who is statistically attempting something no pitcher has done since ERA became official in 1913."
+    },
+    {
+      "name": "Harper's Elite Stretch Carrying the Offense",
+      "delta": 6,
+      "sample": "A 35-game on-base streak, a 901 OPS, and the most times on base in a month since Aaron Judge \u2014 Harper is back to elite status and the offense's success is running in near-perfect correlation with his production."
+    },
+    {
+      "name": "Braves Series as the Season's Defining Moment",
+      "delta": 5,
+      "sample": "Four games at Citizens Bank Park against Atlanta \u2014 four back in the division \u2014 is being framed as the measuring-stick moment that will determine whether this team's late-season surge means anything real heading into October."
+    },
+    {
+      "name": "Bullpen Depth and Kerkering Still Unresolved",
+      "delta": -5,
+      "sample": "McFarlane's emergence is thrilling, but real anxiety lingers around Kerkering in high-leverage spots, Alvarado's inconsistency, and a general sense that this bullpen is still one reliever short of being truly trusted in a playoff series."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Luzardo is a top 10 starting pitcher in baseball. They should have realistically three.",
+      "score": 85,
+      "source_hint": "talk-radio host, High Hopes pod"
+    },
+    {
+      "text": "Since his recall, the OPS is 5.55 against. What a dramatic turnaround.",
+      "score": 88,
+      "source_hint": "fan analyst, Hittin' Season"
+    },
+    {
+      "text": "I still think they're going to throw the ball into the stands one time when they shouldn't.",
+      "score": 32,
+      "source_hint": "talk-radio host, 94WIP"
+    },
+    {
+      "text": "We'll be scoring a solid Zero tomorrow against Sale. Lbh, we can't hit good pitching most of the time.",
+      "score": 22,
+      "source_hint": "YouTube commenters, 'Has Andrew Painter Finally Arrived?'"
+    }
+  ],
+  "vibe_summary": "Painter's rebirth, Luzardo's historic road dominance, and Harper's relentless on-base tear have the fan base daring to believe \u2014 with the Braves series at Citizens Bank Park now the only verdict that matters.",
+  "reasoning": "The dominant mood is genuine optimism grounded in pitching excellence and Harper's elite form, with both the fan analyst and radio voices expressing real postseason belief rather than mere coping framing \u2014 the Luzardo trade, Painter's transformation, and McFarlane's emergence are cited as structural reasons this team is different. The one persistent divergence is on the bullpen and sloppy-play anxiety: the fan analyst voices are more willing to project confidence into October, while the radio hosts maintain a guardedness rooted in years of playoff disappointment, worrying specifically about Kerkering in leverage situations and mental errors costing innings. Turner and Marsh's cold stretches are acknowledged as genuine lineup concerns that temper the overall positivity.",
+  "people_mentioned": [
+    "Painter",
+    "Luzardo",
+    "Harper",
+    "McFarlane",
+    "Nola",
+    "Wheeler",
+    "Sanchez",
+    "Stott",
+    "Mattingly",
+    "Kerkering",
+    "Bolin",
+    "Duran",
+    "Alvarado",
+    "Crawford",
+    "Marsh",
+    "Turner",
+    "Bohm",
+    "Arise",
+    "Schwarber",
+    "Dombrowski",
+    "Raley",
+    "Mazza"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 140136,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 13347,
+    "youtube_comments": 6,
+    "youtube_comment_chars": 744,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "High Hopes",
+      "title": "Maybaly This Is The Year",
+      "voice": "radio_populist",
+      "chars": 50978
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "The Phillies Playoff Push Begins In Earnest Right Now!",
+      "voice": "fan_analyst",
+      "chars": 46775
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies complete SOLID trip out west, Harper stays RED hot as postseason nears",
+      "voice": "fan_analyst",
+      "chars": 42383
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Has Andrew Painter Finally Arrived?",
+      "voice": "radio_populist",
+      "chars": 10497
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies ONE Win Away From Getting Spike Back",
+      "voice": "radio_populist",
+      "chars": 2106
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "This Is The Phillies Year! \ud83c\udfc6",
+      "voice": "radio_populist",
+      "chars": 744
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 3,
+      "recent_avg_pct": 100.7,
+      "baseline_games_count": 34,
+      "baseline_avg_pct": 97.7,
+      "delta_pct": 3.0,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823420,
+          "date": "2026-08-21",
+          "day_of_week": "Friday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 7-6",
+          "attendance": 44802,
+          "pct_capacity": 104.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823422,
+          "date": "2026-08-22",
+          "day_of_week": "Saturday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 12-3",
+          "attendance": 42218,
+          "pct_capacity": 98.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823421,
+          "date": "2026-08-23",
+          "day_of_week": "Sunday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 6-4",
+          "attendance": 42610,
+          "pct_capacity": 99.3,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "79-61",
+    "streak": "L1",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-09-04T14:07:01.051205+00:00"
+}
