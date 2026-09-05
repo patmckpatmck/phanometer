@@ -34367,5 +34367,239 @@
       "games_behind": "4.0"
     },
     "generated_at": "2026-09-04T14:07:01.051205+00:00"
+  },
+  {
+    "date": "2026-09-05",
+    "display_score": 66,
+    "reactive_score": 66,
+    "baseline_score": 69,
+    "insufficient_signal": false,
+    "content_volume": 226,
+    "mood_label": "High Hopes",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 72,
+      "manager_confidence": 55,
+      "lineup_confidence": 60,
+      "pitching_confidence": 82,
+      "health_outlook": 68,
+      "postseason_belief": 58
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 60,
+      "front_office_trust": 55,
+      "manager_confidence": 45,
+      "lineup_confidence": 75,
+      "pitching_confidence": 90,
+      "health_outlook": 40,
+      "postseason_belief": 80
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 74,
+        "note": "Hittin' Season hosts are genuinely bullish \u2014 21-7 August, Painter's emergence, Luzardo's NL Pitcher of the Month, and Harper's on-base streak framed as a team peaking at the right time; Bohm legal saga closing noted as a positive development."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 58,
+        "note": "WIP High Hopes hosts are cautiously dreaming with clear optimism about the rotation depth and lineup versatility, while the 94WIP on-record segment splits sharply between Ike's genuine World Series belief and Spike's emotionally numb skepticism rooted in playoff scar tissue."
+      },
+      "youtube_fan": {
+        "score": 42,
+        "note": "YouTube commenters are split between admiring Painter's mental resilience and expressing deep skepticism \u2014 predicting another funk, doubting the offense against elite pitching, and citing the Trea Turner contract as a long-term anchor."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Rotation Depth Is Now Real",
+        "delta": 7,
+        "sample": "Luzardo's NL Pitcher of the Month award, Painter's seven scoreless innings and sub-4% barrel rate since returning, and Nola looking like himself again have transformed a perceived weakness into a genuine five-starter playoff weapon."
+      },
+      {
+        "name": "The 'Is This The Year' Debate Splits the Room",
+        "delta": 0,
+        "sample": "One camp sees Harper scorching, the bullpen rounding into form with McFarlane, and the rotation's depth as proof this team is built differently \u2014 the other camp remains emotionally numb, convinced playoff pressure will expose the same old cracks."
+      },
+      {
+        "name": "Lineup Has Holes That Won't Disappear",
+        "delta": -4,
+        "sample": "Marsh posting a sub-.510 OPS in the second half, Turner struggling consistently, Schwarber slowing down, and Araiz showing warts \u2014 the depth is praised but the weak spots in the order are real and unresolved heading into October."
+      },
+      {
+        "name": "Braves Series as the Season's True Verdict",
+        "delta": 3,
+        "sample": "Four games against Atlanta, just five back in the division, is framed as the gut-check moment that will either energize or deflate the fan base \u2014 a chance to flip the script after going 1-5 against them earlier in the year."
+      },
+      {
+        "name": "Derek Hill's Feel-Good Story Anchors Clubhouse Warmth",
+        "delta": 2,
+        "sample": "Hill's sit-down interview \u2014 grand slams, walk-off hits, the billboard on 95, the family backdrop \u2014 reinforces the narrative of a tight-knit clubhouse that fans have bought into as a reason this year might be different."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I believe it is the year. This isn't me trying to convince anyone. This is me expressing to you all that I've been convinced.",
+        "score": 80,
+        "source_hint": "talk-radio host (94WIP), Ike expressing genuine World Series belief"
+      },
+      {
+        "text": "I don't think it's the year because I think the year is something that you can't reason your way into.",
+        "score": 25,
+        "source_hint": "talk-radio host (94WIP), Spike voicing emotional exhaustion and skepticism"
+      },
+      {
+        "text": "If this is the last season I play here with these guys, I want to remember it as good and positive.",
+        "score": 72,
+        "source_hint": "fan analyst (Hittin' Season), quoting Alec Bohm on finding peace in his final Phillies year"
+      },
+      {
+        "text": "Too early to tell which version of Painter will emerge as his true self.",
+        "score": 48,
+        "source_hint": "YouTube commenters reacting to Painter's recent starts"
+      }
+    ],
+    "vibe_summary": "The Braves arriving at Citizens Bank Park for four games has split the fan base down the middle \u2014 one half finally feeling it in their gut, the other too scarred to trust what their eyes are telling them.",
+    "reasoning": "The dominant mood heading into the Phillies-Braves four-game series is a genuine ideological split between expressed belief and emotional exhaustion. The rotation narrative has fully shifted from concern to confidence \u2014 Luzardo, Painter, and a resurgent Nola give the optimists real ammunition. But lineup holes (Marsh, Turner, a cooling Araiz) and deep playoff PTSD keep the skeptics firmly unconvinced. The Derek Hill sit-down adds a warm clubhouse-chemistry undercurrent that reinforces the 'this team is different' framing without resolving the core tension.",
+    "people_mentioned": [
+      "Luzardo",
+      "Painter",
+      "Harper",
+      "Nola",
+      "Bohm",
+      "Marsh",
+      "McFarlane",
+      "Turner",
+      "Schwarber",
+      "Araiz",
+      "Wheeler",
+      "Sanchez",
+      "Hill",
+      "Mattingly",
+      "Dombrowski",
+      "Crawford",
+      "De La Cruz",
+      "Kerkering",
+      "Raley",
+      "Alvarado",
+      "Long",
+      "Sale",
+      "Acuna"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 145543,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 15684,
+      "youtube_comments": 11,
+      "youtube_comment_chars": 1154,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Exclusive sit-down with Derek Hill! How the utility man has found a home in the Phillies outfield.",
+        "voice": "fan_analyst",
+        "chars": 26889
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "It's a Four-Game Weekend with the Phillies and Braves",
+        "voice": "fan_analyst",
+        "chars": 64873
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Maybaly This Is The Year",
+        "voice": "radio_populist",
+        "chars": 53781
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Spike Still Not All-In On Phillies",
+        "voice": "radio_populist",
+        "chars": 2622
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies World Series Run! \ud83c\udfc6",
+        "voice": "radio_populist",
+        "chars": 1931
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "\u2018This Is The YEAR' For The Philadelphia Phillies!",
+        "voice": "radio_populist",
+        "chars": 11131
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 3,
+        "recent_avg_pct": 98.4,
+        "baseline_games_count": 33,
+        "baseline_avg_pct": 97.7,
+        "delta_pct": 0.8,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823422,
+            "date": "2026-08-22",
+            "day_of_week": "Saturday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 12-3",
+            "attendance": 42218,
+            "pct_capacity": 98.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823421,
+            "date": "2026-08-23",
+            "day_of_week": "Sunday",
+            "opponent": "St. Louis Cardinals",
+            "result": "W 6-4",
+            "attendance": 42610,
+            "pct_capacity": 99.3,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823418,
+            "date": "2026-09-04",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-5",
+            "attendance": 41883,
+            "pct_capacity": 97.6,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "79-62",
+      "streak": "L2",
+      "games_behind": "5.0"
+    },
+    "generated_at": "2026-09-05T13:21:14.238725+00:00"
   }
 ]
