@@ -1,0 +1,233 @@
+{
+  "date": "2026-09-06",
+  "display_score": 67,
+  "reactive_score": 67,
+  "baseline_score": 68,
+  "insufficient_signal": false,
+  "content_volume": 189,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 68,
+    "manager_confidence": 62,
+    "lineup_confidence": 60,
+    "pitching_confidence": 82,
+    "health_outlook": 65,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 45,
+    "manager_confidence": 40,
+    "lineup_confidence": 75,
+    "pitching_confidence": 90,
+    "health_outlook": 40,
+    "postseason_belief": 85
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 75,
+      "note": "Fan analyst (Phillies Talk) is enthusiastically positive on Luzardo, Harper, the west coast trip result, and McFarland's emergence; tone is upbeat heading into the Braves series."
+    },
+    "beat_writer": {
+      "score": 68,
+      "note": "Beat writer (Phillies Therapy / Matt Gelb) is measured and analytical \u2014 celebrating August's historic run while flagging real concerns about Schwarber, Turner, Kerkering, and bullpen depth behind Bolin."
+    },
+    "radio_populist": {
+      "score": 55,
+      "note": "Talk-radio host (WIP Daily) is sharply split: one co-host is a full believer calling it the year, while Spike is openly skeptical, citing gut-level numbness and playoff scar tissue \u2014 scores averaged to center."
+    },
+    "youtube_fan": {
+      "score": 42,
+      "note": "YouTube commenters are largely cautious-to-skeptical: doubts about Painter's readiness, Turner's contract, and the team's ability to hit elite pitching dominate the thread."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Rotation Renaissance",
+      "delta": 7,
+      "sample": "Luzardo's historic consistency, Painter's scoreless seven-inning gem, Sanchez rounding into form, and Nola's steady contributions have the starting staff looking like a genuine October weapon."
+    },
+    {
+      "name": "Harper's On-Base Barrage",
+      "delta": 6,
+      "sample": "A 35-game on-base streak, a near-.500 OBP for August, and the quietest elite month imaginable \u2014 Harper is playing his best baseball at exactly the right moment, even if it doesn't always feel that way."
+    },
+    {
+      "name": "McFarland's Bullpen Spark",
+      "delta": 5,
+      "sample": "The rookie reliever has moved ahead of Kerkering in the trust hierarchy, getting the highest-leverage outs Monday night and raising legitimate questions about how deep he can pitch in October."
+    },
+    {
+      "name": "Schwarber and Turner Quietly Scuffling",
+      "delta": -5,
+      "sample": "The one and two hitters have been largely absent offensively; the team has won despite them, but there is wide agreement that they must contribute when the playoffs begin for any deep run to be realistic."
+    },
+    {
+      "name": "Gut-Level Belief vs. Playoff Scar Tissue",
+      "delta": -3,
+      "sample": "The facts point toward a legitimate contender, but a portion of the fan base \u2014 scarred by recent Octobers \u2014 cannot convert the data into genuine conviction, framing past collapses as an argument against trusting the present surge."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I believe it is the year. This isn't me trying to convince anyone. This is me expressing that I've been convinced.",
+      "score": 85,
+      "source_hint": "talk-radio host (WIP Daily), co-host Ike"
+    },
+    {
+      "text": "I don't think it's the year because I think the year is something that you can't reason your way into.",
+      "score": 22,
+      "source_hint": "talk-radio host (WIP Daily), co-host Spike"
+    },
+    {
+      "text": "In his last 20 starts, his ERA is right around a 2.11. He is for my money right now the Phillies' best pitcher.",
+      "score": 88,
+      "source_hint": "fan analyst (Phillies Talk) on Luzardo"
+    },
+    {
+      "text": "I just can't trust him in October. I can't trust that he's going to come into a game and it's going to go well.",
+      "score": 28,
+      "source_hint": "beat writer (Phillies Therapy / Matt Gelb) on Kerkering"
+    }
+  ],
+  "vibe_summary": "Genuine belief is within reach \u2014 Harper is scorching, the rotation is peaking, and McFarland has given the bullpen a pulse \u2014 but the Braves series will force fans to finally put their chips on the table.",
+  "reasoning": "The dominant mood is cautious optimism anchored by elite pitching and Harper's historic on-base run, tempered by unresolved concern over Schwarber and Turner's offensive quietude and Kerkering's unreliability in high-leverage spots. The beat writer brings the most analytical skepticism \u2014 specifically about bullpen construction and whether the starters can consistently go deep enough \u2014 while the fan analysts are more celebratory about the west coast trip result and McFarland's emergence. The most striking tension is on postseason belief: one talk-radio voice is fully converted while his co-host articulates the emotional exhaustion that keeps a meaningful slice of the fan base from trusting what the numbers show, and YouTube commenters echo that skepticism with pointed doubts about Painter, Turner, and hitting elite arms.",
+  "people_mentioned": [
+    "Luzardo",
+    "Harper",
+    "McFarland",
+    "Kerkering",
+    "Painter",
+    "Schwarber",
+    "Turner",
+    "Nola",
+    "Sanchez",
+    "Wheeler",
+    "Bolin",
+    "Stott",
+    "Alvarado",
+    "Bohm",
+    "Crawford",
+    "Hill",
+    "Mattingly",
+    "Stubbs",
+    "Marchand",
+    "Dombrowski",
+    "Ramirez",
+    "Cortez"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 117291,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 15684,
+    "youtube_comments": 12,
+    "youtube_comment_chars": 1174,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Exclusive sit-down with Derek Hill! How the utility man has found a home in the Phillies outfield.",
+      "voice": "fan_analyst",
+      "chars": 27783
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies complete SOLID trip out west, Harper stays RED hot as postseason nears",
+      "voice": "fan_analyst",
+      "chars": 44171
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "An August August",
+      "voice": "beat_writer",
+      "chars": 45337
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Spike Still Not All-In On Phillies",
+      "voice": "radio_populist",
+      "chars": 2622
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies World Series Run! \ud83c\udfc6",
+      "voice": "radio_populist",
+      "chars": 1931
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "\u2018This Is The YEAR' For The Philadelphia Phillies!",
+      "voice": "radio_populist",
+      "chars": 11131
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 3,
+      "recent_avg_pct": 99.2,
+      "baseline_games_count": 32,
+      "baseline_avg_pct": 97.6,
+      "delta_pct": 1.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823421,
+          "date": "2026-08-23",
+          "day_of_week": "Sunday",
+          "opponent": "St. Louis Cardinals",
+          "result": "W 6-4",
+          "attendance": 42610,
+          "pct_capacity": 99.3,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823418,
+          "date": "2026-09-04",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-5",
+          "attendance": 41883,
+          "pct_capacity": 97.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823419,
+          "date": "2026-09-05",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "W 4-2",
+          "attendance": 43241,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "80-62",
+    "streak": "W1",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-09-06T13:29:25.163150+00:00"
+}
