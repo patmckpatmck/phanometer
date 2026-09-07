@@ -34834,5 +34834,237 @@
       "games_behind": "4.0"
     },
     "generated_at": "2026-09-06T13:29:25.163150+00:00"
+  },
+  {
+    "date": "2026-09-07",
+    "display_score": 53,
+    "reactive_score": 53,
+    "baseline_score": 68,
+    "insufficient_signal": false,
+    "content_volume": 200,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 38,
+      "front_office_trust": 55,
+      "manager_confidence": 52,
+      "lineup_confidence": 55,
+      "pitching_confidence": 72,
+      "health_outlook": 62,
+      "postseason_belief": 45
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 80,
+      "front_office_trust": 25,
+      "manager_confidence": 50,
+      "lineup_confidence": 65,
+      "pitching_confidence": 90,
+      "health_outlook": 40,
+      "postseason_belief": 85
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 55,
+        "note": "The fan analyst (The Phillies Show) acknowledged the division is slipping away at 5 back, but found genuine optimism in Wheeler's return to form, Nola's resurgent stretch, and Painter's emergence \u2014 bullpen reliability remains the central anxiety."
+      },
+      "beat_writer": {
+        "score": 65,
+        "note": "The beat writer (Phillies Therapy) framed August as one of the best months in franchise history (21-7), praised McFarland and Alvarado's growth, and expressed measured confidence in Harper and the rotation \u2014 while flagging Kirkering and the top of the lineup as genuine October concerns."
+      },
+      "radio_populist": {
+        "score": 50,
+        "note": "The talk-radio host (WIP Daily) was split down the middle: one co-host expressing genuine World Series belief and pointing to Harper's peak form and rotation depth, the other emotionally numb and convinced past playoff trauma will repeat when the pressure is on."
+      },
+      "youtube_fan": {
+        "score": 40,
+        "note": "YouTube commenters were mostly skeptical \u2014 doubting Painter's readiness, expecting offensive futility against elite pitching, and worrying about the Trea Turner contract \u2014 with only scattered optimism."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Bullpen still the wart",
+        "delta": -5,
+        "sample": "Losing a late lead Sunday after seven straight fastballs to Acu\u00f1a \u2014 with McFarland never throwing a breaking ball \u2014 crystallized the concern that's followed this team all season: the bridge to Bolin is unreliable, and October will expose it."
+      },
+      {
+        "name": "Division title slipping, wild card the realistic ceiling",
+        "delta": -4,
+        "sample": "Falling to 5 back with 19 games left means the math now requires near-perfection just to catch the Braves \u2014 the conversation has shifted from chasing a division to protecting wild-card position and entering October with momentum."
+      },
+      {
+        "name": "Rotation in legitimate form",
+        "delta": 7,
+        "sample": "Wheeler rediscovering his edge, Nola posting a sub-3 ERA over his last eight starts, Luzardo coming off a pitcher-of-the-month August, and Painter looking like a genuine weapon \u2014 the starting staff is the strongest argument for October belief."
+      },
+      {
+        "name": "McFarland as the wildcard everyone is watching",
+        "delta": 5,
+        "sample": "A rookie reliever getting out of a bases-loaded jam in a pivotal road game has vaulted him to the top of the September watch list \u2014 if his control holds, the bullpen calculus changes significantly heading into the playoffs."
+      },
+      {
+        "name": "Emotional split: belief vs. scar tissue",
+        "delta": 0,
+        "sample": "The Braves series has cleaved the fan base in two \u2014 one camp sees a peaking roster and genuinely feels this is the year, while the other, numbed by years of October disappointment, can reason their way to optimism but can't make themselves feel it."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I don't think it's the year because I think the year is something that you can't reason your way into.",
+        "score": 22,
+        "source_hint": "Talk-radio host (WIP Daily), skeptical co-host on-the-record segment"
+      },
+      {
+        "text": "I believe it is the year. This isn't me trying to convince anyone. This is me expressing to you all that I've been convinced.",
+        "score": 80,
+        "source_hint": "Talk-radio host (WIP Daily), optimistic co-host making the case before Braves series"
+      },
+      {
+        "text": "There's a lot of uncertainty, and that's not a great feeling going into October.",
+        "score": 30,
+        "source_hint": "Fan analyst (The Phillies Show), on the state of the bullpen pecking order"
+      },
+      {
+        "text": "Aaron Nola has a 3.21 ERA in his last 12 starts. It's 2.31 in his last eight.",
+        "score": 75,
+        "source_hint": "Fan analyst (The Phillies Show), making the case for Nola's resurgence"
+      }
+    ],
+    "vibe_summary": "The division is nearly gone and the bullpen just blew another late lead, but the rotation is pitching its best baseball of the year \u2014 so the mood lands somewhere between resigned and stubbornly alive.",
+    "reasoning": "The dominant driver today is the collision of a shrinking division window \u2014 now 5 back with 19 to play \u2014 and genuine confidence in the starting rotation. The bullpen's failure to protect Nola's Sunday gem against Acu\u00f1a is the freshest wound, reinforcing a season-long anxiety about late-inning reliability. The emotional divide is real and sharp: analytical optimism about the rotation and Harper's form coexists with a visceral inability, for some, to believe the outcome will be different this October. McFarland is the one figure threading both camps \u2014 a reason for cautious hope precisely because the bullpen has offered so little of it.",
+    "people_mentioned": [
+      "McFarland",
+      "Wheeler",
+      "Nola",
+      "Painter",
+      "Luzardo",
+      "Harper",
+      "Mattingly",
+      "Alvarado",
+      "Bolin",
+      "Kirkering",
+      "Schwarber",
+      "Stott",
+      "Acu\u00f1a",
+      "Turner",
+      "Bohm",
+      "Crawford",
+      "Hill",
+      "Stubbs",
+      "Raley",
+      "Sanchez",
+      "Cortez"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 125030,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 15684,
+      "youtube_comments": 12,
+      "youtube_comment_chars": 1174,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "The NL East is slipping away from the Phillies",
+        "voice": "fan_analyst",
+        "chars": 48502
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Exclusive sit-down with Derek Hill! How the utility man has found a home in the Phillies outfield.",
+        "voice": "fan_analyst",
+        "chars": 26780
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "An August August",
+        "voice": "beat_writer",
+        "chars": 49748
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Spike Still Not All-In On Phillies",
+        "voice": "radio_populist",
+        "chars": 2622
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies World Series Run! \ud83c\udfc6",
+        "voice": "radio_populist",
+        "chars": 1931
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "\u2018This Is The YEAR' For The Philadelphia Phillies!",
+        "voice": "radio_populist",
+        "chars": 11131
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 3,
+        "recent_avg_pct": 99.4,
+        "baseline_games_count": 31,
+        "baseline_avg_pct": 97.5,
+        "delta_pct": 1.9,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823418,
+            "date": "2026-09-04",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-5",
+            "attendance": 41883,
+            "pct_capacity": 97.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823419,
+            "date": "2026-09-05",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "W 4-2",
+            "attendance": 43241,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823417,
+            "date": "2026-09-06",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 4-5",
+            "attendance": 42793,
+            "pct_capacity": 99.7,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "80-63",
+      "streak": "L1",
+      "games_behind": "5.0"
+    },
+    "generated_at": "2026-09-07T15:37:21.135245+00:00"
   }
 ]
