@@ -1,0 +1,241 @@
+{
+  "date": "2026-09-08",
+  "display_score": 63,
+  "reactive_score": 63,
+  "baseline_score": 63,
+  "insufficient_signal": false,
+  "content_volume": 220,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 62,
+    "front_office_trust": 55,
+    "manager_confidence": 52,
+    "lineup_confidence": 55,
+    "pitching_confidence": 82,
+    "health_outlook": 68,
+    "postseason_belief": 52
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 25,
+    "manager_confidence": 40,
+    "lineup_confidence": 65,
+    "pitching_confidence": 95,
+    "health_outlook": 45,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 63,
+      "note": "Phillies Talk hosts felt the split was a missed opportunity \u2014 Sunday's blown 4-1 lead could be the loss of the year \u2014 but were effusive about Luzardo and genuinely excited about a five-deep playoff rotation."
+    },
+    "beat_writer": {
+      "score": 68,
+      "note": "The beat writer (Phillies Therapy) was constructively optimistic after the split, framing the rotation as playoff-ready and openly workshopping creative bullpen deployment strategies for October."
+    },
+    "radio_populist": {
+      "score": 55,
+      "note": "WIP High Hopes and 94WIP voices were split between full belief ('this is the year') and emotional exhaustion ('I just don't feel it'), with bullpen anxiety dominating the skeptical side."
+    },
+    "youtube_fan": {
+      "score": 38,
+      "note": "YouTube commenters were largely dismissive or sarcastic, doubting the team's consistency and demanding dominance rather than just competitiveness."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Luzardo's Coming-Out Party",
+      "delta": 8,
+      "sample": "A complete game shutout \u2014 two hits, 12 strikeouts, under two hours \u2014 has cemented Luzardo as arguably the best pitcher in baseball over the last three-plus months, and sparked serious Cy Young conversation."
+    },
+    {
+      "name": "Sunday's Blown Lead Stings as the Loss of the Year",
+      "delta": -6,
+      "sample": "Squandering a 4-1 eighth-inning lead against the Braves, with seven straight fastballs to Acuna and a bullpen collapse, may have cost the Phillies any realistic shot at the division title."
+    },
+    {
+      "name": "Playoff Bullpen Deployment Is an Unsolved Puzzle",
+      "delta": -4,
+      "sample": "With Duran as the only unquestioned reliever, serious debate has opened about using Luzardo out of the bullpen in a Wild Card game to cover the roster's most glaring weakness."
+    },
+    {
+      "name": "Rotation Depth Feels Like a Genuine Postseason Weapon",
+      "delta": 7,
+      "sample": "Wheeler bouncing back, Nola pitching his best baseball in years, Sanchez solid, and Painter emerging gives this team what looks like the best starting staff in baseball heading into October."
+    },
+    {
+      "name": "Scarred Believers vs. Reluctant Optimists",
+      "delta": -2,
+      "sample": "The fanbase remains split between those who genuinely feel this is the year and those who, after multiple playoff heartbreaks, simply cannot make themselves believe it no matter what the numbers say."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Luzardo has a 1.66 ERA since July 1st. That's the best in the National League.",
+      "score": 88,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "I don't think it's the year because I think the year is something that you can't reason your way into.",
+      "score": 22,
+      "source_hint": "talk-radio host (94WIP), skeptical co-host"
+    },
+    {
+      "text": "Sunday's loss was brutal. It could be the loss of the year \u2014 the loss that keeps them from winning their third straight NL East title.",
+      "score": 28,
+      "source_hint": "fan analyst (Phillies Talk)"
+    },
+    {
+      "text": "The Phillies are not the favorite in the National League. The Phillies can absolutely win the National League.",
+      "score": 65,
+      "source_hint": "beat writer (Phillies Therapy)"
+    }
+  ],
+  "vibe_summary": "Luzardo's masterpiece on Labor Day closed a series split that felt like both a proof of concept and a missed chance \u2014 leaving fans proud of the rotation, haunted by Sunday's collapse, and unsure whether to trust the feeling growing in their chests.",
+  "reasoning": "The dominant emotional current is cautious, rotation-fueled optimism tempered by a painful Sunday implosion and a thin bullpen that everyone agrees could unravel in October. The rotation \u2014 Luzardo, Wheeler's resurgence, Nola's renaissance, Sanchez, Painter \u2014 is generating the most positive signal of the season, while the bullpen remains the single biggest anxiety point with virtually no consensus on how to paper over it for a playoff run. There is a genuine fault line between those who have talked themselves into full belief and those, scarred by recent Octobers, who acknowledge all the facts and still cannot make the emotional leap.",
+  "people_mentioned": [
+    "Luzardo",
+    "Wheeler",
+    "Nola",
+    "Schwarber",
+    "Harper",
+    "Sanchez",
+    "McFarlane",
+    "Mattingly",
+    "Bohm",
+    "Duran",
+    "Bolin",
+    "Acuna",
+    "Painter",
+    "Alvarado",
+    "Kirkering",
+    "Cotham",
+    "Stubbs",
+    "Marsh",
+    "Stott",
+    "Aidan Miller"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 144550,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 15684,
+    "youtube_comments": 6,
+    "youtube_comment_chars": 297,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "The Wait Is Over, I'm Now Taking Over",
+      "voice": "beat_writer",
+      "chars": 48164
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies miss an opportunity to gain ground on Braves after series split",
+      "voice": "fan_analyst",
+      "chars": 45811
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "On The Day Luzardo Throws A Shutout, Seltzer Wonders If The Phillies Played A Game",
+      "voice": "radio_populist",
+      "chars": 50575
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Spike Still Not All-In On Phillies",
+      "voice": "radio_populist",
+      "chars": 2622
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies World Series Run! \ud83c\udfc6",
+      "voice": "radio_populist",
+      "chars": 1931
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "\u2018This Is The YEAR' For The Philadelphia Phillies!",
+      "voice": "radio_populist",
+      "chars": 11131
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 98.9,
+      "baseline_games_count": 31,
+      "baseline_avg_pct": 97.5,
+      "delta_pct": 1.4,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823418,
+          "date": "2026-09-04",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-5",
+          "attendance": 41883,
+          "pct_capacity": 97.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823419,
+          "date": "2026-09-05",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "W 4-2",
+          "attendance": 43241,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823417,
+          "date": "2026-09-06",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 4-5",
+          "attendance": 42793,
+          "pct_capacity": 99.7,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823415,
+          "date": "2026-09-07",
+          "day_of_week": "Monday",
+          "opponent": "Atlanta Braves",
+          "result": "W 1-0",
+          "attendance": 41820,
+          "pct_capacity": 97.5,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "81-63",
+    "streak": "W1",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-09-08T14:14:05.471747+00:00"
+}
