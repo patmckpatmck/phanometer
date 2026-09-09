@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-09",
+  "display_score": 50,
+  "reactive_score": 50,
+  "baseline_score": 63,
+  "insufficient_signal": false,
+  "content_volume": 186,
+  "mood_label": "Touch and Go",
+  "dimensions": {
+    "results_satisfaction": 35,
+    "front_office_trust": 50,
+    "manager_confidence": 48,
+    "lineup_confidence": 45,
+    "pitching_confidence": 72,
+    "health_outlook": 68,
+    "postseason_belief": 42
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 22,
+    "manager_confidence": 58,
+    "lineup_confidence": 65,
+    "pitching_confidence": 90,
+    "health_outlook": 40,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 44,
+      "note": "The Phillies Show dissects three damaging base-running blunders in detail \u2014 Bohm at second, Marsh's double-play, Sosa admiring a near-homer \u2014 framing them as a recurring systemic failure that could cost October games; tempered by rotation praise and playoff rotation intrigue."
+    },
+    "beat_writer": {
+      "score": 62,
+      "note": "Phillies Therapy takes an optimistic post-series-split view: Luzardo's complete-game shutout is celebrated as a proof of concept, the rotation is lauded, but the bullpen's shallowness and offense against quality pitching are honest concerns driving the playoff roster debate."
+    },
+    "radio_populist": {
+      "score": 48,
+      "note": "WIP hosts are thrilled with Luzardo and the rotation's 1.61 ERA over the series but alarmed by the 7.87 bullpen ERA, framing it as the team's single biggest postseason threat; the base-running failures against the Astros add further frustration."
+    },
+    "youtube_fan": {
+      "score": 55,
+      "note": "YouTube commenters range from a raw call to drill Acu\u00f1a to a glowing Luzardo-as-Steve-Carlton comparison, reflecting the polarized mood \u2014 fury at fundamentals, reverence for the ace."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Base-Running Catastrophe Costs Another Win",
+      "delta": -8,
+      "sample": "Three separate base-running blunders \u2014 Bohm retreating at second, Marsh running into a double play on a line drive, Sosa admiring a near-homer and falling short of third \u2014 directly handed the Astros a 6-5 victory and reignited season-long frustration that these mistakes are too frequent and too costly to overlook heading into October."
+    },
+    {
+      "name": "Rotation Remains the Bedrock",
+      "delta": 7,
+      "sample": "Luzardo's complete-game shutout against Atlanta and a 1.61 ERA across four starters in the Braves series have cemented the rotation as a legitimate October weapon; Wheeler's recent resurgence and Sanchez's consistency give the team a three-headed advantage that makes the playoff picture genuinely exciting."
+    },
+    {
+      "name": "Bullpen Fragility Is the Season's Defining Fear",
+      "delta": -7,
+      "sample": "A 7.87 ERA in eight innings against the Braves and another late-game collapse against the Astros have crystallized the bullpen as the team's glaring vulnerability; with Duran as the only trusted arm and the rest a collection of question marks, the gap between rotation excellence and bullpen reliability feels unsustainable in October."
+    },
+    {
+      "name": "Playoff Rotation Puzzle Captivates \u2014 and Divides",
+      "delta": 3,
+      "sample": "The question of whether to use Luzardo as a game-one starter, a bullpen piece in game one with a game-three start, or to hold him back entirely is generating genuine strategic debate; the consensus leans toward maximum aggression given the shallow bullpen, but no clean answer exists and the intrigue itself is a sign of how good the top of the rotation is."
+    },
+    {
+      "name": "Marsh and Sosa Fundamentals Raise October Alarms",
+      "delta": -5,
+      "sample": "Brandon Marsh's prolonged slump \u2014 batting under .200 since early July \u2014 and his base-running miscue, compounded by Sosa celebrating a ball that didn't leave the park, fuel concern that this team's inability to execute situational baseball will be exposed under playoff pressure when every mistake is magnified."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It has happened at least 20 times this season. I've never seen anything like it.",
+      "score": 18,
+      "source_hint": "fan analyst (The Phillies Show), on repeated base-running outs from second base"
+    },
+    {
+      "text": "The bullpen is by far the biggest problem with the team.",
+      "score": 22,
+      "source_hint": "talk-radio host (94WIP), on the 7.87 bullpen ERA in the Braves series"
+    },
+    {
+      "text": "Luzardo's sweeper looks as good as Carlton's slider. He's starting game 1 for me.",
+      "score": 88,
+      "source_hint": "YouTube commenter on the Luzardo rotation debate video"
+    },
+    {
+      "text": "The Phillies are not the favorite in the National League. The Phillies can absolutely win the National League.",
+      "score": 58,
+      "source_hint": "beat writer (Phillies Therapy), summarizing the series-split takeaway"
+    }
+  ],
+  "vibe_summary": "Base-running blunders are eating at fans just as much as the bullpen does \u2014 the Phillies keep finding new ways to squander leads, and with 17 games left, the margin for sloppiness has run out.",
+  "reasoning": "The dominant mood is one of grinding frustration: a loss to the Astros fueled by three specific, inexcusable base-running mistakes has reopened a wound that never fully closed, and the bullpen's continued fragility (7.87 ERA in the Braves series) confirms the team's structural vulnerability heading into October. The rotation \u2014 Luzardo in particular \u2014 provides genuine optimism, and the playoff rotation debate is intellectually engaging, but it reads more as problem-solving around a broken bullpen than as pure excitement. The beat writer takes the most measured, constructive tone, finding real silver linings in the series split and Luzardo's masterpiece; the fan analyst and talk-radio voices are more openly alarmed about fundamentals and October readiness, while the raw fan voice swings between Carlton comparisons for Luzardo and fury over repeated situational failures.",
+  "people_mentioned": [
+    "Luzardo",
+    "Mattingly",
+    "Marsh",
+    "Painter",
+    "Wheeler",
+    "Sanchez",
+    "Stott",
+    "Bohm",
+    "Sosa",
+    "Turner",
+    "Harper",
+    "Schwarber",
+    "Duran",
+    "Alvarado",
+    "McFarland",
+    "Nola",
+    "Realmuto",
+    "Acu\u00f1a",
+    "Hill",
+    "Raley",
+    "Bolin",
+    "Kirkering",
+    "Rincone",
+    "Aidan Miller"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 118912,
+    "youtube_attempted": 2,
+    "youtube_transcribed": 2,
+    "youtube_chars": 18310,
+    "youtube_comments": 3,
+    "youtube_comment_chars": 405,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Base running mistakes sink the Phillies yet again",
+      "voice": "fan_analyst",
+      "chars": 38204
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: There Was No Moral Victory Tonight",
+      "voice": "radio_populist",
+      "chars": 35926
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "The Wait Is Over, I'm Now Taking Over",
+      "voice": "beat_writer",
+      "chars": 44782
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Jes\u00fas Luzardo Is DOMINATING, As Phillies Rotation HEATS Up \ud83d\udd25 | 94WIP",
+      "voice": "radio_populist",
+      "chars": 7372
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Will The Bullpen COST Phillies Their Season?! | 94WIP",
+      "voice": "radio_populist",
+      "chars": 10938
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 5,
+      "recent_avg_pct": 97.4,
+      "baseline_games_count": 31,
+      "baseline_avg_pct": 97.5,
+      "delta_pct": -0.1,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823418,
+          "date": "2026-09-04",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-5",
+          "attendance": 41883,
+          "pct_capacity": 97.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823419,
+          "date": "2026-09-05",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "W 4-2",
+          "attendance": 43241,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823417,
+          "date": "2026-09-06",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 4-5",
+          "attendance": 42793,
+          "pct_capacity": 99.7,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823415,
+          "date": "2026-09-07",
+          "day_of_week": "Monday",
+          "opponent": "Atlanta Braves",
+          "result": "W 1-0",
+          "attendance": 41820,
+          "pct_capacity": 97.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823414,
+          "date": "2026-09-08",
+          "day_of_week": "Tuesday",
+          "opponent": "Houston Astros",
+          "result": "L 5-6",
+          "attendance": 39262,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "81-64",
+    "streak": "L1",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-09-09T14:14:57.339559+00:00"
+}
