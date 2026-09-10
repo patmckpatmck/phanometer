@@ -35556,5 +35556,273 @@
       "games_behind": "4.0"
     },
     "generated_at": "2026-09-09T14:14:57.339559+00:00"
+  },
+  {
+    "date": "2026-09-10",
+    "display_score": 58,
+    "reactive_score": 58,
+    "baseline_score": 59,
+    "insufficient_signal": false,
+    "content_volume": 209,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 62,
+      "front_office_trust": 48,
+      "manager_confidence": 52,
+      "lineup_confidence": 55,
+      "pitching_confidence": 63,
+      "health_outlook": 65,
+      "postseason_belief": 52
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 80,
+      "front_office_trust": 30,
+      "manager_confidence": 45,
+      "lineup_confidence": 70,
+      "pitching_confidence": 75,
+      "health_outlook": 40,
+      "postseason_belief": 65
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 63,
+        "note": "Hittin' Season and the Phillies Show both celebrate the Wednesday comeback and Schwarber's grand slam while dissecting base-running failures and debating the playoff rotation order with genuine optimism about Luzardo."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 48,
+        "note": "WIP High Hopes and 94WIP hosts are louder on the negative side \u2014 furious about chronic base-running blunders, skeptical of Sanchez as a playoff starter, and openly worried the team's fundamental sloppiness will doom them in October."
+      },
+      "youtube_fan": {
+        "score": 35,
+        "note": "YouTube commenters are purely focused on the base-running embarrassment, mocking the mistakes with T-ball comparisons and demanding accountability with zero counterbalancing positivity."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Schwarber Grand Slam Electrifies a Full-Team Comeback",
+        "delta": 7,
+        "sample": "Kyle Schwarber's tenth career grand slam capped an 11-7 comeback win over Houston, his fourth home run in five games, with the entire lineup contributing quality at-bats and situational hitting that felt like October baseball."
+      },
+      {
+        "name": "Base-Running Blunders Are a Franchise Crisis",
+        "delta": -8,
+        "sample": "Three costly mistakes in Tuesday's 6-5 loss \u2014 Bohm freezing, Marsh running into a double play, and Sosa admiring a non-homer \u2014 have crystallized a years-long concern that fundamental sloppiness will be the thing that ends the season in October."
+      },
+      {
+        "name": "Luzardo vs. Sanchez: The Playoff Rotation Debate Heats Up",
+        "delta": 3,
+        "sample": "With Luzardo arguably the most dominant pitcher in baseball since June, a genuine argument has broken out over whether Sanchez \u2014 propped up by his early-season scoreless streak \u2014 deserves a Game 1 nod over the guy who may be the better pitcher right now."
+      },
+      {
+        "name": "Sanchez's Jekyll-and-Hyde Pattern Raises Postseason Flags",
+        "delta": -5,
+        "sample": "Ten hits and six earned runs against Houston exposed a recurring fear: Sanchez navigates traffic through most starts but has enough blowup games \u2014 and low playoff-strikeout history \u2014 to make a high-leverage October start genuinely nerve-wracking."
+      },
+      {
+        "name": "Division Still Reachable as Rivals Stumble",
+        "delta": 6,
+        "sample": "With the Braves and Cubs both losing, the Phillies suddenly find themselves three games back in the division and one and a half up for the top wild card, giving the final weeks of the season real stakes on multiple fronts."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Kyle Schwarber is on some kind of heater, and he got a 3.2 sweeper right over the middle of the plate.",
+        "score": 82,
+        "source_hint": "fan analyst (Hittin' Season)"
+      },
+      {
+        "text": "It's brain dead and I think it's going to cost them a playoff game.",
+        "score": 22,
+        "source_hint": "talk-radio host (94WIP)"
+      },
+      {
+        "text": "I just have this fear they're going to put Sanchez into a game where they're going to base it off of the entire year and most of it being propped up by the 50 and two thirds scoreless.",
+        "score": 30,
+        "source_hint": "talk-radio host (WIP High Hopes)"
+      },
+      {
+        "text": "We have a young lady who plays T-ball and she would like to explain to the Phillies how to run the bases. No charge.",
+        "score": 15,
+        "source_hint": "YouTube commenters"
+      }
+    ],
+    "vibe_summary": "Wednesday's grand slam comeback has Phillies fans briefly exhaling, but the joy is already tangled up in a deep, nagging fear that chronic base-running carelessness is a character flaw this roster may carry straight into October.",
+    "reasoning": "The split between Tuesday's painful loss and Wednesday's comeback shapes everything \u2014 the comeback win earns genuine celebration, particularly around Schwarber and the full-lineup effort, but the base-running disasters from Tuesday loom larger in aggregate sentiment because they feel systemic rather than one-off. The fan analyst perspective leans constructive, parsing the rotation debate and crediting team fight, while the talk-radio framing is considerably darker, treating the base-running not as a correctable mistake but as evidence of a fundamental team identity problem that playoff pressure won't fix. The YouTube comments amplify the frustration without any counterweight.",
+    "people_mentioned": [
+      "Schwarber",
+      "Luzardo",
+      "Sanchez",
+      "Mattingly",
+      "Painter",
+      "Turner",
+      "Marsh",
+      "Sosa",
+      "Bohm",
+      "Stott",
+      "Wheeler",
+      "Harper",
+      "Realmuto",
+      "Nola",
+      "Raley",
+      "Dombrowski",
+      "De La Cruz",
+      "McFarlane",
+      "Alvarado",
+      "Hill",
+      "Urias"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 144389,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 9336,
+      "youtube_comments": 4,
+      "youtube_comment_chars": 534,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Show Some Heart",
+        "voice": "fan_analyst",
+        "chars": 38654
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Schwarber Grand Slam Caps Off Comeback",
+        "voice": "radio_populist",
+        "chars": 33914
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Base running mistakes sink the Phillies yet again",
+        "voice": "fan_analyst",
+        "chars": 38549
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: There Was No Moral Victory Tonight",
+        "voice": "radio_populist",
+        "chars": 33272
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies INFURIATING Base Running",
+        "voice": "radio_populist",
+        "chars": 1709
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Ripping The Phillies INEXCUSABLY BAD Base Running",
+        "voice": "radio_populist",
+        "chars": 6901
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Need A KICK In The Ass",
+        "voice": "radio_populist",
+        "chars": 726
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 96.2,
+        "baseline_games_count": 31,
+        "baseline_avg_pct": 97.5,
+        "delta_pct": -1.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823418,
+            "date": "2026-09-04",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-5",
+            "attendance": 41883,
+            "pct_capacity": 97.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823419,
+            "date": "2026-09-05",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "W 4-2",
+            "attendance": 43241,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823417,
+            "date": "2026-09-06",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 4-5",
+            "attendance": 42793,
+            "pct_capacity": 99.7,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823415,
+            "date": "2026-09-07",
+            "day_of_week": "Monday",
+            "opponent": "Atlanta Braves",
+            "result": "W 1-0",
+            "attendance": 41820,
+            "pct_capacity": 97.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823414,
+            "date": "2026-09-08",
+            "day_of_week": "Tuesday",
+            "opponent": "Houston Astros",
+            "result": "L 5-6",
+            "attendance": 39262,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823416,
+            "date": "2026-09-09",
+            "day_of_week": "Wednesday",
+            "opponent": "Houston Astros",
+            "result": "W 11-7",
+            "attendance": 38642,
+            "pct_capacity": 90.1,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "82-64",
+      "streak": "W1",
+      "games_behind": "3.0"
+    },
+    "generated_at": "2026-09-10T14:11:08.002625+00:00"
   }
 ]
