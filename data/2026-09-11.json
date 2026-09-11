@@ -1,0 +1,280 @@
+{
+  "date": "2026-09-11",
+  "display_score": 46,
+  "reactive_score": 46,
+  "baseline_score": 59,
+  "insufficient_signal": false,
+  "content_volume": 257,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 32,
+    "front_office_trust": 55,
+    "manager_confidence": 48,
+    "lineup_confidence": 38,
+    "pitching_confidence": 68,
+    "health_outlook": 72,
+    "postseason_belief": 30
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 45,
+    "manager_confidence": 50,
+    "lineup_confidence": 80,
+    "pitching_confidence": 82,
+    "health_outlook": 45,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 40,
+      "note": "Hittin' Season and Phillies Talk both catalog the same familiar failures \u2014 chase rate historic lows, base-running blunders, bullpen bridge uncertainty \u2014 with Wheeler's resurgence as the lone sustained bright spot; tone is frustrated but not despairing."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 35,
+      "note": "High Hopes and the 94WIP clips lean harder into alarm: the bullpen bridge to Duran is described as broken, the offense 'horrendous' in day games, and the base-running called an 'epidemic'; Wheeler's mechanics interview provides the episode's only relief."
+    },
+    "youtube_fan": {
+      "score": 22,
+      "note": "Two comments, both negative \u2014 one predicting a weekend series loss and playoff exit, one fixating on Harper's appearance rather than substance; raw dismissiveness with no positive signal."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Base-Running Blunders Reach a Breaking Point",
+      "delta": -7,
+      "sample": "Sosa admiring a non-homer, Marsh doubled off on a line drive, Bohm nearly chased down by Stott \u2014 three egregious mistakes in one series against a sub-.500 Astros team have fans and analysts questioning whether this is fixable before October."
+    },
+    {
+      "name": "Zach Wheeler Is Back",
+      "delta": 7,
+      "sample": "Seven innings, one run, nine strikeouts against Houston \u2014 and Wheeler himself explained the glove-position mechanical fix that has produced a 1.42 ERA over his last three starts; the rotation's anchor appears to have been re-anchored."
+    },
+    {
+      "name": "Chase Rate Hits Historic Low in a Single Game",
+      "delta": -8,
+      "sample": "The Phillies swung at more pitches out of the zone than they took on Thursday \u2014 the first time their chase rate exceeded 50% in a single game since the stat was tracked beginning in 2009 \u2014 undoing months of disciplined plate work in one afternoon."
+    },
+    {
+      "name": "Bullpen Bridge to Duran Is the Biggest October Question",
+      "delta": -6,
+      "sample": "Duran has now taken losses in two of his last three appearances, Alvarado is trusted out of stubbornness rather than performance, and McFarlane is a rookie; nobody can name with confidence who hands Duran a lead in the eighth inning of a playoff game."
+    },
+    {
+      "name": "Division Title Mathematically Alive But Emotionally Over",
+      "delta": -4,
+      "sample": "Four games back with 15 to play, facing the same Braves rotation that handled them a week ago, on the road \u2014 analysts are openly conceding the wild card is the path, and locking up the top seed over the Cubs is the only realistic goal worth pursuing."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We have no idea how this is going to go. They could go to the World Series or lose in the first two games.",
+      "score": 45,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    },
+    {
+      "text": "This team, if they want to be a championship caliber team, they can't do it. It can't be about the other teams.",
+      "score": 30,
+      "source_hint": "fan analyst (The Phillies Show)"
+    },
+    {
+      "text": "The free-swinging ways that plagued Philadelphia earlier this season not only returned, but did so at a historical level.",
+      "score": 18,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "The last seven games haven't been great, obviously. Just got to be better.",
+      "score": 28,
+      "source_hint": "Bryce Harper, via 94WIP clip"
+    }
+  ],
+  "vibe_summary": "Wheeler's mechanical resurrection is real and the rotation remains formidable, but a historically bad chase rate, relentless base-running carelessness, and a bullpen without a trustworthy bridge have left fans staring at October with more dread than belief.",
+  "reasoning": "The dominant mood is one of qualified alarm: the rotation \u2014 particularly Wheeler's return to form \u2014 gives fans something to hold onto, but nearly every other facet of the team is flashing warning signs at the worst possible time. The offensive plate discipline that defined August has collapsed, the base-running failures have become a multi-day story of professional embarrassment, and the bullpen's eighth-inning problem has no clean answer. The most pointed divergence is between the analytical framing \u2014 which contextualizes the flaws as recurring but manageable \u2014 and the rawer reactive content, which is openly predicting a first-round exit and questioning whether this roster has the discipline to survive October.",
+  "people_mentioned": [
+    "Wheeler",
+    "Luzardo",
+    "Schwarber",
+    "Harper",
+    "Duran",
+    "Sanchez",
+    "Mattingly",
+    "RealMuto",
+    "Marsh",
+    "Bohm",
+    "Stott",
+    "Turner",
+    "Sosa",
+    "Nola",
+    "Painter",
+    "Alvarado",
+    "McFarlane",
+    "Arise",
+    "Dombrowski",
+    "Stubbs",
+    "Hill",
+    "Cora",
+    "Acuna"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 188848,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 2193,
+    "youtube_comments": 2,
+    "youtube_comment_chars": 243,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "It\u2019s Round Two for the Phillies and Braves in September",
+      "voice": "fan_analyst",
+      "chars": 57440
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "October is near and the Phillies are chasing again",
+      "voice": "fan_analyst",
+      "chars": 36031
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Are We Sure We Want Homefield Advantage In The Playoffs?",
+      "voice": "radio_populist",
+      "chars": 52984
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Too many little mistakes cost Phillies a HUGE chance to gain ground in NL East",
+      "voice": "fan_analyst",
+      "chars": 42393
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Don Mattingly Praises Zack Wheeler",
+      "voice": "radio_populist",
+      "chars": 276
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Zack Wheeler Getting \"Comfortable\" Again",
+      "voice": "radio_populist",
+      "chars": 1549
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Ready For Elite Challenges",
+      "voice": "radio_populist",
+      "chars": 368
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 94.8,
+      "baseline_games_count": 31,
+      "baseline_avg_pct": 97.5,
+      "delta_pct": -2.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823418,
+          "date": "2026-09-04",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-5",
+          "attendance": 41883,
+          "pct_capacity": 97.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823419,
+          "date": "2026-09-05",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "W 4-2",
+          "attendance": 43241,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823417,
+          "date": "2026-09-06",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 4-5",
+          "attendance": 42793,
+          "pct_capacity": 99.7,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823415,
+          "date": "2026-09-07",
+          "day_of_week": "Monday",
+          "opponent": "Atlanta Braves",
+          "result": "W 1-0",
+          "attendance": 41820,
+          "pct_capacity": 97.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823414,
+          "date": "2026-09-08",
+          "day_of_week": "Tuesday",
+          "opponent": "Houston Astros",
+          "result": "L 5-6",
+          "attendance": 39262,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823416,
+          "date": "2026-09-09",
+          "day_of_week": "Wednesday",
+          "opponent": "Houston Astros",
+          "result": "W 11-7",
+          "attendance": 38642,
+          "pct_capacity": 90.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823413,
+          "date": "2026-09-10",
+          "day_of_week": "Thursday",
+          "opponent": "Houston Astros",
+          "result": "L 1-2",
+          "attendance": 37100,
+          "pct_capacity": 86.5,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "82-65",
+    "streak": "L1",
+    "games_behind": "4.0"
+  },
+  "generated_at": "2026-09-11T14:11:56.133924+00:00"
+}
