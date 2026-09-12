@@ -1,0 +1,259 @@
+{
+  "date": "2026-09-12",
+  "display_score": 45,
+  "reactive_score": 45,
+  "baseline_score": 55,
+  "insufficient_signal": false,
+  "content_volume": 220,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 38,
+    "front_office_trust": 52,
+    "manager_confidence": 48,
+    "lineup_confidence": 38,
+    "pitching_confidence": 60,
+    "health_outlook": 68,
+    "postseason_belief": 35
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 45,
+    "manager_confidence": 50,
+    "lineup_confidence": 88,
+    "pitching_confidence": 80,
+    "health_outlook": 40,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 42,
+      "note": "Hittin' Season and Phillies Talk both detail base-running blunders, historically bad chase rates, and serious doubts about Sanchez and the bullpen bridge heading into October; Wheeler's return is the lone bright spot."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 40,
+      "note": "Talk-radio host (High Hopes / WIP Daily) is exasperated by the three-headed problem of offensive inconsistency, dumb base running, and the bullpen bridge gap, while openly debating whether the team is better off without home-field advantage in October."
+    },
+    "youtube_fan": {
+      "score": 28,
+      "note": "YouTube commenters are dismissive of the Turner turnaround narrative and take a shot at the franchise's overall talent ceiling."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Division Fading, Wild Card the Real Goal",
+      "delta": -4,
+      "sample": "Five games back with 16 to play and the Braves holding the tiebreaker, the math for a third straight NL East title is nearly gone \u2014 the conversation has shifted to locking up the top wild card spot instead."
+    },
+    {
+      "name": "Base-Running Carelessness Defines the Homestand",
+      "delta": -5,
+      "sample": "Sosa staring at a ball he thought was a homer, Marsh getting doubled off on a line drive, Bohm freezing and clogging the bases \u2014 three blunders in one series that each, on its own, could have tied a game the Phillies lost by one run."
+    },
+    {
+      "name": "Wheeler Is Back, Sanchez Is Not",
+      "delta": 3,
+      "sample": "Seven innings, one earned, nine strikeouts against Houston confirmed Wheeler's mechanical fix is real; Sanchez, meanwhile, is missing his fastball spot by feet and generating a fraction of his normal whiffs, raising serious questions about his playoff role."
+    },
+    {
+      "name": "Bullpen Bridge to Duran Remains Unsolved",
+      "delta": -4,
+      "sample": "The seventh and eighth innings are an open wound \u2014 Alvarado draws grimaces, McFarlane shows promise but has two-day-rest issues, and nobody can articulate who gets the ball in a tight playoff game before Duran arrives."
+    },
+    {
+      "name": "Luzardo Framing for Game One Gaining Momentum",
+      "delta": 5,
+      "sample": "On the verge of a 10-0 road record with an ERA under two on the road, there is a growing and urgent case that starting anyone other than Luzardo in a wild-card Game 1 would be malpractice."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "This team is not good enough to do stupid crap like this.",
+      "score": 22,
+      "source_hint": "talk-radio host (High Hopes / WIP)"
+    },
+    {
+      "text": "If the season ended today, I can't tell you I have a ton of faith in him heading into a postseason start.",
+      "score": 30,
+      "source_hint": "talk-radio host (High Hopes / WIP), on Sanchez"
+    },
+    {
+      "text": "I have confidence, but I also have anti-confidence.",
+      "score": 45,
+      "source_hint": "fan analyst (Hittin' Season), on the upcoming Braves series"
+    },
+    {
+      "text": "Turner's turnaround? He's batting .240",
+      "score": 20,
+      "source_hint": "YouTube commenter on Trea Turner segment"
+    }
+  ],
+  "vibe_summary": "The division is slipping away, the bullpen remains an unsolved puzzle, and Sanchez's shaky command has fans quietly rearranging the playoff rotation \u2014 but Wheeler's return keeps the October dream breathing.",
+  "reasoning": "The dominant mood is anxious resignation: the NL East is effectively conceded, and attention has shifted to surviving the wild-card round with a roster that keeps exposing the same flaws \u2014 base-running, offensive inconsistency against good pitching, and a leaky late-inning bridge \u2014 at the worst possible time. Wheeler's resurgence and Luzardo's road dominance provide genuine lift, but the undercurrent of dread about Sanchez and the bullpen keeps postseason belief low. There is no coping framing lifting that number \u2014 the expressed uncertainty about October is real and unresolved.",
+  "people_mentioned": [
+    "Luzardo",
+    "Wheeler",
+    "Sanchez",
+    "Duran",
+    "Turner",
+    "Schwarber",
+    "Harper",
+    "Mattingly",
+    "McFarlane",
+    "Bohm",
+    "Marsh",
+    "Stott",
+    "Nola",
+    "RealMuto",
+    "Painter",
+    "Alvarado",
+    "Dombrowski",
+    "Sosa",
+    "Acuna",
+    "Stubbs"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 149628,
+    "youtube_attempted": 1,
+    "youtube_transcribed": 1,
+    "youtube_chars": 13647,
+    "youtube_comments": 2,
+    "youtube_comment_chars": 108,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "It\u2019s Round Two for the Phillies and Braves in September",
+      "voice": "fan_analyst",
+      "chars": 58486
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Are We Sure We Want Homefield Advantage In The Playoffs?",
+      "voice": "radio_populist",
+      "chars": 48945
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Too many little mistakes cost Phillies a HUGE chance to gain ground in NL East",
+      "voice": "fan_analyst",
+      "chars": 42197
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Trea Turner's Turnaround And Andrew Painter's Playoff Role | 94WIP",
+      "voice": "radio_populist",
+      "chars": 13647
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 94.8,
+      "baseline_games_count": 31,
+      "baseline_avg_pct": 97.5,
+      "delta_pct": -2.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823418,
+          "date": "2026-09-04",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-5",
+          "attendance": 41883,
+          "pct_capacity": 97.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823419,
+          "date": "2026-09-05",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "W 4-2",
+          "attendance": 43241,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823417,
+          "date": "2026-09-06",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 4-5",
+          "attendance": 42793,
+          "pct_capacity": 99.7,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823415,
+          "date": "2026-09-07",
+          "day_of_week": "Monday",
+          "opponent": "Atlanta Braves",
+          "result": "W 1-0",
+          "attendance": 41820,
+          "pct_capacity": 97.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823414,
+          "date": "2026-09-08",
+          "day_of_week": "Tuesday",
+          "opponent": "Houston Astros",
+          "result": "L 5-6",
+          "attendance": 39262,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823416,
+          "date": "2026-09-09",
+          "day_of_week": "Wednesday",
+          "opponent": "Houston Astros",
+          "result": "W 11-7",
+          "attendance": 38642,
+          "pct_capacity": 90.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823413,
+          "date": "2026-09-10",
+          "day_of_week": "Thursday",
+          "opponent": "Houston Astros",
+          "result": "L 1-2",
+          "attendance": 37100,
+          "pct_capacity": 86.5,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "82-66",
+    "streak": "L2",
+    "games_behind": "5.0"
+  },
+  "generated_at": "2026-09-12T13:32:00.726119+00:00"
+}
