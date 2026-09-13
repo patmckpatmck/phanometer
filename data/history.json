@@ -36363,5 +36363,263 @@
       "games_behind": "5.0"
     },
     "generated_at": "2026-09-12T13:32:00.726119+00:00"
+  },
+  {
+    "date": "2026-09-13",
+    "display_score": 48,
+    "reactive_score": 48,
+    "baseline_score": 52,
+    "insufficient_signal": false,
+    "content_volume": 185,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 32,
+      "front_office_trust": 52,
+      "manager_confidence": 50,
+      "lineup_confidence": 38,
+      "pitching_confidence": 68,
+      "health_outlook": 72,
+      "postseason_belief": 42
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 30,
+      "manager_confidence": 45,
+      "lineup_confidence": 80,
+      "pitching_confidence": 88,
+      "health_outlook": 55,
+      "postseason_belief": 75
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 40,
+        "note": "Fan analyst voices on Phillies Talk and The Phillies Show are deeply frustrated by base-running blunders, offensive inconsistency, and the chase-rate regression, while drawing real comfort from Wheeler's mechanical resurrection and Luzardo's dominance."
+      },
+      "beat_writer": {
+        "score": 52,
+        "note": "The beat writer (Phillies Therapy) takes the most measured view \u2014 optimistic about the rotation's playoff ceiling and openly debating creative deployment of Luzardo, but clear-eyed that the bullpen is thin and the division is effectively gone."
+      },
+      "radio_populist": {
+        "score": 45,
+        "note": "Talk-radio host (WIP Daily) and beat reporter Scott Fransky focus on Turner's potential turnaround and Painter's playoff role, acknowledging the division math is unfavorable while noting Mattingly's steady message to win every game."
+      },
+      "youtube_fan": {
+        "score": 22,
+        "note": "YouTube commenters are dismissive and sarcastic \u2014 one flatly rejects the Turner turnaround narrative citing his average, another provocatively ranks Acu\u00f1a above any Phillies player ever."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Base-running carelessness reaches crisis level",
+        "delta": -7,
+        "sample": "Bohm, Marsh, and Sosa each committed costly base-running blunders across the homestand, with the crew cataloguing a pattern that has plagued the team all year and promising to haunt them in October."
+      },
+      {
+        "name": "Wheeler's return is for real",
+        "delta": 7,
+        "sample": "A mechanical fix \u2014 lower hand position, driving with the lower half \u2014 has produced three consecutive quality starts with a sub-1.50 ERA and 24 strikeouts, restoring genuine confidence in the top of the rotation."
+      },
+      {
+        "name": "Bullpen so thin it's reshaping playoff strategy",
+        "delta": -6,
+        "sample": "With only Duran drawing blind trust and everyone else ranging from spotty to unreliable, serious debate has opened about deploying Luzardo out of the bullpen in Game 1 of a wild-card series rather than as a starter."
+      },
+      {
+        "name": "Offense in free-fall against quality pitching",
+        "delta": -6,
+        "sample": "A historically bad single-game chase rate, 11-for-55 with runners in scoring position across the homestand, and the all-or-nothing feast-or-famine pattern have revived fear that October will look exactly like the last two years."
+      },
+      {
+        "name": "Wild-card top seed is now the realistic goal",
+        "delta": -4,
+        "sample": "With the Braves holding the tiebreaker and the Phillies needing something close to a miracle to catch them in the division, the focus has shifted entirely to protecting the one-game edge over the Cubs for home-field in the wild-card series."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "If we don't, it's going to look exactly like it did the last couple of years.",
+        "score": 28,
+        "source_hint": "Bryce Harper post-game, quoted on The Phillies Show (fan analyst)"
+      },
+      {
+        "text": "I feel like every time we sit down, it's like, okay, we're back to four games behind the Braves.",
+        "score": 30,
+        "source_hint": "Phillies Talk co-host (fan analyst)"
+      },
+      {
+        "text": "The Phillies are not the favorite in the National League. The Phillies can absolutely win the National League.",
+        "score": 58,
+        "source_hint": "Phillies Therapy beat writer"
+      },
+      {
+        "text": "Turner's turnaround? He's batting .240",
+        "score": 20,
+        "source_hint": "YouTube commenter on WIP Daily video"
+      }
+    ],
+    "vibe_summary": "Luzardo's complete-game brilliance and Wheeler's mechanical resurrection have given the rotation a genuine October identity, but a historically broken chase rate, serial base-running failures, and a bullpen that can barely field one trusted arm are forcing fans to confront whether this team is built to survive a short series.",
+    "reasoning": "The dominant mood is anxious optimism with a pessimistic undertow: the rotation is legitimately exciting, but the offense's regression to bad habits and the bullpen's fragility are reopening wounds from the last two postseason exits. Analysis has grown notably more creative and desperate in response \u2014 openly floating unorthodox playoff deployment of Luzardo \u2014 while the rawer fan reaction dismisses Turner's supposed turnaround and rates the overall situation with low confidence. The division is functionally conceded; the conversation has shifted entirely to wild-card positioning and October survival strategy.",
+    "people_mentioned": [
+      "Luzardo",
+      "Wheeler",
+      "Turner",
+      "Harper",
+      "Mattingly",
+      "Schwarber",
+      "Duran",
+      "Sanchez",
+      "Nola",
+      "Bohm",
+      "Marsh",
+      "Stott",
+      "Painter",
+      "McFarland",
+      "Alvarado",
+      "Bolin",
+      "Acu\u00f1a",
+      "Stubbs",
+      "Realmuto"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 3,
+      "podcasts_transcribed": 3,
+      "podcast_chars": 123265,
+      "youtube_attempted": 1,
+      "youtube_transcribed": 1,
+      "youtube_chars": 13647,
+      "youtube_comments": 2,
+      "youtube_comment_chars": 108,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "October is near and the Phillies are chasing again",
+        "voice": "fan_analyst",
+        "chars": 35022
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Too many little mistakes cost Phillies a HUGE chance to gain ground in NL East",
+        "voice": "fan_analyst",
+        "chars": 41979
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "The Wait Is Over, I'm Now Taking Over",
+        "voice": "beat_writer",
+        "chars": 46264
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Trea Turner's Turnaround And Andrew Painter's Playoff Role | 94WIP",
+        "voice": "radio_populist",
+        "chars": 13647
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 94.8,
+        "baseline_games_count": 31,
+        "baseline_avg_pct": 97.5,
+        "delta_pct": -2.7,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823418,
+            "date": "2026-09-04",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-5",
+            "attendance": 41883,
+            "pct_capacity": 97.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823419,
+            "date": "2026-09-05",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "W 4-2",
+            "attendance": 43241,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823417,
+            "date": "2026-09-06",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 4-5",
+            "attendance": 42793,
+            "pct_capacity": 99.7,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823415,
+            "date": "2026-09-07",
+            "day_of_week": "Monday",
+            "opponent": "Atlanta Braves",
+            "result": "W 1-0",
+            "attendance": 41820,
+            "pct_capacity": 97.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823414,
+            "date": "2026-09-08",
+            "day_of_week": "Tuesday",
+            "opponent": "Houston Astros",
+            "result": "L 5-6",
+            "attendance": 39262,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823416,
+            "date": "2026-09-09",
+            "day_of_week": "Wednesday",
+            "opponent": "Houston Astros",
+            "result": "W 11-7",
+            "attendance": 38642,
+            "pct_capacity": 90.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823413,
+            "date": "2026-09-10",
+            "day_of_week": "Thursday",
+            "opponent": "Houston Astros",
+            "result": "L 1-2",
+            "attendance": 37100,
+            "pct_capacity": 86.5,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "82-67",
+      "streak": "L3",
+      "games_behind": "6.0"
+    },
+    "generated_at": "2026-09-13T14:08:35.623170+00:00"
   }
 ]
