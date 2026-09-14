@@ -36621,5 +36621,275 @@
       "games_behind": "6.0"
     },
     "generated_at": "2026-09-13T14:08:35.623170+00:00"
+  },
+  {
+    "date": "2026-09-14",
+    "display_score": 41,
+    "reactive_score": 41,
+    "baseline_score": 51,
+    "insufficient_signal": false,
+    "content_volume": 236,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 38,
+      "front_office_trust": 52,
+      "manager_confidence": 48,
+      "lineup_confidence": 40,
+      "pitching_confidence": 52,
+      "health_outlook": 32,
+      "postseason_belief": 30
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 85,
+      "front_office_trust": 25,
+      "manager_confidence": 55,
+      "lineup_confidence": 80,
+      "pitching_confidence": 88,
+      "health_outlook": 92,
+      "postseason_belief": 78
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 40,
+        "note": "Hittin' Season / Stolnis, Klugh, Roscher and Phillies Talk hosts share deep alarm over Luzardo's shoulder, a depleted bullpen, serial base-running failures, and an inconsistent offense \u2014 some resilience credit given for Sunday's rally, but overall concern is high."
+      },
+      "beat_writer": {
+        "score": 38,
+        "note": "Phillies Therapy (Matt Gelb) offers the most granular pessimism: Luzardo's shoulder stiffness in mid-September is treated as a near-crisis, Marsh's 499 OPS since July 1st is called historically bad, and bullpen depth for a playoff run is described as genuinely alarming."
+      },
+      "radio_populist": {
+        "score": 32,
+        "note": "Talk-radio host (WIP Daily / Joe Giglio) is disgusted by the base-running epidemic \u2014 calling it the worst two-week stretch ever witnessed \u2014 and furious the team didn't retaliate against Acuna, framing the series loss in terms of guts and self-respect."
+      },
+      "youtube_fan": {
+        "score": 22,
+        "note": "YouTube commenters are raw and hostile, directing anger at Harper's slow home-run trot and, in one comment, openly calling for him to be hit by a pitch \u2014 the most emotionally unfiltered reaction in today's content."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Luzardo's Shoulder Casts a Shadow Over October",
+        "delta": -8,
+        "sample": "Shoulder inflammation in mid-September \u2014 for the team's best starter and most versatile postseason weapon \u2014 is the dominant anxiety of the day, with the MRI clean result providing only partial relief given the calendar."
+      },
+      {
+        "name": "Bullpen Depth Is a Genuine Playoff Crisis",
+        "delta": -7,
+        "sample": "With Bolin fading, Raley untrusted, Alvarado erratic, and Kirkering banged up, the functional relief corps may be just two arms deep \u2014 a frightening reality for a best-of-three wild card series."
+      },
+      {
+        "name": "Base-Running Epidemic Reaches Historic Low",
+        "delta": -6,
+        "sample": "Three caught-stealing-type blunders at second-to-third in roughly ten days \u2014 including Harper, Bohm, Sosa, and Marsh \u2014 have analysts calling it the worst two-week stretch of fundamental baseball in recent memory."
+      },
+      {
+        "name": "Marsh and Arise Both Slumping at the Wrong Moment",
+        "delta": -5,
+        "sample": "Brandon Marsh's 499 OPS since July 1st ranks last among all qualified hitters by a wide margin, while Luis Arise is posting career-low quality-of-contact numbers and leading the team in ground-into-double-plays."
+      },
+      {
+        "name": "Sunday's Rally Keeps Wild Card Hopes Alive",
+        "delta": 4,
+        "sample": "A seven-run eighth inning in Atlanta \u2014 with two outs, Bohm and Stott delivering, and Schwarber providing a key single \u2014 salvaged the series finale and reminded observers what this offense can look like when it clicks."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "He has a 499 OPS since July 1st. He ranks 156th by a 25 point difference below Dalton Varsho.",
+        "score": 12,
+        "source_hint": "beat writer (Phillies Therapy), on Brandon Marsh"
+      },
+      {
+        "text": "I have never seen a worse like roughly two week stretch of base running in my life.",
+        "score": 15,
+        "source_hint": "talk-radio host (WIP Daily / Joe Giglio)"
+      },
+      {
+        "text": "If they don't have a healthy Lizardo, I just don't think they have the arms and the offense certainly isn't consistent enough as it is.",
+        "score": 22,
+        "source_hint": "fan analyst (Phillies Talk / NBC Sports Philadelphia)"
+      },
+      {
+        "text": "It doesn't doom everything. It doesn't guarantee the Phillies a loss. But man, if you want this team to have a shot at going deep, that's a guy you need to have.",
+        "score": 38,
+        "source_hint": "beat writer (Phillies Therapy), on Luzardo's health"
+      }
+    ],
+    "vibe_summary": "Luzardo's shoulder stiffness has reordered every conversation about October, exposing just how thin the margin for error is on a team already undermined by a depleted bullpen, two slumping middle-of-the-order bats, and base-running mistakes that have become a running punchline.",
+    "reasoning": "The Luzardo shoulder news is the single gravitational force pulling down nearly every dimension today \u2014 pitching confidence, health outlook, and postseason belief all sink around it, because he is simultaneously the ace, the bullpen bridge option, and the main reason this rotation was considered a playoff weapon. Compounding matters, Marsh's historically bad second half, Arise's pop-up problem, and the base-running epidemic have analysts openly questioning whether this team can execute the small-ball situations that October demands. The only countervailing signal is the Sunday comeback and Wheeler's continued resurgence, but those are treated as footnotes rather than reassurances against the Luzardo backdrop.",
+    "people_mentioned": [
+      "Luzardo",
+      "Marsh",
+      "Harper",
+      "Wheeler",
+      "Nola",
+      "Sanchez",
+      "Duran",
+      "Mattingly",
+      "Bohm",
+      "Stott",
+      "Schwarber",
+      "Turner",
+      "Arise",
+      "McFarlane",
+      "Alvarado",
+      "Painter",
+      "Bolin",
+      "Kirkering",
+      "Raley",
+      "Hill",
+      "De La Cruz",
+      "Acuna",
+      "Realmuto",
+      "Stott",
+      "Thomson"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 167685,
+      "youtube_attempted": 1,
+      "youtube_transcribed": 1,
+      "youtube_chars": 7698,
+      "youtube_comments": 2,
+      "youtube_comment_chars": 467,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "You Can Wade Through Boggs; Can You Brandon Through a Marsh?",
+        "voice": "beat_writer",
+        "chars": 46747
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Phillies chase an NL Wild Card, but can Jes\u00fas Luzardo help?",
+        "voice": "fan_analyst",
+        "chars": 38706
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies avoid sweep, but still a disappointing and concerning series in Atlanta",
+        "voice": "fan_analyst",
+        "chars": 40179
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Too many little mistakes cost Phillies a HUGE chance to gain ground in NL East",
+        "voice": "fan_analyst",
+        "chars": 42053
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "The 'Worst Phillies Two-Week Baserunning Stretch EVER' \ud83e\udd2f | 94WIP",
+        "voice": "radio_populist",
+        "chars": 7698
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 94.8,
+        "baseline_games_count": 31,
+        "baseline_avg_pct": 97.5,
+        "delta_pct": -2.7,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823418,
+            "date": "2026-09-04",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-5",
+            "attendance": 41883,
+            "pct_capacity": 97.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823419,
+            "date": "2026-09-05",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "W 4-2",
+            "attendance": 43241,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823417,
+            "date": "2026-09-06",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 4-5",
+            "attendance": 42793,
+            "pct_capacity": 99.7,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823415,
+            "date": "2026-09-07",
+            "day_of_week": "Monday",
+            "opponent": "Atlanta Braves",
+            "result": "W 1-0",
+            "attendance": 41820,
+            "pct_capacity": 97.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823414,
+            "date": "2026-09-08",
+            "day_of_week": "Tuesday",
+            "opponent": "Houston Astros",
+            "result": "L 5-6",
+            "attendance": 39262,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823416,
+            "date": "2026-09-09",
+            "day_of_week": "Wednesday",
+            "opponent": "Houston Astros",
+            "result": "W 11-7",
+            "attendance": 38642,
+            "pct_capacity": 90.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823413,
+            "date": "2026-09-10",
+            "day_of_week": "Thursday",
+            "opponent": "Houston Astros",
+            "result": "L 1-2",
+            "attendance": 37100,
+            "pct_capacity": 86.5,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "83-67",
+      "streak": "W1",
+      "games_behind": "5.0"
+    },
+    "generated_at": "2026-09-14T16:18:29.381377+00:00"
   }
 ]
