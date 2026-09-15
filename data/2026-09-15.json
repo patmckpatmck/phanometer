@@ -1,0 +1,268 @@
+{
+  "date": "2026-09-15",
+  "display_score": 44,
+  "reactive_score": 44,
+  "baseline_score": 48,
+  "insufficient_signal": false,
+  "content_volume": 298,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 42,
+    "front_office_trust": 52,
+    "manager_confidence": 48,
+    "lineup_confidence": 38,
+    "pitching_confidence": 54,
+    "health_outlook": 40,
+    "postseason_belief": 38
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 80,
+    "front_office_trust": 35,
+    "manager_confidence": 40,
+    "lineup_confidence": 85,
+    "pitching_confidence": 82,
+    "health_outlook": 90,
+    "postseason_belief": 75
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 44,
+      "note": "Hittin' Season and The Phillies Show both dwell on structural flaws \u2014 bullpen rot, offline middle-of-the-order bats, base-running epidemic \u2014 while acknowledging a non-zero playoff ceiling; Luzardo's shoulder dominates the anxiety."
+    },
+    "beat_writer": {
+      "score": 40,
+      "note": "Phillies Therapy (Matt Gelb) is characteristically measured but frank: Luzardo's shoulder has 'poked a hole' in the team's strength, Marsh's numbers are historically bad in the second half, and the bullpen list of trustworthy arms is disturbingly short."
+    },
+    "radio_populist": {
+      "score": 46,
+      "note": "WIP High Hopes and the Jackie Baseball segment spin the division loss as preferable (wanting the road wildcard), express genuine Arraez frustration, and are cautiously encouraged by Nola and Sunday's comeback \u2014 net mood is uneasy optimism."
+    },
+    "youtube_fan": {
+      "score": 35,
+      "note": "Single dismissive comment mocking Harper coverage; signals broader Harper fatigue but too thin a sample to weight heavily."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Luzardo's Shoulder Overhangs Everything",
+      "delta": -8,
+      "sample": "Shoulder inflammation that forced a skipped start has redrawn the entire playoff pitching picture \u2014 without a healthy Luzardo, the margin to survive a three-game wildcard series shrinks to near zero, and even a compromised return may foreclose the bullpen-game-one relief plan."
+    },
+    {
+      "name": "Bullpen Beyond Repair for October",
+      "delta": -6,
+      "sample": "Seven losses and six blown saves against the four likely playoff opponents this season; Bolin appears gassed, Raley uninspiring, Alvarado inconsistent \u2014 McFarlane is now the consensus second-best reliever, a designation that reveals how thin the depth truly is."
+    },
+    {
+      "name": "Arraez and Marsh: Middle-Order Dead Weight",
+      "delta": -5,
+      "sample": "Arraez is grounding into double plays, popping up first pitches, and carrying an OPS well below what cleanup production demands; Marsh has a 499 OPS since July 1st \u2014 worst among all qualified hitters \u2014 turning two lineup spots that should provide insurance into liabilities."
+    },
+    {
+      "name": "Nola's Resurgence as Unexpected Anchor",
+      "delta": 5,
+      "sample": "After being written off earlier in the year, Aaron Nola has become the rotation's most reliable arm at the most critical moment \u2014 multiple analysts now say they would start him in a must-win playoff game without hesitation, a statement that would have been unthinkable in June."
+    },
+    {
+      "name": "Base-Running Epidemic Signals Collective Anxiety",
+      "delta": -4,
+      "sample": "Six-plus instances of veterans running into unnecessary outs in roughly two weeks \u2014 Harper, Bohm, Marsh, Hill, Turner \u2014 read not as isolated mistakes but as a symptom of a team playing terrified, pressing individually rather than executing collectively under October pressure."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Phillies are a flawed team that can play at a high enough level to give themselves a non-zero chance at winning the World Series.",
+      "score": 42,
+      "source_hint": "fan analyst, Hittin' Season"
+    },
+    {
+      "text": "We know now is that Jesus Lizardo is hurt. We don't know if he's injured. There's a difference between those two things.",
+      "score": 30,
+      "source_hint": "beat writer, Phillies Therapy"
+    },
+    {
+      "text": "Brandon Marsh has been the worst hitter in baseball now since July 1st. He ranks 156th by a 24, a 25 point difference below Dalton Varsho.",
+      "score": 22,
+      "source_hint": "beat writer, Phillies Therapy"
+    },
+    {
+      "text": "I can't believe I'm in this spot. It's awesome. We just started a hammer Sanchez game three right now, dude.",
+      "score": 68,
+      "source_hint": "talk-radio host, WIP High Hopes, on Nola's resurgence"
+    }
+  ],
+  "vibe_summary": "Twelve games left, a wildcard spot likely secured, and yet the mood is defined by a single question nobody can answer yet: is Jesus Luzardo actually okay, and if not, does this team have enough left to win in October without him?",
+  "reasoning": "The dominant emotional driver today is Luzardo's shoulder, which has transformed what should be a cautiously optimistic late-season stretch into a roster stress test. The starting rotation \u2014 specifically the Wheeler-Nola-Luzardo triad \u2014 was the clearest argument for playoff viability; with Luzardo compromised even slightly, the bullpen's well-documented failures are no longer offset. Arraez and Marsh compounding lineup concerns deepens the unease, though Nola's unlikely renaissance and Sunday's resilient comeback win provide the only genuine counter-narrative. Analysis runs broadly pessimistic about October margins, while the talk-radio framing leans toward deliberate positivity about the road-wildcard positioning \u2014 a modest divergence that doesn't materially lift overall sentiment.",
+  "people_mentioned": [
+    "Luzardo",
+    "Nola",
+    "Marsh",
+    "Arraez",
+    "Harper",
+    "Schwarber",
+    "Wheeler",
+    "Mattingly",
+    "Painter",
+    "Turner",
+    "Bohm",
+    "Stott",
+    "McFarlane",
+    "Duran",
+    "Bolin",
+    "Alvarado",
+    "Crawford",
+    "Hill",
+    "Sanchez",
+    "Rinc\u00f3n",
+    "Aidan Miller",
+    "Dombrowski",
+    "Cotham"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 207044,
+    "youtube_attempted": 1,
+    "youtube_transcribed": 1,
+    "youtube_chars": 15769,
+    "youtube_comments": 1,
+    "youtube_comment_chars": 33,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Previewing the Phillies' Final Two Weeks",
+      "voice": "fan_analyst",
+      "chars": 68952
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Is What's Happening Right Now With The Phillies Actually A Good Thing?",
+      "voice": "radio_populist",
+      "chars": 56775
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "You Can Wade Through Boggs; Can You Brandon Through a Marsh?",
+      "voice": "beat_writer",
+      "chars": 43369
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Phillies chase an NL Wild Card, but can Jes\u00fas Luzardo help?",
+      "voice": "fan_analyst",
+      "chars": 37948
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Debate Over Luis Arraez's Value To The Phillies",
+      "voice": "radio_populist",
+      "chars": 15769
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 94.8,
+      "baseline_games_count": 31,
+      "baseline_avg_pct": 97.5,
+      "delta_pct": -2.7,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823418,
+          "date": "2026-09-04",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-5",
+          "attendance": 41883,
+          "pct_capacity": 97.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823419,
+          "date": "2026-09-05",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "W 4-2",
+          "attendance": 43241,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823417,
+          "date": "2026-09-06",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 4-5",
+          "attendance": 42793,
+          "pct_capacity": 99.7,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823415,
+          "date": "2026-09-07",
+          "day_of_week": "Monday",
+          "opponent": "Atlanta Braves",
+          "result": "W 1-0",
+          "attendance": 41820,
+          "pct_capacity": 97.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823414,
+          "date": "2026-09-08",
+          "day_of_week": "Tuesday",
+          "opponent": "Houston Astros",
+          "result": "L 5-6",
+          "attendance": 39262,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823416,
+          "date": "2026-09-09",
+          "day_of_week": "Wednesday",
+          "opponent": "Houston Astros",
+          "result": "W 11-7",
+          "attendance": 38642,
+          "pct_capacity": 90.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823413,
+          "date": "2026-09-10",
+          "day_of_week": "Thursday",
+          "opponent": "Houston Astros",
+          "result": "L 1-2",
+          "attendance": 37100,
+          "pct_capacity": 86.5,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "83-67",
+    "streak": "W1",
+    "games_behind": "4.5"
+  },
+  "generated_at": "2026-09-15T14:48:48.548538+00:00"
+}
