@@ -1,0 +1,279 @@
+{
+  "date": "2026-09-16",
+  "display_score": 28,
+  "reactive_score": 28,
+  "baseline_score": 47,
+  "insufficient_signal": false,
+  "content_volume": 291,
+  "mood_label": "Not Again",
+  "dimensions": {
+    "results_satisfaction": 22,
+    "front_office_trust": 38,
+    "manager_confidence": 32,
+    "lineup_confidence": 30,
+    "pitching_confidence": 35,
+    "health_outlook": 20,
+    "postseason_belief": 28
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 90,
+    "front_office_trust": 55,
+    "manager_confidence": 72,
+    "lineup_confidence": 85,
+    "pitching_confidence": 88,
+    "health_outlook": 92,
+    "postseason_belief": 78
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 35,
+      "note": "Hittin' Season and The Phillies Show both alarmed by Luzardo's IL placement, Boland's collapse, and an offense with only two above-average hitters; tempered by residual belief the rotation can still carry a short series."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 22,
+      "note": "WIP hosts and callers openly 'freaking out' over Luzardo; Mattingly's bullpen management questioned, Sanchez's decline dissected, and callers demanding wholesale front-office changes after a loss to an effectively-tanking Nationals squad."
+    },
+    "youtube_fan": {
+      "score": 18,
+      "note": "Single comment captures peak anxiety \u2014 questioning whether the Phillies even make the playoffs, not just whether they can advance."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Luzardo on IL \u2014 Postseason Rotation in Jeopardy",
+      "delta": -9,
+      "sample": "The ace is on the injured list with shoulder inflammation 11 days before the playoffs, and nobody can say with confidence he pitches in the wild-card round \u2014 the single most alarming development of the stretch run."
+    },
+    {
+      "name": "Boland's Collapse and Leverage Bullpen Crisis",
+      "delta": -7,
+      "sample": "Boland has allowed runs in five straight appearances and surrendered four home runs in his last seven innings; with Brad Keller already lost, there is no clear high-leverage option between McFarlane \u2014 who was in Double-A two months ago \u2014 and Jwan Duran."
+    },
+    {
+      "name": "Offense Reverts to Worst Habits",
+      "delta": -6,
+      "sample": "Chase rates and strikeout-to-walk ratios have deteriorated sharply since August; the bottom of the lineup went 0-for-15 without a baserunner after the fifth spot, and only Harper and Schwarber carry an above-average OPS-plus on the roster."
+    },
+    {
+      "name": "Mattingly's Bullpen Decisions Under Fire",
+      "delta": -5,
+      "sample": "First-pitch changeup to a lefty pinch hitter with runners on second and third, McFarlane deployed in low-leverage spots while higher-leverage situations go to a fatiguing Boland \u2014 the manager's in-game management is drawing pointed criticism from multiple directions."
+    },
+    {
+      "name": "Sanchez Fatigue and Rotation Depth Concerns",
+      "delta": -5,
+      "sample": "Sanchez has surrendered 18 hits and 11 runs across his last two starts, his sinker velocity is down from 97 to 94-95, and he now ranks second in innings pitched across the majors \u2014 with Luzardo out, a declining Sanchez is the number-two starter heading into October."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I'm freaking out. Until I know he's going to pitch, until I know it, I'm freaking out.",
+      "score": 12,
+      "source_hint": "talk-radio host on 94WIP, reacting to Luzardo's IL placement"
+    },
+    {
+      "text": "He has been the best pitcher in Major League Baseball since June 10th. And with October coming, a major, major loss at a terrible, most inopportune time.",
+      "score": 18,
+      "source_hint": "fan analyst on The Phillies Show, on Luzardo going to the IL"
+    },
+    {
+      "text": "They are a tough team to believe in. They don't play inspired baseball. They don't play smart baseball.",
+      "score": 20,
+      "source_hint": "talk-radio host on WIP High Hopes, after the Nationals loss"
+    },
+    {
+      "text": "If you put a gun to my head and you say, who do you want to give the baseball to in an elimination game right now today? I would give the ball to Aaron Nola before Chris Sanchez.",
+      "score": 30,
+      "source_hint": "talk-radio host on WIP High Hopes, on the state of the rotation"
+    }
+  ],
+  "vibe_summary": "Alarm over Luzardo's injured shoulder has curdled into something darker \u2014 a 5-8 September, a bullpen that cannot hold leads, and an offense that mailed it in against a tanking opponent have fans openly questioning whether this team deserves the October it is stumbling toward.",
+  "reasoning": "The dominant mood is genuine distress, not managed anxiety. Luzardo's IL placement strips the rotation of its best arm at the worst possible moment, and the loss to Washington \u2014 five hits, no runs against relief pitching ranked last in baseball \u2014 reinforced every structural worry about this team's offense and bullpen. There is a slight tonal split: the fan analyst camp retains cautious belief that Wheeler, Nola, and the offense's ceiling keep a deep run theoretically possible, while the talk-radio and YouTube voices have moved into open alarm, with callers demanding front-office cleanouts and hosts admitting they cannot make themselves believe in this group. Postseason belief is scored low because the only positive framing heard is structural reassurance \u2014 wild-card math, historical precedents \u2014 not expressed confidence in this roster's October ceiling.",
+  "people_mentioned": [
+    "Luzardo",
+    "Boland",
+    "Sanchez",
+    "Mattingly",
+    "Wheeler",
+    "Nola",
+    "Schwarber",
+    "Harper",
+    "McFarlane",
+    "Marsh",
+    "Turner",
+    "Stott",
+    "Cotham",
+    "Painter",
+    "Duran",
+    "Alvarado",
+    "Arias",
+    "Crawford",
+    "Bohm",
+    "Dombrowski",
+    "Rincon",
+    "Miller"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 196205,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 21150,
+    "youtube_comments": 1,
+    "youtube_comment_chars": 109,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Jes\u00fas Luzardo is injured. What happens now?",
+      "voice": "fan_analyst",
+      "chars": 40116
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Bad Loss In Washington",
+      "voice": "radio_populist",
+      "chars": 30551
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Previewing the Phillies' Final Two Weeks",
+      "voice": "fan_analyst",
+      "chars": 68952
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Is What's Happening Right Now With The Phillies Actually A Good Thing?",
+      "voice": "radio_populist",
+      "chars": 56586
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Sports Medicine Specialist On Jes\u00fas Luzardo And Landon Dickerson",
+      "voice": "radio_populist",
+      "chars": 8539
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "'FREAKING Out' \u2014 Phillies Facing TOTAL Postseason Disaster \ud83d\ude33 | 94WIP",
+      "voice": "radio_populist",
+      "chars": 11255
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "'FREAKING OUT' About Jes\u00fas Luzardo \ud83d\ude33",
+      "voice": "radio_populist",
+      "chars": 1356
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 7,
+      "recent_avg_pct": 94.8,
+      "baseline_games_count": 30,
+      "baseline_avg_pct": 97.4,
+      "delta_pct": -2.6,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823418,
+          "date": "2026-09-04",
+          "day_of_week": "Friday",
+          "opponent": "Atlanta Braves",
+          "result": "L 2-5",
+          "attendance": 41883,
+          "pct_capacity": 97.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823419,
+          "date": "2026-09-05",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "W 4-2",
+          "attendance": 43241,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823417,
+          "date": "2026-09-06",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 4-5",
+          "attendance": 42793,
+          "pct_capacity": 99.7,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823415,
+          "date": "2026-09-07",
+          "day_of_week": "Monday",
+          "opponent": "Atlanta Braves",
+          "result": "W 1-0",
+          "attendance": 41820,
+          "pct_capacity": 97.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823414,
+          "date": "2026-09-08",
+          "day_of_week": "Tuesday",
+          "opponent": "Houston Astros",
+          "result": "L 5-6",
+          "attendance": 39262,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823416,
+          "date": "2026-09-09",
+          "day_of_week": "Wednesday",
+          "opponent": "Houston Astros",
+          "result": "W 11-7",
+          "attendance": 38642,
+          "pct_capacity": 90.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823413,
+          "date": "2026-09-10",
+          "day_of_week": "Thursday",
+          "opponent": "Houston Astros",
+          "result": "L 1-2",
+          "attendance": 37100,
+          "pct_capacity": 86.5,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "83-68",
+    "streak": "L1",
+    "games_behind": "5.5"
+  },
+  "generated_at": "2026-09-16T14:44:12.330900+00:00"
+}
