@@ -37438,5 +37438,280 @@
       "games_behind": "5.5"
     },
     "generated_at": "2026-09-16T14:44:12.330900+00:00"
+  },
+  {
+    "date": "2026-09-17",
+    "display_score": 39,
+    "reactive_score": 39,
+    "baseline_score": 41,
+    "insufficient_signal": false,
+    "content_volume": 239,
+    "mood_label": "Oh No",
+    "dimensions": {
+      "results_satisfaction": 52,
+      "front_office_trust": 28,
+      "manager_confidence": 32,
+      "lineup_confidence": 35,
+      "pitching_confidence": 42,
+      "health_outlook": 30,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 45,
+      "manager_confidence": 60,
+      "lineup_confidence": 78,
+      "pitching_confidence": 85,
+      "health_outlook": 90,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 44,
+        "note": "Phillies Talk and The Phillies Show both find real optimism in Wheeler's return but are genuinely alarmed by Luzardo's IL stint, Sanchez's mechanical struggles, and the bullpen's collapse; mood is mixed-to-negative overall."
+      },
+      "beat_writer": {
+        "score": 38,
+        "note": "Phillies Therapy (Gelb) is the most analytically precise voice \u2014 deeply concerned about Luzardo's shoulder, Marsh's historically bad second half, and a bullpen that may have only six trustworthy arms for October."
+      },
+      "radio_populist": {
+        "score": 33,
+        "note": "High Hopes and WIP segments reflect raw frustration \u2014 callers calling for Dombrowski's firing, hosts describing the team as 'tough to believe in,' playing 'uninspired' baseball against a tanking opponent."
+      },
+      "youtube_fan": {
+        "score": 22,
+        "note": "YouTube commenters are harshly negative on Dombrowski specifically, with some declaring the team 'checked out' and not even playoff-bound."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler's Return Is the One Bright Light",
+        "delta": 6,
+        "sample": "Seven shutout innings against a live Nationals lineup, a 1.04 ERA over his last four starts \u2014 Zach Wheeler looks like himself again at exactly the right moment, and it's the clearest reason not to abandon all hope."
+      },
+      {
+        "name": "Luzardo's Shoulder Rewrites the October Blueprint",
+        "delta": -8,
+        "sample": "The IL stint for the team's best pitcher has eliminated his planned dual-role deployment and left the rotation depth paper-thin, forcing contingency plans nobody feels great about."
+      },
+      {
+        "name": "Sanchez Has Lost the Fan Base's Trust",
+        "delta": -6,
+        "sample": "After 17 wins and a sub-3 ERA, Christopher Sanchez is now described as 'pedestrian,' missing his spots badly, getting fastballs crushed, and has been overtaken by Aaron Nola in the pecking order for a hypothetical wild-card Game 2 start."
+      },
+      {
+        "name": "Bullpen Fragility Reaches Critical Mass",
+        "delta": -7,
+        "sample": "Jonathan Bolin has allowed runs in five or six straight outings, surrendering four home runs in his last seven innings; the leverage relief corps is thin, untested, and leaking at the worst possible time \u2014 with Alex McFarland, who was in Double-A two months ago, now the second-most trusted arm."
+      },
+      {
+        "name": "Marsh, Turner, and the Lineup's Dead Weight",
+        "delta": -5,
+        "sample": "Brandon Marsh ranks last among all qualified hitters since July 1st by a wide margin, Trea Turner is chasing spin and swatting bats into dugout walls, and the offense went 1-for-10 with RISP in a game they walked 13 times \u2014 a historic degree of inefficiency."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "They are a tough team to believe in. They don't play inspired baseball.",
+        "score": 18,
+        "source_hint": "talk-radio host (High Hopes / WIP)"
+      },
+      {
+        "text": "I officially don't trust Christopher Sanchez right now. If you told me Nola or Sanchez, I'll go with Aaron.",
+        "score": 28,
+        "source_hint": "fan analyst (Phillies Talk)"
+      },
+      {
+        "text": "He is the best starting pitcher they have. And he is also the most versatile. One third of that triumvirate is on the injured list.",
+        "score": 22,
+        "source_hint": "fan analyst (The Phillies Show)"
+      },
+      {
+        "text": "Zach Wheeler is freaking awesome and might help them win the World Series.",
+        "score": 74,
+        "source_hint": "talk-radio host (94WIP)"
+      }
+    ],
+    "vibe_summary": "Wheeler's dominant return gives fans something real to hold onto, but Luzardo's shoulder, a crumbling bullpen, and an offense that walked 13 men and scored three runs have the fanbase gripping tight and bracing for October with far less confidence than this roster once promised.",
+    "reasoning": "The dominant mood is anxious and deflated despite a win, because the structural concerns \u2014 Luzardo's IL stint, Sanchez's sustained decline, Bolin's collapse, Marsh's historically bad second half \u2014 are real and compounding. Wheeler's resurgence is a genuine positive and prevents full despair, but the overall picture is a team clinging to a wild-card spot while its October ceiling has visibly shrunk. The more measured analytical takes and the rawer populist reactions converge on the same conclusion: this team's margin for error is gone, and the bullpen and offense must find answers that have eluded them for weeks.",
+    "people_mentioned": [
+      "Luzardo",
+      "Wheeler",
+      "Sanchez",
+      "Bolin",
+      "Marsh",
+      "McFarland",
+      "Nola",
+      "Mattingly",
+      "Schwarber",
+      "Turner",
+      "Harper",
+      "Bohm",
+      "Arise",
+      "Duran",
+      "Dombrowski",
+      "Painter",
+      "Stott",
+      "Miller"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 162626,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 13197,
+      "youtube_comments": 5,
+      "youtube_comment_chars": 584,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Zack's BACK, but concerns about S\u00e1nchez and Luzardo's IL stint ahead of Mets series",
+        "voice": "fan_analyst",
+        "chars": 49908
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Jes\u00fas Luzardo is injured. What happens now?",
+        "voice": "fan_analyst",
+        "chars": 37954
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: Bad Loss In Washington",
+        "voice": "radio_populist",
+        "chars": 31662
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "You Can Wade Through Boggs; Can You Brandon Through a Marsh?",
+        "voice": "beat_writer",
+        "chars": 43102
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Most Versatile Phillies Pitcher Now Injured",
+        "voice": "radio_populist",
+        "chars": 1703
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "HISTORY: Phillies First Team In 71 YEARS To Do This \ud83d\ude33 | 94WIP",
+        "voice": "radio_populist",
+        "chars": 9910
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Explaining Cristopher Sanchez's Recent Slump",
+        "voice": "radio_populist",
+        "chars": 1584
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 94.8,
+        "baseline_games_count": 29,
+        "baseline_avg_pct": 97.2,
+        "delta_pct": -2.3,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823418,
+            "date": "2026-09-04",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-5",
+            "attendance": 41883,
+            "pct_capacity": 97.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823419,
+            "date": "2026-09-05",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "W 4-2",
+            "attendance": 43241,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823417,
+            "date": "2026-09-06",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 4-5",
+            "attendance": 42793,
+            "pct_capacity": 99.7,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823415,
+            "date": "2026-09-07",
+            "day_of_week": "Monday",
+            "opponent": "Atlanta Braves",
+            "result": "W 1-0",
+            "attendance": 41820,
+            "pct_capacity": 97.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823414,
+            "date": "2026-09-08",
+            "day_of_week": "Tuesday",
+            "opponent": "Houston Astros",
+            "result": "L 5-6",
+            "attendance": 39262,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823416,
+            "date": "2026-09-09",
+            "day_of_week": "Wednesday",
+            "opponent": "Houston Astros",
+            "result": "W 11-7",
+            "attendance": 38642,
+            "pct_capacity": 90.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823413,
+            "date": "2026-09-10",
+            "day_of_week": "Thursday",
+            "opponent": "Houston Astros",
+            "result": "L 1-2",
+            "attendance": 37100,
+            "pct_capacity": 86.5,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "84-68",
+      "streak": "W1",
+      "games_behind": "4.5"
+    },
+    "generated_at": "2026-09-17T14:47:34.845840+00:00"
   }
 ]
