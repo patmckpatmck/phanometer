@@ -37713,5 +37713,270 @@
       "games_behind": "4.5"
     },
     "generated_at": "2026-09-17T14:47:34.845840+00:00"
+  },
+  {
+    "date": "2026-09-18",
+    "display_score": 42,
+    "reactive_score": 42,
+    "baseline_score": 40,
+    "insufficient_signal": false,
+    "content_volume": 253,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 58,
+      "front_office_trust": 32,
+      "manager_confidence": 42,
+      "lineup_confidence": 34,
+      "pitching_confidence": 48,
+      "health_outlook": 30,
+      "postseason_belief": 36
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 55,
+      "manager_confidence": 58,
+      "lineup_confidence": 82,
+      "pitching_confidence": 88,
+      "health_outlook": 85,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 50,
+        "note": "Phillies Talk and The Phillies Show hosts balance genuine optimism about Wheeler and Nola's rebound against deep worry over Luzardo's shoulder, Sanchez's mechanical struggles, a porous bullpen, and an offense that walked 13 and scored three."
+      },
+      "beat_writer": {
+        "score": null,
+        "note": null
+      },
+      "radio_populist": {
+        "score": 38,
+        "note": "High Hopes and the WIP midday show are harsher \u2014 Luzardo's IL stint described as 'soul crushing,' Turner called borderline unplayable, lineup construction and front-office depth failures foregrounded, callers openly questioning Dombrowski's roster decisions."
+      },
+      "youtube_fan": {
+        "score": 44,
+        "note": "Single comment mocking the Schwarber-Bohm 1-2 combo as historically slow, reflecting broader lineup skepticism."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Nola's Revival Is Real \u2014 and Now Critical",
+        "delta": 6,
+        "sample": "Aaron Nola's seven scoreless innings against the Mets \u2014 a 1.86 ERA over his last eight starts \u2014 has gone from pleasant surprise to a postseason necessity with Luzardo sidelined, and the narrative around him has fully flipped from alarm to quiet admiration."
+      },
+      {
+        "name": "Luzardo's Shoulder Clouds Every Calculation",
+        "delta": -8,
+        "sample": "Unable to throw pain-free five days after being scratched, Luzardo is widely being penciled out of the Wild Card round entirely \u2014 and the dominoes from his absence, a bullpen game, reduced flexibility with Painter, a waiver claim to eat innings, are piling up fast."
+      },
+      {
+        "name": "Sanchez Sliding at the Worst Moment",
+        "delta": -6,
+        "sample": "Eighteen hits and eleven runs over his last two starts, visible frustration on the mound, and a pitching coach laptop session at his locker have shifted the conversation from 'third ace' to 'what can we realistically expect from him in October?'"
+      },
+      {
+        "name": "Lineup Trust Has Collapsed \u2014 Turner Especially",
+        "delta": -7,
+        "sample": "Trea Turner's 609 OPS since August against Bohm's 877, a bat flying into the third-base dugout, and 13 walks producing three runs against a bullpen game have pushed calls to demote Turner and promote Bohm to second \u2014 and broader frustration that the front office never addressed the structural holes in this lineup."
+      },
+      {
+        "name": "Front Office Depth Failure Finally Reckoning",
+        "delta": -5,
+        "sample": "Luzardo's absence is now exposing the trade-deadline decision not to add rotation depth \u2014 a waiver-wire arm claimed off the White Sox and a rehab-stage Nestor Cortez are the answers, and that reality is drawing pointed criticism about organizational planning and the hitting-coach situation alike."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "By far, in my opinion, the worst. That Luzardo IL news was about as big a shot to the gut as anything that has happened this season.",
+        "score": 18,
+        "source_hint": "talk-radio host (High Hopes / WIP)"
+      },
+      {
+        "text": "He has a 1.86 ERA in his last eight starts. That's his best eight-start stretch since 2018.",
+        "score": 82,
+        "source_hint": "fan analyst (The Phillies Show)"
+      },
+      {
+        "text": "Christopher Sanchez, in my opinion, is T-O-A-S-T, toast.",
+        "score": 22,
+        "source_hint": "fan analyst (Phillies Talk)"
+      },
+      {
+        "text": "877 to 609. One guy that's all-star level, that other guy is unplayable.",
+        "score": 20,
+        "source_hint": "talk-radio host (WIP midday show)"
+      }
+    ],
+    "vibe_summary": "Aaron Nola's October-ready resurgence and Wheeler's return are bright spots, but Luzardo's shoulder, a crumbling bullpen, and a lineup that cannot convert chances have the fanbase arriving at the postseason doorstep feeling more exposed than expectant.",
+    "reasoning": "The dominant mood is anxious ambivalence: there are genuine reasons for optimism \u2014 Nola's sustained turnaround, Wheeler looking like himself, Bohm's quiet resurgence \u2014 but the Luzardo shoulder situation is the story that colors everything, forcing a complete recalculation of the postseason pitching picture. The talk-radio perspective is harsher and more structurally critical, calling out the front office for deadline failures and the lineup for featuring a 'borderline unplayable' Turner in a playoff spot; the fan-analyst shows are more tempered, finding real solace in the rotation rebounds while still acknowledging that Sanchez, the bullpen, and the offense's RISP futility are legitimate October concerns. The W2 current streak (per ground truth) is not yet reflected prominently in content recorded before those wins, keeping overall sentiment below neutral.",
+    "people_mentioned": [
+      "Luzardo",
+      "Nola",
+      "Wheeler",
+      "Sanchez",
+      "Turner",
+      "Bohm",
+      "Mattingly",
+      "Marsh",
+      "Painter",
+      "Bolin",
+      "McFarlane",
+      "Duran",
+      "Alvarado",
+      "Schwarber",
+      "Dombrowski",
+      "Harper",
+      "Stott",
+      "Arise",
+      "Cotham",
+      "Mazza"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 169265,
+      "youtube_attempted": 1,
+      "youtube_transcribed": 1,
+      "youtube_chars": 20058,
+      "youtube_comments": 1,
+      "youtube_comment_chars": 142,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Aaron Nola's turnaround continues as October nears",
+        "voice": "fan_analyst",
+        "chars": 31743
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "The Hopes Are Fading",
+        "voice": "radio_populist",
+        "chars": 49616
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Zack's BACK, but concerns about S\u00e1nchez and Luzardo's IL stint ahead of Mets series",
+        "voice": "fan_analyst",
+        "chars": 50208
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Jes\u00fas Luzardo is injured. What happens now?",
+        "voice": "fan_analyst",
+        "chars": 37698
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Should Phillies Move Alec Bohm Up and Trea Turner Down? | 94WIP",
+        "voice": "radio_populist",
+        "chars": 20058
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 7,
+        "recent_avg_pct": 94.8,
+        "baseline_games_count": 28,
+        "baseline_avg_pct": 97.2,
+        "delta_pct": -2.4,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823418,
+            "date": "2026-09-04",
+            "day_of_week": "Friday",
+            "opponent": "Atlanta Braves",
+            "result": "L 2-5",
+            "attendance": 41883,
+            "pct_capacity": 97.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823419,
+            "date": "2026-09-05",
+            "day_of_week": "Saturday",
+            "opponent": "Atlanta Braves",
+            "result": "W 4-2",
+            "attendance": 43241,
+            "pct_capacity": 100.8,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823417,
+            "date": "2026-09-06",
+            "day_of_week": "Sunday",
+            "opponent": "Atlanta Braves",
+            "result": "L 4-5",
+            "attendance": 42793,
+            "pct_capacity": 99.7,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823415,
+            "date": "2026-09-07",
+            "day_of_week": "Monday",
+            "opponent": "Atlanta Braves",
+            "result": "W 1-0",
+            "attendance": 41820,
+            "pct_capacity": 97.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823414,
+            "date": "2026-09-08",
+            "day_of_week": "Tuesday",
+            "opponent": "Houston Astros",
+            "result": "L 5-6",
+            "attendance": 39262,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823416,
+            "date": "2026-09-09",
+            "day_of_week": "Wednesday",
+            "opponent": "Houston Astros",
+            "result": "W 11-7",
+            "attendance": 38642,
+            "pct_capacity": 90.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823413,
+            "date": "2026-09-10",
+            "day_of_week": "Thursday",
+            "opponent": "Houston Astros",
+            "result": "L 1-2",
+            "attendance": 37100,
+            "pct_capacity": 86.5,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "85-68",
+      "streak": "W2",
+      "games_behind": "4.0"
+    },
+    "generated_at": "2026-09-18T14:13:42.092517+00:00"
   }
 ]
