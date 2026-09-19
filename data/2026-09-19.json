@@ -1,0 +1,271 @@
+{
+  "date": "2026-09-19",
+  "display_score": 42,
+  "reactive_score": 42,
+  "baseline_score": 41,
+  "insufficient_signal": false,
+  "content_volume": 251,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 55,
+    "front_office_trust": 35,
+    "manager_confidence": 38,
+    "lineup_confidence": 32,
+    "pitching_confidence": 52,
+    "health_outlook": 30,
+    "postseason_belief": 42
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 60,
+    "front_office_trust": 55,
+    "manager_confidence": 65,
+    "lineup_confidence": 80,
+    "pitching_confidence": 85,
+    "health_outlook": 80,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 50,
+      "note": "Hittin' Season and The Phillies Show and Phillies Talk hosts are cautiously engaged \u2014 excited by Nola and Wheeler's resurgence but genuinely worried about Luzardo's shoulder, Sanchez's mechanics, a shaky bullpen, and a historically unproductive offense."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 52,
+      "note": "WIP hosts celebrate Nola's accountability and work ethic, relay Pedro Martinez's heart-check challenge to the roster, and voice real concern about the bullpen depth and Luzardo's timeline \u2014 net mood is cautious but not despairing."
+    },
+    "youtube_fan": {
+      "score": 45,
+      "note": "One comment credits Nola for figuring it out but immediately undercuts it by calling the contract still bad \u2014 grudging acknowledgment, not enthusiasm."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Nola and Wheeler Have Earned Playoff Starts",
+      "delta": 6,
+      "sample": "Aaron Nola's 2.10 ERA over his last 10 starts \u2014 including seven scoreless innings against the Mets \u2014 and Zach Wheeler's 1.04 ERA over four starts have flipped the rotation narrative, with Wheeler now the consensus Game 1 pick and Nola a genuine Game 3 option."
+    },
+    {
+      "name": "Luzardo's Shoulder Casts a Shadow Over October",
+      "delta": -7,
+      "sample": "Jesus Luzardo hasn't thrown in five days, leaving his role in the wild-card round deeply uncertain; the best realistic outcome appears to be a two-to-three inning bullpen appearance, and the worst is missing the first round entirely \u2014 a gut-punch loss of the rotation's best arm at the worst possible time."
+    },
+    {
+      "name": "Bullpen Structure Remains a Baffling Mess",
+      "delta": -6,
+      "sample": "Jonathan Bolin left with a groin injury after his stuff had already visibly declined, Alex McFarlane has been warmed up repeatedly and then unused \u2014 burning him for nothing \u2014 and the path to Johan Duran runs through a collection of question marks that inspire little confidence."
+    },
+    {
+      "name": "Turner, Realmuto, and Marsh Are Killing the Offense",
+      "delta": -7,
+      "sample": "The team's last-in-baseball OPS+ of 90 is driven by Trea Turner posting a .673 OPS and ranking 26th among qualified shortstops, JT Realmuto batting under .200 in multiple months, and Brandon Marsh producing just seven extra-base hits since July 1 \u2014 a trio that analysts openly say could sink any postseason run."
+    },
+    {
+      "name": "Pedro Martinez's Heart-Check Lands Hard",
+      "delta": -3,
+      "sample": "Pedro Martinez publicly challenged the Phillies to look themselves in the mirror, saying the talent and experience are there but the question is whether they have the heart to close \u2014 a critique that resonated because many fans are already asking the same thing after years of early exits."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I don't have a lot of enthusiasm about this team right now. I feel it. I'm a little bit reticent.",
+      "score": 28,
+      "source_hint": "Hittin' Season fan analyst host"
+    },
+    {
+      "text": "The Phillies, when are they going to finally click? I will have to check their hearts because they need to make it happen.",
+      "score": 35,
+      "source_hint": "Pedro Martinez, quoted on WIP talk-radio host segment"
+    },
+    {
+      "text": "Nola has never given off that feeling. The guy works his ass off to get things corrected.",
+      "score": 78,
+      "source_hint": "WIP talk-radio host"
+    },
+    {
+      "text": "Well, somehow he figured it out. Kudos to Nola but that contract is still \ud83d\udca9",
+      "score": 42,
+      "source_hint": "YouTube commenter on Nola highlights video"
+    }
+  ],
+  "vibe_summary": "The rotation's twin revivals are real and the playoff spot is nearly clinched, but a torn-up bullpen, a historically unproductive lineup, and Luzardo's uncertain shoulder have the fanbase feeling like a team that could beat anyone \u2014 and lose to anyone \u2014 depending on which version shows up in October.",
+  "reasoning": "The dominant mood is genuine ambivalence rooted in a specific tension: the starting pitching revival is real and well-documented, but every other pillar \u2014 the bullpen, the lineup, and now Luzardo's health \u2014 is cracking simultaneously. The rotation discussion skews optimistic while the offense and relief corps generate near-despair; the net is a fanbase that acknowledges playoff qualification but approaches October with dread rather than confidence. Pedro Martinez's public heart-check added an external voice to an internal anxiety that fans were already expressing.",
+  "people_mentioned": [
+    "Nola",
+    "Luzardo",
+    "Wheeler",
+    "Sanchez",
+    "Mattingly",
+    "Bolin",
+    "Turner",
+    "Marsh",
+    "Realmuto",
+    "Bohm",
+    "McFarlane",
+    "Duran",
+    "Alvarado",
+    "Painter",
+    "Dombrowski",
+    "Schwarber",
+    "Harper",
+    "Arise",
+    "Stott",
+    "Cotham",
+    "Mazza",
+    "Urquidy",
+    "Kirkering",
+    "Raley"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 161880,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 25792,
+    "youtube_comments": 1,
+    "youtube_comment_chars": 75,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "The Phillies Have Lots Of Pitching Decisions Coming",
+      "voice": "fan_analyst",
+      "chars": 31518
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Aaron Nola's turnaround continues as October nears",
+      "voice": "fan_analyst",
+      "chars": 31866
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "The Hopes Are Fading",
+      "voice": "radio_populist",
+      "chars": 48642
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Zack's BACK, but concerns about S\u00e1nchez and Luzardo's IL stint ahead of Mets series",
+      "voice": "fan_analyst",
+      "chars": 49854
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Praising Aaron Nola",
+      "voice": "radio_populist",
+      "chars": 1036
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Pedro Mart\u00ednez Challenges Phillies Heart",
+      "voice": "radio_populist",
+      "chars": 13466
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Aaron Nola's Turnaround: Are You Confident In Him For October? | 94WIP",
+      "voice": "radio_populist",
+      "chars": 11290
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 94.4,
+      "baseline_games_count": 27,
+      "baseline_avg_pct": 97.2,
+      "delta_pct": -2.9,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823419,
+          "date": "2026-09-05",
+          "day_of_week": "Saturday",
+          "opponent": "Atlanta Braves",
+          "result": "W 4-2",
+          "attendance": 43241,
+          "pct_capacity": 100.8,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823417,
+          "date": "2026-09-06",
+          "day_of_week": "Sunday",
+          "opponent": "Atlanta Braves",
+          "result": "L 4-5",
+          "attendance": 42793,
+          "pct_capacity": 99.7,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823415,
+          "date": "2026-09-07",
+          "day_of_week": "Monday",
+          "opponent": "Atlanta Braves",
+          "result": "W 1-0",
+          "attendance": 41820,
+          "pct_capacity": 97.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823414,
+          "date": "2026-09-08",
+          "day_of_week": "Tuesday",
+          "opponent": "Houston Astros",
+          "result": "L 5-6",
+          "attendance": 39262,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823416,
+          "date": "2026-09-09",
+          "day_of_week": "Wednesday",
+          "opponent": "Houston Astros",
+          "result": "W 11-7",
+          "attendance": 38642,
+          "pct_capacity": 90.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823413,
+          "date": "2026-09-10",
+          "day_of_week": "Thursday",
+          "opponent": "Houston Astros",
+          "result": "L 1-2",
+          "attendance": 37100,
+          "pct_capacity": 86.5,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "85-69",
+    "streak": "L1",
+    "games_behind": "5.0"
+  },
+  "generated_at": "2026-09-19T13:49:15.866659+00:00"
+}
