@@ -1,0 +1,234 @@
+{
+  "date": "2026-09-21",
+  "display_score": 43,
+  "reactive_score": 43,
+  "baseline_score": 43,
+  "insufficient_signal": false,
+  "content_volume": 267,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 48,
+    "front_office_trust": 55,
+    "manager_confidence": 38,
+    "lineup_confidence": 32,
+    "pitching_confidence": 52,
+    "health_outlook": 42,
+    "postseason_belief": 38
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 72,
+    "front_office_trust": 45,
+    "manager_confidence": 60,
+    "lineup_confidence": 85,
+    "pitching_confidence": 80,
+    "health_outlook": 78,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 46,
+      "note": "Hittin' Season and The Phillies Show and Phillies Talk all converge on cautious playoff optimism undercut by genuine bullpen alarm, Kerkering's demotion, offense ranked last in OPS+, and Mattingly skepticism \u2014 Crawford and Sanchez's Sunday rebound are the main bright spots."
+    },
+    "beat_writer": {
+      "score": 38,
+      "note": "Phillies Therapy (Matt Gelb) is the most sobering voice: Luzardo's shoulder inflammation is framed as potentially season-altering, Marsh's historic second-half collapse is documented in granular detail, and the bullpen depth without Luzardo is described as barely survivable in a two-game series."
+    },
+    "radio_populist": {
+      "score": null,
+      "note": null
+    },
+    "youtube_fan": {
+      "score": null,
+      "note": null
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Bullpen on Life Support",
+      "delta": -7,
+      "sample": "Kerkering's demotion to AAA after an 11.57 ERA over his last nine appearances leaves a bullpen held together by a rookie (McFarlane), a groin-injured Bolin, an erratic Alvarado, and the hope that Painter and Luzardo can cover enough ground in a three-game series."
+    },
+    {
+      "name": "Luzardo's Shoulder Clouds Everything",
+      "delta": -6,
+      "sample": "Inflammation that cost Luzardo a start has analysts openly questioning whether he can be trusted at full intensity in October \u2014 and without him, building a six-man wildcard pitching staff that inspires any confidence becomes a grim exercise."
+    },
+    {
+      "name": "Worst Offense in Baseball by OPS+",
+      "delta": -8,
+      "sample": "Only Schwarber and Harper carry OPS above 800; Marsh is historically bad since July 1st, RealMuto has been a black hole all season, Turner remains under 700 OPS, and the team ranked dead last in OPS+ among all big-league offenses \u2014 a damning number entering October."
+    },
+    {
+      "name": "Sanchez and Crawford Offer Sunday Exhale",
+      "delta": 5,
+      "sample": "Christopher Sanchez's six-plus innings of two-run ball \u2014 no walks, renewed command \u2014 and Justin Crawford's bases-clearing triple gave the fanbase a genuine moment of relief and shored up confidence that a Wheeler-Sanchez-Nola wildcard rotation is at least viable."
+    },
+    {
+      "name": "Mattingly Manages His Way Into Fan Contempt",
+      "delta": -5,
+      "sample": "Pulling Sanchez at 98 pitches drew arguments even from analysts who admitted it was defensible, while broader Mattingly frustration \u2014 lineup stubbornness, bullpen deployment, inability to get creative \u2014 has fans openly anticipating his post-season departure."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If you don't have a good feeling about this team heading into October, I think it's completely justified.",
+      "score": 28,
+      "source_hint": "fan analyst (The Phillies Show)"
+    },
+    {
+      "text": "The Phillies, as a team, have the worst OPS plus in baseball, in baseball, of all of the offenses out there.",
+      "score": 18,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "Without Lizardo, I'm not even \u2014 I'm like, Sanchez, Wheeler, Duran, McFarlane, Bolin, I guess Alvarado. I don't feel great about it.",
+      "score": 25,
+      "source_hint": "beat writer (Phillies Therapy)"
+    },
+    {
+      "text": "He looked dominant. Because after the home run, Mets go up 4-3. He strikes out three straight. I've been really happy with his progression.",
+      "score": 68,
+      "source_hint": "fan analyst (Phillies Talk), on Andrew Painter"
+    }
+  ],
+  "vibe_summary": "Magic number three and a playoff spot nearly sealed, but the fanbase is staring at a last-place offense, a demolished bullpen, and a compromised ace and wondering whether this team is lurching toward October or limping.",
+  "reasoning": "The dominant mood is cautious dread wrapped in grudging acknowledgment that the Phillies will make the playoffs. The fan analyst voices are worried but exploratory \u2014 constructing wildcard pitching scenarios, finding silver linings in Crawford and Sanchez, debating Mattingly's decisions. The beat writer delivers the sharpest alarm, particularly on Luzardo's shoulder and Marsh's collapse, framing the bullpen situation as barely functional even in a best-case two-game series. Postseason belief stays low because no voice expresses confident October trajectory \u2014 they are debating survival mechanics, not projecting deep runs.",
+  "people_mentioned": [
+    "Luzardo",
+    "Kerkering",
+    "Sanchez",
+    "Wheeler",
+    "Mattingly",
+    "Marsh",
+    "McFarlane",
+    "Painter",
+    "Dombrowski",
+    "Turner",
+    "Bohm",
+    "Crawford",
+    "Nola",
+    "Alvarado",
+    "Bolin",
+    "Duran",
+    "RealMuto",
+    "Schwarber",
+    "Harper",
+    "Arise",
+    "Stott",
+    "De La Cruz",
+    "Raley",
+    "Soto",
+    "Amaro"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 200252,
+    "youtube_attempted": 0,
+    "youtube_transcribed": 0,
+    "youtube_chars": 0,
+    "youtube_comments": 0,
+    "youtube_comment_chars": 0,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "How the Phillies can fix their bullpen before October",
+      "voice": "fan_analyst",
+      "chars": 49679
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Magic Number Is 3 Entering the Final Week",
+      "voice": "fan_analyst",
+      "chars": 52216
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Still a few glaring concerns for Phillies as final homestand is on deck",
+      "voice": "fan_analyst",
+      "chars": 50291
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "You Can Wade Through Boggs; Can You Brandon Through a Marsh?",
+      "voice": "beat_writer",
+      "chars": 48066
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 91.4,
+      "baseline_games_count": 25,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -5.6,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823415,
+          "date": "2026-09-07",
+          "day_of_week": "Monday",
+          "opponent": "Atlanta Braves",
+          "result": "W 1-0",
+          "attendance": 41820,
+          "pct_capacity": 97.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823414,
+          "date": "2026-09-08",
+          "day_of_week": "Tuesday",
+          "opponent": "Houston Astros",
+          "result": "L 5-6",
+          "attendance": 39262,
+          "pct_capacity": 91.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823416,
+          "date": "2026-09-09",
+          "day_of_week": "Wednesday",
+          "opponent": "Houston Astros",
+          "result": "W 11-7",
+          "attendance": 38642,
+          "pct_capacity": 90.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823413,
+          "date": "2026-09-10",
+          "day_of_week": "Thursday",
+          "opponent": "Houston Astros",
+          "result": "L 1-2",
+          "attendance": 37100,
+          "pct_capacity": 86.5,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "86-70",
+    "streak": "W1",
+    "games_behind": "6.0"
+  },
+  "generated_at": "2026-09-21T16:21:50.906410+00:00"
+}
