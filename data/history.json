@@ -38733,5 +38733,244 @@
       "games_behind": "6.0"
     },
     "generated_at": "2026-09-21T16:21:50.906410+00:00"
+  },
+  {
+    "date": "2026-09-22",
+    "display_score": 45,
+    "reactive_score": 45,
+    "baseline_score": 43,
+    "insufficient_signal": false,
+    "content_volume": 322,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 52,
+      "front_office_trust": 50,
+      "manager_confidence": 38,
+      "lineup_confidence": 33,
+      "pitching_confidence": 55,
+      "health_outlook": 45,
+      "postseason_belief": 38
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 72,
+      "front_office_trust": 35,
+      "manager_confidence": 60,
+      "lineup_confidence": 80,
+      "pitching_confidence": 85,
+      "health_outlook": 78,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 48,
+        "note": "Hittin' Season and the Phillies Show both register cautious but real anxiety \u2014 bullpen depth is called alarming, the offense is historically poor by OPS+, and Mattingly draws pointed criticism, though Sanchez's Sunday rebound and Luzardo's catch offer measured relief."
+      },
+      "beat_writer": {
+        "score": 55,
+        "note": "Phillies Therapy (Gelb/Paul) is the most measured voice \u2014 acknowledges the bullpen is down to two trusted arms but frames the pitching-heavy playoff plan as rational, expresses genuine optimism about Luzardo's trajectory, and finds real excitement building for October."
+      },
+      "radio_populist": {
+        "score": 44,
+        "note": "WIP High Hopes and supporting segments are in full-doomer mode on the bullpen and offense, with hosts declaring the Phillies down to two reliable relievers and openly preferring road games; Kirkering's demotion lands as a sad but inevitable moment."
+      },
+      "youtube_fan": {
+        "score": 22,
+        "note": "YouTube commenters are openly dismissive \u2014 multiple comments declare the team has no business in the postseason, the bullpen sucks, and the lineup folds in big moments; one commenter can't decide between 'don't make it' and 'win the World Series.'"
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Two Relievers, No Safety Net",
+        "delta": -7,
+        "sample": "Duran and McFarlane are the only universally trusted arms heading into October \u2014 Kirkering has been demoted, Bolin is hurt, Raley is untouchable, and Alvarado inspires more dread than confidence despite a recent ERA dip."
+      },
+      {
+        "name": "Luzardo's Return Creeping Into View",
+        "delta": 5,
+        "sample": "Playing catch Sunday at Citi Field and reporting it a 'great day,' Luzardo's shoulder progression is trending toward a bullpen role in the wildcard round \u2014 a development described as shifting from below 50% odds to genuinely realistic."
+      },
+      {
+        "name": "McFarlane's Moment of Truth",
+        "delta": 6,
+        "sample": "The rookie striking out Juan Soto on three 100-plus MPH fastballs in a two-on, two-out jam was the weekend's most electrifying moment \u2014 and the clearest signal that he may be the second-most trusted arm on this roster heading into October."
+      },
+      {
+        "name": "The Offense Is a Real Problem",
+        "delta": -6,
+        "sample": "The team's worst-in-baseball OPS+ tells the whole story \u2014 Marsh's second half has been catastrophic, Realmuto has posted three sub-.200 months, Turner is walking more but producing less, and the plan for October is built on scoring three or four runs and praying the starters go deep."
+      },
+      {
+        "name": "Mattingly and the Dugout Friction",
+        "delta": -4,
+        "sample": "Sanchez's death stare leaving the mound after being pulled at 98 pitches crystallized ongoing unease about the manager \u2014 one host flatly said she wishes his tenure to end, and questions about whether he'll deploy Durant and McFarlane smartly in the playoffs are real and unresolved."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "They have two relievers they can trust. Am I wrong? No.",
+        "score": 22,
+        "source_hint": "Phillies Therapy beat writer co-host, assessing the bullpen with six games left"
+      },
+      {
+        "text": "I am full doomer with this team. Full doomer.",
+        "score": 18,
+        "source_hint": "WIP High Hopes talk-radio host, opening the Monday pod"
+      },
+      {
+        "text": "If you don't have a good feeling about this team heading into October, I think it's completely justified.",
+        "score": 28,
+        "source_hint": "fan analyst (Phillies Show), on the team's October outlook"
+      },
+      {
+        "text": "The only team that could beat the Phillies is the Phillies.",
+        "score": 62,
+        "source_hint": "Phillies Therapy beat writer, expressing measured belief in the roster's ceiling"
+      }
+    ],
+    "vibe_summary": "Playoff berth nearly sealed and Luzardo throwing again, but two trusted relievers, a historically weak offense, and an uneasy clubhouse atmosphere have fans bracing for October rather than dreaming of it.",
+    "reasoning": "The weekend split against the Mets, Kirkering's demotion, and the dawning recognition that Duran and McFarlane are the bullpen's only reliable options have produced a mood that is grimly realistic rather than despairing \u2014 fans and analysts alike acknowledge the roster could pull off a wild-card run behind Wheeler and Sanchez, but the floor is visible and close. The beat writer framing is marginally more optimistic than the talk-radio and fan-analyst takes, finding a coherent playoff blueprint in the pitching-heavy approach and expressing genuine excitement about Luzardo's trajectory, while the fan analyst and radio voices are more openly anxious about the offense and bullpen depth. YouTube commenters are the most nihilistic, with several simply writing the team off entirely.",
+    "people_mentioned": [
+      "Luzardo",
+      "McFarlane",
+      "Sanchez",
+      "Wheeler",
+      "Kirkering",
+      "Mattingly",
+      "Painter",
+      "Duran",
+      "Alvarado",
+      "Nola",
+      "Turner",
+      "Marsh",
+      "Bohm",
+      "Harper",
+      "Realmuto",
+      "Crawford",
+      "Bolin",
+      "Raley",
+      "Dombrowski",
+      "Stott",
+      "Soto",
+      "Sale"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 214070,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 21132,
+      "youtube_comments": 8,
+      "youtube_comment_chars": 1151,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Seeds of Destiny",
+        "voice": "beat_writer",
+        "chars": 51564
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Please Just Win Like 2 Games This Week",
+        "voice": "radio_populist",
+        "chars": 60345
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "How the Phillies can fix their bullpen before October",
+        "voice": "fan_analyst",
+        "chars": 50184
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "Phillies Magic Number Is 3 Entering the Final Week",
+        "voice": "fan_analyst",
+        "chars": 51977
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Who Would Be The Phillies BEST Playoff Matchup?",
+        "voice": "radio_populist",
+        "chars": 10196
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Optimistic Jesus Luzardo Will Be Back",
+        "voice": "radio_populist",
+        "chars": 1322
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Good, Bad, And Ugly: Phillies Head Towards Another Red October | 94WIP",
+        "voice": "radio_populist",
+        "chars": 9614
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 3,
+        "recent_avg_pct": 89.4,
+        "baseline_games_count": 25,
+        "baseline_avg_pct": 97.0,
+        "delta_pct": -7.6,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823414,
+            "date": "2026-09-08",
+            "day_of_week": "Tuesday",
+            "opponent": "Houston Astros",
+            "result": "L 5-6",
+            "attendance": 39262,
+            "pct_capacity": 91.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823416,
+            "date": "2026-09-09",
+            "day_of_week": "Wednesday",
+            "opponent": "Houston Astros",
+            "result": "W 11-7",
+            "attendance": 38642,
+            "pct_capacity": 90.1,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823413,
+            "date": "2026-09-10",
+            "day_of_week": "Thursday",
+            "opponent": "Houston Astros",
+            "result": "L 1-2",
+            "attendance": 37100,
+            "pct_capacity": 86.5,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "86-70",
+      "streak": "W1",
+      "games_behind": "6.0"
+    },
+    "generated_at": "2026-09-22T14:31:22.762571+00:00"
   }
 ]
