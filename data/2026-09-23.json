@@ -1,0 +1,237 @@
+{
+  "date": "2026-09-23",
+  "display_score": 60,
+  "reactive_score": 60,
+  "baseline_score": 43,
+  "insufficient_signal": false,
+  "content_volume": 253,
+  "mood_label": "High Hopes",
+  "dimensions": {
+    "results_satisfaction": 72,
+    "front_office_trust": 65,
+    "manager_confidence": 58,
+    "lineup_confidence": 52,
+    "pitching_confidence": 68,
+    "health_outlook": 58,
+    "postseason_belief": 42
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 82,
+    "front_office_trust": 45,
+    "manager_confidence": 60,
+    "lineup_confidence": 85,
+    "pitching_confidence": 90,
+    "health_outlook": 78,
+    "postseason_belief": 80
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 70,
+      "note": "The Phillies Show hosts are genuinely excited about Wheeler's milestone and his postseason readiness, bullish on the Wheeler-Sanchez-Luzardo trio's win percentage, and cautiously optimistic about Marsh's resurgence and Luzardo's recovery arc."
+    },
+    "beat_writer": {
+      "score": 58,
+      "note": "Phillies Therapy delivers a clear-eyed, measured tone \u2014 playoff positioning is unsettled, the bullpen has exactly two trusted arms, and the postseason plan depends heavily on Luzardo and Painter stepping into unfamiliar roles; optimism is earned but hedged throughout."
+    },
+    "radio_populist": {
+      "score": 55,
+      "note": "WIP hosts capture a 'confused, scared, excited, anxious' fan mood \u2014 Wheeler's brilliance and Bohm's heater are bright spots, but deep skepticism about the bullpen, offensive inconsistency, Alvarado's reliability, and the team's ability to sustain quality into October dominates the conversation."
+    },
+    "youtube_fan": {
+      "score": 30,
+      "note": "YouTube commenters are largely dismissive and burned \u2014 ranging from 'same old, same old' fatalism to blunt acknowledgment that inconsistent bats and a terrible bullpen undercut any optimism."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Wheeler's milestone electrifies, but the bullpen question haunts",
+      "delta": 3,
+      "sample": "Seven straight strikeouts to open the game, a franchise record and 2,000th career strikeout, has everyone locked in on Wheeler as the Game 1 anchor \u2014 but the conversation always circles back to what happens after the sixth inning, where only McFarlane and Duran draw any real trust."
+    },
+    {
+      "name": "Luzardo's catch-play sessions spark cautious hope",
+      "delta": 4,
+      "sample": "Three straight days of playing catch, up to 120 feet and without reported soreness, have shifted Luzardo's wildcard-round odds upward \u2014 but getting him on a mound in a bullpen session remains the true litmus test before anyone commits to playoff-roster optimism."
+    },
+    {
+      "name": "Marsh and Bohm resurgence offers lineup lifeline",
+      "delta": 5,
+      "sample": "Bohm leads all of baseball in weighted runs created plus with runners in scoring position since the All-Star break, and Marsh's first home run in 40 days \u2014 combined with improved swing intent flagged by Mattingly \u2014 has opened a narrow window of lineup hope heading into October."
+    },
+    {
+      "name": "Playoff deployment plan takes shape, but the math is unsettling",
+      "delta": -2,
+      "sample": "The blueprint \u2014 starters deep into games, Luzardo and Painter as reliever bridges, McFarlane and Duran closing \u2014 is rational given the roster, but acknowledging you have exactly two trustworthy relievers going into October is its own source of dread, with Alvarado's inclusion a source of active frustration."
+    },
+    {
+      "name": "Sustained excellence doubted even by believers",
+      "delta": -4,
+      "sample": "The sharpest summary of the fanbase's mood comes in the admission that the team is capable of playing well enough to win it all, but almost no one believes they can sustain that level for a full month \u2014 a distinction that keeps postseason confidence from climbing despite genuine roster talent."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I know this team can run it deep or win it all if they play the way they're capable, but I have very little faith that they will play the way they're capable for long enough to win it all.",
+      "score": 38,
+      "source_hint": "WIP Daily caller, postgame show"
+    },
+    {
+      "text": "They're not pulling me in again. No sir!! Same ole, same ole.",
+      "score": 18,
+      "source_hint": "YouTube commenter on WIP Phillies video"
+    },
+    {
+      "text": "Since Wheeler was activated off the IL on 4/25, the trio of Wheeler, Christopher Sanchez and Luzardo made 76 starts. They're 58 and 18 in those games.",
+      "score": 80,
+      "source_hint": "fan analyst, The Phillies Show"
+    },
+    {
+      "text": "Confused, scared, excited, and anxious. That is four words, buddy.",
+      "score": 45,
+      "source_hint": "talk-radio host, WIP Daily"
+    }
+  ],
+  "vibe_summary": "Wheeler's seven-strikeout franchise record and Bohm's historic RISP heater give fans genuine electricity, but every conversation eventually bottoms out on the same hard truth: two trusted relievers, a streaky offense, and a postseason blueprint built on hope.",
+  "reasoning": "The dominant mood is one of qualified excitement tempered by structural anxiety. Wheeler's milestone performance and Luzardo's recovery progress have provided real lift, and Bohm and Marsh's recent form give the lineup credibility it lacked a month ago. But the bullpen situation \u2014 openly described as having only two reliable arms \u2014 casts a long shadow over every optimistic thread, and the question of whether this team can sustain playoff-level performance for more than a game or two produces genuine doubt even among those who believe in the roster's ceiling. YouTube commenters are the most burned and dismissive, while the fan analyst voice is the most energized; the beat writer and talk-radio perspectives land in a sober middle ground that captures most of the fanbase accurately.",
+  "people_mentioned": [
+    "Wheeler",
+    "Luzardo",
+    "McFarlane",
+    "Bohm",
+    "Mattingly",
+    "Sanchez",
+    "Marsh",
+    "Duran",
+    "Alvarado",
+    "Painter",
+    "Nola",
+    "Stott",
+    "Harper",
+    "Turner",
+    "Realmuto",
+    "Bolin",
+    "Dombrowski",
+    "Aidan Miller",
+    "Crawford",
+    "Kirkering"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 174159,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 13669,
+    "youtube_comments": 3,
+    "youtube_comment_chars": 273,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Zack Wheeler is ready for Game 1 of the NL Wild Card Series",
+      "voice": "fan_analyst",
+      "chars": 33469
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: The Magic Number Is 2",
+      "voice": "radio_populist",
+      "chars": 31595
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Seeds of Destiny",
+      "voice": "beat_writer",
+      "chars": 49591
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Please Just Win Like 2 Games This Week",
+      "voice": "radio_populist",
+      "chars": 59504
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "6 Reasons To BELIEVE In The Phillies | 94WIP",
+      "voice": "radio_populist",
+      "chars": 10901
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Are CONFUSING \ud83d\ude35\u200d\ud83d\udcab",
+      "voice": "radio_populist",
+      "chars": 1163
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Alec Bohm Is On A HEATER \ud83d\udd25",
+      "voice": "radio_populist",
+      "chars": 1605
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 3,
+      "recent_avg_pct": 87.7,
+      "baseline_games_count": 25,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -9.3,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823416,
+          "date": "2026-09-09",
+          "day_of_week": "Wednesday",
+          "opponent": "Houston Astros",
+          "result": "W 11-7",
+          "attendance": 38642,
+          "pct_capacity": 90.1,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823413,
+          "date": "2026-09-10",
+          "day_of_week": "Thursday",
+          "opponent": "Houston Astros",
+          "result": "L 1-2",
+          "attendance": 37100,
+          "pct_capacity": 86.5,
+          "day_night": "day"
+        },
+        {
+          "game_pk": 823412,
+          "date": "2026-09-22",
+          "day_of_week": "Tuesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "W 6-4",
+          "attendance": 37132,
+          "pct_capacity": 86.6,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "87-70",
+    "streak": "W2",
+    "games_behind": "5.0"
+  },
+  "generated_at": "2026-09-23T14:49:45.192398+00:00"
+}
