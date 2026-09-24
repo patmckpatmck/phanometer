@@ -39209,5 +39209,238 @@
       "games_behind": "5.0"
     },
     "generated_at": "2026-09-23T14:49:45.192398+00:00"
+  },
+  {
+    "date": "2026-09-24",
+    "display_score": 53,
+    "reactive_score": 53,
+    "baseline_score": 48,
+    "insufficient_signal": false,
+    "content_volume": 244,
+    "mood_label": "Touch and Go",
+    "dimensions": {
+      "results_satisfaction": 52,
+      "front_office_trust": 55,
+      "manager_confidence": 58,
+      "lineup_confidence": 42,
+      "pitching_confidence": 68,
+      "health_outlook": 55,
+      "postseason_belief": 42
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 70,
+      "front_office_trust": 35,
+      "manager_confidence": 55,
+      "lineup_confidence": 85,
+      "pitching_confidence": 90,
+      "health_outlook": 75,
+      "postseason_belief": 80
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 55,
+        "note": "Hittin' Season and The Phillies Show both express genuine excitement about Wheeler's dominance and Luzardo's recovery trajectory, tempered by deep worry about offensive consistency and a bullpen that shrinks to two trusted arms."
+      },
+      "beat_writer": {
+        "score": 50,
+        "note": "Phillies Therapy offers the most rigorous accounting of the roster's limits \u2014 two trustworthy relievers, Painter unproven in relief, Luzardo a coin-flip \u2014 landing on cautious optimism for a short wildcard series but skepticism about a deep run."
+      },
+      "radio_populist": {
+        "score": 58,
+        "note": "WIP's High Hopes and the Larry Anderson segment land on qualified optimism \u2014 Wheeler looks playoff-ready, Marsh and Stott showed life, but Harper's approach regression and bullpen fragility keep the mood measured rather than confident."
+      },
+      "youtube_fan": {
+        "score": 32,
+        "note": "Comment section is dismissive and prickly \u2014 clinching a playoff berth earns a 'party once you win something' rebuke and personal shots at the host, reflecting low enthusiasm and high skepticism among the most reactive viewers."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Wheeler Carrying October Hopes",
+        "delta": 6,
+        "sample": "Seven straight strikeouts to open a game \u2014 a new franchise record \u2014 and a dominant five-start closing stretch have Wheeler firmly penciled in as Game 1 starter and the clearest source of genuine postseason confidence on the roster."
+      },
+      {
+        "name": "Offense Still the Fatal Flaw",
+        "delta": -6,
+        "sample": "A 0-for-12 showing with runners in scoring position on Wednesday crystallized the fear: without clutch hitting from Marsh, Stott, and a recaptured August approach from Harper, the lineup cannot generate enough runs to cover a thin bullpen in October."
+      },
+      {
+        "name": "Bullpen Danger: Only Two Trusted Arms",
+        "delta": -5,
+        "sample": "The uncomfortable math keeps surfacing \u2014 McFarlane and Duran are the only relievers anyone genuinely trusts, forcing starters to go deep every game and making any six-or-seventh-inning lead feel fragile regardless of the score."
+      },
+      {
+        "name": "Luzardo Recovery Lifts Rotation Ceiling",
+        "delta": 5,
+        "sample": "Four consecutive days of playing catch and no reported soreness have shifted Luzardo's wildcard-series availability from unlikely to plausible, with his bullpen role potentially unlocking a better six-pitcher deployment than the Phillies could have planned when he was healthy."
+      },
+      {
+        "name": "Playoff Seed Scramble Adding Anxiety",
+        "delta": -3,
+        "sample": "With the Cubs, Padres, and Phillies still knotted at the same record and tiebreaker math disfavoring Philadelphia against Chicago, the difference between hosting San Diego and traveling to Atlanta looms large \u2014 and no one fully agrees on which road is better for a team with documented home-field anxiety."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "They have two relievers they can trust right now. And what's a rookie who's had less than 20 games of experience?",
+        "score": 28,
+        "source_hint": "beat writer (Phillies Therapy)"
+      },
+      {
+        "text": "I think they've got the starting pitching to do it. I'm probably more concerned about the offense.",
+        "score": 50,
+        "source_hint": "talk-radio host (WIP / Larry Anderson segment)"
+      },
+      {
+        "text": "Party once you win something. A playoff birth isn't winning anything.",
+        "score": 22,
+        "source_hint": "YouTube commenters on the clinching party discussion"
+      },
+      {
+        "text": "It's winnable. There's not even Milwaukee \u2014 Milwaukee has never done it in the playoffs. There's no super team here.",
+        "score": 62,
+        "source_hint": "fan analyst (Hittin' Season)"
+      }
+    ],
+    "vibe_summary": "The magic number sits at two and Wheeler looks October-ready, but the arithmetic of a two-man bullpen and a still-unreliable offense has fans arriving at the playoffs with their guard up rather than their hopes high.",
+    "reasoning": "The dominant mood is one of tightly-wound, eyes-open pragmatism: Wheeler's franchise-record start and Luzardo's recovery generate real energy, but every analytical thread runs back into the same wall \u2014 a historically shallow bullpen and an offense that peaked in August and has regressed since. The beat writer offers the starkest accounting of the roster's limits, while the fan analysts and talk-radio voices are more willing to invoke the 'consistently inconsistent' upside framing. YouTube commenters, the most reactive signal present, show the lowest sentiment of any voice, dismissing clinching celebration talk and expressing frustration rather than excitement.",
+    "people_mentioned": [
+      "Wheeler",
+      "Luzardo",
+      "Mattingly",
+      "McFarlane",
+      "Marsh",
+      "Stott",
+      "Nola",
+      "Sanchez",
+      "Painter",
+      "Harper",
+      "Bohm",
+      "Duran",
+      "Turner",
+      "Realmuto",
+      "Boland",
+      "Dombrowski"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 164797,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 15468,
+      "youtube_comments": 4,
+      "youtube_comment_chars": 175,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Hittin' Season",
+        "title": "It's Almost Playoff Time For the Phillies",
+        "voice": "fan_analyst",
+        "chars": 52052
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Zack Wheeler is ready for Game 1 of the NL Wild Card Series",
+        "voice": "fan_analyst",
+        "chars": 34916
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "Final Out: The Magic Number Is 2",
+        "voice": "radio_populist",
+        "chars": 30569
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Seeds of Destiny",
+        "voice": "beat_writer",
+        "chars": 47260
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "'Hell Yeah!' Phillies Should Party If Clinch \ud83c\udf89",
+        "voice": "radio_populist",
+        "chars": 2087
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Optimistic Going Into Phillies Postseason",
+        "voice": "radio_populist",
+        "chars": 1056
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Larry Andersen Believes In Phillies Heading Into The Playoffs",
+        "voice": "radio_populist",
+        "chars": 12325
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 3,
+        "recent_avg_pct": 86.7,
+        "baseline_games_count": 25,
+        "baseline_avg_pct": 97.0,
+        "delta_pct": -10.3,
+        "canary_signal": true,
+        "recent_games": [
+          {
+            "game_pk": 823413,
+            "date": "2026-09-10",
+            "day_of_week": "Thursday",
+            "opponent": "Houston Astros",
+            "result": "L 1-2",
+            "attendance": 37100,
+            "pct_capacity": 86.5,
+            "day_night": "day"
+          },
+          {
+            "game_pk": 823412,
+            "date": "2026-09-22",
+            "day_of_week": "Tuesday",
+            "opponent": "Milwaukee Brewers",
+            "result": "W 6-4",
+            "attendance": 37132,
+            "pct_capacity": 86.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823410,
+            "date": "2026-09-23",
+            "day_of_week": "Wednesday",
+            "opponent": "Milwaukee Brewers",
+            "result": "L 1-4",
+            "attendance": 37271,
+            "pct_capacity": 86.9,
+            "day_night": "night"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "87-71",
+      "streak": "L1",
+      "games_behind": "6.0"
+    },
+    "generated_at": "2026-09-24T14:45:44.723529+00:00"
   }
 ]
