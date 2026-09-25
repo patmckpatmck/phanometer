@@ -1,0 +1,238 @@
+{
+  "date": "2026-09-25",
+  "display_score": 28,
+  "reactive_score": 28,
+  "baseline_score": 50,
+  "insufficient_signal": false,
+  "content_volume": 255,
+  "mood_label": "Not Again",
+  "dimensions": {
+    "results_satisfaction": 18,
+    "front_office_trust": 22,
+    "manager_confidence": 30,
+    "lineup_confidence": 20,
+    "pitching_confidence": 58,
+    "health_outlook": 28,
+    "postseason_belief": 22
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 92,
+    "front_office_trust": 72,
+    "manager_confidence": 60,
+    "lineup_confidence": 90,
+    "pitching_confidence": 75,
+    "health_outlook": 80,
+    "postseason_belief": 85
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 35,
+      "note": "Hittin' Season and Phillies Talk / The Phillies Show hosts share deep alarm about the offensive collapse and bullpen fragility, with cautious hope anchored almost entirely in the starting rotation and Painter's emergence."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 12,
+      "note": "Talk-radio hosts on WIP describe physical nausea, invoke 1964, and frame a potential playoff miss as a top-three collapse in Philadelphia sports history; callers are furious at Dombrowski, Long, Turner, and Harper."
+    },
+    "youtube_fan": {
+      "score": 14,
+      "note": "YouTube commenters are overwhelmingly disgusted \u2014 calling Harper washed, blaming the front office for assembling 'used to be' players, and expressing numbness or embarrassment rather than panic."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Offensive collapse at the worst possible moment",
+      "delta": -9,
+      "sample": "Two runs over the last two games, 0-for-12 with RISP in one outing, a .225 team average in September \u2014 the August approach has completely evaporated with the playoffs on the line."
+    },
+    {
+      "name": "Araiz injury clouds the lineup and October plans",
+      "delta": -7,
+      "sample": "A freak ankle injury on a disputed call removes the cleanup hitter for likely the rest of the regular season, shrinking an already thin lineup and raising serious questions about his availability for a wildcard series."
+    },
+    {
+      "name": "Painter's emergence as a genuine October piece",
+      "delta": 6,
+      "sample": "Six innings, eight strikeouts, a double-plus changeup \u2014 Andrew Painter's strong finish gives the rotation real depth and is the clearest bright spot in an otherwise gloomy week."
+    },
+    {
+      "name": "Alvarado and the bullpen remain the fatal flaw",
+      "delta": -7,
+      "sample": "Alvarado's eighth-inning meltdown in a must-win game, velocity down nearly two miles per hour, left-handers torching him \u2014 the bullpen's tightrope act is unsustainable heading into October."
+    },
+    {
+      "name": "Front office and coaching staff facing existential scrutiny",
+      "delta": -6,
+      "sample": "Kevin Long is called a 'dinosaur' coaching 2010 hitting in a breaking-ball era; Dombrowski's roster construction \u2014 Turner's contract, catcher production, deadline inaction \u2014 is openly labeled the root cause of the team's ceiling problem."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Red October is trending more toward like Red Wedding right now.",
+      "score": 8,
+      "source_hint": "talk-radio host caller on WIP High Hopes / Final Out"
+    },
+    {
+      "text": "I can honestly tell you I feel physically freaking affected by the Phillies.",
+      "score": 6,
+      "source_hint": "talk-radio host on 94WIP"
+    },
+    {
+      "text": "It feels like a Waymo. They've been in the driver's seat for weeks and they drove it right into an oak tree.",
+      "score": 18,
+      "source_hint": "fan analyst on The Phillies Show"
+    },
+    {
+      "text": "Kevin Long is a freaking dinosaur. He is teaching hitting from 2010. It is 2026.",
+      "score": 12,
+      "source_hint": "talk-radio host on WIP High Hopes / Final Out"
+    }
+  ],
+  "vibe_summary": "Disgust and embarrassment have replaced anxiety \u2014 with a potential all-time collapse now tangible, champagne still on ice, and an injured cleanup hitter, Phillies fans are staring into the void rather than bracing for it.",
+  "reasoning": "The dominant emotion is visceral shame and anger, not merely worry \u2014 the talk-radio conversation has moved to 1964 comparisons and sweeping organizational indictments, while analytical voices share the alarm but anchor their remaining hope in the starting rotation and Painter. The offensive collapse is the through-line everyone agrees on: an approach that worked brilliantly in August has completely disappeared against good pitching, and the Araiz ankle injury compounds a lineup already hollowed out by Turner's slump, Realmutto's 0-for-20 stretch, and Schwarber's power drought. The ground-truth record of 87-72 with an L2 streak and sitting 6.0 back in the division captures a team that has failed to clinch despite weeks of opportunity, and the postseason-belief score stays low because virtually all forward-looking commentary is coping framing \u2014 'they'll probably still get in' \u2014 rather than expressed confidence in a deep October run.",
+  "people_mentioned": [
+    "Harper",
+    "Araiz",
+    "Alvarado",
+    "Painter",
+    "Turner",
+    "Realmutto",
+    "Schwarber",
+    "Wheeler",
+    "Nola",
+    "Luzardo",
+    "Sanchez",
+    "Mattingly",
+    "Dombrowski",
+    "Long",
+    "Bohm",
+    "Stott",
+    "Sosa",
+    "McFarlane",
+    "Marsh",
+    "Aidan Miller",
+    "Stubbs"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 162882,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 13356,
+    "youtube_comments": 20,
+    "youtube_comment_chars": 3275,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Champagne on ice: the Phillies are fading down the stretch",
+      "voice": "fan_analyst",
+      "chars": 30969
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Is it PANIC TIME for the Phillies postseason chances with just three games left?",
+      "voice": "fan_analyst",
+      "chars": 44491
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "Final Out: Will This Team Wake Up?!",
+      "voice": "radio_populist",
+      "chars": 35370
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "It's Almost Playoff Time For the Phillies",
+      "voice": "fan_analyst",
+      "chars": 52052
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "'Physically SICK!' \u2014 DeCamara On Phillies Potential ALL-TIME Collapse | 94WIP",
+      "voice": "radio_populist",
+      "chars": 9810
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "'Physically SICK' Over Phillies",
+      "voice": "radio_populist",
+      "chars": 1314
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Need PEAK Bryce Harper",
+      "voice": "radio_populist",
+      "chars": 2232
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 3,
+      "recent_avg_pct": 86.7,
+      "baseline_games_count": 25,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -10.3,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823412,
+          "date": "2026-09-22",
+          "day_of_week": "Tuesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "W 6-4",
+          "attendance": 37132,
+          "pct_capacity": 86.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823410,
+          "date": "2026-09-23",
+          "day_of_week": "Wednesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-4",
+          "attendance": 37271,
+          "pct_capacity": 86.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823411,
+          "date": "2026-09-24",
+          "day_of_week": "Thursday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-5",
+          "attendance": 37177,
+          "pct_capacity": 86.7,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "87-72",
+    "streak": "L2",
+    "games_behind": "6.0"
+  },
+  "generated_at": "2026-09-25T15:07:45.562643+00:00"
+}
