@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-26",
+  "display_score": 23,
+  "reactive_score": 23,
+  "baseline_score": 43,
+  "insufficient_signal": false,
+  "content_volume": 258,
+  "mood_label": "Not Again",
+  "dimensions": {
+    "results_satisfaction": 12,
+    "front_office_trust": 22,
+    "manager_confidence": 28,
+    "lineup_confidence": 15,
+    "pitching_confidence": 48,
+    "health_outlook": 30,
+    "postseason_belief": 18
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 72,
+    "manager_confidence": 78,
+    "lineup_confidence": 98,
+    "pitching_confidence": 70,
+    "health_outlook": 75,
+    "postseason_belief": 88
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 22,
+      "note": "Hittin' Season, The Phillies Show, and Phillies Talk all deliver alarming offensive breakdowns \u2014 dead-last September OPS, historic RISP failures, Urias injury \u2014 with only Painter's development and slim playoff math offering any relief."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 14,
+      "note": "High Hopes and the 94WIP clips are among the most scathing content in the batch \u2014 'leaderless,' 'rudderless,' 'gentle parenting' vs. the Brewers' standard, and explicit shame about a potential franchise-defining collapse."
+    },
+    "youtube_fan": {
+      "score": 11,
+      "note": "YouTube commenters are uniformly furious \u2014 calling for Dombrowski's firing, labeling Harper a billboard, describing the clubhouse as 'a morgue,' and cheering the prospect of wholesale changes if the team misses the playoffs."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Dead-Last Offense, Season-Long Indictment",
+      "delta": -9,
+      "sample": "A .655 September OPS \u2014 worst in baseball \u2014 and the fifth-worst position-player WAR in the sport have reframed the August hot streak as a fluke rather than a turning point, with the lineup exposed as a structural problem, not a slump."
+    },
+    {
+      "name": "Leaderless Clubhouse, No Accountability",
+      "delta": -8,
+      "sample": "The absence of anyone willing to confront teammates, challenge stars, or set a competitive standard \u2014 contrasted sharply with Pat Murphy's Brewers \u2014 has become the defining narrative of why this talented roster keeps underachieving."
+    },
+    {
+      "name": "Urias Injury Strips Last Offensive Hope",
+      "delta": -6,
+      "sample": "A bad ankle sprain on a controversial umpiring call cost the team its cleanup hitter at the worst possible moment, leaving a lineup already scoring one run a game even shorter heading into a must-win series."
+    },
+    {
+      "name": "Wheeler Scheduling Nightmare Looms",
+      "delta": -5,
+      "sample": "Every additional loss forces the possibility of burning Wheeler in a meaningless regular-season finale, potentially knocking the ace off the mound for Game 1 of a wild-card series the team can barely qualify for."
+    },
+    {
+      "name": "Painter Bright Spot in a Sea of Darkness",
+      "delta": 5,
+      "sample": "Andrew Painter's 3.65 ERA over his final 11 starts, capped by eight strikeouts and an electric changeup in his season finale, stands out as the one genuine development story anyone can feel good about heading into October."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "There is no fire. There is no emotion. They look like they know they can't do it.",
+      "score": 8,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "The leaderless, rudderless Phillies who are so busy worrying about whether they're going to wait around in the clubhouse to 1:00 a.m. to see if the Padres lose that they forget to score runs.",
+      "score": 6,
+      "source_hint": "talk-radio host (94WIP)"
+    },
+    {
+      "text": "That clubhouse is a morgue where the spirit of baseball goes to die. They are not a team, they're a group of individual players.",
+      "score": 5,
+      "source_hint": "YouTube commenters"
+    },
+    {
+      "text": "Philadelphia is going to be very happy with him moving forward.",
+      "score": 72,
+      "source_hint": "fan analyst (The Phillies Show), quoting Don Mattingly on Andrew Painter"
+    }
+  ],
+  "vibe_summary": "The word 'collapse' has stopped feeling hypothetical \u2014 a leaderless offense hitting dead-last in baseball, a hobbled cleanup hitter, and a bullpen crisis have Phillies fans toggling between fury and numb resignation three games from the finish line.",
+  "reasoning": "The dominant force across every source is collective shame rather than simple disappointment \u2014 the organizational culture critique (catering to players, no accountability, 'gentle parenting') has merged with the purely statistical indictment (fifth-worst position-player WAR, dead-last September OPS) into a single, damning verdict on this era. The only meaningful divergence is that the fan-analyst voices retain slight analytical distance \u2014 noting playoff math, flagging Painter's development \u2014 while the talk-radio clips and YouTube comments have moved into something closer to contempt, openly hoping a missed playoff berth forces the front office's hand.",
+  "people_mentioned": [
+    "Harper",
+    "Schwarber",
+    "Turner",
+    "Mattingly",
+    "Dombrowski",
+    "Bohm",
+    "Stott",
+    "Realmuto",
+    "Urias",
+    "Wheeler",
+    "Painter",
+    "Alvarado",
+    "McFarland",
+    "Luzardo",
+    "Sanchez",
+    "Marsh",
+    "Sosa",
+    "Crawford",
+    "Long",
+    "Murphy",
+    "Middleton",
+    "Miller"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 171808,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 7027,
+    "youtube_comments": 20,
+    "youtube_comment_chars": 3224,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "AN URGENT CALL TO THE PHILLIES BATS - NOW'S THE TIME",
+      "voice": "fan_analyst",
+      "chars": 29752
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "The Phillies Are A Direct Result Of Gentle Parenting",
+      "voice": "radio_populist",
+      "chars": 59994
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "Champagne on ice: the Phillies are fading down the stretch",
+      "voice": "fan_analyst",
+      "chars": 37733
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Is it PANIC TIME for the Phillies postseason chances with just three games left?",
+      "voice": "fan_analyst",
+      "chars": 44329
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Jack Fritz's Phillies Rant! \ud83d\udd25",
+      "voice": "radio_populist",
+      "chars": 1682
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Do Phillies Want It?",
+      "voice": "radio_populist",
+      "chars": 2480
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "I Can't Stand The Phillies",
+      "voice": "radio_populist",
+      "chars": 2865
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 4,
+      "recent_avg_pct": 88.4,
+      "baseline_games_count": 25,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -8.6,
+      "canary_signal": true,
+      "recent_games": [
+        {
+          "game_pk": 823412,
+          "date": "2026-09-22",
+          "day_of_week": "Tuesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "W 6-4",
+          "attendance": 37132,
+          "pct_capacity": 86.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823410,
+          "date": "2026-09-23",
+          "day_of_week": "Wednesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-4",
+          "attendance": 37271,
+          "pct_capacity": 86.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823411,
+          "date": "2026-09-24",
+          "day_of_week": "Thursday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-5",
+          "attendance": 37177,
+          "pct_capacity": 86.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823409,
+          "date": "2026-09-25",
+          "day_of_week": "Friday",
+          "opponent": "Tampa Bay Rays",
+          "result": "L 0-2",
+          "attendance": 40133,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "87-73",
+    "streak": "L3",
+    "games_behind": "6.0"
+  },
+  "generated_at": "2026-09-26T14:11:52.958634+00:00"
+}
