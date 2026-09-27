@@ -39932,29 +39932,29 @@
   },
   {
     "date": "2026-09-27",
-    "display_score": 21,
-    "reactive_score": 21,
+    "display_score": 20,
+    "reactive_score": 20,
     "baseline_score": 37,
     "insufficient_signal": false,
-    "content_volume": 295,
+    "content_volume": 286,
     "mood_label": "Not Again",
     "dimensions": {
       "results_satisfaction": 12,
       "front_office_trust": 18,
-      "manager_confidence": 28,
+      "manager_confidence": 22,
       "lineup_confidence": 14,
-      "pitching_confidence": 38,
+      "pitching_confidence": 35,
       "health_outlook": 22,
       "postseason_belief": 20
     },
     "dimension_confidence": {
-      "results_satisfaction": 90,
-      "front_office_trust": 75,
-      "manager_confidence": 70,
-      "lineup_confidence": 92,
-      "pitching_confidence": 72,
-      "health_outlook": 80,
-      "postseason_belief": 65
+      "results_satisfaction": 92,
+      "front_office_trust": 78,
+      "manager_confidence": 72,
+      "lineup_confidence": 95,
+      "pitching_confidence": 80,
+      "health_outlook": 75,
+      "postseason_belief": 70
     },
     "voice_breakdown": {
       "reddit": {
@@ -39962,21 +39962,20 @@
         "note": null
       },
       "fan_analyst": {
-        "score": 22,
-        "detail": null,
-        "note": "The Phillies Show and Phillies Talk both describe the offense as 'abysmal' and 'maddening,' with the Luzardo injury and bullpen collapse framing the moment as doom-and-gloom; Painter's second half is the lone bright spot."
+        "score": 28,
+        "note": "The Phillies Show and Phillies Talk both document an offense that has reverted to its worst habits \u2014 225 average, 655 OPS in September \u2014 while the fan analyst panel identifies the bullpen as structurally broken and the Arise injury as a gut-punch; modest optimism about Painter and Luzardo's potential return keeps the score from bottoming out entirely."
       },
       "beat_writer": {
-        "score": 38,
-        "note": "Phillies Therapy takes a measured, longer-view tone \u2014 cautiously optimistic about Luzardo's recovery trajectory and Painter's role, and frames the wildcard matchup as winnable despite obvious shortcomings."
+        "score": 40,
+        "note": "The beat writer (Phillies Therapy) takes the most measured tone, focusing analytically on pitching deployment, Luzardo's recovery timeline, and wildcard matchup scenarios; cautious optimism about McFarlane and Painter in relief roles lifts the score slightly above pure despair."
       },
       "radio_populist": {
-        "score": 8,
-        "note": "WIP content is the most furious voice present, calling the team 'leaderless,' 'rudderless,' and 'embarrassing,' with callers and hosts alike saying the big-money players don't act like they want to win a World Series."
+        "score": 10,
+        "note": "The talk-radio hosts (WIP High Hopes and 94WIP clips) are the most emotionally raw, using words like 'embarrassing,' 'leaderless,' and 'gutless,' openly debating whether missing the playoffs would be a good thing, and calling for wholesale organizational changes including firing Dombrowski."
       },
       "youtube_fan": {
         "score": 11,
-        "note": "YouTube commenters are overwhelmingly savage \u2014 comparing the clubhouse to 'a morgue,' calling for Dombrowski's firing, and labeling the roster 'gutless,' 'heartless,' and 'the biggest frauds in baseball.'"
+        "note": "YouTube commenters are uniformly furious \u2014 calling for Dombrowski's firing, labeling the team frauds, describing the clubhouse as a morgue, and singling out Turner, Harper, and Realmuto as emblematic of a team with no accountability and no hunger."
       },
       "twitter_fan": {
         "score": null,
@@ -39985,76 +39984,79 @@
     },
     "themes": [
       {
-        "name": "Accountability vacuum at every level",
+        "name": "Offensive Flatline at the Worst Moment",
         "delta": -8,
-        "sample": "From ownership down through the roster, the recurring charge is that no one \u2014 not the front office, not the manager, not the star players \u2014 will enforce a standard or hold a teammate responsible, and the September collapse is seen as the inevitable result."
+        "sample": "Scoring one run in each of the last two games, going 0-for-12 with RISP, and hitting .225 as a team in September, the offense has erased every bit of goodwill built during a 21-7 August \u2014 with the playoff window still technically open but looking increasingly foggy."
       },
       {
-        "name": "Luzardo injury compounds an already-thin bullpen",
+        "name": "Accountability Vacuum From Top to Bottom",
         "delta": -7,
-        "sample": "With only two trusted relievers and now their deadline acquisition potentially lost for the wild-card round, the pitching deployment math for October looks genuinely alarming \u2014 starters may need to go seven-plus just to survive each game."
+        "sample": "The deepest frustration is cultural: star players dictate lineup spots and hitting coaches, no one in the dugout enforces standards, and the contrast with Milwaukee's disciplined, Murphy-run operation has become impossible to ignore."
       },
       {
-        "name": "Trea Turner and JT Realmuto offensive crises",
-        "delta": -7,
-        "sample": "The $300 million shortstop batting second with the worst numbers in baseball and the franchise catcher hitless in nearly 30 at-bats are being cited as twin symbols of how badly this lineup has collapsed at the worst possible moment."
+        "name": "Arise Injury Compounds an Already Brittle Roster",
+        "delta": -6,
+        "sample": "A badly sprained ankle on a bad umpiring call has almost certainly cost the team its cleanup hitter for the final regular-season series and possibly the opening wildcard round, extending a grim pattern of deadline acquisitions derailed by injury."
       },
       {
-        "name": "Andrew Painter as the season's lone genuine bright spot",
-        "delta": 6,
-        "sample": "A 3.65 ERA over his final 11 starts, a 70-grade changeup, and the mental fortitude to bounce back from a Triple-A demotion have earned Painter real trust as a postseason reliever \u2014 arguably the most encouraging development of the entire year."
+        "name": "Bullpen Down to Two Trustworthy Arms",
+        "delta": -5,
+        "sample": "With Alvarado's reverse splits catastrophic against lefties, Bolin hurt, and McFarlane a rookie with under 20 appearances, the team is essentially running a two-man late-inning operation \u2014 and the math gets worse if Luzardo is not healthy enough to contribute."
       },
       {
-        "name": "Collapse anxiety now eclipses playoff anticipation",
-        "delta": -9,
-        "sample": "With an L4 streak, a hobbled cleanup hitter, champagne still sitting in a back room, and the Diamondbacks alive, the framing has shifted from 'when do we clinch' to 'could this actually be 1964' \u2014 a mental leap fans and analysts are now making openly."
+        "name": "Painter and Luzardo Offer a Narrow Sliver of Hope",
+        "delta": 4,
+        "sample": "Andrew Painter's 3.65 ERA over his final 11 starts and an electric changeup have made him a genuine postseason reliever candidate, while Luzardo's catch sessions and bullpen throws are trending toward a wildcard-series return that could meaningfully change the team's ceiling."
       }
     ],
     "quotes": [
+      {
+        "text": "We have reached the point of, I want them to feel the pain of missing the playoffs.",
+        "score": 5,
+        "source_hint": "WIP High Hopes talk-radio host"
+      },
       {
         "text": "That clubhouse is a morgue where the spirit of baseball goes to die.",
         "score": 4,
         "source_hint": "YouTube commenter on 'Dissecting The Leaderless Phillies Culture'"
       },
       {
-        "text": "The standard for the Phillies is just get to the post season. They don't act like they want to win a World Series.",
-        "score": 10,
-        "source_hint": "WIP Daily talk-radio host segment"
-      },
-      {
-        "text": "They have two relievers they can trust. Two. That is it.",
-        "score": 18,
+        "text": "They have two relievers they can trust right now. That is it.",
+        "score": 20,
         "source_hint": "Phillies Therapy beat writer"
       },
       {
-        "text": "It feels like a waymo. They've been in the driver's seat for weeks and they drove it right into an oak tree.",
-        "score": 15,
-        "source_hint": "The Phillies Show fan analyst"
+        "text": "I'm embarrassed. Like as a die hard live and die Caratone, like this is embarrassing.",
+        "score": 8,
+        "source_hint": "94WIP talk-radio clip"
       }
     ],
-    "vibe_summary": "Four straight losses, a hobbled cleanup hitter, a bullpen held together by a rookie, and big-money veterans who look checked out have turned what should be a celebration week into a reckoning with organizational rot.",
-    "reasoning": "The dominant mood is furious disillusionment \u2014 not just at the losing streak but at a perceived culture of entitlement and zero accountability that fans and analysts now see as structural. The talk-radio and YouTube content is the most visceral, openly labeling the roster fraudulent and leaderless, while the beat writer maintains a more analytical, forward-looking tone \u2014 noting Luzardo's improving trajectory and framing the wildcard as winnable on pitching alone. Painter's emergence is the one point of genuine agreement across all present voices. Postseason belief scores low not because coping language is absent, but because the actual expressed confidence in a deep October run is almost nonexistent \u2014 playoff qualification itself feels uncertain, and the bullpen situation makes any deeper projection feel hollow.",
+    "vibe_summary": "Fury at a star-driven, accountability-free culture has overtaken mere anxiety about the standings, with fans and analysts alike wondering whether this team even wants what it keeps insisting it deserves.",
+    "reasoning": "The dominant mood is a toxic mix of rage and resignation centered on organizational culture: stars dictating personnel decisions, no one enforcing standards, and an offense that abandoned its August approach the moment September arrived. The beat writer offers the most structurally grounded take \u2014 focused on pitching deployment, Luzardo's timeline, and matchup scenarios \u2014 while talk-radio and YouTube voices have moved into full condemnation mode, openly calling for front-office dismissals and questioning whether the core players even feel urgency. The narrow exception is cautious optimism around Painter and a potential Luzardo return, which prevents pitching confidence from cratering alongside the offensive and cultural despair.",
     "people_mentioned": [
       "Turner",
       "Harper",
-      "Realmuto",
       "Mattingly",
       "Dombrowski",
+      "Alvarado",
+      "McFarlane",
       "Painter",
       "Luzardo",
-      "McFarlane",
-      "Alvarado",
-      "Wheeler",
+      "Realmuto",
       "Schwarber",
       "Bohm",
       "Stott",
       "Sosa",
-      "Nola",
+      "Wheeler",
       "Sanchez",
-      "Arraez",
-      "Middleton",
+      "Nola",
+      "Arise",
       "Long",
-      "Murphy"
+      "Murphy",
+      "Middleton",
+      "Crawford",
+      "Stubbs",
+      "Miller"
     ],
     "source_counts": {
       "reddit_posts": 0,
@@ -40062,7 +40064,7 @@
       "match_threads": 0,
       "podcasts_attempted": 4,
       "podcasts_transcribed": 4,
-      "podcast_chars": 196739,
+      "podcast_chars": 189918,
       "youtube_attempted": 3,
       "youtube_transcribed": 3,
       "youtube_chars": 7046,
@@ -40076,13 +40078,13 @@
         "feed_name": "High Hopes",
         "title": "The Phillies Are A Direct Result Of Gentle Parenting",
         "voice": "radio_populist",
-        "chars": 59814
+        "chars": 59922
       },
       {
         "feed_name": "The Phillies Show",
         "title": "Champagne on ice: the Phillies are fading down the stretch",
         "voice": "fan_analyst",
-        "chars": 39507
+        "chars": 38686
       },
       {
         "feed_name": "Phillies Talk",
@@ -40094,7 +40096,7 @@
         "feed_name": "Phillies Therapy",
         "title": "Seeds of Destiny",
         "voice": "beat_writer",
-        "chars": 53368
+        "chars": 47260
       },
       {
         "feed_name": "94WIP",
@@ -40186,6 +40188,6 @@
       "streak": "L4",
       "games_behind": "7.0"
     },
-    "generated_at": "2026-09-27T14:28:14.112269+00:00"
+    "generated_at": "2026-09-27T15:09:40.577024+00:00"
   }
 ]
