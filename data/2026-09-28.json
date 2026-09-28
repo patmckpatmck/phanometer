@@ -1,28 +1,28 @@
 {
   "date": "2026-09-28",
-  "display_score": 48,
-  "reactive_score": 48,
+  "display_score": 49,
+  "reactive_score": 49,
   "baseline_score": 32,
   "insufficient_signal": false,
-  "content_volume": 328,
+  "content_volume": 281,
   "mood_label": "Uneasy",
   "dimensions": {
-    "results_satisfaction": 62,
-    "front_office_trust": 42,
-    "manager_confidence": 35,
+    "results_satisfaction": 68,
+    "front_office_trust": 38,
+    "manager_confidence": 32,
     "lineup_confidence": 45,
     "pitching_confidence": 58,
-    "health_outlook": 48,
-    "postseason_belief": 32
+    "health_outlook": 42,
+    "postseason_belief": 35
   },
   "dimension_confidence": {
     "results_satisfaction": 85,
-    "front_office_trust": 38,
+    "front_office_trust": 45,
     "manager_confidence": 72,
     "lineup_confidence": 80,
-    "pitching_confidence": 82,
-    "health_outlook": 65,
-    "postseason_belief": 78
+    "pitching_confidence": 85,
+    "health_outlook": 70,
+    "postseason_belief": 80
   },
   "voice_breakdown": {
     "reddit": {
@@ -31,19 +31,19 @@
     },
     "fan_analyst": {
       "score": 55,
-      "note": "Hittin' Season, The Phillies Show, and Phillies Talk all celebrate clinching while cataloguing real structural problems \u2014 fifth-worst position-player WAR, bullpen distrust, Mattingly skepticism, and a pitching plan in disarray; cautious optimism rather than belief."
+      "note": "Hittin' Season and Phillies Talk both relieved the clinch happened but deeply skeptical about the playoff run \u2014 offense ranked fifth-worst in baseball by WAR, Mattingly's bullpen management openly criticized, and predictions lean Atlanta."
     },
     "beat_writer": {
-      "score": 58,
-      "note": "Phillies Therapy frames the wild-card berth as a relief, praises Wheeler and the Sunday lineup, but is candid about the gargantuan game-one task, roster thinness, and the genuine possibility of a quick exit in Atlanta."
+      "score": 62,
+      "note": "The beat writer (Phillies Therapy) is cautiously celebratory \u2014 Wheeler's performance was cathartic, but game one is a 'gargantuan task' and the series is framed as Phillies in two or Braves in any scenario."
     },
     "radio_populist": {
-      "score": 48,
-      "note": "WIP hosts split between wiping the slate clean and calling this team 'remarkably flawed' with bats, bullpen, and 'heart' all named as problems; the dominant emotional register is relief mixed with lingering anger, with at least one host picking the Braves to win."
+      "score": 60,
+      "note": "The talk-radio host (WIP Daily) gives the team a clean slate entering the postseason but acknowledges mixed emotions, notes the expanded playoff field diminishes the accomplishment, and concedes Wheeler's use was damaging."
     },
     "youtube_fan": {
-      "score": 30,
-      "note": "Comment sections skew heavily negative \u2014 'frauds,' 'screwed,' 'one and done,' and calls to blow up the roster outnumber celebratory comments; a minority celebrate the berth but the pessimistic tone dominates."
+      "score": 28,
+      "note": "YouTube commenters are predominantly pessimistic \u2014 dominant sentiment is the team doesn't belong, will be swept by Wednesday, and ownership/Dombrowski don't actually care about winning a championship."
     },
     "twitter_fan": {
       "score": null,
@@ -52,55 +52,55 @@
   },
   "themes": [
     {
-      "name": "Relief Without Redemption",
+      "name": "Relief Tempered by Realism",
       "delta": 3,
-      "sample": "Clinching on the final day produced an exhale, not a celebration \u2014 the wild-card berth is welcome but nobody is pretending the past month didn't happen or that the team earned it cleanly."
+      "sample": "Clinching on game 162 produced genuine exhale energy \u2014 Schwarber's fist pump, a 12-hit performance, the clubhouse celebration \u2014 but nearly everyone immediately pivoted to how thin the margin was and how flimsy the foundation looks heading to Atlanta."
     },
     {
-      "name": "Wheeler Saved Everyone",
-      "delta": 7,
-      "sample": "Zack Wheeler's dominant game-162 start is universally credited with rescuing the season, but the cost \u2014 losing him as a game-one starter against the Braves \u2014 looms over every postseason discussion."
-    },
-    {
-      "name": "Pitching Plan in Chaos",
+      "name": "Wheeler Used Up, Pitching Plan in Tatters",
       "delta": -6,
-      "sample": "With Wheeler unavailable to start, the rotation is a patchwork of Painter, Luzardo, Sanchez, and Nola, and nobody is confident in how Mattingly will piece it together across a three-game series."
+      "sample": "Using the ace to save the season means game one in Atlanta goes to an untested combination of Painter, Luzardo, and depth arms against Chris Sale \u2014 the single biggest anxiety heading into the wild card series."
     },
     {
-      "name": "Offense Still the Core Fear",
-      "delta": -5,
-      "sample": "The fifth-worst position-player production in baseball and a pattern of prolonged offensive shutdowns \u2014 including a 21-inning scoreless streak \u2014 leave fans and analysts deeply skeptical the bats will show up against Chris Sale."
-    },
-    {
-      "name": "Mattingly's Competence Under Fire",
+      "name": "Offense Jekyll and Hyde Identity Crisis",
       "delta": -4,
-      "sample": "Starting Nola on two days rest in game 161, questionable bullpen management all season, and a general inability to coax consistent offense have eroded confidence in the manager heading into October."
+      "sample": "The position player group ranks among the five worst in baseball by WAR, went 21-plus innings without scoring during the near-collapse, then erupted for 12 hits on Sunday \u2014 no one trusts which version shows up against Sale."
+    },
+    {
+      "name": "Mattingly's Bullpen Management a Liability",
+      "delta": -5,
+      "sample": "Starting Nola on two days rest during the near-collapse was widely called a panic move, and broader concern that the manager cannot reliably navigate a short-series bullpen situation is a recurring thread across analytical takes."
+    },
+    {
+      "name": "Postseason History vs. Braves Is the One Security Blanket",
+      "delta": 4,
+      "sample": "Three-for-three in playoff series against Atlanta \u2014 1993, 2022, 2023 \u2014 is the single most-cited reason to believe, with Luzardo's four-pitch cameo and the road-underdog framing adding small doses of cautious hope."
     }
   ],
   "quotes": [
     {
-      "text": "They are a remarkably flawed team. The bats and the bullpen and I believe the heart are all problems.",
-      "score": 22,
-      "source_hint": "talk-radio host (WIP Daily)"
+      "text": "They are not expected to win this series. They should not win this series.",
+      "score": 30,
+      "source_hint": "beat writer (Phillies Therapy) on the wild card matchup"
     },
     {
-      "text": "This team is nothing but bunch of frauds. I'm so over the Bryce experience.",
-      "score": 10,
-      "source_hint": "YouTube commenters on clinching video"
+      "text": "Don Mattingly doesn't know his butt from a hole in the ground.",
+      "score": 15,
+      "source_hint": "fan analyst (Hittin' Season) on Saturday's Nola decision"
     },
     {
-      "text": "They scared the crap out of us. We thought we were looking at another collapse. But on Sunday, the Stars did it.",
-      "score": 60,
-      "source_hint": "fan analyst (Hittin' Season)"
-    },
-    {
-      "text": "I believe even if I have to grasp for straws that the Phillies can do this, that they can make that happen.",
+      "text": "I'm giving them a clean slate as we start the postseason.",
       "score": 65,
-      "source_hint": "beat writer (Phillies Therapy)"
+      "source_hint": "talk-radio host (WIP Daily) entering the wild card round"
+    },
+    {
+      "text": "Wouldn't be surprised if they're done in 2 games and the series is wrapped up by Wednesday night.",
+      "score": 12,
+      "source_hint": "YouTube commenter on the wild card outlook"
     }
   ],
-  "vibe_summary": "The Phillies punched their ticket to October, but the celebration comes wrapped in suspicion \u2014 fans know this team barely survived its own collapse and faces the Braves without its ace lined up.",
-  "reasoning": "The clinching win on game 162 produced genuine relief but not genuine optimism. Wheeler's brilliance and the Sunday offensive eruption are credited, yet the structural problems \u2014 historically bad position-player production, a disorganized pitching plan, and a bullpen nobody trusts \u2014 remain loudly present in every conversation. The sharpest divergence is between the podcast voices, which at least entertain a path to winning the series, and the raw fan commentary, which skews toward 'one and done' and open calls to blow the roster up; Mattingly's handling of the pitching staff in the final week is a rare point of near-universal criticism.",
+  "vibe_summary": "The Phillies punched their ticket to Atlanta, but the celebration is edged with dread \u2014 a decimated pitching rotation, an offense nobody trusts, and a manager whose bullpen decisions inspire little confidence.",
+  "reasoning": "The clinch on game 162 produced genuine relief after a near-historic collapse, and Sunday's 12-hit performance offered a brief burst of optimism. However, the dominant mood is guarded pessimism: the starting rotation is in disarray after Wheeler's necessary Sunday outing, the offense carries the fifth-worst position-player WAR in baseball, and Mattingly's bullpen management is openly criticized as a playoff liability. The most analytical takes lean toward Atlanta winning the series while acknowledging upside scenarios; YouTube commenters are far more bluntly defeatist, with several arguing the team doesn't belong in the postseason at all \u2014 a sharper divergence from the cautious optimism found in longer-form podcast discussion.",
   "people_mentioned": [
     "Wheeler",
     "Luzardo",
@@ -108,25 +108,21 @@
     "Harper",
     "Schwarber",
     "Painter",
-    "Stott",
     "Sanchez",
-    "Nola",
+    "Stott",
     "Turner",
     "Bohm",
+    "Nola",
     "Realmuto",
-    "Duran",
+    "Sosa",
     "Dombrowski",
     "Alvarado",
-    "Sosa",
-    "Hill",
+    "Duran",
     "Crawford",
+    "Hill",
     "Marsh",
-    "Dela Cruz",
-    "Acuna",
-    "Sale",
-    "Nola",
-    "McFarlane",
-    "Long"
+    "Ariza",
+    "Sale"
   ],
   "source_counts": {
     "reddit_posts": 0,
@@ -134,12 +130,12 @@
     "match_threads": 0,
     "podcasts_attempted": 4,
     "podcasts_transcribed": 4,
-    "podcast_chars": 199247,
+    "podcast_chars": 195898,
     "youtube_attempted": 3,
     "youtube_transcribed": 3,
-    "youtube_chars": 25030,
-    "youtube_comments": 29,
-    "youtube_comment_chars": 3115,
+    "youtube_chars": 4405,
+    "youtube_comments": 14,
+    "youtube_comment_chars": 2189,
     "twitter_posts": 0,
     "twitter_post_chars": 0
   },
@@ -154,7 +150,7 @@
       "feed_name": "The Phillies Show",
       "title": "The Phillies clinched an NL Wild Card. What's next?",
       "voice": "fan_analyst",
-      "chars": 35965
+      "chars": 32565
     },
     {
       "feed_name": "Phillies Talk",
@@ -166,25 +162,25 @@
       "feed_name": "Hittin' Season",
       "title": "Phillies Make the Playoffs - Braves Series Preview!",
       "voice": "fan_analyst",
-      "chars": 64090
+      "chars": 64141
     },
     {
       "feed_name": "94WIP",
-      "title": "The Phillies Deserve A Postseason Clean Slate",
+      "title": "'MIXED Emotions' On Phillies",
       "voice": "radio_populist",
-      "chars": 11717
+      "chars": 1317
     },
     {
       "feed_name": "94WIP",
-      "title": "Phillies LIMP Into Playoffs! MIXED Emotions After Wild Weekend | 94WIP",
+      "title": "Giving The Phillies A CLEAN Slate",
       "voice": "radio_populist",
-      "chars": 11523
+      "chars": 1477
     },
     {
       "feed_name": "94WIP",
-      "title": "Frustrated With The Phillies",
+      "title": "POSITIVES About Phillies",
       "voice": "radio_populist",
-      "chars": 1790
+      "chars": 1611
     }
   ],
   "hard_signals": {
@@ -268,5 +264,5 @@
     "streak": "W1",
     "games_behind": "6.0"
   },
-  "generated_at": "2026-09-28T15:42:34.989875+00:00"
+  "generated_at": "2026-09-28T18:07:02.457545+00:00"
 }
