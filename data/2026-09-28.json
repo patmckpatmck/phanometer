@@ -1,0 +1,272 @@
+{
+  "date": "2026-09-28",
+  "display_score": 48,
+  "reactive_score": 48,
+  "baseline_score": 32,
+  "insufficient_signal": false,
+  "content_volume": 328,
+  "mood_label": "Uneasy",
+  "dimensions": {
+    "results_satisfaction": 62,
+    "front_office_trust": 42,
+    "manager_confidence": 35,
+    "lineup_confidence": 45,
+    "pitching_confidence": 58,
+    "health_outlook": 48,
+    "postseason_belief": 32
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 85,
+    "front_office_trust": 38,
+    "manager_confidence": 72,
+    "lineup_confidence": 80,
+    "pitching_confidence": 82,
+    "health_outlook": 65,
+    "postseason_belief": 78
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 55,
+      "note": "Hittin' Season, The Phillies Show, and Phillies Talk all celebrate clinching while cataloguing real structural problems \u2014 fifth-worst position-player WAR, bullpen distrust, Mattingly skepticism, and a pitching plan in disarray; cautious optimism rather than belief."
+    },
+    "beat_writer": {
+      "score": 58,
+      "note": "Phillies Therapy frames the wild-card berth as a relief, praises Wheeler and the Sunday lineup, but is candid about the gargantuan game-one task, roster thinness, and the genuine possibility of a quick exit in Atlanta."
+    },
+    "radio_populist": {
+      "score": 48,
+      "note": "WIP hosts split between wiping the slate clean and calling this team 'remarkably flawed' with bats, bullpen, and 'heart' all named as problems; the dominant emotional register is relief mixed with lingering anger, with at least one host picking the Braves to win."
+    },
+    "youtube_fan": {
+      "score": 30,
+      "note": "Comment sections skew heavily negative \u2014 'frauds,' 'screwed,' 'one and done,' and calls to blow up the roster outnumber celebratory comments; a minority celebrate the berth but the pessimistic tone dominates."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Relief Without Redemption",
+      "delta": 3,
+      "sample": "Clinching on the final day produced an exhale, not a celebration \u2014 the wild-card berth is welcome but nobody is pretending the past month didn't happen or that the team earned it cleanly."
+    },
+    {
+      "name": "Wheeler Saved Everyone",
+      "delta": 7,
+      "sample": "Zack Wheeler's dominant game-162 start is universally credited with rescuing the season, but the cost \u2014 losing him as a game-one starter against the Braves \u2014 looms over every postseason discussion."
+    },
+    {
+      "name": "Pitching Plan in Chaos",
+      "delta": -6,
+      "sample": "With Wheeler unavailable to start, the rotation is a patchwork of Painter, Luzardo, Sanchez, and Nola, and nobody is confident in how Mattingly will piece it together across a three-game series."
+    },
+    {
+      "name": "Offense Still the Core Fear",
+      "delta": -5,
+      "sample": "The fifth-worst position-player production in baseball and a pattern of prolonged offensive shutdowns \u2014 including a 21-inning scoreless streak \u2014 leave fans and analysts deeply skeptical the bats will show up against Chris Sale."
+    },
+    {
+      "name": "Mattingly's Competence Under Fire",
+      "delta": -4,
+      "sample": "Starting Nola on two days rest in game 161, questionable bullpen management all season, and a general inability to coax consistent offense have eroded confidence in the manager heading into October."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They are a remarkably flawed team. The bats and the bullpen and I believe the heart are all problems.",
+      "score": 22,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "This team is nothing but bunch of frauds. I'm so over the Bryce experience.",
+      "score": 10,
+      "source_hint": "YouTube commenters on clinching video"
+    },
+    {
+      "text": "They scared the crap out of us. We thought we were looking at another collapse. But on Sunday, the Stars did it.",
+      "score": 60,
+      "source_hint": "fan analyst (Hittin' Season)"
+    },
+    {
+      "text": "I believe even if I have to grasp for straws that the Phillies can do this, that they can make that happen.",
+      "score": 65,
+      "source_hint": "beat writer (Phillies Therapy)"
+    }
+  ],
+  "vibe_summary": "The Phillies punched their ticket to October, but the celebration comes wrapped in suspicion \u2014 fans know this team barely survived its own collapse and faces the Braves without its ace lined up.",
+  "reasoning": "The clinching win on game 162 produced genuine relief but not genuine optimism. Wheeler's brilliance and the Sunday offensive eruption are credited, yet the structural problems \u2014 historically bad position-player production, a disorganized pitching plan, and a bullpen nobody trusts \u2014 remain loudly present in every conversation. The sharpest divergence is between the podcast voices, which at least entertain a path to winning the series, and the raw fan commentary, which skews toward 'one and done' and open calls to blow the roster up; Mattingly's handling of the pitching staff in the final week is a rare point of near-universal criticism.",
+  "people_mentioned": [
+    "Wheeler",
+    "Luzardo",
+    "Mattingly",
+    "Harper",
+    "Schwarber",
+    "Painter",
+    "Stott",
+    "Sanchez",
+    "Nola",
+    "Turner",
+    "Bohm",
+    "Realmuto",
+    "Duran",
+    "Dombrowski",
+    "Alvarado",
+    "Sosa",
+    "Hill",
+    "Crawford",
+    "Marsh",
+    "Dela Cruz",
+    "Acuna",
+    "Sale",
+    "Nola",
+    "McFarlane",
+    "Long"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 199247,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 25030,
+    "youtube_comments": 29,
+    "youtube_comment_chars": 3115,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "Phillies Clinch Wild Card Berth",
+      "voice": "beat_writer",
+      "chars": 43695
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "The Phillies clinched an NL Wild Card. What's next?",
+      "voice": "fan_analyst",
+      "chars": 35965
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "HEY ATLANTA! After a stressful weekend, Phillies clinch a spot in the postseason",
+      "voice": "fan_analyst",
+      "chars": 55497
+    },
+    {
+      "feed_name": "Hittin' Season",
+      "title": "Phillies Make the Playoffs - Braves Series Preview!",
+      "voice": "fan_analyst",
+      "chars": 64090
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "The Phillies Deserve A Postseason Clean Slate",
+      "voice": "radio_populist",
+      "chars": 11717
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies LIMP Into Playoffs! MIXED Emotions After Wild Weekend | 94WIP",
+      "voice": "radio_populist",
+      "chars": 11523
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Frustrated With The Phillies",
+      "voice": "radio_populist",
+      "chars": 1790
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 92.0,
+      "baseline_games_count": 25,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -5.0,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823412,
+          "date": "2026-09-22",
+          "day_of_week": "Tuesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "W 6-4",
+          "attendance": 37132,
+          "pct_capacity": 86.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823410,
+          "date": "2026-09-23",
+          "day_of_week": "Wednesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-4",
+          "attendance": 37271,
+          "pct_capacity": 86.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823411,
+          "date": "2026-09-24",
+          "day_of_week": "Thursday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-5",
+          "attendance": 37177,
+          "pct_capacity": 86.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823409,
+          "date": "2026-09-25",
+          "day_of_week": "Friday",
+          "opponent": "Tampa Bay Rays",
+          "result": "L 0-2",
+          "attendance": 40133,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823407,
+          "date": "2026-09-26",
+          "day_of_week": "Saturday",
+          "opponent": "Tampa Bay Rays",
+          "result": "L 1-12",
+          "attendance": 43076,
+          "pct_capacity": 100.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823408,
+          "date": "2026-09-27",
+          "day_of_week": "Sunday",
+          "opponent": "Tampa Bay Rays",
+          "result": "W 7-3",
+          "attendance": 42146,
+          "pct_capacity": 98.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "88-74",
+    "streak": "W1",
+    "games_behind": "6.0"
+  },
+  "generated_at": "2026-09-28T15:42:34.989875+00:00"
+}
