@@ -40457,5 +40457,270 @@
       "games_behind": "6.0"
     },
     "generated_at": "2026-09-28T18:07:02.457545+00:00"
+  },
+  {
+    "date": "2026-09-29",
+    "display_score": 48,
+    "reactive_score": 48,
+    "baseline_score": 37,
+    "insufficient_signal": false,
+    "content_volume": 204,
+    "mood_label": "Uneasy",
+    "dimensions": {
+      "results_satisfaction": 58,
+      "front_office_trust": 38,
+      "manager_confidence": 52,
+      "lineup_confidence": 48,
+      "pitching_confidence": 44,
+      "health_outlook": 35,
+      "postseason_belief": 52
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 60,
+      "front_office_trust": 42,
+      "manager_confidence": 55,
+      "lineup_confidence": 72,
+      "pitching_confidence": 85,
+      "health_outlook": 78,
+      "postseason_belief": 70
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 60,
+        "note": "The Philly Show hosts are genuinely encouraged by Luzardo starting Game 1, bullish on familiar Braves matchup, but candid about bullpen depth concerns and a thin roster."
+      },
+      "beat_writer": {
+        "score": 55,
+        "note": "The beat writer (Phillies Therapy / Matt Gelb) frames this as a legitimate but fragile chance \u2014 cautiously optimistic about Luzardo's sweeper vs. Braves, honest that the pitching plan is duct tape and the roster is scraped together."
+      },
+      "radio_populist": {
+        "score": 50,
+        "note": "Talk-radio hosts (WIP Daily / High Hopes) are split between genuine 'sneaky feeling' optimism about upsetting the Braves and frank admissions of distrust in the roster \u2014 relief at making it in dominates over true belief."
+      },
+      "youtube_fan": {
+        "score": 42,
+        "note": "YouTube commenters skew skeptical \u2014 'Braves sweep' predictions and gentle mockery of optimism sit alongside a few hopeful short-series takes."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Luzardo Is the Whole Plan",
+        "delta": 5,
+        "sample": "Excitement is real but fragile: the Game 1 pitching blueprint hinges entirely on how many innings and what quality of sweeper Luzardo can deliver after three weeks off, with Painter and Duran needing to hold the fort behind him."
+      },
+      {
+        "name": "Roster Held Together With Duct Tape",
+        "delta": -5,
+        "sample": "Three catchers on the postseason roster, Ariza in a walking boot, no reliable late-inning pinch hitters, and minor league depth wiped out by injury \u2014 the bench situation is openly described as embarrassing."
+      },
+      {
+        "name": "Low Expectations as a Secret Weapon",
+        "delta": 4,
+        "sample": "A recurring conviction that this team performs best when counted out \u2014 the underdog framing against the Braves, who have all the pressure at home with Chris Sale on the mound, is being treated as a genuine tactical advantage."
+      },
+      {
+        "name": "Sweeper vs. Sale: The Two-Pitch Duel",
+        "delta": 3,
+        "sample": "The matchup reduces to Luzardo's sweeper neutralizing a Braves lineup that has historically struggled against it, versus Sale's fastball-slider combo that has battered Phillies right-handed hitters all season."
+      },
+      {
+        "name": "Relief Mixed With Distrust",
+        "delta": -3,
+        "sample": "The dominant emotional register is relief at simply qualifying \u2014 not confidence \u2014 with multiple voices explicitly stating they do not trust or believe in this team even while rooting hard for them to beat Atlanta."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I do not have any faith in the Phillies. I do not believe in the Phillies. I do not trust the Phillies at all.",
+        "score": 18,
+        "source_hint": "talk-radio host (94WIP)"
+      },
+      {
+        "text": "I just kind of feel like they're going to win this game today, Paul.",
+        "score": 72,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+      },
+      {
+        "text": "You can't kill what's already dead. This team's been down and out so many times this year.",
+        "score": 45,
+        "source_hint": "talk-radio host (94WIP vibe check)"
+      },
+      {
+        "text": "Getting past Chris Sale, if the Phillies can do that, they will win this series.",
+        "score": 68,
+        "source_hint": "beat writer (Phillies Therapy / Matt Gelb)"
+      }
+    ],
+    "vibe_summary": "Game 1 is here, and Phillies fans are riding an uneasy cocktail of genuine belief in Luzardo and quiet dread that one bad inning ends everything.",
+    "reasoning": "The dominant mood on playoff eve is cautious optimism shadowed by structural anxiety. Luzardo's availability and his historic dominance of Braves hitters with the sweeper is the single biggest positive signal, producing real \u2014 not manufactured \u2014 excitement. Against that, the roster's paper-thin depth, the three-catcher absurdity, Ariza's absence, and a bullpen that inspires limited confidence keep scores well below comfortable. The beat writer and fan analyst are measurably more optimistic than the talk-radio voices, who oscillate between 'sneaky feeling' and frank admissions of disbelief; YouTube commenters are the most skeptical, with outright 'Braves sweep' predictions. Postseason belief is scored as genuinely moderate rather than low because expressed conviction that the Phillies can win this specific series \u2014 not just coping framing \u2014 is present across multiple sources.",
+    "people_mentioned": [
+      "Luzardo",
+      "Sale",
+      "Painter",
+      "Mattingly",
+      "Schwarber",
+      "Harper",
+      "Bohm",
+      "Turner",
+      "Sosa",
+      "Duran",
+      "Sanchez",
+      "Wheeler",
+      "Nola",
+      "Realmuto",
+      "Stott",
+      "Acuna",
+      "Hill",
+      "Dela Cruz",
+      "Ariza",
+      "Stubbs",
+      "McFarlane",
+      "Marsh",
+      "Alvarado",
+      "Kemp"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 138030,
+      "youtube_attempted": 2,
+      "youtube_transcribed": 2,
+      "youtube_chars": 10273,
+      "youtube_comments": 6,
+      "youtube_comment_chars": 641,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "2026 NLWC Series Preview",
+        "voice": "beat_writer",
+        "chars": 32132
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "Luzardo vs. Sale: Game 1 NL Wild Card Series Preview",
+        "voice": "fan_analyst",
+        "chars": 27491
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "A Late-Night Phillies Playoff Preview",
+        "voice": "radio_populist",
+        "chars": 31566
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "Phillies Clinch Wild Card Berth",
+        "voice": "beat_writer",
+        "chars": 46841
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Game 1 Phillies-Braves VIBE Check\ud83d\udd25",
+        "voice": "radio_populist",
+        "chars": 781
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "How Do You Feel About The Phillies Heading Into The Playoffs?",
+        "voice": "radio_populist",
+        "chars": 9492
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 92.0,
+        "baseline_games_count": 25,
+        "baseline_avg_pct": 97.0,
+        "delta_pct": -5.0,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823412,
+            "date": "2026-09-22",
+            "day_of_week": "Tuesday",
+            "opponent": "Milwaukee Brewers",
+            "result": "W 6-4",
+            "attendance": 37132,
+            "pct_capacity": 86.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823410,
+            "date": "2026-09-23",
+            "day_of_week": "Wednesday",
+            "opponent": "Milwaukee Brewers",
+            "result": "L 1-4",
+            "attendance": 37271,
+            "pct_capacity": 86.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823411,
+            "date": "2026-09-24",
+            "day_of_week": "Thursday",
+            "opponent": "Milwaukee Brewers",
+            "result": "L 1-5",
+            "attendance": 37177,
+            "pct_capacity": 86.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823409,
+            "date": "2026-09-25",
+            "day_of_week": "Friday",
+            "opponent": "Tampa Bay Rays",
+            "result": "L 0-2",
+            "attendance": 40133,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823407,
+            "date": "2026-09-26",
+            "day_of_week": "Saturday",
+            "opponent": "Tampa Bay Rays",
+            "result": "L 1-12",
+            "attendance": 43076,
+            "pct_capacity": 100.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823408,
+            "date": "2026-09-27",
+            "day_of_week": "Sunday",
+            "opponent": "Tampa Bay Rays",
+            "result": "W 7-3",
+            "attendance": 42146,
+            "pct_capacity": 98.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "88-74",
+      "streak": "W1",
+      "games_behind": "6.0"
+    },
+    "generated_at": "2026-09-29T16:27:24.814342+00:00"
   }
 ]
