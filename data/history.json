@@ -40722,5 +40722,268 @@
       "games_behind": "6.0"
     },
     "generated_at": "2026-09-29T16:27:24.814342+00:00"
+  },
+  {
+    "date": "2026-09-30",
+    "display_score": 30,
+    "reactive_score": 30,
+    "baseline_score": 40,
+    "insufficient_signal": false,
+    "content_volume": 219,
+    "mood_label": "Oh No",
+    "dimensions": {
+      "results_satisfaction": 18,
+      "front_office_trust": 22,
+      "manager_confidence": 48,
+      "lineup_confidence": 32,
+      "pitching_confidence": 38,
+      "health_outlook": 52,
+      "postseason_belief": 20
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 95,
+      "front_office_trust": 88,
+      "manager_confidence": 82,
+      "lineup_confidence": 75,
+      "pitching_confidence": 85,
+      "health_outlook": 45,
+      "postseason_belief": 90
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 22,
+        "note": "Hittin' Season / Phillies Talk hosts are devastated \u2014 cataloguing three straight Game 1 blown leads, a bullpen ERA north of 5.00 in saves opportunities since 2023, and near-zero confidence in getting through Games 2 and 3."
+      },
+      "beat_writer": {
+        "score": 42,
+        "note": "Phillies Therapy (Matt Gelb) recorded before Game 1 and expressed genuine optimism about Luzardo's sweeper and the Braves' weakness vs. lefties \u2014 this preview-mode score skews higher than post-game reality warrants."
+      },
+      "radio_populist": {
+        "score": 16,
+        "note": "WIP's High Hopes and 94WIP hosts are in full blame mode \u2014 Dombrowski excoriated for bullpen construction, Duran called out for two consecutive postseason collapses, the late-September skid identified as self-inflicted."
+      },
+      "youtube_fan": {
+        "score": 20,
+        "note": "YouTube commenters range from gutted ('Red Choketober') to fatalistic ('series is over, standard for this team') with isolated flickers of hope if Sanchez deals in Game 2."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Austin Riley ends it in one swing",
+        "delta": -9,
+        "sample": "A 99 mph fastball left center-cut, Riley deposited it into the seats, and a three-run homer erased a 3-2 lead in the eighth \u2014 the moment fans say they will replay in their minds for years."
+      },
+      {
+        "name": "Bullpen construction indictment reaches a boiling point",
+        "delta": -8,
+        "sample": "All three trade-deadline acquisitions \u2014 Keller, Killian, and Raley \u2014 are off the playoff roster, leaving the team asking a closer to record six outs in a must-win game with shadows creeping across the plate."
+      },
+      {
+        "name": "Luzardo's gutsy five innings goes unrewarded",
+        "delta": 5,
+        "sample": "Coming off the IL after 22 days without a start, Luzardo held Atlanta to one run over five innings \u2014 a performance praised as courageous across every voice \u2014 only for the bullpen to squander it."
+      },
+      {
+        "name": "Final-week self-sabotage comes due",
+        "delta": -7,
+        "sample": "Having used Wheeler on the final day of the regular season, the Phillies were forced into a fragile pitching plan \u2014 a direct consequence of losing control of the division seeding race in September."
+      },
+      {
+        "name": "Trea Turner frustration reaches a peak",
+        "delta": -5,
+        "sample": "With a $300 million contract and a lineup slot at leadoff, Turner's inability to come through in high-leverage spots has become a recurring source of fury, amplified by his failure to extend the seventh-inning rally."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "It felt like the death of an era, losing that game tonight.",
+        "score": 8,
+        "source_hint": "talk-radio host, High Hopes / WIP"
+      },
+      {
+        "text": "Since game three of the 2023 NLCS the Phillies bullpen is now two and seven with a 5.94 ERA in eight save opportunities.",
+        "score": 12,
+        "source_hint": "fan analyst, The Phillies Show"
+      },
+      {
+        "text": "Luzzie was great yesterday. The offense screwing around last week and the bullpen are the problem.",
+        "score": 25,
+        "source_hint": "YouTube commenter on 94WIP clip"
+      },
+      {
+        "text": "Dave Dumbroski because he sucks at building a bullpen. He halfasses this thing every year. It dates back years. It's his blind spot.",
+        "score": 10,
+        "source_hint": "talk-radio host, 94WIP / Joe Giglio"
+      }
+    ],
+    "vibe_summary": "The gut-punch of Austin Riley's eighth-inning homer has left the fanbase heartbroken and furious \u2014 one swing exposed every structural flaw that plagued this team all season, and now elimination looms.",
+    "reasoning": "The dominant emotion across all present content is grief shading into anger, anchored by the Game 1 loss to Atlanta. Luzardo's heroics provided a rare bright spot, but they are completely overshadowed by the bullpen's collapse \u2014 a problem that was identified all season and never adequately addressed. The sharpest divergence is between the pre-game beat writer optimism (recorded before Game 1, genuinely bullish on Luzardo's sweeper and the Braves' lefty splits) and the post-game devastation from the talk-radio and fan analyst voices, who have pivoted to assigning blame: Dombrowski for bullpen negligence, Duran for two consecutive postseason failures, and the roster for a late-September slide that cost them Wheeler in Game 1. Postseason belief is low not because of panic-management coping framing but because the only genuine path discussed \u2014 Sanchez dealing a gem and the offense scoring five-plus runs against Malley \u2014 is acknowledged even by optimists as a narrow window.",
+    "people_mentioned": [
+      "Luzardo",
+      "Duran",
+      "Riley",
+      "Mattingly",
+      "Dombrowski",
+      "Sanchez",
+      "Wheeler",
+      "Turner",
+      "Harper",
+      "Realmuto",
+      "Bohm",
+      "Schwarber",
+      "Painter",
+      "McFarlane",
+      "Hill",
+      "Stott",
+      "Sosa",
+      "Alvarado",
+      "Bolin",
+      "Nola",
+      "Sale",
+      "Gelb"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 129774,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 2,
+      "youtube_chars": 24385,
+      "youtube_comments": 13,
+      "youtube_comment_chars": 2087,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "The Phillies Show",
+        "title": "The Phillies, Jhoan Duran suffer crushing Game 1 NL Wild Card loss",
+        "voice": "fan_analyst",
+        "chars": 36133
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies face elimination after gut-wrenching loss to Braves in Game 1",
+        "voice": "fan_analyst",
+        "chars": 35736
+      },
+      {
+        "feed_name": "High Hopes",
+        "title": "There's Nothing More Painful Than Phillies Playoff Baseball",
+        "voice": "radio_populist",
+        "chars": 27458
+      },
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "2026 NLWC Series Preview",
+        "voice": "beat_writer",
+        "chars": 30447
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "'I Can't Let Duran Off The Hook!' \u2014 Giglio On Phillies Game 1 Blame",
+        "voice": "radio_populist",
+        "chars": 13380
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "'It Was NOT Don Mattingly's FAULT Yesterday' \u2014 DeCamara On WHY Phillies Lost Game 1",
+        "voice": "radio_populist",
+        "chars": 11005
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 92.0,
+        "baseline_games_count": 25,
+        "baseline_avg_pct": 97.0,
+        "delta_pct": -5.0,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823412,
+            "date": "2026-09-22",
+            "day_of_week": "Tuesday",
+            "opponent": "Milwaukee Brewers",
+            "result": "W 6-4",
+            "attendance": 37132,
+            "pct_capacity": 86.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823410,
+            "date": "2026-09-23",
+            "day_of_week": "Wednesday",
+            "opponent": "Milwaukee Brewers",
+            "result": "L 1-4",
+            "attendance": 37271,
+            "pct_capacity": 86.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823411,
+            "date": "2026-09-24",
+            "day_of_week": "Thursday",
+            "opponent": "Milwaukee Brewers",
+            "result": "L 1-5",
+            "attendance": 37177,
+            "pct_capacity": 86.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823409,
+            "date": "2026-09-25",
+            "day_of_week": "Friday",
+            "opponent": "Tampa Bay Rays",
+            "result": "L 0-2",
+            "attendance": 40133,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823407,
+            "date": "2026-09-26",
+            "day_of_week": "Saturday",
+            "opponent": "Tampa Bay Rays",
+            "result": "L 1-12",
+            "attendance": 43076,
+            "pct_capacity": 100.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823408,
+            "date": "2026-09-27",
+            "day_of_week": "Sunday",
+            "opponent": "Tampa Bay Rays",
+            "result": "W 7-3",
+            "attendance": 42146,
+            "pct_capacity": 98.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "88-74",
+      "streak": "W1",
+      "games_behind": "6.0"
+    },
+    "generated_at": "2026-09-30T16:20:48.204131+00:00"
   }
 ]
