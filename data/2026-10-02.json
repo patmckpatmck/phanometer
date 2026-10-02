@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-02",
+  "display_score": 26,
+  "reactive_score": 26,
+  "baseline_score": 37,
+  "insufficient_signal": false,
+  "content_volume": 264,
+  "mood_label": "Not Again",
+  "dimensions": {
+    "results_satisfaction": 8,
+    "front_office_trust": 22,
+    "manager_confidence": 28,
+    "lineup_confidence": 18,
+    "pitching_confidence": 58,
+    "health_outlook": 62,
+    "postseason_belief": 12
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 95,
+    "front_office_trust": 82,
+    "manager_confidence": 78,
+    "lineup_confidence": 90,
+    "pitching_confidence": 85,
+    "health_outlook": 45,
+    "postseason_belief": 70
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 22,
+      "note": "Hittin' Season, the Phillies Show, and Phillies Talk all delivered extended postmortems \u2014 grief over the 6-2 Game 3 loss, fury at roster depth failures, cautious pride in Painter, and a shared sense that this core's window has definitively closed."
+    },
+    "beat_writer": {
+      "score": null,
+      "note": null
+    },
+    "radio_populist": {
+      "score": 14,
+      "note": "WIP High Hopes and 94WIP clips were the most emotionally raw \u2014 branding the Phillies 'unserious,' calling the Nola start decision an all-time managerial failure, and describing Trea Turner's series as one of the most pathetic performances by a Philadelphia athlete in memory."
+    },
+    "youtube_fan": {
+      "score": 16,
+      "note": "YouTube comment section was bleak and resigned \u2014 fans declaring the window closed since the 2023 Arizona collapse, calling contracts 'boat anchors,' and expressing little confidence in Dombrowski to fix anything this offseason."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "The Nola Decision: An All-Time Managerial Blunder",
+      "delta": -8,
+      "sample": "Starting Aaron Nola over Zach Wheeler in a winner-take-all Game 3 \u2014 when Wheeler was available and demonstrated four innings of live stuff \u2014 is being condemned as one of the worst in-game decisions of this era, made worse by Nola lasting only an inning and two-thirds and surrendering a three-run homer on two walks."
+    },
+    {
+      "name": "Trea Turner's Season Is Indefensible",
+      "delta": -7,
+      "sample": "A 1-for-11 Wild Card Series capped a year of abysmal offensive production, and the prevailing fury is not just at Turner's performance but at the organization's refusal to move him out of the leadoff spot despite months of evidence he could not perform there."
+    },
+    {
+      "name": "Roster Depth Is a Systemic Failure",
+      "delta": -6,
+      "sample": "Otto Kemp making the final out, three trade-deadline acquisitions missing the postseason roster, and a bullpen so thin the manager trusted only two relievers in high-leverage spots \u2014 all point to a front office that has consistently failed to build around an aging, expensive core."
+    },
+    {
+      "name": "Andrew Painter: The One Bright Light",
+      "delta": 6,
+      "sample": "After a demotion and a Tommy John recovery, Painter delivered three shutout innings in relief to win Game 2 \u2014 the postseason's lone highlight \u2014 and has emerged as the clearest reason for optimism about what comes next."
+    },
+    {
+      "name": "End of an Era \u2014 Or Just More of the Same?",
+      "delta": -5,
+      "sample": "The dominant post-elimination question is whether this group can ever win a playoff series again: contracts are largely immovable, the core is aging, and the postseason record since 2023 \u2014 losses in four straight series \u2014 has shifted the conversation from 'when' to 'whether.'"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Changes seem not only likely, but overdue for this Phillies team.",
+      "score": 20,
+      "source_hint": "Todd Zielecki quote cited on Hittin' Season (fan analyst)"
+    },
+    {
+      "text": "It doesn't feel like they're serious about winning the World Series.",
+      "score": 10,
+      "source_hint": "talk-radio host, 94WIP"
+    },
+    {
+      "text": "That's what this next forum looks like \u2014 bursts of briseness are still possible, but you're mostly getting just this tepid performance from an oversensitive guy.",
+      "score": 18,
+      "source_hint": "Hittin' Season host on Bryce Harper (fan analyst)"
+    },
+    {
+      "text": "The performance that he put forth this series was one of the most pathetic performances I've ever seen from a Philadelphia athlete.",
+      "score": 5,
+      "source_hint": "talk-radio host on Trea Turner, WIP High Hopes"
+    }
+  ],
+  "vibe_summary": "Elimination has hardened into something colder than grief \u2014 a broad reckoning that this core, locked into aging contracts and structural mediocrity, simply may never be good enough to win when it matters.",
+  "reasoning": "The season is over, and the mood has moved past shock into forensic dismay. The Nola-over-Wheeler Game 3 decision, Trea Turner's historically bad playoff showing, and the revelation that every trade-deadline acquisition missed the postseason roster have fused into a single indictment of both the manager and the front office. The pitching staff \u2014 particularly Painter's emergence and Wheeler's overall body of work \u2014 stands as the one area generating genuine pride, preventing total despair. There is a modest divergence in framing: more analytical coverage contextualizes the organizational depth failures as the root cause, while talk-radio is angrier and more personal, declaring the team 'unserious' and Turner's contract situation a seven-year anchor. Both currents, however, arrive at the same conclusion: without dramatic roster and philosophical changes, the postseason ceiling for this group has already been reached.",
+  "people_mentioned": [
+    "Trea Turner",
+    "Aaron Nola",
+    "Zach Wheeler",
+    "Bryce Harper",
+    "Don Mattingly",
+    "Andrew Painter",
+    "Dave Dombrowski",
+    "Kyle Schwarber",
+    "JT Realmuto",
+    "Bryson Stott",
+    "Alec Bohm",
+    "Brandon Marsh",
+    "Jesus Luzardo",
+    "Aidan Miller",
+    "Kevin Long",
+    "Caleb Cotham",
+    "Otto Kemp",
+    "Garrett Stubbs",
+    "Alex Cora",
+    "Rob Thomson"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 4,
+    "podcast_chars": 182323,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 2330,
+    "youtube_comments": 18,
+    "youtube_comment_chars": 2586,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "Hittin' Season",
+      "title": "The Philadelphia Phillies 2026 Season Ends at the Hands of the Braves",
+      "voice": "fan_analyst",
+      "chars": 57353
+    },
+    {
+      "feed_name": "The Phillies Show",
+      "title": "It's over. Now what do the Phillies do?",
+      "voice": "fan_analyst",
+      "chars": 37240
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies lose to Braves in a disappointing end to a roller-coaster season",
+      "voice": "fan_analyst",
+      "chars": 55792
+    },
+    {
+      "feed_name": "High Hopes",
+      "title": "It Feels Like the End of an Era (But It's Probably Not)",
+      "voice": "radio_populist",
+      "chars": 31938
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "'Phillies Are Not A Serious Team'",
+      "voice": "radio_populist",
+      "chars": 992
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Have A Trea Turner PROBLEM",
+      "voice": "radio_populist",
+      "chars": 684
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Wheeler? Stubbs? Did Not Matter",
+      "voice": "radio_populist",
+      "chars": 654
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 92.0,
+      "baseline_games_count": 25,
+      "baseline_avg_pct": 97.0,
+      "delta_pct": -5.0,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823412,
+          "date": "2026-09-22",
+          "day_of_week": "Tuesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "W 6-4",
+          "attendance": 37132,
+          "pct_capacity": 86.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823410,
+          "date": "2026-09-23",
+          "day_of_week": "Wednesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-4",
+          "attendance": 37271,
+          "pct_capacity": 86.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823411,
+          "date": "2026-09-24",
+          "day_of_week": "Thursday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-5",
+          "attendance": 37177,
+          "pct_capacity": 86.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823409,
+          "date": "2026-09-25",
+          "day_of_week": "Friday",
+          "opponent": "Tampa Bay Rays",
+          "result": "L 0-2",
+          "attendance": 40133,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823407,
+          "date": "2026-09-26",
+          "day_of_week": "Saturday",
+          "opponent": "Tampa Bay Rays",
+          "result": "L 1-12",
+          "attendance": 43076,
+          "pct_capacity": 100.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823408,
+          "date": "2026-09-27",
+          "day_of_week": "Sunday",
+          "opponent": "Tampa Bay Rays",
+          "result": "W 7-3",
+          "attendance": 42146,
+          "pct_capacity": 98.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "88-74",
+    "streak": "W1",
+    "games_behind": "6.0"
+  },
+  "generated_at": "2026-10-02T17:03:56.431502+00:00"
+}
