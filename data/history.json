@@ -41252,5 +41252,274 @@
       "games_behind": "6.0"
     },
     "generated_at": "2026-10-02T17:03:56.431502+00:00"
+  },
+  {
+    "date": "2026-10-03",
+    "display_score": 25,
+    "reactive_score": 25,
+    "baseline_score": 34,
+    "insufficient_signal": false,
+    "content_volume": 322,
+    "mood_label": "Not Again",
+    "dimensions": {
+      "results_satisfaction": 8,
+      "front_office_trust": 22,
+      "manager_confidence": 35,
+      "lineup_confidence": 18,
+      "pitching_confidence": 52,
+      "health_outlook": 58,
+      "postseason_belief": 12
+    },
+    "dimension_confidence": {
+      "results_satisfaction": 95,
+      "front_office_trust": 85,
+      "manager_confidence": 80,
+      "lineup_confidence": 90,
+      "pitching_confidence": 75,
+      "health_outlook": 45,
+      "postseason_belief": 80
+    },
+    "voice_breakdown": {
+      "reddit": {
+        "score": null,
+        "note": null
+      },
+      "fan_analyst": {
+        "score": 20,
+        "note": "Hittin' Season, The Phillies Show, and Phillies Talk all delivered extended postmortems: Trea Turner's collapse, JT RealMuto's offensive decline, a barren farm system, and the sense that this core's best chance may have already passed in 2023."
+      },
+      "beat_writer": {
+        "score": 15,
+        "note": "Phillies Therapy offered the most somber accounting \u2014 citing the franchise's 30th-ranked under-28 WAR, Dombrowski's history of ineffective spending, and a dimmer outlook than any prior exit in this era."
+      },
+      "radio_populist": {
+        "score": 18,
+        "note": "WIP segments declared the window closed with the same core still locked in, questioned Bryce Harper's leadership role, and called the Nola Game 3 start 'organizational malpractice.'"
+      },
+      "youtube_fan": {
+        "score": 14,
+        "note": "Comment sections directed blame at Harper, Nola, Kerkering, and the broader organizational direction, with recurring anxiety that the minor leagues are barren and the spiral is just beginning."
+      },
+      "twitter_fan": {
+        "score": null,
+        "note": null
+      }
+    },
+    "themes": [
+      {
+        "name": "Window Closed, Core Locked In",
+        "delta": -9,
+        "sample": "The most painful realization isn't the wild card exit itself \u2014 it's that the contracts binding this aging core make meaningful roster transformation nearly impossible, leaving fans staring at the same expensive, declining lineup for years to come."
+      },
+      {
+        "name": "Trea Turner: The Unanswerable Question",
+        "delta": -8,
+        "sample": "Turner's catastrophic offensive regression, compounded by defensive decline at shortstop, has become the franchise's defining problem \u2014 universally agreed he must move off short, with no clear answer for where he goes or who replaces him."
+      },
+      {
+        "name": "Dombrowski's Spending Indicted",
+        "delta": -7,
+        "sample": "Every deadline acquisition missed the postseason roster. Dead money, one-year busts, and a farm system ranked last in under-28 WAR have crystallized into a pointed verdict: the money was there, the execution wasn't."
+      },
+      {
+        "name": "Nola Game 3 Start Called Malpractice",
+        "delta": -6,
+        "sample": "Starting Aaron Nola over Zach Wheeler in an elimination game \u2014 with Wheeler available and the Braves owning Nola historically \u2014 drew near-universal condemnation as a decision that surrendered momentum and ended the series before it truly began."
+      },
+      {
+        "name": "Andrew Painter as the One Real Bright Spot",
+        "delta": 5,
+        "sample": "Painter's journey from demotion to playoff hero \u2014 three shutout relief innings to save Game 2 \u2014 stands out as genuinely the only thread fans are pulling on with optimism heading into the offseason."
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The window is closed. But the problem is the window is closed and the same people are still in the house.",
+        "score": 10,
+        "source_hint": "talk-radio host, WIP Daily"
+      },
+      {
+        "text": "That game was lost the second that Nola took the mound.",
+        "score": 12,
+        "source_hint": "talk-radio host, WIP Daily"
+      },
+      {
+        "text": "Phillies 30th in baseball. 2.2 WAR for hitters age 28 and under. That's why you're feeling the way you feel.",
+        "score": 8,
+        "source_hint": "beat writer, Phillies Therapy"
+      },
+      {
+        "text": "Changes seem not only likely, but overdue.",
+        "score": 30,
+        "source_hint": "fan analyst, Hittin' Season (quoting Todd Zielecki)"
+      }
+    ],
+    "vibe_summary": "The postmortem is brutal and unusually clear-eyed: fans and analysts alike are cataloguing not just a wild card exit but the structural rot underneath it \u2014 an aging, locked-in core, a depleted farm, and a front office that hasn't spent its way to anything close to a championship.",
+    "reasoning": "The dominant mood is somber resignation shading into structural alarm. The exit itself has been processed; what's driving today's conversation is the harder question of whether this organization can retool without blowing up a core that is simultaneously too expensive to keep as-is and too contractually entrenched to move. The pitching staff \u2014 particularly Painter's emergence and Wheeler's durability \u2014 earns measured credit, but it cannot carry the weight of a lineup that ranked in the bottom third of baseball in every major offensive category. There is no meaningful divergence between analytical and emotional takes today: the beat writer, fan analysts, and talk-radio voices all land in roughly the same place \u2014 deep skepticism about the front office's ability to fix this, grief that the Arizona 2023 series may have been the real missed window, and no expressed belief that the current core can make a deep October run.",
+    "people_mentioned": [
+      "Trea Turner",
+      "Harper",
+      "Dombrowski",
+      "Nola",
+      "Wheeler",
+      "Painter",
+      "Mattingly",
+      "Schwarber",
+      "RealMuto",
+      "Bohm",
+      "Stott",
+      "Luzardo",
+      "Sanchez",
+      "Marsh",
+      "Crawford",
+      "Miller",
+      "Cora",
+      "Middleton",
+      "Kerkering",
+      "Duran",
+      "Long",
+      "Cotham"
+    ],
+    "source_counts": {
+      "reddit_posts": 0,
+      "reddit_comments": 0,
+      "match_threads": 0,
+      "podcasts_attempted": 4,
+      "podcasts_transcribed": 4,
+      "podcast_chars": 227215,
+      "youtube_attempted": 3,
+      "youtube_transcribed": 3,
+      "youtube_chars": 4546,
+      "youtube_comments": 13,
+      "youtube_comment_chars": 1599,
+      "twitter_posts": 0,
+      "twitter_post_chars": 0
+    },
+    "podcasts_used": [
+      {
+        "feed_name": "Phillies Therapy",
+        "title": "One Day In October",
+        "voice": "beat_writer",
+        "chars": 58266
+      },
+      {
+        "feed_name": "Hittin' Season",
+        "title": "The Philadelphia Phillies 2026 Season Ends at the Hands of the Braves",
+        "voice": "fan_analyst",
+        "chars": 57707
+      },
+      {
+        "feed_name": "The Phillies Show",
+        "title": "It's over. Now what do the Phillies do?",
+        "voice": "fan_analyst",
+        "chars": 55118
+      },
+      {
+        "feed_name": "Phillies Talk",
+        "title": "Phillies lose to Braves in a disappointing end to a roller-coaster season",
+        "voice": "fan_analyst",
+        "chars": 56124
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Bryce Harper Can't Be Best Player Anymore \ud83d\ude32",
+        "voice": "radio_populist",
+        "chars": 1297
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "Phillies Lost When Aaron Nola Took Mound",
+        "voice": "radio_populist",
+        "chars": 1219
+      },
+      {
+        "feed_name": "94WIP",
+        "title": "'Phillies Window Has CLOSED'",
+        "voice": "radio_populist",
+        "chars": 2030
+      }
+    ],
+    "hard_signals": {
+      "attendance": {
+        "status": "ok",
+        "capacity": 42901,
+        "recent_window_days": 14,
+        "baseline_source": "2025 same-calendar-window",
+        "recent_games_count": 6,
+        "recent_avg_pct": 92.0,
+        "baseline_games_count": 24,
+        "baseline_avg_pct": 96.7,
+        "delta_pct": -4.7,
+        "canary_signal": false,
+        "recent_games": [
+          {
+            "game_pk": 823412,
+            "date": "2026-09-22",
+            "day_of_week": "Tuesday",
+            "opponent": "Milwaukee Brewers",
+            "result": "W 6-4",
+            "attendance": 37132,
+            "pct_capacity": 86.6,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823410,
+            "date": "2026-09-23",
+            "day_of_week": "Wednesday",
+            "opponent": "Milwaukee Brewers",
+            "result": "L 1-4",
+            "attendance": 37271,
+            "pct_capacity": 86.9,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823411,
+            "date": "2026-09-24",
+            "day_of_week": "Thursday",
+            "opponent": "Milwaukee Brewers",
+            "result": "L 1-5",
+            "attendance": 37177,
+            "pct_capacity": 86.7,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823409,
+            "date": "2026-09-25",
+            "day_of_week": "Friday",
+            "opponent": "Tampa Bay Rays",
+            "result": "L 0-2",
+            "attendance": 40133,
+            "pct_capacity": 93.5,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823407,
+            "date": "2026-09-26",
+            "day_of_week": "Saturday",
+            "opponent": "Tampa Bay Rays",
+            "result": "L 1-12",
+            "attendance": 43076,
+            "pct_capacity": 100.4,
+            "day_night": "night"
+          },
+          {
+            "game_pk": 823408,
+            "date": "2026-09-27",
+            "day_of_week": "Sunday",
+            "opponent": "Tampa Bay Rays",
+            "result": "W 7-3",
+            "attendance": 42146,
+            "pct_capacity": 98.2,
+            "day_night": "day"
+          }
+        ]
+      }
+    },
+    "team_facts": {
+      "record": "88-74",
+      "streak": "W1",
+      "games_behind": "6.0"
+    },
+    "generated_at": "2026-10-03T14:46:29.450026+00:00"
   }
 ]
