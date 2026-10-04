@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-04",
+  "display_score": 28,
+  "reactive_score": 28,
+  "baseline_score": 31,
+  "insufficient_signal": false,
+  "content_volume": 193,
+  "mood_label": "Not Again",
+  "dimensions": {
+    "results_satisfaction": 18,
+    "front_office_trust": 28,
+    "manager_confidence": 35,
+    "lineup_confidence": 22,
+    "pitching_confidence": 52,
+    "health_outlook": 45,
+    "postseason_belief": 12
+  },
+  "dimension_confidence": {
+    "results_satisfaction": 90,
+    "front_office_trust": 75,
+    "manager_confidence": 72,
+    "lineup_confidence": 88,
+    "pitching_confidence": 70,
+    "health_outlook": 40,
+    "postseason_belief": 80
+  },
+  "voice_breakdown": {
+    "reddit": {
+      "score": null,
+      "note": null
+    },
+    "fan_analyst": {
+      "score": 22,
+      "overall note": "The Phillies Show and Phillies Talk both deliver sober postmortems: the offense ranked in the bottom third of baseball, the bullpen was historically bad, the window is effectively shut, and the core's aging contracts make meaningful change nearly impossible."
+    },
+    "beat_writer": {
+      "score": 48,
+      "note": "Phillies Therapy (recorded before Game 3) captures the emotional whiplash of Game 2 \u2014 Painter's emergence and Bohm's home run as genuine bright spots \u2014 but the episode predates the elimination and reads as cautious optimism rather than confidence."
+    },
+    "radio_populist": {
+      "score": 15,
+      "note": "WIP Daily is unsparing: the Nola start was 'organizational malpractice,' Harper can no longer be the franchise's best player, the window is closed and locked, and the same core is going nowhere."
+    },
+    "youtube_fan": {
+      "score": 16,
+      "note": "YouTube commenters are resigned and bitter \u2014 blaming Harper, Dombrowski, the farm system, and the broader arc of regression since 2022, with several declaring the playoff window fully shut."
+    },
+    "twitter_fan": {
+      "score": null,
+      "note": null
+    }
+  },
+  "themes": [
+    {
+      "name": "Wrong Starter, Wrong Call",
+      "delta": -6,
+      "sample": "Starting Nola over Wheeler in a winner-take-all game \u2014 with Wheeler having already thrown bullpen sessions and confirmed available \u2014 has become the sharpest single-decision criticism of the entire playoff run, described in some quarters as organizational malpractice."
+    },
+    {
+      "name": "Offense as a Structural Disease",
+      "delta": -7,
+      "sample": "Bottom-third rankings in runs scored, on-base percentage, OPS, and RBI for a $325 million payroll; an inability to lay off pitches in 2-0 counts; and nine-plus scoreless innings surrendered to a pitcher who was out of baseball two years ago \u2014 the offensive dysfunction is being treated not as a slump but as a permanent character flaw."
+    },
+    {
+      "name": "Window Closed, Doors Locked",
+      "delta": -8,
+      "sample": "The dominant off-season framing is that the core's combination of age, no-trade clauses, and unmovable contracts leaves the front office with almost no levers to pull \u2014 several voices explicitly invoking the Arizona series as the moment this group's best chance came and went."
+    },
+    {
+      "name": "Painter and the Next Generation",
+      "delta": 5,
+      "sample": "Andrew Painter's three scoreless postseason innings in Game 2 \u2014 relieving for the first time in his professional life \u2014 stands out as the clearest positive signal in an otherwise bleak postmortem, with JT Realmuto calling it 'a career-altering performance.'"
+    },
+    {
+      "name": "Mattingly's Fate and the Cora Question",
+      "delta": -3,
+      "sample": "Players praised Mattingly and he posted a .590 winning percentage after the 9-19 start, but the widespread read is that Dave Dombrowski effectively offered Alex Cora the job before informing the incumbent \u2014 making the interim tag's removal feel more procedural than earned."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "That game was lost the second that Nola took the mound.",
+      "score": 12,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "The window is closed. But the problem is the window is closed and the same people are still in the house.",
+      "score": 10,
+      "source_hint": "talk-radio host (WIP Daily)"
+    },
+    {
+      "text": "I mean, that's a career-altering performance in my opinion. Just the amount of confidence that you can gain from that.",
+      "score": 72,
+      "source_hint": "beat writer (Phillies Therapy), quoting JT Realmuto on Andrew Painter"
+    },
+    {
+      "text": "A major overhaul needs to be made. Something has to change because that's not getting it done for a three hundred twenty five million dollar payroll.",
+      "score": 18,
+      "source_hint": "fan analyst (The Phillies Show)"
+    }
+  ],
+  "vibe_summary": "The grief has curdled into anger: fans are less focused on the loss itself than on the contracts, the aging roster, and the creeping sense that this group will never get a better shot than the one they already wasted.",
+  "reasoning": "The dominant mood is a cold, clear-eyed accounting of structural failure \u2014 bad offense, a leaky bullpen, and a core locked into contracts that make significant roster change nearly impossible. The one meaningful tension is between the beat writer's game-two optimism (recorded before Game 3) and the uniform post-elimination despair everywhere else; Painter's emergence is the lone positive thread. The Nola-over-Wheeler decision has crystallized as the season's defining managerial mistake, while Dombrowski's front-office conduct \u2014 reportedly offering Cora the job before telling Mattingly his fate \u2014 has eroded trust across the board.",
+  "people_mentioned": [
+    "Mattingly",
+    "Nola",
+    "Wheeler",
+    "Harper",
+    "Painter",
+    "Turner",
+    "Dombrowski",
+    "Schwarber",
+    "Bohm",
+    "JT Realmuto",
+    "Cora",
+    "Luzardo",
+    "Sanchez",
+    "Stott",
+    "Miller",
+    "Middleton",
+    "Cotham",
+    "Long"
+  ],
+  "source_counts": {
+    "reddit_posts": 0,
+    "reddit_comments": 0,
+    "match_threads": 0,
+    "podcasts_attempted": 4,
+    "podcasts_transcribed": 3,
+    "podcast_chars": 128804,
+    "youtube_attempted": 3,
+    "youtube_transcribed": 3,
+    "youtube_chars": 4546,
+    "youtube_comments": 15,
+    "youtube_comment_chars": 2222,
+    "twitter_posts": 0,
+    "twitter_post_chars": 0
+  },
+  "podcasts_used": [
+    {
+      "feed_name": "The Phillies Show",
+      "title": "It's over. Now what do the Phillies do?",
+      "voice": "fan_analyst",
+      "chars": 45840
+    },
+    {
+      "feed_name": "Phillies Talk",
+      "title": "Phillies lose to Braves in a disappointing end to a roller-coaster season",
+      "voice": "fan_analyst",
+      "chars": 56061
+    },
+    {
+      "feed_name": "Phillies Therapy",
+      "title": "NLWC Check-In: An Exercise in Legacy",
+      "voice": "beat_writer",
+      "chars": 26903
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Bryce Harper Can't Be Best Player Anymore \ud83d\ude32",
+      "voice": "radio_populist",
+      "chars": 1297
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "Phillies Lost When Aaron Nola Took Mound",
+      "voice": "radio_populist",
+      "chars": 1219
+    },
+    {
+      "feed_name": "94WIP",
+      "title": "'Phillies Window Has CLOSED'",
+      "voice": "radio_populist",
+      "chars": 2030
+    }
+  ],
+  "hard_signals": {
+    "attendance": {
+      "status": "ok",
+      "capacity": 42901,
+      "recent_window_days": 14,
+      "baseline_source": "2025 same-calendar-window",
+      "recent_games_count": 6,
+      "recent_avg_pct": 92.0,
+      "baseline_games_count": 23,
+      "baseline_avg_pct": 96.5,
+      "delta_pct": -4.5,
+      "canary_signal": false,
+      "recent_games": [
+        {
+          "game_pk": 823412,
+          "date": "2026-09-22",
+          "day_of_week": "Tuesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "W 6-4",
+          "attendance": 37132,
+          "pct_capacity": 86.6,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823410,
+          "date": "2026-09-23",
+          "day_of_week": "Wednesday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-4",
+          "attendance": 37271,
+          "pct_capacity": 86.9,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823411,
+          "date": "2026-09-24",
+          "day_of_week": "Thursday",
+          "opponent": "Milwaukee Brewers",
+          "result": "L 1-5",
+          "attendance": 37177,
+          "pct_capacity": 86.7,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823409,
+          "date": "2026-09-25",
+          "day_of_week": "Friday",
+          "opponent": "Tampa Bay Rays",
+          "result": "L 0-2",
+          "attendance": 40133,
+          "pct_capacity": 93.5,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823407,
+          "date": "2026-09-26",
+          "day_of_week": "Saturday",
+          "opponent": "Tampa Bay Rays",
+          "result": "L 1-12",
+          "attendance": 43076,
+          "pct_capacity": 100.4,
+          "day_night": "night"
+        },
+        {
+          "game_pk": 823408,
+          "date": "2026-09-27",
+          "day_of_week": "Sunday",
+          "opponent": "Tampa Bay Rays",
+          "result": "W 7-3",
+          "attendance": 42146,
+          "pct_capacity": 98.2,
+          "day_night": "day"
+        }
+      ]
+    }
+  },
+  "team_facts": {
+    "record": "88-74",
+    "streak": "W1",
+    "games_behind": "6.0"
+  },
+  "generated_at": "2026-10-04T15:14:44.970650+00:00"
+}
