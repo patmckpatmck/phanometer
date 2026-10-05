@@ -1,13 +1,19 @@
+import Link from 'next/link';
 import { readHistory } from '@/lib/data';
-import { Attendance } from '@/components/Attendance';
-import { Dimensions } from '@/components/Dimensions';
+import { BellMeter } from '@/components/BellMeter';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
-import { Hero } from '@/components/Hero';
-import { HomeAskSection } from '@/components/HomeAskSection';
-import { Quotes } from '@/components/Quotes';
-import { Themes } from '@/components/Themes';
-import { Trend } from '@/components/Trend';
+import { SeasonTrend, type SeasonMarker } from '@/components/SeasonTrend';
+import { formatDateShort } from '@/lib/format';
+import { bandFor } from '@/lib/moodBands';
+import type { DailyReport } from '@/lib/types';
+
+// OFFSEASON HOMEPAGE (2026–27 winter).
+// The daily workflow is disabled until next season, so history.json is frozen
+// at the last 2026 reading. This page replaces the daily readout with a
+// season-in-review view. The /day/[date] archive pages are unchanged.
+// To restore the in-season homepage, revert the commit that introduced this
+// file version (git log -- web/app/page.tsx).
 
 const datasetSchema = {
   '@context': 'https://schema.org',
@@ -47,14 +53,57 @@ const datasetSchema = {
   },
 };
 
-function firstSentence(text: string): string {
-  const parts = text.match(/[^.!?]+[.!?]+(\s|$)/g);
-  return (parts?.[0] ?? text).trim();
+type Scored = DailyReport & { display_score: number };
+
+// "April 19" — sentence-case for body copy (formatDateShort is all-caps).
+function formatMonthDay(iso: string): string {
+  return new Date(iso + 'T12:00:00').toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+  });
 }
 
 export default async function Page() {
-  const { history, today } = await readHistory();
-  const previous = history.length >= 2 ? history[history.length - 2] : undefined;
+  const { history, today: finalDay } = await readHistory();
+  const first = history[0];
+  const scored = history.filter((d): d is Scored => d.display_score != null);
+
+  // First occurrence wins on ties, so "season high" is the day it was reached.
+  const high = scored.reduce((a, b) => (b.display_score > a.display_score ? b : a));
+  const low = scored.reduce((a, b) => (b.display_score < a.display_score ? b : a));
+  const final = scored[scored.length - 1];
+  const average = Math.round(
+    scored.reduce((sum, d) => sum + d.display_score, 0) / scored.length,
+  );
+  const avgBand = bandFor(average);
+
+  const markers: SeasonMarker[] = [
+    {
+      date: high.date,
+      score: high.display_score,
+      label: `High · ${high.display_score} · ${formatDateShort(high.date)}`,
+      place: 'above',
+    },
+    {
+      date: low.date,
+      score: low.display_score,
+      label: `Low · ${low.display_score} · ${formatDateShort(low.date)}`,
+      place: 'below',
+    },
+    {
+      date: final.date,
+      score: final.display_score,
+      label: `Final · ${final.display_score}`,
+      place: 'end',
+    },
+  ];
+
+  const stats = [
+    { k: 'Season average', v: average, sub: avgBand.label },
+    { k: 'Season high', v: high.display_score, sub: formatDateShort(high.date) },
+    { k: 'Season low', v: low.display_score, sub: formatDateShort(low.date) },
+    { k: 'Final reading', v: final.display_score, sub: formatDateShort(final.date) },
+  ];
 
   return (
     <div className="page">
@@ -62,66 +111,60 @@ export default async function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }}
       />
-      <h1 className="sr-only">How Philly feels about the Phillies, today.</h1>
-      <Header today={today} />
-      <Hero today={today} />
+      <h1 className="sr-only">How Philly felt about the Phillies in 2026.</h1>
+      <Header
+        today={finalDay}
+        metaLines={['How Philly felt about the Phillies', '2026 season · Final']}
+      />
 
-      <section className="section">
-        <div className="section-head">
-          <span className="section-num">01 · Trend</span>
-          <h2 className="section-title">The last 30 days</h2>
+      <div className="hero">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="hero-wordmark" src="/assets/wordmark.png" alt="" />
+        <BellMeter score={average} />
+        <div className="readout">
+          <div className="score">{average}</div>
+          <div className={`mood mood-${avgBand.slug}`}>{avgBand.label}</div>
+          <div className="readout-delta">2026 season average · {scored.length} daily readings</div>
         </div>
-        <Trend history={history} todayScore={today.display_score} />
+      </div>
+
+      <section className="section offseason-note">
+        <div className="section-head">
+          <span className="section-num">Offseason</span>
+          <h2 className="section-title">That&apos;s the 2026 season</h2>
+        </div>
+        <p className="editor-body">
+          Phan-o-meter took Philly&apos;s temperature every day from {formatMonthDay(first.date)}{' '}
+          to {formatMonthDay(finalDay.date)}. The meter is off
+          for the winter. We&apos;ll be back next season.
+        </p>
       </section>
 
       <section className="section">
         <div className="section-head">
-          <span className="section-num">02 · The vibe</span>
-          <h2 className="section-title">How Philly feels about the Phillies, today</h2>
+          <span className="section-num">01 · The season</span>
+          <h2 className="section-title">The meter, start to finish</h2>
         </div>
-        <p className="editor-body">{today.vibe_summary ?? firstSentence(today.reasoning)}</p>
+        <SeasonTrend history={history} markers={markers} />
+        <dl className="season-stats">
+          {stats.map((s) => (
+            <div key={s.k} className="season-stat">
+              <dt>{s.k}</dt>
+              <dd>
+                <span className="season-stat-v">{s.v}</span>
+                <span className="season-stat-sub">{s.sub}</span>
+              </dd>
+            </div>
+          ))}
+        </dl>
+        <p className="season-archive">
+          Every day is still on the record:{' '}
+          <Link href={`/day/${first.date}`}>opening reading</Link> ·{' '}
+          <Link href={`/day/${finalDay.date}`}>final reading</Link>
+        </p>
       </section>
 
-      <section className="section">
-        <div className="section-head">
-          <span className="section-num">03 · The count</span>
-          <h2 className="section-title">The scoring dimensions</h2>
-        </div>
-        <Dimensions
-          dimensions={today.dimensions}
-          confidence={today.dimension_confidence}
-          previousDimensions={previous?.dimensions}
-        />
-      </section>
-
-      <HomeAskSection />
-
-      <section className="section">
-        <div className="section-head">
-          <span className="section-num">05 · Cheers &amp; groans</span>
-          <h2 className="section-title">What&apos;s working and what&apos;s not</h2>
-        </div>
-        <Themes themes={today.themes} />
-      </section>
-
-      <section className="section">
-        <div className="section-head">
-          <span className="section-num">06 · In the air</span>
-          <h2 className="section-title">Hot takes from fans, journalists, and loudmouths</h2>
-          <div className="section-sub">*As read by Phan-o-meter</div>
-        </div>
-        <Quotes today={today} />
-      </section>
-
-      <section className="section">
-        <div className="section-head">
-          <span className="section-num">07 · At the gate</span>
-          <h2 className="section-title">Attendance</h2>
-        </div>
-        <Attendance att={today.hard_signals?.attendance} />
-      </section>
-
-      <Footer generatedAt={today.generated_at} />
+      <Footer generatedAt={finalDay.generated_at} />
     </div>
   );
 }
