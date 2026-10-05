@@ -7,7 +7,6 @@ import { Dimensions } from '@/components/Dimensions';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
-import { HomeAskSection } from '@/components/HomeAskSection';
 import { Quotes } from '@/components/Quotes';
 import { Themes } from '@/components/Themes';
 import { Trend } from '@/components/Trend';
@@ -182,11 +181,9 @@ export default async function DayPage({ params }: PageProps) {
         />
       </section>
 
-      <HomeAskSection />
-
       <section className="section">
         <div className="section-head">
-          <span className="section-num">05 · Cheers &amp; groans</span>
+          <span className="section-num">04 · Cheers &amp; groans</span>
           <h2 className="section-title">What was working and what was not</h2>
         </div>
         <Themes themes={entry.themes} />
@@ -194,7 +191,7 @@ export default async function DayPage({ params }: PageProps) {
 
       <section className="section">
         <div className="section-head">
-          <span className="section-num">06 · In the air</span>
+          <span className="section-num">05 · In the air</span>
           <h2 className="section-title">Hot takes from fans, journalists, and loudmouths</h2>
           <div className="section-sub">*As read by Phan-o-meter</div>
         </div>
@@ -203,7 +200,7 @@ export default async function DayPage({ params }: PageProps) {
 
       <section className="section">
         <div className="section-head">
-          <span className="section-num">07 · At the gate</span>
+          <span className="section-num">06 · At the gate</span>
           <h2 className="section-title">Attendance</h2>
         </div>
         <Attendance att={entry.hard_signals?.attendance} />
