@@ -25,7 +25,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 const SITE_DESCRIPTION =
-  'How Philly feels about the Phillies, today. A daily fan-mood score from podcasts, Reddit, YouTube, and the MLB Stats API.';
+  'How Philly felt about the Phillies in 2026. A daily fan-mood score from podcasts, Reddit, YouTube, and the MLB Stats API. Back next season.';
 
 const websiteSchema = {
   '@context': 'https://schema.org',
@@ -34,7 +34,7 @@ const websiteSchema = {
   alternateName: 'Phanometer',
   url: 'https://www.phanometer.com',
   description:
-    'How Philly feels about the Phillies, today. A daily fan-mood score from podcasts, Reddit, YouTube, and the MLB Stats API.',
+    'How Philly felt about the Phillies in 2026. A daily fan-mood score from podcasts, Reddit, YouTube, and the MLB Stats API. Back next season.',
   publisher: {
     '@type': 'Organization',
     name: 'Phan-o-meter',

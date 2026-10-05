@@ -15,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {
       url: 'https://www.phanometer.com/',
       lastModified: now,
-      changeFrequency: 'daily',
+      changeFrequency: 'monthly', // offseason; set back to 'daily' when the cron resumes
       priority: 1.0,
     },
     {

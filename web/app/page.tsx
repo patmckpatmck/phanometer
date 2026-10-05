@@ -20,7 +20,7 @@ const datasetSchema = {
   '@type': 'Dataset',
   name: 'Phan-o-meter Phillies Fan Sentiment Dataset',
   description:
-    'Daily fan-mood scores across seven dimensions for the Philadelphia Phillies, derived from podcasts, Reddit, YouTube, and MLB Stats API data. Updated nightly.',
+    'Daily fan-mood scores across seven dimensions for the Philadelphia Phillies, derived from podcasts, Reddit, YouTube, and MLB Stats API data. Updated daily during the season.',
   url: 'https://www.phanometer.com',
   keywords: [
     'Philadelphia Phillies',
@@ -45,7 +45,7 @@ const datasetSchema = {
     '@type': 'Place',
     name: 'Philadelphia, Pennsylvania, United States',
   },
-  temporalCoverage: '2026-04-19/..',
+  temporalCoverage: '2026-04-19/2026-10-04',
   about: {
     '@type': 'SportsTeam',
     name: 'Philadelphia Phillies',

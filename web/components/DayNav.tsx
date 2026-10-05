@@ -14,7 +14,8 @@ interface Props {
  *
  * When the current entry is the latest in history (the day shown on the
  * homepage), the "next" slot links to / labeled "Today →" as a clearer
- * escape hatch back to the live readout.
+ * escape hatch back to the homepage (labeled "Season" during the offseason;
+ * it read "Today" in-season).
  */
 export function DayNav({ history, currentIndex }: Props) {
   const prev = currentIndex > 0 ? history[currentIndex - 1] : null;
@@ -40,7 +41,7 @@ export function DayNav({ history, currentIndex }: Props) {
           </Link>
         ) : isLatest ? (
           <Link href="/">
-            Today
+            Season
             <span aria-hidden="true"> →</span>
           </Link>
         ) : null}
