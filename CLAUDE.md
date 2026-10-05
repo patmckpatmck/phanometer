@@ -12,6 +12,52 @@ chatbot. Architecture and data flow are in `README.md`; this file
 covers conventions, build commands, and gotchas accumulated during the
 project's build.
 
+## Offseason status (2026–27 winter) — read first
+
+The project is in offseason mode as of October 2026. Several things this
+file describes below are **currently switched off or absent from `main`**:
+
+- **Daily pipeline is off.** The `Daily Phan-o-meter` workflow
+  (`.github/workflows/daily.yml`) is disabled in the GitHub Actions UI —
+  not in code. The YAML is unchanged. No scheduled API calls run.
+  `data/history.json` is frozen at the final 2026 reading (2026-10-04).
+- **Ask the Crowd is removed** (PR #40). `web/app/ask/`, `web/api/ask.py`,
+  `web/components/ask/`, `HomeAskSection`, `MastheadAskLink`,
+  `web/lib/ask.ts`, and `web/requirements.txt` are deleted; `vercel.json`
+  only holds a `/ask → /` redirect. Root-level `bot.py` and `bot_core.py`
+  still exist, and `copy-data.mjs` still copies `bot_core.py` into `web/`
+  (harmless). Ask-related CSS remains in `globals.css`, unused.
+- **Homepage is a season-in-review view** (PR #39): full-season chart
+  (`web/components/SeasonTrend.tsx`), season stats, and a back-next-season
+  message. `/day/[date]` archive pages are still live.
+- **Metadata is past-tense** (PR #41): site description, dataset
+  `temporalCoverage`, sitemap homepage `changeFrequency: 'monthly'`, and
+  the DayNav "Season →" label (was "Today →").
+
+### Spring restart checklist
+
+Do these one at a time, in order. Each revert gets its own branch and PR.
+
+1. **Check the runner.** GitHub → Settings → Actions → Runners:
+   `phanometer-mini` should show Idle. If Offline, log in to the Mac Mini
+   (it's a LaunchAgent; needs a GUI session).
+2. **Check API keys and billing** before re-enabling: Anthropic, OpenAI,
+   YouTube, X (the X API was returning HTTP 402 at season end). Secrets
+   must be in both GitHub repo secrets and the `daily.yml` `env:` block.
+3. **Revert the offseason PRs, newest first:** `4d3259a` (#41),
+   `2f0946f` (#40), `f53630c` (#39). Each is a squash commit, so plain
+   `git revert <sha>` works. If `ANTHROPIC_API_KEY` was removed from the
+   Vercel project's env vars, re-add it before the #40 revert deploys,
+   or `/api/ask` will 500.
+4. **Decide how 2027 relates to 2026 data — open question, not decided.**
+   `history.json` will append 2027 days onto 2026. Unresolved: whether the
+   30-day baseline and trend should span the season boundary, whether to
+   archive 2026 separately, and how the bot should treat last season.
+   Ask Pat before changing anything here.
+5. **Re-enable the workflow** in GitHub Actions (⋯ → Enable workflow),
+   then trigger one manual run via `workflow_dispatch` and verify the
+   commit before trusting the schedule.
+
 ## Build and run
 
 ```bash
