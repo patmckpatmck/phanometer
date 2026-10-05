@@ -5,7 +5,14 @@ import { MastheadAskLink } from './MastheadAskLink';
 
 const INSTAGRAM_ENABLED = true;
 
-export function Header({ today }: { today: DailyReport }) {
+export function Header({
+  today,
+  metaLines,
+}: {
+  today: DailyReport;
+  /** Overrides the default tagline + date lines (used by the offseason homepage). */
+  metaLines?: [string, string];
+}) {
   return (
     <header className="topbar">
       <div className="topbar-left">
@@ -14,8 +21,8 @@ export function Header({ today }: { today: DailyReport }) {
           <img className="topbar-mark" src="/assets/wordmark.png" alt="Phanometer" />
         </Link>
         <div className="topbar-meta">
-          <div>How Philly feels about the Phillies, today</div>
-          <div>{formatDate(today.date).toUpperCase()}</div>
+          <div>{metaLines ? metaLines[0] : 'How Philly feels about the Phillies, today'}</div>
+          <div>{metaLines ? metaLines[1].toUpperCase() : formatDate(today.date).toUpperCase()}</div>
         </div>
       </div>
       <div className="topbar-right">
