@@ -35,14 +35,6 @@ const websiteSchema = {
   url: 'https://www.phanometer.com',
   description:
     'How Philly feels about the Phillies, today. A daily fan-mood score from podcasts, Reddit, YouTube, and the MLB Stats API.',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: 'https://www.phanometer.com/ask?q={search_term_string}',
-    },
-    'query-input': 'required name=search_term_string',
-  },
   publisher: {
     '@type': 'Organization',
     name: 'Phan-o-meter',

@@ -19,12 +19,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1.0,
     },
     {
-      url: 'https://www.phanometer.com/ask',
-      lastModified: now,
-      changeFrequency: 'daily',
-      priority: 0.8,
-    },
-    {
       url: 'https://www.phanometer.com/reels/about',
       lastModified: evergreen,
       changeFrequency: 'monthly',

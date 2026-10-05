@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { formatDate } from '@/lib/format';
 import type { DailyReport } from '@/lib/types';
-import { MastheadAskLink } from './MastheadAskLink';
 
 const INSTAGRAM_ENABLED = true;
 
@@ -37,7 +36,6 @@ export function Header({
         ) : (
           '@phanometer'
         )}
-        <MastheadAskLink />
       </div>
     </header>
   );
